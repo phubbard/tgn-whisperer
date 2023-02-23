@@ -1,7 +1,7 @@
 ## Introduction
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
-I had the idea of transcribing the podcast of some friend of mine, 
+I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/)
 
 This repo is the code and some notes for myself and others.
