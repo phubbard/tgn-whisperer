@@ -30,6 +30,8 @@ outputs if interrupted, working pretty well.
 3. Whisper.cpp binary and associated language model
 4. Python + xmltodict for generating output
 
+Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
+
 ### Optional - wordcloud
 
 I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
