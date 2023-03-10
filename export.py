@@ -1,10 +1,18 @@
 import logging
 import json
 import re
+import time
 
+import requests
+from tqdm import tqdm
 import xmltodict
+from bs4 import BeautifulSoup
 
-logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
+# Now that we have tqdm, lets log to a file instead of stdout. Config from
+# https://stackoverflow.com/questions/6386698/how-to-write-to-a-file-using-the-logging-python-module#6386990
+logging.basicConfig(filename='logfile.txt', filemode='a',
+                    level=logging.DEBUG,
+                    format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
 
 
@@ -31,22 +39,58 @@ def desc_to_url(desc: str):
     return groups[0]
 
 
+def get_episode_urls(ep_page: str) -> list:
+    # TODO filter out same-site links
+    if not ep_page:
+        return []
+    log.debug(f'Fetching episode page {ep_page=}')
+    try:
+        r = requests.get(ep_page)
+        if r.status_code != 200:
+            log.error(f'Error {r.status_code} fetching {ep_page=}')
+            return []
+    except:
+        log.error(f'Error pulling episode page {ep_page}')
+        return []
+    try:
+        rc = []
+        log.debug('Parsing URLs from page')
+        soup = BeautifulSoup(r.content, 'html.parser')
+        for link in soup.find_all('a'):
+            rc.append(link.get('href'))
+    except:
+        log.warning(f'Ignoring all errors retrieving {ep_page}')
+
+    log.debug(f'Found {len(rc)} URLs in {ep_page}')
+    return rc
+
+
+def make_slug_html(links, title, url) -> str:
+    # FIXME this is terrible. Jinja2?
+    rc = f'{title}: <a href="{url}">{url}</a> <h3>Links</h3><ol>'
+    for link in links:
+        rc += f'<li><a href="{url}">{url}</a></li>'
+    rc += '</ol>'
+    return rc
+
+
 def filter_list(ep_dict):
     rc_array = []
-    for entry in ep_dict['rss']['channel']['item']:
-        id = title_to_ep_num(entry["itunes:title"])
-        mp3url = entry['enclosure']['@url']
-        url = desc_to_url(entry['description'])
-        slug = entry['itunes:title']  # TODO split off prefix and ep#
-        pubdate = entry['pubDate']
-
-        rc = {}
-        rc['id'] = id
-        rc['url'] = url
-        rc['mp3url'] = mp3url
-        rc['slug'] = slug
-        rc['pubdate'] = pubdate
-        rc_array.append(rc)
+    id = 0
+    for entry in tqdm(ep_dict['rss']['channel']['item']):
+        ep_url = desc_to_url(entry['description'])
+        item = {
+            'id': id,
+            'ep_id': title_to_ep_num(entry["itunes:title"]),
+            'mp3url': entry['enclosure']['@url'],
+            'ep_url': ep_url,
+            'slug': make_slug_html(get_episode_urls(ep_url), entry['itunes:title'], ep_url),
+            'pub_date': entry['pubDate']
+        }
+        rc_array.append(item)
+        id += 1
+        # bit.ly and others have secret rate limits. this slows us down enough. Not sure if less would work.
+        time.sleep(5)
     return rc_array
 
 

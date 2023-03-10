@@ -8,10 +8,12 @@
 mp3files := $(wildcard tgn/*.mp3)
 wavfiles := $(mp3files:mp3=wav)
 txtfiles := $(mp3files:mp3=txt)
+jsonfile:= data.json
+database:= tgn.db
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: rss links mp3s $(wavfiles) $(txtfiles)
+all: rss links mp3s $(wavfiles) $(txtfiles) $(jsonfile) $(database)
 
 # How to run this in parallel? gnu parallel or let Make determine?
 $(wavfiles): %.wav: %.mp3
@@ -21,7 +23,7 @@ $(wavfiles): %.wav: %.mp3
 # Need to strip the file extension though
 $(txtfiles): %.txt: %.wav
 	./main -m models/ggml-base.en.bin -nt -pp -f $< -otxt -of $(basename $<)
-	
+
 rss:
 	# Might be cleaner / more Make-like to split each URL into a separate file. Hmm.
 	wget -N https://feeds.buzzsprout.com/2049759.rss
@@ -34,10 +36,16 @@ mp3s: links
 	# This could also run in parallel.
 	wget -i links -P tgn -nc
 	
-.PHONY: clean	
+$(jsonfile): rss
+	python3 export.py
+
+database: data.json
+	sqlite-utils insert $(database) episodes data.json --pk=id
+
+.PHONY: clean
 clean:
-	-rm *.rss links
+	-rm *.rss links $(database)
 
 .PHONY: distclean
 distclean:
-	-rm $(mp3files) $(wavfiles) $(txtfiles)
+	-rm $(mp3files) $(wavfiles) $(txtfiles) *.rss data.json $(database)
