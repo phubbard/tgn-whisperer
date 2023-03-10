@@ -1,1 +1,6 @@
 xmltodict
+beautifulsoup4
+requests
+tqdm
+
+
