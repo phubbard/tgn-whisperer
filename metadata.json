@@ -1,0 +1,15 @@
+{
+  "databases": {
+    "tgn": {
+      "tables": {
+        "episodes": {
+          "plugins": {
+            "datasette-render-html": {
+              "columns": ["slug"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

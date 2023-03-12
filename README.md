@@ -29,6 +29,8 @@ outputs if interrupted, working pretty well.
 2. ffmpeg to transcode to MP3
 3. Whisper.cpp binary and associated language model
 4. Python + xmltodict for generating output
+5. sqlite-utils to import json->sqlite
+5. datasette + dataset-render-html to serve the data
 
 Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
 

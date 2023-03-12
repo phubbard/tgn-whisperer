@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS episodes  (
-	number INTEGER PRIMARY KEY,
-	slug TEXT NOT NULL,
-	pubdate TEXT NOT NULL,
-	text TEXT
-)

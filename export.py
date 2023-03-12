@@ -31,6 +31,18 @@ def title_to_ep_num(title: str) -> int:
     return int(groups[0])
 
 
+def title_to_fulltext(mp3url: str) -> str:
+    # Given a title, load the fulltext from the corresponding file.
+    # Take the mp3 url, grab the last bits
+    tokens = mp3url.split('/')
+    element = tokens[-1]
+    if element.endswith('mp3'):
+        element = element[:-len('.mp3')] + '.txt'
+        with open(f'tgn/{element}', 'r') as fh:
+            return fh.read()
+    log.error(f'Unable to find mp3 substring in {mp3url=}')
+
+
 def desc_to_url(desc: str):
     groups = url_matcher.search(desc)
     if not groups:
@@ -67,10 +79,10 @@ def get_episode_urls(ep_page: str) -> list:
 
 def make_slug_html(links, title, url) -> str:
     # FIXME this is terrible. Jinja2?
-    rc = f'{title}: <a href="{url}">{url}</a> <h3>Links</h3><ol>'
+    rc = f'<html><title>{title}</title><body><a href="{url}">{url}</a> <h3>Links</h3><ol>'
     for link in links:
-        rc += f'<li><a href="{url}">{url}</a></li>'
-    rc += '</ol>'
+        rc += f'<li><a href="{link}">{link}</a></li>'
+    rc += '</ol></body></html>'
     return rc
 
 
@@ -79,13 +91,15 @@ def filter_list(ep_dict):
     id = 0
     for entry in tqdm(ep_dict['rss']['channel']['item']):
         ep_url = desc_to_url(entry['description'])
+        mp3url = entry['enclosure']['@url']
         item = {
             'id': id,
             'ep_id': title_to_ep_num(entry["itunes:title"]),
-            'mp3url': entry['enclosure']['@url'],
+            'mp3url': mp3url,
             'ep_url': ep_url,
             'slug': make_slug_html(get_episode_urls(ep_url), entry['itunes:title'], ep_url),
-            'pub_date': entry['pubDate']
+            'pub_date': entry['pubDate'],
+            'fulltext': title_to_fulltext(mp3url),
         }
         rc_array.append(item)
         id += 1
