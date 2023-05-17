@@ -4,7 +4,7 @@ import sys
 
 import xmltodict
 
-# Now that we have tqdm, lets log to a file instead of stdout. Config from
+# Log to a file instead of stdout. Config from
 # https://stackoverflow.com/questions/6386698/how-to-write-to-a-file-using-the-logging-python-module#6386990
 logging.basicConfig(filename='logfile.txt', filemode='a',
                     level=logging.DEBUG,
