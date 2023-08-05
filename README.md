@@ -17,8 +17,10 @@ This repo is the code and some notes for myself and others.
 2. Parse it for the episode MP3 files
 3. Convert to 16-bit mono wave files (Whisper's input format)
 4. Call Whisper on each
-5. Export text into some TBD format for sharing - probably HTML either static files
-or maybe a Datasette site to get full text search.
+5. Export text into markdown files
+6. Generate a site with mkdocs
+7. Publish
+8. Profit!
 
 All of these are run and orchestrated by a multi-rule Makefile. Robust, portable, deletes
 outputs if interrupted, working pretty well. 
@@ -29,8 +31,7 @@ outputs if interrupted, working pretty well.
 2. ffmpeg to transcode to MP3
 3. Whisper.cpp binary and associated language model
 4. Python + xmltodict for generating output
-5. sqlite-utils to import json->sqlite
-6. datasette + dataset-render-html to serve the data
+5. mkdocs for site generation
 
 Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
 
@@ -48,7 +49,7 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 # Further work and open questions
 
-1. Finish python and scripting to get the output into a nice Datasette site for sharing.
+1. Finish python and scripting to get the output into a nice site for sharing.
 2. Decide output format for whisper - are timestamps useful? Subtitled video for youtube perhaps?
 3. Maybe a wordcloud per episode?
 4. Add wordcloud as a make target?

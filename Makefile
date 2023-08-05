@@ -10,11 +10,10 @@ wavfiles := $(mp3files:mp3=wav)
 txtfiles := $(mp3files:mp3=txt)
 mdfiles := $(mp3files:mp3=md)
 htmlfiles := $(mp3files:mp3=html)
-htmlfetcher = htmlfetcher.sh
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: rss links mp3s $(wavfiles) $(txtfiles) $(htmlfiles) $(mdfiles)
+all: rss links mp3s $(wavfiles) $(txtfiles) $(htmlfiles) $(mdfiles) site
 
 # How to run this in parallel? gnu parallel or let Make determine?
 $(wavfiles): %.wav: %.mp3
@@ -27,8 +26,9 @@ $(txtfiles): %.txt: %.wav
 
 
 htmlfetcher: rss
-    python3 episode_links.py > $(htmlfetcher)
-    ./$(htmlfetcher)
+	python3 episode_links.py > htmlfetcher.sh
+	chmod 755 htmlfetcher.sh
+	./htmlfetcher.sh
 
 rss:
 	# Might be cleaner / more Make-like to split each URL into a separate file. Hmm.
@@ -42,6 +42,14 @@ links: rss
 mp3s: links
 	# This could also run in parallel.
 	wget -i links -P tgn -nc
+
+mdf: htmlfetcher
+	python3 export.py
+
+site: mdf
+	cp tgn/*.md TheGreyNATO/docs
+	cd TheGreyNATO
+	mkdocs build
 
 .PHONY: clean
 clean:

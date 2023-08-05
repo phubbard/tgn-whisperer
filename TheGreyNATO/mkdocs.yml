@@ -1,6 +1,4 @@
 site_name: The Grey NATO, transcribed
 nav:
   - Home: index.md
-  - Tags: tags.md
-  - Categories: categories.md
-  - Search: search.md
+  - Episodes: episodes.md
