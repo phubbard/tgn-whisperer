@@ -54,15 +54,6 @@ def url_load_fulltext(mp3url: str) -> str:
         return fh.read()
 
 
-def url_load_html(mp3url: str) -> str:
-    filename = url_to_filename(mp3url, suffix='.html')
-    if not filename:
-        log.warning(f'Unable to find mp3 substring in {mp3url=}')
-        return None
-    with open(filename, 'r') as fh:
-        return fh.read()
-
-
 def desc_to_url(desc: str):
     groups = url_matcher.search(desc)
     if not groups:
@@ -71,27 +62,27 @@ def desc_to_url(desc: str):
     return groups[0]
 
 
-def get_episode_urls(ep_page: str) -> list:
+def get_episode_urls(mp3url: str) -> list:
     # Load the page, parse out the URLs. Return a list of URLs.
     # TODO filter out same-site links
-    if not ep_page:
+    html_filename = url_to_filename(mp3url, suffix='.html')
+    if not html_filename:
         return []
-    log.debug(f'Load episode page {ep_page=}')
-    html = url_load_html(ep_page)
-    if not html:
-        log.error(f'Error loading {ep_page=} from {filename}')
-        return []
+    log.debug(f'Load episode page {html_filename}')
     try:
+        fh = open(html_filename, 'r')
+        html = fh.read()
         rc = []
         log.debug('Parsing URLs from page')
         soup = BeautifulSoup(html, 'html.parser')
         for link in soup.find_all('a'):
             # TODO pull out the text between end of link and EOL
             rc.append(link.get('href'))
-    except:
-        log.warning(f'Ignoring all errors parsing {ep_page}')
+    except FileNotFoundError:
+        log.error(f'Unable to find {html_filename}')
+        return []
 
-    log.debug(f'Found {len(rc)} URLs in {ep_page}')
+    log.debug(f'Found {len(rc)} URLs in {html_filename}')
     return rc
 
 
@@ -106,10 +97,9 @@ def top_level_process(ep_dict):
         links = get_episode_urls(mp3url)
         pub_date = entry['pubDate']
         fulltext = url_load_fulltext(mp3url)
-        local_filename = url_to_filename(mp3url, suffix='.md')
-        rc += 1
-        with open(local_filename, 'w') as fh:
-            log.debug(f'Writing {local_filename}')
+        local_mdfile = url_to_filename(mp3url, suffix='.md')
+        with open(local_mdfile, 'w') as fh:
+            log.debug(f'Writing {local_mdfile}')
             data = f'''
             ---
             title: {title}
@@ -125,6 +115,11 @@ def top_level_process(ep_dict):
             else:
                 data += 'No links found.'
             fh.write(data)
+
+            # write out markdown file link into nav section of yaml file
+            with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
+                yindex.write(f'- [Episode {index}]({local_mdfile.name})\n')
+        rc += 1
 
 
 if __name__ == '__main__':

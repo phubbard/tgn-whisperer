@@ -14,5 +14,3 @@ links and show notes.
 [Full source code is on github](https://github.com/phubbard/tgn-whisperer) - unix tools, some python and a Makefile. The 
 key tech is the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp) for speech-to-text.
 
-## Episodes
-
