@@ -2,16 +2,17 @@ import logging
 import json
 import re
 import time
+from pathlib import Path
 
-import requests
-from tqdm import tqdm
 import xmltodict
 from bs4 import BeautifulSoup
 
-# Now that we have tqdm, lets log to a file instead of stdout. Config from
+# Log to a file instead of stdout. Config from
 # https://stackoverflow.com/questions/6386698/how-to-write-to-a-file-using-the-logging-python-module#6386990
-logging.basicConfig(filename='logfile.txt', filemode='a',
-                    level=logging.DEBUG,
+# logging.basicConfig(filename='logfile.txt', filemode='a',
+#                     level=logging.DEBUG,
+#                     format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
+logging.basicConfig(level=logging.DEBUG,
                     format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
 
@@ -31,16 +32,35 @@ def title_to_ep_num(title: str) -> int:
     return int(groups[0])
 
 
-def title_to_fulltext(mp3url: str) -> str:
-    # Given a title, load the fulltext from the corresponding file.
+def url_to_filename(mp3url: str, suffix='.txt') -> Path:
+    # Given an mp3 url, return the corresponding filename.
     # Take the mp3 url, grab the last bits
     tokens = mp3url.split('/')
     element = tokens[-1]
     if element.endswith('mp3'):
-        element = element[:-len('.mp3')] + '.txt'
-        with open(f'tgn/{element}', 'r') as fh:
-            return fh.read()
+        element = element[:-len('.mp3')] + suffix
+        return Path(f'tgn/{element}')
     log.error(f'Unable to find mp3 substring in {mp3url=}')
+
+
+def url_load_fulltext(mp3url: str) -> str:
+    # Given an mp3 url, load the fulltext from the corresponding file.
+    # Take the mp3 url, grab the last bits
+    filename = url_to_filename(mp3url)
+    if not filename:
+        log.error(f'Unable to find mp3 substring in {mp3url=}')
+        return None
+    with open(filename, 'r') as fh:
+        return fh.read()
+
+
+def url_load_html(mp3url: str) -> str:
+    filename = url_to_filename(mp3url, suffix='.html')
+    if not filename:
+        log.warning(f'Unable to find mp3 substring in {mp3url=}')
+        return None
+    with open(filename, 'r') as fh:
+        return fh.read()
 
 
 def desc_to_url(desc: str):
@@ -52,73 +72,66 @@ def desc_to_url(desc: str):
 
 
 def get_episode_urls(ep_page: str) -> list:
+    # Load the page, parse out the URLs. Return a list of URLs.
     # TODO filter out same-site links
     if not ep_page:
         return []
-    log.debug(f'Fetching episode page {ep_page=}')
-    try:
-        r = requests.get(ep_page)
-        if r.status_code != 200:
-            log.error(f'Error {r.status_code} fetching {ep_page=}')
-            return []
-    except:
-        log.error(f'Error pulling episode page {ep_page}')
+    log.debug(f'Load episode page {ep_page=}')
+    html = url_load_html(ep_page)
+    if not html:
+        log.error(f'Error loading {ep_page=} from {filename}')
         return []
     try:
         rc = []
         log.debug('Parsing URLs from page')
-        soup = BeautifulSoup(r.content, 'html.parser')
+        soup = BeautifulSoup(html, 'html.parser')
         for link in soup.find_all('a'):
+            # TODO pull out the text between end of link and EOL
             rc.append(link.get('href'))
     except:
-        log.warning(f'Ignoring all errors retrieving {ep_page}')
+        log.warning(f'Ignoring all errors parsing {ep_page}')
 
     log.debug(f'Found {len(rc)} URLs in {ep_page}')
     return rc
 
 
-def make_slug_html(links, title, url) -> str:
-    # FIXME this is terrible. Jinja2?
-    rc = f'<html><title>{title}</title><body><a href="{url}">{url}</a> <h3>Links</h3><ol>'
-    for link in links:
-        rc += f'<li><a href="{link}">{link}</a></li>'
-    rc += '</ol></body></html>'
-    return rc
-
-
-def filter_list(ep_dict):
-    rc_array = []
-    id = 0
-    for entry in tqdm(ep_dict['rss']['channel']['item']):
+def top_level_process(ep_dict):
+    rc = 0
+    for entry in ep_dict['rss']['channel']['item']:
         ep_url = desc_to_url(entry['description'])
         mp3url = entry['enclosure']['@url']
-        item = {
-            'id': id,
-            'ep_id': title_to_ep_num(entry["itunes:title"]),
-            'mp3url': mp3url,
-            'ep_url': ep_url,
-            'slug': make_slug_html(get_episode_urls(ep_url), entry['itunes:title'], ep_url),
-            'pub_date': entry['pubDate'],
-            'fulltext': title_to_fulltext(mp3url),
-        }
-        rc_array.append(item)
-        id += 1
-        # bit.ly and others have secret rate limits. this slows us down enough. Not sure if less would work.
-        time.sleep(5)
-    return rc_array
+        index = rc
+        ep_id = title_to_ep_num(entry["itunes:title"])
+        title = entry['itunes:title']
+        links = get_episode_urls(mp3url)
+        pub_date = entry['pubDate']
+        fulltext = url_load_fulltext(mp3url)
+        local_filename = url_to_filename(mp3url, suffix='.md')
+        rc += 1
+        with open(local_filename, 'w') as fh:
+            log.debug(f'Writing {local_filename}')
+            data = f'''
+            ---
+            title: {title}
+            date: {pub_date}
+            ---
+            # {title} published {pub_date} index {index}
+            * [Episode page]({ep_url})
+            * [Episode MP3]({mp3url})            
+            '''
+            if links:
+                for link in links:
+                    data += f'* [Link]({link})'
+            else:
+                data += 'No links found.'
+            fh.write(data)
 
 
-def process(filename='2049759.rss'):
+if __name__ == '__main__':
+    filename = '2049759.rss'
     log.info(f'Reading {filename}...')
     fd = open(filename, 'r').read()
     log.info('Parsing')
     data = xmltodict.parse(fd)
     log.info('Processing')
-    out = filter_list(data)
-    output = open('data.json', 'w')
-    log.info('Saving')
-    json.dump(out, output)
-
-
-if __name__ == '__main__':
-    process()
+    top_level_process(data)

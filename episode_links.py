@@ -1,6 +1,15 @@
+#!/usr/bin/env python3
+'''
+Script to partially process the saved RSS XML. For each podcast episode,
+output a curl command that will download and rewrite the episode page.
+Doing it this way lets us use file-based builds (Make, that is) and avoids
+being a bad netizen by hammering the server with requests.
+Once they're saved into html files, we can iterate with BeautifulSoup and mkdocs.
+'''
 import logging
 import re
 import sys
+from pathlib import Path
 
 import xmltodict
 
@@ -27,6 +36,18 @@ def desc_to_url(desc: str):
     return groups[0]
 
 
+
+def url_to_filename(url: str, suffix='.html') -> Path:
+    # Given an episode url, return the corresponding filename.
+    # Take the mp3 url, grab the last bits
+    tokens = url.split('/')
+    if not tokens:
+        log.warning(f'Unable to parse URL {url}')
+        return None
+    element = tokens[-1] + suffix
+    return Path(f'tgn/{element}')
+
+
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         filename = sys.argv[1]
@@ -40,6 +61,11 @@ if __name__ == '__main__':
     log.info('Processing')
     for entry in data['rss']['channel']['item']:
         url = desc_to_url(entry['description'])
-        if url:
-            print(url)
+        if not url:
+            log.warning('Skipping unparseable episode {entry["description"]')
+            continue
+
+        output_filename = url_to_filename(url)
+        if url and output_filename:
+            print(f'wget -O {output_filename} -P tgn -nc --wait=5 --random-wait --convert-links {url}')
 
