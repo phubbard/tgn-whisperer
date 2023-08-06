@@ -1,34 +1,20 @@
-# deps: whisper.cpp, ffmpeg, wget
-# pfh 2/21/2023 learning from https://makefiletutorial.com
-# and https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html
-# Can split the rss into files using
-# cat links | cut -f 5 -d / | xargs touch
+# pfh 8/5/2023, rethinking - now one director per episode, with all files in it. New parent-level make for that.
+
+# This one's jobs are:
+# - Download the RSS feed into a file
+# - Use regex to extract all MP3 links from the RSS feed
+# - For each file:
+# -- mkdir `basename`
+# -- mv mp3 into `basename`
+
 
 # FIXME - this wildcard runs at start, before the DL/parse. Need to re-run post download.
 mp3files := $(wildcard tgn/*.mp3)
-wavfiles := $(mp3files:mp3=wav)
-txtfiles := $(mp3files:mp3=txt)
-mdfiles := $(mp3files:mp3=md)
-htmlfiles := $(mp3files:mp3=html)
+directories += $(basename $(mp3files))
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: rss links mp3s $(wavfiles) $(txtfiles) $(htmlfiles) $(mdfiles) site
-
-# How to run this in parallel? gnu parallel or let Make determine?
-$(wavfiles): %.wav: %.mp3
-	ffmpeg -i $< -ar 16000 -ac 1 -c:a pcm_s16le $@
-	
-# This should be one instance - does its own parallelism
-# Need to strip the file extension though
-$(txtfiles): %.txt: %.wav
-	./main -m models/ggml-base.en.bin -nt -pp -f $< -otxt -of $(basename $<)
-
-
-htmlfetcher: rss
-	python3 episode_links.py > htmlfetcher.sh
-	chmod 755 htmlfetcher.sh
-	./htmlfetcher.sh
+all: rss links
 
 rss:
 	# Might be cleaner / more Make-like to split each URL into a separate file. Hmm.
