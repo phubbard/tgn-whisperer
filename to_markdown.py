@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Script to extract metadata from the episode.json file and create a markdown file and merge
 # the episode.txt file into it. Could be done with jq and shell script, but this is easier much simpler.
-
+# This processes a single episode at a time, so it can be run from a Makefile.
 # TODO: Merge in per-episode links and text parsed from the HTML.
 
 import json
@@ -21,6 +21,7 @@ Published on {episode['pub_date']}
 # Links
 - [Episode page]({episode['episode_url']})
 - [Episode MP3]({episode['mp3_url']})
+- [Episode MP3 - local mirror](episode.mp3)
 
 # Transcript    
 ```

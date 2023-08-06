@@ -81,6 +81,10 @@ def match_missing_numbers(title) -> int:
 
 
 def top_level_process(ep_dict):
+    # Erase old episodes.md
+    ep_page = Path('TheGreyNATO/docs/episodes.md')
+    ep_page.unlink(missing_ok=True)
+
     rc = 0
     for entry in ep_dict['rss']['channel']['item']:
         episode = Episode()
@@ -103,9 +107,9 @@ def top_level_process(ep_dict):
         json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'), indent=4)
 
         # TODO
-        # write out markdown file link into nav section of yaml file
-        # with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
-        #     yindex.write(f'- [Episode {index}]({local_mdfile.name})\n')
+        # append markdown file link into nav page
+        with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
+             yindex.write(f'- [{episode.title}]({episode.directory + "/episode.md"}) {episode.pub_date}\n')
         rc += 1
 
     if rc == len(ep_dict['rss']['channel']['item']):
