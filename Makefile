@@ -5,8 +5,7 @@
 all: rss directories episodes site
 
 rss:
-	# Might be cleaner / more Make-like to split each URL into a separate file. Hmm.
-	wget -N https://feeds.buzzsprout.com/2049759.rss
+	wget --no-use-server-timestamps -N https://feeds.buzzsprout.com/2049759.rss
 
 directories: rss
 	python3 process.py
@@ -19,11 +18,11 @@ episodes: directories
 		cd ..; \
 	done
 
-site: mdf
+site: episodes
 	cd TheGreyNATO
 	mkdocs build
 
 .PHONY: clean
 clean:
-	-rm *.rss links episode_links $(wavfiles) $(txtfiles) $(htmlfiles) $(mdfiles) $(mp3files)
+	-rm *.rss
 

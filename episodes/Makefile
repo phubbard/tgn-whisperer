@@ -1,5 +1,6 @@
 
-all: episode.mp3 episode.wav episode.txt episode.md episode.html deploy
+# FIXME - append deploy once thats fixed
+all: episode.mp3 episode.wav episode.txt episode.md episode.html
 
 episode.mp3: episode.json
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
@@ -18,10 +19,10 @@ episode.md: episode.txt episode.html
 	
 deploy: episode.md episode.mp3
 	# FIXME - see https://www.gnu.org/software/make/manual/html_node/Simple-Assignment.html
-	# FIXME index -> number
-	-mkdir ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .index)
-	cp episode.md ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .index)
-	cp episode.mp3 ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .index)
+	# FIXME - destination directory should be the basename
+	-mkdir ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
+	cp episode.md ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
+	cp episode.mp3 ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
 	
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
