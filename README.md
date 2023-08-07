@@ -38,6 +38,8 @@ Makefiles are tricky to write and debug. I might need [remake](https://remake.re
 
 Another good tutorial (via Lobste.rs) [https://makefiletutorial.com/#top](https://makefiletutorial.com)
 
+Directory [list from StackOverflow](https://stackoverflow.com/questions/13897945/wildcard-to-obtain-list-of-all-directories) ... as one does.
+
 ### Optional - wordcloud
 
 I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
@@ -47,6 +49,7 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 	 cat tgn/*.txt > alltext
 	 wordcloud_cli --text alltext --imagefile wordcloud.png --width 1600 --height 1200
 
+![wordcloud](archive/wordcloud.png "TGN wordcloud")
 
 # Further work and open questions
 
