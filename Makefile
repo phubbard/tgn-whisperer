@@ -15,6 +15,7 @@ directories: rss
 episodes: directories
 	cd episodes
 	for dir in $(dir $(wildcard episodes/*/.)); do \
+  		echo $$ddir; \
 		cd $$dir; \
 		$(MAKE) -f ../Makefile; \
 		cd ../../; \
