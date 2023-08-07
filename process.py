@@ -118,7 +118,7 @@ def top_level_process(ep_dict):
 
         # Append markdown file link into nav page
         with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
-             yindex.write(f'- [{episode.title}]({str(episode.number) + "/episode.md"}) {episode.pub_date}\n')
+             yindex.write(f'- [{episode.title}]({"episodes/" + str(episode.number) + "/episode.md"}) {episode.pub_date}\n')
         rc += 1
 
     if rc == len(ep_dict['rss']['channel']['item']):
