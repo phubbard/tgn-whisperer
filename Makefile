@@ -1,4 +1,6 @@
-# pfh 8/5/2023, rethinking - now one director per episode, with all files in it. New parent-level make for that.
+# pfh 8/5/2023, rethinking - now one directory per episode, with all files in it.
+# New parent-level make for that that iterates over all episode directories and calls
+# the episode-level makefile.
 
 .PHONY: all
 .DELETE_ON_ERROR:
@@ -15,7 +17,7 @@ episodes: directories
 	for dir in $(dir $(wildcard episodes/*/.)); do \
 		cd $$dir; \
 		$(MAKE) -f ../Makefile; \
-		cd ..; \
+		cd ../../; \
 	done
 
 site: episodes

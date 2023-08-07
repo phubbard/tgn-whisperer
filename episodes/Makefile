@@ -1,3 +1,7 @@
+# For each episode, we download the MP3, convert it to wav then run the model on it.
+# Once that's done, we convert the output to markdown and deploy it to the site.
+# Made much simpler by having a JSON config file (fields extracted via jq) and
+# fixed filenames for each step of the process.
 
 # FIXME - append deploy once thats fixed
 all: episode.mp3 episode.wav episode.txt episode.md episode.html
@@ -19,10 +23,8 @@ episode.md: episode.txt episode.html
 	
 deploy: episode.md episode.mp3
 	# FIXME - see https://www.gnu.org/software/make/manual/html_node/Simple-Assignment.html
-	# FIXME - destination directory should be the basename
-	-mkdir ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
-	cp episode.md ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
-	cp episode.mp3 ../../TheGreyNATO/docs/episodes/$(shell cat episode.json | jq .number)
-	
+	cp episode.md $(shell cat episode.json | jq .pub_directory)
+	cp episode.mp3 $(shell cat episode.json | jq .pub_directory)
+
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
