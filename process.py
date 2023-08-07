@@ -33,6 +33,7 @@ class Episode:
     episode_url: str = None
     directory: str = None
     pub_date: str = None
+    pub_directory: str = None
 
 
 def title_to_ep_num(title: str) -> int:
@@ -93,7 +94,8 @@ def top_level_process(ep_dict):
         episode.number = title_to_ep_num(entry['title'])
         episode.title = entry['title']
         episode.pub_date = entry['pubDate']
-        episode.directory = directory_path(episode.mp3_url)
+        episode.directory = directory_path(episode.mp3_url).absolute()
+        episode.pub_directory = Path('TheGreyNATO/docs/episodes', str(episode.number)).absolute()
 
         if not episode.directory.exists():
             log.debug(f'Creating {episode.directory}')
@@ -101,15 +103,22 @@ def top_level_process(ep_dict):
         else:
             log.debug(f'{episode.directory} already exists')
 
-        # Convert to string for serialization
+        if not Path(episode.pub_directory).exists():
+            log.debug(f'Creating {episode.pub_directory}')
+            Path(episode.pub_directory).mkdir(parents=True)
+        else:
+            log.debug(f'{episode.pub_directory} already exists')
+
+        # Path isn't serializable, but posix is
         episode.directory = episode.directory.as_posix()
+        episode.pub_directory = episode.pub_directory.as_posix()
+
         log.debug(f'Saving json to {episode.directory}')
         json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'), indent=4)
 
-        # TODO
-        # append markdown file link into nav page
+        # Append markdown file link into nav page
         with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
-             yindex.write(f'- [{episode.title}]({episode.directory + "/episode.md"}) {episode.pub_date}\n')
+             yindex.write(f'- [{episode.title}]({str(episode.number) + "/episode.md"}) {episode.pub_date}\n')
         rc += 1
 
     if rc == len(ep_dict['rss']['channel']['item']):
