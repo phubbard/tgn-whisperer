@@ -18,13 +18,15 @@ number: {episode['number']}
 # {episode['title']}
 Published on {episode['pub_date']}
 
+{episode['subtitle']}
+
 # Links
 - [Episode page]({episode['episode_url']})
 - [Episode MP3]({episode['mp3_url']})
 - [Episode MP3 - local mirror](episode.mp3)
 
 # Transcript    
-```
+```Text
 {open('episode.txt', 'r').read()}
 ```
 '''
