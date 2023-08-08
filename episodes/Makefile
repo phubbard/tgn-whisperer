@@ -25,8 +25,7 @@ episode.md: episode.txt
 	
 deploy: episode.md episode.mp3
 	# FIXME - see https://www.gnu.org/software/make/manual/html_node/Simple-Assignment.html
-	cp episode.md $(shell cat episode.json | jq .pub_directory)
-	cp episode.mp3 $(shell cat episode.json | jq .pub_directory)
+	cp episode.md episode.mp3 $(shell cat episode.json | jq .pub_directory)
 
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html

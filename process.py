@@ -29,6 +29,7 @@ url_matcher = re.compile(url_rs)
 class Episode:
     number: int = 0
     title: str = None
+    subtitle: str = None
     mp3_url: str = None
     episode_url: str = None
     directory: str = None
@@ -36,66 +37,40 @@ class Episode:
     pub_directory: str = None
 
 
-def title_to_ep_num(title: str) -> int:
-    # Episode number is in the title, format like "Episode 123 : Title"
-    groups = title_matcher.search(title)
-    if not groups:
-        log.info(f'Unable to parse episode ID from title {title}')
-        return match_missing_numbers(title)
-    return int(groups[0])
+def episode_number(entry, index_notfound) -> tuple:
+    try:
+        number = entry['itunes:episode']
+        return number, index_notfound
+    except KeyError:
+        log.warning(f'No episode number found for {entry["title"]}, trying regex...')
+        groups = title_matcher.search(entry['title'])
+        if not groups:
+            log.info(f'Unable to parse episode ID from title {entry["title"]}, using {index_notfound}')
 
-
-def desc_to_url(desc: str):
-    # Episode URL is in the episode description
-    groups = url_matcher.search(desc)
-    if not groups:
-        log.warning(f'Unable to parse URL from description {desc}')
-        return 'https://thegreynato.com/'
-    return groups[0]
-
-
-def directory_path(mp3_url: str) -> Path:
-    # Given an mp3 url, return the corresponding directory within the episodes/ directory.
-    # Take the mp3 url, grab the last bits
-    tokens = mp3_url.split('/')
-    element = tokens[-1]
-    if element.endswith('mp3'):
-        element = element[:-len('.mp3')]
-        return Path(f'episodes/{element}')
-    raise ValueError(f'Unable to find mp3 substring in {mp3_url=}')
-
-
-def match_missing_numbers(title) -> int:
-    # There's a half-dozen of malformed episode titles; this is a workaround. There's no gap in the episode numbers,
-    # so I chose to do this. Currently at episode 256, so this should work for a decade or so.
-    eps = {
-        'TGN Chats - Chase Fancher :: Oak & Oscar': 2000,
-        'TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)': 2001,
-        'Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology': 2002,
-        'The Grey NATO – A Week Off (And A Request!)': 2003,
-        'Depth Charge - The Original Soundtrack by Oran Chan': 2004,
-    }
-    if title in eps.keys():
-        return eps[title]
-    log.error(f'Unable to find missing-number episode in list! {title=}')
-    return 0
+            return index_notfound, index_notfound + 1
+        log.info(f'Found episode ID {groups[0]} from title')
+        return int(groups[0]), index_notfound
 
 
 def top_level_process(ep_dict):
     # Erase old episodes.md
-    ep_page = Path('TheGreyNATO/docs/episodes.md')
+    mkdocs_dir = '40and20/docs'
+    ep_page = Path(mkdocs_dir, 'episodes.md')
+
     ep_page.unlink(missing_ok=True)
 
     rc = 0
+    index_notfound = 2000
     for entry in ep_dict['rss']['channel']['item']:
         episode = Episode()
-        episode.episode_url = desc_to_url(entry['description'])
+        episode.episode_url = entry['link']
         episode.mp3_url = entry['enclosure']['@url']
-        episode.number = title_to_ep_num(entry['title'])
         episode.title = entry['title']
+        episode.subtitle = entry['itunes:subtitle']
         episode.pub_date = entry['pubDate']
-        episode.directory = directory_path(episode.mp3_url).absolute()
-        episode.pub_directory = Path('TheGreyNATO/docs/episodes', str(episode.number)).absolute()
+        episode.directory = Path('40and20episodes', str(episode.number)).absolute()
+        episode.pub_directory = Path(mkdocs_dir, 'episodes', str(episode.number)).absolute()
+        episode.number, index_notfound = episode_number(entry, index_notfound)
 
         if not episode.directory.exists():
             log.debug(f'Creating {episode.directory}')
@@ -117,7 +92,7 @@ def top_level_process(ep_dict):
         json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'), indent=4)
 
         # Append markdown file link into nav page
-        with open('TheGreyNATO/docs/episodes.md', 'a') as yindex:
+        with open(ep_page, 'a') as yindex:
              yindex.write(f'- [{episode.title}]({"episodes/" + str(episode.number) + "/episode.md"}) {episode.pub_date}\n')
         rc += 1
 
@@ -128,7 +103,7 @@ def top_level_process(ep_dict):
 
 
 if __name__ == '__main__':
-    filename = '2049759.rss'
+    filename = 'feed.xml'
     log.info(f'Reading {filename}...')
     fd = open(filename, 'r').read()
     log.info('Parsing')
