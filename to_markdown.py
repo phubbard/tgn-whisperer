@@ -24,7 +24,7 @@ Published on {episode['pub_date']}
 - [Episode MP3 - local mirror](episode.mp3)
 
 # Transcript    
-```
+```Text
 {open('episode.txt', 'r').read()}
 ```
 '''

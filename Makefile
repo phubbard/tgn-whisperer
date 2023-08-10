@@ -22,7 +22,7 @@ episodes: directories
 	done
 
 site: episodes
-	cd TheGreyNATO
+	cd TheGreyNATO; \
 	mkdocs build
 
 .PHONY: clean
