@@ -4,7 +4,7 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: rss directories episodes site
+all: rss directories episodes site deploy
 
 rss:
 	wget --no-use-server-timestamps -N https://feeds.buzzsprout.com/2049759.rss
@@ -12,7 +12,7 @@ rss:
 directories: rss
 	python3 process.py
 
-episodes: directories
+episodes:
 	cd episodes
 	for dir in $(dir $(wildcard episodes/*/.)); do \
   		echo $$ddir; \
@@ -21,9 +21,13 @@ episodes: directories
 		cd ../../; \
 	done
 
-site: episodes
+site: 
 	cd TheGreyNATO; \
 	mkdocs build
+	
+deploy: 
+	cd TheGreyNATO; \
+	scp -r * usul:html/tgn
 
 .PHONY: clean
 clean:
