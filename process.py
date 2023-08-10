@@ -46,7 +46,6 @@ def episode_number(entry, index_notfound) -> tuple:
         groups = title_matcher.search(entry['title'])
         if not groups:
             log.info(f'Unable to parse episode ID from title {entry["title"]}, using {index_notfound}')
-
             return index_notfound, index_notfound + 1
         log.info(f'Found episode ID {groups[0]} from title')
         return int(groups[0]), index_notfound
@@ -67,10 +66,10 @@ def top_level_process(ep_dict):
         episode.mp3_url = entry['enclosure']['@url']
         episode.title = entry['title']
         episode.subtitle = entry['itunes:subtitle']
+        episode.number, index_notfound = episode_number(entry, index_notfound)
         episode.pub_date = entry['pubDate']
         episode.directory = Path('40and20episodes', str(episode.number)).absolute()
         episode.pub_directory = Path(mkdocs_dir, 'episodes', str(episode.number)).absolute()
-        episode.number, index_notfound = episode_number(entry, index_notfound)
 
         if not episode.directory.exists():
             log.debug(f'Creating {episode.directory}')
