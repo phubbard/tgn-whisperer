@@ -26,7 +26,7 @@ site:
 	mkdocs build
 	
 deploy: 
-	cd TheGreyNATO; \
+	cd TheGreyNATO/site; \
 	scp -r * usul:html/tgn
 
 .PHONY: clean
