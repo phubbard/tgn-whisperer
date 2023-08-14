@@ -9,12 +9,6 @@ import json
 if __name__ == '__main__':
     episode = json.load(open('episode.json', 'r'))
     md_string = f'''
----
-title: {episode['title']}
-date: {episode['pub_date']}
-number: {episode['number']}
----
-
 # {episode['title']}
 Published on {episode['pub_date']}
 
@@ -23,6 +17,8 @@ Published on {episode['pub_date']}
 # Links
 - [Episode page]({episode['episode_url']})
 - [Episode MP3]({episode['mp3_url']})
+- [Episode text](episode.txt)
+- [Episode webpage snapshot](episode.html)
 - [Episode MP3 - local mirror](episode.mp3)
 
 # Transcript    
