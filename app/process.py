@@ -1,33 +1,36 @@
 from dataclasses import asdict
-import logging
 import json
+import logging
 from pathlib import Path
 import sys
 
 import requests
 import xmltodict
 
-from config import podcasts
-from podcast_parsing import episode_number, episode_url, Episode
+from app import Episode, Podcast
+from podcast_parsing import episode_number, episode_url
+
 
 logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
 
+tgn = Podcast('tgn', 254, 'https://feeds.buzzsprout.com/2049759.rss')
+wcl = Podcast('wcl', 254, 'https://feed.podbean.com/the40and20podcast/feed.xml')
+# Iterable to loop over
+podcasts = [tgn, wcl]
+
 
 def unwrap_bitly(url: str) -> str:
-    lookup_map = {
-
-    }
     # Early TGN used bit.ly, which is fucking horrid. Let's get rid of them.
-    rc = url.tolower().find('bit.ly')
+    rc = url.lower().find('bit.ly')
     if rc < 0:
-        return str
+        return url
     # Do we know it?
-    if str in lookup_map.keys():
-        return lookup_map[str]
-    # TODO
-    print(str)
-    return str
+    lookup_map = json.load(open('./app/bitly.json', 'r'))
+    if url in lookup_map.keys():
+        return lookup_map[url]
+    log.warning(f"{url=} not found in bitly.json! Re-run unwrap-bitly with this URL.")
+    return url
 
 
 def process_all_podcasts():
@@ -52,13 +55,15 @@ def process_all_podcasts():
         log.debug('Parsing XML')
         entries = xmltodict.parse(rc.text)
         ep_count = len(entries['rss']['channel']['item'])
-        log.info(f"Found {ep_count} episodes in {podcast}")
-        for entry in entries:
+        log.info(f"Found {ep_count} episodes in {podcast.name}")
+        for entry in entries['rss']['channel']['item']:
             episode = Episode()
             episode.number, index_notfound = episode_number(entry, index_notfound)
             if episode.number in seen_episodes:
-                log.error(f"FATAL: Duplicate episode number {episode.number} in {podcast}, stopping")
-                sys.exit(1)
+                # TGN 206 was re-uploaded. FML.
+                log.warning(f"Ignoring duplicate {episode.number} in {podcast.name}")
+                # log.error(f"FATAL: Duplicate episode number {episode.number} in {podcast}, stopping")
+                continue
             seen_episodes.add(episode.number)
             episode.episode_url = unwrap_bitly(episode_url(entry))
             if 'subtitle' in entry:
