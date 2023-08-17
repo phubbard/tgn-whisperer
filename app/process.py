@@ -14,6 +14,22 @@ logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(leve
 log = logging.getLogger()
 
 
+def unwrap_bitly(url: str) -> str:
+    lookup_map = {
+
+    }
+    # Early TGN used bit.ly, which is fucking horrid. Let's get rid of them.
+    rc = url.tolower().find('bit.ly')
+    if rc < 0:
+        return str
+    # Do we know it?
+    if str in lookup_map.keys():
+        return lookup_map[str]
+    # TODO
+    print(str)
+    return str
+
+
 def process_all_podcasts():
     for podcast in podcasts:
         count = 0
@@ -44,7 +60,7 @@ def process_all_podcasts():
                 log.error(f"FATAL: Duplicate episode number {episode.number} in {podcast}, stopping")
                 sys.exit(1)
             seen_episodes.add(episode.number)
-            episode.episode_url = episode_url(entry)
+            episode.episode_url = unwrap_bitly(episode_url(entry))
             if 'subtitle' in entry:
                 episode.subtitle = entry['subtitle']
             else:
