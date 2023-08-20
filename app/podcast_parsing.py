@@ -57,6 +57,7 @@ def episode_url(entry, default_url='https://thegreynato.com/'):
 def match_missing_numbers(title) -> int:
     # There's a half-dozen of malformed episode titles; this is a workaround. There's no gap in the episode numbers,
     # so I chose to do this. Currently at episode 256, so this should work for a decade or so.
+    # TODO - move this into an exceptions.json like the bitly workaround.
     eps = {
         'TGN Chats - Chase Fancher :: Oak & Oscar': 2000,
         'TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)': 2001,

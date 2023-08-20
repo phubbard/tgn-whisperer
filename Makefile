@@ -4,27 +4,27 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: rss directories episodes site
+all: directories episodes site
 
-rss:
-	wget --no-use-server-timestamps -N https://feed.podbean.com/the40and20podcast/feed.xml
-
-directories: rss
-	python3 process.py
+directories: 
+	python3 app/process.py
 
 episodes: directories
-	for dir in $(dir $(wildcard 40and20episodes/*/.)); do \
+	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
   		echo $$ddir; \
 		cd $$dir; \
-		$(MAKE) -f ../Makefile; \
+		$(MAKE) -f ../../Makefile; \
 		cd ../../; \
 	done
 
 site: episodes
-	cd 40and20; \
-	mkdocs build
+	for dir in $(dir $(wildcard podcasts/*)); do \
+		cd $$dir/site; \
+		mkdocs build; \
+		cd ../../; \
+	done	
 
 .PHONY: clean
 clean:
-	-rm *.rss
+	-rm -rf podcasts/*/episodes/*
 
