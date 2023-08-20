@@ -53,8 +53,7 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 # Further work and open questions
 
-1. Finish python and scripting to get the output into a nice site for sharing.
-2. Decide output format for whisper - are timestamps useful? Subtitled video for youtube perhaps?
-3. Maybe a wordcloud per episode?
-4. Add wordcloud as a make target?
-5. Compute basic text metrics to share? Words, bytes, ?
+2. Refactoring code for automation: multiple podcasts, cleaner code / data file filesystem, re-think separate of site and source dirs.
+3. Refactor to_markdown to handle more cases (unified across podcasts)
+4. Add model to git, ignore *.mp3 / *.wav
+3. Decide output format for whisper - are timestamps useful? Subtitled video for youtube perhaps?

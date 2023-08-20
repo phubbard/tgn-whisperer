@@ -1,8 +1,5 @@
-/TheGreyNATO/site/
-/TheGreyNATO/docs
 .idea
 /*.rss
-tgn
 venv
 episode.wav
 episode.html
