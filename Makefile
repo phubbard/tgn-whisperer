@@ -11,10 +11,10 @@ directories:
 
 episodes: directories
 	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
-  		echo $$ddir; \
+  		echo $$dir; \
 		cd $$dir; \
-		$(MAKE) -f ../../Makefile; \
-		cd ../../; \
+		$(MAKE) -f ../../../episode_makefile; \
+		cd ../../../; \
 	done
 
 site: episodes
