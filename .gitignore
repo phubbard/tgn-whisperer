@@ -7,3 +7,5 @@ episode.mp3
 episode.txt
 episode.md
 
+.DS_Store
+__pycache__

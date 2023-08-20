@@ -40,6 +40,17 @@ Another good tutorial (via Lobste.rs) [https://makefiletutorial.com/#top](https:
 
 Directory [list from StackOverflow](https://stackoverflow.com/questions/13897945/wildcard-to-obtain-list-of-all-directories) ... as one does.
 
+### The curse of URL shorteners and bit.ly in particular
+
+For a while, the TGN podcast shared episode URLs with bit.ly. There are good reasons for this, but now when I want to 
+sequentially retrieve pages, the bit.ly throws rate limits and I see no reason to risk errors for readers. So I've 
+built a manual process:
+
+- Grep the RSS file for bit.ly URLs
+- Save same into a text file called bitly
+- Run the unwrap-bitly.py script to build a json dictionary that resolves them
+- The process.py will use the lookup dictionary and save the canonical URLs.
+
 ### Optional - wordcloud
 
 I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
