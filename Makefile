@@ -4,12 +4,12 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: directories episodes site
+all: directories episodes site deploy
 
 directories: 
 	python3 app/process.py
 
-episodes:
+episodes: directories
 	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
   		echo $$dir; \
 		cd $$dir; \
@@ -24,6 +24,12 @@ site:
 		mkdocs build; \
 		cd ../../; \
 	done	
+
+deploy:
+	cd sites/tgn/site; \
+	scp -r * usul:html/tgn; \
+	cd ../../wcl/site; \
+	scp -r * usul:html/wcl; \
 
 .PHONY: clean
 clean:
