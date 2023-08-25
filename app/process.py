@@ -26,6 +26,7 @@ class Episode:
     episode_url: str = None
     directory: str = None
     pub_date: str = None
+    site_directory: str = None
     links: list[EpisodeLink] = None
 
 
@@ -62,19 +63,20 @@ def episode_number(entry, index_notfound) -> tuple:
         number = entry['itunes:episode']
         return number, index_notfound
 
-    log.debug(f'No episode number found for {entry["title"]}, trying regex...')
+    log.debug(f'Unable to parse episode ID from title {entry["title"]}, trying TGN special list')
+    rc = match_missing_numbers(entry['title'])
+    if rc:
+        log.info(f"Found in TGN exception list {rc=}")
+        return rc, index_notfound
+
+    log.debug(f'No exception number found for {entry["title"]}, trying regex...')
     groups = title_matcher.search(entry['title'])
     if groups:
         log.debug(f'Found episode ID {groups[0]} from title')
         return int(groups[0]), index_notfound
 
-    log.debug(f'Unable to parse episode ID from title {entry["title"]}, trying TGN special list')
-    rc = match_missing_numbers(entry['title'])
-    if not rc:
-        log.warning(f'Unable to determine number, using notfound index {index_notfound}')
-        return index_notfound, index_notfound + 1
-    log.info(f"Found in TGN exception list {rc=}")
-    return rc, index_notfound
+    log.warning(f'Unable to determine number, using notfound index {index_notfound} for {entry["title"]}')
+    return index_notfound, index_notfound + 1
 
 
 def episode_url(entry, default_url='https://thegreynato.com/'):
@@ -86,7 +88,7 @@ def episode_url(entry, default_url='https://thegreynato.com/'):
     if groups:
         log.debug(f'Found {groups[0]}')
         return groups[0]
-    log.warning(f'No episode URL found, returning {default_url=}')
+    log.warning(f'No episode URL found, returning {default_url=} for {entry["title"]}')
     return default_url
 
 
@@ -100,11 +102,13 @@ def match_missing_numbers(title) -> int:
         'Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology': 2002,
         'The Grey NATO – A Week Off (And A Request!)': 2003,
         'Depth Charge - The Original Soundtrack by Oran Chan': 2004,
+        'The Grey Nato - Question & Answer #1': 2005,
     }
     if title in eps.keys():
         return eps[title]
-    log.error(f'Unable to find missing-number episode in list! {title=}')
+    log.debug(f'Unable to find missing-number episode in list! {title=}')
     return None
+
 
 def unwrap_bitly(url: str) -> str:
     # Early TGN used bit.ly, which is fucking horrid. Let's get rid of them.
@@ -128,10 +132,9 @@ def process_all_podcasts():
 
         log.info(f'Processing {podcast}')
         basedir = Path('podcasts', podcast.name)
-        mkdocs_mainpage = Path(basedir, 'episodes.md')
+        mkdocs_mainpage = Path('sites', podcast.name, 'docs', 'episodes.md')
         log.info(f'Removing {mkdocs_mainpage}')
         mkdocs_mainpage.unlink(missing_ok=True)
-        mkdocs_mainpage.write_text(f"### Page updated {datetime.now().astimezone().isoformat()}\n")
 
         log.info(f'Fetching RSS feed {podcast.rss_url}')
         rc = requests.get(podcast.rss_url)
@@ -142,6 +145,7 @@ def process_all_podcasts():
         log.debug('Parsing XML')
         entries = xmltodict.parse(rc.text)
         ep_count = len(entries['rss']['channel']['item'])
+        mkdocs_mainpage.write_text(f"### Page updated {datetime.now().astimezone().isoformat()} - {ep_count} episodes\n")
         log.info(f"Found {ep_count} episodes in {podcast.name}")
         for entry in entries['rss']['channel']['item']:
             episode = Episode()
@@ -168,12 +172,20 @@ def process_all_podcasts():
                 episode.directory.mkdir(parents=True)
             # Rewrite as POSIX path, as basic paths can't serialize to JSON
             episode.directory = episode.directory.as_posix()
+
+            # mkdocs director¥ for this episode - sites/tgn/docs/40 for example
+            episode.site_directory = Path('sites', podcast.name, 'docs', str(episode.number)).absolute()
+            if not episode.site_directory.exists():
+                log.debug(f"Creating site directory {episode.site_directory}")
+                episode.site_directory.mkdir(parents=True)
+            episode.site_directory = episode.site_directory.as_posix()
+
             log.debug(f'Saving json to {episode.directory}')
             json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'))
 
             # Add this episode to the episode markdown page
             with open(mkdocs_mainpage, 'a') as ep_index:
-                ep_index.write(f"- [{episode.title}](../{str(episode.number)}/episode.md) {episode.pub_date}\n")
+                ep_index.write(f"- [{episode.title}]({str(episode.number)}/episode.md) {episode.pub_date}\n")
             count += 1
         # Done with this podcast - check episode count
         if count == ep_count:

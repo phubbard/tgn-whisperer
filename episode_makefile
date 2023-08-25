@@ -3,7 +3,6 @@
 # Made much simpler by having a JSON config file (fields extracted via jq) and
 # fixed filenames for each step of the process.
 
-# FIXME - append deploy once thats fixed
 all: episode.mp3 episode.wav episode.txt episode.md episode.html deploy
 
 episode.mp3:
@@ -21,9 +20,8 @@ episode.html:
 episode.md: episode.txt
 	python3 ../../../app/to_markdown.py
 
-.PHONY
 deploy: episode.md
-	cp episode.md episode.txt episode.mp3 $(shell cat episode.json | jq .pub_directory)
+	cp episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
 
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html

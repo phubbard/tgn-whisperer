@@ -9,7 +9,7 @@ all: directories episodes site
 directories: 
 	python3 app/process.py
 
-episodes: directories
+episodes:
 	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
   		echo $$dir; \
 		cd $$dir; \
@@ -17,14 +17,15 @@ episodes: directories
 		cd ../../../; \
 	done
 
-site: episodes
-	for dir in $(dir $(wildcard podcasts/*)); do \
-		cd $$dir/site; \
+site:
+	for dir in $(dir $(wildcard sites/*/.)); do \
+  		echo $$dir; \
+		cd $$dir; \
 		mkdocs build; \
 		cd ../../; \
 	done	
 
 .PHONY: clean
 clean:
-	-rm -rf podcasts/*/episodes/*
+	-rm -rf podcasts/*/episodes/* sites/*/site
 
