@@ -2,14 +2,14 @@
 
 ![Logo](img/logo.jpg "40 and 20 podcast logo")
 
-This is a collection of transcribed episodes of [The 40 and 20 podcast](https://watchclicker.com/4020-the-watch-clicker-podcast/). 
+This is a collection of transcribed episodes of [The 40 and 20 podcast](https://watchclicker.com/4020-the-watch-clicker-podcast/):
 
-The 40&20 Podcast is a weekly podcast hosted by our partners Andrew and Everett. 
-The show is aimed at watch enthusiasts and focuses on affordable watches and the brands 
-that make them, the people and personalities in the community, as well as other topics 
-including food, drinks, life, and other things we like. 
+> The 40&20 Podcast is a weekly podcast hosted by our partners Andrew and Everett. 
+> The show is aimed at watch enthusiasts and focuses on affordable watches and the brands 
+> that make them, the people and personalities in the community, as well as other topics 
+> including food, drinks, life, and other things we like. 
 
-This site, 'The Compleat 40 and 20', is an unaffiliated side project, aiming to provide good-enough transcripts of the episodes plus the per-episode
+*This* site, 'The Compleat 40 and 20', is an unaffiliated side project, aiming to provide good-enough transcripts of the episodes plus the per-episode
 links and show notes. (And a search function. Important, that.)
 
 The title is a nod to the [Compleat Angler](https://en.wikipedia.org/wiki/The_Compleat_Angler), a book by Izaak Walton, first published in 1653.
