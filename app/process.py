@@ -173,7 +173,7 @@ def process_all_podcasts():
 
             # Add this episode to the episode markdown page
             with open(mkdocs_mainpage, 'a') as ep_index:
-                ep_index.write(f"- [{episode.title}]({str(episode.number)}/episode.md) {episode.pub_date}\n")
+                ep_index.write(f"- [{episode.title}](../{str(episode.number)}/episode.md) {episode.pub_date}\n")
             count += 1
         # Done with this podcast - check episode count
         if count == ep_count:
