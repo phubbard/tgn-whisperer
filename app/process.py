@@ -30,6 +30,15 @@ class Episode:
     links: list[EpisodeLink] = None
 
 
+OctoAI = {
+    "url": "",
+    "task": "transcribe",
+    "diarize": True,
+    "min_speakers": 2,
+    "prompt": "The following is a conversation including James and Jason"  # FIXME for WCL
+}
+
+
 @dataclass
 class Podcast:
     name: str  # Unix style, short lowercase, used as a parent directory1
@@ -46,19 +55,20 @@ wcl = Podcast('wcl', 254, 'https://feed.podbean.com/the40and20podcast/feed.xml')
 podcasts = [tgn, wcl]
 
 
-# Regex to pull the first number from a title - podcast number, in this case
+# Regex to pull the first number from a title - podcast number, in this case. Heuristic but works almost every time.
 title_re = r'(\d+)'
 title_matcher = re.compile(title_re)
 
-# Grab any valid URL. Super complex, so classic cut and paste coding.
-# Via, of course, https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url#3809435
+# Grab any valid URL. Super complex, so classic cut and paste coding from StackOverflow.
+# Of course. https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url#3809435
 url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
 url_matcher = re.compile(url_rs)
 
 
 def episode_number(entry, index_notfound) -> tuple:
-    # We try four ways to get the episode number, since its our primary key for everything.
-    # Metadata is best, title string second, special-case list and lastly we create a list.
+    # We try four ways to get the episode number, since it's our primary key for everything.
+    # Metadata is best, title string second, special-case list third, and lastly we create a list.
+    # Tuple returned - gotta increment the last-unknown number if we used it.
     if 'itunes:episode' in entry:
         number = entry['itunes:episode']
         return number, index_notfound
@@ -80,6 +90,8 @@ def episode_number(entry, index_notfound) -> tuple:
 
 
 def episode_url(entry, default_url='https://thegreynato.com/'):
+    # Per-episode URLs are also important; we try to download a web page snapshot at runtime.
+    # Priority is link in RSS, regex from episode description, and lastly we return the default.
     if 'link' in entry:
         return entry['link']
 
@@ -93,9 +105,9 @@ def episode_url(entry, default_url='https://thegreynato.com/'):
 
 
 def match_missing_numbers(title) -> int:
-    # There's a half-dozen of malformed episode titles; this is a workaround. There's no gap in the episode numbers,
+    # There's a half-dozen malformed episode titles; this is a workaround. There's no gap in the episode numbers,
     # so I chose to do this. Currently at episode 256, so this should work for a decade or so.
-    # TODO - move this into an exceptions.json like the bitly workaround.b
+    # TODO - move this into an exceptions.json like the bitly workaround.
     eps = {
         'TGN Chats - Chase Fancher :: Oak & Oscar': 2000,
         'TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)': 2001,
@@ -147,6 +159,8 @@ def process_all_podcasts():
         ep_count = len(entries['rss']['channel']['item'])
         mkdocs_mainpage.write_text(f"### Page updated {datetime.now().astimezone().isoformat()} - {ep_count} episodes\n")
         log.info(f"Found {ep_count} episodes in {podcast.name}")
+
+        # This loop is over all episodes in the current podcast
         for entry in entries['rss']['channel']['item']:
             episode = Episode()
             episode.number, index_notfound = episode_number(entry, index_notfound)
@@ -165,6 +179,8 @@ def process_all_podcasts():
             episode.title = entry['title']
             episode.pub_date = entry['pubDate']
 
+            OctoAI['url'] = episode.mp3_url
+
             # Filesystem
             episode.directory = Path(basedir, str(episode.number)).absolute()
             if not episode.directory.exists():
@@ -182,6 +198,8 @@ def process_all_podcasts():
 
             log.debug(f'Saving json to {episode.directory}')
             json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'))
+            log.debug(f'Saving AI data to {episode.directory}')
+            json.dump(OctoAI, open(Path(episode.directory, 'openai.json'), 'w'))
 
             # Add this episode to the episode markdown page
             with open(mkdocs_mainpage, 'a') as ep_index:

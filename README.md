@@ -2,7 +2,12 @@
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
 I had the idea of transcribing the podcast of some friends of mine, 
-[The Grey Nato](https://thegreynato.com/)
+[The Grey Nato](https://thegreynato.com/) initially, and now also [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/)
+
+It's running on my trusty M1 Mac Mini. The Whisper.cpp binary is ARM-only.
+
+After I got this working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
+with speaker diarization. Off we go!
 
 This repo is the code and some notes for myself and others.
 
@@ -14,22 +19,25 @@ This repo is the code and some notes for myself and others.
 ### Workflow
 
 1. Download the RSS file
+2. For each episode, generate the JSON file for OctoAI (URL of MP3, mainly)
+3. Call OctoAI (either via commandline, wget or SDK. TBD.)
+4. Generate episode.txt
 2. Parse it for the episode MP3 files
-3. Convert to 16-bit mono wave files (Whisper's input format)
-4. Call Whisper on each
 5. Export text into markdown files
 6. Generate a site with mkdocs
 7. Publish
-8. Profit!
+8. Profit! Actually, no, this is a for-fun side hack. Try to keep the costs down.
 
 All of these are run and orchestrated by a multi-rule Makefile. Robust, portable, deletes
 outputs if interrupted, working pretty well. 
 
 ### Code notes and requirements
 
-1. wget to download the RSS
-2. ffmpeg to transcode to MP3
-3. Whisper.cpp binary and associated language model
+1. Python Requests to download the RSS
+2. wget to download the HTML and MP3
+3. OctoAI for speech to text.
+4. Whisper.cpp binary and associated language model
+4. 
 4. Python + xmltodict for generating output
 5. jq for parsing my json into urls and such
 5. mkdocs for site generation
@@ -64,7 +72,3 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 # Further work and open questions
 
-2. Refactoring code for automation: multiple podcasts, cleaner code / data file filesystem, re-think separate of site and source dirs.
-3. Refactor to_markdown to handle more cases (unified across podcasts)
-4. Add model to git, ignore *.mp3 / *.wav
-3. Decide output format for whisper - are timestamps useful? Subtitled video for youtube perhaps?

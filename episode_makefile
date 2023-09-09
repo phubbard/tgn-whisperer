@@ -3,16 +3,14 @@
 # Made much simpler by having a JSON config file (fields extracted via jq) and
 # fixed filenames for each step of the process.
 
-all: episode.mp3 episode.wav episode.txt episode.md episode.html deploy
+all: episode.mp3 episode.txt episode.md episode.html deploy
 
 episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
-episode.wav: episode.mp3
-	ffmpeg -i episode.mp3 -ar 16000 -ac 1 -c:a pcm_s16le episode.wav
 
-episode.txt: episode.wav
-	../../../main -m ../../../models/ggml-base.en.bin -nt -pp -f episode.wav -otxt -of episode
+episode.txt: episode.mp3
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json
 
 episode.html:
 	cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links
@@ -24,4 +22,4 @@ deploy: episode.md
 	cp episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
 
 clean:
-	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
+	-rm episode.mp3 episode.txt episode.md episode.html
