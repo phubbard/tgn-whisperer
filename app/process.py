@@ -9,13 +9,6 @@ import requests
 import xmltodict
 
 
-# TODO
-@dataclass
-class EpisodeLink:
-    description: str
-    url: str
-
-
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
 @dataclass
 class Episode:
@@ -41,7 +34,7 @@ OctoAI = {
 
 @dataclass
 class Podcast:
-    name: str  # Unix style, short lowercase, used as a parent directory1
+    name: str  # Unix style, short lowercase, used as a parent directory
     last_notified: int  # TODO
     rss_url: str
 
