@@ -70,8 +70,7 @@ if __name__ == '__main__':
 
     # Time to make some markdown
     body = '|*Time(sec)*|*Speaker*||\n|----|----|----|\n'
-    for idx, chunk in enumerate(rc):
-        # TODO word wrap text
+    for chunk in rc:
         body += f"|{chunk[0]}|{chunk[1]}|{chunk[2]}|\n"
 
     fh = open('episode.md', 'w')
