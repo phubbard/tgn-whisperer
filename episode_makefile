@@ -9,7 +9,7 @@ episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
 episode-transcribed.json: episode.mp3
-	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json
+	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail
 
 episode.txt: episode-transcribed.json
 	cat episode-transcribed.json | jq .transcription > episode.txt
