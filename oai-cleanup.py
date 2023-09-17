@@ -14,6 +14,7 @@ if __name__ == '__main__':
     log.info('Reading episode...')
     episode = json.load(open('episode-transcribed.json', 'r'))
     log.info('Processing')
+    # The default format has chunks of text. We want to append them until the speaker changes.f
     rc = []
     speaker = None
     text_chunk = ''
@@ -49,6 +50,13 @@ if __name__ == '__main__':
 
     s_counter = Counter()
 
+    usual_suspects = {
+        'james': 'James Stacey',
+        'jason': 'Jason Heaton',
+        'andrew': 'Andrew',
+        'everett': 'Everett'
+    }
+
     # Look in the first few chunks for speakers identifying themselves
     for idx in range(10):
         if rc[idx][2].lower().find('james') >= 0:
@@ -58,6 +66,17 @@ if __name__ == '__main__':
 
             s_counter.update(['james'])
         if rc[idx][2].lower().find('jason') >= 0:
+            if s_counter['jason'] > 0:
+                continue
+            speaker_map[rc[idx][1]] = 'Jason Heaton'
+            s_counter.update(['jason'])
+
+        if rc[idx][2].lower().find('andrew') >= 0:
+            if s_counter['andrew'] > 0:
+                continue
+            speaker_map[rc[idx][1]] = 'Andrew'
+            s_counter.update(['andrew'])
+        if rc[idx][2].lower().find('everett') >= 0:
             if s_counter['jason'] > 0:
                 continue
             speaker_map[rc[idx][1]] = 'Jason Heaton'

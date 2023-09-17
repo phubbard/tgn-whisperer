@@ -3,16 +3,16 @@
 # Made much simpler by having a JSON config file (fields extracted via jq) and
 # fixed filenames for each step of the process.
 
-all: episode.mp3 episode.txt episode.md episode.html deploy
+all: episode.mp3 episode-transcribed.json episode.txt episode.md episode.html deploy
 
 episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
 episode-transcribed.json: episode.mp3
-    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json
+	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json
 
 episode.txt: episode-transcribed.json
-    cat episode-transcribed.json | jq .transcription > episode.txt
+	cat episode-transcribed.json | jq .transcription > episode.txt
 
 episode.html:
 	cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links
