@@ -11,7 +11,6 @@ directories:
 
 episodes: directories
 	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
-  		echo $$dir; \
 		cd $$dir; \
 		$(MAKE) -f ../../../episode_makefile; \
 		cd ../../../; \
@@ -19,7 +18,6 @@ episodes: directories
 
 site:
 	for dir in $(dir $(wildcard sites/*/.)); do \
-  		echo $$dir; \
 		cd $$dir; \
 		mkdocs build; \
 		cd ../../; \
@@ -27,9 +25,10 @@ site:
 
 deploy:
 	cd sites/tgn/site; \
-	scp -r * usul:html/tgn; \
+	rsync -ua --progress . usul:html/tgn; \
 	cd ../../wcl/site; \
-	scp -r * usul:html/wcl; \
+	rsync -ua --progress . usul:html/wcl; \
+
 
 .PHONY: clean
 clean:

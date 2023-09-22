@@ -21,7 +21,7 @@ episode.md: episode.txt
 	python3 ../../../app/to_markdown.py
 
 deploy: episode.md
-	cp episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
+	cp -c episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
 
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
