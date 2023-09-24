@@ -3,8 +3,37 @@
 # Made much simpler by having a JSON config file (fields extracted via jq) and
 # fixed filenames for each step of the process.
 
-all: episode.mp3 episode.wav episode.txt episode.md episode.html deploy
+# The jq output results in embedded quote characters, so we need two steps. Three, to cache the jq step.
+dest_dir=$(shell cat episode.json | jq .site_directory)
 
+# These look like "/Users/hubbard/code/tgn-whisperer/sites/tgn/docs/2"/episode.mp3
+p_dest_mp3=$(dest_dir)/episode.mp3
+p_dest_txt=$(dest_dir)/episode.txt
+p_dest_html=$(dest_dir)/episode.html
+p_dest_md=$(dest_dir)/episode.md
+
+# and this erases the quote characters
+dest_mp3=$(shell echo $(p_dest_mp3))
+dest_txt=$(shell echo $(p_dest_txt))
+dest_html=$(shell echo $(p_dest_html))
+dest_md=$(shell echo $(p_dest_md))
+
+# Declare the target three files and a single target name for manual ops
+dest_all: $(dest_mp3) $(dest_txt) $(dest_html) $(dest_md)
+
+$(dest_mp3): episode.mp3
+	cp -c episode.mp3 $(dest_mp3)
+
+$(dest_txt): episode.txt
+	cp -c episode.txt $(dest_txt)
+
+$(dest_html): episode.html
+	cp -c episode.html $(dest_html)
+
+$(dest_md): episode.md
+	cp -c episode.md $(dest_md)
+
+# Now declare how to create them.
 episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
@@ -19,9 +48,6 @@ episode.html:
 
 episode.md: episode.txt
 	python3 ../../../app/to_markdown.py
-
-deploy: episode.md
-	cp -c episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
 
 clean:
 	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
