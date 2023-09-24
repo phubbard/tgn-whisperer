@@ -1,9 +1,12 @@
 from dataclasses import asdict, dataclass
 from datetime import datetime
+from email.message import EmailMessage
 import json
 import logging
+from os import getenv
 from pathlib import Path
 import re
+import smtplib
 
 import requests
 import xmltodict
@@ -36,8 +39,33 @@ class Podcast:
     name: str  # Unix style, short lowercase, used as a parent directory
     last_notified: int  # TODO
     rss_url: str
+    emails: list[str]  # Who to email with new episodes
+    doc_base_url: str  # Used to create URLs for emails
     number_extractor_function: object
 
+
+class FastMailSMTP(smtplib.SMTP_SSL):
+    """A wrapper for handling SMTP connections to FastMail.
+    From https://alexwlchan.net/2016/python-smtplib-and-fastmail/
+    with attachments code removed.
+    """
+
+    def __init__(self, username, password):
+        super().__init__('mail.messagingengine.com', port=465)
+        self.login(username, password)
+
+    def send_fm_message(self, *,
+                     from_addr,
+                     to_addrs,
+                     msg,
+                     subject,
+                     attachments=None):
+        msg_root = EmailMessage()
+        msg_root['Subject'] = subject
+        msg_root['From'] = from_addr
+        msg_root['To'] = ', '.join(to_addrs)
+
+        self.sendmail(from_addr, to_addrs, msg_root.as_string())
 
 logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
@@ -76,7 +104,6 @@ def episode_number_wcl(entry):
 
     log.warning(f"FAIL: -> {title}")
     return None
-
 
 
 tgn_lookup = {
@@ -118,8 +145,8 @@ def episode_number_tgn(entry):
 
 # Iterable to loop over
 podcasts = [
-      Podcast('tgn', 254, 'https://feeds.buzzsprout.com/2049759.rss', episode_number_tgn),
-      Podcast('wcl', 254, 'https://feed.podbean.com/the40and20podcast/feed.xml', episode_number_wcl),
+      Podcast('tgn', 254, 'https://feeds.buzzsprout.com/2049759.rss', ['pfh@phfactor.net'], episode_number_tgn),
+      Podcast('wcl', 254, 'https://feed.podbean.com/the40and20podcast/feed.xml', ['pfh@phfactor.net'], episode_number_wcl),
       ]
 
 
@@ -167,6 +194,29 @@ def unwrap_bitly(url: str) -> str:
         return lookup_map[url]
     log.warning(f"{url=} not found in bitly.json! Re-run unwrap-bitly with this URL.")
     return url
+
+
+def send_email(email_list, new_ep_list, base_url):
+    # FastMail is the best.
+    smtp_password = getenv('FASTMAIL_PASSWORD', None)
+    if not smtp_password:
+        log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
+        return
+
+    print(len(new_ep_list))
+    subject = 'New episodes are available' if len(new_ep_list) > 1 else 'New episode available'
+
+    payload = f'{len(new_ep_list)} episode(s): \n'
+    for ep in new_ep_list:
+        payload = payload + f"\n{base_url}/episodes/{ep['number']}"
+
+    log.info(f'Emailing {address}')
+    with FastMailSMTP('tgn-whisperer@phfactor.net', smtp_password) as server:
+        server.send_fm_message(from_addr='tgn-whisperer@phfactor.net',
+                               to_addrs=email_list,
+                               msg=payload,
+                               subject=subject)
+        log.debug(msg)
 
 
 def process_all_podcasts():
@@ -240,7 +290,7 @@ def process_all_podcasts():
         # Done with this podcast - check episode count
 
         if fail_count:
-            log.warning(f"UNDISCERNABLE EPISODES: -> {fail_count=}")
+            log.warning(f"UN-DISCERNIBLE EPISODES: -> {fail_count=}")
 
         if count == ep_count:
             log.info(f"Processed all {ep_count} episodes in {podcast.name}")
