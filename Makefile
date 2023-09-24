@@ -25,9 +25,9 @@ site:
 
 deploy:
 	cd sites/tgn/site; \
-	rsync -ua --progress . usul:html/tgn; \
+	rsync -au --progress . usul:html/tgn; \
 	cd ../../wcl/site; \
-	rsync -ua --progress . usul:html/wcl; \
+	rsync -au --progress . usul:html/wcl; \
 
 
 .PHONY: clean
