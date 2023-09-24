@@ -75,7 +75,7 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 40 & 20, run Sep 24 2023 - fun to see the overlaps.
 
-![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud)
+![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud")
 
 # Further work and open questions
 
