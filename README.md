@@ -4,35 +4,28 @@ With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whis
 I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/)
 
-This repo is the code and some notes for myself and others.
+This repo is the code and some notes for myself and others. As of 9/24/2023, the code handles two podcasts and is working 
+well. In the octoai branch, I'm working on replacing Whisper.cpp with calls to WhisperX, because that has speaker 
+diarization but it's waiting for vendor bugfixes. And it's not free.
 
 ## Goals
 
 1. Simple as possible - use existing tools whenever possible
 2. Incremental - be able to add new episodes easily and without reworking previous ones
 
-### Workflow
+### Workflow and requirements
 
-1. Download the RSS file
-2. Parse it for the episode MP3 files
-3. Convert to 16-bit mono wave files (Whisper's input format)
-4. Call Whisper on each
-5. Export text into markdown files
+1. Download the RSS file (process.py, using Requests)
+2. Parse it for the episode MP3 files (xmltodict)
+3. Convert to 16-bit mono wave files (Whisper's input format) (ffmpeg)
+4. Call Whisper on each (command line, note hardwired for Mac/ARM)
+5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
-7. Publish
-8. Profit!
+7. Publish (rsync)
+8. Profit! (as if)
 
-All of these are run and orchestrated by a multi-rule Makefile. Robust, portable, deletes
-outputs if interrupted, working pretty well. 
-
-### Code notes and requirements
-
-1. wget to download the RSS
-2. ffmpeg to transcode to MP3
-3. Whisper.cpp binary and associated language model
-4. Python + xmltodict for generating output
-5. jq for parsing my json into urls and such
-5. mkdocs for site generation
+All of these are run and orchestrated by two Makefiles. Robust, portable, deletes
+outputs if interrupted, working pretty well. Note that the loop-over-episodes is a shell loop - this is a TODO.
 
 Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
 
@@ -51,6 +44,24 @@ built a manual process:
 - Run the unwrap-bitly.py script to build a json dictionary that resolves them
 - The process.py will use the lookup dictionary and save the canonical URLs.
 
+### Episode numbers and URLs
+
+For a project like this, you want a primary index / key / way to refer to an episode. The natural choice is "episode number". This is a field in the RSS XML:
+
+    itunes:episode
+
+however! TGN was bad, and didn't include this. What's more, they had episodes _in between_ episodes. The episode_number
+function in process.py handles this with a combination of techniques:
+
+1. Try the itunes:episode key
+2. Check the list of exceptions, keyed by string title
+3. Try to parse an integer from the title
+4. Starting at 2100, assign a number
+
+The story is very similar for per-episode URLs. Should be there, often are missing, and can sometimes be parsed out of the description.
+
+40 & 20 has clean metadata, so this was a _ton_ easier for their feed.
+
 ### Optional - wordcloud
 
 I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
@@ -62,9 +73,12 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 ![wordcloud](archive/wordcloud.png "TGN wordcloud")
 
+40 & 20, run Sep 24 2023 - fun to see the overlaps.
+
+![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud)
+
 # Further work and open questions
 
-2. Refactoring code for automation: multiple podcasts, cleaner code / data file filesystem, re-think separate of site and source dirs.
-3. Refactor to_markdown to handle more cases (unified across podcasts)
-4. Add model to git, ignore *.mp3 / *.wav
-3. Decide output format for whisper - are timestamps useful? Subtitled video for youtube perhaps?
+1. email notifications on new episodes
+2. WhisperX
+3. Performance improvements (in progress - the Makefile rewrites were huge)
