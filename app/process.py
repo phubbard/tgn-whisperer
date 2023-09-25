@@ -14,6 +14,7 @@ import xmltodict
 
 system_admin = 'tgn-whisperer@phfactor.net'
 
+
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
 @dataclass
 class Episode:
@@ -56,17 +57,18 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         self.login(username, password)
 
     def send_fm_message(self, *,
-                     from_addr,
-                     to_addrs,
-                     msg,
-                     subject,
-                     attachments=None):
+                        from_addr,
+                        to_addrs,
+                        msg,
+                        subject):
         msg_root = EmailMessage()
         msg_root['Subject'] = subject
         msg_root['From'] = from_addr
         msg_root['To'] = ', '.join(to_addrs)
+        msg_root.set_payload(msg)
 
         self.sendmail(from_addr, to_addrs, msg_root.as_string())
+
 
 logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
@@ -76,7 +78,7 @@ log = logging.getLogger()
 title_re = r'(\d+)'
 title_matcher = re.compile(title_re)
 
-# Grab any valid URL. Super complex, so classic cut and paste coding from StackOverflow.
+# Grab any valid URL. Super complex, so classic cut-and-paste coding from StackOverflow.
 # Of course. https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url#3809435
 url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
 url_matcher = re.compile(url_rs)
@@ -91,15 +93,17 @@ wcl_lookup = {
 def episode_number_wcl(entry):
 
     meta_entry = entry.get('itunes:episode', None)
-    if meta_entry is not None: return float(meta_entry)
+    if meta_entry is not None:
+        return float(meta_entry)
 
     title = entry['title']
     hardcode = wcl_lookup.get(title, None)
-    if hardcode is not None: return float(hardcode)
+    if hardcode is not None:
+        return float(hardcode)
 
-    asSplit = re.split(r'[-‒–—\:]', title)
+    as_split = re.split(r'[-‒–—:]', title)
 
-    deprefixed = asSplit[0].lower().removeprefix('episode').strip()
+    deprefixed = as_split[0].lower().removeprefix('episode').strip()
     if deprefixed.isdigit():
         return float(deprefixed)
 
@@ -168,24 +172,6 @@ def episode_url(entry, default_url='https://thegreynato.com/'):
     return default_url
 
 
-def match_missing_numbers(title) -> int:
-    # There's a half-dozen malformed episode titles; this is a workaround. There's no gap in the episode numbers,
-    # so I chose to do this. Currently at episode 256, so this should work for a decade or so.
-    # TODO - move this into an exceptions.json like the bitly workaround.
-    eps = {
-        'TGN Chats - Chase Fancher :: Oak & Oscar': 2000,
-        'TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)': 2001,
-        'Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology': 2002,
-        'The Grey NATO – A Week Off (And A Request!)': 2003,
-        'Depth Charge - The Original Soundtrack by Oran Chan': 2004,
-        'The Grey Nato - Question & Answer #1': 2005,
-    }
-    if title in eps.keys():
-        return eps[title]
-    log.debug(f'Unable to find missing-number episode in list! {title=}')
-    return None
-
-
 def unwrap_bitly(url: str) -> str:
     # Early TGN used bit.ly, which is fucking horrid. Let's get rid of them.
     rc = url.lower().find('bit.ly')
@@ -201,26 +187,27 @@ def unwrap_bitly(url: str) -> str:
 
 def send_email(email_list, new_ep_list, base_url):
     # FastMail is the best.
+    if not new_ep_list:
+        log.info('No new episodes to send in email')
+        return
     smtp_password = getenv('FASTMAIL_PASSWORD', None)
     if not smtp_password:
         log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
         return
-    if not new_ep_list:
-        log.info('No new episodes to send in email')
-        return
+
     subject = 'New episodes are available' if len(new_ep_list) > 1 else 'New episode available'
 
     payload = f'{len(new_ep_list)} episode(s): \n'
     for ep in new_ep_list:
-        payload = payload + f"\n{base_url}/episodes/{ep['number']}"
+        payload = payload + f"\n{base_url}/{str(ep)}/episode/"
 
-    log.info(f'Emailing {email_list}')
-    with FastMailSMTP(system_admin, smtp_password) as server:
+    log.info(f'Emailing {email_list} with {len(new_ep_list)} episodes...')
+    with FastMailSMTP('pfh@phfactor.net', smtp_password) as server:
         server.send_fm_message(from_addr=system_admin,
                                to_addrs=email_list,
                                msg=payload,
                                subject=subject)
-        log.debug(payload)
+        log.info('email sent.')
 
 
 def send_failure_alert(fail_message):
@@ -282,7 +269,8 @@ def process_all_podcasts():
         log.debug('Parsing XML')
         entries = xmltodict.parse(rc.text)
         ep_count = len(entries['rss']['channel']['item'])
-        mkdocs_mainpage.write_text(f"### Page updated {datetime.now().astimezone().isoformat()} - {ep_count} episodes\n")
+        ts = datetime.now().astimezone().isoformat()
+        mkdocs_mainpage.write_text(f"### Page updated {ts} - {ep_count} episodes\n")
         log.info(f"Found {ep_count} episodes in {podcast.name}")
 
         fail_count = 0
@@ -293,7 +281,7 @@ def process_all_podcasts():
 
             be_number = podcast.number_extractor_function(entry)
             if be_number is None:
-                fail_count += 1 # TODO
+                fail_count += 1  # TODO
 
             episode = Episode()
             episode.number = be_number
@@ -348,6 +336,6 @@ def process_all_podcasts():
         new_eps = new_episodes(podcast.name, list(current_ep_numbers))
         send_email(podcast.emails, new_eps, podcast.doc_base_url)
 
+
 if __name__ == '__main__':
     process_all_podcasts()
-
