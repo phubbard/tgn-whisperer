@@ -180,10 +180,6 @@ def unwrap_bitly(url: str) -> str:
 
 
 def send_email(email_list: list, new_ep_list: list, base_url: str) -> None:
-    if not new_ep_list:
-        log.info('No new episodes to send in email')
-        return
-
     new_count: int = len(new_ep_list)
     subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 
