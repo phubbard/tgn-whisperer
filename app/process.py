@@ -49,12 +49,17 @@ class Podcast:
 class FastMailSMTP(smtplib.SMTP_SSL):
     """A wrapper for handling SMTP connections to FastMail.
     From https://alexwlchan.net/2016/python-smtplib-and-fastmail/
-    with attachments code removed.
+    with attachments code removed and edits for this use case.
     """
 
-    def __init__(self, username, password):
+    def __init__(self):
         super().__init__('mail.messagingengine.com', port=465)
-        self.login(username, password)
+        smtp_password = getenv('FASTMAIL_PASSWORD', None)
+        if not smtp_password:
+            log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
+            return
+
+        self.login('pfh@phfactor.net', smtp_password)
 
     def send_fm_message(self, *,
                         from_addr,
@@ -70,6 +75,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         self.sendmail(from_addr, to_addrs, msg_root.as_string())
 
 
+# Change the INFO to DEBUG if needed.
 logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
 log = logging.getLogger()
 
@@ -84,21 +90,20 @@ url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\
 url_matcher = re.compile(url_rs)
 
 
-wcl_lookup = {
-    "Watch Clicker Mini Review - Nodus Sector Dive": 81.5,
-    "Episode 36 GMT Watches": 36,
+def episode_number_wcl(entry):
+    # Episode logic for WCL (40 and 20). Generally a clean and correct RSS, so fewer workarounds.
+    wcl_lookup = {
+        "Watch Clicker Mini Review - Nodus Sector Dive": 81.5,
+        "Episode 36 GMT Watches": 36,
     }
 
-
-def episode_number_wcl(entry):
-
     meta_entry = entry.get('itunes:episode', None)
-    if meta_entry is not None:
+    if meta_entry:
         return float(meta_entry)
 
     title = entry['title']
     hardcode = wcl_lookup.get(title, None)
-    if hardcode is not None:
+    if hardcode:
         return float(hardcode)
 
     as_split = re.split(r'[-‒–—:]', title)
@@ -111,50 +116,39 @@ def episode_number_wcl(entry):
     return None
 
 
-tgn_lookup = {
-    "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
-    "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
-    "The Grey NATO – A Week Off (And A Request!)": 160.5,
-    "Depth Charge - The Original Soundtrack by Oran Chan": 143.5,
-    "The Grey Nato Ep 25  - Dream Watches 2017": 25,
-    "The Grey Nato - Question & Answer #1": 20.5,
-    "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
-    "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
-    } 
-
-
 def episode_number_tgn(entry):
-
+    # Episode number logic for TGN. Early feed was super crufty, so several workarounds and special cases.
+    tgn_lookup = {
+        "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
+        "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
+        "The Grey NATO – A Week Off (And A Request!)": 160.5,
+        "Depth Charge - The Original Soundtrack by Oran Chan": 143.5,
+        "The Grey Nato Ep 25  - Dream Watches 2017": 25,
+        "The Grey Nato - Question & Answer #1": 20.5,
+        "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
+        "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
+    }
     title = entry['title']
 
     hardcode = tgn_lookup.get(title, None)
-    if hardcode is not None:
+    if hardcode:
         return float(hardcode)
 
-    asSplit = re.split(r'[-‒–—]', title)
-    if len(asSplit) < 2:
+    as_split = re.split(r'[-‒–—]', title)
+    if len(as_split) < 2:
         log.warning(f"FAIL: -> {title}")
         return None
 
-    second = asSplit[1].strip()
+    second = as_split[1].strip()
     if second.isdigit():
         return float(second)
     elif second.lower().startswith('ep'):
-        subsplit = second.split()
-        if len(subsplit) == 2 and subsplit[1].isdigit():
-            return float(subsplit[1])
+        sub_split = second.split()
+        if len(sub_split) == 2 and sub_split[1].isdigit():
+            return float(sub_split[1])
 
     log.warning(f"FAIL: -> {title}")
     return None
-
-
-# Iterable to loop over
-podcasts = [
-      Podcast('tgn', 'https://feeds.buzzsprout.com/2049759.rss',
-              ['pfh@phfactor.net'], 'https://www.phfactor.net/tgn', episode_number_tgn),
-      Podcast('wcl', 'https://feed.podbean.com/the40and20podcast/feed.xml',
-              ['pfh@phfactor.net'], 'https://www.phfactor.net/wcl', episode_number_wcl),
-      ]
 
 
 def episode_url(entry, default_url='https://thegreynato.com/'):
@@ -185,24 +179,21 @@ def unwrap_bitly(url: str) -> str:
     return url
 
 
-def send_email(email_list, new_ep_list, base_url):
-    # FastMail is the best.
+def send_email(email_list: list, new_ep_list: list, base_url: str) -> None:
     if not new_ep_list:
         log.info('No new episodes to send in email')
         return
-    smtp_password = getenv('FASTMAIL_PASSWORD', None)
-    if not smtp_password:
-        log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
-        return
 
-    subject = 'New episodes are available' if len(new_ep_list) > 1 else 'New episode available'
+    new_count: int = len(new_ep_list)
+    subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 
-    payload = f'{len(new_ep_list)} episode(s): \n'
+    payload = f'New episode' + 's' if new_count > 1 else '' + ':\n'
     for ep in new_ep_list:
         payload = payload + f"\n{base_url}/{str(ep)}/episode/"
 
-    log.info(f'Emailing {email_list} with {len(new_ep_list)} episodes...')
-    with FastMailSMTP('pfh@phfactor.net', smtp_password) as server:
+    # TODO Spawn this into a background thread/process
+    log.info(f'Emailing {email_list} with {new_count} episodes...')
+    with FastMailSMTP() as server:
         server.send_fm_message(from_addr=system_admin,
                                to_addrs=email_list,
                                msg=payload,
@@ -211,28 +202,22 @@ def send_email(email_list, new_ep_list, base_url):
 
 
 def send_failure_alert(fail_message):
-    # FastMail is the best.
-    smtp_password = getenv('FASTMAIL_PASSWORD', None)
-    if not smtp_password:
-        log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
-        return
-
-    with FastMailSMTP(system_admin, smtp_password) as server:
+    with FastMailSMTP() as server:
         server.send_fm_message(from_addr=system_admin,
                                to_addrs=system_admin,
                                msg=fail_message,
                                subject='Error in podcast processing')
 
 
-def new_episodes(podcast_name: str, current_eps: list, update_saved: bool = True) -> list:
+def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True) -> list:
     # Given a list of new episodes (array of numbers), return a list of
-    # episodes that were not in the saved list. As a side effect, update
-    # the saved list
+    # episodes that were not in the saved list. As an optional side effect, update
+    # the saved list on disk.
     filename = podcast_name + '-notified.json'
     try:
         old_list = json.load(open(filename, 'r'))
     except FileNotFoundError:
-        log.warning('Saved file not found, starting over')
+        log.warning(f'Saved file {filename} not found, starting over')
         old_list = []
 
     old_eps = set(old_list)
@@ -241,23 +226,37 @@ def new_episodes(podcast_name: str, current_eps: list, update_saved: bool = True
     all_eps.update(current_eps)
     new_eps = current_eps.difference(old_eps)
     new_count = len(new_eps)
-    log.info(f'{new_count} new episodes found')
-    if not new_count or not update_saved:
+    if not new_count or not save_updated:
+        log.info('No new episodes found to email')
         return []
 
-    log.info(f'Saving updated list of episodes in {podcast_name}')
+    log.info(f'{new_count} new episodes found to email')
+    log.info(f'Saving updated list of episodes in {podcast_name} to {filename}')
     json.dump(list(all_eps), open(filename, 'w'))
     return list(new_eps)
 
 
 def process_all_podcasts():
+    # Top level routine
+    # Iterable to loop over
+    podcasts = [
+        Podcast('tgn',
+                'https://feeds.buzzsprout.com/2049759.rss',
+                ['pfh@phfactor.net'],
+                'https://www.phfactor.net/tgn', episode_number_tgn),
+        Podcast('wcl',
+                'https://feed.podbean.com/the40and20podcast/feed.xml',
+                ['pfh@phfactor.net', 'hello@watchclicker.com'],
+                'https://www.phfactor.net/wcl', episode_number_wcl),
+    ]
+
     for podcast in podcasts:
         count = 0
 
         log.info(f'Processing {podcast}')
         basedir = Path('podcasts', podcast.name)
         mkdocs_mainpage = Path('sites', podcast.name, 'docs', 'episodes.md')
-        log.info(f'Removing {mkdocs_mainpage}')
+        log.debug(f'Removing {mkdocs_mainpage}')
         mkdocs_mainpage.unlink(missing_ok=True)
 
         log.info(f'Fetching RSS feed {podcast.rss_url}')
@@ -302,7 +301,7 @@ def process_all_podcasts():
             if not episode.directory.exists():
                 log.debug(f'Creating {episode.directory}')
                 episode.directory.mkdir(parents=True)
-            # Rewrite as POSIX path, as basic paths can't serialize to JSON
+            # Rewrite as POSIX path, as basic Paths can't serialize to JSON
             episode.directory = episode.directory.as_posix()
 
             # mkdocs directory for this episode - sites/tgn/docs/40 for example
@@ -334,7 +333,8 @@ def process_all_podcasts():
             log.warning(f"Processed {count} episodes out of {ep_count} possible")
 
         new_eps = new_episodes(podcast.name, list(current_ep_numbers))
-        send_email(podcast.emails, new_eps, podcast.doc_base_url)
+        if new_eps:
+            send_email(podcast.emails, new_eps, podcast.doc_base_url)
 
 
 if __name__ == '__main__':
