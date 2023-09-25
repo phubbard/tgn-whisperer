@@ -33,8 +33,6 @@ $(dest_md): episode.md
 	cp -c episode.md $(dest_md)
 
 # Now declare how to create them.
-all: episode.mp3 episode-transcribed.json episode.txt episode.md episode.html deploy
-
 episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
@@ -44,14 +42,11 @@ episode-transcribed.json: episode.mp3 openai.json
 episode.txt: episode-transcribed.json
 	cat episode-transcribed.json | jq .transcription > episode.txt
 
-episode.html:
+episode.html: episode.json
 	cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links
 
 episode.md: episode.txt
 	python3 ../../../app/to_markdown.py
-
-deploy: episode.md
-	cp episode.md episode.txt episode.html episode.mp3 $(shell cat episode.json | jq .site_directory)
 
 clean:
 	-rm episode.mp3 episode.txt episode.md episode.html episode-transcribed.json
