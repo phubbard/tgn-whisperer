@@ -1,3 +1,4 @@
+import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from email.message import EmailMessage
@@ -11,6 +12,7 @@ import smtplib
 import requests
 import xmltodict
 
+system_admin = 'tgn-whisperer@phfactor.net'
 
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
 @dataclass
@@ -37,7 +39,6 @@ OctoAI = {
 @dataclass
 class Podcast:
     name: str  # Unix style, short lowercase, used as a parent directory
-    last_notified: int  # TODO
     rss_url: str
     emails: list[str]  # Who to email with new episodes
     doc_base_url: str  # Used to create URLs for emails
@@ -145,8 +146,10 @@ def episode_number_tgn(entry):
 
 # Iterable to loop over
 podcasts = [
-      Podcast('tgn', 254, 'https://feeds.buzzsprout.com/2049759.rss', ['pfh@phfactor.net'], episode_number_tgn),
-      Podcast('wcl', 254, 'https://feed.podbean.com/the40and20podcast/feed.xml', ['pfh@phfactor.net'], episode_number_wcl),
+      Podcast('tgn', 'https://feeds.buzzsprout.com/2049759.rss',
+              ['pfh@phfactor.net'], 'https://www.phfactor.net/tgn', episode_number_tgn),
+      Podcast('wcl', 'https://feed.podbean.com/the40and20podcast/feed.xml',
+              ['pfh@phfactor.net'], 'https://www.phfactor.net/wcl', episode_number_wcl),
       ]
 
 
@@ -202,21 +205,62 @@ def send_email(email_list, new_ep_list, base_url):
     if not smtp_password:
         log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
         return
-
-    print(len(new_ep_list))
+    if not new_ep_list:
+        log.info('No new episodes to send in email')
+        return
     subject = 'New episodes are available' if len(new_ep_list) > 1 else 'New episode available'
 
     payload = f'{len(new_ep_list)} episode(s): \n'
     for ep in new_ep_list:
         payload = payload + f"\n{base_url}/episodes/{ep['number']}"
 
-    log.info(f'Emailing {address}')
-    with FastMailSMTP('tgn-whisperer@phfactor.net', smtp_password) as server:
-        server.send_fm_message(from_addr='tgn-whisperer@phfactor.net',
+    log.info(f'Emailing {email_list}')
+    with FastMailSMTP(system_admin, smtp_password) as server:
+        server.send_fm_message(from_addr=system_admin,
                                to_addrs=email_list,
                                msg=payload,
                                subject=subject)
-        log.debug(msg)
+        log.debug(payload)
+
+
+def send_failure_alert(fail_message):
+    # FastMail is the best.
+    smtp_password = getenv('FASTMAIL_PASSWORD', None)
+    if not smtp_password:
+        log.error(f'FASTMAIL_PASSWORD not found in environment, cannot email')
+        return
+
+    with FastMailSMTP(system_admin, smtp_password) as server:
+        server.send_fm_message(from_addr=system_admin,
+                               to_addrs=system_admin,
+                               msg=fail_message,
+                               subject='Error in podcast processing')
+
+
+def new_episodes(podcast_name: str, current_eps: list, update_saved: bool = True) -> list:
+    # Given a list of new episodes (array of numbers), return a list of
+    # episodes that were not in the saved list. As a side effect, update
+    # the saved list
+    filename = podcast_name + '-notified.json'
+    try:
+        old_list = json.load(open(filename, 'r'))
+    except FileNotFoundError:
+        log.warning('Saved file not found, starting over')
+        old_list = []
+
+    old_eps = set(old_list)
+    current_eps = set(current_eps)
+    all_eps = set(old_eps)
+    all_eps.update(current_eps)
+    new_eps = current_eps.difference(old_eps)
+    new_count = len(new_eps)
+    log.info(f'{new_count} new episodes found')
+    if not new_count or not update_saved:
+        return []
+
+    log.info(f'Saving updated list of episodes in {podcast_name}')
+    json.dump(list(all_eps), open(filename, 'w'))
+    return list(new_eps)
 
 
 def process_all_podcasts():
@@ -242,6 +286,7 @@ def process_all_podcasts():
         log.info(f"Found {ep_count} episodes in {podcast.name}")
 
         fail_count = 0
+        current_ep_numbers = set()
 
         # This loop is over all episodes in the current podcast
         for entry in entries['rss']['channel']['item']:
@@ -252,6 +297,7 @@ def process_all_podcasts():
 
             episode = Episode()
             episode.number = be_number
+            current_ep_numbers.add(be_number)
             episode.episode_url = unwrap_bitly(episode_url(entry))
             if 'subtitle' in entry:
                 episode.subtitle = entry['subtitle']
@@ -290,13 +336,17 @@ def process_all_podcasts():
         # Done with this podcast - check episode count
 
         if fail_count:
-            log.warning(f"UN-DISCERNIBLE EPISODES: -> {fail_count=}")
+            fail_msg = f"UN-DISCERNIBLE EPISODES: -> {fail_count=}"
+            send_failure_alert(fail_msg)
+            sys.exit(1)
 
         if count == ep_count:
             log.info(f"Processed all {ep_count} episodes in {podcast.name}")
         else:
             log.warning(f"Processed {count} episodes out of {ep_count} possible")
 
+        new_eps = new_episodes(podcast.name, list(current_ep_numbers))
+        send_email(podcast.emails, new_eps, podcast.doc_base_url)
 
 if __name__ == '__main__':
     process_all_podcasts()
