@@ -212,7 +212,7 @@ def podcast_updated(podcast: Podcast) -> bool:
     # hammer their server. Internet manners. Method - call HEAD instead of GET
     # Note that HEAD doesn't include a timestamp, but does include the cache ETag, so
     # we simply snapshot the etag to disk and see if it differs.
-    filename = podcast.name + '-timestamp.json'
+    filename = podcast.name + '-etag.txt'
     try:
         r = requests.head(podcast.rss_url)
         url_etag = r.headers['ETag']
