@@ -14,7 +14,7 @@ if __name__ == '__main__':
     log.info('Reading episode...')
     episode = json.load(open('episode-transcribed.json', 'r'))
     log.info('Processing')
-    # The default format has chunks of text. We want to append them until the speaker changes.f
+    # The default format has chunks of text. We want to append them until the speaker changes.
     rc = []
     speaker = None
     text_chunk = ''

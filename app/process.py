@@ -1,10 +1,12 @@
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
+from dateutil.parser import parse as parsedate
 from email.message import EmailMessage
 import json
 import logging
 from os import getenv
+from os.path import getmtime
 from pathlib import Path
 import re
 import smtplib
@@ -205,6 +207,25 @@ def send_failure_alert(fail_message):
                                subject='Error in podcast processing')
 
 
+def podcast_updated(podcast: Podcast) -> bool:
+    # Based on our saved last-updated time, are there new episodes? If not, don't
+    # hammer their download. Internet manners. Method - call HEAD instead of GET
+    filename = podcast.name + '-timestamp.json'
+    try:
+        r = requests.head(podcast.rss_url)
+        url_etag = r.headers['ETag']
+        file_etag = open(filename, 'r').read()
+
+        if file_etag == url_etag:
+            log.info(f'No new episodes found in podcast {podcast.name}')
+            return False
+    except FileNotFoundError:
+        log.warning(f'File {filename} not found, creating.')
+
+    open(filename, 'w').write(url_etag)
+    return True
+
+
 def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True) -> list:
     # Given a list of new episodes (array of numbers), return a list of
     # episodes that were not in the saved list. As an optional side effect, update
@@ -249,7 +270,10 @@ def process_all_podcasts():
     for podcast in podcasts:
         count = 0
 
-        log.info(f'Processing {podcast}')
+        log.info(f'Processing {podcast.name}')
+        if not podcast_updated(podcast):
+            continue
+
         basedir = Path('podcasts', podcast.name)
         mkdocs_mainpage = Path('sites', podcast.name, 'docs', 'episodes.md')
         log.debug(f'Removing {mkdocs_mainpage}')
