@@ -209,7 +209,9 @@ def send_failure_alert(fail_message):
 
 def podcast_updated(podcast: Podcast) -> bool:
     # Based on our saved last-updated time, are there new episodes? If not, don't
-    # hammer their download. Internet manners. Method - call HEAD instead of GET
+    # hammer their server. Internet manners. Method - call HEAD instead of GET
+    # Note that HEAD doesn't include a timestamp, but does include the cache ETag, so
+    # we simply snapshot the etag to disk and see if it differs.
     filename = podcast.name + '-timestamp.json'
     try:
         r = requests.head(podcast.rss_url)
