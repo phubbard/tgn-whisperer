@@ -18,7 +18,7 @@ dest_html=$(shell echo $(p_dest_html))
 dest_md=$(shell echo $(p_dest_md))
 
 # Declare the target three files and a single target name for manual ops
-all: $(dest_mp3) $(dest_txt) $(dest_html) $(dest_md)
+all: $(dest_mp3) $(dest_txt) $(dest_html) $(dest_md) speaker-map.json
 
 $(dest_mp3): episode.mp3
 	cp -c episode.mp3 $(dest_mp3)
@@ -49,6 +49,9 @@ episode.html: episode.json
 
 episode.md: episode.txt
 	python3 ../../../app/to_markdown.py
+
+speaker-map.json: episode-transcribed.json episode.md
+	python3 ../../../app/oai-cleanup.py
 
 clean:
 	-rm episode.mp3 episode.txt episode.md episode.html episode-transcribed.json
