@@ -27,15 +27,11 @@ $(SITE_ROOT)/%: episodes
 site: $(SITE_DIRS)
 	@echo Finished with all sites
 
-
-# Brad note: lets discuss the compound bash command below
 deploy:
-	cd sites/tgn/site; \
-	@echo Deploying TGN...; \
-	rsync -au --progress . usul:html/tgn; \
-	cd ../../wcl/site; \
-	@echo Deploying 40 and 20...; \
-	rsync -au --progress . usul:html/wcl; \
+	@echo Deploying TGN...
+	cd $(SITE_ROOT)/tgn/site  &&  rsync -au --progress . usul:html/tgn
+	@echo Deploying 40 and 20...
+	cd $(SITE_ROOT)/wcl/site  &&  rsync -au --progress . usul:html/wcl
 
 .PHONY: clean
 clean:
