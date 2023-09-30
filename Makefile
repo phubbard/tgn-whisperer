@@ -36,5 +36,5 @@ deploy:
 
 .PHONY: clean
 clean:
-	-rm -rf podcasts/*/episodes/* sites/*/site
+	-rm -rf $(PODCAST_ROOT)/*/episodes/* $(SITE_ROOT)/*/site
 
