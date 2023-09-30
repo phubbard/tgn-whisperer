@@ -18,7 +18,7 @@ dest_html=$(shell echo $(p_dest_html))
 dest_md=$(shell echo $(p_dest_md))
 
 # Declare the target three files and a single target name for manual ops
-all: $(dest_mp3) $(dest_txt) $(dest_html) $(dest_md) speaker-map.json
+all: $(dest_mp3) $(dest_txt) $(dest_html) $(dest_md)
 
 $(dest_mp3): episode.mp3
 	cp -c episode.mp3 $(dest_mp3)
@@ -37,7 +37,7 @@ episode.mp3:
 	@echo Now downloading $(shell pwd)
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
-episode-transcribed.json: episode.mp3 openai.json
+episode-transcribed.json: episode.mp3
 	@echo Now transcribing $(shell pwd)
 	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error
 
@@ -47,11 +47,8 @@ episode.txt: episode-transcribed.json
 episode.html: episode.json
 	cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links
 
-episode.md: episode.txt
-	python3 ../../../app/to_markdown.py
-
-speaker-map.json: episode-transcribed.json episode.md
-	python3 ../../../app/oai-cleanup.py
+episode.md: episode-transcribed.json
+	python3 ../../../app/episode.py
 
 clean:
 	-rm episode.mp3 episode.txt episode.md episode.html episode-transcribed.json

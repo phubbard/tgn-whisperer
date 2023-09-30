@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 # See https://github.com/petereon/beaupy
@@ -21,10 +22,25 @@ config = Config()
 config.raise_on_interrupt = True
 console = Console()
 
+
 # Heuristics - look for 'Interview' in description
 # Look for Andrew or James in first few utterances and prompt for 'is this correct' => 80% solution
 # Consider moving speaker map to a separate json file / make target as a next step. then can run
 # 'make attribution' as an interactive task but main task runs unattended.
+def tgn_heuristic(first_utterance: str, description: str) -> dict:
+    if 'my name is james' in first_utterance.lower() and 'interview' not in description.lower():
+        rc = defaultdict(lambda: UNKNOWN)
+        rc['SPEAKER_00'] = 'James Stacey'
+        rc['SPEAKER_01'] = 'Jason Heaton'
+        return rc
+
+
+def wcl_heuristic(first_utterance: str, description: str) -> dict:
+    if 'andrew and my good friend everett' in first_utterance.lower() and 'interview' not in description.lower():
+        rc = defaultdict(lambda: UNKNOWN)
+        rc['SPEAKER_00'] = 'Andrew'
+        rc['SPEAKER_01'] = 'Everett'
+        return rc
 
 
 def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dict:
@@ -32,7 +48,6 @@ def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dic
     # Build a lookup table / map e.g.
     # SPEAKER_00 : "James Stacey"
     speaker_map = {}
-
     unknown_speakers = possible_speakers.copy()
     done = False
     while unknown_speakers and not done:
@@ -74,7 +89,8 @@ def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dic
 def process_transcription():
     console.print('Reading episode...')
     episode = json.load(open(EPISODE_TRANSCRIBED_JSON, 'r'))
-    console.print('Processing')
+    episode_json = json.load(open('episode.json', 'r'))
+
     # The default format has chunks of text. We want to append them until the speaker changes.
     rc = []
     speaker = None
@@ -117,19 +133,29 @@ def process_transcription():
     # Guess the podcast based on finding tgn or wcl in the path.
     cur_file = Path(EPISODE_TRANSCRIBED_JSON)
     fullpath = str(cur_file.absolute())
-    if fullpath.find('wcl') > 0:
+    heuristic = None
+    if 'wcl' in fullpath:
         console.print('Guessing 40 and 20')
         possible_speakers = {'Andrew', 'Everett'}
-    else:
+        heuristic = wcl_heuristic
+    elif 'tgn' in fullpath:
         console.print('Guessing TGN')
         possible_speakers = {'James Stacey', 'Jason Heaton'}
+        heuristic = tgn_heuristic
+    else:
+        raise Exception('Unknown podcast')
 
     sm_file = Path(SPEAKER_MAP)
     if sm_file.exists():
         console.print(f'Reprocessing from existing {SPEAKER_MAP}')
         speaker_map = json.load(open(SPEAKER_MAP, 'r'))
     else:
-        speaker_map = attribute_podcast(speakers, for_attrib, possible_speakers)
+        auto = heuristic(rc[0][2], episode_json['title'])
+        if auto is None:
+            speaker_map = attribute_podcast(speakers, for_attrib, possible_speakers)
+        else:
+            console.print(f'Auto-attributed episode {episode_json["title"]}')
+            speaker_map = auto
 
     if not speaker_map:
         console.print('Aborting attribution')
@@ -142,11 +168,28 @@ def process_transcription():
         rc[idx] = (rc[idx][0], speaker_map[rc[idx][1]], rc[idx][2])
 
     # Time to make some markdown
+    md_string = f'''
+    # {episode_json['title']}
+    Published on {episode_json['pub_date']}
+
+    {episode_json['subtitle']}
+
+    # Links
+    - [episode page]({episode_json['episode_url']})
+    - [episode MP3]({episode_json['mp3_url']})
+    - [episode text](episode.txt)
+    - [episode webpage snapshot](episode.html)
+    - [episode MP3 - local mirror](episode.mp3)
+
+    # Transcript    
+    '''
+    fh = open('episode.md', 'w')
+    fh.write(md_string)
+
     body = '|*Time(sec)*|*Speaker*||\n|----|----|----|\n'
     for chunk in rc:
         body += f"|{chunk[0]}|{chunk[1]}|{chunk[2]}|\n"
 
-    fh = open('episode.md', 'w+')
     fh.write(body)
     fh.close()
 
