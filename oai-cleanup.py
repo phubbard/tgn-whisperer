@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import sys
 # OctoAI returns an annoying format. This script chunks that up. Seems like they should provide this, but whatevs.
 # Now that chunking works, I want a fast, interactive way to do speaker attribution, such that the transcript has
 # proper names on it. I had code that did one TGN intro, but i wasn't happy with it so I'm trying a new approach.
@@ -10,6 +10,10 @@ import json
 # See https://github.com/petereon/beaupy
 from beaupy import confirm, prompt, select, select_multiple, Config
 from rich.console import Console
+
+UNKNOWN = 'Unknown'
+NEW_NAME = '- New name'
+
 config = Config()
 config.raise_on_interrupt = True
 console = Console()
@@ -21,30 +25,47 @@ console = Console()
 
 
 def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dict:
+    # TODO: add ability to print surrounding lines to resolve ambiguity. Need to pass indices instead of contents.
     # Build a lookup table / map e.g.
     # SPEAKER_00 : "James Stacey"
-    speaker_map = defaultdict(lambda: 'Unknown')
-    unknown_speakers = possible_speakers
+    speaker_map = {}
+
+    unknown_speakers = possible_speakers.copy()
     done = False
     while unknown_speakers and not done:
-        rc = lines.copy()
-        unkn_lines = [x for x in rc if x[1] not in speaker_map]
+        all_lines = lines.copy()
+        unkn_lines = [x for x in all_lines if x[1] not in speaker_map]
         if not unkn_lines:
             done = True
             continue
+        # Work on one line at a time
         line = unkn_lines[0]
-        console.print(f"Which speaker said '{line[2]}'?")
-        cur_speaker = select(list(unknown_speakers))
-        if cur_speaker:
-            speaker_map[line[1]] = cur_speaker
-            unknown_speakers.difference(cur_speaker)
+        console.print(f'Which person said "{line[2]}"?')
+        # TODO look for name in line and sort choices
+        choices = list(unknown_speakers)
+        choices.append(UNKNOWN)
+        choices.append(NEW_NAME)
+        selection = select(choices)
+        if selection:
+            if selection == NEW_NAME:
+                selection = prompt('Enter new name', target_type=str, validator=lambda x: len(x) > 1)
+            speaker_map[line[1]] = selection
+            unknown_speakers.difference(selection)
+            pass
         else:
             done = True
 
-    console.print(speaker_map)
-    if confirm("Is that map correct and complete?", default_is_yes=True):
+    console.print('Done attributing. Results:')
+    for key in speaker_map.keys():
+        console.print(f"{key} is {speaker_map[key]}")
+
+    choices = ['Accept', 'Redo', 'Abort']
+    selection = select(choices)
+    if selection == 'Accept':
         return speaker_map
-    return attribute_podcast(speakers, lines, possible_speakers)
+    if selection == 'Redo':
+        return attribute_podcast(speakers, lines, possible_speakers)
+    return {}
 
 
 def process_transcription():
@@ -82,6 +103,7 @@ def process_transcription():
         speakers.add(chunk[1])
     console.print(f"{len(speakers)} unique speakers found")
 
+    # Filter - send one line from each speaker, not just first few lines.
     for_attrib = []
     for speaker in speakers:
         for line in rc:
@@ -89,10 +111,12 @@ def process_transcription():
                 for_attrib.append(line)
                 break
 
-    # TODO Filter - send one line from each speaker, not just first few lines.
-    speaker_map = attribute_podcast(speakers, for_attrib, set(['James Stacey', 'Jason Heaton', 'Unknown']))
-    print(f'{speaker_map=}')
+    speaker_map = attribute_podcast(speakers, for_attrib, set(['James Stacey', 'Jason Heaton']))
+    if not speaker_map:
+        console.print('Aborting attribution')
+        sys.exit(1)
 
+    # Now use the map
     for idx, _ in enumerate(rc):
         rc[idx] = (rc[idx][0], speaker_map[rc[idx][1]], rc[idx][2])
 
