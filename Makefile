@@ -9,6 +9,34 @@ all: directories episodes site deploy
 directories: 
 	python3 app/process.py
 
+
+
+PODCAST_ROOT := podcasts
+
+PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
+
+
+.PHONY: \
+bradstart
+bradstart: 
+	@echo BRADRULE: starting
+
+
+$(PODCAST_ROOT)/%: bradstart
+	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile talk
+
+
+brad:
+	@echo BRADRULE: PODCAST_DIRS = $(PODCAST_DIRS)
+	false
+
+
+bradloop: $(PODCAST_DIRS)
+	@echo BRADRULE: finished
+
+
+
+
 episodes: directories
 	@for dir in $(dir $(wildcard podcasts/*/*/.)); do \
 		cd $$dir; \
