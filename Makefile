@@ -27,6 +27,7 @@ $(SITE_ROOT)/%: episodes
 site: $(SITE_DIRS)
 	@echo Finished with all sites
 
+# Really excellent rsync reference: https://michael.stapelberg.ch/posts/2022-06-18-rsync-overview/
 deploy:
 	@echo Deploying TGN...
 	cd $(SITE_ROOT)/tgn/site  &&  rsync -au --progress . usul:html/tgn
