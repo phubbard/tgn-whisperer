@@ -11,5 +11,5 @@ episode.md
 __pycache__
 episodes.md
 podcasts
-tgn-etag.txt
-tgn-notified.json
+*-etag.txt
+*-notified.json

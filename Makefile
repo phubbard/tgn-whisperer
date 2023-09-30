@@ -6,51 +6,29 @@
 .DELETE_ON_ERROR:
 all: directories episodes site deploy
 
+PODCAST_ROOT := podcasts
+PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
+SITE_ROOT    := sites
+SITE_DIRS    := $(dir $(wildcard $(SITE_ROOT)/*/.))
+
+
 directories: 
 	python3 app/process.py
 
-
-
-PODCAST_ROOT := podcasts
-
-PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
-
-
-.PHONY: \
-bradstart
-bradstart: 
-	@echo BRADRULE: starting
-
-
-$(PODCAST_ROOT)/%: bradstart
+$(PODCAST_ROOT)/%: directories
 	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile talk
 
+episodes: $(PODCAST_DIRS)
+	@echo Finished with all episodes
 
-brad:
-	@echo BRADRULE: PODCAST_DIRS = $(PODCAST_DIRS)
-	false
+$(SITE_ROOT)/%: episodes
+	cd $(SITE_ROOT)/$*  &&  mkdocs build
 
-
-bradloop: $(PODCAST_DIRS)
-	@echo BRADRULE: finished
-
-
+site: $(SITE_DIRS)
+	@echo Finished with all sites
 
 
-episodes: directories
-	@for dir in $(dir $(wildcard podcasts/*/*/.)); do \
-		cd $$dir; \
-		$(MAKE) -f ../../../episode_makefile; \
-		cd ../../../; \
-	done
-
-site:
-	@for dir in $(dir $(wildcard sites/*/.)); do \
-		cd $$dir; \
-		mkdocs build; \
-		cd ../../; \
-	done	
-
+# Brad note: lets discuss the compound bash command below
 deploy:
 	cd sites/tgn/site; \
 	@echo Deploying TGN...; \
