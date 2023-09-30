@@ -148,7 +148,9 @@ def process_transcription():
     sm_file = Path(SPEAKER_MAP)
     if sm_file.exists():
         console.print(f'Reprocessing from existing {SPEAKER_MAP}')
-        speaker_map = json.load(open(SPEAKER_MAP, 'r'))
+        file_map = json.load(open(SPEAKER_MAP, 'r'))
+        speaker_map = defaultdict(lambda: UNKNOWN)  # FIXME make this a shared/global
+        speaker_map.update(file_map)
     else:
         auto = heuristic(rc[0][2], episode_json['title'])
         if auto is None:
