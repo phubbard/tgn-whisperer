@@ -11,3 +11,5 @@ episode.md
 __pycache__
 episodes.md
 podcasts
+*-etag.txt
+*-notified.json
