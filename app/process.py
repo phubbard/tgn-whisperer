@@ -1,12 +1,10 @@
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
-from dateutil.parser import parse as parsedate
 from email.message import EmailMessage
 import json
 import logging
 from os import getenv
-from os.path import getmtime
 from pathlib import Path
 import re
 import smtplib

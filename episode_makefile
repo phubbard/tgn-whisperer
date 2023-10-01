@@ -54,5 +54,5 @@ clean:
 	-rm episode.mp3 episode.txt episode.md episode.html episode-transcribed.json
 
 talk:
-	echo "Running in $(shell pwd)"
+	@echo "Running in $(shell pwd)"
 

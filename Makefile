@@ -16,7 +16,7 @@ directories:
 	python3 app/process.py
 
 $(PODCAST_ROOT)/%: directories
-	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile talk
+	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
 episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
