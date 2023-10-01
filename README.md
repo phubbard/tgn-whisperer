@@ -2,7 +2,12 @@
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
 I had the idea of transcribing the podcast of some friends of mine, 
-[The Grey Nato](https://thegreynato.com/)
+[The Grey Nato](https://thegreynato.com/) initially, and now also [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/)
+
+It's running on my trusty M1 Mac Mini. The Whisper.cpp binary is ARM-only.
+
+After I got this working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
+with speaker diarization. Off we go!
 
 This repo is the code and some notes for myself and others. As of 9/24/2023, the code handles two podcasts and is working 
 well. In the octoai branch, I'm working on replacing Whisper.cpp with calls to WhisperX, because that has speaker 
@@ -79,6 +84,5 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 
 # Further work and open questions
 
-1. email notifications on new episodes
-2. WhisperX
-3. Performance improvements (in progress - the Makefile rewrites were huge)
+1. Performance improvements (in progress - the Makefile rewrites were huge)
+

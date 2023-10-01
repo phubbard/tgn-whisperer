@@ -10,14 +10,14 @@ directories:
 	python3 app/process.py
 
 episodes: directories
-	for dir in $(dir $(wildcard podcasts/*/*/.)); do \
+	@for dir in $(dir $(wildcard podcasts/*/*/.)); do \
 		cd $$dir; \
 		$(MAKE) -f ../../../episode_makefile; \
 		cd ../../../; \
 	done
 
 site:
-	for dir in $(dir $(wildcard sites/*/.)); do \
+	@for dir in $(dir $(wildcard sites/*/.)); do \
 		cd $$dir; \
 		mkdocs build; \
 		cd ../../; \
@@ -25,10 +25,11 @@ site:
 
 deploy:
 	cd sites/tgn/site; \
+	@echo Deploying TGN...; \
 	rsync -au --progress . usul:html/tgn; \
 	cd ../../wcl/site; \
+	@echo Deploying 40 and 20...; \
 	rsync -au --progress . usul:html/wcl; \
-
 
 .PHONY: clean
 clean:

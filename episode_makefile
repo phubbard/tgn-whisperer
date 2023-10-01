@@ -1,8 +1,7 @@
-# For each episode, we download the MP3, convert it to wav then run the model on it.
+# For each episode, we download the MP3, for local hosting, and then call out to WhisperX.
 # Once that's done, we convert the output to markdown and deploy it to the site.
 # Made much simpler by having a JSON config file (fields extracted via jq) and
 # fixed filenames for each step of the process.
-
 # The jq output results in embedded quote characters, so we need two steps. Three, to cache the jq step.
 dest_dir:=$(shell cat episode.json | jq .site_directory)
 
@@ -35,19 +34,22 @@ $(dest_md): episode.md
 
 # Now declare how to create them.
 episode.mp3:
+	@echo Now downloading $(shell pwd)
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
-episode.wav: episode.mp3
-	ffmpeg -i episode.mp3 -ar 16000 -ac 1 -c:a pcm_s16le episode.wav
+episode-transcribed.json: episode.mp3
+	@echo Now transcribing $(shell pwd)
+	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error
 
-episode.txt: episode.wav
-	../../../main -m ../../../models/ggml-base.en.bin -nt -pp -f episode.wav -otxt -of episode
+episode.txt: episode-transcribed.json
+	cat episode-transcribed.json | jq .transcription > episode.txt
 
-episode.html:
+episode.html: episode.json
 	cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links
 
-episode.md: episode.txt
-	python3 ../../../app/to_markdown.py
+episode.md: episode-transcribed.json
+	python3 ../../../app/episode.py
 
 clean:
-	-rm episode.mp3 episode.wav episode.txt episode.md episode.html
+	-rm episode.mp3 episode.txt episode.md episode.html episode-transcribed.json
+
