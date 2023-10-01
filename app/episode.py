@@ -47,10 +47,11 @@ def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dic
     # TODO: add ability to print surrounding lines to resolve ambiguity. Need to pass indices instead of contents.
     # Build a lookup table / map e.g.
     # SPEAKER_00 : "James Stacey"
-    speaker_map = {}
+    speaker_map = defaultdict(lambda: UNKNOWN)
     unknown_speakers = possible_speakers.copy()
     done = False
     while unknown_speakers and not done:
+        console.print('')
         all_lines = lines.copy()
         unkn_lines = [x for x in all_lines if x[1] not in speaker_map]
         if not unkn_lines:
@@ -58,7 +59,7 @@ def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dic
             continue
         # Work on one line at a time
         line = unkn_lines[0]
-        console.print(f'Which person said "{line[2]}"?')
+        console.print(f'[red]Which person said [/][green]"{line[2]}"[/]?')
         # TODO look for name in line and sort choices
         choices = list(unknown_speakers)
         choices.append(UNKNOWN)
@@ -68,14 +69,13 @@ def attribute_podcast(speakers: set, lines: list, possible_speakers: set) -> dic
             if selection == NEW_NAME:
                 selection = prompt('Enter new name', target_type=str, validator=lambda x: len(x) > 1)
             speaker_map[line[1]] = selection
-            unknown_speakers.difference(selection)
-            pass
+            unknown_speakers.discard(selection)
         else:
             done = True
 
     console.print('Done attributing.')
-    # for key in speaker_map.keys():
-    #     console.print(f"{key} is {speaker_map[key]}")
+    for key in speaker_map.keys():
+        console.print(f"{key} is {speaker_map[key]}")
     #
     choices = ['Accept', 'Redo', 'Abort']
     selection = select(choices)
@@ -101,7 +101,6 @@ def process_transcription():
         if speaker != chunk['speaker']:
             # Dump the buffered output
             if speaker:
-                # print(f"{start} {speaker} {text_chunk}")
                 rc.append((start, speaker, text_chunk))
 
             speaker = chunk['speaker']
@@ -110,7 +109,6 @@ def process_transcription():
         else:
             text_chunk += chunk['text']
 
-    # print(f"{start} {speaker} {text_chunk}")
     rc.append((start, speaker, text_chunk))
 
     # Now we have an array of chunks, each of which is a tuple of start time, speaker, text. Can we name the speakers?
@@ -154,6 +152,7 @@ def process_transcription():
     else:
         auto = heuristic(rc[0][2], episode_json['title'])
         if auto is None:
+            console.print('Manual attribution required, heuristic failed.')
             speaker_map = attribute_podcast(speakers, for_attrib, possible_speakers)
         else:
             console.print(f'Auto-attributed episode {episode_json["title"]}')
