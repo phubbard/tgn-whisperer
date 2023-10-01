@@ -111,6 +111,9 @@ def process_transcription():
 
     rc.append((start, speaker, text_chunk))
 
+    with open('junk.json', 'w') as fh:
+        json.dump(rc, fh)
+        
     # Now we have an array of chunks, each of which is a tuple of start time, speaker, text. Can we name the speakers?
     console.print('Attributing...')
 
