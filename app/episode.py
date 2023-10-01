@@ -23,6 +23,54 @@ config.raise_on_interrupt = True
 console = Console()
 
 
+SPEAKER_UNKNOWN = UNKNOWN
+
+
+class AttributionSession:
+    def __init__(self, tag, *typical_speakers):
+        self.AS_TAG              = tag
+        self.AS_TYPICAL_SPEAKERS = typical_speakers
+        self.__active_speakers   = []
+        self.__good_guess        = False
+
+    def specify_via_heuristic(self):
+        self.__active_speakers = list(self.AS_TYPICAL_SPEAKERS)
+        self.__good_guess      = True
+
+    def specify_next_speaker(self, speaker):
+        self.__active_speakers.append(speaker)
+
+    def retrieve_attribution_result(self):
+        return tuple(self.__active_speakers)
+
+
+def global_heuristic(tag: str, raw_first_utterance: str, raw_description: str):
+
+    first = raw_first_utterance.lower() 
+    desc  = raw_description.lower()
+
+    good_guess = False
+    session    = None
+
+    if False: pass
+    elif tag == 'tgn':
+        session    = AttributionSession(tag, "James Stacey", "Jason Heaton")
+        good_guess = good_guess or (    ('my name is james' in first) 
+                                    and ('interview' not in desc)
+                                   )
+    elif tag == 'wcl':
+        session    = AttributionSession('wcl', "Andrew", "Everett")
+        good_guess = good_guess or (('andrew and my good friend everett' in first) 
+                                    and ('interview' not in desc)
+                                    )
+
+    return heuristic_succeeded, returned_session
+
+
+class AttributionClassifier:
+    TGN_DEFAULT_GROUP = AttributionSession('tgn', )
+
+
 # Heuristics - look for 'Interview' in description
 # Look for Andrew or James in first few utterances and prompt for 'is this correct' => 80% solution
 # Consider moving speaker map to a separate json file / make target as a next step. then can run
