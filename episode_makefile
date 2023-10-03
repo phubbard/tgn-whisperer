@@ -37,7 +37,7 @@ episode.mp3:
 	@echo Now downloading $(shell pwd)
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
-episode-transcribed.json: episode.mp3
+episode-transcribed.json:
 	@echo Now transcribing $(shell pwd)
 	curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error
 
