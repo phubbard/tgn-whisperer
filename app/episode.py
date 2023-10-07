@@ -5,7 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 
 # See https://github.com/petereon/beaupy
-from beaupy import confirm, prompt, select, select_multiple, Config
+from beaupy import prompt, select, Config
 from rich.console import Console
 
 EPISODE_TRANSCRIBED_JSON = 'episode-transcribed.json'
@@ -18,6 +18,7 @@ SPEAKER_MAP = 'speaker-map.json'
 UNKNOWN = 'Unknown'
 NEW_NAME = '- New name'
 
+# Tell Beaupy raise an exception on control-C
 config = Config()
 config.raise_on_interrupt = True
 console = Console()
@@ -113,7 +114,7 @@ def process_transcription():
 
     with open('junk.json', 'w') as fh:
         json.dump(rc, fh)
-        
+
     # Now we have an array of chunks, each of which is a tuple of start time, speaker, text. Can we name the speakers?
     console.print('Attributing...')
 
@@ -131,16 +132,14 @@ def process_transcription():
                 for_attrib.append(line)
                 break
 
-    # Guess the podcast based on finding tgn or wcl in the path.
+    # Guess the podcast based on finding tgn or wcl in the path and set up heuristic for speaker attribution.
     cur_file = Path(EPISODE_TRANSCRIBED_JSON)
     fullpath = str(cur_file.absolute())
     heuristic = None
     if 'wcl' in fullpath:
-        console.print('Guessing 40 and 20')
         possible_speakers = {'Andrew', 'Everett'}
         heuristic = wcl_heuristic
     elif 'tgn' in fullpath:
-        console.print('Guessing TGN')
         possible_speakers = {'James Stacey', 'Jason Heaton'}
         heuristic = tgn_heuristic
     else:
@@ -153,23 +152,28 @@ def process_transcription():
         speaker_map = defaultdict(lambda: UNKNOWN)  # FIXME make this a shared/global
         speaker_map.update(file_map)
     else:
+        # See if they have the usual opening line from which to attribute
         auto = heuristic(rc[0][2], episode_json['title'])
         if auto is None:
-            console.print('Manual attribution required, heuristic failed.')
-            speaker_map = attribute_podcast(speakers, for_attrib, possible_speakers)
+            console.print(
+                f'[black]Manual attribution required, heuristic failed [/] for [blue]{episode_json["title"]}[/]')
+            # TODO this is a human/manual process, so leave a marker for offline processing
+            open("attribution-needed", 'w').close()
+            # speaker_map = attribute_podcast(speakers, for_attrib, possible_speakers)
+            speaker_map = None
         else:
-            console.print(f'Auto-attributed episode {episode_json["title"]}')
+            console.print(f'[green]Auto-attributed episode {episode_json["title"]}[/]')
             speaker_map = auto
 
-    if not speaker_map:
-        console.print('Aborting attribution')
-        sys.exit(1)
+    if speaker_map is not None:
+        # console.print('Aborting attribution')
+        # sys.exit(1)
 
-    json.dump(speaker_map, open(SPEAKER_MAP, 'w'))
+        json.dump(speaker_map, open(SPEAKER_MAP, 'w'))
 
-    # Now use the map
-    for idx, _ in enumerate(rc):
-        rc[idx] = (rc[idx][0], speaker_map[rc[idx][1]], rc[idx][2])
+        # Now use the map
+        for idx, _ in enumerate(rc):
+            rc[idx] = (rc[idx][0], speaker_map[rc[idx][1]], rc[idx][2])
 
     # Time to make some markdown
     md_string = f'''

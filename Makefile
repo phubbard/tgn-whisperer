@@ -4,7 +4,7 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: directories episodes site deploy
+all: directories episodes site
 
 PODCAST_ROOT := podcasts
 PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
