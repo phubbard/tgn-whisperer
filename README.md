@@ -2,18 +2,19 @@
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
 I had the idea of transcribing the podcast of some friends of mine, 
-[The Grey Nato](https://thegreynato.com/) initially, and now also [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/)
+[The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) podcast that I also enjoy.
 
 It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
 
-- [https://www.phfactor.net/tgn/](https://www.phfactor.net/tgn/)
-- https://www.phfactor.net/wcl/](https://www.phfactor.net/wcl/)
+- [The Compleat Grey Nato](https://www.phfactor.net/tgn/)
+- [The Compleat 40 & 20](https://www.phfactor.net/wcl/)
 
-Take a look! 
+Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
+find the results useful.
 
 After I got whisper.cpp working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
 with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step is naming each 
-speaker via a combination of heuristics and an LLM. Soon.
+speaker via a combination of heuristics and an LLM.
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
