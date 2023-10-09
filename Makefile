@@ -4,7 +4,7 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: directories episodes site
+all: directories episodes site deploy
 
 PODCAST_ROOT := podcasts
 PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
@@ -30,9 +30,9 @@ site: $(SITE_DIRS)
 # Really excellent rsync reference: https://michael.stapelberg.ch/posts/2022-06-18-rsync-overview/
 deploy:
 	@echo Deploying TGN...
-	cd $(SITE_ROOT)/tgn/site  &&  rsync -au --progress . usul:html/tgn
+	cd $(SITE_ROOT)/tgn/site  &&  rsync -a --delete --force --progress . usul:html/tgn
 	@echo Deploying 40 and 20...
-	cd $(SITE_ROOT)/wcl/site  &&  rsync -au --progress . usul:html/wcl
+	cd $(SITE_ROOT)/wcl/site  &&  rsync -a --delete --force --progress . usul:html/wcl
 
 .PHONY: clean
 clean:

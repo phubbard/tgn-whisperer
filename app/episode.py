@@ -112,6 +112,7 @@ def process_transcription():
 
     rc.append((start, speaker, text_chunk))
 
+    # TODO - remove this
     with open('junk.json', 'w') as fh:
         json.dump(rc, fh)
 
@@ -177,20 +178,20 @@ def process_transcription():
 
     # Time to make some markdown
     md_string = f'''
-    # {episode_json['title']}
-    Published on {episode_json['pub_date']}
+# {episode_json['title']}
+Published on {episode_json['pub_date']}
 
-    {episode_json['subtitle']}
+{episode_json['subtitle']}
 
-    # Links
-    - [episode page]({episode_json['episode_url']})
-    - [episode MP3]({episode_json['mp3_url']})
-    - [episode text](episode.txt)
-    - [episode webpage snapshot](episode.html)
-    - [episode MP3 - local mirror](episode.mp3)
+# Links
+- [episode page]({episode_json['episode_url']})
+- [episode MP3]({episode_json['mp3_url']})
+- [episode text](episode.txt)
+- [episode webpage snapshot](episode.html)
+- [episode MP3 - local mirror](episode.mp3)
 
-    # Transcript    
-    '''
+# Transcript    
+'''
     fh = open('episode.md', 'w')
     fh.write(md_string)
 
