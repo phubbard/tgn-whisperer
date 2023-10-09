@@ -4,14 +4,19 @@ With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whis
 I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/) initially, and now also [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/)
 
-It's running on my trusty M1 Mac Mini. The Whisper.cpp binary is ARM-only.
+It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
 
-After I got this working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
-with speaker diarization. Off we go!
+- [https://www.phfactor.net/tgn/](https://www.phfactor.net/tgn/)
+- https://www.phfactor.net/wcl/](https://www.phfactor.net/wcl/)
 
-This repo is the code and some notes for myself and others. As of 9/24/2023, the code handles two podcasts and is working 
-well. In the octoai branch, I'm working on replacing Whisper.cpp with calls to WhisperX, because that has speaker 
-diarization but it's waiting for vendor bugfixes. And it's not free.
+Take a look! 
+
+After I got whisper.cpp working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
+with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step is naming each 
+speaker via a combination of heuristics and an LLM. Soon.
+
+This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
+well. 
 
 ## Goals
 
@@ -22,15 +27,14 @@ diarization but it's waiting for vendor bugfixes. And it's not free.
 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
-3. Convert to 16-bit mono wave files (Whisper's input format) (ffmpeg)
-4. Call Whisper on each (command line, note hardwired for Mac/ARM)
+4. Call Whisper on each (command line, pass by reference)
+5. Speaker attribution (episode.py, work in progress)
 5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
 7. Publish (rsync)
-8. Profit! (as if)
 
 All of these are run and orchestrated by two Makefiles. Robust, portable, deletes
-outputs if interrupted, working pretty well. Note that the loop-over-episodes is a shell loop - this is a TODO.
+outputs if interrupted, working pretty well. 
 
 Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
 
@@ -81,8 +85,3 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 40 & 20, run Sep 24 2023 - fun to see the overlaps.
 
 ![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud")
-
-# Further work and open questions
-
-1. Performance improvements (in progress - the Makefile rewrites were huge)
-
