@@ -195,9 +195,9 @@ Published on {episode_json['pub_date']}
     fh = open('episode.md', 'w')
     fh.write(md_string)
 
-    body = '|*Time(sec)*|*Speaker*||\n|----|----|----|\n'
+    body = '|*Speaker*||\n|----|----|\n'
     for chunk in rc:
-        body += f"|{chunk[0]}|{chunk[1]}|{chunk[2]}|\n"
+        body += f"|{chunk[1]}|{chunk[2]}|\n"
 
     fh.write(body)
     fh.close()

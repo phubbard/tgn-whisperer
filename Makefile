@@ -21,6 +21,7 @@ $(PODCAST_ROOT)/%: directories
 episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
 
+.PHONY: sites
 sites:
 	@echo $(SITES)
 	cd $(SITES)/$*  &&  mkdocs build
