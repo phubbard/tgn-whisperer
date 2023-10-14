@@ -6,11 +6,12 @@
 .DELETE_ON_ERROR:
 all: directories episodes sites deploy
 
+SITE_LIST    := tgn wcl
+
 PODCAST_ROOT := podcasts
 PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
 SITE_ROOT    := siteroots
-SITE_DIRS    := $(dir $(wildcard $(SITE_ROOT)/*/.))
-SITE_EPISODES := $(shell find $(SITE_ROOT) -name episodes.md)
+SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
 directories: 
 	python3 app/process.py
@@ -22,11 +23,10 @@ episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
-	cd $(SITE_ROOT)/$*  &&  echo mkdocs build && touch site/index.html
+	cd $(SITE_ROOT)/$*  &&  mkdocs build
 
-sites: siteroots/tgn/site/index.html siteroots/wcl/site/index.html
-	@echo now all done
-	false
+sites: $(SITE_INDEXES)
+	@echo sites completed on $(SITE_INDEXES)
 
 # Really excellent rsync reference: https://michael.stapelberg.ch/posts/2022-06-18-rsync-overview/
 deploy:
