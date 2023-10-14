@@ -6,10 +6,10 @@ episode.html
 episode.mp3
 episode.txt
 episode.md
-
 .DS_Store
 __pycache__
 episodes.md
 podcasts
 *-etag.txt
 *-notified.json
+siteroots/*/site

@@ -8,9 +8,9 @@ all: directories episodes sites deploy
 
 PODCAST_ROOT := podcasts
 PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
-SITE_ROOT    := sites
+SITE_ROOT    := siteroots
 SITE_DIRS    := $(dir $(wildcard $(SITE_ROOT)/*/.))
-SITES:= $(dir $(wildcard $(SITE_ROOT)/*/.))
+SITE_EPISODES := $(shell find $(SITE_ROOT) -name episodes.md)
 
 directories: 
 	python3 app/process.py
@@ -21,10 +21,15 @@ $(PODCAST_ROOT)/%: directories
 episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
 
-.PHONY: sites
-sites:
-	@echo $(SITES)
-	cd $(SITES)/$*  &&  mkdocs build
+siteroots/tgn/site/index.html: ./siteroots/tgn/docs/episodes.md
+	cd siteroots/tgn  &&  mkdocs build
+
+siteroots/wcl/site/index.html: ./siteroots/wcl/docs/episodes.md
+	cd siteroots/wcl  &&  mkdocs build
+
+sites: siteroots/tgn/site/index.html siteroots/wcl/site/index.html
+	@echo now all done
+	false
 
 # Really excellent rsync reference: https://michael.stapelberg.ch/posts/2022-06-18-rsync-overview/
 deploy:
