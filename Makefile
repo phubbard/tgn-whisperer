@@ -21,11 +21,8 @@ $(PODCAST_ROOT)/%: directories
 episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
 
-siteroots/tgn/site/index.html: ./siteroots/tgn/docs/episodes.md
-	cd siteroots/tgn  &&  mkdocs build
-
-siteroots/wcl/site/index.html: ./siteroots/wcl/docs/episodes.md
-	cd siteroots/wcl  &&  mkdocs build
+$(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
+	cd $(SITE_ROOT)/$*  &&  echo mkdocs build && touch site/index.html
 
 sites: siteroots/tgn/site/index.html siteroots/wcl/site/index.html
 	@echo now all done
