@@ -4,13 +4,13 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: directories episodes sites deploy
+all: directories episodes deploy
 
 SITE_LIST    := tgn wcl
 
 PODCAST_ROOT := podcasts
 PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
-SITE_ROOT    := siteroots
+SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
 directories: 
@@ -22,18 +22,15 @@ $(PODCAST_ROOT)/%: directories
 episodes: $(PODCAST_DIRS)
 	@echo Finished with all episodes
 
+$(SITE_ROOT)/%/docs/episodes.md: directories
+	@echo Dependency on directories is satisfied for $*
+
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*  &&  mkdocs build
+	cd $(SITE_ROOT)/$*/site  &&  rsync -a --delete --force --progress . usul:html/$*
 
-sites: $(SITE_INDEXES)
-	@echo sites completed on $(SITE_INDEXES)
-
-# Really excellent rsync reference: https://michael.stapelberg.ch/posts/2022-06-18-rsync-overview/
-deploy:
-	@echo Deploying TGN...
-	cd $(SITE_ROOT)/tgn/site  &&  rsync -a --delete --force --progress . usul:html/tgn
-	@echo Deploying 40 and 20...
-	cd $(SITE_ROOT)/wcl/site  &&  rsync -a --delete --force --progress . usul:html/wcl
+deploy: $(SITE_INDEXES)
+	@echo deploy completed on $(SITE_INDEXES)
 
 .PHONY: clean
 clean:

@@ -12,6 +12,7 @@ import smtplib
 import requests
 import xmltodict
 
+SITE_ROOT = 'sites'
 system_admin = 'tgn-whisperer@phfactor.net'
 
 
@@ -289,7 +290,7 @@ def process_all_podcasts():
             continue
 
         basedir = Path('podcasts', podcast.name)
-        mkdocs_mainpage = Path('sites', podcast.name, 'docs', 'episodes.md')
+        mkdocs_mainpage = Path(SITE_ROOT, podcast.name, 'docs', 'episodes.md')
         log.debug(f'Removing {mkdocs_mainpage}')
         mkdocs_mainpage.unlink(missing_ok=True)
 
@@ -338,8 +339,8 @@ def process_all_podcasts():
             # Rewrite as POSIX path, as basic Paths can't serialize to JSON
             episode.directory = episode.directory.as_posix()
 
-            # mkdocs directory for this episode - sites/tgn/docs/40 for example
-            episode.site_directory = Path('sites', podcast.name, 'docs', str(episode.number)).absolute()
+            # mkdocs directory for this episode - siteroots/tgn/docs/40 for example
+            episode.site_directory = Path(SITE_ROOT, podcast.name, 'docs', str(episode.number)).absolute()
             if not episode.site_directory.exists():
                 log.debug(f"Creating site directory {episode.site_directory}")
                 episode.site_directory.mkdir(parents=True)
