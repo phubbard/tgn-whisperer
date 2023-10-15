@@ -295,7 +295,7 @@ def process_all_podcasts():
 
         # If possible, don't rewrite episodes.md, since that triggers mkdocs and rsync. Do a little extra work
         # here to see if (TGN) no actual new episodes are in the feed.
-        log.info(f'Fetching RSS feed {podcast.rss_url}')
+        log.info(f'{podcast.name} etag has changed, fetching RSS feed {podcast.rss_url}')
         rc = session.get(podcast.rss_url)
         if not rc.ok:
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')

@@ -13,3 +13,4 @@ podcasts
 *-etag.txt
 *-notified.json
 sites/*/site
+whisperer-cache.sqlite
