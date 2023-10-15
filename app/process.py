@@ -9,11 +9,12 @@ from pathlib import Path
 import re
 import smtplib
 
-import requests
+from requests_cache import CachedSession
 import xmltodict
 
 SITE_ROOT = 'sites'
 system_admin = 'tgn-whisperer@phfactor.net'
+session: CachedSession = CachedSession('whisperer-cache', cache_control=True)
 
 
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
@@ -34,7 +35,7 @@ OctoAI = {
     "task": "transcribe",
     "diarize": True,
     "min_speakers": 2,
-    "prompt": "The following is a conversation including James and Jason"  # FIXME for WCL
+    "prompt": "The following is a conversation including James and Jason"
 }
 
 
@@ -59,7 +60,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         super().__init__('mail.messagingengine.com', port=465)
         smtp_password = getenv('FASTMAIL_PASSWORD', None)
         if Path(".no_email").exists():
-            log.info('Honoring .no_email file')
+            log.warning('Honoring .no_email file')
             return
 
         if not smtp_password:
@@ -220,19 +221,20 @@ def send_failure_alert(fail_message):
                                subject='Error in podcast processing')
 
 
-def podcast_updated(podcast: Podcast) -> bool:
+def podcast_updated_etag(podcast: Podcast) -> bool:
     # Based on our saved last-updated time, are there new episodes? If not, don't
     # hammer their server. Internet manners. Method - call HEAD instead of GET
     # Note that HEAD doesn't include a timestamp, but does include the cache ETag, so
     # we simply snapshot the etag to disk and see if it differs.
+    # N.B. As of 10/14/2023, TGN is broken - new etag each time. WTF!
     filename = podcast.name + '-etag.txt'
     try:
-        r = requests.head(podcast.rss_url)
+        r = session.head(podcast.rss_url)
         url_etag = r.headers['ETag']
         file_etag = open(filename, 'r').read()
 
         if file_etag == url_etag:
-            log.info(f'No new episodes found in podcast {podcast.name}')
+            log.debug(f'No new episodes found in podcast {podcast.name} - etag matches {filename}')
             return False
     except FileNotFoundError:
         log.warning(f'File {filename} not found, creating.')
@@ -259,10 +261,10 @@ def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True
     new_eps = current_eps.difference(old_eps)
     new_count = len(new_eps)
     if not new_count or not save_updated:
-        log.info('No new episodes found to email')
+        log.debug(f'No new episodes found in {podcast_name}')
         return []
 
-    log.info(f'{new_count} new episodes found to email')
+    log.info(f'{new_count} new episodes found in {podcast_name}')
     log.info(f'Saving updated list of episodes in {podcast_name} to {filename}')
     json.dump(list(all_eps), open(filename, 'w'))
     return list(new_eps)
@@ -286,16 +288,15 @@ def process_all_podcasts():
         count = 0
 
         log.info(f'Processing {podcast.name}')
-        if not podcast_updated(podcast):
+        # Check if the RSS ETag has changed - WCL does this right, TGN is broken
+        if not podcast_updated_etag(podcast):
+            log.info(f"{podcast.name} etag has not changed - skipping.")
             continue
 
-        basedir = Path('podcasts', podcast.name)
-        mkdocs_mainpage = Path(SITE_ROOT, podcast.name, 'docs', 'episodes.md')
-        log.debug(f'Removing {mkdocs_mainpage}')
-        mkdocs_mainpage.unlink(missing_ok=True)
-
+        # If possible, don't rewrite episodes.md, since that triggers mkdocs and rsync. Do a little extra work
+        # here to see if (TGN) no actual new episodes are in the feed.
         log.info(f'Fetching RSS feed {podcast.rss_url}')
-        rc = requests.get(podcast.rss_url)
+        rc = session.get(podcast.rss_url)
         if not rc.ok:
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')
             continue
@@ -303,23 +304,45 @@ def process_all_podcasts():
         log.debug('Parsing XML')
         entries = xmltodict.parse(rc.text)
         ep_count = len(entries['rss']['channel']['item'])
+
+        log.info("Building episode list to check for new content")
+        current_ep_numbers = set()
+        fail_count = 0
+        for entry in entries['rss']['channel']['item']:
+            be_number = podcast.number_extractor_function(entry)
+            if be_number is None:
+                fail_count += 1
+            current_ep_numbers.add(be_number)
+
+        if fail_count:
+            fail_msg = f"UN-DISCERNIBLE EPISODES: -> {fail_count=}"
+            send_failure_alert(fail_msg)
+            sys.exit(1)
+
+        new_eps = new_episodes(podcast.name, list(current_ep_numbers))
+        if not new_eps:
+            log.info(f"No new episodes found in podcast {podcast.name}.")
+            continue
+
+        # At this point, we've handled numbering errors are certain we've new eps to process.
+        send_email(podcast.emails, new_eps, podcast.doc_base_url)
+
+        # Start rewriting episodes.md - there's new episode(s)
+        basedir = Path('podcasts', podcast.name)
+        mkdocs_mainpage = Path(SITE_ROOT, podcast.name, 'docs', 'episodes.md')
+        log.debug(f'Removing {mkdocs_mainpage}')
+        mkdocs_mainpage.unlink(missing_ok=True)
+
         ts = datetime.now().astimezone().isoformat()
         mkdocs_mainpage.write_text(f"### Page updated {ts} - {ep_count} episodes\n")
-        log.info(f"Found {ep_count} episodes in {podcast.name}")
-
-        fail_count = 0
-        current_ep_numbers = set()
+        log.info(f"Found {ep_count} episodes in {podcast.name}, {len(new_eps)} new")
 
         # This loop is over all episodes in the current podcast
         for entry in entries['rss']['channel']['item']:
 
             be_number = podcast.number_extractor_function(entry)
-            if be_number is None:
-                fail_count += 1  # TODO
-
             episode = Episode()
             episode.number = be_number
-            current_ep_numbers.add(be_number)
             episode.episode_url = unwrap_bitly(episode_url(entry))
             if 'subtitle' in entry:
                 episode.subtitle = entry['subtitle']
@@ -357,19 +380,10 @@ def process_all_podcasts():
             count += 1
         # Done with this podcast - check episode count
 
-        if fail_count:
-            fail_msg = f"UN-DISCERNIBLE EPISODES: -> {fail_count=}"
-            send_failure_alert(fail_msg)
-            sys.exit(1)
-
         if count == ep_count:
             log.info(f"Processed all {ep_count} episodes in {podcast.name}")
         else:
             log.warning(f"Processed {count} episodes out of {ep_count} possible")
-
-        new_eps = new_episodes(podcast.name, list(current_ep_numbers))
-        if new_eps:
-            send_email(podcast.emails, new_eps, podcast.doc_base_url)
 
 
 if __name__ == '__main__':
