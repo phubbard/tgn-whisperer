@@ -221,28 +221,6 @@ def send_failure_alert(fail_message):
                                subject='Error in podcast processing')
 
 
-def podcast_updated_etag(podcast: Podcast) -> bool:
-    # Based on our saved last-updated time, are there new episodes? If not, don't
-    # hammer their server. Internet manners. Method - call HEAD instead of GET
-    # Note that HEAD doesn't include a timestamp, but does include the cache ETag, so
-    # we simply snapshot the etag to disk and see if it differs.
-    # N.B. As of 10/14/2023, TGN is broken - new etag each time. WTF!
-    filename = podcast.name + '-etag.txt'
-    try:
-        r = session.head(podcast.rss_url)
-        url_etag = r.headers['ETag']
-        file_etag = open(filename, 'r').read()
-
-        if file_etag == url_etag:
-            log.debug(f'No new episodes found in podcast {podcast.name} - etag matches {filename}')
-            return False
-    except FileNotFoundError:
-        log.warning(f'File {filename} not found, creating.')
-
-    open(filename, 'w').write(url_etag)
-    return True
-
-
 def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True) -> list:
     # Given a list of new episodes (array of numbers), return a list of
     # episodes that were not in the saved list. As an optional side effect, update
@@ -288,14 +266,9 @@ def process_all_podcasts():
         count = 0
 
         log.info(f'Processing {podcast.name}')
-        # Check if the RSS ETag has changed - WCL does this right, TGN is broken
-        if not podcast_updated_etag(podcast):
-            log.info(f"{podcast.name} etag has not changed - skipping.")
-            continue
-
         # If possible, don't rewrite episodes.md, since that triggers mkdocs and rsync. Do a little extra work
         # here to see if (TGN) no actual new episodes are in the feed.
-        log.info(f'{podcast.name} etag has changed, fetching RSS feed {podcast.rss_url}')
+        log.info(f'{podcast.name}: Fetching RSS feed {podcast.rss_url}')
         rc = session.get(podcast.rss_url)
         if not rc.ok:
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')
