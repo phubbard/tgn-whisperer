@@ -2,3 +2,4 @@ site_name: The Compleat TGN
 nav:
   - Home: index.md
   - Episodes: episodes.md
+  - Show notes: snl.md
