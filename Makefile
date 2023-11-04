@@ -9,7 +9,7 @@ all: episodes deploy
 SITE_LIST    := tgn wcl
 
 PODCAST_ROOT := podcasts
-PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
+PODCAST_EPS  := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))/episode.md
 SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
@@ -19,7 +19,7 @@ $(PODCAST_ROOT)/%/episode.md:
 # directories:
 # 	@python3 app/process.py
 
-episodes: $(PODCAST_DIRS)
+episodes: $(PODCAST_EPS)
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*  &&  mkdocs -q build
