@@ -13,7 +13,7 @@ PODCAST_DIRS := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))
 SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
-$(PODCAST_ROOT)/%:
+$(PODCAST_ROOT)/%/episode.md:
 	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
 # directories:
