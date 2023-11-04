@@ -9,7 +9,7 @@ all: episodes deploy
 SITE_LIST    := tgn wcl
 
 PODCAST_ROOT := podcasts
-PODCAST_EPS  := $(dir $(wildcard $(PODCAST_ROOT)/*/*/.))/episode.md
+PODCAST_EPS  := $(patsubst %,%/episode.md,$(dir $(wildcard $(PODCAST_ROOT)/*/*/.)))
 SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
