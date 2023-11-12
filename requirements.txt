@@ -3,3 +3,4 @@ requests
 requests-cache
 mkdocs
 beaupy
+invoke

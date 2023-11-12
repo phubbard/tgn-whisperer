@@ -140,6 +140,7 @@ def episode_number_tgn(entry):
         "The Grey Nato - Question & Answer #1": 20.5,
         "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
         "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
+        "Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology": 260.5
     }
     title = entry['title']
 
