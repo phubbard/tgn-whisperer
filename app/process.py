@@ -135,7 +135,8 @@ def episode_number_tgn(entry):
         "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
         "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
         "The Grey NATO – A Week Off (And A Request!)": 160.5,
-        "Depth Charge - The Original Soundtrack by Oran Chan": 143.5,
+        "Depth Charge - The Original Soundtrack by Oran Chan"
+        "": 143.5,
         "The Grey Nato Ep 25  - Dream Watches 2017": 25,
         "The Grey Nato - Question & Answer #1": 20.5,
         "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,

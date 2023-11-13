@@ -4,3 +4,5 @@ requests-cache
 mkdocs
 beaupy
 invoke
+prefect
+httpx
