@@ -20,8 +20,9 @@ session: CachedSession = CachedSession('whisperer-cache', cache_control=True)
 log = get_run_logger()
 
 
-@task(retries=2, name="URL to file")
-def url_to_file(url: str, file: Path, overwrite: bool=False) -> Path:
+@task(retries=2, name="URL to file downloader")
+def url_to_file(url: str, file: Path, body: str = None, overwrite: bool=False) -> Path:
+    # TODO handle JSON body for OctoAI call
     if not overwrite:
         if file.exists():
             log.debug(f"Skipping download of {url} since destination {file} exists")
@@ -133,7 +134,7 @@ def populate_episode_dirs(episodes: list):
         json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'))
 
 
-@task(name="Make podcast directories")
+@task(name="Make podcast episode and mkdocs directories")
 def make_podcast_dirs(pod: Podcast, episodes: list):
     for episode in episodes:
         m_dir = Path(episode.directory)
@@ -160,13 +161,10 @@ def write_episodes_md(pod: Podcast, episodes: list):
     mkdocs_mainpage.write_text(f"### Page updated {ts} - {ep_count} episodes\n")
     log.info(f"Found {ep_count} episodes in {pod.name}")
     for episode in episodes:
-        mkdocs_mainpage.write_text(f"- [{episode.title}]({str(episode.number)}/episode.md) {episode.pub_date}\n"))
+        mkdocs_mainpage.write_text(f"- [{episode.title}]({str(episode.number)}/episode.md) {episode.pub_date}\n")
 
 
-@task(name="create episode directories")
-
-
-@task(name='mkdocs')
+@task(name='Generate site with mkdocs')
 def run_mkdocs(pod: Podcast):
     m_dir = Path(SITE_ROOT, pod.name)
     with os.chdir(m_dir):
@@ -189,3 +187,7 @@ def run_rsync(pod:Podcast):
             log.error(err_str)
             raise ValueError(err_str)
 
+
+@task(name='new episode email')
+def send_episode_email(pod: Podcast, new_eps: list):
+    send_email(pod.emails, new_eps, pod.doc_base_url)
