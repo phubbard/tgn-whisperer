@@ -19,6 +19,14 @@ speaker via a combination of heuristics and an LLM.
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
 
+## Acknowledgements
+
+![jetbrains logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png)
+
+Thank you to [JetBrains](https://jb.gg/OpenSourceSupport) for an open-source license for their developer tools. As of
+Dec 2023, I have a free year of their IDEs that I can use to work on this project. I've been using the excellent and 
+free Pycharm Community Edition, and am looking forward to the full PyCharm. And their other tools. Super cool of them.
+
 ## Goals
 
 1. Simple as possible - use existing tools whenever possible
