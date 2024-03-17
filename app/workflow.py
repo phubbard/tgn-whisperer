@@ -9,31 +9,36 @@ import os
 from pathlib import Path
 import shutil
 
+import httpx
 from prefect import flow, task, get_run_logger
-from requests_cache import CachedSession
 import xmltodict
 from configuration import PODCAST_ROOT, SITE_ROOT
 from per_podcast import episode_number, episode_url, unwrap_bitly
 from datastructures import Podcast, Episode, OctoAI
 from pod_email import send_email, send_failure_alert
-session: CachedSession = CachedSession('whisperer-cache', cache_control=True)
-log = get_run_logger()
+
+# log = get_run_logger()
 
 
 @task(retries=2, name="URL to file downloader")
 def url_to_file(url: str, file: Path, body: str = None, overwrite: bool=False) -> Path:
     # TODO handle JSON body for OctoAI call
+    # TODO consider adding retry function https://docs.prefect.io/latest/concepts/tasks/
+    # TODO handle 429s from OctoAI
     if not overwrite:
         if file.exists():
             log.debug(f"Skipping download of {url} since destination {file} exists")
-            return
-    rc = session.get(url)
+            return file
+
+    log.debug(f"Downloading {url} to {file}")
+    rc = httpx.get(url)
 
     # If not 2xx, throw exception that should be handled by the task wrapper
     rc.raise_for_status()
 
+    log.debug(f"Saving {url} to {file}")
     with open(file, 'w') as fw:
-        fw.write(rc.content)
+        fw.write(rc.text)
         log.info(f"Saved {url} to {file}")
         return file
 
@@ -128,7 +133,7 @@ def rss_cleanup(pod: Podcast, episodes: list) -> list:
     return rc
 
 
-@task(name="Populate episode directories")
+@task(name="Populate episode directories with episode.json")
 def populate_episode_dirs(episodes: list):
     for episode in episodes:
         json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'))
@@ -175,7 +180,7 @@ def run_mkdocs(pod: Podcast):
             raise ValueError(err_str)
 
 
-@task(name='rsync deploy')
+@task(name='Deploy with rsync')
 def run_rsync(pod:Podcast):
     # eg sites/tgn/site
     r_dir = Path(SITE_ROOT, pod.name, 'site')
@@ -188,6 +193,13 @@ def run_rsync(pod:Podcast):
             raise ValueError(err_str)
 
 
-@task(name='new episode email')
+@task(name='Send new-episode email')
 def send_episode_email(pod: Podcast, new_eps: list):
     send_email(pod.emails, new_eps, pod.doc_base_url)
+
+
+@task(name='Use LLM to attribute speakers')
+def attribute_speakers(pod: Podcast, ep: Episode) -> dict:
+    # TODO Stub, need to decide on an LLM and build it out
+    log.warning(f"LLM not yet implemented, using manual attribution for {ep.title}")
+    return {}

@@ -4,11 +4,10 @@ from email.message import EmailMessage
 import smtplib
 
 from prefect import get_run_logger
-
-
 log = get_run_logger()
 
 system_admin = 'tgn-whisperer@phfactor.net'
+
 
 class FastMailSMTP(smtplib.SMTP_SSL):
     """A wrapper for handling SMTP connections to FastMail.

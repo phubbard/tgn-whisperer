@@ -9,12 +9,10 @@ from pathlib import Path
 import re
 import smtplib
 
-from requests_cache import CachedSession
 import xmltodict
 
 SITE_ROOT = 'sites'
 system_admin = 'tgn-whisperer@phfactor.net'
-session: CachedSession = CachedSession('whisperer-cache', cache_control=True)
 
 
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.

@@ -13,7 +13,7 @@ title_matcher = re.compile(title_re)
 url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
 url_matcher = re.compile(url_rs)
 
-# Iterable to loop over
+# Iterable to loop over. Fields
 podcasts = [
     Podcast('tgn',
             'https://feeds.buzzsprout.com/2049759.rss',
