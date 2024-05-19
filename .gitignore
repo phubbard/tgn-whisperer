@@ -14,3 +14,4 @@ podcasts
 *-notified.json
 sites/*/site
 whisperer-cache.sqlite
+.env

@@ -1,6 +1,7 @@
 xmltodict
 requests
-requests-cache
 mkdocs
 beaupy
 invoke
+anthropic
+python-dotenv
