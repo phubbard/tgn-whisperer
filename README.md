@@ -37,7 +37,7 @@ free Pycharm Community Edition, and am looking forward to the full PyCharm. And 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
 4. Call Whisper on each (command line, pass by reference)
-5. Speaker attribution (episode.py, work in progress)
+5. Speaker attribution (attribute.py, preliminary working code using [Claude v3 Haiku](https://www.anthropic.com/news/claude-3-family))
 5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
 7. Publish (rsync)

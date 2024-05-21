@@ -1,5 +1,6 @@
 # pfh and brad hyslop 5/18/2024 - use LLM to do speaker attribution. Claude3 has a 200k token window so
 # we can do the whole episode in one go. Yay!
+# API docs https://pypi.org/project/anthropic/
 
 import json
 import os
@@ -55,7 +56,7 @@ def call_claude(client, text: str) -> dict:
     try:
         inter = extract_between_tags("attribution", message.content[0].text, strip=True)
         jsd = json.loads(inter[0])
-        pprint(jsd)
+        print(jsd)
     except json.JSONDecodeError as e:
         print(f"Error converting LLM output into valid JSON. {e=} {message.content=} {inter=}")
         # Sketchy. Save to a text file for later analysis.
@@ -87,6 +88,7 @@ def process_episode(directory='.', overwrite=False, input_fn=INPUT_FILE, output_
     print(f"Results written to {output_fn}.")
 
     """
+    Plan/TODO:
     Load the input file as json. This is a list of tuples, each of which is a start time, speaker, and text chunk.
     Stuff the speaker names into a set, check cardinality for sanity checking the results back from Claude.
     Send json.dumps to Claude, get back a json dictionary of speaker names.
