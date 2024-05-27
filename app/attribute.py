@@ -56,7 +56,7 @@ Put this dictionary in <attribution> tags.
 
 
 # Call Claude with the text and return the speaker map.
-@retry(stop=(stop_after_attempt(2)))
+@retry(stop=(stop_after_attempt(3)))
 @log.catch(reraise=True)
 def call_claude(client, text: str) -> defaultdict:
     message = client.messages.create(
