@@ -23,7 +23,8 @@ episodes: $(PODCAST_EPS)
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*  &&  mkdocs -q build
-	cd $(SITE_ROOT)/$*/site  &&  rsync -qrpgD --delete --force . usul:html/$*
+#	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . usul:html/$*
+	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . web:html/$*
 
 deploy: $(SITE_INDEXES)
 

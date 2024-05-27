@@ -7,7 +7,6 @@ from os import getenv
 from pathlib import Path
 import re
 import smtplib
-
 import requests
 from dotenv import load_dotenv
 from loguru import logger as log
@@ -15,7 +14,6 @@ import xmltodict
 
 SITE_ROOT = 'sites'
 system_admin = 'tgn-whisperer@phfactor.net'
-
 load_dotenv()  # take environment variables from .env.
 
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
@@ -58,7 +56,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
     def __init__(self):
         self.no_email = True
 
-        super().__init__('mail.messagingengine.com', port=465)
+        super().__init__('smtp.fastmail.com', port=465)
         smtp_password = getenv('FASTMAIL_PASSWORD', None)
         if Path(".no_email").exists():
             log.warning('Honoring .no_email file')
@@ -76,15 +74,15 @@ class FastMailSMTP(smtplib.SMTP_SSL):
                         to_addrs,
                         msg,
                         subject):
+        if self.no_email:
+            log.info('Email send disabled')
+            return
+
         msg_root = EmailMessage()
         msg_root['Subject'] = subject
         msg_root['From'] = from_addr
         msg_root['To'] = ', '.join(to_addrs)
         msg_root.set_payload(msg)
-
-        if self.no_email:
-            log.info('Email send disabled')
-            return
 
         self.sendmail(from_addr, to_addrs, msg_root.as_string())
 
@@ -137,7 +135,8 @@ def episode_number_tgn(entry):
         "The Grey Nato - Question & Answer #1": 20.5,
         "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
         "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
-        "Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology": 260.5
+        "Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology": 260.5,
+        "The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland": 282.5
     }
     title = entry['title']
 
@@ -147,7 +146,7 @@ def episode_number_tgn(entry):
 
     as_split = re.split(r'[-‒–—]', title)
     if len(as_split) < 2:
-        log.warning(f"FAIL: -> {title}")
+        log.warning(f"EP NUMBER FAIL -> {title}")
         return None
 
     second = as_split[1].strip()
