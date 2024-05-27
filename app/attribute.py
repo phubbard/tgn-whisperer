@@ -1,13 +1,18 @@
 # pfh and brad hyslop 5/18/2024 - use LLM to do speaker attribution. Claude3 has a 200k token window so
 # we can do the whole episode in one go. Yay!
 # API docs https://pypi.org/project/anthropic/
+# Loguru https://www.pythonpapers.com/p/an-intro-to-logging-with-loguru
 
+from collections import defaultdict
 import json
 import os
 import re
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
+from loguru import logger as log
+from tenacity import retry, stop_after_attempt
+
 
 load_dotenv()  # take environment variables from .env.
 
@@ -15,16 +20,17 @@ INPUT_FILE = "junk.json"
 OUTPUT_FILE = "speaker-map.json"
 
 
+@log.catch
 def check_conditions(input_fn, output_fn, client):
     # exception on fatal errors, False if output file exists
     if not os.path.exists(input_fn):
-        print(f"Input file {input_fn} does not exist.")
+        log.error(f"Input file {input_fn} does not exist.")
         raise FileNotFoundError
     if os.path.exists(output_fn):
-        print(f"Output file {output_fn} already exists.")
+        log.warning(f"Output file {output_fn} already exists.")
         return False
     if not client:
-        print("Client not initialized. Check API key and network connection.")
+        log.error("Client not initialized. Check API key and network connection.")
         raise ValueError
     return True
 
@@ -37,67 +43,82 @@ def extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str
     return ext_list
 
 
-def call_claude(client, text: str) -> dict:
+prompt = '''
+The following is a public podcast transcript. Please produce a JSON dictionary 
+mapping speakers to their labels.
+For example, {"SPEAKER_00": "Jason Heaton", "SPEAKER_01": "James"}. 
+If you can't determine speaker, put "Unknown". 
+If you can, add a word or two about each speaker e.g. Del from Honolulu.
+For the main hosts, just use their names.
+Put this dictionary in <attribution> tags.
+'''
+
+
+
+# Call Claude with the text and return the speaker map.
+@retry(stop=(stop_after_attempt(2)))
+@log.catch(reraise=True)
+def call_claude(client, text: str) -> defaultdict:
     message = client.messages.create(
         max_tokens=1000,
-        system="The following is a podcast transcript. Please produce a JSON dictionary mapping speakers to their labels. "
-               "For example, {'SPEAKER_00': 'Jason Heaton', 'SPEAKER_01': 'James'}. Put this dictionary in <attribution> tags.",
+        system=prompt,
         messages=[
             {
                 "role": "user",
                 "content": text,
             }
         ],
-        model="claude-3-haiku-20240307",
+        model="claude-3-sonnet-20240229",
     )
 
+    log.info(f"{message.model=}")
     # Now the tricky bit - pull the dict outta the message, convert to json and then python dict.
     # Also, log enough to debug if/when it fails.
     try:
         inter = extract_between_tags("attribution", message.content[0].text, strip=True)
         jsd = json.loads(inter[0])
-        print(jsd)
+        log.debug(jsd)
     except json.JSONDecodeError as e:
-        print(f"Error converting LLM output into valid JSON. {e=} {message.content=} {inter=}")
+        log.error(f"Error converting LLM output into valid JSON. {e=} {message.content=} {inter=}")
         # Sketchy. Save to a text file for later analysis.
         with open("llm_output.txt", "w") as f:
-            f.write(inter)
+            f.write(message.content[0].text)
+        raise e
+    except IndexError as e:
+        log.error(f"Error extracting JSON from LLM output. {e=} {message.content[0].text=}")
         raise e
 
-    return jsd
+    # Sometimes, the LLM misses a name. So use defaultdict to fill in the blanks with a string I can
+    # grep for later on that is also understandable to a human.
+    rc = defaultdict(lambda: "Unknown")
+    for k, v in jsd.items():
+        rc[k] = v
+    return rc
 
 
-def process_episode(directory='.', overwrite=False, input_fn=INPUT_FILE, output_fn=OUTPUT_FILE):
+def process_episode(directory='.', overwrite=False, input_fn=INPUT_FILE, output_fn=OUTPUT_FILE) -> dict:
     input_fn = Path(directory) / input_fn
     output_fn = Path(directory) / output_fn
     client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
     rc = check_conditions(input_fn, output_fn, client)
     if rc is False and overwrite is True:
-        print("Overwriting existing file.")
+        log.info("Overwriting existing file.")
     if rc is False and overwrite is False:
-        print("Skipping existing file.")
-        return
+        log.info("Skipping existing file.")
+        return {}
 
-    print(f"Processing episode in {directory}.")
+    log.info(f"Processing episode in {directory}.")
     text = input_fn.read_text()
-    print(f"Calling claude with {len(text)} characters.")
+    log.info(f"Calling claude with {len(text)} characters.")
     speaker_map = call_claude(client, text)
-    print(f"{len(speaker_map)} speaker(s) found.")
+    log.info(f"{len(speaker_map)} speaker(s) found.")
     output_fn.write_text(json.dumps(speaker_map))
-    print(f"Results written to {output_fn}.")
+    log.info(f"Results written to {output_fn}.")
 
-    """
-    Plan/TODO:
-    Load the input file as json. This is a list of tuples, each of which is a start time, speaker, and text chunk.
-    Stuff the speaker names into a set, check cardinality for sanity checking the results back from Claude.
-    Send json.dumps to Claude, get back a json dictionary of speaker names.
-    Compare cardinality of the two sets, and if they match, write the results to the output file.
-    Save results to speaker-map.json
-    Trigger a reprocess of the episode with the new speaker map. 
-    """
+    return speaker_map
 
 
 if __name__ == "__main__":
     dir = "/Users/pfh/code/tgn-whisperer/podcasts/tgn/116.0"
-    process_episode(dir, overwrite=False)
+    process_episode(dir, overwrite=True)

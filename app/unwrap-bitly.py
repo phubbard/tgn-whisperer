@@ -2,14 +2,10 @@
 
 # Script to unwrap the bit.ly links and save the lookup table
 import json
-import logging
+from loguru import logger as log
 import time
 
 import requests
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
-log = logging.getLogger()
 
 
 if __name__ == '__main__':

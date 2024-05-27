@@ -1,7 +1,8 @@
 xmltodict
 requests
 mkdocs
-beaupy
 invoke
 anthropic
 python-dotenv
+loguru
+tenacity

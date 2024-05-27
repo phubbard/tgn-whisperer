@@ -3,19 +3,20 @@ from dataclasses import asdict, dataclass
 from datetime import datetime
 from email.message import EmailMessage
 import json
-import logging
 from os import getenv
 from pathlib import Path
 import re
 import smtplib
 
-from requests_cache import CachedSession
+import requests
+from dotenv import load_dotenv
+from loguru import logger as log
 import xmltodict
 
 SITE_ROOT = 'sites'
 system_admin = 'tgn-whisperer@phfactor.net'
-session: CachedSession = CachedSession('whisperer-cache', cache_control=True)
 
+load_dotenv()  # take environment variables from .env.
 
 # Data structure for a single episode. Will be saved as JSON into the episodes' directory and used by Make.
 @dataclass
@@ -29,7 +30,7 @@ class Episode:
     pub_date: str = None
     site_directory: str = None
 
-
+# Payload for the WhisperX model.
 OctoAI = {
     "url": "",
     "task": "transcribe",
@@ -88,11 +89,6 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         self.sendmail(from_addr, to_addrs, msg_root.as_string())
 
 
-# Change the INFO to DEBUG if needed.
-logging.basicConfig(level=logging.INFO, format='%(pathname)s(%(lineno)s): %(levelname)s %(message)s')
-log = logging.getLogger()
-
-
 # Regex to pull the first number from a title - podcast number, in this case. Heuristic but works almost every time.
 title_re = r'(\d+)'
 title_matcher = re.compile(title_re)
@@ -131,6 +127,7 @@ def episode_number_wcl(entry):
 
 def episode_number_tgn(entry):
     # Episode number logic for TGN. Early feed was super crufty, so several workarounds and special cases.
+    # NOTE add new oddballs here.
     tgn_lookup = {
         "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
         "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
@@ -270,7 +267,7 @@ def process_all_podcasts():
         # If possible, don't rewrite episodes.md, since that triggers mkdocs and rsync. Do a little extra work
         # here to see if (TGN) no actual new episodes are in the feed.
         log.info(f'{podcast.name}: Fetching RSS feed {podcast.rss_url}')
-        rc = session.get(podcast.rss_url)
+        rc = requests.get(podcast.rss_url)
         if not rc.ok:
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')
             continue
