@@ -3,6 +3,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+import anthropic
 from loguru import logger as log
 from attribute import process_episode
 
@@ -54,6 +55,9 @@ def process_transcription():
 
     try:
         speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
+    except anthropic.RateLimitError as e:
+        log.error("Rate limit exceeded. Try again later.")
+        raise e
     except Exception as e:
         log.error("Exception calling attribution/synopsis")
         speaker_map = defaultdict(lambda: "Unknown")
