@@ -7,6 +7,7 @@ from collections import defaultdict
 import json
 import os
 import re
+from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
@@ -45,20 +46,17 @@ def extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str
 
 
 prompt = '''
-The following is a public podcast transcript. Please produce a JSON dictionary 
-mapping speakers to their labels.
+The following is a public podcast transcript. Please write a one-paragraph synopsis in a <synopsis> tag
+and a JSON dictionary mapping speakers to their labels inside an <attribution> tag.
 For example, {"SPEAKER_00": "Jason Heaton", "SPEAKER_01": "James"}. 
-If you can't determine speaker, put "Unknown". 
-If you can, add a word or two about each speaker e.g. Del from Honolulu.
-For the main hosts, just use their names.
-Put this dictionary in <attribution> tags.
-Also, generate a one-paragraph synopsis of the episode, enclosed in <synopsis> tags.
+If you can't determine speaker, put "Unknown".
+If for any reason an answer risks reproduction of copyrighted material, explain why.
 '''
 
 
 
 # Call Claude with the text and return the speaker map.
-@retry(stop=(stop_after_attempt(3)))
+# @retry(stop=(stop_after_attempt(3)))
 @log.catch(reraise=True)
 def call_claude(client, text: str) -> (defaultdict, str):
     message = client.messages.create(
@@ -71,20 +69,28 @@ def call_claude(client, text: str) -> (defaultdict, str):
             }
         ],
         model="claude-3-sonnet-20240229",
+        # model="claude-3-opus-20240229",
     )
 
+    # Log the prompt and output in a file with a timestamp as name.
+    terse_timestamp_now = re.sub(r"[^0-9]", "", str(datetime.now()))
+
+    logfile = Path(f"claude_output_{terse_timestamp_now}.txt")
+    with open(logfile, "w") as f:
+        # get full absolute filename from f
+        log.info(f"Output written to {logfile.absolute()}")
+        f.write(f"{prompt}\n\n{text}\n\n{message.content[0].text}")
+
+    speaker_map = defaultdict(lambda: "Unknown")
     log.info(f"{message.model=}")
     # Now the tricky bit - pull the dict outta the message, convert to json and then python dict.
     # Also, log enough to debug if/when it fails.
     try:
         inter = extract_between_tags("attribution", message.content[0].text, strip=True)
-        jsd = json.loads(inter[0])
-        log.debug(jsd)
+        speaker_map = json.loads(inter[0])
+        log.debug(speaker_map)
     except json.JSONDecodeError as e:
         log.error(f"Error converting LLM output into valid JSON. {e=} {message.content=} {inter=}")
-        # Sketchy. Save to a text file for later analysis.
-        with open("llm_output.txt", "a") as f:
-            f.write(message.content[0].text)
         raise e
     except IndexError as e:
         log.error(f"Error extracting JSON from LLM output. {e=} {message.content[0].text=}")
@@ -98,11 +104,10 @@ def call_claude(client, text: str) -> (defaultdict, str):
         log.error(f"Error extracting synopsis from LLM output. {e=} {message.content[0].text=}")
         raise e
 
-
     # Sometimes, the LLM misses a name. So use defaultdict to fill in the blanks with a string I can
     # grep for later on that is also understandable to a human.
     rc = defaultdict(lambda: "Unknown")
-    for k, v in jsd.items():
+    for k, v in speaker_map.items():
         rc[k] = v
     return rc, synopsis
 
@@ -133,5 +138,5 @@ def process_episode(directory='.', overwrite=False) -> (dict,str):
 
 
 if __name__ == "__main__":
-    dir = "/Users/pfh/code/tgn-whisperer/podcasts/tgn/116.0"
+    dir = "/Users/pfh/code/tgn-whisperer/podcasts/tgn/120.0"
     process_episode(dir, overwrite=True)

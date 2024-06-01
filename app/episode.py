@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from collections import defaultdict
 from pathlib import Path
 
 from loguru import logger as log
@@ -50,8 +51,12 @@ def process_transcription():
 
     # Get cwd    
     cwd = Path('.').absolute()
-    
-    speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
+
+    try:
+        speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
+    except Exception as e:
+        speaker_map = defaultdict(lambda: "Unknown")
+        synopsis = "LLM-exception"
 
     # Now use the map
     for idx, _ in enumerate(rc):
