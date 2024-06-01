@@ -51,7 +51,7 @@ def process_transcription():
     # Get cwd    
     cwd = Path('.').absolute()
     
-    speaker_map: dict = process_episode(directory=cwd, overwrite=True)
+    speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
 
     # Now use the map
     for idx, _ in enumerate(rc):
@@ -64,14 +64,17 @@ Published on {episode_json['pub_date']}
 
 {episode_json['subtitle']}
 
-# Links
+## Synopsis
+{synopsis}
+
+## Links
 - [episode page]({episode_json['episode_url']})
 - [episode MP3]({episode_json['mp3_url']})
 - [episode text](episode.txt)
 - [episode webpage snapshot](episode.html)
 - [episode MP3 - local mirror](episode.mp3)
 
-# Transcript    
+## Transcript    
 '''
     fh = open('episode.md', 'w')
     fh.write(md_string)
