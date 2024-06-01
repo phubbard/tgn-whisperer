@@ -118,6 +118,9 @@ def process_episode(directory='.', overwrite=False) -> (dict,str):
     synopsis_filename = Path(directory) / SYNOPSIS_FILE
     client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
+    speaker_filename.write_text(' ')
+    synopsis_filename.write_text(' ')
+
     rc = check_conditions(input_filename, speaker_filename, client)
     if rc is False and overwrite is True:
         log.info("Overwriting existing file.")

@@ -55,6 +55,7 @@ def process_transcription():
     try:
         speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
     except Exception as e:
+        log.error("Exception calling attribution/synopsis")
         speaker_map = defaultdict(lambda: "Unknown")
         synopsis = "LLM-exception"
 
