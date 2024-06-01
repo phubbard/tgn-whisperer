@@ -56,7 +56,7 @@ If for any reason an answer risks reproduction of copyrighted material, explain 
 
 
 # Call Claude with the text and return the speaker map.
-# @retry(stop=(stop_after_attempt(3)))
+@retry(stop=(stop_after_attempt(2)))
 @log.catch(reraise=True)
 def call_claude(client, text: str) -> (defaultdict, str):
     message = client.messages.create(
