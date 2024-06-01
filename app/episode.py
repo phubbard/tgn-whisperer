@@ -58,7 +58,7 @@ def process_transcription():
     except anthropic.RateLimitError as e:
         log.error("Rate limit exceeded. Try again later.")
         raise e
-    except Exception as e:
+    except IndexError as e:
         log.error("Exception calling attribution/synopsis")
         speaker_map = defaultdict(lambda: "Unknown")
         synopsis = "LLM-exception"
