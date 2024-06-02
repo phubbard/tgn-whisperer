@@ -46,7 +46,7 @@ def extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str
 
 
 prompt = '''
-The following is a public podcast transcript. Please write a one-paragraph synopsis in a <synopsis> tag
+The following is a public podcast transcript. Please write a two paragraph synopsis in a <synopsis> tag
 and a JSON dictionary mapping speakers to their labels inside an <attribution> tag.
 For example, {"SPEAKER_00": "Jason Heaton", "SPEAKER_01": "James"}. 
 If you can't determine speaker, put "Unknown".
