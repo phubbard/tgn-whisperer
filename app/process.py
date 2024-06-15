@@ -269,7 +269,7 @@ def process_all_podcasts():
         # Getting 403s, let's disclose who we are.
         # See https://stackoverflow.com/questions/10606133/sending-user-agent-using-requests-library-in-python
         headers = {
-            'User-Agent': 'Python 3.12/requests https://github.com/phubbard/tgn-whisperer/',
+            'User-Agent': 'tgn-whisperer https://github.com/phubbard/tgn-whisperer/',
             'From': 'pfh@phfactor.net'
         }
         rc = requests.get(podcast.rss_url, headers=headers)
