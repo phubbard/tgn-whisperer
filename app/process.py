@@ -266,7 +266,13 @@ def process_all_podcasts():
         # If possible, don't rewrite episodes.md, since that triggers mkdocs and rsync. Do a little extra work
         # here to see if (TGN) no actual new episodes are in the feed.
         log.info(f'{podcast.name}: Fetching RSS feed {podcast.rss_url}')
-        rc = requests.get(podcast.rss_url)
+        # Getting 403s, let's disclose who we are.
+        # See https://stackoverflow.com/questions/10606133/sending-user-agent-using-requests-library-in-python
+        headers = {
+            'User-Agent': 'Python 3.12/requests https://github.com/phubbard/tgn-whisperer/',
+            'From': 'pfh@phfactor.net'
+        }
+        rc = requests.get(podcast.rss_url, headers=headers)
         if not rc.ok:
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')
             continue
