@@ -34,7 +34,8 @@ OctoAI = {
     "task": "transcribe",
     "diarize": True,
     "min_speakers": 2,
-    "prompt": "The following is a conversation including James and Jason"
+    "prompt": "The following is a conversation.",
+    "audio": "$(base64 -i episode.mp3)"
 }
 
 
@@ -327,8 +328,8 @@ def process_all_podcasts():
             episode.mp3_url = entry['enclosure']['@url']
             episode.title = entry['title']
             episode.pub_date = entry['pubDate']
-
-            OctoAI['url'] = episode.mp3_url
+            # This does pass by reference. Buzzsprout is throwing 403s, so pass by value.
+            #OctoAI['url'] = episode.mp3_url
 
             # Filesystem
             episode.directory = Path(basedir, str(episode.number)).absolute()
