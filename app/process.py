@@ -35,7 +35,6 @@ OctoAI = {
     "diarize": True,
     "min_speakers": 2,
     "prompt": "The following is a conversation.",
-    "audio": "$(base64 -i episode.mp3)"
 }
 
 
