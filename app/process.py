@@ -328,8 +328,8 @@ def process_all_podcasts():
             episode.mp3_url = entry['enclosure']['@url']
             episode.title = entry['title']
             episode.pub_date = entry['pubDate']
-            # This does pass by reference. Buzzsprout is throwing 403s, so pass by value.
-            #OctoAI['url'] = episode.mp3_url
+
+            OctoAI['url'] = episode.mp3_url
 
             # Filesystem
             episode.directory = Path(basedir, str(episode.number)).absolute()
