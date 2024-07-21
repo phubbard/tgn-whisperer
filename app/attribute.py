@@ -27,10 +27,10 @@ def extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str
 
 
 prompt = '''
-The following is a public podcast transcript. Please write a two generous paragraph synopsis in a <synopsis> tag
+The following is a podcast transcript. Please write a two to three paragraph synopsis in a <synopsis> tag
 and a JSON dictionary mapping speakers to their labels inside an <attribution> tag.
 For example, {"SPEAKER_00": "Jason Heaton", "SPEAKER_01": "James"}. 
-If you can't determine speaker, put "Unknown".
+If you can't guess the speakers' name, put "Unknown".
 '''
 
 
@@ -118,7 +118,8 @@ def process_episode(directory='.') -> (dict, str):
         synopsis_filename.write_text(synopsis)
     else:
         log.info("Reading existing file(s).")
-        speaker_map = json.loads(speaker_filename.read_text())
+        speaker_map = defaultdict(lambda: "Unknown")
+        speaker_map.update(json.loads(speaker_filename.read_text()))
         synopsis = synopsis_filename.read_text()
         log.info(f"Results read from {speaker_filename} and {synopsis_filename}.")
 

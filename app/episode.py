@@ -57,7 +57,7 @@ def process_transcription():
     cwd = Path('.').absolute()
 
     try:
-        speaker_map, synopsis = process_episode(directory=cwd, overwrite=False)
+        speaker_map, synopsis = process_episode(directory=cwd)
     except anthropic.RateLimitError as e:
         log.error("Rate limit exceeded. Try again later.")
         raise e
@@ -100,5 +100,5 @@ Published on {episode_json['pub_date']}
 
 
 if __name__ == '__main__':
-    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/100.0')
+    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/101.0')
     process_transcription()
