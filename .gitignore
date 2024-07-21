@@ -16,3 +16,4 @@ sites/*/site
 whisperer-cache.sqlite
 .env
 .env
+claude_output_*

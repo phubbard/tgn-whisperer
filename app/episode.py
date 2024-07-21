@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 from collections import defaultdict
 from pathlib import Path
 
@@ -7,15 +8,11 @@ import anthropic
 from loguru import logger as log
 from attribute import process_episode
 
-EPISODE_TRANSCRIBED_JSON = 'episode-transcribed.json'
-SPEAKER_MAP = 'speaker-map.json'
+from constants import *
 
 # OctoAI returns an annoying format. This script chunks that up. Seems like they should provide this, but whatevs.
 # Now that chunking works, I want a fast, interactive way to do speaker attribution, such that the transcript has
 # proper names on it. I had code that did one TGN intro, but i wasn't happy with it so I'm trying a new approach.
-
-UNKNOWN = 'Unknown'
-NEW_NAME = '- New name'
 
 
 def process_transcription():
@@ -29,7 +26,13 @@ def process_transcription():
     text_chunk = ''
     start = None
     for chunk in episode['response']['segments']:
-        # Hmm. Track start/end times and someday link to timestamps in the podcast? Overcast allows this.
+        # Add space after punctuation
+        punctuation = ['.', '?', '!']
+        char = chunk['text'][-1]
+        if char in punctuation:
+            chunk['text'] += ' '
+
+        # TODO Hmm. Track start/end times and someday link to timestamps in the podcast? Overcast allows this.
         if speaker != chunk['speaker']:
             # Dump the buffered output
             if speaker:
@@ -43,8 +46,8 @@ def process_transcription():
 
     rc.append((start, speaker, text_chunk))
 
-    # TODO - remove this
-    with open('junk.json', 'w') as fh:
+    # Save the Whisper output to send to Claude for speaker attribution
+    with open('whisper-output.json', 'w') as fh:
         json.dump(rc, fh)
 
     # Now we have an array of chunks, each of which is a tuple of start time, speaker, text. Can we name the speakers?
@@ -54,11 +57,11 @@ def process_transcription():
     cwd = Path('.').absolute()
 
     try:
-        speaker_map, synopsis = process_episode(directory=cwd, overwrite=True)
+        speaker_map, synopsis = process_episode(directory=cwd, overwrite=False)
     except anthropic.RateLimitError as e:
         log.error("Rate limit exceeded. Try again later.")
         raise e
-    except IndexError as e:
+    except IndexError:
         log.error("Exception calling attribution/synopsis")
         speaker_map = defaultdict(lambda: "Unknown")
         synopsis = "LLM-exception"
@@ -80,7 +83,6 @@ Published on {episode_json['pub_date']}
 ## Links
 - [episode page]({episode_json['episode_url']})
 - [episode MP3]({episode_json['mp3_url']})
-- [episode text](episode.txt)
 - [episode webpage snapshot](episode.html)
 - [episode MP3 - local mirror](episode.mp3)
 
@@ -98,4 +100,5 @@ Published on {episode_json['pub_date']}
 
 
 if __name__ == '__main__':
+    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/100.0')
     process_transcription()
