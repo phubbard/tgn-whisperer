@@ -16,14 +16,13 @@ SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 $(PODCAST_ROOT)/%/episode.md:
 	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
-# directories:
-# 	@python3 app/process.py
+directories:
+	@python3 app/process.py
 
 episodes: $(PODCAST_EPS)
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*  &&  mkdocs -q build
-#	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . usul:html/$*
 	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . web:html/$*
 
 deploy: $(SITE_INDEXES)
