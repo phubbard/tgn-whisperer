@@ -23,9 +23,10 @@ Each episode has its own page with transcript, episode page link and (coming soo
 
 #### How it works
 
-[Full source code is on github](https://github.com/phubbard/tgn-whisperer) - unix tools, some python and a Makefile. The 
-key tech _was_ the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp) for speech-to-text. After getting the project working, I rewrote the code to 
-use [WhisperX on OctoAI](https://octoai.cloud) which is able to discern individual voices for a much improved output. 
+[Full source code is on github](https://github.com/phubbard/tgn-whisperer) - unix tools, some python and a Makefile. 
+I did a full writeup [here on my blog](https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/) if you'd like to know
+how it all works.
+
 
 #### Contact me
 

@@ -100,5 +100,5 @@ Published on {episode_json['pub_date']}
 
 
 if __name__ == '__main__':
-    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/101.0')
+#    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/101.0')
     process_transcription()

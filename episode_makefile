@@ -19,13 +19,13 @@ dest_md=$(shell echo $(p_dest_md))
 all: $(dest_mp3) $(dest_html) $(dest_md)
 
 $(dest_mp3): episode.mp3
-	cp -c episode.mp3 $(dest_mp3)
+	cp episode.mp3 $(dest_mp3)
 
 $(dest_html): episode.html
-	cp -c episode.html $(dest_html)
+	cp episode.html $(dest_html)
 
 $(dest_md): episode.md
-	cp -c episode.md $(dest_md)
+	cp episode.md $(dest_md)
 
 # Now declare how to create them.
 episode.mp3:

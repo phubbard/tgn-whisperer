@@ -4,7 +4,6 @@
 
 .PHONY: all
 .DELETE_ON_ERROR:
-all: episodes deploy
 
 SITE_LIST    := tgn wcl
 
@@ -13,7 +12,9 @@ PODCAST_EPS  := $(patsubst %,%/episode.md,$(dir $(wildcard $(PODCAST_ROOT)/*/*/.
 SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
-$(PODCAST_ROOT)/%/episode.md:
+all: directories episodes deploy
+
+$(PODCAST_ROOT)/%/episode.md: directories
 	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
 directories:
@@ -23,7 +24,7 @@ episodes: $(PODCAST_EPS)
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*  &&  mkdocs -q build
-	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . web:html/$*
+	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . /usr/local/www/$*
 
 deploy: $(SITE_INDEXES)
 
