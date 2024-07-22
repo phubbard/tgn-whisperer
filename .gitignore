@@ -15,5 +15,5 @@ podcasts
 sites/*/site
 whisperer-cache.sqlite
 .env
-.env
 claude_output_*
+logs
