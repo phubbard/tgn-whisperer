@@ -22,7 +22,7 @@ directories:
 	@python3 app/process.py
 
 $(PODCAST_ROOT)/%/episode.md: directories
-	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
+	@$(MAKE) -s -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
 episodes: $(PODCAST_EPS)
 
