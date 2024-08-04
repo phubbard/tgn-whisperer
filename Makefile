@@ -15,6 +15,7 @@ SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 all:
 	@$(MAKE) directories
 	@$(MAKE) episodes
+	touch $(SITE_ROOT)/*/docs/episodes.md
 	@$(MAKE) deploy
 
 # This step creates the per-episode directories, if they don't already exist.
@@ -22,7 +23,7 @@ directories:
 	@python3 app/process.py
 
 $(PODCAST_ROOT)/%/episode.md: directories
-	@$(MAKE) -s -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
+	@$(MAKE) --no-print-directory -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
 
 episodes: $(PODCAST_EPS)
 
