@@ -12,13 +12,17 @@ PODCAST_EPS  := $(patsubst %,%/episode.md,$(dir $(wildcard $(PODCAST_ROOT)/*/*/.
 SITE_ROOT    := sites
 SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
-all: directories episodes deploy
+all:
+	@$(MAKE) directories
+	@$(MAKE) episodes
+	@$(MAKE) deploy
+
+# This step creates the per-episode directories, if they don't already exist.
+directories:
+	@python3 app/process.py
 
 $(PODCAST_ROOT)/%/episode.md: directories
 	@$(MAKE) -C $(PODCAST_ROOT)/$* -f $(CURDIR)/episode_makefile
-
-directories:
-	@python3 app/process.py
 
 episodes: $(PODCAST_EPS)
 
@@ -27,8 +31,4 @@ $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . /usr/local/www/$*
 
 deploy: $(SITE_INDEXES)
-
-.PHONY: clean
-clean:
-	-rm -rf $(PODCAST_ROOT)/*/episodes/* $(SITE_ROOT)/*/site
 
