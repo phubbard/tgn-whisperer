@@ -15,8 +15,10 @@ dest_mp3=$(shell echo $(p_dest_mp3))
 dest_html=$(shell echo $(p_dest_html))
 dest_md=$(shell echo $(p_dest_md))
 
+
 # Declare the target three files and a single target name for manual ops
 all: $(dest_mp3) $(dest_html) $(dest_md)
+    @:
 
 $(dest_mp3): episode.mp3
 	cp episode.mp3 $(dest_mp3)
