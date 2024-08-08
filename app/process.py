@@ -137,7 +137,8 @@ def episode_number_tgn(entry):
         "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
         "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
         "Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology": 260.5,
-        "The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland": 282.5
+        "The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland": 282.5,
+        "Out Of Office – Back August 22nd": 295.5
     }
     title = entry['title']
 
