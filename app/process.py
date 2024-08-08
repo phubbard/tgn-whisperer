@@ -255,11 +255,11 @@ def process_all_podcasts():
         Podcast('tgn',
                 'https://feeds.buzzsprout.com/2049759.rss',
                 ['pfh@phfactor.net'],
-                'https://www.phfactor.net/tgn', episode_number_tgn),
+                'https://tgn.phfactor.net', episode_number_tgn),
         Podcast('wcl',
                 'https://feed.podbean.com/the40and20podcast/feed.xml',
                 ['pfh@phfactor.net', 'hello@watchclicker.com'],
-                'https://www.phfactor.net/wcl', episode_number_wcl),
+                'https://wcl.phfactor.net', episode_number_wcl),
     ]
 
     for podcast in podcasts:
