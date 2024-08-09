@@ -4,7 +4,7 @@ With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whis
 I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) podcast that I also enjoy.
 
-It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
+It's running on my [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) and the results (static websites) are deployed to
 
 - [The Compleat Grey Nato](https://tgn.phfactor.net/)
 - [The Compleat 40 & 20](https://wcl.phfactor.net/)
@@ -13,8 +13,8 @@ Take a look! This code and the sites are provided free of charge as a public ser
 find the results useful.
 
 After I got whisper.cpp working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
-with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step is naming each 
-speaker via a combination of heuristics and an LLM.
+with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step was naming each 
+speaker via a combination of heuristics and an LLM. That, Brad and I solved with [Claude 3.5 Sonnet](https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/) and got episdode summaries as well.
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
@@ -36,8 +36,8 @@ free Pycharm Community Edition, and am looking forward to the full PyCharm. And 
 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
-4. Call Whisper on each (command line, pass by reference)
-5. Speaker attribution (attribute.py, preliminary working code using [Claude v3 Sonnet](https://www.anthropic.com/news/claude-3-family))
+4. Call WhisperX on each (command line, pass by reference)
+5. Speaker attribution (attribute.py, using [Claude v3.5 Sonnet](https://www.anthropic.com/news/claude-3-family))
 6. Episode synopsis (attribute.py, as part of the Claude call.)
 7. LLM retries using Tenacity library (sometimes Claude claims copyright and refuses to work)
 5. Export text into markdown files (to_markdown.py)
