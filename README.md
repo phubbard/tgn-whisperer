@@ -4,28 +4,19 @@ With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whis
 I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) podcast that I also enjoy.
 
-It's running on my [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) and the results (static websites) are deployed to
+It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
 
-- [The Compleat Grey Nato](https://tgn.phfactor.net/)
-- [The Compleat 40 & 20](https://wcl.phfactor.net/)
+- [The Compleat Grey Nato](https://www.phfactor.net/tgn/)
+- [The Compleat 40 & 20](https://www.phfactor.net/wcl/)
 
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
 
-After I got whisper.cpp working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
-with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step was naming each 
-speaker via a combination of heuristics and an LLM. That, Brad and I solved with [Claude 3.5 Sonnet](https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/) and got episdode summaries as well.
+For a year or so we used OctoAI's paid service, but as of 11/1/2024, they're acquired and shut down. So now I'm spinning up a Flask
+wrapper for WhisperX on [my compute server](https://ultracrepidarian.phfactor.net/2018/11/17/2018-machine-learning-home-build/). 
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
-
-## Acknowledgements
-
-![jetbrains logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png)
-
-Thank you to [JetBrains](https://jb.gg/OpenSourceSupport) for an open-source license for their developer tools. As of
-Dec 2023, I have a free year of their IDEs that I can use to work on this project. I've been using the excellent and 
-free Pycharm Community Edition, and am looking forward to the full PyCharm. And their other tools. Super cool of them.
 
 ## Goals
 
@@ -36,10 +27,8 @@ free Pycharm Community Edition, and am looking forward to the full PyCharm. And 
 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
-4. Call WhisperX on each (command line, pass by reference)
-5. Speaker attribution (attribute.py, using [Claude v3.5 Sonnet](https://www.anthropic.com/news/claude-3-family))
-6. Episode synopsis (attribute.py, as part of the Claude call.)
-7. LLM retries using Tenacity library (sometimes Claude claims copyright and refuses to work)
+4. Call WhisperX on each (POST to Flask)
+5. Collation and speaker attribution (episode.py)
 5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
 7. Publish (rsync)

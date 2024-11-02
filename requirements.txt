@@ -6,3 +6,5 @@ anthropic
 python-dotenv
 loguru
 tenacity
+prefect
+httpx
