@@ -12,9 +12,8 @@ It's running on my trusty M1 Mac Mini and the results (static websites) are depl
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
 
-After I got whisper.cpp working, an acquaintance on the TGN Slack pinged me to try their [OctoAI paid/hosted version](https://octoml.ai/models/whisper/) 
-with speaker diarization and I've rewritten the code to use that. Diarization works well, the next step is naming each 
-speaker via a combination of heuristics and an LLM.
+For a year or so we used OctoAI's paid service, but as of 11/1/2024, they're acquired and shut down. So now I'm spinning up a Flask
+wrapper for WhisperX on [my compute server](https://ultracrepidarian.phfactor.net/2018/11/17/2018-machine-learning-home-build/). 
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
@@ -28,8 +27,8 @@ well.
 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
-4. Call Whisper on each (command line, pass by reference)
-5. Speaker attribution (episode.py, work in progress)
+4. Call WhisperX on each (POST to Flask)
+5. Collation and speaker attribution (episode.py)
 5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
 7. Publish (rsync)
