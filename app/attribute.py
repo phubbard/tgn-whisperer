@@ -47,7 +47,8 @@ def call_claude(client, text: str) -> (defaultdict, str):
                 "content": text,
             }
         ],
-        model="claude-3-5-sonnet-20240620"
+        model="claude-3-5-sonnet-20241022"
+        # model="claude-3-5-sonnet-20240620"
         # model="claude-3-sonnet-20240229",
         # model="claude-3-opus-20240229",
     )
