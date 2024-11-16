@@ -35,7 +35,8 @@ episode.mp3:
 
 episode-transcribed.json:
 	@echo Now transcribing $(shell pwd)
-	curl -s -X POST -A "tgn-whisperer https://github.com/phubbard/tgn-whisperer/" -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error -w 'http status: %{response_code}\n' --retry 2
+#	curl -s -X POST -A "tgn-whisperer https://github.com/phubbard/tgn-whisperer/" -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error -w 'http status: %{response_code}\n' --retry 2
+	curl -s -X POST http://compute.phfactor.net:5050/submit/tgn/103.0 --data-binary @episode.mp3 -o episode-transcribed.json --fail --remove-on-error
 
 episode.html:
 	-cat episode.json | jq .episode_url | xargs wget -O episode.html --convert-links --retry-on-http-error=429 --wait=5 --random-wait
