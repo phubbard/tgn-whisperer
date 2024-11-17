@@ -14,7 +14,7 @@ SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 
 all:
 	@$(MAKE) directories
-	@$(MAKE) -j episodes
+	@$(MAKE) episodes
 	touch $(SITE_ROOT)/*/docs/episodes.md
 	@$(MAKE) -j2 deploy
 

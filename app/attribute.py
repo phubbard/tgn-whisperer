@@ -27,7 +27,7 @@ def extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str
 
 
 prompt = '''
-The following is a podcast transcript. Please write a two to three paragraph synopsis in a <synopsis> tag
+The following is a podcast transcript. Please write a two to four paragraph synopsis in a <synopsis> tag
 and a JSON dictionary mapping speakers to their labels inside an <attribution> tag.
 For example, {"SPEAKER_00": "Jason Heaton", "SPEAKER_01": "James"}. 
 If you can't guess the speakers' name, put "Unknown".
@@ -56,11 +56,11 @@ def call_claude(client, text: str) -> (defaultdict, str):
     # Log the prompt and output in a file with a timestamp as name.
     terse_timestamp_now = re.sub(r"[^0-9]", "", str(datetime.now()))
 
-    logfile = Path(f"claude_output_{terse_timestamp_now}.txt")
-    with open(logfile, "w") as f:
-        # get full absolute filename from f
-        log.info(f"Output written to {logfile.absolute()}")
-        f.write(f"{prompt}\n\n{text}\n\n{message.content[0].text}")
+    # logfile = Path(f"claude_output_{terse_timestamp_now}.txt")
+    # with open(logfile, "w") as f:
+    #     # get full absolute filename from f
+    #     log.info(f"Output written to {logfile.absolute()}")
+    #     f.write(f"{prompt}\n\n{text}\n\n{message.content[0].text}")
 
     speaker_map = defaultdict(lambda: "Unknown")
     log.info(f"{message.model=}")

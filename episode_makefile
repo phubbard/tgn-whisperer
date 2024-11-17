@@ -15,6 +15,8 @@ dest_mp3=$(shell echo $(p_dest_mp3))
 dest_html=$(shell echo $(p_dest_html))
 dest_md=$(shell echo $(p_dest_md))
 
+ep_num=$(shell cat episode.json | jq .episode_number)
+podcast=$(shell cat episode.json | jq .podcast)
 
 # Declare the target three files and a single target name for manual ops
 all: $(dest_mp3) $(dest_html) $(dest_md)
@@ -34,9 +36,7 @@ episode.mp3:
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
 episode-transcribed.json:
-    ep_num = cat episode.json | jq .episode_number
-    podcast = cat episode.json | jq .podcast
-	@echo Now transcribing episode $(ep_num) of $(podcast)
+	@echo Now transcribing episode $ep_num) of $(podcast)
 #	curl -s -X POST -A "tgn-whisperer https://github.com/phubbard/tgn-whisperer/" -H "Content-Type: application/json" -H "Authorization: Bearer $$OCTOAI_TOKEN" https://tgn-whisperer-rux09g7ahp4l.octoai.run/predict --data @./openai.json -o episode-transcribed.json --fail --remove-on-error -w 'http status: %{response_code}\n' --retry 2
 	curl -s -X POST http://compute.phfactor.net:5050/submit/${podcast}/${ep_num} -F file=@episode.mp3 -o episode-transcribed.json --fail --remove-on-error
 
