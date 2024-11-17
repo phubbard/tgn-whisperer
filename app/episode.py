@@ -25,7 +25,7 @@ def process_transcription():
     speaker = None
     text_chunk = ''
     start = None
-    for chunk in episode['response']['segments']:
+    for chunk in episode['segments']:
         # Add space after punctuation
         punctuation = ['.', '?', '!']
         char = chunk['text'][-1]
