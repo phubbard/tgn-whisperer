@@ -26,6 +26,9 @@ def process_transcription():
     text_chunk = ''
     start = None
     for chunk in episode['segments']:
+        if not 'speaker' in chunk:
+            log.warning(f'No speaker in chunk: {chunk}')
+            continue
         # Add space after punctuation
         punctuation = ['.', '?', '!']
         char = chunk['text'][-1]
@@ -100,5 +103,5 @@ Published on {episode_json['pub_date']}
 
 
 if __name__ == '__main__':
-#    os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/101.0')
-    process_transcription()
+   os.chdir('/Users/pfh/code/tgn-whisperer/podcasts/tgn/307.0')
+   process_transcription()
