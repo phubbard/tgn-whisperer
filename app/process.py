@@ -31,11 +31,8 @@ class Episode:
 
 # Payload for the WhisperX model.
 OctoAI = {
-    "url": "",
-    "task": "transcribe",
-    "diarize": True,
-    "min_speakers": 2,
-    "prompt": "The following is a conversation.",
+    "podcast": None,
+    "episode": None
 }
 
 
@@ -323,6 +320,12 @@ def process_all_podcasts():
             be_number = podcast.number_extractor_function(entry)
             episode = Episode()
             episode.number = be_number
+
+            # Save podcast and episode number for WhisperX call later
+            OctoAI['podcast'] = podcast.name
+            OctoAI['episode'] = episode.number
+
+            # Extract episode details
             episode.episode_url = unwrap_bitly(episode_url(entry))
             if 'subtitle' in entry:
                 episode.subtitle = entry['subtitle']
@@ -331,8 +334,6 @@ def process_all_podcasts():
             episode.mp3_url = entry['enclosure']['@url']
             episode.title = entry['title']
             episode.pub_date = entry['pubDate']
-
-            OctoAI['url'] = episode.mp3_url
 
             # Filesystem
             episode.directory = Path(basedir, str(episode.number)).absolute()
@@ -352,7 +353,7 @@ def process_all_podcasts():
             log.debug(f'Saving json to {episode.directory}')
             json.dump(asdict(episode), open(Path(episode.directory, 'episode.json'), 'w'))
             log.debug(f'Saving AI data to {episode.directory}')
-            json.dump(OctoAI, open(Path(episode.directory, 'openai.json'), 'w'))
+            json.dump(OctoAI, open(Path(episode.directory, 'whisperx.json'), 'w'))
 
             # Add this episode to the episode markdown page
             with open(mkdocs_mainpage, 'a') as ep_index:
