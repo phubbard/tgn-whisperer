@@ -12,8 +12,8 @@ It's running on my trusty M1 Mac Mini and the results (static websites) are depl
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
 
-For a year or so we used OctoAI's paid service, but as of 11/1/2024, they're acquired and shut down. So now I'm spinning up a Flask
-wrapper for WhisperX on [my compute server](https://ultracrepidarian.phfactor.net/2018/11/17/2018-machine-learning-home-build/). 
+For a year or so we used OctoAI's paid service, but as of 11/1/2024, they're acquired and shut down. So now I'm spinning up [a Flask
+wrapper](https://github.com/phubbard/flask-whisperx) for WhisperX on [my compute server](https://ultracrepidarian.phfactor.net/2018/11/17/2018-machine-learning-home-build/). 
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
