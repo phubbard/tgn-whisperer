@@ -6,8 +6,8 @@ I had the idea of transcribing the podcast of some friends of mine,
 
 It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
 
-- [The Compleat Grey Nato](https://www.phfactor.net/tgn/)
-- [The Compleat 40 & 20](https://www.phfactor.net/wcl/)
+- [The Compleat Grey Nato](https://tgn.phfactor.net/)
+- [The Compleat 40 & 20](https://wcl.phfactor.net/)
 
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
