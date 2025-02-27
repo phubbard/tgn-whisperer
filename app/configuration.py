@@ -13,14 +13,3 @@ title_matcher = re.compile(title_re)
 url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
 url_matcher = re.compile(url_rs)
 
-# Iterable to loop over. Fields
-podcasts = [
-    Podcast('tgn',
-            'https://feeds.buzzsprout.com/2049759.rss',
-            ['pfh@phfactor.net'],
-            'https://www.phfactor.net/tgn'),
-    Podcast('wcl',
-            'https://feed.podbean.com/the40and20podcast/feed.xml',
-            ['pfh@phfactor.net'],  # TODO add 'hello@watchclicker.com'
-            'https://www.phfactor.net/wcl'),
-]

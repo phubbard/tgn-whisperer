@@ -194,7 +194,7 @@ def send_email(email_list: list, new_ep_list: list, base_url: str) -> None:
     new_count: int = len(new_ep_list)
     subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 
-    disclaimer = ('This email goes out just as the process begins, so transcripts may be delayed - about 5 minutes per '
+    disclaimer = ('This email goes out just as the process begins, so transcripts may be delayed - about 15 minutes per '
                   'episode.')
     payload = f'New episode' + 's' if new_count > 1 else '' + ':\n'
     for ep in new_ep_list:
@@ -252,7 +252,7 @@ def process_all_podcasts():
     podcasts = [
         Podcast('tgn',
                 'https://feeds.buzzsprout.com/2049759.rss',
-                ['pfh@phfactor.net'],
+                ['pfh@phfactor.net', 'lucafoglio@miller-companies.com'],
                 'https://tgn.phfactor.net', episode_number_tgn),
         Podcast('wcl',
                 'https://feed.podbean.com/the40and20podcast/feed.xml',
@@ -368,4 +368,6 @@ def process_all_podcasts():
 
 
 if __name__ == '__main__':
+    log.remove()  # Remove default handler
+    log.add(sys.stdout, level="INFO")  # Set level to INFO
     process_all_podcasts()
