@@ -4,7 +4,7 @@ With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whis
 I had the idea of transcribing the podcast of some friends of mine, 
 [The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) podcast that I also enjoy.
 
-It's running on my trusty M1 Mac Mini and the results (static websites) are deployed to
+It's running on my trusty Raspberry Pi v4 and the results (static websites) are deployed to
 
 - [The Compleat Grey Nato](https://tgn.phfactor.net/)
 - [The Compleat 40 & 20](https://wcl.phfactor.net/)
