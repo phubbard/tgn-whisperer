@@ -63,7 +63,7 @@ def send_email(email_list: list, new_ep_list: list, base_url: str) -> None:
     new_count: int = len(new_ep_list)
     subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 
-    disclaimer = 'This email goes out just as the process begins, so transcripts may be delayed - about 5 minutes per episode.'
+    disclaimer = 'This email goes out just as the process begins, so transcripts may be delayed - about 90 minutes per episode.'
     payload = f'New episode' + 's' if new_count > 1 else '' + ':\n'
     for ep in new_ep_list:
         payload = payload + f"\n{base_url}/{str(ep)}/episode/"
