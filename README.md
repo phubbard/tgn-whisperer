@@ -2,18 +2,22 @@
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
 I had the idea of transcribing the podcast of some friends of mine, 
-[The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) podcast that I also enjoy.
+[The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) 
+podcast that I also enjoy.
 
-It's running on my trusty Raspberry Pi v4 and the results (static websites) are deployed to
+As of mid-2025, the code runs on 
+- Raspberry Pi v4 runs the main orchestration code
+- Ollama on my Mac studio runs WhisperX for speech to text plus diarization - [code here](https://github.com/phubbard/flask-whisperx)
+- Paid API call to Anthropic to do speaker attribution
+- Caddy2 on the same RPi to serve the files
+
+The results (static websites) are deployed to
 
 - [The Compleat Grey Nato](https://tgn.phfactor.net/)
 - [The Compleat 40 & 20](https://wcl.phfactor.net/)
 
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
-
-For a year or so we used OctoAI's paid service, but as of 11/1/2024, they're acquired and shut down. So now I'm spinning up [a Flask
-wrapper](https://github.com/phubbard/flask-whisperx) for WhisperX on [my compute server](https://ultracrepidarian.phfactor.net/2018/11/17/2018-machine-learning-home-build/). 
 
 This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
 well. 
@@ -31,7 +35,8 @@ well.
 5. Collation and speaker attribution (episode.py)
 5. Export text into markdown files (to_markdown.py)
 6. Generate a site with mkdocs
-7. Publish (rsync)
+7. Generate search index with [Pagefind](https://pagefind.app/docs/)
+8. Publish (rsync)
 
 All of these are run and orchestrated by two Makefiles. Robust, portable, deletes
 outputs if interrupted, working pretty well. 
