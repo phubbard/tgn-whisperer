@@ -2,4 +2,15 @@ site_name: The Compleat TGN
 nav:
   - Home: index.md
   - Episodes: episodes.md
+  - Search: search.md
   - Show notes: snl.md
+#  going to pagefind 9/21/25
+plugins:
+  - search:
+      enabled: false   # turn off built-in search (Material will hide the header box)
+
+extra_css:
+  - /pagefind/pagefind-ui.css
+
+extra_javascript:
+  - /pagefind/pagefind-ui.js

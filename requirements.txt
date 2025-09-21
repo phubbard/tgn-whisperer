@@ -8,3 +8,4 @@ loguru
 tenacity
 prefect
 httpx
+pagefind[bin]

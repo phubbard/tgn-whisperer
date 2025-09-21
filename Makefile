@@ -28,7 +28,7 @@ $(PODCAST_ROOT)/%/episode.md: directories
 episodes: $(PODCAST_EPS)
 
 $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
-	cd $(SITE_ROOT)/$*  &&  mkdocs -q build
+	cd $(SITE_ROOT)/$*  &&  mkdocs -q build && python3 -m pagefind --site site
 	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . /usr/local/www/$*
 
 deploy: $(SITE_INDEXES)
