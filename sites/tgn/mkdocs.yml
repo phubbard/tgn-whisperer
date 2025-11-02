@@ -3,7 +3,7 @@ nav:
   - Home: index.md
   - Episodes: episodes.md
   - Search: search.md
-  - Show notes: snl.md
+  - Show notes: shownotes.md
 #  going to pagefind 9/21/25
 plugins:
   - search:

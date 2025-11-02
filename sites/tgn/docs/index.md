@@ -14,7 +14,7 @@ a 1938 book by Guy Gilpatric who was an inspiration to Jacques Cousteau. I like 
 
 ## Dive in and read
 
-Each episode has its own page with transcript, episode page link and (coming soon!) show notes/links. 
+Each episode has its own page with transcript, episode page link and (as of 29-Oct-2025) show notes/links!
 
 [Go here to dive in!](episodes.md)
 
