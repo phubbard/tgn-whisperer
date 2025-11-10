@@ -1,15 +1,45 @@
 site_name: The Compleat 40 and 20
+site_url: https://wcl.phfactor.net/
+site_description: Transcripts and shownotes for the 40&20 podcast
+site_author: Paul Hubbard
+copyright: "&copy; 2025 Paul Hubbard"
+dev_addr: 0.0.0.0:8000
+
 nav:
   - Home: index.md
   - Episodes: episodes.md
-  - Search: search.md
-# going to Pagefind 9/21/25
-plugins:
-  - search:
-      enabled: false   # turn off built-in search (Material will hide the header box)
 
-extra_css:
-  - /pagefind/pagefind-ui.css
+theme:
+  logo: img/logo.jpg
+  favicon: img/favicon.ico
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
 
-extra_javascript:
-  - /pagefind/pagefind-ui.js
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - search.highlight
+    - toc.integrate
+
+
