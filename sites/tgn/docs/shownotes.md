@@ -1,8 +1,40 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on November 02, 2025
+Generated on November 06, 2025
 
-**6384 total links from 345 episodes (out of 347 episodes scraped, 2 without any links), averaging 18.5 per episode.**
+**6407 total links from 346 episodes (out of 348 episodes scraped, 2 without any links), averaging 18.5 per episode.**
+
+---
+
+## [The Grey NATO – 352 – Picking Birth Year Watches](https://thegreynato.substack.com/p/352-birth-year-watches)
+
+**Published:** November 06, 2025 at 06:00 AM
+
+**Related Links (23):**
+
+- [Tactile Turn TGN CPN1 Pen Pre-Order](https://tactileturn.com/products/the-grey-nato-side-click-pen)
+- [Stay Calm Industries](https://www.staycalmindustries.com/)
+- [Ludvigson Explorer Collection](https://thegreynato.com/shop)
+- [Olight OClip Ultra](https://www.olight.com/store/oclip-ultra-clip-on-edc-light)
+- [Rolex Submariner 14060M](https://www.fratellowatches.com/ten-years-later-the-submariner-14060m-is-still-the-rolex-to-buy/)
+- [Longines Spirit Zulu LE for Hodinkee](https://le.hodinkee.com/longines-zulu-time-for-hodinkee)
+- [Heuer Monaco](https://www.analogshift.com/products/heuer-monaco)
+- [Rolex Sea-Dweller 16660](https://www.bobswatches.com/rolex-blog/watch-review/transitional-sea-dweller-16660-triple-six.html)
+- [In-Depth: Bob Barth’s Historic SEALAB Rolex Submariner, For Sale](https://www.hodinkee.com/articles/hodinkee-exclusive-and-in-depth-bob-barths-historic-sealab-r)
+- [Doxa Sub 200 T-Graph](https://www.hodinkee.com/articles/doxa-sub-200-t-graph-searambler-vintage-tool-watches)
+- [Chronosport UDT](https://www.reddit.com/r/Watches/comments/lgdhoh/chronosport_udt_any_love_for_these_old_udts/)
+- [Breitling Aerospace](https://www.hodinkee.com/articles/the-early-breitling-aerospace)
+- [Citizen Aqualand C0023](https://monochrome-watches.com/history-citizen-aqualand-dive-watch-depth-gauge-4ath-anniversary-in-depth-review/)
+- [Seiko 6139](https://www.fratellowatches.com/seiko-watches/tbt-seiko-6139-pogue-chronograph/)
+- [Audemars Piguet Royal Oak QP 25654BA](https://www.hodinkee.com/articles/early-audemars-piguet-royal-oak-perpetual-calendar-in-depth)
+- [Tudor Oyster Date Chronograph 7031](https://tudorcollector.com/collection/watch-3/)
+- [Porsche Design by IWC Ocean 2000](https://www.fratellowatches.com/wrist-game-or-crying-shame-iwc-porsche-design-ocean-2000/)
+- [The Ocean 2000 that Analogshift has for sale](https://www.analogshift.com/products/iwc-porsche-design-ocean-2000-as10856)
+- [“One of One” (2025, Bertucci, Documentary, Apple TV)](https://tv.apple.com/bg/movie/one-of-one/umc.cmc.3r3kchpdiupwdazwiywkhs4m1)
+- [Ben Bertucci on Instagram](http://v)
+- [Naito Engineering on Instagram](https://www.instagram.com/so_naitoo/)
+- [Petey USA](https://www.peteyswebsite.com/)
+- [“The Yips” - Petey USA](https://www.youtube.com/watch?v=SwVRXvweQQk)
 
 ---
 

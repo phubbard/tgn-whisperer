@@ -9,3 +9,4 @@ tenacity
 prefect
 httpx
 pagefind[bin]
+zensical
