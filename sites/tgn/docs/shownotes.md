@@ -1,8 +1,211 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on November 06, 2025
+Generated on December 18, 2025
 
-**6407 total links from 346 episodes (out of 348 episodes scraped, 2 without any links), averaging 18.5 per episode.**
+**6556 total links from 352 episodes (out of 354 episodes scraped, 2 without any links), averaging 18.6 per episode.**
+
+---
+
+## [The Grey NATO – 358 – Final Notes Greatest Hits Of 2025](https://thegreynato.substack.com/p/358-final-notes-greatest-2025)
+
+**Published:** December 18, 2025 at 06:00 AM
+
+**Related Links (28):**
+
+- [Gate of India](https://www.gateofindia.ca/)
+- [called “Raga” and has since closed](https://www.straight.com/food/end-of-an-era-raga-restaurant-closes-after-40-magnificent-years-in-vancouver)
+- [Flighty](https://flighty.com/)
+- [Costco Sashimi Prep](https://www.youtube.com/watch?v=aDhsIDZ6SS8)
+- [Acquired Podcast about Costco](https://www.acquired.fm/episodes/costco)
+- [Tudor Pelagos FXD](https://www.instagram.com/p/DSQ39XlESHS/)
+- [Rolex Explorer II](https://www.instagram.com/p/DQYCmz0DXy3/)
+- [acques Lafitte Ferrari F40](https://www.youtube.com/watch?si=cb69oivb7LvuuaJh&v=3ou65nTQXRk)
+- [“Big Jim’s Big Boozy Bike Trip to Braemar”](https://www.youtube.com/watch?v=cZk2jV5gJbM)
+- [“The Finisher: Jasmin Paris and the Barkley Marathons” (Singletrack, YouTube)](https://www.youtube.com/watch?v=PgTEsybXw-4)
+- [“The Agency” (Showtime & Paramount+)](https://www.youtube.com/watch?v=pAxMy31nffA)
+- [“Black Bag” (Soderbergh, 2025)](https://www.imdb.com/title/tt30988739/)
+- [“10 Habits I Wish I Started 10 Years Ago” (Speeed, YouTube)](https://www.youtube.com/watch?v=O2ta3YaR7gs&t=18s)
+- [“Ill-Advised with Bill Nighy” (Apple link)](https://podcasts.apple.com/us/podcast/ill-advised-by-bill-nighy/id1842190360)
+- [Adobe Project Indigo App](https://research.adobe.com/articles/indigo/indigo.html)
+- [“The Bugatti Veyron Race - Jeremy vs Hammond and May” (BBC, YouTube)](https://www.youtube.com/watch?v=yoK4QYwixDc)
+- [Citizen Aqualand – An Underrated Legend In Military Service” (Ben Lowry, WOE)](https://www.watchesofespionage.com/blogs/woe-dispatch/citizen-aqualand-military)
+- [“Atocha: Quest for Treasure” (National Geographic, 1986, YouTube)](https://www.youtube.com/watch?v=g7jey7YKYp0)
+- [“One Warm Line: The Legacy of Stan Rogers” (1988, Kensington TV, YouTube)](https://www.youtube.com/watch?v=-h9A2RAfv9M)
+- [Vgate icar pro OBD2 bluetooth device](https://www.amazon.ca/dp/B06XGB4873)
+- [Car Scanner app](https://www.carscanner.info/)
+- [Notsu To-Do index card](https://www.amazon.ca/dp/B07VZX1F21?th=1)
+- [“Midnight Run” (Brest, 1988)](https://www.imdb.com/title/tt0095631/)
+- [“House of the Rising Sun (Cover)” (Brudi Brothers, YouTube)](https://www.youtube.com/watch?v=kttKiRlJZuw)
+- [“Testing 100 Years of Camping Gear” (Speeed, YouTube)](https://www.youtube.com/watch?v=5Us6AVVkx_8)
+- [“Listers: A Glimpse Into Extreme Birdwatching” (Owen Reiser, YouTube)](https://www.youtube.com/watch?v=zl-wAqplQAo)
+- [Compleat TGN](https://tgn.phfactor.net/)
+- [“The Shepherd” (Forsyth, Maitland, CBC)](https://www.cbc.ca/radio/asithappens/as-it-happens-the-shepherd-edition-2017-1.4455219/fireside-al-maitland-reads-frederick-forsyth-s-the-shepherd-1.4458378)
+
+---
+
+## [The Grey NATO – 357 – Our Favorite Watches of 2025](https://thegreynato.substack.com/p/357-our-favorite-watches-of-2025)
+
+**Published:** December 11, 2025 at 06:00 AM
+
+**Related Links (42):**
+
+- [Tactile Turn x TGN “CPN1”](https://tactileturn.com/products/the-grey-nato-side-click-pen)
+- [“The Manly Art of Knitting” - Dave Fougner](https://www.goodreads.com/book/show/796946.The_Manly_Art_of_Knitting)
+- [Omega 2254 Seamaster](https://www.fratellowatches.com/nachos-gada-watch-the-omega-seamaster-professional-300m-2254-50-00/)
+- [Le Forban rubber bund strap](https://leforbansecuritemer.com/en/bracelet-dive-bund/?key=dive-bund)
+- [CWC CWN1](https://www.cwcwatch.com/blogs/news/tgn-crew-watch-and-titanium-watches-to-come)
+- [Citizen Aqualand 40th Anniversary](https://www.citizenwatch.com/ca/en/product/JP2008-06E.html)
+- [Arken Alterum Speakeasy Vancouver](https://www.instagram.com/p/DP9KRBMDZX-/)
+- [Nomos Club Sport Neomatik Worldtimer Glacier](https://www.instagram.com/p/DP18r2CEYoA/?img_index=1)
+- [Steel beads of rice bracelet](https://www.aliexpress.com/item/1005008011418742.html)
+- [Nomos Roam and Reverie colorways](https://www.hodinkee.com/articles/the-nomos-club-sport-neomatic-worldtimer-roam-and-reverie-limited-editions)
+- [Dennison ALD Dual Time](https://dennisonwatch.com/pages/watches)
+- [Sinn 613 UTC](https://www.sinn.de/en/watches/all-watches/613-st-utc.html)
+- [Doxa Sub 250T GMT](https://doxawatches.com/collections/sub-250t-gmt)
+- [Clemence Photic MKII](https://www.clemencewatches.com/product-page/photic-mkii)
+- [Paulin Mara](https://www.paulinwatches.com/products/mara-black)
+- [Halios Seaforth IV](https://www.instagram.com/p/DOOgKHsDZeK/?img_index=1)
+- [Tudor Ranger 36mm](https://www.tudorwatch.com/en/watches/ranger/m79930-0007)
+- [Ming 37.11](https://www.ming.watch/featured-product/ming-37-11-odyssey-polymesh)
+- [Ming Polymesh titanium strap](https://www.ming.watch/featured-product/ming-polymesh)
+- [Rolex Submariner Desk Clock](https://www.hodinkee.com/articles/the-rolex-submariner-desk-clock-ref-909010ln)
+- [RZE Resolute](https://www.hodinkee.com/articles/the-rze-resolute-36)
+- [RZE UTD-8000](https://www.rzewatches.com/pages/utd-8000-launch)
+- [Seiko Rotocall](https://www.hodinkee.com/articles/seiko-brings-back-the-rotocall-a-digital-quartz-reissue-that-turns-our-bezel)
+- [Longines updates Spirit Pilot line](https://www.hodinkee.com/articles/the-longines-spirit-pilot-offers-an-update-five-years-in-the-making-live-pics)
+- [Brew Metric Digital Blend](https://www.hodinkee.com/articles/brew-presents-the-worlds-first-analog-digital-espresso-timer-watch-with-the-metric-digital-blend-liv)
+- [Nivada Grenchen Antarctic GMT LE for Hodinkee](https://le.hodinkee.com/nivada-grenchen-antarctic-gmt-limited-edition-hodinkee)
+- [Bret Curry](https://www.instagram.com/bretcurry/)
+- [Oris ProPilot Altimeter Bamford Mission Control](https://www.hodinkee.com/articles/introducing-oris-bamford)
+- [Blancpain Fifty Fathoms Tech](https://www.hodinkee.com/articles/diving-with-the-new-blancpain-ocean-commitment-iv-fifty-fathoms-tech)
+- [Jacques Bianci Marseille Deepsea EDC LE](https://en.jacquesbianchi.com/product-page/jacques-bianchi-marseille-x-deapsea-edc)
+- [Brock Stevens on TGN](https://thegreynato.substack.com/p/329-brock-stevens-chris-sohl)
+- [Bhuelman Decompression 02](https://www.watchangels.ch/en/watches/buhlmann-decompression-02/)
+- [Baltic Aquascaphe MKII](https://baltic-watches.com/en/products/aquascaphe-mk2-green?variant=56517441814912)
+- [Baltic Scalegraph](https://baltic-watches.com/en/collections/scalegraph)
+- [Meraud Antigua Regatta](https://meraud-watches.com/en-us/collections/meraud-antigua?srsltid=AfmBOop4Rtxm15myBPm_AprD3eK5EZaFOC3FIKhE0OW7XyBmKDQjh_2B)
+- [Jackmason Pursuit Pro](https://jackmasonbrand.com/products/pursuit-pro-hunter)
+- [Vgate iCar Pro 2](https://www.amazon.ca/dp/B06XGB4873)
+- [Car Scanner app](https://www.carscanner.info/)
+- [Real Survival Stories Podcast](https://podcasts.apple.com/us/podcast/real-survival-stories/id1698687674)
+- [Giant Mouse GMX](https://www.giantmouse.com/products/giantmouse-gmx)
+- [Benchmade 945 Mini Osborne Customizer](https://www.benchmade.com/products/945-cstm?customizerOpen=true)
+- [Flytanium scales](https://www.flytanium.com/)
+
+---
+
+## [The Grey NATO – 356 – The 2025 TGN Holiday Gift Guide ](https://thegreynato.substack.com/p/356-the-2025-tgn-holiday-gift-guide)
+
+**Published:** December 04, 2025 at 06:00 AM
+
+**Related Links (25):**
+
+- [Frank Lloyd Wright Home, Oak Park](https://franklloydwright.org/site/oak-park-home-studio/)
+- [Vertex M100](https://vertex-watches.com/collections/the-m100-series)
+- [Tudor Pelagos FXD](https://www.instagram.com/p/DRfAOaaEUZe/)
+- [Vicorinox Swiss Army Spartan Wood](https://www.victorinox.com/en/Products/Swiss-Army-Knife%E2%84%A2-and-Tools/Essentials/Spartan-Wood/p/1.3601.63)
+- [Big 10 - Turk’s West/Milano](https://www.milanocoffee.ca/shop/p/big-10)
+- [Always Sunny - Thom Bargen](https://revolvercoffee.ca/products/thom-bargen-always-sunny-espresso)
+- [Sidetracked Magazine Subscription](https://shop.sidetracked.com/products/sidetracked-gift-subscription)
+- [Magazine Subscription from Hearst](https://www.hearst.com/magazines)
+- [Adventure Journal](https://www.adventure-journal.com/product/aj-subscription/)
+- [Darn Tough Socks](https://darntough.com/)
+- [Morakniv Companion S](https://www.morakniv.com/en-us/collections/companion/products/companion-s)
+- [Companion Spark](https://www.morakniv.com/en-us/collections/companion/products/companion-spark-s)
+- [TNF x Bialetti Moka Set](https://www.thenorthface.com/en-us/p/featured-gifts-701283/tnf-x-bialetti-moka-set--NF0A8FF8?color=ZU3&size=OS)
+- [Goal Zero 600 Camping Lantern](https://goalzero.com/products/lighthouse-600-lantern-usb-power-hub)
+- [Galleryware Co. Ocean Winch Salt and Pepper Mills](https://galleyware.com/collections/salt-and-pepper-mills/products/winch-salt-pepper-mills)
+- [Bambu Labs A1 3D Printer](https://us.store.bambulab.com/products/a1)
+- [Maison Alcée Persée Fantôme Limited Edition For Hodinkee](https://www.watchesofswitzerland.com/products/hodinkee-maison-alcee-persee-fantome-limited-edition)
+- [HSNY Private Watchmaking Courses](https://hs-ny.org/nyc-education)
+- [“Kiss or Kill” - Mark Twight](https://www.goodreads.com/book/show/544564.Kiss_or_Kill)
+- [Magpul Daka pouch](https://magpul.com/gear/daka-organization/pouches.html)
+- [GL-Inet Beryl](https://www.gl-inet.com/products/gl-mt3000/)
+- [Speigen screen protector](https://www.spigen.com/collections/ez-fit-series)
+- [Olight OClip Ultra](https://www.olight.com/store/oclip-ultra-clip-on-edc-light)
+- [James Bond Thunderball Sea Globe](https://007store.com/en-us/products/james-bond-thunderball-sea-globe-limited-edition)
+- [Kinto SCS-S02 Brewer Stand Set](https://kinto-usa.com/products/27591)
+
+---
+
+## [The Grey NATO – 355 – The 36mm Tudor Ranger & Other New Watches](https://thegreynato.substack.com/p/355-the-36mm-tudor-ranger)
+
+**Published:** November 27, 2025 at 06:00 AM
+
+**Related Links (14):**
+
+- [Triumph Brewing Hangout (2 pm, Saturday, Nov 29th)](https://www.triumphbrewing.com/new-hope/)
+- [Ken Burns American Revolution](https://www.pbs.org/kenburns/the-american-revolution)
+- [TGN x Tactile Turn Pen Pre-Order](https://tactileturn.com/products/the-grey-nato-side-click-pen)
+- [Ed Jelley on TGN](https://thegreynato.substack.com/p/351-tactile-turn-ed-jelley)
+- [Citizen Aqualand 40th Anniversary](https://www.instagram.com/p/DMrIF2MNlHf/?img_index=1)
+- [Clemence Photic MK II](https://www.clemencewatches.com/product-page/photic-mkii)
+- [Tudor Ranger 36mm](https://www.hodinkee.com/articles/intro-tudor-ranger36)
+- [Mk II x Project Recover BAKU Hellion](https://www.hodinkee.com/articles/mk-ii-and-project-recover-team-up-for-the-hellion-baku-tribute-watch)
+- [Vaer x Topo x W&W Hiker Solar](https://www.hodinkee.com/articles/worn-and-wound-team-up-with-fan-faves-vaer-and-topo-for-the-new-solar-hiker)
+- [Christopher Ward Bel Canto Lumiere](https://www.hodinkee.com/articles/christopher-ward-goes-all-out-on-lume-with-the-c1-bel-canto-lumiere)
+- [“Sælehús (House of Bliss) - Icelandic Shelter Build” (Vaer, YouTube)](https://www.youtube.com/watch?v=DmFSHDNAIHw)
+- [Task” (HBO, 2025)](https://www.imdb.com/title/tt28013708/)
+- [Gridfinity guide](https://www.youtube.com/watch?v=TvIvoY013xQ)
+- [Autodesk Fusion App](https://www.autodesk.com/ca-en/products/fusion-360/personal)
+
+---
+
+## [The Grey NATO – 354 – A Brand New Omega Planet Ocean And Trip Reports ](https://thegreynato.substack.com/p/354-the-new-omega-planet-ocean)
+
+**Published:** November 20, 2025 at 06:00 AM
+
+**Related Links (19):**
+
+- [Tactile Turn x TGN Pen Pre-Order](https://tactileturn.com/products/the-grey-nato-side-click-pen)
+- [The New Omega Planet Ocean](https://www.hodinkee.com/articles/introducing-omega-planet-ocean-gen4)
+- [Mountaintop Burger](https://www.tripadvisor.com/Restaurant_Review-g2144166-d4232170-Reviews-L_Observatoire-Monnetier_Mornex_Haute_Savoie_Auvergne_Rhone_Alpes.html)
+- [GPHG](https://www.hodinkee.com/articles/the-2025-gphg-breguet-wins-the-aiguille-dor)
+- [Oceana](https://oceana.org/)
+- [Channel Islands](https://www.nps.gov/chis/index.htm)
+- [Cortes Bank](https://en.wikipedia.org/wiki/Cortes_Bank)
+- [Catalina Island](https://en.wikipedia.org/wiki/Santa_Catalina_Island_(California))
+- [Cobie Smulders](https://www.imdb.com/name/nm1130627/)
+- [Renee Capozzola](https://www.instagram.com/rcapozzola/?hl=en)
+- [Giant Black Sea Bass](https://en.wikipedia.org/wiki/Giant_sea_bass)
+- [Blancpain Fifty Fathoms Tech Gombessa](https://www.hodinkee.com/articles/blancpain-doubles-down-on-purpose-built-tools-with-the-crazy-fifty-fathoms-tech-gombessa-live-pics)
+- [CWC CWN1](https://www.cwcwatch.com/blogs/news/tgn-crew-watch-and-titanium-watches-to-come)
+- [2025 Omega Planet Ocean (4th Gen)](https://www.hodinkee.com/articles/introducing-omega-planet-ocean-gen4)
+- [Nissan Skyline GTR Generations](https://www.google.com/search?client=firefox-b-d&sca_esv=55588fd05011d482&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeioyp3OhN11EY0n5qfq-zEMZldv_eRjZ2XLYc5GnVnMEIxC4WQfoNDH7FwchyAayypSFRVX7Gyzf60Gn3h439oyzmPFMaoyP2CH3LS6X7h_JBwEUYbsRPK0xRmsG6rLhQ1fbKFrOXXuTF7mVtvKflTnX2R4d4zDCMCE1OnATYkPmOwqPbw&q=Nissan+Skyline+GTR+Generations&sa=X&ved=2ahUKEwiXob3x9f6QAxWtF1kFHaWmPXYQtKgLegQIGRAB&biw=950&bih=1063&dpr=1.82)
+- [Omega Seamaster “NTTD”](https://www.hodinkee.com/articles/the-omega-seamaster-diver-300m-007-edition-live-pics-and-pricing)
+- [Adventure Podcast The Turner Twins Climb Everest with Gear Old and New](https://podcasts.apple.com/gb/podcast/dispatch-live-the-turner-twins-mallory-reimagined/id1446862825?i=1000730357854)
+- [“Testing 100 Years of Camping Gear” (Speeed, YouTube)](https://www.youtube.com/watch?v=5Us6AVVkx_8)
+- [Nite-Ize Cinch-a-Lot](https://niteize.com/cinch-a-lot-stretch-strap)
+
+---
+
+## [The Grey NATO – 353 – A Chat With Ben Fogle [Adventurer, Broadcaster, Author, And Owner of Buffalo Systems]](https://thegreynato.substack.com/p/353-ben-fogle)
+
+**Published:** November 13, 2025 at 06:00 AM
+
+**Related Links (21):**
+
+- [Tactile Turn TGN CPN1](https://tactileturn.com/products/the-grey-nato-side-click-pen)
+- [Swatch Scuba Fifty Green Abyss](https://www.swatch.com/en-ca/bioceramic-scuba-fifty-fathoms/green-abyss.html)
+- [Swatch Scuba Fifty Ocean of Storms](https://www.swatch.com/en-ca/bioceramic-scuba-fifty-fathoms/ocean-of-storms.html)
+- [Ben Fogle’s Website](https://www.benfogle.com/)
+- [Ben Fogle’s Instagram](https://www.instagram.com/benfogle/?hl=en)
+- [“Land Rover” by Ben Fogle (book)](https://www.goodreads.com/en/book/show/30178358-land-rover)
+- [Falkland Islands](https://en.wikipedia.org/wiki/Falkland_Islands)
+- [Breitling Emergency](https://www.hodinkee.com/articles/breitling-emergency-orbiter-3-unique-adventure-watch)
+- [Tudor Snowflake](https://www.bobswatches.com/rolex-blog/tudor/dive-tudor-submariner-snowflake.html)
+- [Castaway 2000 (show)](https://en.wikipedia.org/wiki/Castaway_2000)
+- [Ben rowing the Atlantic with James Cracknell](https://en.wikipedia.org/wiki/Through_Hell_and_High_Water)
+- [The Empty Quarter](https://en.wikipedia.org/wiki/Rub%27_al_Khali)
+- [New Lives in the Wild](https://www.imdb.com/title/tt2795196/)
+- [Buffalo Systems](https://buffalosystems.co.uk/)
+- [Sheffield](https://en.wikipedia.org/wiki/Sheffield)
+- [Buffalo Reversible Gilet (Vest)](https://buffalosystems.co.uk/products/reversible-gilet-in-olive-green-1?_pos=1&_sid=c1cf7f368&_ss=r)
+- [Rannoch Blue Mountain Shirt](https://buffalosystems.co.uk/products/online-exclusive-navy-mountain-shirt)
+- [Emergency blanket](https://buffalosystems.co.uk/products/field-blanket)
+- [osh Fenn YouTube](https://www.youtube.com/@joshfenn)
+- [Gl Inet Beryl AX GL-MT3000 Router](https://www.gl-inet.com/products/gl-mt3000/)
+- [Planet Visionaries with Alex Honnold (Podcast from Rolex)](https://podcasts.apple.com/us/podcast/planet-visionaries-season-5/id1572495128)
 
 ---
 

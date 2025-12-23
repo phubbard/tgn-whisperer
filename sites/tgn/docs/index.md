@@ -6,7 +6,7 @@
 
 TGN is an acronym for [The Grey NATO](https://thegreynato.com), a podcast from James Stacey and Jason Heaton about
 
-	Travel, adventure, diving, driving, gear and most certainly watches.
+	A loose discussion of travel, adventure, diving, driving, gear and most certainly watches.
 
 ## What is this site?
 _This_ site, 'The Compleat TGN', is an unaffiliated side project, aiming to provide

@@ -1,12 +1,9 @@
 xmltodict
 requests
-mkdocs
 invoke
 anthropic
 python-dotenv
 loguru
 tenacity
-prefect
 httpx
-pagefind[bin]
 zensical

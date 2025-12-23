@@ -39,7 +39,7 @@ If you can't guess the speakers' name, put "Unknown".
 # @log.catch(reraise=True)
 def call_claude(client, text: str) -> (defaultdict, str):
     message = client.messages.create(
-        max_tokens=1000,
+        max_tokens=2000,
         system=prompt,
         messages=[
             {
@@ -47,11 +47,7 @@ def call_claude(client, text: str) -> (defaultdict, str):
                 "content": text,
             }
         ],
-	model = "claude-3-7-sonnet-latest",
-        # model="claude-3-5-sonnet-20241022"
-        # model="claude-3-5-sonnet-20240620"
-        # model="claude-3-sonnet-20240229",
-        # model="claude-3-opus-20240229",
+	model = "claude-sonnet-4-5",
     )
 
     # Log the prompt and output in a file with a timestamp as name.
