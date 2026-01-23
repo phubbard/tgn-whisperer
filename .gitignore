@@ -28,6 +28,7 @@ htmlcov/
 app/*.rss
 app/test_feeds/
 app/*_feed.rss
+app/data/
 OzTmhziA
 minus-*.json
 

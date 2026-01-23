@@ -15,6 +15,7 @@ SITE_INDEXES := $(patsubst %,$(SITE_ROOT)/%/site/index.html, $(SITE_LIST))
 all:
 	@$(MAKE) directories
 	@$(MAKE) episodes
+	@$(MAKE) tgn-shownotes
 	touch $(SITE_ROOT)/*/docs/episodes.md
 	@$(MAKE) -j2 deploy
 
@@ -32,4 +33,11 @@ $(SITE_ROOT)/%/site/index.html: $(SITE_ROOT)/%/docs/episodes.md
 	cd $(SITE_ROOT)/$*/site  && rsync -qrpgD --delete --force . /usr/local/www/$*
 
 deploy: $(SITE_INDEXES)
+
+# Generate TGN shownotes by scraping episode pages
+tgn-shownotes: tgn_feed.rss
+	@if [ -f tgn_feed.rss ]; then \
+		echo "Generating TGN shownotes..."; \
+		python3 app/generate_tgn_shownotes.py; \
+	fi
 

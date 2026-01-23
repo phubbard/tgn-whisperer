@@ -12,8 +12,14 @@ dependencies = [
     "python-dotenv",
     "loguru",
     "tenacity",
-    "httpx",
+    "httpx[http2]",
     "zensical",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "tldextract>=5.1",
+    "PyYAML>=6.0",
+    "tqdm>=4.66",
+    "rich>=13.7",
 ]
 
 [dependency-groups]
