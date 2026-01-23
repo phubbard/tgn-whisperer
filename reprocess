@@ -1,0 +1,3 @@
+#!/bin/bash
+# Convenience wrapper for reprocess.py
+uv run python app/reprocess.py "$@"
