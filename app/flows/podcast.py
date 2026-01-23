@@ -84,20 +84,20 @@ def process_podcast(podcast: Podcast):
 
     log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
 
-    # Step 6: Process each incomplete episode in parallel
-    episode_futures = []
+    # Step 6: Process each incomplete episode sequentially
+    # Note: For parallel processing, episodes should be submitted to a work pool
+    # For now, process sequentially to ensure reliability
+    results = []
     for ep_number in incomplete_ep_numbers:
         episode_entry = get_episode_details(episodes, ep_number)
         if episode_entry:
-            future = process_episode.submit(podcast, episode_entry)
-            episode_futures.append(future)
+            log.info(f"Processing episode {ep_number}...")
+            result = process_episode(podcast, episode_entry)
+            results.append(result)
         else:
             log.warning(f"Could not find episode {ep_number} in feed")
 
-    # Wait for all episodes to complete
-    log.info(f"Waiting for {len(episode_futures)} episodes to process...")
-    results = [f.result() for f in episode_futures]
-    log.success(f"All episodes processed successfully")
+    log.success(f"All {len(results)} episodes processed successfully")
 
     # Step 7: Generate and deploy site immediately
     generate_and_deploy_site(podcast)
