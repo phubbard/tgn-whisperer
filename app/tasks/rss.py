@@ -14,7 +14,7 @@ from rss_processor import process_feed
 @task(
     name="fetch-rss-feed",
     retries=3,
-    retry_delay_seconds=[60, 120, 300],  # Exponential backoff
+    retry_delay_seconds=60,  # 60 second delay between retries
     cache_policy=INPUTS,
     cache_expiration="5 minutes",  # Cache for 5 minutes to avoid re-fetching during debugging
     log_prints=True

@@ -50,7 +50,7 @@ def create_episode_directories(podcast_name: str, episode_number: float) -> tupl
 @task(
     name="download-mp3",
     retries=3,
-    retry_delay_seconds=[60, 120, 300],
+    retry_delay_seconds=120,  # 2 minute delay between retries
     cache_policy=INPUTS,
     log_prints=True
 )
@@ -98,7 +98,7 @@ def download_mp3(episode_dir: Path, mp3_url: str) -> Path:
 @task(
     name="download-episode-html",
     retries=3,
-    retry_delay_seconds=[60, 120, 300],
+    retry_delay_seconds=120,  # 2 minute delay between retries
     cache_policy=INPUTS,
     log_prints=True
 )

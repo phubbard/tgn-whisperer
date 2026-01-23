@@ -162,7 +162,7 @@ def _process_transcription_chunks(transcript_data: dict) -> list[tuple]:
 @task(
     name="attribute-speakers",
     retries=3,
-    retry_delay_seconds=[60, 180, 300],  # Longer delays for API rate limits
+    retry_delay_seconds=180,  # 3 minute delay for API rate limits
     cache_policy=INPUTS,
     log_prints=True
 )
