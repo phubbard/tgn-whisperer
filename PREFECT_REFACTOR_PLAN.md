@@ -38,32 +38,37 @@ For each episode:
 
 ```
 Main Flow: Process All Podcasts
-├── Sub-flow: Process TGN
+├── Sub-flow: Process TGN (runs independently)
 │   ├── Task: Fetch RSS feed
 │   ├── Task: Process feed (add episode numbers)
 │   ├── Task: Check for new episodes
 │   ├── Task: Send notifications
-│   └── For each new episode:
-│       ├── Task: Create directories
-│       ├── Task: Download MP3
-│       ├── Task: Transcribe audio (Fluid Audio API)
-│       ├── Task: Download episode HTML
-│       ├── Task: Attribute speakers (Claude API)
-│       └── Task: Generate markdown
+│   ├── For each new episode (parallel):
+│   │   ├── Task: Create directories
+│   │   ├── Task: Download MP3
+│   │   ├── Task: Transcribe audio (Fluid Audio API - blocking)
+│   │   ├── Task: Download episode HTML
+│   │   ├── Task: Attribute speakers (Claude API)
+│   │   └── Task: Generate markdown
+│   └── If new episodes processed:
+│       ├── Task: Generate TGN shownotes
+│       ├── Task: Build TGN site (zensical)
+│       ├── Task: Generate search index (Pagefind)
+│       └── Task: Deploy TGN site (caddy2 static hosting)
 │
-├── Sub-flow: Process WCL (same structure)
+├── Sub-flow: Process WCL (runs independently, same structure)
+│   └── Includes WCL-specific site generation
 │
-├── Sub-flow: Process Hodinkee (same structure)
-│
-└── Sub-flow: Site Generation & Deployment
-    ├── Task: Generate TGN shownotes
-    ├── Task: Generate WCL shownotes
-    ├── Task: Build TGN site (zensical)
-    ├── Task: Build WCL site (zensical)
-    ├── Task: Build Hodinkee site (zensical)
-    ├── Task: Generate search indexes (Pagefind)
-    └── Task: Deploy sites (rsync)
+└── Sub-flow: Process Hodinkee (runs independently, same structure)
+    └── Includes Hodinkee-specific site generation
 ```
+
+**Key Points:**
+- All 3 podcast flows run in parallel
+- Site generation happens immediately after each podcast completes (no waiting)
+- Transcription calls are blocking (Mac Studio on LAN, no async needed)
+- Static hosting via existing caddy2 setup with SSL
+
 
 ## Implementation Plan
 
@@ -104,19 +109,16 @@ Convert existing functions into Prefect tasks:
 ```python
 @flow(name="process-all-podcasts")
 def process_all_podcasts():
-    # Run podcast processing in parallel
+    # Run all podcast processing flows in parallel
+    # Each handles its own site generation independently
     tgn_future = process_podcast.submit(tgn_config)
     wcl_future = process_podcast.submit(wcl_config)
     hodinkee_future = process_podcast.submit(hodinkee_config)
 
-    # Wait for all podcasts to complete
-    tgn_new_eps = tgn_future.result()
-    wcl_new_eps = wcl_future.result()
-    hodinkee_new_eps = hodinkee_future.result()
-
-    # Only generate sites if there were new episodes
-    if any([tgn_new_eps, wcl_new_eps, hodinkee_new_eps]):
-        generate_and_deploy_sites()
+    # Wait for completion (optional - could just fire and forget)
+    tgn_future.wait()
+    wcl_future.wait()
+    hodinkee_future.wait()
 ```
 
 **Podcast Processing Flow:**
@@ -145,7 +147,30 @@ def process_podcast(podcast: Podcast):
     # Wait for all episodes to complete
     results = [f.result() for f in episode_futures]
 
+    # Generate and deploy this podcast's site immediately
+    generate_and_deploy_site(podcast)
+
     return new_eps
+```
+
+**Site Generation Flow (per podcast):**
+```python
+@flow(name="generate-and-deploy-site")
+def generate_and_deploy_site(podcast: Podcast):
+    # Generate shownotes if applicable
+    if podcast.name == 'tgn':
+        generate_tgn_shownotes()
+    elif podcast.name == 'wcl':
+        generate_wcl_shownotes()
+
+    # Build site with zensical
+    site_path = build_site(podcast.name)
+
+    # Generate search index
+    generate_search_index(site_path)
+
+    # Deploy to caddy2 (just updates static files in place)
+    deploy_site(podcast.name, site_path)
 ```
 
 **Episode Processing Flow:**
@@ -156,9 +181,11 @@ def process_episode(podcast: Podcast, episode_data: dict):
     episode = create_episode(episode_data)
     create_episode_directory(episode)
 
-    # Download and transcribe (sequential)
+    # Download and transcribe (sequential, blocking call to Mac Studio)
     mp3_path = download_mp3(episode)
     transcript = transcribe_audio(podcast.name, episode.number, mp3_path)
+    # Note: transcribe_audio blocks for 30-90 minutes, which is fine
+    # since it's a LAN call to Mac Studio with Fluid Audio
 
     # Download HTML in parallel with attribution
     html_future = download_episode_html.submit(episode)
@@ -338,28 +365,31 @@ deployments:
     entrypoint: app/flows/main.py:process_all_podcasts
 ```
 
-## Open Questions
+## Decisions Made
 
-1. **Prefect Cloud vs Self-Hosted?**
-   - Cloud: Easier setup, managed hosting, $0-$20/month
-   - Self-hosted: Full control, no cost, requires maintenance
-   - Recommendation: Start with Cloud, migrate to self-hosted later if needed
+1. **Prefect Self-Hosted** ✅
+   - Running Prefect server on local infrastructure
+   - Full control, no cost, existing infrastructure
 
-2. **Preserve Make for Episode Processing?**
-   - Option A: Full Prefect refactor (remove all Make)
-   - Option B: Hybrid (Prefect for orchestration, Make for episode steps)
-   - Recommendation: Full Prefect (simpler, better visibility)
+2. **Full Prefect Refactor** ✅
+   - Remove all Makefiles
+   - Pure Prefect orchestration for everything
+   - Better visibility and debugging
 
-3. **Handle Long-Running Transcriptions?**
-   - Transcription can take 30-90 minutes per episode
-   - Option A: Polling (check every 5 minutes)
-   - Option B: Webhooks (Fluid Audio calls back when done)
-   - Recommendation: Polling initially, webhooks later
+3. **Blocking Transcription Calls** ✅
+   - Mac Studio on LAN handles transcription
+   - Blocking calls are fine (30-90 minutes)
+   - No async/polling needed for LAN operations
 
-4. **Deployment Platform?**
-   - Current: Raspberry Pi 4
-   - Potential: fly.io, AWS Lambda, or keep on Pi
-   - Recommendation: Keep on Pi initially, document fly.io migration path
+4. **Independent Site Generation** ✅
+   - Each podcast generates/deploys its site immediately after processing
+   - No waiting for all podcasts to complete
+   - Caddy2 provides static hosting with SSL
+
+5. **Deployment Platform** ✅
+   - Stay on current infrastructure
+   - Caddy2 for static hosting
+   - Prefect server on same machine
 
 ## Next Steps
 
