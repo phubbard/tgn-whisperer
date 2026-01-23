@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 from loguru import logger as log
 import xmltodict
 from constants import *
+from rss_processor import process_feed
+
 
 load_dotenv()  # take environment variables from .env.
 
@@ -95,69 +97,20 @@ url_rs = r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\
 url_matcher = re.compile(url_rs)
 
 
-def episode_number_wcl(entry):
-    # Episode logic for WCL (40 and 20). Generally a clean and correct RSS, so fewer workarounds.
-    wcl_lookup = {
-        "Watch Clicker Mini Review - Nodus Sector Dive": 81.5,
-        "Episode 36 GMT Watches": 36,
-    }
+def episode_number_from_rss(entry):
+    """
+    Extract episode number from RSS entry.
 
+    After processing feeds with rss_processor, all episodes should have
+    itunes:episode tags, so we can simply read them directly.
+    """
     meta_entry = entry.get('itunes:episode', None)
     if meta_entry:
         return float(meta_entry)
 
-    title = entry['title']
-    hardcode = wcl_lookup.get(title, None)
-    if hardcode:
-        return float(hardcode)
-
-    as_split = re.split(r'[-‒–—:]', title)
-
-    deprefixed = as_split[0].lower().removeprefix('episode').strip()
-    if deprefixed.isdigit():
-        return float(deprefixed)
-
-    log.warning(f"FAIL: -> {title}")
-    return None
-
-
-def episode_number_tgn(entry):
-    # Episode number logic for TGN. Early feed was super crufty, so several workarounds and special cases.
-    # NOTE add new oddballs here.
-    tgn_lookup = {
-        "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
-        "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
-        "The Grey NATO – A Week Off (And A Request!)": 160.5,
-        "Depth Charge - The Original Soundtrack by Oran Chan": 143.5,
-        "The Grey Nato Ep 25  - Dream Watches 2017": 25,
-        "The Grey Nato - Question & Answer #1": 20.5,
-        "TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)": 16.5,
-        "TGN Chats - Chase Fancher :: Oak & Oscar": 14.5,
-        "Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology": 260.5,
-        "The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland": 282.5,
-        "Out Of Office – Back August 22nd": 295.5,
-        "The Grey NATO – 300!": 300
-    }
-    title = entry['title']
-
-    hardcode = tgn_lookup.get(title, None)
-    if hardcode:
-        return float(hardcode)
-
-    as_split = re.split(r'[-‒–—]', title)
-    if len(as_split) < 2:
-        log.warning(f"EP NUMBER FAIL -> {title}")
-        return None
-
-    second = as_split[1].strip()
-    if second.isdigit():
-        return float(second)
-    elif second.lower().startswith('ep'):
-        sub_split = second.split()
-        if len(sub_split) == 2 and sub_split[1].isdigit():
-            return float(sub_split[1])
-
-    log.warning(f"FAIL: -> {title}")
+    # This should not happen after RSS processing, but log it if it does
+    meta_title = entry.get('title', 'Unknown')
+    log.error(f'Missing itunes:episode tag for entry: {meta_title}')
     return None
 
 
@@ -253,11 +206,15 @@ def process_all_podcasts():
         Podcast('tgn',
                 'https://feeds.buzzsprout.com/2049759.rss',
                 ['pfh@phfactor.net', 'lucafoglio@miller-companies.com'],
-                'https://tgn.phfactor.net', episode_number_tgn),
+                'https://tgn.phfactor.net', episode_number_from_rss),
         Podcast('wcl',
                 'https://feed.podbean.com/the40and20podcast/feed.xml',
                 ['pfh@phfactor.net', 'hello@watchclicker.com'],
-                'https://wcl.phfactor.net', episode_number_wcl),
+                'https://wcl.phfactor.net', episode_number_from_rss),
+        Podcast('hodinkee',
+                'https://feeds.simplecast.com/OzTmhziA',
+                ['pfh@phfactor.net'],
+                'https://hodinkee.phfactor.net', episode_number_from_rss),
     ]
 
     for podcast in podcasts:
@@ -278,8 +235,22 @@ def process_all_podcasts():
             log.error(f'Error pulling RSS feed, skipping {podcast}. {rc.status_code=} {rc.reason=}')
             continue
 
+        # Process feed to fill in missing episode numbers
+        # Save RSS to disk, process it, then read back
+        feed_file = Path(f'{podcast.name}_feed.rss')
+        log.debug(f'Saving {podcast.name} feed to {feed_file} for processing')
+        feed_file.write_text(rc.text)
+
+        # Process the feed to add missing episode numbers
+        total, modified = process_feed(feed_file, verbose=False)
+        if modified > 0:
+            log.info(f'{podcast.name} feed processed: {total} episodes, {modified} modified')
+
+        # Read the modified feed back
+        feed_text = feed_file.read_text()
+
         log.debug('Parsing XML')
-        entries = xmltodict.parse(rc.text)
+        entries = xmltodict.parse(feed_text)
         ep_count = len(entries['rss']['channel']['item'])
 
         log.info("Building episode list to check for new content")

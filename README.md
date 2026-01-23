@@ -15,12 +15,12 @@ The results (static websites) are deployed to
 
 - [The Compleat Grey Nato](https://tgn.phfactor.net/)
 - [The Compleat 40 & 20](https://wcl.phfactor.net/)
+- [The Compleat Hodinkee Radio](https://hodinkee.phfactor.net/)
 
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
 
-This repo is the code and some notes for myself and others. As of 10/9/2023, the code handles two podcasts and is working 
-well. 
+This repo is the code and some notes for myself and others. As of January 2026, the code handles three podcasts (TGN, WCL, and Hodinkee Radio) and is working well. 
 
 ## Goals
 
@@ -64,17 +64,18 @@ For a project like this, you want a primary index / key / way to refer to an epi
 
     itunes:episode
 
-however! TGN was bad, and didn't include this. What's more, they had episodes _in between_ episodes. The episode_number
-function in process.py handles this with a combination of techniques:
+However, many podcast RSS feeds have missing or incomplete episode numbers. To solve this, we use a generalized RSS processor (`rss_processor.py`) that:
 
-1. Try the itunes:episode key
-2. Check the list of exceptions, keyed by string title
-3. Try to parse an integer from the title
-4. Starting at 2100, assign a number
+1. Downloads the RSS feed
+2. Fills in missing `itunes:episode` tags chronologically (oldest = 1, newest = N)
+3. Preserves existing episode numbers where they exist
+4. Avoids creating duplicate numbers
 
-The story is very similar for per-episode URLs. Should be there, often are missing, and can sometimes be parsed out of the description.
+After processing, all episodes have `itunes:episode` tags, and `process.py` simply reads them directly - no more complex title parsing or hardcoded lookup dictionaries!
 
-40 & 20 has clean metadata, so this was a _ton_ easier for their feed.
+The story is similar for per-episode URLs. Should be there, often are missing, and can sometimes be parsed out of the description.
+
+**Testing**: Run `pytest test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds.
 
 ### Optional - wordcloud
 
