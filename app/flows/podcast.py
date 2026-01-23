@@ -1,8 +1,14 @@
 """Podcast processing flow for a single podcast feed."""
+from pathlib import Path
 from prefect import flow
 from loguru import logger as log
 
 from models.podcast import Podcast
+from tasks.shownotes import (
+    generate_tgn_shownotes,
+    generate_wcl_shownotes,
+    generate_hodinkee_shownotes
+)
 
 
 @flow(name="process-podcast", log_prints=True)
@@ -70,11 +76,20 @@ def generate_and_deploy_site(podcast: Podcast):
     """
     log.info(f"Generating and deploying site for {podcast.name}")
 
-    # TODO: Generate shownotes if applicable
-    # if podcast.name == 'tgn':
-    #     generate_tgn_shownotes()
-    # elif podcast.name == 'wcl':
-    #     generate_wcl_shownotes()
+    # Step 1: Generate shownotes if applicable
+    project_root = Path(__file__).parent.parent.parent
+    rss_path = project_root / f"{podcast.name}_feed.rss"
+    output_path = project_root / "sites" / podcast.name / "docs" / "shownotes.md"
+
+    if rss_path.exists():
+        if podcast.name == 'tgn':
+            generate_tgn_shownotes(rss_path, output_path)
+        elif podcast.name == 'wcl':
+            generate_wcl_shownotes(rss_path, output_path)
+        elif podcast.name == 'hodinkee':
+            generate_hodinkee_shownotes(rss_path, output_path)
+    else:
+        log.warning(f"RSS feed not found for shownotes: {rss_path}")
 
     # TODO: Build site with zensical
     # site_path = build_site(podcast.name)
@@ -85,4 +100,4 @@ def generate_and_deploy_site(podcast: Podcast):
     # TODO: Deploy (update static files in caddy2 directory)
     # deploy_site(podcast.name, site_path)
 
-    log.info(f"Site deployed for {podcast.name}")
+    log.info(f"Site generation complete for {podcast.name}")

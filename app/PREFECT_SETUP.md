@@ -10,15 +10,15 @@ app/
 │   ├── main.py         # Main orchestration flow
 │   ├── podcast.py      # Podcast processing flow
 │   └── episode.py      # Episode processing flow
-├── tasks/              # Prefect task definitions (TODO)
-│   ├── rss.py         # RSS fetching and parsing
-│   ├── download.py    # MP3 and HTML downloads
-│   ├── transcribe.py  # Fluid Audio API calls
-│   ├── attribute.py   # Claude speaker attribution
-│   ├── markdown.py    # Markdown generation
-│   ├── shownotes.py   # Shownotes generation
-│   ├── build.py       # Site building (zensical)
-│   └── deploy.py      # rsync deployment
+├── tasks/              # Prefect task definitions
+│   ├── shownotes.py   # Shownotes generation (✓ implemented)
+│   ├── rss.py         # RSS fetching and parsing (TODO)
+│   ├── download.py    # MP3 and HTML downloads (TODO)
+│   ├── transcribe.py  # Fluid Audio API calls (TODO)
+│   ├── attribute.py   # Claude speaker attribution (TODO)
+│   ├── markdown.py    # Markdown generation (TODO)
+│   ├── build.py       # Site building (zensical) (TODO)
+│   └── deploy.py      # rsync deployment (TODO)
 ├── models/             # Data models
 │   ├── podcast.py     # Podcast dataclass
 │   └── episode.py     # Episode dataclass
@@ -95,7 +95,8 @@ This will deploy all flows defined in `prefect.yaml` with their schedules.
 - [x] Define data models (Podcast, Episode)
 - [x] Create flow skeletons
 
-### Phase 2: Task Implementation (TODO)
+### Phase 2: Task Implementation (In Progress)
+- [x] Convert shownotes generation to tasks (TGN, WCL)
 - [ ] Convert RSS processing to tasks
 - [ ] Convert download logic to tasks
 - [ ] Convert transcription to tasks
