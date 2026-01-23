@@ -22,6 +22,7 @@ from tasks.build import (
     generate_search_index,
     deploy_site
 )
+from tasks.completion import filter_incomplete_episodes
 from flows.episode import process_episode
 
 
@@ -52,20 +53,40 @@ def process_podcast(podcast: Podcast):
     feed_data = process_rss_feed(rss_content, podcast.name)
     episodes = feed_data['episodes']
 
-    # Step 3: Check for new episodes
+    # Step 3: Check for new episodes (for notifications)
     new_ep_numbers = check_new_episodes(podcast.name, episodes)
 
-    # If no new episodes, return early
-    if not new_ep_numbers:
-        log.info(f"No new episodes for {podcast.name}")
+    # Step 4: Send notifications for truly new episodes
+    if new_ep_numbers:
+        log.info(f"Found {len(new_ep_numbers)} new episodes")
+        send_notification_email(podcast, new_ep_numbers)
+    else:
+        log.info(f"No new episodes found")
+
+    # Step 5: Check ALL episodes for incomplete processing
+    # Get all episode numbers from the feed
+    all_ep_numbers = []
+    for entry in episodes:
+        ep_num = entry.get('itunes:episode')
+        if ep_num:
+            all_ep_numbers.append(float(ep_num))
+
+    log.info(f"Checking {len(all_ep_numbers)} total episodes for completion status")
+
+    # Filter to find incomplete episodes (new or previously failed)
+    incomplete_ep_numbers = filter_incomplete_episodes(podcast.name, all_ep_numbers)
+
+    if not incomplete_ep_numbers:
+        log.info(f"All episodes for {podcast.name} are complete")
+        # Still generate/deploy site in case of updates
+        generate_and_deploy_site(podcast)
         return []
 
-    # Step 4: Send notifications
-    send_notification_email(podcast, new_ep_numbers)
+    log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
 
-    # Step 5: Process each episode in parallel
+    # Step 6: Process each incomplete episode in parallel
     episode_futures = []
-    for ep_number in new_ep_numbers:
+    for ep_number in incomplete_ep_numbers:
         episode_entry = get_episode_details(episodes, ep_number)
         if episode_entry:
             future = process_episode.submit(podcast, episode_entry)
@@ -78,11 +99,11 @@ def process_podcast(podcast: Podcast):
     results = [f.result() for f in episode_futures]
     log.success(f"All episodes processed successfully")
 
-    # Step 6: Generate and deploy site immediately
+    # Step 7: Generate and deploy site immediately
     generate_and_deploy_site(podcast)
 
-    log.info(f"Completed processing {len(new_ep_numbers)} new episodes for {podcast.name}")
-    return new_ep_numbers
+    log.info(f"Completed processing {len(incomplete_ep_numbers)} episodes for {podcast.name}")
+    return incomplete_ep_numbers
 
 
 @flow(name="generate-and-deploy-site", log_prints=True)
