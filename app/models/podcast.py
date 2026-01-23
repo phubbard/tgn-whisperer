@@ -16,7 +16,15 @@ class Podcast:
 # Podcast instances
 def get_all_podcasts() -> list[Podcast]:
     """Return list of all configured podcasts."""
-    from constants import episode_number_from_rss
+    # Import here to avoid circular dependency
+    # Note: This function is from process.py but we'll use a dummy for now
+    # since we're extracting episode numbers directly from RSS in tasks/rss.py
+    def episode_number_from_rss(entry):
+        """Extract episode number from RSS entry."""
+        meta_entry = entry.get('itunes:episode', None)
+        if meta_entry:
+            return float(meta_entry)
+        return None
 
     return [
         Podcast(

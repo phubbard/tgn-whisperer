@@ -16,6 +16,7 @@ from tasks.shownotes import (
     generate_wcl_shownotes,
     generate_hodinkee_shownotes
 )
+from flows.episode import process_episode
 
 
 @flow(name="process-podcast", log_prints=True)
@@ -56,16 +57,22 @@ def process_podcast(podcast: Podcast):
     # Step 4: Send notifications
     send_notification_email(podcast, new_ep_numbers)
 
-    # TODO: Process each episode in parallel
-    # episode_futures = []
-    # for ep_number in new_ep_numbers:
-    #     episode_data = get_episode_details(episodes, ep_number)
-    #     future = process_episode.submit(podcast, episode_data)
-    #     episode_futures.append(future)
-    # results = [f.result() for f in episode_futures]
+    # Step 5: Process each episode in parallel
+    episode_futures = []
+    for ep_number in new_ep_numbers:
+        episode_entry = get_episode_details(episodes, ep_number)
+        if episode_entry:
+            future = process_episode.submit(podcast, episode_entry)
+            episode_futures.append(future)
+        else:
+            log.warning(f"Could not find episode {ep_number} in feed")
 
-    # Step 5: Generate and deploy site immediately
-    # (Only if episodes were processed - for now just run it)
+    # Wait for all episodes to complete
+    log.info(f"Waiting for {len(episode_futures)} episodes to process...")
+    results = [f.result() for f in episode_futures]
+    log.success(f"All episodes processed successfully")
+
+    # Step 6: Generate and deploy site immediately
     generate_and_deploy_site(podcast)
 
     log.info(f"Completed processing {len(new_ep_numbers)} new episodes for {podcast.name}")

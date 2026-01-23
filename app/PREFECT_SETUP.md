@@ -14,10 +14,10 @@ app/
 │   ├── shownotes.py   # Shownotes generation (✓ implemented)
 │   ├── rss.py         # RSS fetching and parsing (✓ implemented)
 │   ├── notifications.py # Email notifications (✓ implemented)
-│   ├── download.py    # MP3 and HTML downloads (TODO)
-│   ├── transcribe.py  # Fluid Audio API calls (TODO)
-│   ├── attribute.py   # Claude speaker attribution (TODO)
-│   ├── markdown.py    # Markdown generation (TODO)
+│   ├── download.py    # MP3 and HTML downloads (✓ implemented)
+│   ├── transcribe.py  # Fluid Audio API calls (✓ implemented)
+│   ├── attribute.py   # Claude speaker attribution (✓ implemented)
+│   ├── markdown.py    # Markdown generation (✓ implemented)
 │   ├── build.py       # Site building (zensical) (TODO)
 │   └── deploy.py      # rsync deployment (TODO)
 ├── models/             # Data models
@@ -95,21 +95,21 @@ This will deploy all flows defined in `prefect.yaml` with their schedules.
 - [x] Define data models (Podcast, Episode)
 - [x] Create flow skeletons
 
-### Phase 2: Task Implementation (In Progress)
+### Phase 2: Task Implementation (Complete! ✅)
 - [x] Convert shownotes generation to tasks (TGN, WCL)
 - [x] Convert RSS processing to tasks (fetch, process, check new)
 - [x] Convert notification emails to tasks
-- [ ] Convert download logic to tasks
-- [ ] Convert transcription to tasks
-- [ ] Convert speaker attribution to tasks
-- [ ] Convert markdown generation to tasks
-- [ ] Convert site building to tasks
+- [x] Convert download logic to tasks (MP3, HTML, directories)
+- [x] Convert transcription to tasks (Fluid Audio API)
+- [x] Convert speaker attribution to tasks (Claude API)
+- [x] Convert markdown generation to tasks
+- [ ] Convert site building to tasks (zensical, Pagefind, deploy)
 
-### Phase 3: Flow Implementation (In Progress)
+### Phase 3: Flow Implementation (Complete! ✅)
 - [x] Complete podcast RSS and notification workflow
-- [ ] Complete episode processing flow
-- [x] Add error handling and retries (RSS and notifications)
-- [x] Add caching configuration (RSS tasks)
+- [x] Complete episode processing flow (all steps implemented)
+- [x] Add error handling and retries (all tasks)
+- [x] Add caching configuration (RSS, transcription, attribution)
 
 ## Architecture
 
