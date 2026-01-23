@@ -54,12 +54,15 @@ uv run pytest app/test_rss_processing.py
 
 1. Download the RSS file (process.py, using Requests)
 2. Parse it for the episode MP3 files (xmltodict)
-4. Call WhisperX on each (POST to Flask)
-5. Collation and speaker attribution (episode.py)
+3. Call Fluid Audio backend for transcription and diarization (POST to Flask)
+4. Collation and speaker attribution (episode.py, using Claude Sonnet 4.5 API)
 5. Export text into markdown files (to_markdown.py)
-6. Generate a site with mkdocs
-7. Generate search index with [Pagefind](https://pagefind.app/docs/)
-8. Publish (rsync)
+6. Generate shownotes:
+   - **TGN**: Scrape related links from Substack episode pages (related_links_collector)
+   - **WCL**: Extract links from RSS feed HTML (wcl_shownotes.py)
+7. Generate static sites with mkdocs/zensical
+8. Generate search index with [Pagefind](https://pagefind.app/docs/)
+9. Publish (rsync)
 
 All of these are run and orchestrated by two Makefiles. Robust, portable, deletes
 outputs if interrupted, working pretty well. 
@@ -100,6 +103,25 @@ The story is similar for per-episode URLs. Should be there, often are missing, a
 
 **Testing**: Run `pytest test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds.
 
+### Shownotes Generation
+
+Each podcast has a comprehensive shownotes page listing all related links from every episode:
+
+**The Grey NATO** - Links are extracted by scraping Substack episode pages:
+- Uses `related_links_collector` package (integrated from separate repo)
+- Workflow: Extract episode URLs → Scrape Substack pages → Resolve shortlinks → Generate markdown
+- Handles bit.ly shortlinks via `bitly.json` mapping
+- Handles both old and new Substack HTML formats
+- Run manually: `uv run python app/generate_tgn_shownotes.py`
+- Auto-runs via Makefile when new episodes detected
+
+**40 and 20** - Links are directly in RSS feed:
+- Parses HTML from `<description>` and `<content:encoded>` tags
+- Filters out boilerplate (sponsors, social media, etc.)
+- Run manually: `uv run python app/wcl_shownotes.py`
+
+**Stats**: TGN has 6,611 links from 355 episodes (avg 18.6/episode), WCL has 2,197 links from 275 episodes (avg 8.0/episode).
+
 ### Optional - wordcloud
 
 I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
@@ -114,3 +136,31 @@ to work with my [python 3.11 install](https://github.com/amueller/word_cloud/iss
 40 & 20, run Sep 24 2023 - fun to see the overlaps.
 
 ![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud")
+
+## Troubleshooting
+
+### Git push hangs
+
+If `git push` hangs, GitHub's SSH port 22 may be blocked by your firewall. Configure SSH to use port 443 instead:
+
+```bash
+cat >> ~/.ssh/config << 'EOF'
+
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  User git
+EOF
+```
+
+Test with: `ssh -T git@github.com`
+
+### Makefile dependency issues
+
+The project uses careful Makefile dependency management to ensure:
+1. RSS feeds are processed before episodes
+2. MP3 files are downloaded before transcription
+3. Local source files are built before copying to destination
+4. Incomplete episodes resume correctly on re-run
+
+If episodes aren't processing, check that source files exist in `podcasts/{podcast}/{episode}/`
