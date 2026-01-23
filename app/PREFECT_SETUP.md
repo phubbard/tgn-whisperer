@@ -12,7 +12,8 @@ app/
 │   └── episode.py      # Episode processing flow
 ├── tasks/              # Prefect task definitions
 │   ├── shownotes.py   # Shownotes generation (✓ implemented)
-│   ├── rss.py         # RSS fetching and parsing (TODO)
+│   ├── rss.py         # RSS fetching and parsing (✓ implemented)
+│   ├── notifications.py # Email notifications (✓ implemented)
 │   ├── download.py    # MP3 and HTML downloads (TODO)
 │   ├── transcribe.py  # Fluid Audio API calls (TODO)
 │   ├── attribute.py   # Claude speaker attribution (TODO)
@@ -22,9 +23,8 @@ app/
 ├── models/             # Data models
 │   ├── podcast.py     # Podcast dataclass
 │   └── episode.py     # Episode dataclass
-├── utils/              # Utility functions (TODO)
-│   ├── email.py       # Email sending
-│   └── notifications.py
+├── utils/              # Utility functions
+│   └── email.py       # Email sending (✓ implemented)
 └── legacy/             # Old code (will be deprecated)
     ├── process.py
     └── episode.py
@@ -97,18 +97,19 @@ This will deploy all flows defined in `prefect.yaml` with their schedules.
 
 ### Phase 2: Task Implementation (In Progress)
 - [x] Convert shownotes generation to tasks (TGN, WCL)
-- [ ] Convert RSS processing to tasks
+- [x] Convert RSS processing to tasks (fetch, process, check new)
+- [x] Convert notification emails to tasks
 - [ ] Convert download logic to tasks
 - [ ] Convert transcription to tasks
 - [ ] Convert speaker attribution to tasks
 - [ ] Convert markdown generation to tasks
 - [ ] Convert site building to tasks
 
-### Phase 3: Flow Implementation (TODO)
-- [ ] Complete podcast processing flow
+### Phase 3: Flow Implementation (In Progress)
+- [x] Complete podcast RSS and notification workflow
 - [ ] Complete episode processing flow
-- [ ] Add error handling and retries
-- [ ] Add caching configuration
+- [x] Add error handling and retries (RSS and notifications)
+- [x] Add caching configuration (RSS tasks)
 
 ## Architecture
 

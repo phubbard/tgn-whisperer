@@ -4,6 +4,13 @@ from prefect import flow
 from loguru import logger as log
 
 from models.podcast import Podcast
+from tasks.rss import (
+    fetch_rss_feed,
+    process_rss_feed,
+    check_new_episodes,
+    get_episode_details
+)
+from tasks.notifications import send_notification_email
 from tasks.shownotes import (
     generate_tgn_shownotes,
     generate_wcl_shownotes,
@@ -31,33 +38,38 @@ def process_podcast(podcast: Podcast):
     """
     log.info(f"Processing podcast: {podcast.name}")
 
-    # TODO: Implement RSS fetching and processing
-    # rss_content = fetch_rss_feed(podcast)
-    # episodes_data = process_rss_feed(rss_content, podcast.name)
+    # Step 1: Fetch RSS feed
+    rss_content = fetch_rss_feed(podcast)
 
-    # TODO: Check for new episodes
-    # new_eps = check_new_episodes(podcast.name, episodes_data)
+    # Step 2: Process feed to add episode numbers and parse XML
+    feed_data = process_rss_feed(rss_content, podcast.name)
+    episodes = feed_data['episodes']
 
-    # TODO: If no new episodes, return early
-    # if not new_eps:
-    #     log.info(f"No new episodes for {podcast.name}")
-    #     return []
+    # Step 3: Check for new episodes
+    new_ep_numbers = check_new_episodes(podcast.name, episodes)
 
-    # TODO: Send notifications
-    # send_notification_email(podcast, new_eps)
+    # If no new episodes, return early
+    if not new_ep_numbers:
+        log.info(f"No new episodes for {podcast.name}")
+        return []
+
+    # Step 4: Send notifications
+    send_notification_email(podcast, new_ep_numbers)
 
     # TODO: Process each episode in parallel
     # episode_futures = []
-    # for episode_data in new_eps:
+    # for ep_number in new_ep_numbers:
+    #     episode_data = get_episode_details(episodes, ep_number)
     #     future = process_episode.submit(podcast, episode_data)
     #     episode_futures.append(future)
     # results = [f.result() for f in episode_futures]
 
-    # TODO: Generate and deploy site immediately
-    # generate_and_deploy_site(podcast)
+    # Step 5: Generate and deploy site immediately
+    # (Only if episodes were processed - for now just run it)
+    generate_and_deploy_site(podcast)
 
-    log.info(f"Completed processing for {podcast.name}")
-    return []
+    log.info(f"Completed processing {len(new_ep_numbers)} new episodes for {podcast.name}")
+    return new_ep_numbers
 
 
 @flow(name="generate-and-deploy-site", log_prints=True)
