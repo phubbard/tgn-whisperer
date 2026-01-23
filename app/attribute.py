@@ -66,12 +66,34 @@ def call_claude(client, text: str) -> (defaultdict, str):
     # Also, log enough to debug if/when it fails.
     try:
         inter = extract_between_tags("attribution", message.content[0].text, strip=True)
-        speaker_map.update(json.loads(inter[0]))
+
+        # Claude sometimes adds explanatory notes after the JSON, so extract just the JSON part
+        # Find the JSON object by locating the first { and matching }
+        json_str = inter[0]
+        start = json_str.find('{')
+        if start == -1:
+            raise ValueError("No JSON object found in attribution")
+
+        # Find the matching closing brace
+        brace_count = 0
+        end = start
+        for i in range(start, len(json_str)):
+            if json_str[i] == '{':
+                brace_count += 1
+            elif json_str[i] == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    end = i + 1
+                    break
+
+        # Extract and parse just the JSON part
+        json_only = json_str[start:end]
+        speaker_map.update(json.loads(json_only))
         log.debug(speaker_map)
     except json.JSONDecodeError as e:
         log.error(f"Error converting LLM output into valid JSON. {e=} {message.content=} {inter=}")
         raise e
-    except IndexError as e:
+    except (IndexError, ValueError) as e:
         log.error(f"Error extracting JSON from LLM output. {e=} {message.content[0].text=}")
         raise e
 
