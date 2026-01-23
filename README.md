@@ -5,9 +5,9 @@ I had the idea of transcribing the podcast of some friends of mine,
 [The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) 
 podcast that I also enjoy.
 
-As of mid-2025, the code runs on 
+As of mid-2025, the code runs on
 - Raspberry Pi v4 runs the main orchestration code
-- Ollama on my Mac studio runs WhisperX for speech to text plus diarization - [code here](https://github.com/phubbard/flask-whisperx)
+- Fluid Audio backend for speech to text plus diarization - [code here](https://github.com/phubbard/fa-web)
 - Paid API call to Anthropic to do speaker attribution
 - Caddy2 on the same RPi to serve the files
 

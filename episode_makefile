@@ -20,16 +20,12 @@ podcast=$(shell cat whisperx.json | jq .podcast| xargs echo)
 
 
 # Declare the target three files and a single target name for manual ops
-all: $(dest_mp3) $(dest_html) $(dest_md)
-
-$(dest_mp3): episode.mp3
-	cp episode.mp3 $(dest_mp3)
-
-$(dest_html): episode.html
-	cp episode.html $(dest_html)
-
-$(dest_md): episode.md
-	cp episode.md $(dest_md)
+# Build local files first, then copy to destination
+all: episode.md episode.mp3 episode.html
+	@# Now copy to destination if needed
+	@test -f episode.mp3 && (test ! -f $(dest_mp3) || test episode.mp3 -nt $(dest_mp3)) && cp episode.mp3 $(dest_mp3) || true
+	@test -f episode.html && (test ! -f $(dest_html) || test episode.html -nt $(dest_html)) && cp episode.html $(dest_html) || true
+	@test -f episode.md && (test ! -f $(dest_md) || test episode.md -nt $(dest_md)) && cp episode.md $(dest_md) || true
 
 # Now declare how to create them.
 episode.mp3:
