@@ -10,16 +10,15 @@ app/
 │   ├── main.py         # Main orchestration flow
 │   ├── podcast.py      # Podcast processing flow
 │   └── episode.py      # Episode processing flow
-├── tasks/              # Prefect task definitions
-│   ├── shownotes.py   # Shownotes generation (✓ implemented)
-│   ├── rss.py         # RSS fetching and parsing (✓ implemented)
-│   ├── notifications.py # Email notifications (✓ implemented)
-│   ├── download.py    # MP3 and HTML downloads (✓ implemented)
-│   ├── transcribe.py  # Fluid Audio API calls (✓ implemented)
-│   ├── attribute.py   # Claude speaker attribution (✓ implemented)
-│   ├── markdown.py    # Markdown generation (✓ implemented)
-│   ├── build.py       # Site building (zensical) (TODO)
-│   └── deploy.py      # rsync deployment (TODO)
+├── tasks/              # Prefect task definitions (ALL COMPLETE ✅)
+│   ├── shownotes.py   # Shownotes generation
+│   ├── rss.py         # RSS fetching and parsing
+│   ├── notifications.py # Email notifications
+│   ├── download.py    # MP3 and HTML downloads
+│   ├── transcribe.py  # Fluid Audio API calls
+│   ├── attribute.py   # Claude speaker attribution
+│   ├── markdown.py    # Markdown generation
+│   └── build.py       # Site building, search indexing, deployment
 ├── models/             # Data models
 │   ├── podcast.py     # Podcast dataclass
 │   └── episode.py     # Episode dataclass
@@ -103,7 +102,7 @@ This will deploy all flows defined in `prefect.yaml` with their schedules.
 - [x] Convert transcription to tasks (Fluid Audio API)
 - [x] Convert speaker attribution to tasks (Claude API)
 - [x] Convert markdown generation to tasks
-- [ ] Convert site building to tasks (zensical, Pagefind, deploy)
+- [x] Convert site building to tasks (zensical, Pagefind, rsync)
 
 ### Phase 3: Flow Implementation (Complete! ✅)
 - [x] Complete podcast RSS and notification workflow
@@ -140,12 +139,61 @@ uv run python app/flows/main.py
 
 View the flow run in the Prefect UI at http://127.0.0.1:4200
 
+## Running the Workflow
+
+### Without Prefect Server (Testing)
+
+Run directly as a Python script:
+
+```bash
+# Process all podcasts
+uv run python app/run_prefect.py
+
+# Or run the main flow directly
+uv run python -c "from app.flows.main import process_all_podcasts; process_all_podcasts()"
+```
+
+### With Prefect Server (Production)
+
+1. Start Prefect server:
+```bash
+prefect server start
+```
+
+2. In another terminal, create work pool:
+```bash
+prefect work-pool create podcast-processing --type process
+```
+
+3. Start a worker:
+```bash
+prefect worker start --pool podcast-processing
+```
+
+4. Deploy flows:
+```bash
+prefect deploy --all
+```
+
+The flows will now run on schedule (every hour) or can be triggered manually via the UI at http://127.0.0.1:4200
+
+## Implementation Status
+
+**ALL PHASES COMPLETE! ✅**
+
+- ✅ Phase 1: Infrastructure setup
+- ✅ Phase 2: Task implementation (all tasks)
+- ✅ Phase 3: Flow implementation (all flows)
+- ✅ Phase 4: Ready for testing and migration
+
+The complete podcast processing pipeline is now implemented in Prefect!
+
 ## Next Steps
 
-1. Implement RSS processing tasks (Phase 2)
-2. Test with single podcast (TGN)
-3. Gradually migrate remaining functionality
-4. Run parallel with Make for validation
-5. Complete cutover
+1. **Test**: Run with Hodinkee episodes to validate end-to-end
+2. **Validate**: Compare output with Makefile workflow
+3. **Monitor**: Watch for errors, check Prefect UI/logs
+4. **Migrate**: Gradually move from Makefile to Prefect
+5. **Cleanup**: Remove legacy code once validated
 
-See `PREFECT_REFACTOR_PLAN.md` for full implementation plan.
+See `PREFECT_REFACTOR_PLAN.md` for detailed migration strategy.

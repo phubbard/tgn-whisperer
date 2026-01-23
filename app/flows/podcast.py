@@ -16,6 +16,12 @@ from tasks.shownotes import (
     generate_wcl_shownotes,
     generate_hodinkee_shownotes
 )
+from tasks.build import (
+    update_episodes_index,
+    build_site,
+    generate_search_index,
+    deploy_site
+)
 from flows.episode import process_episode
 
 
@@ -110,13 +116,13 @@ def generate_and_deploy_site(podcast: Podcast):
     else:
         log.warning(f"RSS feed not found for shownotes: {rss_path}")
 
-    # TODO: Build site with zensical
-    # site_path = build_site(podcast.name)
+    # Step 2: Build site with zensical
+    site_path = build_site(podcast.name)
 
-    # TODO: Generate search index
-    # generate_search_index(site_path)
+    # Step 3: Generate search index with Pagefind
+    generate_search_index(site_path)
 
-    # TODO: Deploy (update static files in caddy2 directory)
-    # deploy_site(podcast.name, site_path)
+    # Step 4: Deploy to caddy2 static hosting
+    deploy_site(podcast.name, site_path)
 
-    log.info(f"Site generation complete for {podcast.name}")
+    log.success(f"Site deployed for {podcast.name}")
