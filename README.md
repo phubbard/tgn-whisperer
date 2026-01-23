@@ -50,6 +50,35 @@ uv run pytest app/test_rss_processing.py
 
 **Migration note**: This replaces the old `source venv/bin/activate && make` workflow. The old `requirements.txt` is now superseded by `pyproject.toml`.
 
+### Reprocessing Episodes
+
+The `reprocess` utility allows selective rebuilding of episodes with granular control:
+
+```bash
+# Full reprocess (remove all generated files and rebuild)
+./reprocess tgn 14 --all --make
+
+# Just re-run speaker attribution (useful when Claude attribution fails)
+./reprocess wcl 100 --attribute --make
+
+# Re-download and transcribe (useful when audio file changes)
+./reprocess hodinkee 246 --download --transcribe --make
+
+# Preview what would be removed without actually removing
+./reprocess tgn 361 --all --dry-run
+```
+
+**Available flags:**
+- `--download` - Remove MP3 file (forces re-download)
+- `--transcribe` - Remove transcript files (forces re-transcription)
+- `--attribute` - Remove speaker map (forces re-attribution with Claude)
+- `--markdown` - Remove markdown files (forces regeneration)
+- `--all` - Remove all generated files (full reprocess)
+- `--make` - Run make to rebuild after removing files
+- `--dry-run` - Preview without actually removing anything
+
+**Episode numbers** can be specified with or without `.0` suffix (e.g., both `14` and `14.0` work).
+
 ### Workflow and requirements
 
 1. Download the RSS file (process.py, using Requests)
