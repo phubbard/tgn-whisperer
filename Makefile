@@ -5,7 +5,7 @@
 .PHONY: all
 .DELETE_ON_ERROR:
 
-SITE_LIST    := tgn wcl
+SITE_LIST    := tgn wcl hodinkee
 
 PODCAST_ROOT := podcasts
 PODCAST_EPS  := $(patsubst %,%/episode.md,$(dir $(wildcard $(PODCAST_ROOT)/*/*/.)))
