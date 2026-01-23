@@ -16,7 +16,6 @@ from rss_processor import process_feed
     retries=3,
     retry_delay_seconds=60,  # 60 second delay between retries
     cache_policy=INPUTS,
-    cache_expiration="5 minutes",  # Cache for 5 minutes to avoid re-fetching during debugging
     log_prints=True
 )
 def fetch_rss_feed(podcast: Podcast) -> str:
