@@ -27,6 +27,29 @@ This repo is the code and some notes for myself and others. As of January 2026, 
 1. Simple as possible - use existing tools whenever possible
 2. Incremental - be able to add new episodes easily and without reworking previous ones
 
+## Setup and Dependencies
+
+This project uses [uv](https://docs.astral.sh/uv/) for fast Python dependency management. To get started:
+
+```bash
+# Install uv if you haven't already
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv sync
+
+# Run the processing pipeline
+uv run make
+
+# Or run Python scripts directly
+uv run python app/process.py
+
+# Run tests
+uv run pytest app/test_rss_processing.py
+```
+
+**Migration note**: This replaces the old `source venv/bin/activate && make` workflow. The old `requirements.txt` is now superseded by `pyproject.toml`.
+
 ### Workflow and requirements
 
 1. Download the RSS file (process.py, using Requests)

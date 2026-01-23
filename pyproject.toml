@@ -1,0 +1,29 @@
+[project]
+name = "tgn-whisperer"
+version = "0.1.0"
+description = "Podcast transcription and processing for TGN, WCL, and Hodinkee Radio"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "xmltodict",
+    "requests",
+    "invoke",
+    "anthropic",
+    "python-dotenv",
+    "loguru",
+    "tenacity",
+    "httpx",
+    "zensical",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["app"]
+testpaths = ["app"]

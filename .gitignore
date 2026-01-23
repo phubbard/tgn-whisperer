@@ -1,19 +1,41 @@
-.idea
-/*.rss
-venv
-episode.wav
-episode.html
-episode.mp3
-episode.txt
-episode.md
-.DS_Store
-__pycache__
-episodes.md
-podcasts
-*-etag.txt
-*-notified.json
-sites/*/site
-whisperer-cache.sqlite
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+app/*.rss
+app/test_feeds/
+app/*_feed.rss
+OzTmhziA
+minus-*.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment
 .env
-claude_output_*
-logs
+.env.local
