@@ -32,7 +32,7 @@ episode.mp3:
 	@echo Now downloading $(shell pwd)
 	cat episode.json | jq .mp3_url | xargs wget -nc --no-use-server-timestamps -O episode.mp3
 
-episode-transcribed.json:
+episode-transcribed.json: episode.mp3
 	@echo Now transcribing episode $(ep_num) of $(podcast)
 #	curl -s -X POST http://axiom.phfactor.net:5050/submit/$(podcast)/$(ep_num) -F file=@episode.mp3 -o episode-transcribed.json --fail --remove-on-error
 	curl -s -X POST http://axiom.phfactor.net:5051/submit/$(podcast)/$(ep_num) -F file=@episode.mp3 -o episode-transcribed.json --fail --remove-on-error
