@@ -1,6 +1,6 @@
-site_name: The Compleat TGN
-site_url: https://tgn.phfactor.net/
-site_description:  Transcripts and shownotes for The Grey NATO podcast
+site_name: The Compleat Hodinkee
+site_url: https://hodinkee.phfactor.net/
+site_description:  Transcripts and shownotes for the Hodinkee podcast
 site_author: Paul Hubbard
 copyright: "&copy; 2025 Paul Hubbard"
 dev_addr: 0.0.0.0:8000

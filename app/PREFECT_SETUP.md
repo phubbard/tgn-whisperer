@@ -155,10 +155,19 @@ uv run python -c "from app.flows.main import process_all_podcasts; process_all_p
 
 ### With Prefect Server (Production)
 
-1. Start Prefect server:
+1. Start Prefect server (accessible from network):
 ```bash
+# Set the server to bind to all interfaces
+export PREFECT_SERVER_API_HOST=0.0.0.0
 prefect server start
 ```
+
+Or use the command line flag:
+```bash
+prefect server start --host 0.0.0.0
+```
+
+The UI will be available at `http://<your-ip>:4200` from any machine on the network.
 
 2. In another terminal, create work pool:
 ```bash
