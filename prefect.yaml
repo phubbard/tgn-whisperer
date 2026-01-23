@@ -1,0 +1,24 @@
+name: tgn-whisperer
+prefect-version: 3.0.0
+
+# Pull configuration
+pull:
+  - prefect.deployments.steps.set_working_directory:
+      directory: /home/pfh/code/tgn-whisperer
+
+# Work pools
+work-pools:
+  - name: podcast-processing
+    type: process
+    concurrency: 10
+
+# Deployments
+deployments:
+  - name: process-all-podcasts
+    version: 1.0.0
+    description: Main podcast processing workflow
+    schedule:
+      interval: 3600  # Run every hour
+    work_pool:
+      name: podcast-processing
+    entrypoint: app/flows/main.py:process_all_podcasts

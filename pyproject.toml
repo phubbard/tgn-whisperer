@@ -20,6 +20,9 @@ dependencies = [
     "PyYAML>=6.0",
     "tqdm>=4.66",
     "rich>=13.7",
+    "prefect>=3.0",
+    "prefect-email",
+    "prefect-shell",
 ]
 
 [dependency-groups]
