@@ -35,8 +35,9 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.path
-    - search.highlight
     - toc.integrate
+
+plugins: []
 
 nav:
   - Home: index.md

@@ -63,7 +63,12 @@ def generate_episode_markdown(
     episode_url = episode_data.get('episode_url', '')
     mp3_url = episode_data.get('mp3_url', '')
 
-    md_content = f'''# {title}
+    md_content = f'''---
+search:
+  exclude: true
+---
+
+# {title}
 Published on {pub_date}
 
 {subtitle}

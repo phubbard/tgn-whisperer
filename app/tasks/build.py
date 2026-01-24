@@ -1,5 +1,7 @@
 """Prefect tasks for building and deploying podcast sites."""
 import subprocess
+import sys
+import shutil
 from pathlib import Path
 from prefect import task
 from loguru import logger as log
@@ -70,10 +72,29 @@ def build_site(podcast_name: str) -> Path:
     log.info(f"Building site for {podcast_name} with zensical")
     log.debug(f"Site directory: {site_dir}")
 
+    # Find zensical - check virtualenv first
+    venv_bin = Path(sys.executable).parent / 'zensical'
+    log.debug(f"Checking for zensical at: {venv_bin}")
+    log.debug(f"sys.executable: {sys.executable}")
+    log.debug(f"venv_bin exists: {venv_bin.exists()}")
+
+    if venv_bin.exists():
+        zensical_bin = str(venv_bin)
+        log.debug(f"Found zensical in virtualenv: {zensical_bin}")
+    else:
+        # Fall back to PATH
+        log.debug("zensical not in virtualenv, checking PATH")
+        zensical_bin = shutil.which('zensical')
+        if not zensical_bin:
+            raise FileNotFoundError(f"zensical not found in virtualenv ({venv_bin}) or PATH")
+        log.debug(f"Found zensical in PATH: {zensical_bin}")
+
+    log.info(f"Using zensical: {zensical_bin}")
+
     # Run zensical build --clean
     result = subprocess.run(
-        ['zensical', 'build', '--clean'],
-        cwd=site_dir,
+        [zensical_bin, 'build', '--clean'],
+        cwd=str(site_dir),
         capture_output=True,
         text=True
     )

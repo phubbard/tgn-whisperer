@@ -1,0 +1,16 @@
+[Unit]
+Description=Prefect Server for TGN Whisperer
+After=network.target
+
+[Service]
+Type=simple
+User=pfh
+WorkingDirectory=/home/pfh/code/tgn-whisperer/app
+Environment="PATH=/home/pfh/code/tgn-whisperer/.venv/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PREFECT_SERVER_API_HOST=0.0.0.0"
+ExecStart=/home/pfh/code/tgn-whisperer/.venv/bin/prefect server start --host 0.0.0.0
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

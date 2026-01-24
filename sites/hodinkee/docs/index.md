@@ -1,6 +1,6 @@
 ## Welcome!
 
-![logo](img/logo.webp "Hodinkee logo")
+![logo](img/logo.png "Hodinkee logo")
 
 ## What is Hodinkee?
 
