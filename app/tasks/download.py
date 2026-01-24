@@ -6,6 +6,8 @@ from prefect import task
 from prefect.cache_policies import INPUTS
 from loguru import logger as log
 
+from constants import SITE_ROOT
+
 
 @task(
     name="create-episode-directories",
@@ -24,8 +26,6 @@ def create_episode_directories(podcast_name: str, episode_number: float) -> tupl
     Returns:
         Tuple of (episode_directory, site_directory) Path objects
     """
-    from constants import SITE_ROOT
-
     log.info(f"Creating directories for {podcast_name} episode {episode_number}")
 
     # Episode directory: podcasts/tgn/14.0/
