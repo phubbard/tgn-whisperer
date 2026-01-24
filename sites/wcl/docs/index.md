@@ -18,7 +18,7 @@ _This_ site, 'The Compleat 40 and 20', is an unaffiliated side project, aiming t
 
 - Machine-generated transcripts
 - Search function
-- (Coming soonish) show notes
+- [Show notes](shownotes.md) with links and timestamps
 
 The title is a nod to the [Compleat Angler](https://en.wikipedia.org/wiki/The_Compleat_Angler), a book by Izaak Walton, first published in 1653. (Chris Sohl suggests that it could also be a nod to [The Compleat Goggler](https://www.britannica.com/topic/The-Compleat-Goggler), 
 a 1938 book by Guy Gilpatric who was an inspiration to Jacques Cousteau. I like that idea too.)

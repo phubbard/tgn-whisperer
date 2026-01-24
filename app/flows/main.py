@@ -9,23 +9,21 @@ from flows.podcast import process_podcast
 @flow(name="process-all-podcasts", log_prints=True)
 def process_all_podcasts():
     """
-    Main orchestration flow that processes all podcasts in parallel.
+    Main orchestration flow that processes all podcasts sequentially.
 
     Each podcast flow runs independently and handles its own site generation.
+    Sequential processing ensures proper resource management (transcription service, etc).
     """
     log.info("Starting podcast processing for all feeds")
 
     podcasts = get_all_podcasts()
 
-    # Submit all podcast processing flows in parallel
-    futures = []
+    # Process all podcasts sequentially
+    results = []
     for podcast in podcasts:
-        log.info(f"Submitting flow for podcast: {podcast.name}")
-        future = process_podcast.submit(podcast)
-        futures.append(future)
-
-    # Wait for all to complete (optional - could fire and forget)
-    results = [f.result() for f in futures]
+        log.info(f"Processing podcast: {podcast.name}")
+        result = process_podcast(podcast)
+        results.append(result)
 
     log.info(f"Completed processing {len(podcasts)} podcasts")
     return results
