@@ -12,7 +12,7 @@ from loguru import logger as log
     retries=2,
     retry_delay_seconds=300,  # 5 minute retry delay for transcription failures
     cache_policy=INPUTS,
-    timeout_seconds=7200,  # 2 hour timeout (transcription takes 30-90 minutes)
+    timeout_seconds=600,  # 10 minute timeout (transcription takes ~90 seconds)
     log_prints=True
 )
 def transcribe_audio(episode_dir: Path, podcast_name: str, episode_number: float, mp3_path: Path) -> Path:
@@ -20,7 +20,7 @@ def transcribe_audio(episode_dir: Path, podcast_name: str, episode_number: float
     Transcribe audio file using Fluid Audio API.
 
     This makes a blocking POST request to the Fluid Audio server running on Mac Studio
-    on the local network. The transcription typically takes 30-90 minutes per episode.
+    on the local network. The transcription typically takes ~90 seconds per episode.
 
     Args:
         episode_dir: Episode directory path
@@ -50,14 +50,14 @@ def transcribe_audio(episode_dir: Path, podcast_name: str, episode_number: float
     log.debug(f"Wrote whisperx metadata: {whisperx_path}")
 
     # Call Fluid Audio API
-    # Note: This is a BLOCKING call that takes 30-90 minutes
+    # Note: This is a BLOCKING call that takes ~90 seconds
     # The API is running on Mac Studio (axiom.phfactor.net) on the local network
     api_url = f"http://axiom.phfactor.net:5051/submit/{podcast_name}/{episode_number}"
 
     log.info(f"Submitting for transcription: {podcast_name} episode {episode_number}")
     log.info(f"API URL: {api_url}")
     log.info(f"MP3: {mp3_path} ({mp3_path.stat().st_size / 1024 / 1024:.1f} MB)")
-    log.warning("This will take 30-90 minutes - blocking call to Fluid Audio on Mac Studio")
+    log.info("This will take ~90 seconds - blocking call to Fluid Audio on Mac Studio")
 
     with open(mp3_path, 'rb') as f:
         files = {'file': f}

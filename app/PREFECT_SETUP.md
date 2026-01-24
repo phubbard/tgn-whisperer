@@ -125,7 +125,7 @@ process_all_podcasts (main.py)
 
 1. **Parallel Processing**: All 3 podcasts process in parallel
 2. **Independent Deployment**: Each podcast deploys its site immediately after processing
-3. **Blocking Transcription**: Transcription calls to Mac Studio are blocking (30-90 min)
+3. **Blocking Transcription**: Transcription calls to Mac Studio are blocking (~90 seconds per episode)
 4. **Self-Hosted**: Prefect server runs locally
 5. **Static Hosting**: Sites served via caddy2 with SSL
 

@@ -53,7 +53,7 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     mp3_path = download_mp3(episode_dir, episode_data['mp3_url'])
 
     # Step 3: Transcribe audio (blocking call to Mac Studio)
-    # Note: This blocks for 30-90 minutes, which is fine since it's a LAN call
+    # Note: This blocks for ~90 seconds, which is fine since it's a LAN call
     transcript_path = transcribe_audio(episode_dir, podcast.name, episode_number, mp3_path)
 
     # Step 4: Download HTML in parallel with attribution

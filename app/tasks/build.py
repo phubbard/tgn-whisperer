@@ -3,6 +3,7 @@ import subprocess
 from pathlib import Path
 from prefect import task
 from loguru import logger as log
+import pagefind_bin
 
 from constants import SITE_ROOT
 
@@ -106,9 +107,12 @@ def generate_search_index(site_path: Path) -> bool:
     """
     log.info(f"Generating search index with Pagefind for {site_path}")
 
+    # Get pagefind binary path
+    pagefind_bin_path = str(pagefind_bin.get_executable())
+
     # Run pagefind on the built site
     result = subprocess.run(
-        ['pagefind', '--site', str(site_path)],
+        [pagefind_bin_path, '--site', str(site_path)],
         capture_output=True,
         text=True
     )
