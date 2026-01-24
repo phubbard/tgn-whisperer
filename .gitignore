@@ -29,8 +29,26 @@ app/*.rss
 app/test_feeds/
 app/*_feed.rss
 app/data/
+app/check_rss_tags.py
+app/compare_numbering.py
 OzTmhziA
 minus-*.json
+
+# Generated content - exclude all episodes and built sites
+podcasts/
+sites/*/site/
+sites/*/docs/[0-9]*/
+sites/*/docs/[0-9]*.[0-9]*/
+
+# RSS feeds and notification tracking
+*_feed.rss
+*-notified.json
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
 
 # Build artifacts
 dist/

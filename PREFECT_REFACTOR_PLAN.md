@@ -184,7 +184,7 @@ def process_episode(podcast: Podcast, episode_data: dict):
     # Download and transcribe (sequential, blocking call to Mac Studio)
     mp3_path = download_mp3(episode)
     transcript = transcribe_audio(podcast.name, episode.number, mp3_path)
-    # Note: transcribe_audio blocks for 30-90 minutes, which is fine
+    # Note: transcribe_audio blocks for ~90 seconds, which is fine
     # since it's a LAN call to Mac Studio with Fluid Audio
 
     # Download HTML in parallel with attribution
@@ -378,7 +378,7 @@ deployments:
 
 3. **Blocking Transcription Calls** ✅
    - Mac Studio on LAN handles transcription
-   - Blocking calls are fine (30-90 minutes)
+   - Blocking calls are fine (~90 seconds)
    - No async/polling needed for LAN operations
 
 4. **Independent Site Generation** ✅

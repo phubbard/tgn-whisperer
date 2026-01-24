@@ -1118,6 +1118,17 @@ wheels = [
 ]
 
 [[package]]
+name = "pagefind-bin"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d8/4b/35be11516c0437e54921f8585b616a21dda199ac1a09e89c39b4b947e4df/pagefind_bin-1.4.0-py3-none-macosx_12_0_arm64.whl", hash = "sha256:bcedb09def06f4ccd94b5c58faa5616f63906f3601e32e39fc78d6aa3d6c4443", size = 9168713, upload-time = "2025-09-01T05:46:33.736Z" },
+    { url = "https://files.pythonhosted.org/packages/d2/db/ca1829761a6b972ca7a96ec0a8bcb002fd6b0ef661ab7f295a82c0119e9f/pagefind_bin-1.4.0-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl", hash = "sha256:98317b909ca82cdd126972994a1d2315c1ccc55d1c9d036f8786db6ec7340253", size = 9630745, upload-time = "2025-09-01T05:46:36.053Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/8e/22b96b8962f9b329db0449c0cb2c52dcf2a225c524344973882c6e791b5e/pagefind_bin-1.4.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl", hash = "sha256:c128a05dce35a48dbb06799ecdae751c0bc46e37f0157ed042a2a25569940681", size = 9387495, upload-time = "2025-09-01T05:46:38.332Z" },
+    { url = "https://files.pythonhosted.org/packages/03/6d/e3f8f96ff92935604520ac22537cba05ff03bcf6300da0d66d54c8f7e2c0/pagefind_bin-1.4.0-py3-none-win_amd64.whl", hash = "sha256:35de119004bbd1084c75a54043eb7d4808cd240727764733a1af980681db3f95", size = 8862840, upload-time = "2025-09-01T05:46:40.536Z" },
+]
+
+[[package]]
 name = "pathspec"
 version = "1.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2031,6 +2042,7 @@ dependencies = [
     { name = "invoke" },
     { name = "loguru" },
     { name = "lxml" },
+    { name = "pagefind-bin" },
     { name = "prefect" },
     { name = "prefect-email" },
     { name = "prefect-shell" },
@@ -2058,6 +2070,7 @@ requires-dist = [
     { name = "invoke" },
     { name = "loguru" },
     { name = "lxml", specifier = ">=5.2" },
+    { name = "pagefind-bin", specifier = ">=1.0" },
     { name = "prefect", specifier = ">=3.0" },
     { name = "prefect-email" },
     { name = "prefect-shell" },

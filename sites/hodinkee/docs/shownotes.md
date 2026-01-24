@@ -1,0 +1,3 @@
+# Shownotes for Hodinkee
+
+TODO.

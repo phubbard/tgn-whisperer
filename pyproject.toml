@@ -23,6 +23,7 @@ dependencies = [
     "prefect>=3.0",
     "prefect-email",
     "prefect-shell",
+    "pagefind-bin>=1.0",
 ]
 
 [dependency-groups]
