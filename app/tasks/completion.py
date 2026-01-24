@@ -3,6 +3,8 @@ from pathlib import Path
 from prefect import task
 from loguru import logger as log
 
+from constants import SITE_ROOT
+
 
 @task(
     name="check-episode-completion",
@@ -21,8 +23,6 @@ def check_episode_completion(podcast_name: str, episode_number: float) -> bool:
     Returns:
         True if episode is fully processed, False otherwise
     """
-    from constants import SITE_ROOT
-
     # Check for episode.md in the site directory
     site_dir = Path(SITE_ROOT, podcast_name, 'docs', str(episode_number))
     md_path = site_dir / "episode.md"
