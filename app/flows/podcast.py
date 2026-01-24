@@ -26,7 +26,11 @@ from tasks.completion import filter_incomplete_episodes
 from flows.episode import process_episode
 
 
-@flow(name="process-podcast", log_prints=True)
+@flow(
+    name="process-podcast",
+    flow_run_name="{podcast.name}",
+    log_prints=True
+)
 def process_podcast(podcast: Podcast):
     """
     Process a single podcast feed.
@@ -106,7 +110,11 @@ def process_podcast(podcast: Podcast):
     return incomplete_ep_numbers
 
 
-@flow(name="generate-and-deploy-site", log_prints=True)
+@flow(
+    name="generate-and-deploy-site",
+    flow_run_name="{podcast.name}-deploy",
+    log_prints=True
+)
 def generate_and_deploy_site(podcast: Podcast):
     """
     Generate and deploy the static site for a podcast.

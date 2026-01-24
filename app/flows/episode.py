@@ -18,7 +18,11 @@ from tasks.markdown import (
 from tasks.rss import parse_episode_data
 
 
-@flow(name="process-episode", log_prints=True)
+@flow(
+    name="process-episode",
+    flow_run_name="{podcast.name}-ep-{episode_entry[itunes:episode]}",
+    log_prints=True
+)
 def process_episode(podcast: Podcast, episode_entry: dict):
     """
     Process a single podcast episode.
@@ -27,7 +31,7 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     1. Create episode directories
     2. Parse episode data from RSS entry
     3. Download MP3 file
-    4. Transcribe audio (blocking call to Mac Studio on LAN)
+    4. Transcribe audio (blocking call to Mac Studio on LAN) - ~90 seconds
     5. Download episode HTML page (in parallel with attribution)
     6. Attribute speakers using Claude
     7. Generate episode markdown

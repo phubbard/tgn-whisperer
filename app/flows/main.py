@@ -1,5 +1,5 @@
 """Main Prefect flow for orchestrating all podcast processing."""
-from prefect import flow
+from prefect import flow, tags
 from loguru import logger as log
 
 from models.podcast import get_all_podcasts
@@ -22,7 +22,9 @@ def process_all_podcasts():
     results = []
     for podcast in podcasts:
         log.info(f"Processing podcast: {podcast.name}")
-        result = process_podcast(podcast)
+        # Add tags to identify the podcast in the UI
+        with tags(podcast.name, "podcast"):
+            result = process_podcast(podcast)
         results.append(result)
 
     log.info(f"Completed processing {len(podcasts)} podcasts")
