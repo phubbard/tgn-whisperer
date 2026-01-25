@@ -102,7 +102,12 @@ def build_site(podcast_name: str) -> Path:
     )
 
     if result.returncode != 0:
-        log.error(f"zensical build failed: {result.stderr}")
+        log.error(f"zensical build failed with return code {result.returncode}")
+        log.error(f"Command: {' '.join(result.args)}")
+        if result.stdout:
+            log.error(f"STDOUT:\n{result.stdout}")
+        if result.stderr:
+            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success(f"Site built successfully: {site_output}")
@@ -144,7 +149,12 @@ def generate_search_index(site_path: Path) -> bool:
     )
 
     if result.returncode != 0:
-        log.error(f"Pagefind failed: {result.stderr}")
+        log.error(f"Pagefind failed with return code {result.returncode}")
+        log.error(f"Command: {' '.join(result.args)}")
+        if result.stdout:
+            log.error(f"STDOUT:\n{result.stdout}")
+        if result.stderr:
+            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success("Search index generated successfully")
@@ -192,7 +202,12 @@ def deploy_site(podcast_name: str, site_path: Path) -> bool:
     )
 
     if result.returncode != 0:
-        log.error(f"rsync deployment failed: {result.stderr}")
+        log.error(f"rsync deployment failed with return code {result.returncode}")
+        log.error(f"Command: {' '.join(result.args)}")
+        if result.stdout:
+            log.error(f"STDOUT:\n{result.stdout}")
+        if result.stderr:
+            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success(f"Site deployed successfully to {deploy_target}")

@@ -90,7 +90,13 @@ def download_mp3(episode_dir: Path, mp3_url: str) -> Path:
     )
 
     if result.returncode != 0:
-        log.error(f"wget failed: {result.stderr}")
+        log.error(f"wget failed with return code {result.returncode}")
+        log.error(f"Command: {' '.join(result.args)}")
+        log.error(f"URL: {mp3_url}")
+        if result.stdout:
+            log.error(f"STDOUT:\n{result.stdout}")
+        if result.stderr:
+            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success(f"Downloaded MP3: {mp3_path} ({mp3_path.stat().st_size} bytes)")
