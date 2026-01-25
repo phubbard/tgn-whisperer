@@ -38,34 +38,37 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Install dependencies
 uv sync
 
-# Run the processing pipeline
-uv run make
+# Run the processing pipeline (all podcasts)
+uv run python app/run_prefect.py
 
-# Or run Python scripts directly
-uv run python app/process.py
+# Or run individual podcasts
+uv run python app/run_tgn.py
+uv run python app/run_wcl.py
+uv run python app/run_hodinkee.py
 
 # Run tests
-uv run pytest app/test_rss_processing.py
+uv run pytest app/ -v
 ```
-
-**Migration note**: This replaces the old `source venv/bin/activate && make` workflow. The old `requirements.txt` is now superseded by `pyproject.toml`.
 
 ### Reprocessing Episodes
 
 The `reprocess` utility allows selective rebuilding of episodes with granular control:
 
 ```bash
-# Full reprocess (remove all generated files and rebuild)
-./reprocess tgn 14 --all --make
+# Full reprocess (remove all generated files)
+./reprocess tgn 14 --all
 
 # Just re-run speaker attribution (useful when Claude attribution fails)
-./reprocess wcl 100 --attribute --make
+./reprocess wcl 100 --attribute
 
 # Re-download and transcribe (useful when audio file changes)
-./reprocess hodinkee 246 --download --transcribe --make
+./reprocess hodinkee 246 --download --transcribe
 
 # Preview what would be removed without actually removing
 ./reprocess tgn 361 --all --dry-run
+
+# Then run the workflow to rebuild
+uv run python app/run_tgn.py
 ```
 
 **Available flags:**
@@ -74,33 +77,30 @@ The `reprocess` utility allows selective rebuilding of episodes with granular co
 - `--attribute` - Remove speaker map (forces re-attribution with Claude)
 - `--markdown` - Remove markdown files (forces regeneration)
 - `--all` - Remove all generated files (full reprocess)
-- `--make` - Run make to rebuild after removing files
 - `--dry-run` - Preview without actually removing anything
 
 **Episode numbers** can be specified with or without `.0` suffix (e.g., both `14` and `14.0` work).
 
 ### Workflow and requirements
 
-1. Download the RSS file (process.py, using Requests)
-2. Parse it for the episode MP3 files (xmltodict)
-3. Call Fluid Audio backend for transcription and diarization (POST to Flask)
-4. Collation and speaker attribution (episode.py, using Claude Sonnet 4.5 API)
-5. Export text into markdown files (to_markdown.py)
-6. Generate shownotes:
-   - **TGN**: Scrape related links from Substack episode pages (related_links_collector)
-   - **WCL**: Extract links from RSS feed HTML (wcl_shownotes.py)
-7. Generate static sites with mkdocs/zensical
-8. Generate search index with [Pagefind](https://pagefind.app/docs/)
-9. Publish (rsync)
+1. Fetch RSS feed and process episode numbers (`app/tasks/rss.py`)
+2. Check for new/incomplete episodes and send notifications
+3. Download MP3 files (`app/tasks/download.py`)
+4. Call Fluid Audio backend for transcription and diarization (`app/tasks/transcribe.py`)
+5. Speaker attribution via Claude Sonnet 4.5 API (`app/tasks/attribute.py`)
+6. Export text into markdown files (`app/tasks/markdown.py`)
+7. Generate shownotes (`app/tasks/shownotes.py`):
+   - **TGN**: Scrape related links from Substack episode pages
+   - **WCL**: Extract links from RSS feed HTML
+8. Generate static sites with zensical (`app/tasks/build.py`)
+9. Generate search index with [Pagefind](https://pagefind.app/docs/)
 
-All of these are run and orchestrated by two Makefiles. Robust, portable, deletes
-outputs if interrupted, working pretty well. 
+All steps are orchestrated by [Prefect 3.0](https://docs.prefect.io/) with a three-level flow hierarchy:
+- **Main flow** (`app/flows/main.py`) - processes all podcasts
+- **Podcast flow** (`app/flows/podcast.py`) - per-podcast workflow
+- **Episode flow** (`app/flows/episode.py`) - per-episode processing
 
-Makefiles are tricky to write and debug. I might need [remake](https://remake.readthedocs.io/en/latest/) at some point. The [makefile tutorial here](https://makefiletutorial.com/) was essential at several points - suffix rewriting, basename built-in, phony, etc. You can do a _lot_ with a Makefile very concisely, and the result is robust, portable and durable. And fast.
-
-Another good tutorial (via Lobste.rs) [https://makefiletutorial.com/#top](https://makefiletutorial.com)
-
-Directory [list from StackOverflow](https://stackoverflow.com/questions/13897945/wildcard-to-obtain-list-of-all-directories) ... as one does.
+The Prefect UI is available at http://localhost:4200 when the server is running. See `DEPLOYMENT.md` for systemd setup.
 
 ### The curse of URL shorteners and bit.ly in particular
 
@@ -126,11 +126,11 @@ However, many podcast RSS feeds have missing or incomplete episode numbers. To s
 3. Preserves existing episode numbers where they exist
 4. Avoids creating duplicate numbers
 
-After processing, all episodes have `itunes:episode` tags, and `process.py` simply reads them directly - no more complex title parsing or hardcoded lookup dictionaries!
+After processing, all episodes have `itunes:episode` tags, which the Prefect tasks read directly - no more complex title parsing or hardcoded lookup dictionaries!
 
 The story is similar for per-episode URLs. Should be there, often are missing, and can sometimes be parsed out of the description.
 
-**Testing**: Run `pytest test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds.
+**Testing**: Run `uv run pytest app/test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds.
 
 ### Shownotes Generation
 
@@ -142,7 +142,7 @@ Each podcast has a comprehensive shownotes page listing all related links from e
 - Handles bit.ly shortlinks via `bitly.json` mapping
 - Handles both old and new Substack HTML formats
 - Run manually: `uv run python app/generate_tgn_shownotes.py`
-- Auto-runs via Makefile when new episodes detected
+- Auto-runs via Prefect workflow when processing podcasts
 
 **40 and 20** - Links are directly in RSS feed:
 - Parses HTML from `<description>` and `<content:encoded>` tags
@@ -184,12 +184,17 @@ EOF
 
 Test with: `ssh -T git@github.com`
 
-### Makefile dependency issues
+### Episode processing issues
 
-The project uses careful Makefile dependency management to ensure:
+Prefect manages task dependencies to ensure correct ordering:
 1. RSS feeds are processed before episodes
 2. MP3 files are downloaded before transcription
-3. Local source files are built before copying to destination
+3. Speaker attribution completes before markdown generation
 4. Incomplete episodes resume correctly on re-run
 
 If episodes aren't processing, check that source files exist in `podcasts/{podcast}/{episode}/`
+
+Check Prefect logs for detailed error information:
+```bash
+sudo journalctl -u prefect-server -f
+```
