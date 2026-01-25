@@ -10,29 +10,27 @@ uv sync
 
 ## Running the Pipeline
 
-Replace the old `source venv/bin/activate && make` with:
+The system uses Prefect 3.0 for workflow orchestration:
 
 ```bash
-uv run make
-```
+# Run full workflow (all 3 podcasts)
+uv run python app/run_prefect.py
 
-## Common Commands
+# Run individual podcasts
+uv run python app/run_tgn.py
+uv run python app/run_wcl.py
+uv run python app/run_hodinkee.py
 
-```bash
-# Run the full processing pipeline
-uv run make
-
-# Process RSS feeds and create episode directories
-uv run python app/process.py
+# Run tests
+uv run pytest app/ -v
 
 # Process a single RSS feed to add missing episode numbers
 uv run python app/rss_processor.py app/test_feeds/tgn.rss
 
-# Run tests
-uv run pytest app/test_rss_processing.py -v
-
-# Run any Python script with dependencies available
-uv run python app/your_script.py
+# Reprocess specific episode
+./reprocess tgn 14 --all --make          # Full reprocess
+./reprocess wcl 100 --attribute --make   # Just re-attribute speakers
+./reprocess tgn 361 --all --dry-run      # Preview without executing
 ```
 
 ## Why uv?
