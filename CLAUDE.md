@@ -42,7 +42,7 @@ uv run pytest app/test_rss_processing.py -v
 
 ### Prefect Flow Hierarchy
 
-Three-level orchestration using Prefect 3.0:
+Three-level orchestration using Prefect 3.6:
 
 1. **Main Flow** (`app/flows/main.py`) - Entry point, processes all podcasts sequentially
 2. **Podcast Flow** (`app/flows/podcast.py`) - Per-podcast: fetch RSS → process episodes → build site

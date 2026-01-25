@@ -97,7 +97,7 @@ uv run python app/run_tgn.py
 8. Generate static sites with zensical (`app/tasks/build.py`)
 9. Generate search index with [Pagefind](https://pagefind.app/docs/)
 
-All steps are orchestrated by [Prefect 3.0](https://docs.prefect.io/) with a three-level flow hierarchy:
+All steps are orchestrated by [Prefect 3.6](https://docs.prefect.io/) with a three-level flow hierarchy:
 - **Main flow** (`app/flows/main.py`) - processes all podcasts
 - **Podcast flow** (`app/flows/podcast.py`) - per-podcast workflow
 - **Episode flow** (`app/flows/episode.py`) - per-episode processing
