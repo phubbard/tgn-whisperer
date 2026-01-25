@@ -21,7 +21,7 @@ from rss_processor import process_feed, parse_pubdate, NAMESPACES
 @pytest.fixture(scope="session")
 def test_feeds_dir():
     """Provide path to test feeds directory."""
-    return Path("test_feeds")
+    return Path(__file__).parent / "test_feeds"
 
 
 @pytest.fixture(scope="session")
