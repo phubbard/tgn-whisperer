@@ -1,9 +1,0 @@
-xmltodict
-requests
-invoke
-anthropic
-python-dotenv
-loguru
-tenacity
-httpx
-zensical
