@@ -3,11 +3,10 @@
 import json
 import re
 
-from datastructures import Podcast
-from configuration import url_matcher
 from prefect import get_run_logger
 
-log = get_run_logger()
+from datastructures import Podcast
+from configuration import url_matcher
 
 
 def episode_number(pod: Podcast, entry: dict) -> float:
@@ -23,6 +22,7 @@ def episode_number(pod: Podcast, entry: dict) -> float:
 
 def episode_number_wcl(entry):
     # Episode logic for WCL (40 and 20). Generally a clean and correct RSS, so fewer workarounds.
+    log = get_run_logger()
     wcl_lookup = {
         "Watch Clicker Mini Review - Nodus Sector Dive": 81.5,
         "Episode 36 GMT Watches": 36,
@@ -49,6 +49,7 @@ def episode_number_wcl(entry):
 
 def episode_number_tgn(entry):
     # Episode number logic for TGN. Early feed was super crufty, so several workarounds and special cases.
+    log = get_run_logger()
     tgn_lookup = {
         "Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology": 214.5,
         "The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army": 206.5,
@@ -87,6 +88,7 @@ def episode_number_tgn(entry):
 def episode_url(entry, default_url='https://thegreynato.com/'):
     # Per-episode URLs are also important; we try to download a web page snapshot at runtime.
     # Priority is link in RSS, regex from episode description, and lastly we return the default.
+    log = get_run_logger()
     if 'link' in entry:
         return entry['link']
 
@@ -101,6 +103,7 @@ def episode_url(entry, default_url='https://thegreynato.com/'):
 
 def unwrap_bitly(url: str) -> str:
     # Early TGN used bit.ly, which is fucking horrid. Let's get rid of them.
+    log = get_run_logger()
     rc = url.lower().find('bit.ly')
     if rc < 0:
         return url
