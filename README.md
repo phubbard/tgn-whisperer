@@ -1,3 +1,5 @@
+[![Tests](https://github.com/phubbard/tgn-whisperer/actions/workflows/test.yml/badge.svg)](https://github.com/phubbard/tgn-whisperer/actions/workflows/test.yml)
+
 ## Introduction
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
