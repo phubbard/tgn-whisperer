@@ -101,13 +101,15 @@ def build_site(podcast_name: str) -> Path:
         text=True
     )
 
+    # Always log zensical output for visibility
+    if result.stdout:
+        log.info(f"Zensical output:\n{result.stdout}")
+    if result.stderr:
+        log.warning(f"Zensical warnings/errors:\n{result.stderr}")
+
     if result.returncode != 0:
         log.error(f"zensical build failed with return code {result.returncode}")
         log.error(f"Command: {' '.join(result.args)}")
-        if result.stdout:
-            log.error(f"STDOUT:\n{result.stdout}")
-        if result.stderr:
-            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success(f"Site built successfully: {site_output}")
@@ -148,13 +150,15 @@ def generate_search_index(site_path: Path) -> bool:
         text=True
     )
 
+    # Always log pagefind output for visibility
+    if result.stdout:
+        log.info(f"Pagefind output:\n{result.stdout}")
+    if result.stderr:
+        log.warning(f"Pagefind warnings/errors:\n{result.stderr}")
+
     if result.returncode != 0:
         log.error(f"Pagefind failed with return code {result.returncode}")
         log.error(f"Command: {' '.join(result.args)}")
-        if result.stdout:
-            log.error(f"STDOUT:\n{result.stdout}")
-        if result.stderr:
-            log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
     log.success("Search index generated successfully")
