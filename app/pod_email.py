@@ -4,7 +4,6 @@ from email.message import EmailMessage
 import smtplib
 
 from prefect import get_run_logger
-log = get_run_logger()
 
 system_admin = 'tgn-whisperer@phfactor.net'
 
@@ -16,6 +15,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
     """
 
     def __init__(self):
+        log = get_run_logger()
         self.no_email = True
 
         super().__init__('mail.messagingengine.com', port=465)
@@ -36,6 +36,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
                         to_addrs,
                         msg,
                         subject):
+        log = get_run_logger()
         msg_root = EmailMessage()
         msg_root['Subject'] = subject
         msg_root['From'] = from_addr
@@ -60,6 +61,7 @@ def send_failure_alert(fail_message):
 
 def send_email(email_list: list, new_ep_list: list, base_url: str) -> None:
     # TODO templates, opt-in system, web-based signup, send when done.
+    log = get_run_logger()
     new_count: int = len(new_ep_list)
     subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 

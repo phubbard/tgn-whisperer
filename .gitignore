@@ -26,7 +26,6 @@ htmlcov/
 
 # Project specific
 app/*.rss
-app/test_feeds/
 app/*_feed.rss
 app/data/
 app/check_rss_tags.py

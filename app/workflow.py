@@ -17,14 +17,13 @@ from per_podcast import episode_number, episode_url, unwrap_bitly
 from datastructures import Podcast, Episode, OctoAI
 from pod_email import send_email, send_failure_alert
 
-# log = get_run_logger()
-
 
 @task(retries=2, name="URL to file downloader")
 def url_to_file(url: str, file: Path, body: str = None, overwrite: bool=False) -> Path:
     # TODO handle JSON body for OctoAI call
     # TODO consider adding retry function https://docs.prefect.io/latest/concepts/tasks/
     # TODO handle 429s from OctoAI
+    log = get_run_logger()
     if not overwrite:
         if file.exists():
             log.debug(f"Skipping download of {url} since destination {file} exists")
@@ -48,6 +47,7 @@ def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True
     # Given a list of new episodes (array of numbers), return a list of
     # episodes that were not in the saved list. As an optional side effect, update
     # the saved list on disk.
+    log = get_run_logger()
     filename = podcast_name + '-notified.json'
     try:
         old_list = json.load(open(filename, 'r'))
@@ -75,6 +75,7 @@ def new_episodes(podcast_name: str, current_eps: list, save_updated: bool = True
 def rss_to_list(rss_file: Path, pod: {Podcast}) -> list:
     # Read RSS from local copy, return array of new episodes
     # FIXME need both full-list as well as new-episode lists
+    log = get_run_logger()
     with open(rss_file, 'r') as rh:
         entries = xmltodict.parse(rh.read())
         episode_count = len(entries['rss']['channel']['item'])
@@ -141,6 +142,7 @@ def populate_episode_dirs(episodes: list):
 
 @task(name="Make podcast episode and mkdocs directories")
 def make_podcast_dirs(pod: Podcast, episodes: list):
+    log = get_run_logger()
     for episode in episodes:
         m_dir = Path(episode.directory)
         s_dir = Path(episode.site_directory)
@@ -156,6 +158,7 @@ def make_podcast_dirs(pod: Podcast, episodes: list):
 @task(name="Write mkdocs episodes.md")
 def write_episodes_md(pod: Podcast, episodes: list):
     # NB Needs all episodes, not just the new ones, since we rewrite the index page.
+    log = get_run_logger()
     ep_count = len(episodes)
     basedir = Path(PODCAST_ROOT, pod.name)
     mkdocs_mainpage = Path(SITE_ROOT, pod.name, 'docs', 'episodes.md')
@@ -171,6 +174,7 @@ def write_episodes_md(pod: Podcast, episodes: list):
 
 @task(name='Generate site with mkdocs')
 def run_mkdocs(pod: Podcast):
+    log = get_run_logger()
     m_dir = Path(SITE_ROOT, pod.name)
     with os.chdir(m_dir):
         rc = os.system("mkdocs build")
@@ -183,6 +187,7 @@ def run_mkdocs(pod: Podcast):
 @task(name='Deploy with rsync')
 def run_rsync(pod:Podcast):
     # eg sites/tgn/site
+    log = get_run_logger()
     r_dir = Path(SITE_ROOT, pod.name, 'site')
     with os.chdir(r_dir):
         exc_str = f"rsync -qrpgD --delete --force . usul:html/{pod.name}"
@@ -201,5 +206,6 @@ def send_episode_email(pod: Podcast, new_eps: list):
 @task(name='Use LLM to attribute speakers')
 def attribute_speakers(pod: Podcast, ep: Episode) -> dict:
     # TODO Stub, need to decide on an LLM and build it out
+    log = get_run_logger()
     log.warning(f"LLM not yet implemented, using manual attribution for {ep.title}")
     return {}
