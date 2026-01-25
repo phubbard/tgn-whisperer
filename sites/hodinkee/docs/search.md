@@ -1,12 +1,16 @@
 # Search
 
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
+<script src="/pagefind/pagefind-ui.js"></script>
 <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
+    (function initPagefind() {
+        if (typeof PagefindUI !== 'undefined') {
+            new PagefindUI({ element: "#search", showSubResults: true });
+        } else {
+            setTimeout(initPagefind, 50);
+        }
+    })();
 </script>
 
 ## About Search

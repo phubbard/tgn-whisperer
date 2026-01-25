@@ -9,5 +9,5 @@ SPEAKER_MAP = 'speaker-map.json'
 UNKNOWN = 'Unknown'
 NEW_NAME = '- New name'
 
-SITE_ROOT = 'sites'
+SITE_ROOT = '../sites'
 system_admin = 'tgn-whisperer@phfactor.net'

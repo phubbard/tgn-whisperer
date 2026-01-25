@@ -5,6 +5,9 @@ site_author: Paul Hubbard
 copyright: "&copy; 2025 Paul Hubbard"
 dev_addr: 0.0.0.0:8000
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - Episodes: episodes.md

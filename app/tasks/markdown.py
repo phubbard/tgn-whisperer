@@ -18,7 +18,8 @@ def generate_episode_markdown(
     episode_dir: Path,
     episode_data: dict,
     speaker_map_path: Path,
-    synopsis_path: Path
+    synopsis_path: Path,
+    podcast_name: str = None
 ) -> Path:
     """
     Generate episode markdown file from transcript and attribution.
@@ -28,6 +29,7 @@ def generate_episode_markdown(
         episode_data: Episode metadata dictionary (from RSS)
         speaker_map_path: Path to speaker map JSON
         synopsis_path: Path to synopsis text file
+        podcast_name: Name of the podcast (optional, for conditional formatting)
 
     Returns:
         Path to generated markdown file
@@ -63,6 +65,20 @@ def generate_episode_markdown(
     episode_url = episode_data.get('episode_url', '')
     mp3_url = episode_data.get('mp3_url', '')
 
+    # Build links section - exclude webpage snapshot for Hodinkee
+    links_lines = [
+        "## Links",
+        f"- [episode page]({episode_url})",
+        f"- [episode MP3]({mp3_url})",
+    ]
+
+    # Only include webpage snapshot for podcasts with episode pages
+    if podcast_name != 'hodinkee':
+        links_lines.append("- [episode webpage snapshot](episode.html)")
+
+    links_lines.append("- [episode MP3 - local mirror](episode.mp3)")
+    links_section = '\n'.join(links_lines)
+
     md_content = f'''---
 search:
   exclude: true
@@ -76,11 +92,7 @@ Published on {pub_date}
 ## Synopsis
 {synopsis}
 
-## Links
-- [episode page]({episode_url})
-- [episode MP3]({mp3_url})
-- [episode webpage snapshot](episode.html)
-- [episode MP3 - local mirror](episode.mp3)
+{links_section}
 
 ## Transcript
 '''

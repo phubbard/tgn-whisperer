@@ -19,7 +19,7 @@ a 1938 book by Guy Gilpatric who was an inspiration to Jacques Cousteau. I like 
 
 ## Dive in and read
 
-Click on [Episodes](episodes.md) or [Show notes](shownotes.md) to get started. Search is at the top of the page.
+Click on [Episodes](episodes.md) to get started. Search is at the top of the page.
 
 ## How it works
 

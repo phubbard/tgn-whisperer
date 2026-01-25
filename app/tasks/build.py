@@ -132,8 +132,10 @@ def generate_search_index(site_path: Path) -> bool:
     pagefind_bin_path = str(pagefind_bin.get_executable())
 
     # Run pagefind on the built site
+    # Use glob pattern to only index index.html files (generated content)
+    # This excludes episode.html files (downloaded web page snapshots)
     result = subprocess.run(
-        [pagefind_bin_path, '--site', str(site_path)],
+        [pagefind_bin_path, '--site', str(site_path), '--glob', '**/index.html'],
         capture_output=True,
         text=True
     )

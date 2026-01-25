@@ -60,17 +60,19 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     # Note: This blocks for ~90 seconds, which is fine since it's a LAN call
     transcript_path = transcribe_audio(episode_dir, podcast.name, episode_number, mp3_path)
 
-    # Step 4: Download HTML in parallel with attribution
-    html_future = download_episode_html.submit(episode_dir, episode_data['episode_url'])
+    # Step 4: Download HTML in parallel with attribution (skip for Hodinkee - no episode pages)
+    if podcast.name != 'hodinkee':
+        html_future = download_episode_html.submit(episode_dir, episode_data['episode_url'])
 
     # Step 5: Attribute speakers using Claude
     speaker_map_path, synopsis_path = attribute_speakers(episode_dir, transcript_path, podcast.name)
 
     # Wait for HTML download to complete (best-effort, non-blocking)
-    html_path = html_future.result()
+    if podcast.name != 'hodinkee':
+        html_path = html_future.result()
 
     # Step 6: Generate markdown
-    md_path = generate_episode_markdown(episode_dir, episode_data, speaker_map_path, synopsis_path)
+    md_path = generate_episode_markdown(episode_dir, episode_data, speaker_map_path, synopsis_path, podcast.name)
 
     # Step 7: Copy files to site directory
     copy_episode_files(episode_dir, site_dir)

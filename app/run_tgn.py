@@ -9,6 +9,7 @@ from loguru import logger as log
 log.remove()
 log.add(sys.stdout, level="INFO")
 
+from prefect import tags
 from models.podcast import get_all_podcasts
 from flows.podcast import generate_and_deploy_site
 
@@ -23,7 +24,8 @@ if __name__ == "__main__":
     log.info(f"Podcast: {tgn.name}")
     log.info("=" * 60)
 
-    # Run the deployment flow (skip episode processing, just rebuild site)
-    generate_and_deploy_site(tgn)
+    # Run the deployment flow with tags
+    with tags("tgn", "podcast", "deploy"):
+        generate_and_deploy_site(tgn)
 
     log.success("TGN site deployed")

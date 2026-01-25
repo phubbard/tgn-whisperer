@@ -1,0 +1,7 @@
+/* Hide Zensical built-in search UI */
+.md-search,
+.md-search__form,
+.md-search__input,
+.md-search__output {
+  display: none !important;
+}
