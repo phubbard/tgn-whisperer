@@ -4,7 +4,7 @@ from pathlib import Path
 import subprocess
 from prefect import task
 from prefect.cache_policies import INPUTS
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 from constants import SITE_ROOT
 
@@ -26,7 +26,7 @@ def create_episode_directories(podcast_name: str, episode_number: float) -> tupl
     Returns:
         Tuple of (episode_directory, site_directory) Path objects
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Creating directories for {podcast_name} episode {episode_number}")
 
     # Episode directory: podcasts/tgn/14.0/
@@ -69,7 +69,7 @@ def download_mp3(episode_dir: Path, mp3_url: str) -> Path:
     Raises:
         subprocess.CalledProcessError: If wget fails
     """
-    log = get_run_logger()
+    log = get_logger()
     mp3_path = episode_dir / "episode.mp3"
 
     if mp3_path.exists():
@@ -99,7 +99,7 @@ def download_mp3(episode_dir: Path, mp3_url: str) -> Path:
             log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
-    log.success(f"Downloaded MP3: {mp3_path} ({mp3_path.stat().st_size} bytes)")
+    log.info(f"Downloaded MP3: {mp3_path} ({mp3_path.stat().st_size} bytes)")
     return mp3_path
 
 
@@ -121,7 +121,7 @@ def download_episode_html(episode_dir: Path, episode_url: str) -> Path:
     Returns:
         Path to downloaded HTML file, or None if download failed
     """
-    log = get_run_logger()
+    log = get_logger()
     html_path = episode_dir / "episode.html"
 
     if html_path.exists():
@@ -148,5 +148,5 @@ def download_episode_html(episode_dir: Path, episode_url: str) -> Path:
         log.warning(f"HTML download failed (non-fatal): {result.stderr}")
         return None
 
-    log.success(f"Downloaded HTML: {html_path}")
+    log.info(f"Downloaded HTML: {html_path}")
     return html_path

@@ -1,7 +1,7 @@
 """Podcast processing flow for a single podcast feed."""
 from pathlib import Path
 from prefect import flow
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 from models.podcast import Podcast
 from tasks.rss import (
@@ -48,7 +48,7 @@ def process_podcast(podcast: Podcast):
     Returns:
         List of newly processed episodes
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Processing podcast: {podcast.name}")
 
     # Step 1: Fetch RSS feed
@@ -102,7 +102,7 @@ def process_podcast(podcast: Podcast):
         else:
             log.warning(f"Could not find episode {ep_number} in feed")
 
-    log.success(f"All {len(results)} episodes processed successfully")
+    log.info(f"All {len(results)} episodes processed successfully")
 
     # Step 7: Generate and deploy site immediately
     generate_and_deploy_site(podcast)
@@ -129,7 +129,7 @@ def generate_and_deploy_site(podcast: Podcast):
     Args:
         podcast: Podcast configuration object
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Generating and deploying site for {podcast.name}")
 
     # Step 1: Generate shownotes if applicable
@@ -156,4 +156,4 @@ def generate_and_deploy_site(podcast: Podcast):
     # Step 4: Deploy to caddy2 static hosting
     deploy_site(podcast.name, site_path)
 
-    log.success(f"Site deployed for {podcast.name}")
+    log.info(f"Site deployed for {podcast.name}")

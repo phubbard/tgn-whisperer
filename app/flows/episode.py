@@ -1,7 +1,7 @@
 """Episode processing flow for individual episodes."""
 from pathlib import Path
 from prefect import flow
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 from models.podcast import Podcast
 from tasks.download import (
@@ -44,7 +44,7 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     Returns:
         Path to generated markdown file
     """
-    log = get_run_logger()
+    log = get_logger()
     # Parse episode data from RSS entry
     episode_data = parse_episode_data(episode_entry)
     episode_number = episode_data['number']
@@ -78,5 +78,5 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     # Step 7: Copy files to site directory
     copy_episode_files(episode_dir, site_dir)
 
-    log.success(f"Episode processing complete: {podcast.name} #{episode_number}")
+    log.info(f"Episode processing complete: {podcast.name} #{episode_number}")
     return md_path

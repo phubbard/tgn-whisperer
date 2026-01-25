@@ -4,7 +4,7 @@ import requests
 from pathlib import Path
 from prefect import task
 from prefect.cache_policies import INPUTS
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 
 @task(
@@ -69,6 +69,6 @@ def transcribe_audio(episode_dir: Path, podcast_name: str, episode_number: float
 
     # Save transcription result
     transcript_path.write_text(response.text)
-    log.success(f"Transcription complete: {transcript_path} ({len(response.text)} bytes)")
+    log.info(f"Transcription complete: {transcript_path} ({len(response.text)} bytes)")
 
     return transcript_path

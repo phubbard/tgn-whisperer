@@ -1,6 +1,6 @@
 """Prefect tasks for sending notifications."""
 from prefect import task
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 from models.podcast import Podcast
 from utils.email import send_notification_email as send_email_util
@@ -23,7 +23,7 @@ def send_notification_email(podcast: Podcast, new_episodes: list[float]) -> bool
     Returns:
         True if email was sent successfully, False otherwise
     """
-    log = get_run_logger()
+    log = get_logger()
     if not new_episodes:
         log.debug(f"No new episodes to notify about for {podcast.name}")
         return False

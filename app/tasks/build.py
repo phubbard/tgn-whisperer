@@ -4,7 +4,7 @@ import sys
 import shutil
 from pathlib import Path
 from prefect import task
-from prefect import get_run_logger
+from utils.logging import get_logger
 import pagefind_bin
 
 from constants import SITE_ROOT
@@ -27,7 +27,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     Returns:
         Path to episodes.md file
     """
-    log = get_run_logger()
+    log = get_logger()
     from datetime import datetime
 
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
@@ -44,7 +44,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         content += f"- [{title}]({str(ep_num)}/episode.md) {pub_date}\n"
 
     episodes_md.write_text(content)
-    log.success(f"Updated episodes index: {episodes_md}")
+    log.info(f"Updated episodes index: {episodes_md}")
     return episodes_md
 
 
@@ -67,7 +67,7 @@ def build_site(podcast_name: str) -> Path:
     Raises:
         subprocess.CalledProcessError: If zensical build fails
     """
-    log = get_run_logger()
+    log = get_logger()
     site_dir = Path(SITE_ROOT, podcast_name)
     site_output = site_dir / 'site'
 
@@ -112,7 +112,7 @@ def build_site(podcast_name: str) -> Path:
         log.error(f"Command: {' '.join(result.args)}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
-    log.success(f"Site built successfully: {site_output}")
+    log.info(f"Site built successfully: {site_output}")
     return site_output
 
 
@@ -135,7 +135,7 @@ def generate_search_index(site_path: Path) -> bool:
     Raises:
         subprocess.CalledProcessError: If pagefind fails
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Generating search index with Pagefind for {site_path}")
 
     # Get pagefind binary path
@@ -161,7 +161,7 @@ def generate_search_index(site_path: Path) -> bool:
         log.error(f"Command: {' '.join(result.args)}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
-    log.success("Search index generated successfully")
+    log.info("Search index generated successfully")
     return True
 
 
@@ -185,7 +185,7 @@ def deploy_site(podcast_name: str, site_path: Path) -> bool:
     Raises:
         subprocess.CalledProcessError: If rsync fails
     """
-    log = get_run_logger()
+    log = get_logger()
     deploy_target = f"/usr/local/www/{podcast_name}"
 
     log.info(f"Deploying {podcast_name} site to {deploy_target}")
@@ -214,5 +214,5 @@ def deploy_site(podcast_name: str, site_path: Path) -> bool:
             log.error(f"STDERR:\n{result.stderr}")
         raise subprocess.CalledProcessError(result.returncode, result.args, result.stdout, result.stderr)
 
-    log.success(f"Site deployed successfully to {deploy_target}")
+    log.info(f"Site deployed successfully to {deploy_target}")
     return True

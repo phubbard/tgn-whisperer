@@ -9,7 +9,7 @@ from datetime import datetime
 from anthropic import Anthropic
 from prefect import task
 from prefect.cache_policies import INPUTS
-from prefect import get_run_logger
+from utils.logging import get_logger
 from tenacity import retry, stop_after_attempt
 
 from constants import SPEAKER_MAPFILE, SYNOPSIS_FILE
@@ -182,7 +182,7 @@ def attribute_speakers(episode_dir: Path, transcript_path: Path, podcast_name: s
         FileNotFoundError: If transcript file doesn't exist
         anthropic.RateLimitError: If Claude API rate limit is exceeded
     """
-    log = get_run_logger()
+    log = get_logger()
     speaker_map_path = episode_dir / SPEAKER_MAPFILE
     synopsis_path = episode_dir / SYNOPSIS_FILE
     whisper_output_path = episode_dir / "whisper-output.json"
@@ -228,7 +228,7 @@ def attribute_speakers(episode_dir: Path, transcript_path: Path, podcast_name: s
     speaker_map_path.write_text(json.dumps(dict(speaker_map)))
     synopsis_path.write_text(synopsis)
 
-    log.success(f"Attribution saved: {speaker_map_path}")
-    log.success(f"Synopsis saved: {synopsis_path}")
+    log.info(f"Attribution saved: {speaker_map_path}")
+    log.info(f"Synopsis saved: {synopsis_path}")
 
     return speaker_map_path, synopsis_path

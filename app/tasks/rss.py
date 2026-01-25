@@ -4,7 +4,7 @@ import xmltodict
 from pathlib import Path
 from prefect import task
 from prefect.cache_policies import INPUTS
-from prefect import get_run_logger
+from utils.logging import get_logger
 import requests
 
 from models.podcast import Podcast
@@ -31,7 +31,7 @@ def fetch_rss_feed(podcast: Podcast) -> str:
     Raises:
         requests.HTTPError: If the request fails
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Fetching RSS feed for {podcast.name}: {podcast.rss_url}")
 
     # Identify ourselves to avoid 403 errors
@@ -74,7 +74,7 @@ def process_rss_feed(rss_content: str, podcast_name: str) -> dict:
     Raises:
         Exception: If XML parsing fails
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Processing RSS feed for {podcast_name}")
 
     # Save RSS to disk for processing (rss_processor needs file path)
@@ -144,7 +144,7 @@ def check_new_episodes(podcast_name: str, episodes: list[dict]) -> list[float]:
     Returns:
         List of new episode numbers (floats)
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info(f"Checking for new episodes in {podcast_name}")
 
     # Extract episode numbers from current feed
@@ -208,7 +208,7 @@ def get_episode_details(episodes: list[dict], episode_number: float) -> dict:
     Returns:
         Episode entry dictionary, or None if not found
     """
-    log = get_run_logger()
+    log = get_logger()
     for entry in episodes:
         ep_num = _episode_number_from_rss(entry)
         if ep_num == episode_number:
@@ -297,7 +297,7 @@ def parse_episode_data(entry: dict) -> dict:
     Returns:
         Episode data dictionary with all fields needed for processing
     """
-    log = get_run_logger()
+    log = get_logger()
     episode_number = _episode_number_from_rss(entry)
 
     # Extract basic fields

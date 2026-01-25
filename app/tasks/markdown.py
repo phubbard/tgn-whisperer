@@ -3,7 +3,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 from prefect import task
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 from constants import SPEAKER_MAPFILE
 
@@ -34,7 +34,7 @@ def generate_episode_markdown(
     Returns:
         Path to generated markdown file
     """
-    log = get_run_logger()
+    log = get_logger()
     md_path = episode_dir / "episode.md"
 
     if md_path.exists():
@@ -110,7 +110,7 @@ Published on {pub_date}
 
     # Write markdown file
     md_path.write_text(md_content)
-    log.success(f"Generated markdown: {md_path} ({len(md_content)} characters)")
+    log.info(f"Generated markdown: {md_path} ({len(md_content)} characters)")
 
     return md_path
 
@@ -132,7 +132,7 @@ def copy_episode_files(episode_dir: Path, site_dir: Path) -> bool:
     Returns:
         True if files were copied successfully
     """
-    log = get_run_logger()
+    log = get_logger()
     import shutil
 
     files_to_copy = [
@@ -158,5 +158,5 @@ def copy_episode_files(episode_dir: Path, site_dir: Path) -> bool:
         else:
             log.debug(f"File up to date, skipping: {filename}")
 
-    log.success(f"Copied {copied_count} files to site directory")
+    log.info(f"Copied {copied_count} files to site directory")
     return True

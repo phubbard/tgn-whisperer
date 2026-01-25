@@ -6,7 +6,7 @@ from html import unescape
 from pathlib import Path
 from prefect import task
 from prefect.cache_policies import INPUTS
-from prefect import get_run_logger
+from utils.logging import get_logger
 
 # Import TGN-specific functions from related_links_collector
 from related_links_collector.extract_rss_urls import extract_urls_from_rss
@@ -37,7 +37,7 @@ def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
     Returns:
         Path to generated shownotes file
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info("Generating TGN shownotes from Substack episode pages")
 
     # Set up paths for intermediate files
@@ -76,7 +76,7 @@ def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
         log=log
     )
 
-    log.success(f"TGN shownotes generated: {output_path}")
+    log.info(f"TGN shownotes generated: {output_path}")
     return output_path
 
 
@@ -227,7 +227,7 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
     Returns:
         Path to generated shownotes file
     """
-    log = get_run_logger()
+    log = get_logger()
     log.info("Generating WCL shownotes from RSS feed HTML")
 
     if not rss_path.exists():
@@ -240,7 +240,7 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
     # Generate markdown
     _generate_wcl_markdown(episodes, output_path)
 
-    log.success(f"WCL shownotes generated: {output_path}")
+    log.info(f"WCL shownotes generated: {output_path}")
     return output_path
 
 
@@ -259,6 +259,6 @@ def generate_hodinkee_shownotes(rss_path: Path, output_path: Path) -> Path:
     Returns:
         Path to generated shownotes file (or None if not implemented)
     """
-    log = get_run_logger()
+    log = get_logger()
     log.warning("Hodinkee shownotes generation not yet implemented")
     return None
