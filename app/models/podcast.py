@@ -1,5 +1,6 @@
 """Podcast model for Prefect workflows."""
 from dataclasses import dataclass
+from os import getenv
 
 
 @dataclass
@@ -19,23 +20,28 @@ def get_all_podcasts() -> list[Podcast]:
     Episode numbers are automatically extracted from RSS feeds by rss_processor.py,
     which fills in missing itunes:episode tags chronologically.
     """
+    # Get podcast configurations from environment variables with defaults
+    tgn_emails = getenv('TGN_EMAILS', 'pfh@phfactor.net,lucafoglio@miller-companies.com').split(',')
+    wcl_emails = getenv('WCL_EMAILS', 'pfh@phfactor.net,hello@watchclicker.com').split(',')
+    hodinkee_emails = getenv('HODINKEE_EMAILS', 'pfh@phfactor.net').split(',')
+
     return [
         Podcast(
             name='tgn',
             rss_url='https://feeds.buzzsprout.com/2049759.rss',
-            emails=['pfh@phfactor.net', 'lucafoglio@miller-companies.com'],
+            emails=tgn_emails,
             doc_base_url='https://tgn.phfactor.net'
         ),
         Podcast(
             name='wcl',
             rss_url='https://feed.podbean.com/the40and20podcast/feed.xml',
-            emails=['pfh@phfactor.net', 'hello@watchclicker.com'],
+            emails=wcl_emails,
             doc_base_url='https://wcl.phfactor.net'
         ),
         Podcast(
             name='hodinkee',
             rss_url='https://feeds.simplecast.com/OzTmhziA',
-            emails=['pfh@phfactor.net'],
+            emails=hodinkee_emails,
             doc_base_url='https://hodinkee.phfactor.net'
         ),
     ]

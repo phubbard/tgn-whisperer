@@ -6,6 +6,8 @@ from prefect import task
 from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 
+from constants import TRANSCRIPTION_API_BASE_URL
+
 
 @task(
     name="transcribe-audio",
@@ -51,8 +53,8 @@ def transcribe_audio(episode_dir: Path, podcast_name: str, episode_number: float
 
     # Call Fluid Audio API
     # Note: This is a BLOCKING call that takes ~90 seconds
-    # The API is running on Mac Studio (axiom.phfactor.net) on the local network
-    api_url = f"http://axiom.phfactor.net:5051/submit/{podcast_name}/{episode_number}"
+    # The API is running on Mac Studio on the local network
+    api_url = f"{TRANSCRIPTION_API_BASE_URL}/submit/{podcast_name}/{episode_number}"
 
     log.info(f"Submitting for transcription: {podcast_name} episode {episode_number}")
     log.info(f"API URL: {api_url}")

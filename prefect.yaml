@@ -2,9 +2,10 @@ name: tgn-whisperer
 prefect-version: 3.0.0
 
 # Pull configuration
+# Note: Set PREFECT_WORKING_DIRECTORY environment variable to override the default path
 pull:
   - prefect.deployments.steps.set_working_directory:
-      directory: /home/pfh/code/tgn-whisperer
+      directory: "{{ $PREFECT_WORKING_DIRECTORY | default('/home/pfh/code/tgn-whisperer') }}"
 
 # Work pools
 work-pools:

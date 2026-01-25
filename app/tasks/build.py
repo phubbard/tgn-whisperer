@@ -7,7 +7,7 @@ from prefect import task
 from utils.logging import get_logger
 import pagefind_bin
 
-from constants import SITE_ROOT
+from constants import SITE_ROOT, DEPLOY_BASE_PATH
 
 
 @task(
@@ -186,7 +186,7 @@ def deploy_site(podcast_name: str, site_path: Path) -> bool:
         subprocess.CalledProcessError: If rsync fails
     """
     log = get_logger()
-    deploy_target = f"/usr/local/www/{podcast_name}"
+    deploy_target = f"{DEPLOY_BASE_PATH}/{podcast_name}"
 
     log.info(f"Deploying {podcast_name} site to {deploy_target}")
     log.debug(f"Source: {site_path}")
