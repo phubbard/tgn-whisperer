@@ -3,7 +3,11 @@
 Run Prefect workflow for Hodinkee podcast only (for testing).
 """
 import sys
+
+from dotenv import load_dotenv
 from loguru import logger as log
+
+load_dotenv()
 
 # Set up logging
 log.remove()
