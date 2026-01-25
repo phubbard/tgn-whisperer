@@ -4,7 +4,7 @@ import requests
 from pathlib import Path
 from prefect import task
 from prefect.cache_policies import INPUTS
-from loguru import logger as log
+from prefect import get_run_logger
 
 
 @task(

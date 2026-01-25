@@ -4,7 +4,7 @@ import sys
 import shutil
 from pathlib import Path
 from prefect import task
-from loguru import logger as log
+from prefect import get_run_logger
 import pagefind_bin
 
 from constants import SITE_ROOT
@@ -27,6 +27,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     Returns:
         Path to episodes.md file
     """
+    log = get_run_logger()
     from datetime import datetime
 
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
@@ -66,6 +67,7 @@ def build_site(podcast_name: str) -> Path:
     Raises:
         subprocess.CalledProcessError: If zensical build fails
     """
+    log = get_run_logger()
     site_dir = Path(SITE_ROOT, podcast_name)
     site_output = site_dir / 'site'
 
@@ -126,6 +128,7 @@ def generate_search_index(site_path: Path) -> bool:
     Raises:
         subprocess.CalledProcessError: If pagefind fails
     """
+    log = get_run_logger()
     log.info(f"Generating search index with Pagefind for {site_path}")
 
     # Get pagefind binary path
@@ -168,6 +171,7 @@ def deploy_site(podcast_name: str, site_path: Path) -> bool:
     Raises:
         subprocess.CalledProcessError: If rsync fails
     """
+    log = get_run_logger()
     deploy_target = f"/usr/local/www/{podcast_name}"
 
     log.info(f"Deploying {podcast_name} site to {deploy_target}")

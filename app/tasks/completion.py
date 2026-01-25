@@ -1,7 +1,7 @@
 """Prefect tasks for checking episode completion status."""
 from pathlib import Path
 from prefect import task
-from loguru import logger as log
+from prefect import get_run_logger
 
 from constants import SITE_ROOT
 
@@ -23,6 +23,7 @@ def check_episode_completion(podcast_name: str, episode_number: float) -> bool:
     Returns:
         True if episode is fully processed, False otherwise
     """
+    log = get_run_logger()
     # Check for episode.md in the site directory
     site_dir = Path(SITE_ROOT, podcast_name, 'docs', str(episode_number))
     md_path = site_dir / "episode.md"
@@ -50,6 +51,7 @@ def filter_incomplete_episodes(podcast_name: str, episode_numbers: list[float]) 
     Returns:
         List of episode numbers that need processing (incomplete or missing)
     """
+    log = get_run_logger()
     incomplete = []
 
     log.info(f"Checking completion status for {len(episode_numbers)} episodes")

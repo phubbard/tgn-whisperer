@@ -1,6 +1,6 @@
 """Main Prefect flow for orchestrating all podcast processing."""
 from prefect import flow, tags
-from loguru import logger as log
+from prefect import get_run_logger
 
 from models.podcast import get_all_podcasts
 from flows.podcast import process_podcast
@@ -14,6 +14,7 @@ def process_all_podcasts():
     Each podcast flow runs independently and handles its own site generation.
     Sequential processing ensures proper resource management (transcription service, etc).
     """
+    log = get_run_logger()
     log.info("Starting podcast processing for all feeds")
 
     podcasts = get_all_podcasts()
