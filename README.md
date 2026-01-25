@@ -153,21 +153,6 @@ Each podcast has a comprehensive shownotes page listing all related links from e
 
 **Stats**: TGN has 6,611 links from 355 episodes (avg 18.6/episode), WCL has 2,197 links from 275 episodes (avg 8.0/episode).
 
-### Optional - wordcloud
-
-I was curious as to how this'd look, so I used the Python wordcloud tool. A bit fussy
-to work with my [python 3.11 install](https://github.com/amueller/word_cloud/issues/708):
-
-	 python -m pip install -e git+https://github.com/amueller/word_cloud#egg=wordcloud
-	 cat tgn/*.txt > alltext
-	 wordcloud_cli --text alltext --imagefile wordcloud.png --width 1600 --height 1200
-
-![wordcloud](archive/wordcloud.png "TGN wordcloud")
-
-40 & 20, run Sep 24 2023 - fun to see the overlaps.
-
-![wordcloud_wcl](archive/wordcloud_wcl.png "40 & 20 wordcloud")
-
 ## Troubleshooting
 
 ### Git push hangs
