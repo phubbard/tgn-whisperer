@@ -29,6 +29,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest>=9.0",
+    "flask>=3.0",
 ]
 
 [tool.uv]

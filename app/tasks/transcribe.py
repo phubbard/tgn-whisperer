@@ -1,5 +1,6 @@
 """Prefect tasks for audio transcription via Fluid Audio API."""
 import json
+import os
 import requests
 from pathlib import Path
 from prefect import task
@@ -8,11 +9,17 @@ from utils.logging import get_logger
 
 from constants import TRANSCRIPTION_API_BASE_URL
 
+log = get_logger()
+
+# Configurable retry settings (shorter for mock/testing)
+TRANSCRIBE_RETRIES = int(os.environ.get("TRANSCRIBE_RETRIES", "2"))
+TRANSCRIBE_RETRY_DELAY = int(os.environ.get("TRANSCRIBE_RETRY_DELAY", "300"))
+
 
 @task(
     name="transcribe-audio",
-    retries=2,
-    retry_delay_seconds=300,  # 5 minute retry delay for transcription failures
+    retries=TRANSCRIBE_RETRIES,
+    retry_delay_seconds=TRANSCRIBE_RETRY_DELAY,
     cache_policy=INPUTS,
     timeout_seconds=600,  # 10 minute timeout (transcription takes ~90 seconds)
     log_prints=True
