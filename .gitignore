@@ -54,6 +54,9 @@ dist/
 build/
 *.egg-info/
 
+# Local mock deployment directory
+deployed/
+
 # Environment
 .env
 .env.local
