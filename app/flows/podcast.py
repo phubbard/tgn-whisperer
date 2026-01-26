@@ -1,4 +1,5 @@
 """Podcast processing flow for a single podcast feed."""
+import os
 from pathlib import Path
 from prefect import flow
 from utils.logging import get_logger
@@ -83,8 +84,9 @@ def process_podcast(podcast: Podcast):
 
     if not incomplete_ep_numbers:
         log.info(f"All episodes for {podcast.name} are complete")
-        # Still generate/deploy site in case of updates
-        generate_and_deploy_site(podcast)
+        # Still generate/deploy site in case of updates (skip if SKIP_SITE_DEPLOY is set)
+        if not os.environ.get("SKIP_SITE_DEPLOY"):
+            generate_and_deploy_site(podcast)
         return []
 
     log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
@@ -104,8 +106,11 @@ def process_podcast(podcast: Podcast):
 
     log.info(f"All {len(results)} episodes processed successfully")
 
-    # Step 7: Generate and deploy site immediately
-    generate_and_deploy_site(podcast)
+    # Step 7: Generate and deploy site (skip for mock/testing if SKIP_SITE_DEPLOY is set)
+    if os.environ.get("SKIP_SITE_DEPLOY"):
+        log.info("Skipping site deployment (SKIP_SITE_DEPLOY is set)")
+    else:
+        generate_and_deploy_site(podcast)
 
     log.info(f"Completed processing {len(incomplete_ep_numbers)} episodes for {podcast.name}")
     return incomplete_ep_numbers
