@@ -12,7 +12,7 @@ from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 from tenacity import retry, stop_after_attempt
 
-from constants import SPEAKER_MAPFILE, SYNOPSIS_FILE
+from constants import SPEAKER_MAPFILE, SYNOPSIS_FILE, CLAUDE_MODEL, CLAUDE_MAX_TOKENS
 
 
 def _extract_between_tags(tag: str, string: str, strip: bool = False) -> list[str]:
@@ -48,7 +48,7 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
         IndexError: If attribution or synopsis tags are missing
     """
     message = client.messages.create(
-        max_tokens=2000,
+        max_tokens=CLAUDE_MAX_TOKENS,
         system=ATTRIBUTION_PROMPT,
         messages=[
             {
@@ -56,7 +56,7 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
                 "content": text,
             }
         ],
-        model="claude-sonnet-4-5",
+        model=CLAUDE_MODEL,
     )
 
     speaker_map = defaultdict(lambda: "Unknown")

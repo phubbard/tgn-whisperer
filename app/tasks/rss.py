@@ -9,6 +9,7 @@ import requests
 
 from models.podcast import Podcast
 from rss_processor import process_feed
+from constants import HTTP_USER_AGENT, CONTACT_EMAIL, DEFAULT_PODCAST_URL
 
 
 @task(
@@ -36,8 +37,8 @@ def fetch_rss_feed(podcast: Podcast) -> str:
 
     # Identify ourselves to avoid 403 errors
     headers = {
-        'User-Agent': 'tgn-whisperer https://github.com/phubbard/tgn-whisperer/',
-        'From': 'pfh@phfactor.net'
+        'User-Agent': HTTP_USER_AGENT,
+        'From': CONTACT_EMAIL
     }
 
     response = requests.get(podcast.rss_url, headers=headers)
@@ -251,7 +252,7 @@ def _unwrap_bitly(url: str) -> str:
     return url
 
 
-def _extract_episode_url(entry: dict, default_url: str = 'https://thegreynato.com/') -> str:
+def _extract_episode_url(entry: dict, default_url: str = None) -> str:
     """
     Extract episode URL from RSS entry.
 
@@ -263,6 +264,9 @@ def _extract_episode_url(entry: dict, default_url: str = 'https://thegreynato.co
         Episode URL
     """
     import re
+
+    if default_url is None:
+        default_url = DEFAULT_PODCAST_URL
 
     # Priority 1: 'link' field in RSS
     if 'link' in entry:

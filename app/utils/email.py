@@ -5,7 +5,7 @@ from os import getenv
 from pathlib import Path
 from loguru import logger as log
 
-from constants import system_admin
+from constants import system_admin, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME
 
 
 class FastMailSMTP(smtplib.SMTP_SSL):
@@ -19,7 +19,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
     def __init__(self):
         self.no_email = True
 
-        super().__init__('smtp.fastmail.com', port=465)
+        super().__init__(SMTP_SERVER, port=SMTP_PORT)
         smtp_password = getenv('FASTMAIL_PASSWORD', None)
 
         if Path(".no_email").exists():
@@ -30,7 +30,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
             log.error('FASTMAIL_PASSWORD not found in environment, cannot email')
             return
 
-        self.login('pfh@phfactor.net', smtp_password)
+        self.login(SMTP_USERNAME, smtp_password)
         self.no_email = False
         log.debug('FastMail SMTP connection established')
 
