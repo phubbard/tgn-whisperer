@@ -114,5 +114,5 @@ sudo systemctl status prefect-server
 # View logs
 sudo journalctl -u prefect-server -f
 
-# Web UI at https://prefect.phfactor.net (or locally: http://localhost:4200)
+# Web UI at http://webserver.phfactor.net:4200 (LAN-only) or http://localhost:4200
 ```

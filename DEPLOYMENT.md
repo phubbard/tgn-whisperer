@@ -83,7 +83,7 @@ uv run python app/run_hodinkee.py
 
 Once the service is running, access the web interface:
 
-- **Network:** https://prefect.phfactor.net
+- **LAN:** http://webserver.phfactor.net:4200
 - **Local:** http://localhost:4200
 
 ## 4. Monitor Workflow Runs

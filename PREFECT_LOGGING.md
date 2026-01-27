@@ -8,7 +8,7 @@ All TGN Whisperer tasks and flows now use Prefect's `get_run_logger()` for loggi
 
 ```bash
 # Web UI
-https://prefect.phfactor.net
+http://webserver.phfactor.net:4200
 # or locally
 http://localhost:4200
 ```
@@ -17,7 +17,7 @@ http://localhost:4200
 
 ### 1. From the Dashboard
 
-1. Go to https://prefect.phfactor.net
+1. Go to http://webserver.phfactor.net:4200
 2. Click **Runs** in the left sidebar
 3. Find your flow run (e.g., "tgn-deploy", "wcl-deploy")
 4. Click on the run to see details
@@ -161,7 +161,7 @@ When a run fails:
 
 ```
 # 1. Find the failed run in UI
-https://prefect.phfactor.net/runs
+http://webserver.phfactor.net:4200/runs
 
 # 2. Click on "tgn-deploy" (or whatever failed)
 

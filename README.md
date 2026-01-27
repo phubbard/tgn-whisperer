@@ -102,7 +102,7 @@ All steps are orchestrated by [Prefect 3.6](https://docs.prefect.io/) with a thr
 - **Podcast flow** (`app/flows/podcast.py`) - per-podcast workflow
 - **Episode flow** (`app/flows/episode.py`) - per-episode processing
 
-The Prefect UI is available at https://prefect.phfactor.net (or locally at http://localhost:4200). See `DEPLOYMENT.md` for systemd setup.
+The Prefect UI is available at http://webserver.phfactor.net:4200 (LAN-only) or http://localhost:4200 (locally). See `DEPLOYMENT.md` for systemd setup.
 
 ### The curse of URL shorteners and bit.ly in particular
 
