@@ -29,6 +29,16 @@ This repo is the code and some notes for myself and others. As of January 2026, 
 1. Simple as possible - use existing tools whenever possible
 2. Incremental - be able to add new episodes easily and without reworking previous ones
 
+## Contributing
+
+This project uses a pull request workflow. See [PR_WORKFLOW.md](PR_WORKFLOW.md) for details on:
+- Creating feature branches
+- Submitting pull requests
+- Code review process
+- Branch naming conventions
+
+All changes must pass automated tests before merging.
+
 ## Setup and Dependencies
 
 This project uses [uv](https://docs.astral.sh/uv/) for fast Python dependency management. To get started:
