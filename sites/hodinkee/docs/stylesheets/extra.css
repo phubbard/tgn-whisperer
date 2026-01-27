@@ -5,3 +5,11 @@
 .md-search__output {
   display: none !important;
 }
+
+/* Hide paragraph/pilcrow symbols in search and headings */
+.headerlink,
+.md-content a.headerlink,
+.pagefind-ui__result-link::after,
+.pagefind-ui__result-title::after {
+  display: none !important;
+}
