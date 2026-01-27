@@ -2,7 +2,7 @@ site_name: The Compleat 40 and 20
 site_url: https://wcl.phfactor.net/
 site_description: Transcripts and shownotes for the 40&20 podcast
 site_author: Paul Hubbard
-copyright: "&copy; 2025 Paul Hubbard"
+copyright: "&copy; 2026 Paul Hubbard"
 dev_addr: 0.0.0.0:8000
 
 extra_css:
