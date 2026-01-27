@@ -1,5 +1,18 @@
 [![Tests](https://github.com/phubbard/tgn-whisperer/actions/workflows/test.yml/badge.svg)](https://github.com/phubbard/tgn-whisperer/actions/workflows/test.yml)
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Goals](#goals)
+- [Contributing](#contributing)
+- [Setup and Dependencies](#setup-and-dependencies)
+- [Monitoring and Observability](#monitoring-and-observability)
+- [Workflow and Architecture](#workflow-and-architecture)
+- [Reprocessing Episodes](#reprocessing-episodes)
+- [Episode Numbers and RSS Processing](#episode-numbers-and-rss-processing)
+- [Shownotes Generation](#shownotes-generation)
+- [Troubleshooting](#troubleshooting)
+
 ## Introduction
 
 With my discovery of the [whisper.cpp project](https://github.com/ggerganov/whisper.cpp)
@@ -62,6 +75,49 @@ uv run python app/run_hodinkee.py
 uv run pytest app/ -v
 ```
 
+## Monitoring and Observability
+
+### Prefect Web UI
+
+Monitor workflow runs in real-time via the Prefect UI:
+- **LAN Access**: http://webserver.phfactor.net:4200
+- **Local**: http://localhost:4200
+
+The UI provides:
+- **Flow Runs**: View all workflow executions with status (running, completed, failed)
+- **Task Details**: Drill down into individual task runs (download, transcribe, attribute, build)
+- **Live Logs**: Stream logs in real-time as tasks execute
+- **Error Details**: Full stack traces and subprocess output when tasks fail
+- **Run History**: Search and filter past runs by podcast, date, or status
+
+### Daily Automated Runs
+
+A cron job runs at 7:02 AM daily to process all podcasts:
+```bash
+# Check cron schedule
+crontab -l
+
+# View recent cron job output via email
+mail
+```
+
+### Checking Build Status
+
+```bash
+# Prefect server status
+sudo systemctl status prefect-server
+
+# View Prefect server logs
+sudo journalctl -u prefect-server -f
+
+# Check for recent flow runs
+uv run prefect flow-run ls --limit 10
+```
+
+See [PREFECT_LOGGING.md](PREFECT_LOGGING.md) for detailed debugging guide.
+
+## Workflow and Architecture
+
 ### Reprocessing Episodes
 
 The `reprocess` utility allows selective rebuilding of episodes with granular control:
@@ -93,7 +149,9 @@ uv run python app/run_tgn.py
 
 **Episode numbers** can be specified with or without `.0` suffix (e.g., both `14` and `14.0` work).
 
-### Workflow and requirements
+### Processing Pipeline
+
+The workflow processes podcasts through these stages:
 
 1. Fetch RSS feed and process episode numbers (`app/tasks/rss.py`)
 2. Check for new/incomplete episodes and send notifications
