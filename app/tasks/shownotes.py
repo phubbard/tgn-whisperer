@@ -167,8 +167,10 @@ def _parse_wcl_feed(feed_path: Path) -> list[dict]:
     return episodes
 
 
-def _generate_wcl_markdown(episodes: list[dict], output_path: Path):
+def _generate_wcl_markdown(episodes: list[dict], output_path: Path, log=None):
     """Generate shownotes.md file in TGN format."""
+    from utils.logging import get_logger
+    log = log or get_logger()
 
     # Calculate statistics
     total_links = sum(len(ep['links']) for ep in episodes)
@@ -241,7 +243,7 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
     log.info(f"Found {len(episodes)} episodes")
 
     # Generate markdown
-    _generate_wcl_markdown(episodes, output_path)
+    _generate_wcl_markdown(episodes, output_path, log)
 
     log.info(f"WCL shownotes generated: {output_path}")
     return output_path
