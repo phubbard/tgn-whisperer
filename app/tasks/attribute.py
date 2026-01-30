@@ -47,6 +47,8 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
         json.JSONDecodeError: If Claude response is not valid JSON
         IndexError: If attribution or synopsis tags are missing
     """
+    log = get_logger()
+
     message = client.messages.create(
         max_tokens=CLAUDE_MAX_TOKENS,
         system=ATTRIBUTION_PROMPT,
@@ -126,6 +128,8 @@ def _process_transcription_chunks(transcript_data: dict) -> list[tuple]:
     Returns:
         List of tuples (start_time, speaker, text_chunk)
     """
+    log = get_logger()
+
     rc = []
     speaker = None
     text_chunk = ''
