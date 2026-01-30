@@ -37,10 +37,11 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     content = f"### Page updated {ts} - {len(episodes_data)} episodes\n"
 
     # Add each episode as a link
-    for ep_data in sorted(episodes_data, key=lambda x: x.get('number', 0)):
-        ep_num = ep_data.get('number')
+    for ep_data in sorted(episodes_data, key=lambda x: x.get('number') or x.get('itunes:episode') or 0):
+        # Handle both parsed episode data (has 'number') and raw RSS data (has 'itunes:episode')
+        ep_num = ep_data.get('number') or ep_data.get('itunes:episode')
         title = ep_data.get('title', 'Unknown')
-        pub_date = ep_data.get('pub_date', '')
+        pub_date = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
         content += f"- [{title}]({str(ep_num)}/episode.md) {pub_date}\n"
 
     episodes_md.write_text(content)
