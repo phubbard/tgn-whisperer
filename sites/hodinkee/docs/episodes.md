@@ -1,293 +1,294 @@
-### Page updated 2026-01-23T11:37:52.471896-08:00 - 292 episodes
-- [The Business of Watches [012] Manuel Emch, The Head Of Louis Erard And 'The Numbers Guy' At Kollokium, On How To Build A Successful Swiss Watch Brand](279.0/episode.md) Wed, 21 Jan 2026 16:00:00 +0000
-- [The Business of Watches [011] The Head Of Montblanc's Timepieces Division Laurent Lecamp On Minerva, Hairsprings, And What's Next  For The Brand](278.0/episode.md) Wed, 14 Jan 2026 16:00:00 +0000
-- [The Business of Watches [010] Ming Executives Ming Thein And Praneeth Rajsingh Talk Design, Manufacturing, Pricing, And What's Next For The Innovative Brand](277.0/episode.md) Wed, 7 Jan 2026 16:02:17 +0000
-- [The Business of Watches [009] Audemars Piguet CEO Ilaria Resta Drives Double-Digit Sales Increase For Brand's 150th Anniversary Year](276.0/episode.md) Wed, 24 Dec 2025 16:00:00 +0000
-- [The Business of Watches [008] Hind Seddiqi: The Driving Force Behind Dubai Watch Week](275.0/episode.md) Wed, 10 Dec 2025 16:00:00 +0000
-- [The Business of Watches [007] James Lamdin Of Analog Shift On The Vintage And Pre-Owned Market And Why All Authenticity Guarantees Aren't The Same](274.0/episode.md) Mon, 24 Nov 2025 18:00:00 +0000
-- [The Business of Watches [006] Audience Q&A Special With Hodinkee's Editor-In-Chief James Stacey](273.0/episode.md) Wed, 12 Nov 2025 16:00:00 +0000
-- [The Business of Watches [005] Frederique Constant CEO Niels Eggerding On Why He's Fighting To Keep FC's Perpetual Calendar Under $10,000](272.0/episode.md) Wed, 29 Oct 2025 15:00:00 +0000
-- [The Business of Watches [004] Tag Heuer CEO Antoine Pin On Carbon Hairspring Setbacks, Pricing, Tariffs, And Formula One](271.0/episode.md) Wed, 15 Oct 2025 15:00:00 +0000
-- [The Business of Watches [003]  Georges Kern: The Breitling CEO Talks Growth Despite Challenges Facing The Watch Industry](270.0/episode.md) Wed, 1 Oct 2025 15:00:00 +0000
-- [The Business of Watches [002] Sylvain Berneron On His Company’s Work Philosophy, Business Structure, And Future Watches](269.0/episode.md) Wed, 17 Sep 2025 15:00:00 +0000
-- [The Business of Watches [001] Rolex, The Making of a Status Symbol With Author Pierre-Yves Donzé](268.0/episode.md) Wed, 3 Sep 2025 15:00:00 +0000
-- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 4](267.0/episode.md) Fri, 4 Apr 2025 22:27:11 +0000
-- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 3](266.0/episode.md) Thu, 3 Apr 2025 23:30:33 +0000
-- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 2](265.0/episode.md) Thu, 3 Apr 2025 00:29:44 +0000
-- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 1](264.0/episode.md) Wed, 2 Apr 2025 00:06:07 +0000
-- [A Look Ahead To 2025 – Part 2 With Mark and Rich](263.0/episode.md) Fri, 27 Dec 2024 18:00:00 +0000
-- [A Look Ahead To 2025 - Part I with Malaika & TanTan](262.0/episode.md) Fri, 20 Dec 2024 18:00:00 +0000
-- [Looking Back On 2024 – Part 2 With Rich and Mark](261.0/episode.md) Fri, 13 Dec 2024 18:00:00 +0000
-- [Looking Back On 2024 – Part 1 With Malaika & TanTan](260.0/episode.md) Fri, 6 Dec 2024 20:00:00 +0000
-- [Tania Edwards Of Collectability On The Rise Of Patek Philippe](259.0/episode.md) Wed, 13 Nov 2024 18:00:00 +0000
-- [Everything You Need To Know About Stone Dials With Pierre Biver and Two Vintage Dealers](258.0/episode.md) Wed, 6 Nov 2024 18:00:00 +0000
-- [Collecting Porsche Design with Andres Nicholls](257.0/episode.md) Wed, 30 Oct 2024 19:00:00 +0000
-- [In Conversation With Max Büsser](255.0/episode.md) Wed, 9 Oct 2024 16:55:00 +0000
-- [Special Episode: Porsche Design With Drew Peterson](254.0/episode.md) Mon, 30 Sep 2024 16:55:00 +0000
-- [Inside Sellita And Albishorn With Sébastien Chaulmontet](253.0/episode.md) Wed, 25 Sep 2024 16:55:00 +0000
-- [New Watches From Hamilton, Tudor, And More; Talking Tiffany & Co.'s Untapped Watchmaking Potential](252.0/episode.md) Wed, 18 Sep 2024 16:55:00 +0000
-- [Summer Releases From Tudor And Longines; Talking Value Proposition From Habring² and M.A.D. 1](251.0/episode.md) Wed, 28 Aug 2024 16:55:00 +0000
-- [Talking Vintage Rolex And Offbeat Finds With Fred Savage](250.0/episode.md) Wed, 21 Aug 2024 16:55:00 +0000
-- [Talking Doxa, Neo-Vintage, Rolex, And More With James Lamdin (Founder, Analog:Shift)](249.0/episode.md) Wed, 14 Aug 2024 16:55:00 +0000
-- [Market Update And Talking Vintage With Eric Wind](248.0/episode.md) Wed, 7 Aug 2024 16:55:00 +0000
-- [Q&A And A New Seiko Chronograph With Blake Buettner And James Stacey](247.0/episode.md) Thu, 25 Jul 2024 16:55:00 +0000
-- [Our Favorite Watches Of 2024 So Far + Talking Hodinkee's Porsche Design Collab](246.0/episode.md) Wed, 17 Jul 2024 16:55:00 +0000
-- [The Patek Philippe Calatrava Episode With Ben and Rich](245.0/episode.md) Wed, 10 Jul 2024 16:55:00 +0000
-- [The Story Of John Lennon's Patek Philippe 2499 With Jay Fielden](244.0/episode.md) Wed, 3 Jul 2024 16:55:00 +0000
-- [In Conversation With Mike Nouveau and Phil Toledano](243.0/episode.md) Wed, 26 Jun 2024 16:55:00 +0000
-- [In Conversation With Watchmaker Rebecca Struthers and Lewis Heath (Founder, AnOrdain)](242.0/episode.md) Wed, 19 Jun 2024 16:55:00 +0000
-- [In Conversation With Sylvain Berneron](241.0/episode.md) Wed, 12 Jun 2024 16:55:00 +0000
-- [New Watches From Audemars Piguet And More; A Visit To The Patek Philippe Museum](240.0/episode.md) Thu, 6 Jun 2024 16:55:00 +0000
-- [Reviewing 6 Of Our Own Watches With Ben And James](239.0/episode.md) Thu, 30 May 2024 16:55:00 +0000
-- [Eric Ku and Justin Gruenberg (Loupe This)](238.0/episode.md) Wed, 22 May 2024 16:55:00 +0000
-- [Q&A – Cartier, TAG Heuer x KITH Formula 1, Auctions, And More](237.0/episode.md) Wed, 15 May 2024 16:55:00 +0000
-- [Previewing The Geneva Auction Season With Ben And Mark](236.0/episode.md) Wed, 1 May 2024 16:55:00 +0000
-- [21st Century Fantasy Watch Draft](235.0/episode.md) Wed, 24 Apr 2024 16:55:00 +0000
-- [Hodinkee Radio: Watches & Wonders 2024 | Day 4: The Editors Debrief After The Week In Geneva](234.0/episode.md) Fri, 12 Apr 2024 23:03:12 +0000
-- [Hodinkee Radio: Watches & Wonders 2024 | Day 3: Hermès, Oris, Chopard, and Parmigiani Fleurier](233.0/episode.md) Thu, 11 Apr 2024 22:44:49 +0000
-- [Hodinkee Radio: Watches & Wonders 2024 | Day 2: Cartier, TAG Heuer, Grand Seiko, IWC, And More](232.0/episode.md) Wed, 10 Apr 2024 23:23:58 +0000
-- [Hodinkee Radio: Watches & Wonders 2024 | Episode 1](231.0/episode.md) Wed, 10 Apr 2024 00:44:36 +0000
-- [Watches & Wonders 2024 Preview With Ben, James, And Danny](230.0/episode.md) Wed, 3 Apr 2024 16:55:00 +0000
-- [Talking About Our Favorite GMT Watches From Tudor, Longines,And More](229.0/episode.md) Wed, 27 Mar 2024 12:55:00 +0000
-- [Jonathan Ferrer (Founder, Brew Watches)](228.0/episode.md) Wed, 20 Mar 2024 16:55:00 +0000
-- [Why Are Some Watch Brands Underappreciated?](227.0/episode.md) Wed, 13 Mar 2024 16:55:00 +0000
-- [What Watch Brands Get Right (And Wrong) About Proportions](226.0/episode.md) Wed, 6 Mar 2024 17:55:00 +0000
-- [Fantasy Watch Draft 2024](225.0/episode.md) Wed, 28 Feb 2024 17:55:00 +0000
-- [Talking Tastes, Trends, And Elton John's Watch Collection](224.0/episode.md) Wed, 21 Feb 2024 17:55:00 +0000
-- [Breitling CEO Georges Kern](223.0/episode.md) Wed, 14 Feb 2024 17:55:00 +0000
-- [Hodinkee Radio – We're Back!](222.0/episode.md) Wed, 7 Feb 2024 17:55:00 +0000
-- [Ben Clymer Presents: Ep. 10 – The Bremont Episode With Davide Cerrato](221.0/episode.md) Wed, 24 Jan 2024 18:00:00 +0000
-- [Ben Clymer Presents: Ep. 9 – The Golf And Watches Episode With Keith Mitchell](220.0/episode.md) Wed, 10 Jan 2024 18:00:00 +0000
-- [Ben Clymer Presents: Ep. 8 – The Vintage Patek Episode for John Reardon](219.0/episode.md) Wed, 13 Dec 2023 18:00:00 +0000
-- [Ben Clymer Presents: 07 – New York Auction Preview Episode With Tony Traina and Mark Kauzlarich](218.0/episode.md) Wed, 6 Dec 2023 21:00:00 +0000
-- [Ben Clymer Presents: 06 – The Lange Episode With Wilhelm Schmid](217.0/episode.md) Wed, 8 Nov 2023 18:00:00 +0000
-- [Ben Clymer Presents: 05 – The 2023 Fall Auction Episode With Rich Fordon And Tony Traina](216.0/episode.md) Fri, 3 Nov 2023 17:00:00 +0000
-- [Ben Clymer Presents: 04 – The Vintage Rolex Episode With Geoff Hess](215.0/episode.md) Wed, 1 Nov 2023 17:00:00 +0000
-- [Ben Clymer Presents : Ep. 03 – The Porsche Episode With Ferdi Porsche](214.0/episode.md) Wed, 25 Oct 2023 17:00:00 +0000
-- [Ben Clymer Presents: Ep. 02 – Ten Years Of Talking Watches](213.0/episode.md) Wed, 18 Oct 2023 17:00:00 +0000
-- [Ben Clymer Presents: Ep 01 – The Collaboration Episode With Jean Arnault and Rexhep Rexhepi](212.0/episode.md) Wed, 11 Oct 2023 17:00:00 +0000
-- [Ben Clymer Presents:  Episode 0 – A Preview Of A New Podcast from Hodinkee](211.0/episode.md) Tue, 10 Oct 2023 17:00:00 +0000
-- [W&W 2023 – Day 4 – Cartier, Chopard, Parmigiani, F.P. Journe, and Sinn](210.0/episode.md) Fri, 31 Mar 2023 15:04:23 +0000
-- [W&W 2023 – Day 3 – Tag Heuer, Biver, IWC, Ressence, and Zenith](209.0/episode.md) Thu, 30 Mar 2023 00:17:56 +0000
-- [Day 2 – W&W 2023 – Day 2 – Grand Seiko, Oris, JLC, IWC, and the Wildest New Rolex Ben and James Have Ever Seen](208.0/episode.md) Tue, 28 Mar 2023 21:26:53 +0000
-- [W&W 2023  – Day 1 – Rolex, Tudor, Patek Philippe, And A Show Highlight From Lange](207.0/episode.md) Mon, 27 Mar 2023 23:17:11 +0000
-- [Previewing Watches And Wonders 2023 With Ben and Danny](206.0/episode.md) Thu, 23 Mar 2023 13:04:21 +0000
-- [The Collector's Edition With Ben Clymer – Featuring Kevin Hart](205.0/episode.md) Thu, 16 Feb 2023 18:05:00 +0000
-- [A Smaller Murph, A Value Flyer, Bond's 60th, And Rolex That Never Was](204.0/episode.md) Sun, 27 Nov 2022 14:00:00 +0000
-- [Chatting About The Latest Releases From Omega And Patek Philippe With Ben Clymer](203.0/episode.md) Sun, 30 Oct 2022 12:45:00 +0000
-- [The GPHG Nominations And An RS-Themed Chronograph From Tag Heuer](202.0/episode.md) Sun, 16 Oct 2022 12:00:00 +0000
-- [Considering Customization and Watch Mods](201.0/episode.md) Sun, 2 Oct 2022 12:00:00 +0000
-- [Geneva Watch Days And Apple Goes Ultra](200.0/episode.md) Sun, 11 Sep 2022 13:00:00 +0000
-- [The Many Ways Of The Seamaster](199.0/episode.md) Sun, 24 Jul 2022 12:00:00 +0000
-- [Surveying The Field With The New Tudor Ranger](198.0/episode.md) Sun, 17 Jul 2022 12:00:00 +0000
-- [Does A Longer Power Reserve Really Matter?](197.0/episode.md) Sun, 10 Jul 2022 12:00:00 +0000
-- [Consistency Vs. Variety In Watch Design (Rolex, Omega, and MB&F)](196.0/episode.md) Sun, 3 Jul 2022 12:00:00 +0000
-- [Chopard And The Mille Miglia With Karl-Friedrich Scheufele And Jacky Ickx](195.0/episode.md) Mon, 20 Jun 2022 13:00:00 +0000
-- ['Build' With Tony Fadell (The iPhone, Better Watches, and His New Book)](194.0/episode.md) Sun, 12 Jun 2022 12:00:00 +0000
-- [Why Even Bother To Make Hodinkee Magazine?](193.0/episode.md) Sun, 5 Jun 2022 12:00:00 +0000
-- ['Keeper of Time' Panel Discussion and Q&A](192.0/episode.md) Sun, 29 May 2022 12:00:00 +0000
-- [The Regrets of Buying and Selling Watches](191.0/episode.md) Sun, 22 May 2022 12:30:00 +0000
-- [Inside Audemars Piguet With Michael Friedman and Ben Clymer](190.0/episode.md) Sun, 15 May 2022 12:00:00 +0000
-- [Ben Clymer and Jeff Fowler – A Tale Of Two CEOs](189.0/episode.md) Sun, 8 May 2022 12:00:00 +0000
-- [Hidden Gem Watches](188.0/episode.md) Sun, 24 Apr 2022 12:45:00 +0000
-- [Talking About Watching Movies](187.0/episode.md) Sun, 17 Apr 2022 13:00:00 +0000
-- [Howlin' At The MoonSwatch](186.0/episode.md) Sun, 10 Apr 2022 12:45:00 +0000
-- [The First Timers](185.0/episode.md) Sun, 3 Apr 2022 01:25:41 +0000
-- [Watches & Wonders Day 3 – Czapek, Chopard, Oris, and More](184.0/episode.md) Fri, 1 Apr 2022 21:11:41 +0000
-- [Watches & Wonders Day 2  – Cartier, Vacheron Constantin, and Grand Seiko](183.0/episode.md) Thu, 31 Mar 2022 22:12:55 +0000
-- [Watches & Wonders Day 1 – Rolex, Tudor, and Patek Philippe](182.0/episode.md) Wed, 30 Mar 2022 21:55:35 +0000
-- [Open Or Closed - A Caseback Conundrum](181.0/episode.md) Mon, 21 Mar 2022 12:00:00 +0000
-- [Omega, Miami, And A Whole Bunch Of New Watches](180.0/episode.md) Mon, 14 Mar 2022 11:00:00 +0000
-- [Watches, Cars, and Jonny Lieberman](179.0/episode.md) Mon, 28 Feb 2022 13:00:00 +0000
-- [It's All About The Lugs, Right?](178.0/episode.md) Mon, 21 Feb 2022 13:00:00 +0000
-- [For The Love Of Watches](177.0/episode.md) Mon, 14 Feb 2022 13:00:00 +0000
-- [A Complete Newbie Does A Watch Podcast](176.0/episode.md) Mon, 7 Feb 2022 14:00:00 +0000
-- [So Many New Watches - AP, Zenith, Tag Heuer, And More](175.0/episode.md) Mon, 31 Jan 2022 13:00:00 +0000
-- [The Collector’s Edition with Ben Clymer- Featuring Ed Sheeran](174.0/episode.md) Mon, 24 Jan 2022 13:45:40 +0000
-- [Inside Our Dream Watch Designs](173.0/episode.md) Mon, 17 Jan 2022 13:00:00 +0000
-- [Finding J.P. Morgan's Long-Lost Million Dollar Pocket Watch](172.0/episode.md) Mon, 10 Jan 2022 13:00:00 +0000
-- [Our Fav No-Hype Watches of 2021](171.0/episode.md) Mon, 20 Dec 2021 12:00:00 +0000
-- [Making Sense Of The Tiffany Patek Philippe 5711 With Ben Clymer](170.0/episode.md) Tue, 14 Dec 2021 13:00:00 +0000
-- [Art Basel, Hangin' With Brooke Shields, And A Sleeper Hit From Blancpain](169.0/episode.md) Fri, 10 Dec 2021 12:00:00 +0000
-- [Dubai Watch Week](168.0/episode.md) Mon, 6 Dec 2021 12:00:00 +0000
-- [Navigator And Explorer, Two](167.0/episode.md) Fri, 3 Dec 2021 12:00:00 +0000
-- [Do Watches Make Good Gifts?](166.0/episode.md) Mon, 29 Nov 2021 11:00:00 +0000
-- [When Your Watch Becomes A Deserted Island Dilemma](165.0/episode.md) Tue, 23 Nov 2021 12:45:00 +0000
-- [So, You Want To Be A Watch Writer?](164.0/episode.md) Sat, 20 Nov 2021 11:00:00 +0000
-- [The Collector Perspective On The New Tudor Pelagos FXD](163.0/episode.md) Mon, 15 Nov 2021 11:00:00 +0000
-- [Only Watch, Mega Auction Results, And The Why Of The GPHG](162.0/episode.md) Fri, 12 Nov 2021 18:00:00 +0000
-- [Into The Heart Of Leica: Cameras, Watches, and More](161.0/episode.md) Mon, 8 Nov 2021 11:00:00 +0000
-- [Skull Watches, Haunted Clocks, And Back-From-The-Dead Brands](160.0/episode.md) Mon, 1 Nov 2021 10:00:00 +0000
-- [An Episode Most British](159.0/episode.md) Mon, 25 Oct 2021 10:00:00 +0000
-- [Talkin' Shop With Ben Clymer and Russell Kelly](158.0/episode.md) Mon, 18 Oct 2021 10:00:00 +0000
-- [Death, Taxes, and Watch Collecting](157.0/episode.md) Mon, 11 Oct 2021 10:00:00 +0000
-- [Watches And The Great Outdoors](156.0/episode.md) Mon, 27 Sep 2021 10:00:00 +0000
-- [The Zenith of Smartwatches?](155.0/episode.md) Mon, 20 Sep 2021 12:13:31 +0000
-- [Diving With Watches](154.0/episode.md) Mon, 13 Sep 2021 10:00:00 +0000
-- [Geneva Watch Daze](153.0/episode.md) Tue, 7 Sep 2021 10:00:00 +0000
-- [Let's Try Something New](152.0/episode.md) Mon, 30 Aug 2021 10:00:00 +0000
-- [Our Top Five 'Watching Movies' (And Who Won The Hype Watch Fantasy Draft)](151.0/episode.md) Mon, 16 Aug 2021 10:00:00 +0000
-- [The Best Of The Tokyo Olympics](150.0/episode.md) Mon, 9 Aug 2021 10:00:00 +0000
-- [The 2021 Hype Watch Fantasy Draft](149.0/episode.md) Mon, 2 Aug 2021 10:00:00 +0000
-- [George Bamford Just Wants You To Express Yourself (Through Watches)](148.0/episode.md) Mon, 26 Jul 2021 10:00:00 +0000
-- [Lange-Palooza 2021](147.0/episode.md) Mon, 19 Jul 2021 10:00:00 +0000
-- [Liz Stinson Wants More Thoughtful Watch Design](146.0/episode.md) Mon, 12 Jul 2021 10:00:00 +0000
-- [Jack Forster Just Published His 1,000th Story On HODINKEE](145.0/episode.md) Mon, 28 Jun 2021 10:00:00 +0000
-- [Who Won The 2021 Independent Watchmaking Fantasy Draft?](144.0/episode.md) Mon, 21 Jun 2021 10:00:00 +0000
-- [Most Of You Are Thinking About Watch Sizing All Wrong (With Mark Cho)](143.0/episode.md) Mon, 14 Jun 2021 10:00:00 +0000
-- [Dimepiece Founder Brynn Wallner](142.0/episode.md) Mon, 7 Jun 2021 10:00:00 +0000
-- [A Sneak Peek Inside HODINKEE Magazine, Volume 8](141.0/episode.md) Tue, 1 Jun 2021 15:00:00 +0000
-- [The Spring 2021 Auctions Prove The Watch Market Is Moving Full Steam Ahead](140.0/episode.md) Mon, 24 May 2021 14:20:37 +0000
-- [The 2021 Independent Watchmaking Fantasy Draft](139.0/episode.md) Mon, 17 May 2021 10:00:00 +0000
-- [Tom Brady Talks Watches, Football, And Legacy](138.0/episode.md) Mon, 10 May 2021 10:00:00 +0000
-- [The Controversial Case Of Casebacks, Open & Closed](137.0/episode.md) Mon, 3 May 2021 10:00:00 +0000
-- [Dispelling Vintage Watch Myths With The HODINKEE Shop](136.0/episode.md) Mon, 26 Apr 2021 10:00:00 +0000
-- [First Look: The Independents | Watches & Wonders 2021](135.0/episode.md) Mon, 12 Apr 2021 17:41:14 +0000
-- [First Look: Hublot, TAG Heuer, & Zenith | Watches & Wonders 2021](134.0/episode.md) Sun, 11 Apr 2021 19:28:28 +0000
-- [First Look: Bulgari, Cartier, & Hermès | Watches & Wonders 2021](133.0/episode.md) Sat, 10 Apr 2021 04:00:00 +0000
-- [First Look: IWC, Montblanc, & Panerai | Watches & Wonders 2021](132.0/episode.md) Fri, 9 Apr 2021 17:06:42 +0000
-- [First Look: A. Lange & Söhne, Patek Philippe, & Vacheron Constantin | Watches & Wonders 2021](131.0/episode.md) Thu, 8 Apr 2021 18:00:00 +0000
-- [Watches & Wonders 2021 First Look – Rolex & Tudor](130.0/episode.md) Wed, 7 Apr 2021 22:15:00 +0000
-- [Audemars Piguet & Omega Just Reinvented Modern Classics – And You Should Be Excited](129.0/episode.md) Mon, 29 Mar 2021 10:00:00 +0000
-- [What Watches Can Learn from Streetwear — And Vice Versa](128.0/episode.md) Mon, 22 Mar 2021 10:00:00 +0000
-- [How 'Grand' Should Grand Seiko Really Be?](127.0/episode.md) Mon, 8 Mar 2021 11:00:00 +0000
-- [How '80s Hip-Hop Took Watch Culture to a Whole New Level](126.0/episode.md) Mon, 1 Mar 2021 11:00:00 +0000
-- [Magician Dan White Returns](125.0/episode.md) Mon, 22 Feb 2021 11:00:00 +0000
-- [Photographer And Pilot Evan Robinson (Plus, Why All Watches Should be Unisex)](124.0/episode.md) Mon, 15 Feb 2021 11:00:00 +0000
-- [The Call-In Show, Volume 3](123.0/episode.md) Mon, 8 Feb 2021 11:00:00 +0000
-- [Twenty-Teens Watch Collection Fantasy Draft Winners & Recap](122.0/episode.md) Mon, 1 Feb 2021 11:00:00 +0000
-- [What We Learned At LVMH Watch Week 2021](121.0/episode.md) Tue, 26 Jan 2021 11:00:00 +0000
-- [The Twenty-Teens Watch Collection Fantasy Draft](120.0/episode.md) Mon, 18 Jan 2021 11:00:00 +0000
-- [Analyzing The New Speedmaster, Reviewing An Icon, And Building A Horological Legacy](119.0/episode.md) Mon, 11 Jan 2021 11:00:00 +0000
-- [2020 Year In Review](118.0/episode.md) Mon, 28 Dec 2020 11:00:00 +0000
-- [Designer Stefan Sagmeister](117.0/episode.md) Mon, 21 Dec 2020 11:00:00 +0000
-- [Hollywood Prop Master Maria Simonelli](116.0/episode.md) Mon, 14 Dec 2020 11:00:00 +0000
-- [Chef & Author Thomas Keller](115.0/episode.md) Mon, 7 Dec 2020 11:00:00 +0000
-- [Cindy Crawford (Supermodel and Watch Ambassador)](114.0/episode.md) Wed, 2 Dec 2020 07:00:00 +0000
-- [Explorer & Educator Josh Bernstein](113.0/episode.md) Mon, 23 Nov 2020 11:00:00 +0000
-- [A Look Inside HODINKEE Magazine, Volume 7](112.0/episode.md) Mon, 16 Nov 2020 15:32:12 +0000
-- [Phillips' Arthur Touchot & Some Hot Vintage Tips](111.0/episode.md) Mon, 2 Nov 2020 11:00:00 +0000
-- [The Slowdown's Spencer Bailey & Andrew Zuckerman](110.0/episode.md) Mon, 26 Oct 2020 10:00:00 +0000
-- [Watch Vlogger Jenni Elle](109.0/episode.md) Mon, 19 Oct 2020 10:00:00 +0000
-- [Auction Scandals, New Releases, And The Black Bay 58 Revisited](108.0/episode.md) Mon, 12 Oct 2020 10:00:00 +0000
-- [All About The Apple Watch With Alan Dye, John Gruber, & Om Malik](107.0/episode.md) Mon, 5 Oct 2020 10:00:00 +0000
-- [The Call-In Show, Volume 2](106.0/episode.md) Mon, 28 Sep 2020 10:00:39 +0000
-- [Author, Podcaster, And Menswear Enthusiast Pedro Mendes](105.0/episode.md) Mon, 21 Sep 2020 10:00:26 +0000
-- [Curator And Art Critic Dexter Wimberly](104.0/episode.md) Mon, 14 Sep 2020 10:00:02 +0000
-- [New Rolex Week & Other Fresh Releases](103.0/episode.md) Mon, 7 Sep 2020 10:00:15 +0000
-- [Artist & Photographer Adam Marelli (Plus, Horological Deep-Dives With Jack)](102.0/episode.md) Mon, 31 Aug 2020 10:00:38 +0000
-- [Actor & Entrepreneur Miles Fisher](101.0/episode.md) Mon, 24 Aug 2020 10:00:17 +0000
-- [The 100th Episode Highlight Show](100.0/episode.md) Mon, 10 Aug 2020 10:00:27 +0000
-- [Golfer Rory McIlroy And Collectability's John Reardon](99.0/episode.md) Mon, 3 Aug 2020 10:00:35 +0000
-- [Behind The Scenes Of 'The Long Return'](98.0/episode.md) Mon, 27 Jul 2020 10:00:14 +0000
-- [In Depth With Jon Bues](97.0/episode.md) Mon, 20 Jul 2020 10:00:03 +0000
-- [Highlights From HODINKEE Magazine Vol. 6 (And Fantasy Draft Results)](96.0/episode.md) Mon, 13 Jul 2020 10:00:13 +0000
-- [The Call-In Show, Volume 1](95.0/episode.md) Mon, 6 Jul 2020 10:00:05 +0000
-- [Jeff Garlin Talks Watches, Cameras, & Comedy](94.0/episode.md) Mon, 29 Jun 2020 10:00:25 +0000
-- [Summer Watch Fantasy Draft 2020](93.0/episode.md) Mon, 22 Jun 2020 10:00:33 +0000
-- [A Grand Seiko Collectors Roundtable](92.0/episode.md) Mon, 1 Jun 2020 10:00:13 +0000
-- [Inside An Epic Antiques Roadshow Find (Plus An Industry Update From Joe Thompson)](91.0/episode.md) Mon, 18 May 2020 10:00:19 +0000
-- [Matt Hranek And Even More New Watches](90.0/episode.md) Mon, 11 May 2020 10:00:13 +0000
-- [Killer New Sport Watches (Plus Collector Edmond Saran)](89.0/episode.md) Mon, 4 May 2020 10:00:28 +0000
-- [The New Watches Of Watches & Wonders 2020](88.0/episode.md) Mon, 27 Apr 2020 10:00:29 +0000
-- [Wrapping Up Watch Madness (Plus Watches & Wonders Goes Online)](87.0/episode.md) Mon, 20 Apr 2020 10:00:11 +0000
-- [Is Baselworld Dead?](291.0/episode.md) Tue, 14 Apr 2020 17:10:11 +0000
-- [Gary Shteyngart & Danny's Talking Watches Highlights](86.0/episode.md) Mon, 13 Apr 2020 10:00:31 +0000
-- [Howie Kendrick & Revisiting The Tudor Black Bay GMT](85.0/episode.md) Mon, 6 Apr 2020 10:00:28 +0000
-- ['Watch Madness' Talking Watches Tournament Preview](84.0/episode.md) Mon, 30 Mar 2020 10:00:09 +0000
-- [Horological Homecomings, The Habrings, And The Work From Home Watch](83.0/episode.md) Mon, 23 Mar 2020 10:00:05 +0000
-- [Fantasy Draft Results & Edouard Meylan](82.0/episode.md) Mon, 16 Mar 2020 10:00:06 +0000
-- [Will Welch (Editor-In-Chief, GQ)](81.0/episode.md) Mon, 9 Mar 2020 10:00:13 +0000
-- [Phil Toledano And Big Baselworld News](80.0/episode.md) Mon, 2 Mar 2020 11:00:09 +0000
-- [Watch Collection Fantasy Draft 2.0](79.0/episode.md) Mon, 24 Feb 2020 11:00:05 +0000
-- [Gear Patrol's Eric Yang (Plus Coronavirus Effects On Watches)](78.0/episode.md) Mon, 17 Feb 2020 11:00:16 +0000
-- [In-Depth With James Stacey (HODINKEE Senior Writer)](77.0/episode.md) Mon, 10 Feb 2020 11:00:34 +0000
-- [Watches And Wine With Sommelier Aldo Sohm](76.0/episode.md) Mon, 3 Feb 2020 11:00:07 +0000
-- [Eric Wind And Going Deep With Jack](75.0/episode.md) Mon, 27 Jan 2020 11:00:20 +0000
-- [The Watches Of The Decade](74.0/episode.md) Mon, 20 Jan 2020 11:00:10 +0000
-- [A New Speedmaster, The Latest Talking Watches, And Mr. Dan Habashi](73.0/episode.md) Mon, 13 Jan 2020 11:00:02 +0000
-- [2019 Year In Review](72.0/episode.md) Mon, 30 Dec 2019 11:00:03 +0000
-- [Jesse Johnson & How To Make A Limited Edition Watch](71.0/episode.md) Mon, 23 Dec 2019 11:00:03 +0000
-- [The 2019 HODINKEE Holiday Gift Guide](70.0/episode.md) Mon, 16 Dec 2019 14:39:15 +0000
-- [Designer Marc Thorpe, Bond's New Watch, And Auction Talk](69.0/episode.md) Mon, 9 Dec 2019 11:00:10 +0000
-- [The Sartorialist Returns, The Lange Odysseus, & The Watch That Came In From The Cold](68.0/episode.md) Mon, 2 Dec 2019 11:00:33 +0000
-- [HODINKEE Lands In Japan & Ming Thein Of Ming Watches](67.0/episode.md) Mon, 25 Nov 2019 11:00:23 +0000
-- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](290.0/episode.md) Fri, 22 Nov 2019 11:00:08 +0000
-- [Inside The HODINKEE Magazine And Bringing Back Om Malik](66.0/episode.md) Mon, 18 Nov 2019 11:00:02 +0000
-- [Breaking Down Results From The 2019 GPHG Awards](289.0/episode.md) Thu, 14 Nov 2019 17:30:06 +0000
-- [A Trio Of Lange 1s & Some Exceptional Sea-Dwellers (Plus, Drake's Michael Hill)](65.0/episode.md) Mon, 11 Nov 2019 11:00:07 +0000
-- [2019 Grand Prix d'Horlogerie de Genève Preview](288.0/episode.md) Wed, 6 Nov 2019 11:00:11 +0000
-- [The 10 Most Influential Modern Watches & A New Kind Of Watch Club](64.0/episode.md) Mon, 4 Nov 2019 11:00:05 +0000
-- [Patrick Godfrey And Iconic Movie Watches](63.0/episode.md) Mon, 28 Oct 2019 10:00:27 +0000
-- [Talking Auctions With Eric Ku & Only Watch 2019 Preview](62.0/episode.md) Mon, 21 Oct 2019 10:00:04 +0000
-- [Hollywood Watches With Agent Dave Park And The Fall's Hottest New Releases](61.0/episode.md) Mon, 14 Oct 2019 10:00:11 +0000
-- [Apple Watch Series 5 & Fantasy Watch Draft Results](60.0/episode.md) Mon, 7 Oct 2019 10:00:09 +0000
-- [Typographer Jonathan Hoefler, James Bond, & A Fistful Of Diamonds](59.0/episode.md) Mon, 30 Sep 2019 10:00:03 +0000
-- [Odell Beckham Jr., An Imperial Mickey Mouse, & Suit Supply's Nish de Gruiter](58.0/episode.md) Mon, 23 Sep 2019 12:45:25 +0000
-- [Paul Boutros & Marlon Brando's Rolex GMT](57.0/episode.md) Mon, 16 Sep 2019 10:00:23 +0000
-- [Watch Collection Fantasy Draft 2019](56.0/episode.md) Tue, 10 Sep 2019 10:00:06 +0000
-- [Photographer Pete Halvorsen And A Watch On A Secret Mission](55.0/episode.md) Mon, 2 Sep 2019 10:00:05 +0000
-- [In-Depth With Jack Forster (HODINKEE Editor-In-Chief)](54.0/episode.md) Mon, 26 Aug 2019 10:00:04 +0000
-- [Summer Watches, Unrest In Hong Kong, And The LA Times's Daniel Miller](53.0/episode.md) Mon, 19 Aug 2019 10:00:16 +0000
-- [Morgan King, Safe Deposit Boxes, And An Ode To The Speedmaster](52.0/episode.md) Mon, 12 Aug 2019 10:00:08 +0000
-- [One Year Anniversary Episode](51.0/episode.md) Tue, 23 Jul 2019 10:00:13 +0000
-- [Donnie Edwards (Former NFL Player)](50.0/episode.md) Mon, 15 Jul 2019 10:00:10 +0000
-- [Jeremy Kirkland (Founder, Blamo! Podcast)](49.0/episode.md) Mon, 8 Jul 2019 16:52:21 +0000
-- [The Best Watches of 2019](48.0/episode.md) Mon, 1 Jul 2019 04:00:16 +0000
-- [William Massena (A Watch Renaissance Man)](47.0/episode.md) Mon, 24 Jun 2019 10:00:12 +0000
-- [Bradley Price (Founder of Autodromo)](46.0/episode.md) Mon, 17 Jun 2019 10:00:14 +0000
-- [Cara Barrett (Editor, HODINKEE)](45.0/episode.md) Mon, 10 Jun 2019 10:00:13 +0000
-- [Ini Archibong (Designer, Hermès)](44.0/episode.md) Mon, 3 Jun 2019 12:44:41 +0000
-- [Mark Cho (Founder, The Armoury & Drake's)](43.0/episode.md) Mon, 20 May 2019 10:00:07 +0000
-- [General Tom Stafford (Former Astronaut, NASA)](42.0/episode.md) Mon, 13 May 2019 10:00:22 +0000
-- [George Glasgow, Jr. (CEO, George Cleverley)](41.0/episode.md) Mon, 6 May 2019 11:00:20 +0000
-- [H10 Greatest Hits](40.0/episode.md) Mon, 29 Apr 2019 10:00:15 +0000
-- [Joe Thompson (Editor-At-Large, HODINKEE)](39.0/episode.md) Mon, 22 Apr 2019 10:00:27 +0000
-- [Dan White (Magician)](38.0/episode.md) Mon, 15 Apr 2019 10:00:09 +0000
-- [Scott Schuman (The Sartorialist)](37.0/episode.md) Mon, 8 Apr 2019 10:00:00 +0000
-- [James Marsden (Actor)](36.0/episode.md) Mon, 1 Apr 2019 10:00:00 +0000
-- [Baselworld 2019 Round-Up, Day 4](287.0/episode.md) Sat, 23 Mar 2019 21:41:00 +0000
-- [Baselworld 2019 Round-Up, Day 3](286.0/episode.md) Fri, 22 Mar 2019 19:46:00 +0000
-- [Baselworld 2019 Round-Up, Day 2](285.0/episode.md) Thu, 21 Mar 2019 23:30:00 +0000
-- [Baselworld 2019 Round-Up, Day 1](284.0/episode.md) Wed, 20 Mar 2019 22:00:00 +0000
-- [Baselworld 2019 Preview](35.0/episode.md) Mon, 18 Mar 2019 10:00:00 +0000
-- [Yves Béhar (Designer)](34.0/episode.md) Mon, 11 Mar 2019 10:00:00 +0000
-- [Chris Grainger (CEO, IWC)](33.0/episode.md) Mon, 4 Mar 2019 11:00:00 +0000
-- [Matt Hranek (Photographer, Writer)](32.0/episode.md) Mon, 25 Feb 2019 11:00:00 +0000
-- [Hannah Elliott & Magnus Walker](31.0/episode.md) Mon, 18 Feb 2019 11:00:00 +0000
-- [Chris Bruss (President, Funny or Die)](30.0/episode.md) Mon, 11 Feb 2019 11:00:00 +0000
-- [Aldis Hodge (Actor)](29.0/episode.md) Mon, 4 Feb 2019 11:00:00 +0000
-- [François-Henry Bennahmias (CEO, Audemars Piguet)](28.0/episode.md) Mon, 28 Jan 2019 11:00:00 +0000
-- [Marc Newson (Designer)](27.0/episode.md) Mon, 21 Jan 2019 11:00:00 +0000
-- [SIHH 2019 Round-Up, Day 3](283.0/episode.md) Thu, 17 Jan 2019 02:59:00 +0000
-- [SIHH 2019 Round-Up, Day 2](282.0/episode.md) Tue, 15 Jan 2019 21:53:00 +0000
-- [SIHH 2019 Round-Up, Day 1](281.0/episode.md) Mon, 14 Jan 2019 19:50:00 +0000
-- [Maximilian Büsser (Founder, MB&F)](26.0/episode.md) Mon, 7 Jan 2019 11:00:00 +0000
-- [Jean-Claude Biver (Live From HODINKEE 10)](25.0/episode.md) Mon, 24 Dec 2018 11:00:00 +0000
-- [The Grey NATO](24.0/episode.md) Mon, 17 Dec 2018 11:00:00 +0000
-- [Alton Brown (Chef, TV Host)](23.0/episode.md) Mon, 10 Dec 2018 18:31:00 +0000
-- [Stephanie Bednarek (Commercial Space Professional)](22.0/episode.md) Mon, 3 Dec 2018 18:09:00 +0000
-- [Matt Jacobson (Executive, Facebook)](21.0/episode.md) Mon, 26 Nov 2018 11:00:00 +0000
-- [Stellene Volandes (Editor-In-Chief, Town & Country)](20.0/episode.md) Mon, 19 Nov 2018 11:00:00 +0000
-- [The 2018 Grand Prix d'Horlogerie de Genève](19.0/episode.md) Mon, 12 Nov 2018 11:00:00 +0000
-- [GPHG 2018 Preview (And Some Auction Talk)](18.0/episode.md) Mon, 5 Nov 2018 11:00:00 +0000
-- [Davide Cerrato (Head Of Watchmaking, Montblanc)](17.0/episode.md) Mon, 29 Oct 2018 10:00:00 +0000
-- [Michael Weisberg (Vintage Expert)](16.0/episode.md) Mon, 22 Oct 2018 10:00:00 +0000
-- [The Grey NATO, Ep 66: We're Back!](280.0/episode.md) Thu, 18 Oct 2018 10:00:00 +0000
-- [Ted Gushue (Photographer, Car Guy)](15.0/episode.md) Mon, 15 Oct 2018 10:00:00 +0000
-- [Matt Scannell (Frontman, Vertical Horizon)](14.0/episode.md) Mon, 8 Oct 2018 10:00:00 +0000
-- [Jason Fried (Founder, Basecamp)](13.0/episode.md) Mon, 1 Oct 2018 10:00:00 +0000
-- [Apple And The Future Of Watchmaking](12.0/episode.md) Mon, 24 Sep 2018 10:00:00 +0000
-- [Spike Feresten (Writer, Seinfeld)](11.0/episode.md) Mon, 17 Sep 2018 10:00:00 +0000
-- [Tony Fadell (Entrepreneur, "Father Of The iPod")](10.0/episode.md) Mon, 10 Sep 2018 10:00:00 +0000
-- [Philippe Dufour (Watchmaking Legend)](256.0/episode.md) Fri, 7 Sep 2018 10:00:00 +0000
-- [Keegan Allen (Actor, Pretty Little Liars)](9.0/episode.md) Mon, 3 Sep 2018 10:00:00 +0000
-- [Adam Scott (Golfer, Masters Champion)](8.0/episode.md) Mon, 27 Aug 2018 10:00:00 +0000
-- [Scott Dadich (Media Exec, WIRED)](7.0/episode.md) Mon, 20 Aug 2018 10:00:00 +0000
-- [Todd Snyder (Menswear Designer)](6.0/episode.md) Mon, 13 Aug 2018 10:00:00 +0000
-- [Eric Ku (Vintage Watch Expert)](5.0/episode.md) Mon, 6 Aug 2018 10:00:00 +0000
-- [Om Malik (Founder, GigaOm)](4.0/episode.md) Mon, 30 Jul 2018 10:00:00 +0000
-- [Rian Johnson (Director of "Star Wars", "Looper")](3.0/episode.md) Mon, 23 Jul 2018 10:00:00 +0000
-- [Gary Shteyngart (Author, Lake Success)](2.0/episode.md) Mon, 23 Jul 2018 09:55:00 +0000
-- [Ben Clymer (Founder, HODINKEE)](1.0/episode.md) Mon, 23 Jul 2018 09:50:00 +0000
-- [Introducing 'HODINKEE Radio'](0.0/episode.md) Sat, 14 Jul 2018 22:00:00 +0000
+### Page updated 2026-01-30T09:16:28.906330-08:00 - 293 episodes
+- [The Business of Watches [013] Norqain CEO Ben Küffer On The NHL Partnership And The Challenge Of Standing Out In A Crowded Market](280/episode.md) Wed, 28 Jan 2026 16:00:00 +0000
+- [The Business of Watches [012] Manuel Emch, The Head Of Louis Erard And 'The Numbers Guy' At Kollokium, On How To Build A Successful Swiss Watch Brand](279/episode.md) Wed, 21 Jan 2026 16:00:00 +0000
+- [The Business of Watches [011] The Head Of Montblanc's Timepieces Division Laurent Lecamp On Minerva, Hairsprings, And What's Next  For The Brand](278/episode.md) Wed, 14 Jan 2026 16:00:00 +0000
+- [The Business of Watches [010] Ming Executives Ming Thein And Praneeth Rajsingh Talk Design, Manufacturing, Pricing, And What's Next For The Innovative Brand](277/episode.md) Wed, 7 Jan 2026 16:02:17 +0000
+- [The Business of Watches [009] Audemars Piguet CEO Ilaria Resta Drives Double-Digit Sales Increase For Brand's 150th Anniversary Year](276/episode.md) Wed, 24 Dec 2025 16:00:00 +0000
+- [The Business of Watches [008] Hind Seddiqi: The Driving Force Behind Dubai Watch Week](275/episode.md) Wed, 10 Dec 2025 16:00:00 +0000
+- [The Business of Watches [007] James Lamdin Of Analog Shift On The Vintage And Pre-Owned Market And Why All Authenticity Guarantees Aren't The Same](274/episode.md) Mon, 24 Nov 2025 18:00:00 +0000
+- [The Business of Watches [006] Audience Q&A Special With Hodinkee's Editor-In-Chief James Stacey](273/episode.md) Wed, 12 Nov 2025 16:00:00 +0000
+- [The Business of Watches [005] Frederique Constant CEO Niels Eggerding On Why He's Fighting To Keep FC's Perpetual Calendar Under $10,000](272/episode.md) Wed, 29 Oct 2025 15:00:00 +0000
+- [The Business of Watches [004] Tag Heuer CEO Antoine Pin On Carbon Hairspring Setbacks, Pricing, Tariffs, And Formula One](271/episode.md) Wed, 15 Oct 2025 15:00:00 +0000
+- [The Business of Watches [003]  Georges Kern: The Breitling CEO Talks Growth Despite Challenges Facing The Watch Industry](270/episode.md) Wed, 1 Oct 2025 15:00:00 +0000
+- [The Business of Watches [002] Sylvain Berneron On His Company’s Work Philosophy, Business Structure, And Future Watches](269/episode.md) Wed, 17 Sep 2025 15:00:00 +0000
+- [The Business of Watches [001] Rolex, The Making of a Status Symbol With Author Pierre-Yves Donzé](268/episode.md) Wed, 3 Sep 2025 15:00:00 +0000
+- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 4](267/episode.md) Fri, 4 Apr 2025 22:27:11 +0000
+- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 3](266/episode.md) Thu, 3 Apr 2025 23:30:33 +0000
+- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 2](265/episode.md) Thu, 3 Apr 2025 00:29:44 +0000
+- [Watches & Wonders 2025: Daily Episodes Live From Geneva | Day 1](264/episode.md) Wed, 2 Apr 2025 00:06:07 +0000
+- [A Look Ahead To 2025 – Part 2 With Mark and Rich](263/episode.md) Fri, 27 Dec 2024 18:00:00 +0000
+- [A Look Ahead To 2025 - Part I with Malaika & TanTan](262/episode.md) Fri, 20 Dec 2024 18:00:00 +0000
+- [Looking Back On 2024 – Part 2 With Rich and Mark](261/episode.md) Fri, 13 Dec 2024 18:00:00 +0000
+- [Looking Back On 2024 – Part 1 With Malaika & TanTan](260/episode.md) Fri, 6 Dec 2024 20:00:00 +0000
+- [Tania Edwards Of Collectability On The Rise Of Patek Philippe](259/episode.md) Wed, 13 Nov 2024 18:00:00 +0000
+- [Everything You Need To Know About Stone Dials With Pierre Biver and Two Vintage Dealers](258/episode.md) Wed, 6 Nov 2024 18:00:00 +0000
+- [Collecting Porsche Design with Andres Nicholls](257/episode.md) Wed, 30 Oct 2024 19:00:00 +0000
+- [In Conversation With Max Büsser](255/episode.md) Wed, 9 Oct 2024 16:55:00 +0000
+- [Special Episode: Porsche Design With Drew Peterson](254/episode.md) Mon, 30 Sep 2024 16:55:00 +0000
+- [Inside Sellita And Albishorn With Sébastien Chaulmontet](253/episode.md) Wed, 25 Sep 2024 16:55:00 +0000
+- [New Watches From Hamilton, Tudor, And More; Talking Tiffany & Co.'s Untapped Watchmaking Potential](252/episode.md) Wed, 18 Sep 2024 16:55:00 +0000
+- [Summer Releases From Tudor And Longines; Talking Value Proposition From Habring² and M.A.D. 1](251/episode.md) Wed, 28 Aug 2024 16:55:00 +0000
+- [Talking Vintage Rolex And Offbeat Finds With Fred Savage](250/episode.md) Wed, 21 Aug 2024 16:55:00 +0000
+- [Talking Doxa, Neo-Vintage, Rolex, And More With James Lamdin (Founder, Analog:Shift)](249/episode.md) Wed, 14 Aug 2024 16:55:00 +0000
+- [Market Update And Talking Vintage With Eric Wind](248/episode.md) Wed, 7 Aug 2024 16:55:00 +0000
+- [Q&A And A New Seiko Chronograph With Blake Buettner And James Stacey](247/episode.md) Thu, 25 Jul 2024 16:55:00 +0000
+- [Our Favorite Watches Of 2024 So Far + Talking Hodinkee's Porsche Design Collab](246/episode.md) Wed, 17 Jul 2024 16:55:00 +0000
+- [The Patek Philippe Calatrava Episode With Ben and Rich](245/episode.md) Wed, 10 Jul 2024 16:55:00 +0000
+- [The Story Of John Lennon's Patek Philippe 2499 With Jay Fielden](244/episode.md) Wed, 3 Jul 2024 16:55:00 +0000
+- [In Conversation With Mike Nouveau and Phil Toledano](243/episode.md) Wed, 26 Jun 2024 16:55:00 +0000
+- [In Conversation With Watchmaker Rebecca Struthers and Lewis Heath (Founder, AnOrdain)](242/episode.md) Wed, 19 Jun 2024 16:55:00 +0000
+- [In Conversation With Sylvain Berneron](241/episode.md) Wed, 12 Jun 2024 16:55:00 +0000
+- [New Watches From Audemars Piguet And More; A Visit To The Patek Philippe Museum](240/episode.md) Thu, 6 Jun 2024 16:55:00 +0000
+- [Reviewing 6 Of Our Own Watches With Ben And James](239/episode.md) Thu, 30 May 2024 16:55:00 +0000
+- [Eric Ku and Justin Gruenberg (Loupe This)](238/episode.md) Wed, 22 May 2024 16:55:00 +0000
+- [Q&A – Cartier, TAG Heuer x KITH Formula 1, Auctions, And More](237/episode.md) Wed, 15 May 2024 16:55:00 +0000
+- [Previewing The Geneva Auction Season With Ben And Mark](236/episode.md) Wed, 1 May 2024 16:55:00 +0000
+- [21st Century Fantasy Watch Draft](235/episode.md) Wed, 24 Apr 2024 16:55:00 +0000
+- [Hodinkee Radio: Watches & Wonders 2024 | Day 4: The Editors Debrief After The Week In Geneva](234/episode.md) Fri, 12 Apr 2024 23:03:12 +0000
+- [Hodinkee Radio: Watches & Wonders 2024 | Day 3: Hermès, Oris, Chopard, and Parmigiani Fleurier](233/episode.md) Thu, 11 Apr 2024 22:44:49 +0000
+- [Hodinkee Radio: Watches & Wonders 2024 | Day 2: Cartier, TAG Heuer, Grand Seiko, IWC, And More](232/episode.md) Wed, 10 Apr 2024 23:23:58 +0000
+- [Hodinkee Radio: Watches & Wonders 2024 | Episode 1](231/episode.md) Wed, 10 Apr 2024 00:44:36 +0000
+- [Watches & Wonders 2024 Preview With Ben, James, And Danny](230/episode.md) Wed, 3 Apr 2024 16:55:00 +0000
+- [Talking About Our Favorite GMT Watches From Tudor, Longines,And More](229/episode.md) Wed, 27 Mar 2024 12:55:00 +0000
+- [Jonathan Ferrer (Founder, Brew Watches)](228/episode.md) Wed, 20 Mar 2024 16:55:00 +0000
+- [Why Are Some Watch Brands Underappreciated?](227/episode.md) Wed, 13 Mar 2024 16:55:00 +0000
+- [What Watch Brands Get Right (And Wrong) About Proportions](226/episode.md) Wed, 6 Mar 2024 17:55:00 +0000
+- [Fantasy Watch Draft 2024](225/episode.md) Wed, 28 Feb 2024 17:55:00 +0000
+- [Talking Tastes, Trends, And Elton John's Watch Collection](224/episode.md) Wed, 21 Feb 2024 17:55:00 +0000
+- [Breitling CEO Georges Kern](223/episode.md) Wed, 14 Feb 2024 17:55:00 +0000
+- [Hodinkee Radio – We're Back!](222/episode.md) Wed, 7 Feb 2024 17:55:00 +0000
+- [Ben Clymer Presents: Ep. 10 – The Bremont Episode With Davide Cerrato](221/episode.md) Wed, 24 Jan 2024 18:00:00 +0000
+- [Ben Clymer Presents: Ep. 9 – The Golf And Watches Episode With Keith Mitchell](220/episode.md) Wed, 10 Jan 2024 18:00:00 +0000
+- [Ben Clymer Presents: Ep. 8 – The Vintage Patek Episode for John Reardon](219/episode.md) Wed, 13 Dec 2023 18:00:00 +0000
+- [Ben Clymer Presents: 07 – New York Auction Preview Episode With Tony Traina and Mark Kauzlarich](218/episode.md) Wed, 6 Dec 2023 21:00:00 +0000
+- [Ben Clymer Presents: 06 – The Lange Episode With Wilhelm Schmid](217/episode.md) Wed, 8 Nov 2023 18:00:00 +0000
+- [Ben Clymer Presents: 05 – The 2023 Fall Auction Episode With Rich Fordon And Tony Traina](216/episode.md) Fri, 3 Nov 2023 17:00:00 +0000
+- [Ben Clymer Presents: 04 – The Vintage Rolex Episode With Geoff Hess](215/episode.md) Wed, 1 Nov 2023 17:00:00 +0000
+- [Ben Clymer Presents : Ep. 03 – The Porsche Episode With Ferdi Porsche](214/episode.md) Wed, 25 Oct 2023 17:00:00 +0000
+- [Ben Clymer Presents: Ep. 02 – Ten Years Of Talking Watches](213/episode.md) Wed, 18 Oct 2023 17:00:00 +0000
+- [Ben Clymer Presents: Ep 01 – The Collaboration Episode With Jean Arnault and Rexhep Rexhepi](212/episode.md) Wed, 11 Oct 2023 17:00:00 +0000
+- [Ben Clymer Presents:  Episode 0 – A Preview Of A New Podcast from Hodinkee](211/episode.md) Tue, 10 Oct 2023 17:00:00 +0000
+- [W&W 2023 – Day 4 – Cartier, Chopard, Parmigiani, F.P. Journe, and Sinn](210/episode.md) Fri, 31 Mar 2023 15:04:23 +0000
+- [W&W 2023 – Day 3 – Tag Heuer, Biver, IWC, Ressence, and Zenith](209/episode.md) Thu, 30 Mar 2023 00:17:56 +0000
+- [Day 2 – W&W 2023 – Day 2 – Grand Seiko, Oris, JLC, IWC, and the Wildest New Rolex Ben and James Have Ever Seen](208/episode.md) Tue, 28 Mar 2023 21:26:53 +0000
+- [W&W 2023  – Day 1 – Rolex, Tudor, Patek Philippe, And A Show Highlight From Lange](207/episode.md) Mon, 27 Mar 2023 23:17:11 +0000
+- [Previewing Watches And Wonders 2023 With Ben and Danny](206/episode.md) Thu, 23 Mar 2023 13:04:21 +0000
+- [The Collector's Edition With Ben Clymer – Featuring Kevin Hart](205/episode.md) Thu, 16 Feb 2023 18:05:00 +0000
+- [A Smaller Murph, A Value Flyer, Bond's 60th, And Rolex That Never Was](204/episode.md) Sun, 27 Nov 2022 14:00:00 +0000
+- [Chatting About The Latest Releases From Omega And Patek Philippe With Ben Clymer](203/episode.md) Sun, 30 Oct 2022 12:45:00 +0000
+- [The GPHG Nominations And An RS-Themed Chronograph From Tag Heuer](202/episode.md) Sun, 16 Oct 2022 12:00:00 +0000
+- [Considering Customization and Watch Mods](201/episode.md) Sun, 2 Oct 2022 12:00:00 +0000
+- [Geneva Watch Days And Apple Goes Ultra](200/episode.md) Sun, 11 Sep 2022 13:00:00 +0000
+- [The Many Ways Of The Seamaster](199/episode.md) Sun, 24 Jul 2022 12:00:00 +0000
+- [Surveying The Field With The New Tudor Ranger](198/episode.md) Sun, 17 Jul 2022 12:00:00 +0000
+- [Does A Longer Power Reserve Really Matter?](197/episode.md) Sun, 10 Jul 2022 12:00:00 +0000
+- [Consistency Vs. Variety In Watch Design (Rolex, Omega, and MB&F)](196/episode.md) Sun, 3 Jul 2022 12:00:00 +0000
+- [Chopard And The Mille Miglia With Karl-Friedrich Scheufele And Jacky Ickx](195/episode.md) Mon, 20 Jun 2022 13:00:00 +0000
+- ['Build' With Tony Fadell (The iPhone, Better Watches, and His New Book)](194/episode.md) Sun, 12 Jun 2022 12:00:00 +0000
+- [Why Even Bother To Make Hodinkee Magazine?](193/episode.md) Sun, 5 Jun 2022 12:00:00 +0000
+- ['Keeper of Time' Panel Discussion and Q&A](192/episode.md) Sun, 29 May 2022 12:00:00 +0000
+- [The Regrets of Buying and Selling Watches](191/episode.md) Sun, 22 May 2022 12:30:00 +0000
+- [Inside Audemars Piguet With Michael Friedman and Ben Clymer](190/episode.md) Sun, 15 May 2022 12:00:00 +0000
+- [Ben Clymer and Jeff Fowler – A Tale Of Two CEOs](189/episode.md) Sun, 8 May 2022 12:00:00 +0000
+- [Hidden Gem Watches](188/episode.md) Sun, 24 Apr 2022 12:45:00 +0000
+- [Talking About Watching Movies](187/episode.md) Sun, 17 Apr 2022 13:00:00 +0000
+- [Howlin' At The MoonSwatch](186/episode.md) Sun, 10 Apr 2022 12:45:00 +0000
+- [The First Timers](185/episode.md) Sun, 3 Apr 2022 01:25:41 +0000
+- [Watches & Wonders Day 3 – Czapek, Chopard, Oris, and More](184/episode.md) Fri, 1 Apr 2022 21:11:41 +0000
+- [Watches & Wonders Day 2  – Cartier, Vacheron Constantin, and Grand Seiko](183/episode.md) Thu, 31 Mar 2022 22:12:55 +0000
+- [Watches & Wonders Day 1 – Rolex, Tudor, and Patek Philippe](182/episode.md) Wed, 30 Mar 2022 21:55:35 +0000
+- [Open Or Closed - A Caseback Conundrum](181/episode.md) Mon, 21 Mar 2022 12:00:00 +0000
+- [Omega, Miami, And A Whole Bunch Of New Watches](180/episode.md) Mon, 14 Mar 2022 11:00:00 +0000
+- [Watches, Cars, and Jonny Lieberman](179/episode.md) Mon, 28 Feb 2022 13:00:00 +0000
+- [It's All About The Lugs, Right?](178/episode.md) Mon, 21 Feb 2022 13:00:00 +0000
+- [For The Love Of Watches](177/episode.md) Mon, 14 Feb 2022 13:00:00 +0000
+- [A Complete Newbie Does A Watch Podcast](176/episode.md) Mon, 7 Feb 2022 14:00:00 +0000
+- [So Many New Watches - AP, Zenith, Tag Heuer, And More](175/episode.md) Mon, 31 Jan 2022 13:00:00 +0000
+- [The Collector’s Edition with Ben Clymer- Featuring Ed Sheeran](174/episode.md) Mon, 24 Jan 2022 13:45:40 +0000
+- [Inside Our Dream Watch Designs](173/episode.md) Mon, 17 Jan 2022 13:00:00 +0000
+- [Finding J.P. Morgan's Long-Lost Million Dollar Pocket Watch](172/episode.md) Mon, 10 Jan 2022 13:00:00 +0000
+- [Our Fav No-Hype Watches of 2021](171/episode.md) Mon, 20 Dec 2021 12:00:00 +0000
+- [Making Sense Of The Tiffany Patek Philippe 5711 With Ben Clymer](170/episode.md) Tue, 14 Dec 2021 13:00:00 +0000
+- [Art Basel, Hangin' With Brooke Shields, And A Sleeper Hit From Blancpain](169/episode.md) Fri, 10 Dec 2021 12:00:00 +0000
+- [Dubai Watch Week](168/episode.md) Mon, 6 Dec 2021 12:00:00 +0000
+- [Navigator And Explorer, Two](167/episode.md) Fri, 3 Dec 2021 12:00:00 +0000
+- [Do Watches Make Good Gifts?](166/episode.md) Mon, 29 Nov 2021 11:00:00 +0000
+- [When Your Watch Becomes A Deserted Island Dilemma](165/episode.md) Tue, 23 Nov 2021 12:45:00 +0000
+- [So, You Want To Be A Watch Writer?](164/episode.md) Sat, 20 Nov 2021 11:00:00 +0000
+- [The Collector Perspective On The New Tudor Pelagos FXD](163/episode.md) Mon, 15 Nov 2021 11:00:00 +0000
+- [Only Watch, Mega Auction Results, And The Why Of The GPHG](162/episode.md) Fri, 12 Nov 2021 18:00:00 +0000
+- [Into The Heart Of Leica: Cameras, Watches, and More](161/episode.md) Mon, 8 Nov 2021 11:00:00 +0000
+- [Skull Watches, Haunted Clocks, And Back-From-The-Dead Brands](160/episode.md) Mon, 1 Nov 2021 10:00:00 +0000
+- [An Episode Most British](159/episode.md) Mon, 25 Oct 2021 10:00:00 +0000
+- [Talkin' Shop With Ben Clymer and Russell Kelly](158/episode.md) Mon, 18 Oct 2021 10:00:00 +0000
+- [Death, Taxes, and Watch Collecting](157/episode.md) Mon, 11 Oct 2021 10:00:00 +0000
+- [Watches And The Great Outdoors](156/episode.md) Mon, 27 Sep 2021 10:00:00 +0000
+- [The Zenith of Smartwatches?](155/episode.md) Mon, 20 Sep 2021 12:13:31 +0000
+- [Diving With Watches](154/episode.md) Mon, 13 Sep 2021 10:00:00 +0000
+- [Geneva Watch Daze](153/episode.md) Tue, 7 Sep 2021 10:00:00 +0000
+- [Let's Try Something New](152/episode.md) Mon, 30 Aug 2021 10:00:00 +0000
+- [Our Top Five 'Watching Movies' (And Who Won The Hype Watch Fantasy Draft)](151/episode.md) Mon, 16 Aug 2021 10:00:00 +0000
+- [The Best Of The Tokyo Olympics](150/episode.md) Mon, 9 Aug 2021 10:00:00 +0000
+- [The 2021 Hype Watch Fantasy Draft](149/episode.md) Mon, 2 Aug 2021 10:00:00 +0000
+- [George Bamford Just Wants You To Express Yourself (Through Watches)](148/episode.md) Mon, 26 Jul 2021 10:00:00 +0000
+- [Lange-Palooza 2021](147/episode.md) Mon, 19 Jul 2021 10:00:00 +0000
+- [Liz Stinson Wants More Thoughtful Watch Design](146/episode.md) Mon, 12 Jul 2021 10:00:00 +0000
+- [Jack Forster Just Published His 1,000th Story On HODINKEE](145/episode.md) Mon, 28 Jun 2021 10:00:00 +0000
+- [Who Won The 2021 Independent Watchmaking Fantasy Draft?](144/episode.md) Mon, 21 Jun 2021 10:00:00 +0000
+- [Most Of You Are Thinking About Watch Sizing All Wrong (With Mark Cho)](143/episode.md) Mon, 14 Jun 2021 10:00:00 +0000
+- [Dimepiece Founder Brynn Wallner](142/episode.md) Mon, 7 Jun 2021 10:00:00 +0000
+- [A Sneak Peek Inside HODINKEE Magazine, Volume 8](141/episode.md) Tue, 1 Jun 2021 15:00:00 +0000
+- [The Spring 2021 Auctions Prove The Watch Market Is Moving Full Steam Ahead](140/episode.md) Mon, 24 May 2021 14:20:37 +0000
+- [The 2021 Independent Watchmaking Fantasy Draft](139/episode.md) Mon, 17 May 2021 10:00:00 +0000
+- [Tom Brady Talks Watches, Football, And Legacy](138/episode.md) Mon, 10 May 2021 10:00:00 +0000
+- [The Controversial Case Of Casebacks, Open & Closed](137/episode.md) Mon, 3 May 2021 10:00:00 +0000
+- [Dispelling Vintage Watch Myths With The HODINKEE Shop](136/episode.md) Mon, 26 Apr 2021 10:00:00 +0000
+- [First Look: The Independents | Watches & Wonders 2021](135/episode.md) Mon, 12 Apr 2021 17:41:14 +0000
+- [First Look: Hublot, TAG Heuer, & Zenith | Watches & Wonders 2021](134/episode.md) Sun, 11 Apr 2021 19:28:28 +0000
+- [First Look: Bulgari, Cartier, & Hermès | Watches & Wonders 2021](133/episode.md) Sat, 10 Apr 2021 04:00:00 +0000
+- [First Look: IWC, Montblanc, & Panerai | Watches & Wonders 2021](132/episode.md) Fri, 9 Apr 2021 17:06:42 +0000
+- [First Look: A. Lange & Söhne, Patek Philippe, & Vacheron Constantin | Watches & Wonders 2021](131/episode.md) Thu, 8 Apr 2021 18:00:00 +0000
+- [Watches & Wonders 2021 First Look – Rolex & Tudor](130/episode.md) Wed, 7 Apr 2021 22:15:00 +0000
+- [Audemars Piguet & Omega Just Reinvented Modern Classics – And You Should Be Excited](129/episode.md) Mon, 29 Mar 2021 10:00:00 +0000
+- [What Watches Can Learn from Streetwear — And Vice Versa](128/episode.md) Mon, 22 Mar 2021 10:00:00 +0000
+- [How 'Grand' Should Grand Seiko Really Be?](127/episode.md) Mon, 8 Mar 2021 11:00:00 +0000
+- [How '80s Hip-Hop Took Watch Culture to a Whole New Level](126/episode.md) Mon, 1 Mar 2021 11:00:00 +0000
+- [Magician Dan White Returns](125/episode.md) Mon, 22 Feb 2021 11:00:00 +0000
+- [Photographer And Pilot Evan Robinson (Plus, Why All Watches Should be Unisex)](124/episode.md) Mon, 15 Feb 2021 11:00:00 +0000
+- [The Call-In Show, Volume 3](123/episode.md) Mon, 8 Feb 2021 11:00:00 +0000
+- [Twenty-Teens Watch Collection Fantasy Draft Winners & Recap](122/episode.md) Mon, 1 Feb 2021 11:00:00 +0000
+- [What We Learned At LVMH Watch Week 2021](121/episode.md) Tue, 26 Jan 2021 11:00:00 +0000
+- [The Twenty-Teens Watch Collection Fantasy Draft](120/episode.md) Mon, 18 Jan 2021 11:00:00 +0000
+- [Analyzing The New Speedmaster, Reviewing An Icon, And Building A Horological Legacy](119/episode.md) Mon, 11 Jan 2021 11:00:00 +0000
+- [2020 Year In Review](118/episode.md) Mon, 28 Dec 2020 11:00:00 +0000
+- [Designer Stefan Sagmeister](117/episode.md) Mon, 21 Dec 2020 11:00:00 +0000
+- [Hollywood Prop Master Maria Simonelli](116/episode.md) Mon, 14 Dec 2020 11:00:00 +0000
+- [Chef & Author Thomas Keller](115/episode.md) Mon, 7 Dec 2020 11:00:00 +0000
+- [Cindy Crawford (Supermodel and Watch Ambassador)](114/episode.md) Wed, 2 Dec 2020 07:00:00 +0000
+- [Explorer & Educator Josh Bernstein](113/episode.md) Mon, 23 Nov 2020 11:00:00 +0000
+- [A Look Inside HODINKEE Magazine, Volume 7](112/episode.md) Mon, 16 Nov 2020 15:32:12 +0000
+- [Phillips' Arthur Touchot & Some Hot Vintage Tips](111/episode.md) Mon, 2 Nov 2020 11:00:00 +0000
+- [The Slowdown's Spencer Bailey & Andrew Zuckerman](110/episode.md) Mon, 26 Oct 2020 10:00:00 +0000
+- [Watch Vlogger Jenni Elle](109/episode.md) Mon, 19 Oct 2020 10:00:00 +0000
+- [Auction Scandals, New Releases, And The Black Bay 58 Revisited](108/episode.md) Mon, 12 Oct 2020 10:00:00 +0000
+- [All About The Apple Watch With Alan Dye, John Gruber, & Om Malik](107/episode.md) Mon, 5 Oct 2020 10:00:00 +0000
+- [The Call-In Show, Volume 2](106/episode.md) Mon, 28 Sep 2020 10:00:39 +0000
+- [Author, Podcaster, And Menswear Enthusiast Pedro Mendes](105/episode.md) Mon, 21 Sep 2020 10:00:26 +0000
+- [Curator And Art Critic Dexter Wimberly](104/episode.md) Mon, 14 Sep 2020 10:00:02 +0000
+- [New Rolex Week & Other Fresh Releases](103/episode.md) Mon, 7 Sep 2020 10:00:15 +0000
+- [Artist & Photographer Adam Marelli (Plus, Horological Deep-Dives With Jack)](102/episode.md) Mon, 31 Aug 2020 10:00:38 +0000
+- [Actor & Entrepreneur Miles Fisher](101/episode.md) Mon, 24 Aug 2020 10:00:17 +0000
+- [The 100th Episode Highlight Show](100/episode.md) Mon, 10 Aug 2020 10:00:27 +0000
+- [Golfer Rory McIlroy And Collectability's John Reardon](99/episode.md) Mon, 3 Aug 2020 10:00:35 +0000
+- [Behind The Scenes Of 'The Long Return'](98/episode.md) Mon, 27 Jul 2020 10:00:14 +0000
+- [In Depth With Jon Bues](97/episode.md) Mon, 20 Jul 2020 10:00:03 +0000
+- [Highlights From HODINKEE Magazine Vol. 6 (And Fantasy Draft Results)](96/episode.md) Mon, 13 Jul 2020 10:00:13 +0000
+- [The Call-In Show, Volume 1](95/episode.md) Mon, 6 Jul 2020 10:00:05 +0000
+- [Jeff Garlin Talks Watches, Cameras, & Comedy](94/episode.md) Mon, 29 Jun 2020 10:00:25 +0000
+- [Summer Watch Fantasy Draft 2020](93/episode.md) Mon, 22 Jun 2020 10:00:33 +0000
+- [A Grand Seiko Collectors Roundtable](92/episode.md) Mon, 1 Jun 2020 10:00:13 +0000
+- [Inside An Epic Antiques Roadshow Find (Plus An Industry Update From Joe Thompson)](91/episode.md) Mon, 18 May 2020 10:00:19 +0000
+- [Matt Hranek And Even More New Watches](90/episode.md) Mon, 11 May 2020 10:00:13 +0000
+- [Killer New Sport Watches (Plus Collector Edmond Saran)](89/episode.md) Mon, 4 May 2020 10:00:28 +0000
+- [The New Watches Of Watches & Wonders 2020](88/episode.md) Mon, 27 Apr 2020 10:00:29 +0000
+- [Wrapping Up Watch Madness (Plus Watches & Wonders Goes Online)](87/episode.md) Mon, 20 Apr 2020 10:00:11 +0000
+- [Is Baselworld Dead?](292/episode.md) Tue, 14 Apr 2020 17:10:11 +0000
+- [Gary Shteyngart & Danny's Talking Watches Highlights](86/episode.md) Mon, 13 Apr 2020 10:00:31 +0000
+- [Howie Kendrick & Revisiting The Tudor Black Bay GMT](85/episode.md) Mon, 6 Apr 2020 10:00:28 +0000
+- ['Watch Madness' Talking Watches Tournament Preview](84/episode.md) Mon, 30 Mar 2020 10:00:09 +0000
+- [Horological Homecomings, The Habrings, And The Work From Home Watch](83/episode.md) Mon, 23 Mar 2020 10:00:05 +0000
+- [Fantasy Draft Results & Edouard Meylan](82/episode.md) Mon, 16 Mar 2020 10:00:06 +0000
+- [Will Welch (Editor-In-Chief, GQ)](81/episode.md) Mon, 9 Mar 2020 10:00:13 +0000
+- [Phil Toledano And Big Baselworld News](80/episode.md) Mon, 2 Mar 2020 11:00:09 +0000
+- [Watch Collection Fantasy Draft 2.0](79/episode.md) Mon, 24 Feb 2020 11:00:05 +0000
+- [Gear Patrol's Eric Yang (Plus Coronavirus Effects On Watches)](78/episode.md) Mon, 17 Feb 2020 11:00:16 +0000
+- [In-Depth With James Stacey (HODINKEE Senior Writer)](77/episode.md) Mon, 10 Feb 2020 11:00:34 +0000
+- [Watches And Wine With Sommelier Aldo Sohm](76/episode.md) Mon, 3 Feb 2020 11:00:07 +0000
+- [Eric Wind And Going Deep With Jack](75/episode.md) Mon, 27 Jan 2020 11:00:20 +0000
+- [The Watches Of The Decade](74/episode.md) Mon, 20 Jan 2020 11:00:10 +0000
+- [A New Speedmaster, The Latest Talking Watches, And Mr. Dan Habashi](73/episode.md) Mon, 13 Jan 2020 11:00:02 +0000
+- [2019 Year In Review](72/episode.md) Mon, 30 Dec 2019 11:00:03 +0000
+- [Jesse Johnson & How To Make A Limited Edition Watch](71/episode.md) Mon, 23 Dec 2019 11:00:03 +0000
+- [The 2019 HODINKEE Holiday Gift Guide](70/episode.md) Mon, 16 Dec 2019 14:39:15 +0000
+- [Designer Marc Thorpe, Bond's New Watch, And Auction Talk](69/episode.md) Mon, 9 Dec 2019 11:00:10 +0000
+- [The Sartorialist Returns, The Lange Odysseus, & The Watch That Came In From The Cold](68/episode.md) Mon, 2 Dec 2019 11:00:33 +0000
+- [HODINKEE Lands In Japan & Ming Thein Of Ming Watches](67/episode.md) Mon, 25 Nov 2019 11:00:23 +0000
+- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](291/episode.md) Fri, 22 Nov 2019 11:00:08 +0000
+- [Inside The HODINKEE Magazine And Bringing Back Om Malik](66/episode.md) Mon, 18 Nov 2019 11:00:02 +0000
+- [Breaking Down Results From The 2019 GPHG Awards](290/episode.md) Thu, 14 Nov 2019 17:30:06 +0000
+- [A Trio Of Lange 1s & Some Exceptional Sea-Dwellers (Plus, Drake's Michael Hill)](65/episode.md) Mon, 11 Nov 2019 11:00:07 +0000
+- [2019 Grand Prix d'Horlogerie de Genève Preview](289/episode.md) Wed, 6 Nov 2019 11:00:11 +0000
+- [The 10 Most Influential Modern Watches & A New Kind Of Watch Club](64/episode.md) Mon, 4 Nov 2019 11:00:05 +0000
+- [Patrick Godfrey And Iconic Movie Watches](63/episode.md) Mon, 28 Oct 2019 10:00:27 +0000
+- [Talking Auctions With Eric Ku & Only Watch 2019 Preview](62/episode.md) Mon, 21 Oct 2019 10:00:04 +0000
+- [Hollywood Watches With Agent Dave Park And The Fall's Hottest New Releases](61/episode.md) Mon, 14 Oct 2019 10:00:11 +0000
+- [Apple Watch Series 5 & Fantasy Watch Draft Results](60/episode.md) Mon, 7 Oct 2019 10:00:09 +0000
+- [Typographer Jonathan Hoefler, James Bond, & A Fistful Of Diamonds](59/episode.md) Mon, 30 Sep 2019 10:00:03 +0000
+- [Odell Beckham Jr., An Imperial Mickey Mouse, & Suit Supply's Nish de Gruiter](58/episode.md) Mon, 23 Sep 2019 12:45:25 +0000
+- [Paul Boutros & Marlon Brando's Rolex GMT](57/episode.md) Mon, 16 Sep 2019 10:00:23 +0000
+- [Watch Collection Fantasy Draft 2019](56/episode.md) Tue, 10 Sep 2019 10:00:06 +0000
+- [Photographer Pete Halvorsen And A Watch On A Secret Mission](55/episode.md) Mon, 2 Sep 2019 10:00:05 +0000
+- [In-Depth With Jack Forster (HODINKEE Editor-In-Chief)](54/episode.md) Mon, 26 Aug 2019 10:00:04 +0000
+- [Summer Watches, Unrest In Hong Kong, And The LA Times's Daniel Miller](53/episode.md) Mon, 19 Aug 2019 10:00:16 +0000
+- [Morgan King, Safe Deposit Boxes, And An Ode To The Speedmaster](52/episode.md) Mon, 12 Aug 2019 10:00:08 +0000
+- [One Year Anniversary Episode](51/episode.md) Tue, 23 Jul 2019 10:00:13 +0000
+- [Donnie Edwards (Former NFL Player)](50/episode.md) Mon, 15 Jul 2019 10:00:10 +0000
+- [Jeremy Kirkland (Founder, Blamo! Podcast)](49/episode.md) Mon, 8 Jul 2019 16:52:21 +0000
+- [The Best Watches of 2019](48/episode.md) Mon, 1 Jul 2019 04:00:16 +0000
+- [William Massena (A Watch Renaissance Man)](47/episode.md) Mon, 24 Jun 2019 10:00:12 +0000
+- [Bradley Price (Founder of Autodromo)](46/episode.md) Mon, 17 Jun 2019 10:00:14 +0000
+- [Cara Barrett (Editor, HODINKEE)](45/episode.md) Mon, 10 Jun 2019 10:00:13 +0000
+- [Ini Archibong (Designer, Hermès)](44/episode.md) Mon, 3 Jun 2019 12:44:41 +0000
+- [Mark Cho (Founder, The Armoury & Drake's)](43/episode.md) Mon, 20 May 2019 10:00:07 +0000
+- [General Tom Stafford (Former Astronaut, NASA)](42/episode.md) Mon, 13 May 2019 10:00:22 +0000
+- [George Glasgow, Jr. (CEO, George Cleverley)](41/episode.md) Mon, 6 May 2019 11:00:20 +0000
+- [H10 Greatest Hits](40/episode.md) Mon, 29 Apr 2019 10:00:15 +0000
+- [Joe Thompson (Editor-At-Large, HODINKEE)](39/episode.md) Mon, 22 Apr 2019 10:00:27 +0000
+- [Dan White (Magician)](38/episode.md) Mon, 15 Apr 2019 10:00:09 +0000
+- [Scott Schuman (The Sartorialist)](37/episode.md) Mon, 8 Apr 2019 10:00:00 +0000
+- [James Marsden (Actor)](36/episode.md) Mon, 1 Apr 2019 10:00:00 +0000
+- [Baselworld 2019 Round-Up, Day 4](288/episode.md) Sat, 23 Mar 2019 21:41:00 +0000
+- [Baselworld 2019 Round-Up, Day 3](287/episode.md) Fri, 22 Mar 2019 19:46:00 +0000
+- [Baselworld 2019 Round-Up, Day 2](286/episode.md) Thu, 21 Mar 2019 23:30:00 +0000
+- [Baselworld 2019 Round-Up, Day 1](285/episode.md) Wed, 20 Mar 2019 22:00:00 +0000
+- [Baselworld 2019 Preview](35/episode.md) Mon, 18 Mar 2019 10:00:00 +0000
+- [Yves Béhar (Designer)](34/episode.md) Mon, 11 Mar 2019 10:00:00 +0000
+- [Chris Grainger (CEO, IWC)](33/episode.md) Mon, 4 Mar 2019 11:00:00 +0000
+- [Matt Hranek (Photographer, Writer)](32/episode.md) Mon, 25 Feb 2019 11:00:00 +0000
+- [Hannah Elliott & Magnus Walker](31/episode.md) Mon, 18 Feb 2019 11:00:00 +0000
+- [Chris Bruss (President, Funny or Die)](30/episode.md) Mon, 11 Feb 2019 11:00:00 +0000
+- [Aldis Hodge (Actor)](29/episode.md) Mon, 4 Feb 2019 11:00:00 +0000
+- [François-Henry Bennahmias (CEO, Audemars Piguet)](28/episode.md) Mon, 28 Jan 2019 11:00:00 +0000
+- [Marc Newson (Designer)](27/episode.md) Mon, 21 Jan 2019 11:00:00 +0000
+- [SIHH 2019 Round-Up, Day 3](284/episode.md) Thu, 17 Jan 2019 02:59:00 +0000
+- [SIHH 2019 Round-Up, Day 2](283/episode.md) Tue, 15 Jan 2019 21:53:00 +0000
+- [SIHH 2019 Round-Up, Day 1](282/episode.md) Mon, 14 Jan 2019 19:50:00 +0000
+- [Maximilian Büsser (Founder, MB&F)](26/episode.md) Mon, 7 Jan 2019 11:00:00 +0000
+- [Jean-Claude Biver (Live From HODINKEE 10)](25/episode.md) Mon, 24 Dec 2018 11:00:00 +0000
+- [The Grey NATO](24/episode.md) Mon, 17 Dec 2018 11:00:00 +0000
+- [Alton Brown (Chef, TV Host)](23/episode.md) Mon, 10 Dec 2018 18:31:00 +0000
+- [Stephanie Bednarek (Commercial Space Professional)](22/episode.md) Mon, 3 Dec 2018 18:09:00 +0000
+- [Matt Jacobson (Executive, Facebook)](21/episode.md) Mon, 26 Nov 2018 11:00:00 +0000
+- [Stellene Volandes (Editor-In-Chief, Town & Country)](20/episode.md) Mon, 19 Nov 2018 11:00:00 +0000
+- [The 2018 Grand Prix d'Horlogerie de Genève](19/episode.md) Mon, 12 Nov 2018 11:00:00 +0000
+- [GPHG 2018 Preview (And Some Auction Talk)](18/episode.md) Mon, 5 Nov 2018 11:00:00 +0000
+- [Davide Cerrato (Head Of Watchmaking, Montblanc)](17/episode.md) Mon, 29 Oct 2018 10:00:00 +0000
+- [Michael Weisberg (Vintage Expert)](16/episode.md) Mon, 22 Oct 2018 10:00:00 +0000
+- [The Grey NATO, Ep 66: We're Back!](281/episode.md) Thu, 18 Oct 2018 10:00:00 +0000
+- [Ted Gushue (Photographer, Car Guy)](15/episode.md) Mon, 15 Oct 2018 10:00:00 +0000
+- [Matt Scannell (Frontman, Vertical Horizon)](14/episode.md) Mon, 8 Oct 2018 10:00:00 +0000
+- [Jason Fried (Founder, Basecamp)](13/episode.md) Mon, 1 Oct 2018 10:00:00 +0000
+- [Apple And The Future Of Watchmaking](12/episode.md) Mon, 24 Sep 2018 10:00:00 +0000
+- [Spike Feresten (Writer, Seinfeld)](11/episode.md) Mon, 17 Sep 2018 10:00:00 +0000
+- [Tony Fadell (Entrepreneur, "Father Of The iPod")](10/episode.md) Mon, 10 Sep 2018 10:00:00 +0000
+- [Philippe Dufour (Watchmaking Legend)](256/episode.md) Fri, 7 Sep 2018 10:00:00 +0000
+- [Keegan Allen (Actor, Pretty Little Liars)](9/episode.md) Mon, 3 Sep 2018 10:00:00 +0000
+- [Adam Scott (Golfer, Masters Champion)](8/episode.md) Mon, 27 Aug 2018 10:00:00 +0000
+- [Scott Dadich (Media Exec, WIRED)](7/episode.md) Mon, 20 Aug 2018 10:00:00 +0000
+- [Todd Snyder (Menswear Designer)](6/episode.md) Mon, 13 Aug 2018 10:00:00 +0000
+- [Eric Ku (Vintage Watch Expert)](5/episode.md) Mon, 6 Aug 2018 10:00:00 +0000
+- [Om Malik (Founder, GigaOm)](4/episode.md) Mon, 30 Jul 2018 10:00:00 +0000
+- [Rian Johnson (Director of "Star Wars", "Looper")](3/episode.md) Mon, 23 Jul 2018 10:00:00 +0000
+- [Gary Shteyngart (Author, Lake Success)](2/episode.md) Mon, 23 Jul 2018 09:55:00 +0000
+- [Ben Clymer (Founder, HODINKEE)](1/episode.md) Mon, 23 Jul 2018 09:50:00 +0000
+- [Introducing 'HODINKEE Radio'](0/episode.md) Sat, 14 Jul 2018 22:00:00 +0000
