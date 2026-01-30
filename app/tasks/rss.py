@@ -232,6 +232,8 @@ def _unwrap_bitly(url: str) -> str:
     import json
     from pathlib import Path
 
+    log = get_logger()
+
     if 'bit.ly' not in url.lower():
         return url
 
@@ -264,6 +266,8 @@ def _extract_episode_url(entry: dict, default_url: str = None) -> str:
         Episode URL
     """
     import re
+
+    log = get_logger()
 
     if default_url is None:
         default_url = DEFAULT_PODCAST_URL
