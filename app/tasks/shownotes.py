@@ -40,13 +40,16 @@ def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
     log = get_logger()
     log.info("Generating TGN shownotes from Substack episode pages")
 
-    # Set up paths for intermediate files
+    # Set up paths for cache and working files
+    # IMPORTANT: tgn_related.jsonl is a PERMANENT CACHE - never delete it!
+    # Scraping is expensive (~1-2 hours for 361 episodes) and old episodes never change.
+    # The scraper automatically skips URLs already in this file.
     data_dir = Path(__file__).parent.parent / 'data'
     data_dir.mkdir(exist_ok=True)
 
-    urls_file = data_dir / 'tgn_urls.txt'
-    related_file = data_dir / 'tgn_related.jsonl'
-    exceptions_file = data_dir / 'tgn_exceptions.jsonl'
+    urls_file = data_dir / 'tgn_urls.txt'  # Working file: episode URLs from RSS (regenerated each run)
+    related_file = data_dir / 'tgn_related.jsonl'  # PERMANENT CACHE: scraped episode data (append-only)
+    exceptions_file = data_dir / 'tgn_exceptions.jsonl'  # Working file: scraping errors
 
     # Check that RSS feed exists
     if not rss_path.exists():

@@ -2,7 +2,7 @@ import json
 import time
 import logging
 from typing import Optional
-import httpx
+import requests
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from bs4 import BeautifulSoup
 from .utils import domain as dom_of
@@ -14,14 +14,14 @@ class Transient(Exception):
 @retry(reraise=True, stop=stop_after_attempt(3),
        wait=wait_exponential(multiplier=1, min=1, max=10),
        retry=retry_if_exception_type(Transient))
-def fetch(url: str, client: httpx.Client) -> httpx.Response:
+def fetch(url: str, session: requests.Session) -> requests.Response:
     try:
-        r = client.get(url, timeout=30)
+        r = session.get(url, timeout=30)
         if r.status_code in (429, 502, 503, 504):
             raise Transient(f"HTTP {r.status_code}")
         r.raise_for_status()
         return r
-    except httpx.HTTPStatusError as e:
+    except requests.HTTPError as e:
         if 500 <= e.response.status_code < 600:
             raise Transient(str(e))
         raise
@@ -29,6 +29,21 @@ def fetch(url: str, client: httpx.Client) -> httpx.Response:
 def run(urls_path: str, out_path: str, exceptions_path: str,
         overrides_path: Optional[str] = None, rate: float = 1.2,
         log: Optional[logging.Logger] = None) -> None:
+    """
+    Scrape related links from episode pages.
+
+    IMPORTANT: The out_path file is a PERMANENT CACHE. It should never be deleted.
+    This function appends to the file and skips URLs that already have successful scrapes.
+    Scraping is expensive (1-2 hours for 361 episodes), so preserving this cache is critical.
+
+    Args:
+        urls_path: File with one URL per line to scrape
+        out_path: JSONL file to append results (PERMANENT CACHE - never delete!)
+        exceptions_path: JSONL file to append errors
+        overrides_path: Optional YAML file with custom CSS selectors per domain
+        rate: Minimum seconds between requests to the same domain
+        log: Logger instance
+    """
     log = log or logging.getLogger(__name__)
     overrides = {}
     if overrides_path:
@@ -41,7 +56,8 @@ def run(urls_path: str, out_path: str, exceptions_path: str,
         except Exception as e:
             log.warning("Failed to load overrides: %s", e)
 
-    # Load already processed URLs from existing output file
+    # Load already processed URLs from existing cache file
+    # This allows incremental scraping - only new episodes need to be scraped
     processed_urls = set()
     try:
         with open(out_path, "r", encoding="utf-8") as existing:
@@ -53,18 +69,20 @@ def run(urls_path: str, out_path: str, exceptions_path: str,
                 except Exception:
                     pass
         if processed_urls:
-            log.info("Found %d already-processed URLs, will skip them", len(processed_urls))
+            log.info("Found %d already-scraped URLs in cache, will skip them", len(processed_urls))
     except FileNotFoundError:
         pass
 
     per_domain_sleep = {}
 
-    with httpx.Client(http2=True, headers={
-        "User-Agent": "tgn-whisperer tgn.phfactor.net",
-        "Accept-Language": "en-US,en;q=0.8",
-        "Accept": "text/html,application/xhtml+xml"
-    }, follow_redirects=True) as client, \
-        open(out_path, "a", encoding="utf-8") as out, \
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    })
+
+    with open(out_path, "a", encoding="utf-8") as out, \
         open(exceptions_path, "a", encoding="utf-8") as exc_out, \
         open(urls_path, "r", encoding="utf-8") as f_urls:
 
@@ -93,19 +111,19 @@ def run(urls_path: str, out_path: str, exceptions_path: str,
                     if delta < rate:
                         time.sleep(rate - delta)
 
-                r = fetch(url, client)
+                r = fetch(url, session)
                 per_domain_sleep[d] = time.time()
 
                 html = r.text
                 soup = BeautifulSoup(html, "lxml")
 
                 if d.endswith("substack.com"):
-                    items = extract_substack_any(html, str(r.url), client=client)
+                    items = extract_substack_any(html, str(r.url), client=session)
                     selector_used = "substack_show_notes_any"
                 else:
                     ovr = (overrides.get(d, {}) or {}).get("selector")
                     nodes = nearest_related_container(soup, override_selector=ovr)
-                    items = extract_items(nodes, str(r.url), client=client)
+                    items = extract_items(nodes, str(r.url), client=session)
                     selector_used = ovr or "heuristic"
 
                 rec = {
@@ -122,3 +140,5 @@ def run(urls_path: str, out_path: str, exceptions_path: str,
                 err = {"source_url": url, "status": "error", "error": str(e)}
                 exc_out.write(json.dumps(err, ensure_ascii=False) + "\n")
                 log.error("ERROR %s -> %s", url, e)
+
+    session.close()

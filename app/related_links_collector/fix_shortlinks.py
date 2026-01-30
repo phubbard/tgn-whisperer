@@ -5,7 +5,7 @@ This is useful after improving the resolver logic to fix previously failed resol
 import json
 import logging
 from typing import Optional
-import httpx
+import requests
 from .resolvers import expand_shortlink, SHORTENER_HOSTS
 from urllib.parse import urlparse
 
@@ -33,12 +33,15 @@ def fix_shortlinks(jsonl_path: str, output_path: Optional[str] = None,
         for line in f:
             records.append(json.loads(line))
     
-    # Process records with HTTP client
-    with httpx.Client(http2=True, headers={
-        "User-Agent": "tgn-whisperer tgn.phfactor.net",
-        "Accept-Language": "en-US,en;q=0.8",
-        "Accept": "text/html,application/xhtml+xml"
-    }, follow_redirects=True) as client:
+    # Process records with HTTP session
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    })
+
+    try:
         
         for rec in records:
             if rec.get('status') != 'ok':
@@ -54,10 +57,10 @@ def fix_shortlinks(jsonl_path: str, output_path: Optional[str] = None,
                     if host in SHORTENER_HOSTS:
                         unresolved_count += 1
                         log.info("Re-resolving: %s", href)
-                        
+
                         # Attempt to resolve again
-                        resolved = expand_shortlink(href, client)
-                        
+                        resolved = expand_shortlink(href, session)
+
                         if resolved != href:
                             # Successfully resolved!
                             resolved_count += 1
@@ -67,7 +70,9 @@ def fix_shortlinks(jsonl_path: str, output_path: Optional[str] = None,
                             log.warning("  ✗ Still unresolved: %s", href)
                 except Exception as e:
                     log.error("Error processing %s: %s", href, e)
-    
+    finally:
+        session.close()
+
     # Write updated records
     log.info("Writing updated records to %s", output_path)
     with open(output_path, 'w', encoding='utf-8') as f:
