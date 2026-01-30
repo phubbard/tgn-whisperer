@@ -1,373 +1,373 @@
-### Page updated 2026-01-30T09:16:28.252738-08:00 - 372 episodes
-- [The Grey NATO – 362 – 10 Years of TGN With Mike Pearson](372/episode.md) Thu, 29 Jan 2026 06:00:00 -0500
-- [The Grey NATO – 361 – Film Club Vol. 13](371/episode.md) Thu, 22 Jan 2026 08:00:00 -0500
-- [The Grey NATO – 360 – Slack Crew & A [Part 7: Travel, Watches We'd Never Own, Dalton's Bond, And Watches On The Wrong Side Of History]](370/episode.md) Thu, 15 Jan 2026 06:00:00 -0500
-- [The Grey NATO – 359 – The 2026 TGN "In" & "Out" List](369/episode.md) Thu, 08 Jan 2026 06:00:00 -0500
-- [The Grey NATO – 358 – Final Notes Greatest Hits Of 2025](368/episode.md) Thu, 18 Dec 2025 06:00:00 -0500
-- [The Grey NATO – 357 – Our Favorite Watches of 2025](367/episode.md) Thu, 11 Dec 2025 06:00:00 -0500
-- [The Grey NATO – 356 – The 2025 TGN Holiday Gift Guide](366/episode.md) Thu, 04 Dec 2025 06:00:00 -0500
-- [The Grey NATO – 355 – The 36mm Tudor Ranger & Other New Watches](365/episode.md) Thu, 27 Nov 2025 06:00:00 -0500
-- [The Grey NATO – 354 – A Brand New Omega Planet Ocean And Trip Reports](364/episode.md) Thu, 20 Nov 2025 06:00:00 -0500
-- [The Grey NATO – 353 – A Chat With Ben Fogle [Adventurer, Broadcaster, Author, And Owner of Buffalo Systems]](363/episode.md) Thu, 13 Nov 2025 06:00:00 -0500
-- [The Grey NATO – 352 – Picking Birth Year Watches](362/episode.md) Thu, 06 Nov 2025 06:00:00 -0500
-- [The Grey NATO – 351 – Tactile Turn x TGN, Watch Writing, 3D Printing, Pen Collecting & More With Ed Jelley](361/episode.md) Thu, 30 Oct 2025 06:00:00 -0400
-- [The Grey NATO – 350 – Things We'd Prefer Not To Live Without](360/episode.md) Thu, 23 Oct 2025 06:00:00 -0400
-- [The Grey NATO – 349 – Watch Enthusiasm, Then and Now](359/episode.md) Thu, 16 Oct 2025 06:00:00 -0400
-- [The Grey NATO – 348 – Slack Crew & A 2025 Part 6 [Camping, Watches with Personality, Dream watches, And a Special Dispatch from Geneva]](358/episode.md) Thu, 09 Oct 2025 06:00:00 -0400
-- [The Grey NATO – 347 – Hunting (And Finding) Shipwrecks With Derek Haager & Matt Ludvigson](357/episode.md) Thu, 02 Oct 2025 06:00:00 -0400
-- [The Grey NATO – 346 – What Community Means To Watches [Live From The Toronto Timepiece Show]](356/episode.md) Thu, 25 Sep 2025 06:00:00 -0400
-- [The Grey NATO – 345 – The Horological Hunt With Daniel Miller](355/episode.md) Thu, 18 Sep 2025 06:00:00 -0400
-- [The Grey NATO – 344 – Forgotten Watches We Still Love](354/episode.md) Thu, 11 Sep 2025 06:00:00 -0400
-- [The Grey NATO – 343 – Slack Crew & A 2025 Part 5 [Our Own Shows, Designing a PR Event, BB vs. Sub, & How Many Straps Do We Own?]](353/episode.md) Thu, 04 Sep 2025 06:00:00 -0400
-- [The Grey NATO – 342 – From The Hebrides To Brooklyn With The Paulin Mara Diver](352/episode.md) Thu, 28 Aug 2025 06:00:00 -0400
-- [The Grey NATO – 341 –  A Chat with Jack Carr [Former Navy SEAL, Bestselling Author, and Watch Enthusiast]](351/episode.md) Thu, 21 Aug 2025 06:00:00 -0400
-- [The Grey NATO – 340 – Jason Hutton Of The Timepiece Shows & Zenea Watches](350/episode.md) Thu, 14 Aug 2025 06:00:00 -0400
-- [The Grey NATO – 339 – Inside Citizen And The Aqualand With Neall Brick](349/episode.md) Thu, 07 Aug 2025 06:00:00 -0400
-- [The Grey NATO – 338 – Going Pro In Watches With Writer-Photographer Troy Barmore](348/episode.md) Thu, 31 Jul 2025 06:00:00 -0400
-- [The Grey NATO – 337 – Orange & Black Is Back For Summer](347/episode.md) Thu, 24 Jul 2025 06:00:00 -0400
-- [The Grey NATO – 336 – Oops! All Mods!](346/episode.md) Thu, 17 Jul 2025 06:00:00 -0400
-- [The Grey NATO – 335 – Guilty Pleasure Watches (and more!)](345/episode.md) Thu, 26 Jun 2025 06:00:00 -0400
-- [The Grey NATO – 334 – The Dive Watches of Summer 2025!](344/episode.md) Thu, 19 Jun 2025 06:00:00 -0400
-- [The Grey NATO – 333 – Slack Crew & A 2025 Part 4 [Watch gifts, best lenses, comfort viewing, and lessons we wish we learned earlier]](343/episode.md) Thu, 12 Jun 2025 06:00:00 -0400
-- [The Grey NATO – 332 – The 2025 Summer Watch Draft](342/episode.md) Thu, 05 Jun 2025 06:00:00 -0400
-- [The Grey NATO – 331 – Adventurous Women & Their Watches With Rhonda Riche](341/episode.md) Thu, 29 May 2025 06:00:00 -0400
-- [The Grey NATO – 330 – From The Hebrides With Love](340/episode.md) Thu, 22 May 2025 06:00:00 -0400
-- [The Grey NATO – 329 – A Deep Dive With Brock Stevens & Chris Sohl](339/episode.md) Thu, 15 May 2025 06:00:00 -0400
-- [The Grey NATO – 328 – Slack Crew & A 2025 Part 3 [Watches that disappoint, dinner party menus, weekend cars, and watch elevator pitches]](338/episode.md) Thu, 08 May 2025 06:00:00 -0400
-- [The Grey NATO – 327 – The Vancouver Timepiece Show (Special Chats & Lots of Watches)](337/episode.md) Thu, 01 May 2025 06:00:00 -0400
-- [The Grey NATO – 326 – Imperfect Products (Land Rover vs. Jeep)](336/episode.md) Thu, 24 Apr 2025 06:00:00 -0400
-- [The Grey NATO – 325 – Book Club 4](335/episode.md) Thu, 17 Apr 2025 06:00:00 -0400
-- [The Grey NATO – 324 – Watches And Wonders 2025 Megasode](334/episode.md) Thu, 10 Apr 2025 06:00:00 -0400
-- [The Grey NATO – 323 – Doxa Revives the Sub GMT + Our Hopes For Rolex and Tudor at Watches & Wonders 2025](333/episode.md) Thu, 27 Mar 2025 06:00:00 -0400
-- [The Grey NATO – 322 – Slack Crew & A 2025 Part 2 [American watches, collecting, changes to the show, camping must-haves, and more]](332/episode.md) Thu, 20 Mar 2025 06:00:00 -0400
-- [The Grey NATO – 321 – CWC & The CWN1 With Malcolm Bliss](331/episode.md) Thu, 06 Mar 2025 06:00:00 -0500
-- [The Grey NATO – 320 – New Watches From Sinn, Omega, Nodus, Vertex, & More](330/episode.md) Thu, 27 Feb 2025 06:00:00 -0500
-- [The Grey NATO – 319 – Film Club Vol. 12 With Stuntman Tom Place](329/episode.md) Thu, 20 Feb 2025 06:00:00 -0500
-- [The Grey NATO – 318 – Exploring Pangatalan Island With Blancpain](328/episode.md) Thu, 13 Feb 2025 06:00:00 -0500
-- [The Grey NATO – 317 – Slack Crew & A 2025 Part 1 [Bug out bags, great quartz options, sundaes, safety stops activities, watches vs. adventures, & more]](327/episode.md) Thu, 06 Feb 2025 06:00:00 -0500
-- [The Grey NATO – 316 – The "One Watch" Tournament Championship!](326/episode.md) Thu, 30 Jan 2025 06:00:00 -0500
-- [The Grey NATO – 315 – Round 3 Of The "One Watch" Tournament – The Final Four](325/episode.md) Thu, 23 Jan 2025 06:00:00 -0500
-- [The Grey NATO – 314 – Round 2 Of The "One Watch" Tournament (+ New Fundraiser T-Shirt For LA Firefighters)](324/episode.md) Thu, 16 Jan 2025 06:00:00 -0500
-- [The Grey NATO – 313 – The "One Watch" TGN Tournament (With Public Voting!)](323/episode.md) Thu, 09 Jan 2025 06:00:00 -0500
-- [The Grey NATO – 312 – Final Notes Greatest Hits Of 2024](322/episode.md) Thu, 19 Dec 2024 06:00:00 -0500
-- [The Grey NATO – 311 – Our Favorite Watches of 2024](321/episode.md) Thu, 12 Dec 2024 06:00:00 -0500
-- [The Grey NATO – 310 – The 2024 TGN Holiday Gift Guide](320/episode.md) Thu, 05 Dec 2024 06:00:00 -0500
-- [The Grey NATO – 309 – Ingrained With Callum Robinson](319/episode.md) Thu, 21 Nov 2024 06:00:00 -0500
-- [The Grey NATO – 308 – Slack Crew & A 2024 // Part 6](318/episode.md) Thu, 14 Nov 2024 06:00:00 -0500
-- [The Grey NATO – 307 – Talking Tudor And The Pelagos FXD GMT](317/episode.md) Thu, 07 Nov 2024 03:00:00 -0500
-- [The Grey NATO – 306 – How To Gift A Watch](316/episode.md) Thu, 31 Oct 2024 06:00:00 -0400
-- [The Grey NATO – 305 – Drafting Our Favorite Watches In Movies](315/episode.md) Thu, 24 Oct 2024 06:00:00 -0400
-- [The Grey NATO – 304 – On Paper, On Wrist: The Christopher Ward C60 Trident Lumière](314/episode.md) Thu, 17 Oct 2024 06:00:00 -0400
-- [The Grey NATO – 303 – Face To Face For A Weekend In Toronto](313/episode.md) Thu, 10 Oct 2024 06:00:00 -0400
-- [The Grey NATO – 302 – Live With Friends From The Toronto Timepiece Show](312/episode.md) Thu, 03 Oct 2024 06:00:00 -0400
-- [The Grey NATO – 301 – Slack Crew & A 2024 // Part 5](311/episode.md) Thu, 26 Sep 2024 06:00:00 -0400
-- [The Grey NATO – 300!](310/episode.md) Thu, 19 Sep 2024 06:00:00 -0400
-- [The Grey NATO – 299 – Marathon Watch Co. With Mitchell Wein](309/episode.md) Thu, 12 Sep 2024 06:00:00 -0400
-- [The Grey NATO – 298 – Ben Lowry [Watches of Espionage, Luxury Watches, Commercial Diving, and the Coast Guard]](308/episode.md) Thu, 05 Sep 2024 06:00:00 -0400
-- [The Grey NATO – 297 – Collection Inspection Vol. 13 // Oops All Seikos](307/episode.md) Thu, 29 Aug 2024 06:00:00 -0400
-- [The Grey NATO – 296 – Training Tall With Austin Hendrickson](306/episode.md) Thu, 22 Aug 2024 06:00:00 -0400
-- [Out Of Office – Back August 22nd](305/episode.md) Thu, 08 Aug 2024 06:00:00 -0400
-- [The Grey NATO – 295 – Photographer And Director Gajan Balan](304/episode.md) Thu, 01 Aug 2024 06:00:00 -0400
-- [The Grey NATO – 294 – From British Special Forces to Running a Clothing Brand, with Anthony “Staz” Stazicker, Co-Founder of ThruDark](303/episode.md) Thu, 25 Jul 2024 06:00:00 -0400
-- [The Grey NATO – 293 – Windup Chicago 2024 With The Worn & Wound Podcast](302/episode.md) Thu, 18 Jul 2024 06:00:00 -0400
-- [The Grey NATO – 292 – Drafting Summer Watches (And A New UDT!)](301/episode.md) Thu, 11 Jul 2024 06:00:00 -0400
-- [The Grey NATO – 291 – Film Club Vol. 11](300/episode.md) Thu, 04 Jul 2024 06:00:00 -0400
-- [The Grey NATO – 290 – The Fan Dance](299/episode.md) Thu, 27 Jun 2024 06:00:00 -0400
-- [The Grey NATO – 289 – Catching Up With Zach Pina (Photographer, Watch Writer, And More)](298/episode.md) Thu, 20 Jun 2024 06:00:00 -0400
-- [The Grey NATO – 288 – Slack Crew & A 2024 // Part 4](297/episode.md) Thu, 13 Jun 2024 06:00:00 -0400
-- [The Grey NATO – 287 – Collection Inspection Vol. 12 // Blancpain vs. Blancpain (Sort of)](296/episode.md) Thu, 06 Jun 2024 06:00:00 -0400
-- [The Grey NATO – 286 – How We'd Cast The Next James Bond Film](295/episode.md) Thu, 30 May 2024 06:00:00 -0400
-- [The Grey NATO – 285 – A Chat With Richie Kohler: Diving Legend, Shipwreck Explorer, Historian, and Author](294/episode.md) Thu, 23 May 2024 06:00:00 -0400
-- [The Grey NATO – 284 – A Last Minute Mountain Adventure In Switzerland](293/episode.md) Thu, 16 May 2024 06:00:00 -0400
-- [The Grey NATO – 283 – Diving The Channel Islands With Oceana and Blancpain](292/episode.md) Thu, 09 May 2024 06:00:00 -0400
-- [The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland](291/episode.md) Mon, 06 May 2024 15:00:00 -0400
-- [The Grey NATO – 282 – Thomas Holland Returns To Talk Throttle House, Land Cruisers, Costa Rica Diving, Overlanding, and More](290/episode.md) Thu, 02 May 2024 06:00:00 -0400
-- [The Grey NATO – 281 – Slack Crew & A 2024 // Part 3](289/episode.md) Thu, 25 Apr 2024 10:00:00 -0400
-- [The Grey NATO – 280 – All Lux'd Out Again (Watches And Wonders 2024 Megasode)](288/episode.md) Thu, 18 Apr 2024 06:00:00 -0400
-- [The Grey NATO – 279 – Hot News From Doxa And A Chat With Chris Sohl, Avid Diver and Slack Mod Extraordinaire](287/episode.md) Thu, 04 Apr 2024 06:00:00 -0400
-- [The Grey NATO – 278 – Rolex & Tudor Predictions (Also: To Catch A Slack Thief)](286/episode.md) Thu, 28 Mar 2024 06:00:00 -0400
-- [The Grey NATO – 277 – Slack Crew & A 2024 // Part 2](285/episode.md) Thu, 21 Mar 2024 06:00:00 -0400
-- [The Grey NATO – 276 – Jason's Very English Adventure [Bremont, Flying Vintage Planes, Alex Bescoby, and THE Land Rover]](284/episode.md) Thu, 14 Mar 2024 06:00:00 -0400
-- [The Grey NATO – 275 – Catching Up With Wesley Smith of Standard H](283/episode.md) Thu, 07 Mar 2024 06:00:00 -0500
-- [The Grey NATO – 274 – Fitness 2024 (Rethinking Alcohol, the Oura Ring, & More)](282/episode.md) Thu, 29 Feb 2024 06:00:00 -0500
-- [The Grey NATO – 273 – Designing Watches For The Future of Space Exploration With Karel Bachand of Barrelhand Watches](281/episode.md) Thu, 22 Feb 2024 06:00:00 -0500
-- [The Grey NATO – 272 – Dr. Rebecca Struthers and ‘Hands Of Time: A Watchmaker’s History'](280/episode.md) Thu, 15 Feb 2024 06:00:00 -0500
-- [The Grey NATO – 271 – Slack Crew & A 2024 // Part 1](279/episode.md) Thu, 08 Feb 2024 06:00:00 -0500
-- [The Grey NATO – 270 – Legendary Ice Climber Will Gadd On Adventure, Risk, and Becoming A Watch Ambassador](278/episode.md) Thu, 01 Feb 2024 06:00:00 -0500
-- [The Grey NATO – 269 – Costa Rica And The Red Devil Breitling](277/episode.md) Thu, 25 Jan 2024 06:00:00 -0500
-- [The Grey NATO – 268 – The Watch List Vol. 1](276/episode.md) Thu, 18 Jan 2024 06:00:00 -0500
-- [The Grey NATO – 267 – The Deep Track With Blake Buettner](275/episode.md) Thu, 11 Jan 2024 06:00:00 -0500
-- [The Grey NATO – 266 – 2024 And More](274/episode.md) Thu, 04 Jan 2024 06:00:00 -0500
-- [The Grey NATO – 265 – Our Favorite Watches of 2023](273/episode.md) Thu, 14 Dec 2023 06:00:00 -0500
-- [The Grey NATO – 264 – The 2023 TGN Holiday Gift Guide](272/episode.md) Thu, 07 Dec 2023 06:00:00 -0500
-- [The Grey NATO – 263 – Watchmaking's Watchmaker Problem With Rhonda Riche And Jason Gallop](271/episode.md) Thu, 30 Nov 2023 06:00:00 -0500
-- [The Grey NATO – 262 – Sweetwater (No Spoilers!)](270/episode.md) Thu, 16 Nov 2023 06:00:00 -0500
-- [The Grey NATO – 261 – Blancpain CEO Marc Hayek On Dive Watches, Swatch x Blancpain, Ocean Commitment, And More](269/episode.md) Thu, 09 Nov 2023 06:00:00 -0500
-- [Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology](268/episode.md) Tue, 07 Nov 2023 09:00:00 -0500
-- [The Grey NATO – 260 – Deep Dive: The Thrift Store Navitimer That Found Jason](267/episode.md) Thu, 02 Nov 2023 06:00:00 -0400
-- [The Grey NATO – 259 – New Watches From Lorier, Bremont, IWC, Baltic, and More](266/episode.md) Thu, 26 Oct 2023 06:00:00 -0400
-- [The Grey NATO – 258 – Book Club 3](265/episode.md) Thu, 19 Oct 2023 06:00:00 -0400
-- [The Grey NATO – 257 – Hamilton](264/episode.md) Thu, 12 Oct 2023 06:00:00 -0400
-- [The Grey NATO – 256 – One Watch, Three Budgets](263/episode.md) Thu, 05 Oct 2023 06:00:00 -0400
-- [The Grey NATO – 255 – From France With Love (And The Blancpain Fifty Fathoms Act 3)](262/episode.md) Thu, 28 Sep 2023 06:00:00 -0400
-- [The Grey NATO – 254 – Experiencing The New Tudor Pelagos FXD In Its Natural Habitat](261/episode.md) Thu, 21 Sep 2023 06:00:00 -0400
-- [The Grey NATO – 253 – Breaking The Ice](260/episode.md) Thu, 14 Sep 2023 06:00:00 -0400
-- [The Grey NATO – 252 – Blancpain & Swatch Make A Dive Watch (?!), Getting Certified In Cozumel, And Manta Missed Connections In Ecuador](259/episode.md) Thu, 07 Sep 2023 05:00:00 -0400
-- [The Grey NATO – 251 – The Latest Watches From Oris, Doxa, Longines, And More](258/episode.md) Thu, 31 Aug 2023 06:00:00 -0400
-- [The Grey NATO – 250 – Film Club Vol. 10](257/episode.md) Thu, 24 Aug 2023 06:00:00 -0400
-- [The Grey NATO – 249 – Kristin Harila On Her Record-Breaking Push To Climb All 8000m Peaks In Just Three Months](256/episode.md) Thu, 03 Aug 2023 06:00:00 -0400
-- [The Grey NATO - 248 – Slack "Crew & A" #4 (The Finale)](255/episode.md) Thu, 27 Jul 2023 06:00:00 -0400
-- [The Grey NATO - 247 - WindUp Chicago 2023 With The Worn & Wound Podcast](254/episode.md) Thu, 20 Jul 2023 06:00:00 -0400
-- [The Grey NATO – 246 – Slack "Crew & A" #3](253/episode.md) Thu, 13 Jul 2023 06:00:00 -0400
-- [The Grey NATO – 245 – New Watches! Summer Blue Omegas, Carbon Tudors, and More](252/episode.md) Thu, 06 Jul 2023 06:00:00 -0400
-- [The Grey NATO – 244 – The Lost Tape With Dr. Sylvia Earle](251/episode.md) Thu, 22 Jun 2023 06:00:00 -0400
-- [The Grey NATO – 243 – Traveling With Your Watches (Packing, Picks, Theft & More)](250/episode.md) Thu, 15 Jun 2023 06:00:00 -0400
-- [The Grey NATO – 242 – A Deep Dive With Don Walsh (The First Man to the Deepest Spot on Earth)](249/episode.md) Thu, 08 Jun 2023 06:00:00 -0400
-- [The Grey NATO – 241 – Our Favorite Small Watches](248/episode.md) Thu, 01 Jun 2023 06:00:00 -0400
-- [The Grey NATO – 240 – New Watch Roundup (Doxa, Bremont, Zodiac, and Aquastar)](247/episode.md) Fri, 26 May 2023 09:00:00 -0400
-- [The Grey NATO – 239 – The Watches You Asked Us To Talk About](246/episode.md) Thu, 18 May 2023 06:00:00 -0400
-- [The Grey NATO – 238 – Scotland Trip Report And Lewis Heath of anOrdain Watches](245/episode.md) Thu, 11 May 2023 06:00:00 -0400
-- [The Grey NATO – 237 – Thomas Holland of 'Throttle House' On His Watches, Cars, Diving, Climbing, and More](244/episode.md) Thu, 04 May 2023 06:00:00 -0400
-- [The Grey NATO – 236 – The High/Low Watch Collection Challenge](243/episode.md) Thu, 27 Apr 2023 06:00:00 -0400
-- [The Grey NATO – 235 – Collection Inspection Vol. 11 (Vintage Edition)](242/episode.md) Thu, 20 Apr 2023 06:00:00 -0400
-- [The Grey NATO – 234 – Our Automotive (Mis)Adventures](241/episode.md) Thu, 13 Apr 2023 06:00:00 -0400
-- [The Grey NATO – 233 – Watches, Wonders, And Even More Watches](240/episode.md) Thu, 06 Apr 2023 06:00:00 -0400
-- [The Grey NATO – 232 – Crew & A #2](239/episode.md) Thu, 23 Mar 2023 06:00:00 -0400
-- [The Grey NATO – 231 – David Concannon On Visiting the Titanic, Recovering Apollo Rockets, And His Love Of Rolex](238/episode.md) Wed, 15 Mar 2023 14:00:00 -0400
-- [The Grey NATO – 230 – Slack "Crew & A" #1](237/episode.md) Thu, 09 Mar 2023 06:00:00 -0500
-- [The Grey NATO – 229 – New Divers From Sinn, Seiko, and Citizen](236/episode.md) Wed, 01 Mar 2023 15:00:00 -0500
-- [The Grey NATO – 228 – From Rangiroa With Love, Blancpain, and Laurent Ballesta](235/episode.md) Thu, 23 Feb 2023 06:00:00 -0500
-- [The Grey NATO – 227 – Jason Gallop And The Fire That Almost Ended His Family Watch Business](234/episode.md) Thu, 16 Feb 2023 06:00:00 -0500
-- [The Grey NATO – 226 – Pitching The Watches We'd Love To Make (And Buy!)](233/episode.md) Thu, 09 Feb 2023 06:00:00 -0500
-- [The Grey NATO – 225 – Diving Under The Ice And Into The Latest From AP](232/episode.md) Fri, 03 Feb 2023 12:00:00 -0500
-- [The Grey NATO – 224 – Collection Inspection Vol. 10](231/episode.md) Thu, 26 Jan 2023 06:00:00 -0500
-- [The Grey NATO – 223 – Film Club Vol. 9](230/episode.md) Thu, 19 Jan 2023 06:00:00 -0500
-- [The Grey NATO – 222 – Jumping Out Of Helicopters To Fight Fires With Asha Wagner](229/episode.md) Thu, 12 Jan 2023 06:00:00 -0500
-- [The Grey NATO – 221 – You, Me, and 2023](228/episode.md) Thu, 05 Jan 2023 06:00:00 -0500
-- [The Grey NATO – 220 – Our Fav Watches of 2022 (Tudor, Seiko, Citizen, and more)](227/episode.md) Thu, 15 Dec 2022 06:00:00 -0500
-- [The Grey NATO – 219 – The 2022 TGN Holiday Gift Guide](226/episode.md) Thu, 08 Dec 2022 06:00:00 -0500
-- [The Grey NATO – 218 – Crossing The Arctic Ocean With Børge Ousland](225/episode.md) Thu, 01 Dec 2022 06:00:00 -0500
-- [The Grey NATO – 217 – A Birthday Bond Seamaster and a New Flyer GMT](224/episode.md) Wed, 23 Nov 2022 20:00:00 -0500
-- [The Grey NATO – 216 – Making the Most Out of Winter](223/episode.md) Thu, 17 Nov 2022 06:00:00 -0500
-- [The Grey NATO – 215 – Our Favorite Straps](222/episode.md) Thu, 10 Nov 2022 15:00:00 -0500
-- [Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology](221/episode.md) Fri, 04 Nov 2022 08:00:00 -0400
-- [The Grey NATO – 214 – Titanium](220/episode.md) Wed, 02 Nov 2022 09:00:00 -0400
-- [The Grey NATO – 213 – Estate Sale Speedmasters and the New Leica M6](219/episode.md) Wed, 26 Oct 2022 16:00:00 -0400
-- [The Grey NATO – 212 – The New Watches We've Been Thinking About](218/episode.md) Wed, 19 Oct 2022 03:00:00 -0400
-- [The Grey NATO – 211 – Perfect Product #5](217/episode.md) Thu, 13 Oct 2022 06:00:00 -0400
-- [The Grey NATO – 210 – On Paper/On Wrist: The Apple Watch Ultra](216/episode.md) Thu, 06 Oct 2022 06:00:00 -0400
-- [The Grey NATO – 209 – The 'One Watch' Draft](215/episode.md) Thu, 29 Sep 2022 06:00:00 -0400
-- [The Grey NATO – 208 – Film Club Vol. 8](214/episode.md) Wed, 21 Sep 2022 12:00:00 -0400
-- [The Grey NATO – 207 – Challenge // Omega](213/episode.md) Thu, 15 Sep 2022 06:00:00 -0400
-- [The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army](212/episode.md) Tue, 13 Sep 2022 12:00:00 -0400
-- [The Grey NATO – 206 – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army](211/episode.md) Thu, 08 Sep 2022 06:00:10 -0400
-- [The Grey NATO – 205 – Bond Author Kim Sherwood On ‘Double Or Nothing’](210/episode.md) Thu, 01 Sep 2022 05:30:33 -0400
-- [The Grey NATO – 204 – Oris North America CEO VJ Geronimo From Windup Chicago](209/episode.md) Thu, 11 Aug 2022 06:18:52 -0400
-- [The Grey NATO – 203 – Mike Pearson (Zodiac) And Wesley Smith (Standard H) From Windup Chicago](208/episode.md) Thu, 04 Aug 2022 05:44:43 -0400
-- [The Grey NATO – 202 – Oak & Oscar III From Windup Chicago (and merch is now for sale!)](207/episode.md) Thu, 28 Jul 2022 06:56:24 -0400
-- [The Grey NATO – 201 – Windup Chicago With Zach And Blake From Worn & Wound](206/episode.md) Thu, 21 Jul 2022 06:25:15 -0400
-- [The Grey NATO – 200 – The Past, Present, and Future of TGN](205/episode.md) Thu, 07 Jul 2022 06:56:33 -0400
-- [The Grey NATO – 199 – Citizen](204/episode.md) Thu, 30 Jun 2022 06:45:23 -0400
-- [The Grey NATO - 198 – Should You Break These Watch Rules?](203/episode.md) Thu, 23 Jun 2022 06:30:20 -0400
-- [The Grey NATO - 197 - Watches, Design, And Wartime Photojournalism With Robert Spangle](202/episode.md) Thu, 16 Jun 2022 07:00:07 -0400
-- [The Grey NATO – 196 – Why We Love Diving (And You Should Too!)](201/episode.md) Thu, 09 Jun 2022 06:28:42 -0400
-- [The Grey NATO – 195 – Big Watches With Oversized Charm](200/episode.md) Thu, 02 Jun 2022 06:39:46 -0400
-- [The Grey NATO – 194 – Trading Watches and Cars for Arctic Adventure with Hugh Francis Anderson](199/episode.md) Thu, 26 May 2022 07:00:10 -0400
-- [The Grey NATO – 193 – Great Summer Gear (Watches, Clothes, EDC, And More)](198/episode.md) Thu, 19 May 2022 07:00:09 -0400
-- [The Grey NATO – 192 – The Perfect Three-Watch Collection (2022 Edition)](197/episode.md) Thu, 12 May 2022 07:14:28 -0400
-- [The Grey NATO – 191 – More New Watches! (Doxa, Timex, Hamilton and More)](196/episode.md) Thu, 05 May 2022 06:45:44 -0400
-- [The Grey NATO – 190 – One Month In Sri Lanka](195/episode.md) Thu, 28 Apr 2022 06:31:29 -0400
-- [The Grey NATO – 189 – Cole Pennington III](194/episode.md) Thu, 21 Apr 2022 06:54:06 -0400
-- [The Grey NATO – 188 – Film Club Vol 7](193/episode.md) Thu, 14 Apr 2022 06:50:34 -0400
-- [The Grey NATO – 187 – Watches & Wonders 2022](192/episode.md) Thu, 07 Apr 2022 06:42:54 -0400
-- [The Grey NATO – 186 – Marshall Sutcliffe Of 'Wristwatch Revival'](191/episode.md) Thu, 24 Mar 2022 06:58:00 -0400
-- [The Grey NATO – 185 – The TGN Auction For Ukraine And The Latest From Bremont](190/episode.md) Thu, 17 Mar 2022 06:59:07 -0400
-- [The Grey NATO - 184 – Watches, And Wonders, And Wishes (Oh My)](189/episode.md) Thu, 10 Mar 2022 07:00:27 -0500
-- [The Grey NATO – 183 – TGN Book Club 2](188/episode.md) Thu, 03 Mar 2022 07:00:10 -0500
-- [The Grey NATO – 182 – Why Quartz Rocks](187/episode.md) Thu, 24 Feb 2022 07:00:17 -0500
-- [The Grey NATO – 181 – Jason Under The Ice](186/episode.md) Thu, 17 Feb 2022 07:00:04 -0500
-- [The Grey NATO – 180 – We Shouldn't Have Overlooked These Watches](185/episode.md) Thu, 10 Feb 2022 07:00:17 -0500
-- [The Grey NATO – 179 – Bond, James Bond](184/episode.md) Thu, 03 Feb 2022 07:00:25 -0500
-- [The Grey NATO - 178 - Challenge // Breitling](183/episode.md) Thu, 27 Jan 2022 07:00:24 -0500
-- [The Grey NATO – 177 – Pilot's Watches](182/episode.md) Thu, 20 Jan 2022 07:00:14 -0500
-- [The Grey NATO – 176 – Watches, Adventure, And More In 2022](181/episode.md) Thu, 13 Jan 2022 09:05:08 -0500
-- [The Grey NATO - 175 - Don Cochrane Of Vertex Watches](180/episode.md) Thu, 06 Jan 2022 06:00:32 -0500
-- [The Grey NATO  – 174 – It's Henry Catchpole!](179/episode.md) Thu, 16 Dec 2021 06:00:20 -0500
-- [The Grey NATO – 173 – November Q & A](178/episode.md) Thu, 09 Dec 2021 06:00:12 -0500
-- [The Grey NATO - 172 – Caves, Wrecks, And Glaciers With Underwater Photographer Becky Schott](177/episode.md) Thu, 02 Dec 2021 06:00:12 -0500
-- [The Grey NATO – 171 – The 2021 Holiday Gift Guide](176/episode.md) Thu, 25 Nov 2021 06:00:29 -0500
-- [The Grey NATO - 170 – A Tale Of Two Dive Watches (the Pelagos FXD and the Deepstar II)](175/episode.md) Fri, 19 Nov 2021 09:01:09 -0500
-- [The Grey NATO – 169 – Challenge // Hamilton](174/episode.md) Thu, 11 Nov 2021 06:00:21 -0500
-- [The Grey NATO – 168 – Designing The Clothes Of The Future With Steve Tidball Of Vollebak](173/episode.md) Thu, 04 Nov 2021 05:42:50 -0400
-- [The Grey NATO – 167 – October Q&A](172/episode.md) Thu, 28 Oct 2021 06:00:34 -0400
-- [The Grey NATO – 166 – Inside Bremont's Big News](171/episode.md) Thu, 21 Oct 2021 06:00:12 -0400
-- [The Grey NATO – 165 – Rock Crawlin' In The Iron Range](170/episode.md) Thu, 14 Oct 2021 06:00:47 -0400
-- [The Grey NATO - 164 - September Q And A](169/episode.md) Thu, 07 Oct 2021 06:00:37 -0400
-- [The Grey NATO - 163 - Cory Richards And The Vacheron Constantin Overseas Everest](168/episode.md) Fri, 01 Oct 2021 11:21:35 -0400
-- [The Grey NATO – 162 – New Watches And New Grails](167/episode.md) Thu, 30 Sep 2021 06:00:16 -0400
-- [The Grey NATO – 161 - Film Club Vol 6 With Tim Stacey](166/episode.md) Thu, 23 Sep 2021 06:00:16 -0400
-- [The Grey NATO – A Week Off (And A Request!)](165/episode.md) Thu, 16 Sep 2021 06:00:37 -0400
-- [The Grey NATO - 160 - Travel, Survival, And Making Wild TV With Megan Hine](164/episode.md) Thu, 09 Sep 2021 06:00:27 -0400
-- [The Grey NATO - 159 - August Q And A](163/episode.md) Thu, 02 Sep 2021 06:00:15 -0400
-- [The Grey NATO - 158 - Jason's Bonaire Field Report](162/episode.md) Wed, 25 Aug 2021 15:29:52 -0400
-- [The Grey NATO - 157 - Military Watches, Practical Fitness, And How To Be Bond With Sean Lerwill](161/episode.md) Thu, 19 Aug 2021 06:00:45 -0400
-- [The Grey NATO - 156 – All The New Watches We're Watching](160/episode.md) Thu, 12 Aug 2021 06:00:36 -0400
-- [The Grey NATO - 155 - MKII, Tornek-Rayville, And Early Microbrands With Bill Yao](159/episode.md) Thu, 05 Aug 2021 06:00:24 -0400
-- [The Grey NATO - 154 - July Q & A](158/episode.md) Thu, 29 Jul 2021 06:00:41 -0400
-- [The Grey NATO - 153 - Gombessa 6, Mysterious Rings, and Decompressing With Laurent Ballesta](157/episode.md) Thu, 22 Jul 2021 06:00:20 -0400
-- [The Grey NATO - 152 - Cole Pennington II](156/episode.md) Thu, 15 Jul 2021 06:00:36 -0400
-- [The Grey NATO - 151 - Challenge // Oris](155/episode.md) Thu, 08 Jul 2021 06:00:22 -0400
-- [The Grey NATO - 150 - June Q And A](154/episode.md) Thu, 01 Jul 2021 06:00:20 -0400
-- [The Grey NATO – 149 – Summer Essentials](153/episode.md) Thu, 24 Jun 2021 06:00:39 -0400
-- [The Grey NATO – 148 – Perfect Product 4](152/episode.md) Thu, 17 Jun 2021 06:00:35 -0400
-- [The Grey NATO - 147 - Designing The Garmin Descent With Patrick Danko](151/episode.md) Thu, 10 Jun 2021 06:00:33 -0400
-- [The Grey NATO - 146 - Collection Inspection 9 (Seiko and Halios)](150/episode.md) Thu, 03 Jun 2021 06:00:21 -0400
-- [The Grey NATO - 145 - Catch Up Q And A!](149/episode.md) Thu, 20 May 2021 06:00:40 -0400
-- [The Grey NATO – 144 – A Rolex For 1 Million Subscribers With Jakub From The Straight Pipes](148/episode.md) Thu, 06 May 2021 06:00:31 -0400
-- [Depth Charge - The Original Soundtrack by Oran Chan](147/episode.md) Wed, 28 Apr 2021 21:11:10 -0400
-- [The Grey NATO – 143 – DEPTH CHARGE](146/episode.md) Thu, 22 Apr 2021 06:00:41 -0400
-- [The Grey NATO – 142 – Rolex, Tudor, And Many More Wonders](145/episode.md) Thu, 08 Apr 2021 06:00:31 -0400
-- [The Grey NATO - 141 - Bremont's Got A Wing And Some New Watches](144/episode.md) Thu, 25 Mar 2021 06:00:39 -0400
-- [The Grey NATO – 140 – Under-Appreciated Watch Brands We Love](143/episode.md) Thu, 11 Mar 2021 06:00:38 -0500
-- [The Grey NATO – 139 – Challenge: Sinn](142/episode.md) Thu, 25 Feb 2021 06:00:38 -0500
-- [The Grey NATO - 138 - February Q And A](141/episode.md) Thu, 18 Feb 2021 06:00:25 -0500
-- [The Grey NATO - 137 - If We Were Watch Brand CEOs](140/episode.md) Thu, 11 Feb 2021 06:00:22 -0500
-- [The Grey NATO - 136 - Straight to the Moon(watch)!](139/episode.md) Thu, 28 Jan 2021 06:00:27 -0500
-- [The Grey NATO - 135 - Gishani!](138/episode.md) Thu, 14 Jan 2021 06:00:09 -0500
-- [The Grey NATO - 134 - Our Favorite Watches Of 2020](137/episode.md) Thu, 17 Dec 2020 06:00:10 -0500
-- [The Grey NATO – 133 – November Q And A](136/episode.md) Thu, 10 Dec 2020 06:00:10 -0500
-- [The Grey NATO - 132 - Holiday Gift Guide 2020](135/episode.md) Thu, 03 Dec 2020 06:00:15 -0500
-- [The Grey NATO - 131 - Film Club Vol 5](134/episode.md) Thu, 19 Nov 2020 06:00:11 -0500
-- [The Grey NATO - 130 - October Q And A](133/episode.md) Thu, 12 Nov 2020 08:25:24 -0500
-- [The Grey NATO - 129 - So Many New Watches](132/episode.md) Thu, 05 Nov 2020 06:00:24 -0500
-- [The Grey NATO - 128 - Aquastar, Doxa, And Hayabusa Swaps With Rick Marei](131/episode.md) Thu, 22 Oct 2020 06:00:16 -0400
-- [The Grey NATO - 127 - September Q and A](130/episode.md) Fri, 16 Oct 2020 12:41:52 -0400
-- [The Grey NATO - 126 - Watch Discomfort Zones](129/episode.md) Thu, 08 Oct 2020 06:00:17 -0400
-- [The Grey NATO - 125 - How We Fall](128/episode.md) Thu, 24 Sep 2020 06:00:24 -0400
-- [The Grey NATO - 124 - August 2020 Q and A](127/episode.md) Mon, 14 Sep 2020 13:48:07 -0400
-- [The Grey NATO - 123 - Diving Deeper With Ocean Explorer Extraordinaire Laurent Ballesta](126/episode.md) Thu, 10 Sep 2020 06:00:13 -0400
-- [The Grey NATO - 122 - A Summary Of Summery Dive Watches](125/episode.md) Thu, 27 Aug 2020 06:00:27 -0400
-- [The Grey NATO - 121 - Proteus, Dive Watches, And Fried Chicken With Fabien Cousteau](124/episode.md) Thu, 13 Aug 2020 06:00:13 -0400
-- [The Grey NATO - 120 - July Q And A](123/episode.md) Thu, 30 Jul 2020 06:00:26 -0400
-- [The Grey NATO - Ep 119 - Gold And Broncos With James Lamdin](122/episode.md) Thu, 23 Jul 2020 06:00:19 -0400
-- [The Grey NATO - 118 - On Paper, On Wrist // The Seiko SPB143](121/episode.md) Thu, 16 Jul 2020 06:00:16 -0400
-- [The Grey NATO - Ep 117 - Summer EDC With Kyle Snarr](120/episode.md) Thu, 09 Jul 2020 06:00:14 -0400
-- [The Grey NATO - Ep 116 - June Q And A](119/episode.md) Thu, 25 Jun 2020 06:00:22 -0400
-- [The Grey NATO - Ep 115 - Challenge: Seiko](118/episode.md) Thu, 18 Jun 2020 06:00:22 -0400
-- [The Grey NATO - Ep 114 - The Isolation Tapes // Topic Not Found](117/episode.md) Thu, 11 Jun 2020 06:00:48 -0400
-- [The Grey NATO – Ep 113 – The Isolation Tapes // May Q And A](116/episode.md) Thu, 28 May 2020 06:00:27 -0400
-- [The Grey NATO - Ep 112 - The Isolation Tapes // Perfect Product #3](115/episode.md) Thu, 21 May 2020 06:00:33 -0400
-- [The Grey NATO - Ep 111 - The Isolation Tapes // Tudor](114/episode.md) Thu, 14 May 2020 06:00:23 -0400
-- [The Grey NATO - Ep 110 - The Isolation Tapes // Film Club Vol 4](113/episode.md) Thu, 07 May 2020 06:00:24 -0400
-- [The Grey NATO – Ep 109 – The Isolation Tapes // April Q and A](112/episode.md) Thu, 30 Apr 2020 06:00:38 -0400
-- [The Grey NATO - Ep 108 - The Isolation Tapes Ft. Josh Perez](111/episode.md) Thu, 23 Apr 2020 06:00:23 -0400
-- [The Grey NATO - Ep 107 - The Isolation Tapes Ft. Cole Pennington](110/episode.md) Thu, 16 Apr 2020 06:00:13 -0400
-- [The Grey NATO - Ep 106 - The Isolation Tapes // A Refreshing Watch](109/episode.md) Thu, 09 Apr 2020 06:00:23 -0400
-- [The Grey NATO - Ep 105 - The Isolation Tapes // More Q and A](108/episode.md) Thu, 02 Apr 2020 06:00:12 -0400
-- [The Grey NATO – Ep 104 – Isolation Tapes // TGN Bookclub](107/episode.md) Thu, 26 Mar 2020 06:00:20 -0400
-- [The Grey NATO - Ep 103 - The Isolation Tapes // Work From Home Like A Pro](106/episode.md) Thu, 19 Mar 2020 06:00:20 -0400
-- [The Grey NATO - Ep 102 - Desert Island Picks (And The Meetup Has Been Postponed. Sorry)](105/episode.md) Thu, 12 Mar 2020 06:00:00 -0400
-- [The Grey NATO - Ep 101 - A Proper Q And A Megasode](104/episode.md) Thu, 27 Feb 2020 06:00:20 -0500
-- [The Grey NATO – Ep 100 – Hang Out With Us In NYC!](103/episode.md) Thu, 13 Feb 2020 06:00:20 -0500
-- [The Grey NATO - Ep 99 - Gold Oris And The Black Diamond Boys](102/episode.md) Thu, 30 Jan 2020 06:00:30 -0500
-- [The Grey NATO - Ep 98 - Collection Inspection Vol 8](101/episode.md) Thu, 16 Jan 2020 06:00:10 -0500
-- [The Grey NATO - Ep 97 - Our Best Bits Of 2019](100/episode.md) Thu, 02 Jan 2020 06:00:43 -0500
-- [The Grey NATO - Ep 96 - DOXA](99/episode.md) Thu, 19 Dec 2019 06:00:33 -0500
-- [The Grey NATO - Ep 95 - The 2019 Watch (And Watch Things) Gift Guide](98/episode.md) Thu, 05 Dec 2019 06:01:03 -0500
-- [The Grey NATO - Ep 94 - The 2019 TGN Holiday Gift Guide](97/episode.md) Thu, 21 Nov 2019 06:00:13 -0500
-- [The Grey NATO - Ep 93 - A Chat With Andy Mann](96/episode.md) Thu, 07 Nov 2019 07:00:02 -0500
-- [The Grey NATO - Ep 92 - TGN Film Club 3](95/episode.md) Thu, 24 Oct 2019 06:00:22 -0400
-- [The Grey NATO - Ep 91 - Ready For Adventure](94/episode.md) Thu, 10 Oct 2019 06:00:14 -0400
-- [The Grey NATO - Ep 90 - A Chat With Paul Scurfield Of Scurfa Watches](93/episode.md) Thu, 26 Sep 2019 06:00:25 -0400
-- [The Grey NATO - Ep 89 - Our Fav Watch Complications](92/episode.md) Thu, 12 Sep 2019 06:00:16 -0400
-- [The Grey NATO - Ep 88 - A Chat With Nirmal “Nims” Purja](91/episode.md) Thu, 29 Aug 2019 06:00:26 -0400
-- [The Grey NATO - Ep 87 - Perfect Product #2](90/episode.md) Thu, 15 Aug 2019 06:00:35 -0400
-- [The Grey NATO - Ep 86 - Quartz Concerns](89/episode.md) Thu, 01 Aug 2019 06:00:15 -0400
-- [The Grey NATO - Ep 85 - A Chat With Cory Richards](88/episode.md) Thu, 18 Jul 2019 06:00:04 -0400
-- [The Grey NATO - Ep 84 - Homage, Yes Or No?](87/episode.md) Thu, 04 Jul 2019 06:51:16 -0400
-- [The Grey NATO - Ep 83 - Collection Inspection Vol 7](86/episode.md) Thu, 20 Jun 2019 05:59:59 -0400
-- [The Grey NATO - Ep 82 - Watches, Adventures, And Ambassadors](85/episode.md) Thu, 06 Jun 2019 09:04:46 -0400
-- [The Grey NATO - Ep 81 - TGN Film Club 2](84/episode.md) Thu, 23 May 2019 06:00:37 -0400
-- [The Grey NATO - Ep 80 - Vintage Cool Or Too Cool To Wear?](83/episode.md) Thu, 09 May 2019 06:00:39 -0400
-- [The Grey NATO - Ep 79 - Straps!](82/episode.md) Thu, 25 Apr 2019 06:00:14 -0400
-- [The Grey NATO - Ep 78 - The Baselworld 2019 Megasode](81/episode.md) Thu, 11 Apr 2019 06:00:04 -0400
-- [The Grey Nato - Ep 77 - Face To Face At The Bremont Townhouse 2019](80/episode.md) Thu, 28 Mar 2019 06:00:19 -0400
-- [The Grey NATO - Ep 76 - Perfect Product #1](79/episode.md) Thu, 07 Mar 2019 06:00:18 -0500
-- [The Grey NATO - Ep 75 - Watches And...](78/episode.md) Thu, 21 Feb 2019 06:00:15 -0500
-- [The Grey NATO - Ep 74 - All The SIHH Feels](77/episode.md) Thu, 07 Feb 2019 06:00:05 -0500
-- [The Grey NATO - Ep 73 - Downhill Adventures With Oris](76/episode.md) Thu, 24 Jan 2019 06:00:13 -0500
-- [The Grey NATO - Ep 72 - Watch Resolutions](75/episode.md) Thu, 10 Jan 2019 06:00:15 -0500
-- [The Grey NATO - Ep 71 - Fav Watches (and Other Stuff) Of 2018](74/episode.md) Thu, 27 Dec 2018 06:00:25 -0500
-- [The Grey NATO - Ep 70 - Gift Guide 2018](73/episode.md) Thu, 13 Dec 2018 06:00:05 -0500
-- [The Grey NATO - Ep 69 - TGN Film Club 1](72/episode.md) Thu, 29 Nov 2018 09:00:04 -0500
-- [The Grey NATO - Ep 68 - What Watch Should I Get?](71/episode.md) Thu, 15 Nov 2018 09:00:08 -0500
-- [The Grey NATO - Ep 67 - Collection Inspection Vol 6](70/episode.md) Thu, 01 Nov 2018 03:00:23 -0400
-- [The Grey NATO - Ep 66 - We're Back!](69/episode.md) Thu, 18 Oct 2018 06:00:09 -0400
-- [The Grey NATO - Ep 65 - Summer Break!](68/episode.md) Tue, 07 Aug 2018 09:00:05 -0400
-- [The Grey NATO - Ep 64 - Dive Watch Retirement](67/episode.md) Tue, 24 Jul 2018 09:00:14 -0400
-- [The Grey NATO - Ep 63 - Are Smartwatches Dumb?](66/episode.md) Tue, 10 Jul 2018 09:00:05 -0400
-- [The Grey NATO - Ep 62 - Goldenboy And The Megafaunas](65/episode.md) Tue, 26 Jun 2018 09:00:04 -0400
-- [The Grey NATO - Ep 61 - Don't Do That With Your Watch](64/episode.md) Tue, 12 Jun 2018 09:00:05 -0400
-- [The Grey NATO- Ep 60 - Blue Planet, Green Car](63/episode.md) Tue, 29 May 2018 09:00:12 -0400
-- [The Grey NATO - EP 59 - Collecting Watches?](62/episode.md) Tue, 15 May 2018 09:00:02 -0400
-- [The Grey NATO - Ep 58 - Everyday Travel Tips](61/episode.md) Tue, 01 May 2018 09:00:16 -0400
-- [The Grey NATO - Ep 57 - Abe Burmeister Of Outlier](60/episode.md) Tue, 17 Apr 2018 09:00:03 -0400
-- [The Grey NATO - Ep 56 - Basel And Back Again](59/episode.md) Tue, 03 Apr 2018 09:00:00 -0400
-- [The Grey NATO - Ep 55 - New York & The Bremont Townhouse](58/episode.md) Tue, 20 Mar 2018 07:18:42 -0400
-- [The Grey NATO - Ep 54 - New Watch Season](57/episode.md) Tue, 06 Mar 2018 09:44:45 -0500
-- [The Grey NATO - Ep 53 - A Tale Of Two Dive Watches](56/episode.md) Tue, 20 Feb 2018 10:05:09 -0500
-- [The Grey NATO - Ep 52 - Watchmaker Q&A // Jason Gallop (Roldorf & Co)](55/episode.md) Tue, 06 Feb 2018 09:43:28 -0500
-- [The Grey NATO - Ep 51 - Live From Geneva It's SIHH](54/episode.md) Tue, 23 Jan 2018 09:59:29 -0500
-- [The Grey NATO - Ep 50 - Oak & Oscar & More](53/episode.md) Tue, 09 Jan 2018 09:29:05 -0500
-- [The Grey NATO - Ep 49 - The Rocky Mountain Way](52/episode.md) Tue, 12 Dec 2017 09:41:58 -0500
-- [The Grey NATO - Ep 48 - Collection Inspection Vol 5](51/episode.md) Tue, 28 Nov 2017 09:44:45 -0500
-- [The Grey NATO - Ep 47 - Random Holiday Gift Guide](50/episode.md) Tue, 14 Nov 2017 08:43:02 -0500
-- [The Grey NATO - Ep 46 - Sartorial Adventures](49/episode.md) Tue, 31 Oct 2017 09:29:51 -0400
-- [The Grey NATO - Ep 45 - A New York State Of Mind](48/episode.md) Tue, 17 Oct 2017 10:00:55 -0400
-- [The Grey NATO - Ep 44 - The English Tour](47/episode.md) Tue, 03 Oct 2017 09:52:23 -0400
-- [The Grey NATO - Ep 43 - The Hermes Adventure](46/episode.md) Tue, 19 Sep 2017 07:59:46 -0400
-- [The Grey Nato - Ep 42 - Jason Lim of Halios Watches](45/episode.md) Tue, 05 Sep 2017 03:49:03 -0400
-- [The Grey NATO - Ep 41 - Diving 101](44/episode.md) Tue, 22 Aug 2017 09:40:15 -0400
-- [The Grey Nato - Ep 40 - TGN EDC](43/episode.md) Tue, 08 Aug 2017 09:02:06 -0400
-- [The Grey Nato - Ep 39 - Seaforth](42/episode.md) Tue, 25 Jul 2017 09:01:41 -0400
-- [The Grey Nato - Ep 38 - Does In-House Matter?](41/episode.md) Tue, 11 Jul 2017 09:01:25 -0400
-- [The Grey Nato - Ep 37 - Collection Inspection Vol 4](40/episode.md) Tue, 27 Jun 2017 09:01:58 -0400
-- [The Grey Nato - Ep 36 - Quartz Crisis?](39/episode.md) Tue, 13 Jun 2017 09:05:32 -0400
-- [The Grey Nato - Ep 35 - From Clipperton With Love](38/episode.md) Tue, 30 May 2017 09:01:47 -0400
-- [The Grey Nato - Ep 34 - Q&A Awayisode](37/episode.md) Tue, 16 May 2017 09:28:27 -0400
-- [The Grey Nato - Ep 33 - The Perfect Watch Trio](36/episode.md) Tue, 02 May 2017 05:41:01 -0400
-- [The Grey Nato - Ep 32 - Great Watches Under $250](35/episode.md) Tue, 18 Apr 2017 09:02:28 -0400
-- [The Grey Nato - Ep 31 - The Baselworld 2017 Megasode](34/episode.md) Tue, 04 Apr 2017 09:02:20 -0400
-- [The Grey Nato - Ep 30 - Pre Basel + Q&A](33/episode.md) Tue, 21 Mar 2017 09:34:51 -0400
-- [The Grey Nato - Ep 29 - The Bremont Field Report](32/episode.md) Tue, 07 Mar 2017 09:05:07 -0500
-- [The Grey Nato - EP 28 - Rolex](31/episode.md) Tue, 21 Feb 2017 09:03:49 -0500
-- [The Grey Nato - Ep 27 - Future Classic Watches](30/episode.md) Tue, 07 Feb 2017 09:01:21 -0500
-- [The Grey Nato - Ep 26 - Field Report SIHH 2017](29/episode.md) Tue, 24 Jan 2017 08:56:39 -0500
-- [The Grey Nato Ep 25  - Dream Watches 2017](28/episode.md) Tue, 10 Jan 2017 09:07:59 -0500
-- [The Grey Nato - Ep 24 - Favs Of 2016](27/episode.md) Tue, 20 Dec 2016 09:13:18 -0500
-- [The Grey Nato - Ep 23 - Collection Inspection Vol 3](26/episode.md) Tue, 06 Dec 2016 09:04:08 -0500
-- [The Grey Nato - Ep 22 - New Watch Alert!!!](25/episode.md) Tue, 22 Nov 2016 09:01:21 -0500
-- [The Grey Nato - EP 21 - Watches Under $1000](24/episode.md) Tue, 08 Nov 2016 08:54:08 -0500
-- [The Grey Nato - Question & Answer #1](23/episode.md) Tue, 01 Nov 2016 09:08:34 -0400
-- [The Grey Nato - EP 20 - "Seiko"](22/episode.md) Tue, 25 Oct 2016 08:57:24 -0400
-- [The Grey Nato - EP 19 - Watch Accessories](21/episode.md) Tue, 11 Oct 2016 09:06:47 -0400
-- [The Grey Nato - EP 18 - In Focus: Take Better Photos](20/episode.md) Tue, 27 Sep 2016 09:04:37 -0400
-- [The Grey Nato - EP 17 - On Paper/On Wrist: The Doxa 50th Sub 300](19/episode.md) Tue, 13 Sep 2016 09:00:05 -0400
-- [TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)](18/episode.md) Tue, 06 Sep 2016 09:01:40 -0400
-- [The Grey Nato - EP 16 - "Collection Inspection Volume 2"](17/episode.md) Tue, 30 Aug 2016 09:03:40 -0400
-- [The Grey Nato - Ep 15 - "Peak Bag"](16/episode.md) Tue, 16 Aug 2016 09:02:51 -0400
-- [TGN Chats - Chase Fancher :: Oak & Oscar](15/episode.md) Tue, 09 Aug 2016 09:02:08 -0400
-- [The Grey Nato - EP 14 - "TGN Summit"](14/episode.md) Tue, 02 Aug 2016 09:03:02 -0400
-- [The Grey Nato - Ep 13 - "Cars And Watches"](13/episode.md) Tue, 19 Jul 2016 09:02:29 -0400
-- [The Grey Nato - Episode 12 - "One Watch???"](12/episode.md) Tue, 05 Jul 2016 09:02:13 -0400
-- [The Grey Nato - Episode 11 - "What's Old Is New (again)"](11/episode.md) Tue, 21 Jun 2016 09:03:47 -0400
-- [The Grey Nato - Episode 10 - "Collection Inspection: Volume 1"](10/episode.md) Tue, 07 Jun 2016 08:58:03 -0400
-- [The Grey Nato - Episode 09 - "Open Water Certifiable"](9/episode.md) Tue, 24 May 2016 09:00:43 -0400
-- [The Grey Nato - Episode 08 - "The Ones That Got Away"](8/episode.md) Tue, 10 May 2016 08:59:27 -0400
-- [The Grey Nato - Episode 07 - "Partners In Time"](7/episode.md) Tue, 26 Apr 2016 08:55:37 -0400
-- [The Grey Nato - Episode 06 - "Summer Mountain Time"](6/episode.md) Tue, 12 Apr 2016 08:49:28 -0400
-- [The Grey Nato - Episode 05 - "The Baselworld Jet Lag Megasode"](5/episode.md) Tue, 29 Mar 2016 08:49:29 -0400
-- [The Grey Nato - Episode 04 - "No Sleep Till Basel"](4/episode.md) Sun, 13 Mar 2016 11:39:27 -0400
-- [The Grey Nato - Episode 03 - In Too Deep](3/episode.md) Tue, 01 Mar 2016 08:49:21 -0500
-- [The Grey Nato - Episode 02 - Origin Stories](2/episode.md) Tue, 16 Feb 2016 08:50:32 -0500
-- [The Grey Nato - Episode 01 - "All Lux'd Out"](1/episode.md) Mon, 01 Feb 2016 22:10:41 -0500
+### Page updated 2026-01-30T11:47:36.160477-08:00 - 372 episodes
+- [The Grey NATO – 362 – 10 Years of TGN With Mike Pearson](372.0/episode.md) Thu, 29 Jan 2026 06:00:00 -0500
+- [The Grey NATO – 361 – Film Club Vol. 13](371.0/episode.md) Thu, 22 Jan 2026 08:00:00 -0500
+- [The Grey NATO – 360 – Slack Crew & A [Part 7: Travel, Watches We'd Never Own, Dalton's Bond, And Watches On The Wrong Side Of History]](370.0/episode.md) Thu, 15 Jan 2026 06:00:00 -0500
+- [The Grey NATO – 359 – The 2026 TGN "In" & "Out" List](369.0/episode.md) Thu, 08 Jan 2026 06:00:00 -0500
+- [The Grey NATO – 358 – Final Notes Greatest Hits Of 2025](368.0/episode.md) Thu, 18 Dec 2025 06:00:00 -0500
+- [The Grey NATO – 357 – Our Favorite Watches of 2025](367.0/episode.md) Thu, 11 Dec 2025 06:00:00 -0500
+- [The Grey NATO – 356 – The 2025 TGN Holiday Gift Guide](366.0/episode.md) Thu, 04 Dec 2025 06:00:00 -0500
+- [The Grey NATO – 355 – The 36mm Tudor Ranger & Other New Watches](365.0/episode.md) Thu, 27 Nov 2025 06:00:00 -0500
+- [The Grey NATO – 354 – A Brand New Omega Planet Ocean And Trip Reports](364.0/episode.md) Thu, 20 Nov 2025 06:00:00 -0500
+- [The Grey NATO – 353 – A Chat With Ben Fogle [Adventurer, Broadcaster, Author, And Owner of Buffalo Systems]](363.0/episode.md) Thu, 13 Nov 2025 06:00:00 -0500
+- [The Grey NATO – 352 – Picking Birth Year Watches](362.0/episode.md) Thu, 06 Nov 2025 06:00:00 -0500
+- [The Grey NATO – 351 – Tactile Turn x TGN, Watch Writing, 3D Printing, Pen Collecting & More With Ed Jelley](361.0/episode.md) Thu, 30 Oct 2025 06:00:00 -0400
+- [The Grey NATO – 350 – Things We'd Prefer Not To Live Without](360.0/episode.md) Thu, 23 Oct 2025 06:00:00 -0400
+- [The Grey NATO – 349 – Watch Enthusiasm, Then and Now](359.0/episode.md) Thu, 16 Oct 2025 06:00:00 -0400
+- [The Grey NATO – 348 – Slack Crew & A 2025 Part 6 [Camping, Watches with Personality, Dream watches, And a Special Dispatch from Geneva]](358.0/episode.md) Thu, 09 Oct 2025 06:00:00 -0400
+- [The Grey NATO – 347 – Hunting (And Finding) Shipwrecks With Derek Haager & Matt Ludvigson](357.0/episode.md) Thu, 02 Oct 2025 06:00:00 -0400
+- [The Grey NATO – 346 – What Community Means To Watches [Live From The Toronto Timepiece Show]](356.0/episode.md) Thu, 25 Sep 2025 06:00:00 -0400
+- [The Grey NATO – 345 – The Horological Hunt With Daniel Miller](355.0/episode.md) Thu, 18 Sep 2025 06:00:00 -0400
+- [The Grey NATO – 344 – Forgotten Watches We Still Love](354.0/episode.md) Thu, 11 Sep 2025 06:00:00 -0400
+- [The Grey NATO – 343 – Slack Crew & A 2025 Part 5 [Our Own Shows, Designing a PR Event, BB vs. Sub, & How Many Straps Do We Own?]](353.0/episode.md) Thu, 04 Sep 2025 06:00:00 -0400
+- [The Grey NATO – 342 – From The Hebrides To Brooklyn With The Paulin Mara Diver](352.0/episode.md) Thu, 28 Aug 2025 06:00:00 -0400
+- [The Grey NATO – 341 –  A Chat with Jack Carr [Former Navy SEAL, Bestselling Author, and Watch Enthusiast]](351.0/episode.md) Thu, 21 Aug 2025 06:00:00 -0400
+- [The Grey NATO – 340 – Jason Hutton Of The Timepiece Shows & Zenea Watches](350.0/episode.md) Thu, 14 Aug 2025 06:00:00 -0400
+- [The Grey NATO – 339 – Inside Citizen And The Aqualand With Neall Brick](349.0/episode.md) Thu, 07 Aug 2025 06:00:00 -0400
+- [The Grey NATO – 338 – Going Pro In Watches With Writer-Photographer Troy Barmore](348.0/episode.md) Thu, 31 Jul 2025 06:00:00 -0400
+- [The Grey NATO – 337 – Orange & Black Is Back For Summer](347.0/episode.md) Thu, 24 Jul 2025 06:00:00 -0400
+- [The Grey NATO – 336 – Oops! All Mods!](346.0/episode.md) Thu, 17 Jul 2025 06:00:00 -0400
+- [The Grey NATO – 335 – Guilty Pleasure Watches (and more!)](345.0/episode.md) Thu, 26 Jun 2025 06:00:00 -0400
+- [The Grey NATO – 334 – The Dive Watches of Summer 2025!](344.0/episode.md) Thu, 19 Jun 2025 06:00:00 -0400
+- [The Grey NATO – 333 – Slack Crew & A 2025 Part 4 [Watch gifts, best lenses, comfort viewing, and lessons we wish we learned earlier]](343.0/episode.md) Thu, 12 Jun 2025 06:00:00 -0400
+- [The Grey NATO – 332 – The 2025 Summer Watch Draft](342.0/episode.md) Thu, 05 Jun 2025 06:00:00 -0400
+- [The Grey NATO – 331 – Adventurous Women & Their Watches With Rhonda Riche](341.0/episode.md) Thu, 29 May 2025 06:00:00 -0400
+- [The Grey NATO – 330 – From The Hebrides With Love](340.0/episode.md) Thu, 22 May 2025 06:00:00 -0400
+- [The Grey NATO – 329 – A Deep Dive With Brock Stevens & Chris Sohl](339.0/episode.md) Thu, 15 May 2025 06:00:00 -0400
+- [The Grey NATO – 328 – Slack Crew & A 2025 Part 3 [Watches that disappoint, dinner party menus, weekend cars, and watch elevator pitches]](338.0/episode.md) Thu, 08 May 2025 06:00:00 -0400
+- [The Grey NATO – 327 – The Vancouver Timepiece Show (Special Chats & Lots of Watches)](337.0/episode.md) Thu, 01 May 2025 06:00:00 -0400
+- [The Grey NATO – 326 – Imperfect Products (Land Rover vs. Jeep)](336.0/episode.md) Thu, 24 Apr 2025 06:00:00 -0400
+- [The Grey NATO – 325 – Book Club 4](335.0/episode.md) Thu, 17 Apr 2025 06:00:00 -0400
+- [The Grey NATO – 324 – Watches And Wonders 2025 Megasode](334.0/episode.md) Thu, 10 Apr 2025 06:00:00 -0400
+- [The Grey NATO – 323 – Doxa Revives the Sub GMT + Our Hopes For Rolex and Tudor at Watches & Wonders 2025](333.0/episode.md) Thu, 27 Mar 2025 06:00:00 -0400
+- [The Grey NATO – 322 – Slack Crew & A 2025 Part 2 [American watches, collecting, changes to the show, camping must-haves, and more]](332.0/episode.md) Thu, 20 Mar 2025 06:00:00 -0400
+- [The Grey NATO – 321 – CWC & The CWN1 With Malcolm Bliss](331.0/episode.md) Thu, 06 Mar 2025 06:00:00 -0500
+- [The Grey NATO – 320 – New Watches From Sinn, Omega, Nodus, Vertex, & More](330.0/episode.md) Thu, 27 Feb 2025 06:00:00 -0500
+- [The Grey NATO – 319 – Film Club Vol. 12 With Stuntman Tom Place](329.0/episode.md) Thu, 20 Feb 2025 06:00:00 -0500
+- [The Grey NATO – 318 – Exploring Pangatalan Island With Blancpain](328.0/episode.md) Thu, 13 Feb 2025 06:00:00 -0500
+- [The Grey NATO – 317 – Slack Crew & A 2025 Part 1 [Bug out bags, great quartz options, sundaes, safety stops activities, watches vs. adventures, & more]](327.0/episode.md) Thu, 06 Feb 2025 06:00:00 -0500
+- [The Grey NATO – 316 – The "One Watch" Tournament Championship!](326.0/episode.md) Thu, 30 Jan 2025 06:00:00 -0500
+- [The Grey NATO – 315 – Round 3 Of The "One Watch" Tournament – The Final Four](325.0/episode.md) Thu, 23 Jan 2025 06:00:00 -0500
+- [The Grey NATO – 314 – Round 2 Of The "One Watch" Tournament (+ New Fundraiser T-Shirt For LA Firefighters)](324.0/episode.md) Thu, 16 Jan 2025 06:00:00 -0500
+- [The Grey NATO – 313 – The "One Watch" TGN Tournament (With Public Voting!)](323.0/episode.md) Thu, 09 Jan 2025 06:00:00 -0500
+- [The Grey NATO – 312 – Final Notes Greatest Hits Of 2024](322.0/episode.md) Thu, 19 Dec 2024 06:00:00 -0500
+- [The Grey NATO – 311 – Our Favorite Watches of 2024](321.0/episode.md) Thu, 12 Dec 2024 06:00:00 -0500
+- [The Grey NATO – 310 – The 2024 TGN Holiday Gift Guide](320.0/episode.md) Thu, 05 Dec 2024 06:00:00 -0500
+- [The Grey NATO – 309 – Ingrained With Callum Robinson](319.0/episode.md) Thu, 21 Nov 2024 06:00:00 -0500
+- [The Grey NATO – 308 – Slack Crew & A 2024 // Part 6](318.0/episode.md) Thu, 14 Nov 2024 06:00:00 -0500
+- [The Grey NATO – 307 – Talking Tudor And The Pelagos FXD GMT](317.0/episode.md) Thu, 07 Nov 2024 03:00:00 -0500
+- [The Grey NATO – 306 – How To Gift A Watch](316.0/episode.md) Thu, 31 Oct 2024 06:00:00 -0400
+- [The Grey NATO – 305 – Drafting Our Favorite Watches In Movies](315.0/episode.md) Thu, 24 Oct 2024 06:00:00 -0400
+- [The Grey NATO – 304 – On Paper, On Wrist: The Christopher Ward C60 Trident Lumière](314.0/episode.md) Thu, 17 Oct 2024 06:00:00 -0400
+- [The Grey NATO – 303 – Face To Face For A Weekend In Toronto](313.0/episode.md) Thu, 10 Oct 2024 06:00:00 -0400
+- [The Grey NATO – 302 – Live With Friends From The Toronto Timepiece Show](312.0/episode.md) Thu, 03 Oct 2024 06:00:00 -0400
+- [The Grey NATO – 301 – Slack Crew & A 2024 // Part 5](311.0/episode.md) Thu, 26 Sep 2024 06:00:00 -0400
+- [The Grey NATO – 300!](310.0/episode.md) Thu, 19 Sep 2024 06:00:00 -0400
+- [The Grey NATO – 299 – Marathon Watch Co. With Mitchell Wein](309.0/episode.md) Thu, 12 Sep 2024 06:00:00 -0400
+- [The Grey NATO – 298 – Ben Lowry [Watches of Espionage, Luxury Watches, Commercial Diving, and the Coast Guard]](308.0/episode.md) Thu, 05 Sep 2024 06:00:00 -0400
+- [The Grey NATO – 297 – Collection Inspection Vol. 13 // Oops All Seikos](307.0/episode.md) Thu, 29 Aug 2024 06:00:00 -0400
+- [The Grey NATO – 296 – Training Tall With Austin Hendrickson](306.0/episode.md) Thu, 22 Aug 2024 06:00:00 -0400
+- [Out Of Office – Back August 22nd](305.0/episode.md) Thu, 08 Aug 2024 06:00:00 -0400
+- [The Grey NATO – 295 – Photographer And Director Gajan Balan](304.0/episode.md) Thu, 01 Aug 2024 06:00:00 -0400
+- [The Grey NATO – 294 – From British Special Forces to Running a Clothing Brand, with Anthony “Staz” Stazicker, Co-Founder of ThruDark](303.0/episode.md) Thu, 25 Jul 2024 06:00:00 -0400
+- [The Grey NATO – 293 – Windup Chicago 2024 With The Worn & Wound Podcast](302.0/episode.md) Thu, 18 Jul 2024 06:00:00 -0400
+- [The Grey NATO – 292 – Drafting Summer Watches (And A New UDT!)](301.0/episode.md) Thu, 11 Jul 2024 06:00:00 -0400
+- [The Grey NATO – 291 – Film Club Vol. 11](300.0/episode.md) Thu, 04 Jul 2024 06:00:00 -0400
+- [The Grey NATO – 290 – The Fan Dance](299.0/episode.md) Thu, 27 Jun 2024 06:00:00 -0400
+- [The Grey NATO – 289 – Catching Up With Zach Pina (Photographer, Watch Writer, And More)](298.0/episode.md) Thu, 20 Jun 2024 06:00:00 -0400
+- [The Grey NATO – 288 – Slack Crew & A 2024 // Part 4](297.0/episode.md) Thu, 13 Jun 2024 06:00:00 -0400
+- [The Grey NATO – 287 – Collection Inspection Vol. 12 // Blancpain vs. Blancpain (Sort of)](296.0/episode.md) Thu, 06 Jun 2024 06:00:00 -0400
+- [The Grey NATO – 286 – How We'd Cast The Next James Bond Film](295.0/episode.md) Thu, 30 May 2024 06:00:00 -0400
+- [The Grey NATO – 285 – A Chat With Richie Kohler: Diving Legend, Shipwreck Explorer, Historian, and Author](294.0/episode.md) Thu, 23 May 2024 06:00:00 -0400
+- [The Grey NATO – 284 – A Last Minute Mountain Adventure In Switzerland](293.0/episode.md) Thu, 16 May 2024 06:00:00 -0400
+- [The Grey NATO – 283 – Diving The Channel Islands With Oceana and Blancpain](292.0/episode.md) Thu, 09 May 2024 06:00:00 -0400
+- [The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland](291.0/episode.md) Mon, 06 May 2024 15:00:00 -0400
+- [The Grey NATO – 282 – Thomas Holland Returns To Talk Throttle House, Land Cruisers, Costa Rica Diving, Overlanding, and More](290.0/episode.md) Thu, 02 May 2024 06:00:00 -0400
+- [The Grey NATO – 281 – Slack Crew & A 2024 // Part 3](289.0/episode.md) Thu, 25 Apr 2024 10:00:00 -0400
+- [The Grey NATO – 280 – All Lux'd Out Again (Watches And Wonders 2024 Megasode)](288.0/episode.md) Thu, 18 Apr 2024 06:00:00 -0400
+- [The Grey NATO – 279 – Hot News From Doxa And A Chat With Chris Sohl, Avid Diver and Slack Mod Extraordinaire](287.0/episode.md) Thu, 04 Apr 2024 06:00:00 -0400
+- [The Grey NATO – 278 – Rolex & Tudor Predictions (Also: To Catch A Slack Thief)](286.0/episode.md) Thu, 28 Mar 2024 06:00:00 -0400
+- [The Grey NATO – 277 – Slack Crew & A 2024 // Part 2](285.0/episode.md) Thu, 21 Mar 2024 06:00:00 -0400
+- [The Grey NATO – 276 – Jason's Very English Adventure [Bremont, Flying Vintage Planes, Alex Bescoby, and THE Land Rover]](284.0/episode.md) Thu, 14 Mar 2024 06:00:00 -0400
+- [The Grey NATO – 275 – Catching Up With Wesley Smith of Standard H](283.0/episode.md) Thu, 07 Mar 2024 06:00:00 -0500
+- [The Grey NATO – 274 – Fitness 2024 (Rethinking Alcohol, the Oura Ring, & More)](282.0/episode.md) Thu, 29 Feb 2024 06:00:00 -0500
+- [The Grey NATO – 273 – Designing Watches For The Future of Space Exploration With Karel Bachand of Barrelhand Watches](281.0/episode.md) Thu, 22 Feb 2024 06:00:00 -0500
+- [The Grey NATO – 272 – Dr. Rebecca Struthers and ‘Hands Of Time: A Watchmaker’s History'](280.0/episode.md) Thu, 15 Feb 2024 06:00:00 -0500
+- [The Grey NATO – 271 – Slack Crew & A 2024 // Part 1](279.0/episode.md) Thu, 08 Feb 2024 06:00:00 -0500
+- [The Grey NATO – 270 – Legendary Ice Climber Will Gadd On Adventure, Risk, and Becoming A Watch Ambassador](278.0/episode.md) Thu, 01 Feb 2024 06:00:00 -0500
+- [The Grey NATO – 269 – Costa Rica And The Red Devil Breitling](277.0/episode.md) Thu, 25 Jan 2024 06:00:00 -0500
+- [The Grey NATO – 268 – The Watch List Vol. 1](276.0/episode.md) Thu, 18 Jan 2024 06:00:00 -0500
+- [The Grey NATO – 267 – The Deep Track With Blake Buettner](275.0/episode.md) Thu, 11 Jan 2024 06:00:00 -0500
+- [The Grey NATO – 266 – 2024 And More](274.0/episode.md) Thu, 04 Jan 2024 06:00:00 -0500
+- [The Grey NATO – 265 – Our Favorite Watches of 2023](273.0/episode.md) Thu, 14 Dec 2023 06:00:00 -0500
+- [The Grey NATO – 264 – The 2023 TGN Holiday Gift Guide](272.0/episode.md) Thu, 07 Dec 2023 06:00:00 -0500
+- [The Grey NATO – 263 – Watchmaking's Watchmaker Problem With Rhonda Riche And Jason Gallop](271.0/episode.md) Thu, 30 Nov 2023 06:00:00 -0500
+- [The Grey NATO – 262 – Sweetwater (No Spoilers!)](270.0/episode.md) Thu, 16 Nov 2023 06:00:00 -0500
+- [The Grey NATO – 261 – Blancpain CEO Marc Hayek On Dive Watches, Swatch x Blancpain, Ocean Commitment, And More](269.0/episode.md) Thu, 09 Nov 2023 06:00:00 -0500
+- [Drafting Our Favorite Watches Of The 1970s – A TGN Special With Collective Horology](268.0/episode.md) Tue, 07 Nov 2023 09:00:00 -0500
+- [The Grey NATO – 260 – Deep Dive: The Thrift Store Navitimer That Found Jason](267.0/episode.md) Thu, 02 Nov 2023 06:00:00 -0400
+- [The Grey NATO – 259 – New Watches From Lorier, Bremont, IWC, Baltic, and More](266.0/episode.md) Thu, 26 Oct 2023 06:00:00 -0400
+- [The Grey NATO – 258 – Book Club 3](265.0/episode.md) Thu, 19 Oct 2023 06:00:00 -0400
+- [The Grey NATO – 257 – Hamilton](264.0/episode.md) Thu, 12 Oct 2023 06:00:00 -0400
+- [The Grey NATO – 256 – One Watch, Three Budgets](263.0/episode.md) Thu, 05 Oct 2023 06:00:00 -0400
+- [The Grey NATO – 255 – From France With Love (And The Blancpain Fifty Fathoms Act 3)](262.0/episode.md) Thu, 28 Sep 2023 06:00:00 -0400
+- [The Grey NATO – 254 – Experiencing The New Tudor Pelagos FXD In Its Natural Habitat](261.0/episode.md) Thu, 21 Sep 2023 06:00:00 -0400
+- [The Grey NATO – 253 – Breaking The Ice](260.0/episode.md) Thu, 14 Sep 2023 06:00:00 -0400
+- [The Grey NATO – 252 – Blancpain & Swatch Make A Dive Watch (?!), Getting Certified In Cozumel, And Manta Missed Connections In Ecuador](259.0/episode.md) Thu, 07 Sep 2023 05:00:00 -0400
+- [The Grey NATO – 251 – The Latest Watches From Oris, Doxa, Longines, And More](258.0/episode.md) Thu, 31 Aug 2023 06:00:00 -0400
+- [The Grey NATO – 250 – Film Club Vol. 10](257.0/episode.md) Thu, 24 Aug 2023 06:00:00 -0400
+- [The Grey NATO – 249 – Kristin Harila On Her Record-Breaking Push To Climb All 8000m Peaks In Just Three Months](256.0/episode.md) Thu, 03 Aug 2023 06:00:00 -0400
+- [The Grey NATO - 248 – Slack "Crew & A" #4 (The Finale)](255.0/episode.md) Thu, 27 Jul 2023 06:00:00 -0400
+- [The Grey NATO - 247 - WindUp Chicago 2023 With The Worn & Wound Podcast](254.0/episode.md) Thu, 20 Jul 2023 06:00:00 -0400
+- [The Grey NATO – 246 – Slack "Crew & A" #3](253.0/episode.md) Thu, 13 Jul 2023 06:00:00 -0400
+- [The Grey NATO – 245 – New Watches! Summer Blue Omegas, Carbon Tudors, and More](252.0/episode.md) Thu, 06 Jul 2023 06:00:00 -0400
+- [The Grey NATO – 244 – The Lost Tape With Dr. Sylvia Earle](251.0/episode.md) Thu, 22 Jun 2023 06:00:00 -0400
+- [The Grey NATO – 243 – Traveling With Your Watches (Packing, Picks, Theft & More)](250.0/episode.md) Thu, 15 Jun 2023 06:00:00 -0400
+- [The Grey NATO – 242 – A Deep Dive With Don Walsh (The First Man to the Deepest Spot on Earth)](249.0/episode.md) Thu, 08 Jun 2023 06:00:00 -0400
+- [The Grey NATO – 241 – Our Favorite Small Watches](248.0/episode.md) Thu, 01 Jun 2023 06:00:00 -0400
+- [The Grey NATO – 240 – New Watch Roundup (Doxa, Bremont, Zodiac, and Aquastar)](247.0/episode.md) Fri, 26 May 2023 09:00:00 -0400
+- [The Grey NATO – 239 – The Watches You Asked Us To Talk About](246.0/episode.md) Thu, 18 May 2023 06:00:00 -0400
+- [The Grey NATO – 238 – Scotland Trip Report And Lewis Heath of anOrdain Watches](245.0/episode.md) Thu, 11 May 2023 06:00:00 -0400
+- [The Grey NATO – 237 – Thomas Holland of 'Throttle House' On His Watches, Cars, Diving, Climbing, and More](244.0/episode.md) Thu, 04 May 2023 06:00:00 -0400
+- [The Grey NATO – 236 – The High/Low Watch Collection Challenge](243.0/episode.md) Thu, 27 Apr 2023 06:00:00 -0400
+- [The Grey NATO – 235 – Collection Inspection Vol. 11 (Vintage Edition)](242.0/episode.md) Thu, 20 Apr 2023 06:00:00 -0400
+- [The Grey NATO – 234 – Our Automotive (Mis)Adventures](241.0/episode.md) Thu, 13 Apr 2023 06:00:00 -0400
+- [The Grey NATO – 233 – Watches, Wonders, And Even More Watches](240.0/episode.md) Thu, 06 Apr 2023 06:00:00 -0400
+- [The Grey NATO – 232 – Crew & A #2](239.0/episode.md) Thu, 23 Mar 2023 06:00:00 -0400
+- [The Grey NATO – 231 – David Concannon On Visiting the Titanic, Recovering Apollo Rockets, And His Love Of Rolex](238.0/episode.md) Wed, 15 Mar 2023 14:00:00 -0400
+- [The Grey NATO – 230 – Slack "Crew & A" #1](237.0/episode.md) Thu, 09 Mar 2023 06:00:00 -0500
+- [The Grey NATO – 229 – New Divers From Sinn, Seiko, and Citizen](236.0/episode.md) Wed, 01 Mar 2023 15:00:00 -0500
+- [The Grey NATO – 228 – From Rangiroa With Love, Blancpain, and Laurent Ballesta](235.0/episode.md) Thu, 23 Feb 2023 06:00:00 -0500
+- [The Grey NATO – 227 – Jason Gallop And The Fire That Almost Ended His Family Watch Business](234.0/episode.md) Thu, 16 Feb 2023 06:00:00 -0500
+- [The Grey NATO – 226 – Pitching The Watches We'd Love To Make (And Buy!)](233.0/episode.md) Thu, 09 Feb 2023 06:00:00 -0500
+- [The Grey NATO – 225 – Diving Under The Ice And Into The Latest From AP](232.0/episode.md) Fri, 03 Feb 2023 12:00:00 -0500
+- [The Grey NATO – 224 – Collection Inspection Vol. 10](231.0/episode.md) Thu, 26 Jan 2023 06:00:00 -0500
+- [The Grey NATO – 223 – Film Club Vol. 9](230.0/episode.md) Thu, 19 Jan 2023 06:00:00 -0500
+- [The Grey NATO – 222 – Jumping Out Of Helicopters To Fight Fires With Asha Wagner](229.0/episode.md) Thu, 12 Jan 2023 06:00:00 -0500
+- [The Grey NATO – 221 – You, Me, and 2023](228.0/episode.md) Thu, 05 Jan 2023 06:00:00 -0500
+- [The Grey NATO – 220 – Our Fav Watches of 2022 (Tudor, Seiko, Citizen, and more)](227.0/episode.md) Thu, 15 Dec 2022 06:00:00 -0500
+- [The Grey NATO – 219 – The 2022 TGN Holiday Gift Guide](226.0/episode.md) Thu, 08 Dec 2022 06:00:00 -0500
+- [The Grey NATO – 218 – Crossing The Arctic Ocean With Børge Ousland](225.0/episode.md) Thu, 01 Dec 2022 06:00:00 -0500
+- [The Grey NATO – 217 – A Birthday Bond Seamaster and a New Flyer GMT](224.0/episode.md) Wed, 23 Nov 2022 20:00:00 -0500
+- [The Grey NATO – 216 – Making the Most Out of Winter](223.0/episode.md) Thu, 17 Nov 2022 06:00:00 -0500
+- [The Grey NATO – 215 – Our Favorite Straps](222.0/episode.md) Thu, 10 Nov 2022 15:00:00 -0500
+- [Drafting High-End Watches With A Sense Of Adventure – A TGN Special With Collective Horology](221.0/episode.md) Fri, 04 Nov 2022 08:00:00 -0400
+- [The Grey NATO – 214 – Titanium](220.0/episode.md) Wed, 02 Nov 2022 09:00:00 -0400
+- [The Grey NATO – 213 – Estate Sale Speedmasters and the New Leica M6](219.0/episode.md) Wed, 26 Oct 2022 16:00:00 -0400
+- [The Grey NATO – 212 – The New Watches We've Been Thinking About](218.0/episode.md) Wed, 19 Oct 2022 03:00:00 -0400
+- [The Grey NATO – 211 – Perfect Product #5](217.0/episode.md) Thu, 13 Oct 2022 06:00:00 -0400
+- [The Grey NATO – 210 – On Paper/On Wrist: The Apple Watch Ultra](216.0/episode.md) Thu, 06 Oct 2022 06:00:00 -0400
+- [The Grey NATO – 209 – The 'One Watch' Draft](215.0/episode.md) Thu, 29 Sep 2022 06:00:00 -0400
+- [The Grey NATO – 208 – Film Club Vol. 8](214.0/episode.md) Wed, 21 Sep 2022 12:00:00 -0400
+- [The Grey NATO – 207 – Challenge // Omega](213.0/episode.md) Thu, 15 Sep 2022 06:00:00 -0400
+- [The Grey NATO – 206 Re-Reupload – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army](212.0/episode.md) Tue, 13 Sep 2022 12:00:00 -0400
+- [The Grey NATO – 206 – New Watches! Pelagos 39, Diver's Sixty-Five 12H, And The Steel Doxa Army](211.0/episode.md) Thu, 08 Sep 2022 06:00:10 -0400
+- [The Grey NATO – 205 – Bond Author Kim Sherwood On ‘Double Or Nothing’](210.0/episode.md) Thu, 01 Sep 2022 05:30:33 -0400
+- [The Grey NATO – 204 – Oris North America CEO VJ Geronimo From Windup Chicago](209.0/episode.md) Thu, 11 Aug 2022 06:18:52 -0400
+- [The Grey NATO – 203 – Mike Pearson (Zodiac) And Wesley Smith (Standard H) From Windup Chicago](208.0/episode.md) Thu, 04 Aug 2022 05:44:43 -0400
+- [The Grey NATO – 202 – Oak & Oscar III From Windup Chicago (and merch is now for sale!)](207.0/episode.md) Thu, 28 Jul 2022 06:56:24 -0400
+- [The Grey NATO – 201 – Windup Chicago With Zach And Blake From Worn & Wound](206.0/episode.md) Thu, 21 Jul 2022 06:25:15 -0400
+- [The Grey NATO – 200 – The Past, Present, and Future of TGN](205.0/episode.md) Thu, 07 Jul 2022 06:56:33 -0400
+- [The Grey NATO – 199 – Citizen](204.0/episode.md) Thu, 30 Jun 2022 06:45:23 -0400
+- [The Grey NATO - 198 – Should You Break These Watch Rules?](203.0/episode.md) Thu, 23 Jun 2022 06:30:20 -0400
+- [The Grey NATO - 197 - Watches, Design, And Wartime Photojournalism With Robert Spangle](202.0/episode.md) Thu, 16 Jun 2022 07:00:07 -0400
+- [The Grey NATO – 196 – Why We Love Diving (And You Should Too!)](201.0/episode.md) Thu, 09 Jun 2022 06:28:42 -0400
+- [The Grey NATO – 195 – Big Watches With Oversized Charm](200.0/episode.md) Thu, 02 Jun 2022 06:39:46 -0400
+- [The Grey NATO – 194 – Trading Watches and Cars for Arctic Adventure with Hugh Francis Anderson](199.0/episode.md) Thu, 26 May 2022 07:00:10 -0400
+- [The Grey NATO – 193 – Great Summer Gear (Watches, Clothes, EDC, And More)](198.0/episode.md) Thu, 19 May 2022 07:00:09 -0400
+- [The Grey NATO – 192 – The Perfect Three-Watch Collection (2022 Edition)](197.0/episode.md) Thu, 12 May 2022 07:14:28 -0400
+- [The Grey NATO – 191 – More New Watches! (Doxa, Timex, Hamilton and More)](196.0/episode.md) Thu, 05 May 2022 06:45:44 -0400
+- [The Grey NATO – 190 – One Month In Sri Lanka](195.0/episode.md) Thu, 28 Apr 2022 06:31:29 -0400
+- [The Grey NATO – 189 – Cole Pennington III](194.0/episode.md) Thu, 21 Apr 2022 06:54:06 -0400
+- [The Grey NATO – 188 – Film Club Vol 7](193.0/episode.md) Thu, 14 Apr 2022 06:50:34 -0400
+- [The Grey NATO – 187 – Watches & Wonders 2022](192.0/episode.md) Thu, 07 Apr 2022 06:42:54 -0400
+- [The Grey NATO – 186 – Marshall Sutcliffe Of 'Wristwatch Revival'](191.0/episode.md) Thu, 24 Mar 2022 06:58:00 -0400
+- [The Grey NATO – 185 – The TGN Auction For Ukraine And The Latest From Bremont](190.0/episode.md) Thu, 17 Mar 2022 06:59:07 -0400
+- [The Grey NATO - 184 – Watches, And Wonders, And Wishes (Oh My)](189.0/episode.md) Thu, 10 Mar 2022 07:00:27 -0500
+- [The Grey NATO – 183 – TGN Book Club 2](188.0/episode.md) Thu, 03 Mar 2022 07:00:10 -0500
+- [The Grey NATO – 182 – Why Quartz Rocks](187.0/episode.md) Thu, 24 Feb 2022 07:00:17 -0500
+- [The Grey NATO – 181 – Jason Under The Ice](186.0/episode.md) Thu, 17 Feb 2022 07:00:04 -0500
+- [The Grey NATO – 180 – We Shouldn't Have Overlooked These Watches](185.0/episode.md) Thu, 10 Feb 2022 07:00:17 -0500
+- [The Grey NATO – 179 – Bond, James Bond](184.0/episode.md) Thu, 03 Feb 2022 07:00:25 -0500
+- [The Grey NATO - 178 - Challenge // Breitling](183.0/episode.md) Thu, 27 Jan 2022 07:00:24 -0500
+- [The Grey NATO – 177 – Pilot's Watches](182.0/episode.md) Thu, 20 Jan 2022 07:00:14 -0500
+- [The Grey NATO – 176 – Watches, Adventure, And More In 2022](181.0/episode.md) Thu, 13 Jan 2022 09:05:08 -0500
+- [The Grey NATO - 175 - Don Cochrane Of Vertex Watches](180.0/episode.md) Thu, 06 Jan 2022 06:00:32 -0500
+- [The Grey NATO  – 174 – It's Henry Catchpole!](179.0/episode.md) Thu, 16 Dec 2021 06:00:20 -0500
+- [The Grey NATO – 173 – November Q & A](178.0/episode.md) Thu, 09 Dec 2021 06:00:12 -0500
+- [The Grey NATO - 172 – Caves, Wrecks, And Glaciers With Underwater Photographer Becky Schott](177.0/episode.md) Thu, 02 Dec 2021 06:00:12 -0500
+- [The Grey NATO – 171 – The 2021 Holiday Gift Guide](176.0/episode.md) Thu, 25 Nov 2021 06:00:29 -0500
+- [The Grey NATO - 170 – A Tale Of Two Dive Watches (the Pelagos FXD and the Deepstar II)](175.0/episode.md) Fri, 19 Nov 2021 09:01:09 -0500
+- [The Grey NATO – 169 – Challenge // Hamilton](174.0/episode.md) Thu, 11 Nov 2021 06:00:21 -0500
+- [The Grey NATO – 168 – Designing The Clothes Of The Future With Steve Tidball Of Vollebak](173.0/episode.md) Thu, 04 Nov 2021 05:42:50 -0400
+- [The Grey NATO – 167 – October Q&A](172.0/episode.md) Thu, 28 Oct 2021 06:00:34 -0400
+- [The Grey NATO – 166 – Inside Bremont's Big News](171.0/episode.md) Thu, 21 Oct 2021 06:00:12 -0400
+- [The Grey NATO – 165 – Rock Crawlin' In The Iron Range](170.0/episode.md) Thu, 14 Oct 2021 06:00:47 -0400
+- [The Grey NATO - 164 - September Q And A](169.0/episode.md) Thu, 07 Oct 2021 06:00:37 -0400
+- [The Grey NATO - 163 - Cory Richards And The Vacheron Constantin Overseas Everest](168.0/episode.md) Fri, 01 Oct 2021 11:21:35 -0400
+- [The Grey NATO – 162 – New Watches And New Grails](167.0/episode.md) Thu, 30 Sep 2021 06:00:16 -0400
+- [The Grey NATO – 161 - Film Club Vol 6 With Tim Stacey](166.0/episode.md) Thu, 23 Sep 2021 06:00:16 -0400
+- [The Grey NATO – A Week Off (And A Request!)](165.0/episode.md) Thu, 16 Sep 2021 06:00:37 -0400
+- [The Grey NATO - 160 - Travel, Survival, And Making Wild TV With Megan Hine](164.0/episode.md) Thu, 09 Sep 2021 06:00:27 -0400
+- [The Grey NATO - 159 - August Q And A](163.0/episode.md) Thu, 02 Sep 2021 06:00:15 -0400
+- [The Grey NATO - 158 - Jason's Bonaire Field Report](162.0/episode.md) Wed, 25 Aug 2021 15:29:52 -0400
+- [The Grey NATO - 157 - Military Watches, Practical Fitness, And How To Be Bond With Sean Lerwill](161.0/episode.md) Thu, 19 Aug 2021 06:00:45 -0400
+- [The Grey NATO - 156 – All The New Watches We're Watching](160.0/episode.md) Thu, 12 Aug 2021 06:00:36 -0400
+- [The Grey NATO - 155 - MKII, Tornek-Rayville, And Early Microbrands With Bill Yao](159.0/episode.md) Thu, 05 Aug 2021 06:00:24 -0400
+- [The Grey NATO - 154 - July Q & A](158.0/episode.md) Thu, 29 Jul 2021 06:00:41 -0400
+- [The Grey NATO - 153 - Gombessa 6, Mysterious Rings, and Decompressing With Laurent Ballesta](157.0/episode.md) Thu, 22 Jul 2021 06:00:20 -0400
+- [The Grey NATO - 152 - Cole Pennington II](156.0/episode.md) Thu, 15 Jul 2021 06:00:36 -0400
+- [The Grey NATO - 151 - Challenge // Oris](155.0/episode.md) Thu, 08 Jul 2021 06:00:22 -0400
+- [The Grey NATO - 150 - June Q And A](154.0/episode.md) Thu, 01 Jul 2021 06:00:20 -0400
+- [The Grey NATO – 149 – Summer Essentials](153.0/episode.md) Thu, 24 Jun 2021 06:00:39 -0400
+- [The Grey NATO – 148 – Perfect Product 4](152.0/episode.md) Thu, 17 Jun 2021 06:00:35 -0400
+- [The Grey NATO - 147 - Designing The Garmin Descent With Patrick Danko](151.0/episode.md) Thu, 10 Jun 2021 06:00:33 -0400
+- [The Grey NATO - 146 - Collection Inspection 9 (Seiko and Halios)](150.0/episode.md) Thu, 03 Jun 2021 06:00:21 -0400
+- [The Grey NATO - 145 - Catch Up Q And A!](149.0/episode.md) Thu, 20 May 2021 06:00:40 -0400
+- [The Grey NATO – 144 – A Rolex For 1 Million Subscribers With Jakub From The Straight Pipes](148.0/episode.md) Thu, 06 May 2021 06:00:31 -0400
+- [Depth Charge - The Original Soundtrack by Oran Chan](147.0/episode.md) Wed, 28 Apr 2021 21:11:10 -0400
+- [The Grey NATO – 143 – DEPTH CHARGE](146.0/episode.md) Thu, 22 Apr 2021 06:00:41 -0400
+- [The Grey NATO – 142 – Rolex, Tudor, And Many More Wonders](145.0/episode.md) Thu, 08 Apr 2021 06:00:31 -0400
+- [The Grey NATO - 141 - Bremont's Got A Wing And Some New Watches](144.0/episode.md) Thu, 25 Mar 2021 06:00:39 -0400
+- [The Grey NATO – 140 – Under-Appreciated Watch Brands We Love](143.0/episode.md) Thu, 11 Mar 2021 06:00:38 -0500
+- [The Grey NATO – 139 – Challenge: Sinn](142.0/episode.md) Thu, 25 Feb 2021 06:00:38 -0500
+- [The Grey NATO - 138 - February Q And A](141.0/episode.md) Thu, 18 Feb 2021 06:00:25 -0500
+- [The Grey NATO - 137 - If We Were Watch Brand CEOs](140.0/episode.md) Thu, 11 Feb 2021 06:00:22 -0500
+- [The Grey NATO - 136 - Straight to the Moon(watch)!](139.0/episode.md) Thu, 28 Jan 2021 06:00:27 -0500
+- [The Grey NATO - 135 - Gishani!](138.0/episode.md) Thu, 14 Jan 2021 06:00:09 -0500
+- [The Grey NATO - 134 - Our Favorite Watches Of 2020](137.0/episode.md) Thu, 17 Dec 2020 06:00:10 -0500
+- [The Grey NATO – 133 – November Q And A](136.0/episode.md) Thu, 10 Dec 2020 06:00:10 -0500
+- [The Grey NATO - 132 - Holiday Gift Guide 2020](135.0/episode.md) Thu, 03 Dec 2020 06:00:15 -0500
+- [The Grey NATO - 131 - Film Club Vol 5](134.0/episode.md) Thu, 19 Nov 2020 06:00:11 -0500
+- [The Grey NATO - 130 - October Q And A](133.0/episode.md) Thu, 12 Nov 2020 08:25:24 -0500
+- [The Grey NATO - 129 - So Many New Watches](132.0/episode.md) Thu, 05 Nov 2020 06:00:24 -0500
+- [The Grey NATO - 128 - Aquastar, Doxa, And Hayabusa Swaps With Rick Marei](131.0/episode.md) Thu, 22 Oct 2020 06:00:16 -0400
+- [The Grey NATO - 127 - September Q and A](130.0/episode.md) Fri, 16 Oct 2020 12:41:52 -0400
+- [The Grey NATO - 126 - Watch Discomfort Zones](129.0/episode.md) Thu, 08 Oct 2020 06:00:17 -0400
+- [The Grey NATO - 125 - How We Fall](128.0/episode.md) Thu, 24 Sep 2020 06:00:24 -0400
+- [The Grey NATO - 124 - August 2020 Q and A](127.0/episode.md) Mon, 14 Sep 2020 13:48:07 -0400
+- [The Grey NATO - 123 - Diving Deeper With Ocean Explorer Extraordinaire Laurent Ballesta](126.0/episode.md) Thu, 10 Sep 2020 06:00:13 -0400
+- [The Grey NATO - 122 - A Summary Of Summery Dive Watches](125.0/episode.md) Thu, 27 Aug 2020 06:00:27 -0400
+- [The Grey NATO - 121 - Proteus, Dive Watches, And Fried Chicken With Fabien Cousteau](124.0/episode.md) Thu, 13 Aug 2020 06:00:13 -0400
+- [The Grey NATO - 120 - July Q And A](123.0/episode.md) Thu, 30 Jul 2020 06:00:26 -0400
+- [The Grey NATO - Ep 119 - Gold And Broncos With James Lamdin](122.0/episode.md) Thu, 23 Jul 2020 06:00:19 -0400
+- [The Grey NATO - 118 - On Paper, On Wrist // The Seiko SPB143](121.0/episode.md) Thu, 16 Jul 2020 06:00:16 -0400
+- [The Grey NATO - Ep 117 - Summer EDC With Kyle Snarr](120.0/episode.md) Thu, 09 Jul 2020 06:00:14 -0400
+- [The Grey NATO - Ep 116 - June Q And A](119.0/episode.md) Thu, 25 Jun 2020 06:00:22 -0400
+- [The Grey NATO - Ep 115 - Challenge: Seiko](118.0/episode.md) Thu, 18 Jun 2020 06:00:22 -0400
+- [The Grey NATO - Ep 114 - The Isolation Tapes // Topic Not Found](117.0/episode.md) Thu, 11 Jun 2020 06:00:48 -0400
+- [The Grey NATO – Ep 113 – The Isolation Tapes // May Q And A](116.0/episode.md) Thu, 28 May 2020 06:00:27 -0400
+- [The Grey NATO - Ep 112 - The Isolation Tapes // Perfect Product #3](115.0/episode.md) Thu, 21 May 2020 06:00:33 -0400
+- [The Grey NATO - Ep 111 - The Isolation Tapes // Tudor](114.0/episode.md) Thu, 14 May 2020 06:00:23 -0400
+- [The Grey NATO - Ep 110 - The Isolation Tapes // Film Club Vol 4](113.0/episode.md) Thu, 07 May 2020 06:00:24 -0400
+- [The Grey NATO – Ep 109 – The Isolation Tapes // April Q and A](112.0/episode.md) Thu, 30 Apr 2020 06:00:38 -0400
+- [The Grey NATO - Ep 108 - The Isolation Tapes Ft. Josh Perez](111.0/episode.md) Thu, 23 Apr 2020 06:00:23 -0400
+- [The Grey NATO - Ep 107 - The Isolation Tapes Ft. Cole Pennington](110.0/episode.md) Thu, 16 Apr 2020 06:00:13 -0400
+- [The Grey NATO - Ep 106 - The Isolation Tapes // A Refreshing Watch](109.0/episode.md) Thu, 09 Apr 2020 06:00:23 -0400
+- [The Grey NATO - Ep 105 - The Isolation Tapes // More Q and A](108.0/episode.md) Thu, 02 Apr 2020 06:00:12 -0400
+- [The Grey NATO – Ep 104 – Isolation Tapes // TGN Bookclub](107.0/episode.md) Thu, 26 Mar 2020 06:00:20 -0400
+- [The Grey NATO - Ep 103 - The Isolation Tapes // Work From Home Like A Pro](106.0/episode.md) Thu, 19 Mar 2020 06:00:20 -0400
+- [The Grey NATO - Ep 102 - Desert Island Picks (And The Meetup Has Been Postponed. Sorry)](105.0/episode.md) Thu, 12 Mar 2020 06:00:00 -0400
+- [The Grey NATO - Ep 101 - A Proper Q And A Megasode](104.0/episode.md) Thu, 27 Feb 2020 06:00:20 -0500
+- [The Grey NATO – Ep 100 – Hang Out With Us In NYC!](103.0/episode.md) Thu, 13 Feb 2020 06:00:20 -0500
+- [The Grey NATO - Ep 99 - Gold Oris And The Black Diamond Boys](102.0/episode.md) Thu, 30 Jan 2020 06:00:30 -0500
+- [The Grey NATO - Ep 98 - Collection Inspection Vol 8](101.0/episode.md) Thu, 16 Jan 2020 06:00:10 -0500
+- [The Grey NATO - Ep 97 - Our Best Bits Of 2019](100.0/episode.md) Thu, 02 Jan 2020 06:00:43 -0500
+- [The Grey NATO - Ep 96 - DOXA](99.0/episode.md) Thu, 19 Dec 2019 06:00:33 -0500
+- [The Grey NATO - Ep 95 - The 2019 Watch (And Watch Things) Gift Guide](98.0/episode.md) Thu, 05 Dec 2019 06:01:03 -0500
+- [The Grey NATO - Ep 94 - The 2019 TGN Holiday Gift Guide](97.0/episode.md) Thu, 21 Nov 2019 06:00:13 -0500
+- [The Grey NATO - Ep 93 - A Chat With Andy Mann](96.0/episode.md) Thu, 07 Nov 2019 07:00:02 -0500
+- [The Grey NATO - Ep 92 - TGN Film Club 3](95.0/episode.md) Thu, 24 Oct 2019 06:00:22 -0400
+- [The Grey NATO - Ep 91 - Ready For Adventure](94.0/episode.md) Thu, 10 Oct 2019 06:00:14 -0400
+- [The Grey NATO - Ep 90 - A Chat With Paul Scurfield Of Scurfa Watches](93.0/episode.md) Thu, 26 Sep 2019 06:00:25 -0400
+- [The Grey NATO - Ep 89 - Our Fav Watch Complications](92.0/episode.md) Thu, 12 Sep 2019 06:00:16 -0400
+- [The Grey NATO - Ep 88 - A Chat With Nirmal “Nims” Purja](91.0/episode.md) Thu, 29 Aug 2019 06:00:26 -0400
+- [The Grey NATO - Ep 87 - Perfect Product #2](90.0/episode.md) Thu, 15 Aug 2019 06:00:35 -0400
+- [The Grey NATO - Ep 86 - Quartz Concerns](89.0/episode.md) Thu, 01 Aug 2019 06:00:15 -0400
+- [The Grey NATO - Ep 85 - A Chat With Cory Richards](88.0/episode.md) Thu, 18 Jul 2019 06:00:04 -0400
+- [The Grey NATO - Ep 84 - Homage, Yes Or No?](87.0/episode.md) Thu, 04 Jul 2019 06:51:16 -0400
+- [The Grey NATO - Ep 83 - Collection Inspection Vol 7](86.0/episode.md) Thu, 20 Jun 2019 05:59:59 -0400
+- [The Grey NATO - Ep 82 - Watches, Adventures, And Ambassadors](85.0/episode.md) Thu, 06 Jun 2019 09:04:46 -0400
+- [The Grey NATO - Ep 81 - TGN Film Club 2](84.0/episode.md) Thu, 23 May 2019 06:00:37 -0400
+- [The Grey NATO - Ep 80 - Vintage Cool Or Too Cool To Wear?](83.0/episode.md) Thu, 09 May 2019 06:00:39 -0400
+- [The Grey NATO - Ep 79 - Straps!](82.0/episode.md) Thu, 25 Apr 2019 06:00:14 -0400
+- [The Grey NATO - Ep 78 - The Baselworld 2019 Megasode](81.0/episode.md) Thu, 11 Apr 2019 06:00:04 -0400
+- [The Grey Nato - Ep 77 - Face To Face At The Bremont Townhouse 2019](80.0/episode.md) Thu, 28 Mar 2019 06:00:19 -0400
+- [The Grey NATO - Ep 76 - Perfect Product #1](79.0/episode.md) Thu, 07 Mar 2019 06:00:18 -0500
+- [The Grey NATO - Ep 75 - Watches And...](78.0/episode.md) Thu, 21 Feb 2019 06:00:15 -0500
+- [The Grey NATO - Ep 74 - All The SIHH Feels](77.0/episode.md) Thu, 07 Feb 2019 06:00:05 -0500
+- [The Grey NATO - Ep 73 - Downhill Adventures With Oris](76.0/episode.md) Thu, 24 Jan 2019 06:00:13 -0500
+- [The Grey NATO - Ep 72 - Watch Resolutions](75.0/episode.md) Thu, 10 Jan 2019 06:00:15 -0500
+- [The Grey NATO - Ep 71 - Fav Watches (and Other Stuff) Of 2018](74.0/episode.md) Thu, 27 Dec 2018 06:00:25 -0500
+- [The Grey NATO - Ep 70 - Gift Guide 2018](73.0/episode.md) Thu, 13 Dec 2018 06:00:05 -0500
+- [The Grey NATO - Ep 69 - TGN Film Club 1](72.0/episode.md) Thu, 29 Nov 2018 09:00:04 -0500
+- [The Grey NATO - Ep 68 - What Watch Should I Get?](71.0/episode.md) Thu, 15 Nov 2018 09:00:08 -0500
+- [The Grey NATO - Ep 67 - Collection Inspection Vol 6](70.0/episode.md) Thu, 01 Nov 2018 03:00:23 -0400
+- [The Grey NATO - Ep 66 - We're Back!](69.0/episode.md) Thu, 18 Oct 2018 06:00:09 -0400
+- [The Grey NATO - Ep 65 - Summer Break!](68.0/episode.md) Tue, 07 Aug 2018 09:00:05 -0400
+- [The Grey NATO - Ep 64 - Dive Watch Retirement](67.0/episode.md) Tue, 24 Jul 2018 09:00:14 -0400
+- [The Grey NATO - Ep 63 - Are Smartwatches Dumb?](66.0/episode.md) Tue, 10 Jul 2018 09:00:05 -0400
+- [The Grey NATO - Ep 62 - Goldenboy And The Megafaunas](65.0/episode.md) Tue, 26 Jun 2018 09:00:04 -0400
+- [The Grey NATO - Ep 61 - Don't Do That With Your Watch](64.0/episode.md) Tue, 12 Jun 2018 09:00:05 -0400
+- [The Grey NATO- Ep 60 - Blue Planet, Green Car](63.0/episode.md) Tue, 29 May 2018 09:00:12 -0400
+- [The Grey NATO - EP 59 - Collecting Watches?](62.0/episode.md) Tue, 15 May 2018 09:00:02 -0400
+- [The Grey NATO - Ep 58 - Everyday Travel Tips](61.0/episode.md) Tue, 01 May 2018 09:00:16 -0400
+- [The Grey NATO - Ep 57 - Abe Burmeister Of Outlier](60.0/episode.md) Tue, 17 Apr 2018 09:00:03 -0400
+- [The Grey NATO - Ep 56 - Basel And Back Again](59.0/episode.md) Tue, 03 Apr 2018 09:00:00 -0400
+- [The Grey NATO - Ep 55 - New York & The Bremont Townhouse](58.0/episode.md) Tue, 20 Mar 2018 07:18:42 -0400
+- [The Grey NATO - Ep 54 - New Watch Season](57.0/episode.md) Tue, 06 Mar 2018 09:44:45 -0500
+- [The Grey NATO - Ep 53 - A Tale Of Two Dive Watches](56.0/episode.md) Tue, 20 Feb 2018 10:05:09 -0500
+- [The Grey NATO - Ep 52 - Watchmaker Q&A // Jason Gallop (Roldorf & Co)](55.0/episode.md) Tue, 06 Feb 2018 09:43:28 -0500
+- [The Grey NATO - Ep 51 - Live From Geneva It's SIHH](54.0/episode.md) Tue, 23 Jan 2018 09:59:29 -0500
+- [The Grey NATO - Ep 50 - Oak & Oscar & More](53.0/episode.md) Tue, 09 Jan 2018 09:29:05 -0500
+- [The Grey NATO - Ep 49 - The Rocky Mountain Way](52.0/episode.md) Tue, 12 Dec 2017 09:41:58 -0500
+- [The Grey NATO - Ep 48 - Collection Inspection Vol 5](51.0/episode.md) Tue, 28 Nov 2017 09:44:45 -0500
+- [The Grey NATO - Ep 47 - Random Holiday Gift Guide](50.0/episode.md) Tue, 14 Nov 2017 08:43:02 -0500
+- [The Grey NATO - Ep 46 - Sartorial Adventures](49.0/episode.md) Tue, 31 Oct 2017 09:29:51 -0400
+- [The Grey NATO - Ep 45 - A New York State Of Mind](48.0/episode.md) Tue, 17 Oct 2017 10:00:55 -0400
+- [The Grey NATO - Ep 44 - The English Tour](47.0/episode.md) Tue, 03 Oct 2017 09:52:23 -0400
+- [The Grey NATO - Ep 43 - The Hermes Adventure](46.0/episode.md) Tue, 19 Sep 2017 07:59:46 -0400
+- [The Grey Nato - Ep 42 - Jason Lim of Halios Watches](45.0/episode.md) Tue, 05 Sep 2017 03:49:03 -0400
+- [The Grey NATO - Ep 41 - Diving 101](44.0/episode.md) Tue, 22 Aug 2017 09:40:15 -0400
+- [The Grey Nato - Ep 40 - TGN EDC](43.0/episode.md) Tue, 08 Aug 2017 09:02:06 -0400
+- [The Grey Nato - Ep 39 - Seaforth](42.0/episode.md) Tue, 25 Jul 2017 09:01:41 -0400
+- [The Grey Nato - Ep 38 - Does In-House Matter?](41.0/episode.md) Tue, 11 Jul 2017 09:01:25 -0400
+- [The Grey Nato - Ep 37 - Collection Inspection Vol 4](40.0/episode.md) Tue, 27 Jun 2017 09:01:58 -0400
+- [The Grey Nato - Ep 36 - Quartz Crisis?](39.0/episode.md) Tue, 13 Jun 2017 09:05:32 -0400
+- [The Grey Nato - Ep 35 - From Clipperton With Love](38.0/episode.md) Tue, 30 May 2017 09:01:47 -0400
+- [The Grey Nato - Ep 34 - Q&A Awayisode](37.0/episode.md) Tue, 16 May 2017 09:28:27 -0400
+- [The Grey Nato - Ep 33 - The Perfect Watch Trio](36.0/episode.md) Tue, 02 May 2017 05:41:01 -0400
+- [The Grey Nato - Ep 32 - Great Watches Under $250](35.0/episode.md) Tue, 18 Apr 2017 09:02:28 -0400
+- [The Grey Nato - Ep 31 - The Baselworld 2017 Megasode](34.0/episode.md) Tue, 04 Apr 2017 09:02:20 -0400
+- [The Grey Nato - Ep 30 - Pre Basel + Q&A](33.0/episode.md) Tue, 21 Mar 2017 09:34:51 -0400
+- [The Grey Nato - Ep 29 - The Bremont Field Report](32.0/episode.md) Tue, 07 Mar 2017 09:05:07 -0500
+- [The Grey Nato - EP 28 - Rolex](31.0/episode.md) Tue, 21 Feb 2017 09:03:49 -0500
+- [The Grey Nato - Ep 27 - Future Classic Watches](30.0/episode.md) Tue, 07 Feb 2017 09:01:21 -0500
+- [The Grey Nato - Ep 26 - Field Report SIHH 2017](29.0/episode.md) Tue, 24 Jan 2017 08:56:39 -0500
+- [The Grey Nato Ep 25  - Dream Watches 2017](28.0/episode.md) Tue, 10 Jan 2017 09:07:59 -0500
+- [The Grey Nato - Ep 24 - Favs Of 2016](27.0/episode.md) Tue, 20 Dec 2016 09:13:18 -0500
+- [The Grey Nato - Ep 23 - Collection Inspection Vol 3](26.0/episode.md) Tue, 06 Dec 2016 09:04:08 -0500
+- [The Grey Nato - Ep 22 - New Watch Alert!!!](25.0/episode.md) Tue, 22 Nov 2016 09:01:21 -0500
+- [The Grey Nato - EP 21 - Watches Under $1000](24.0/episode.md) Tue, 08 Nov 2016 08:54:08 -0500
+- [The Grey Nato - Question & Answer #1](23.0/episode.md) Tue, 01 Nov 2016 09:08:34 -0400
+- [The Grey Nato - EP 20 - "Seiko"](22.0/episode.md) Tue, 25 Oct 2016 08:57:24 -0400
+- [The Grey Nato - EP 19 - Watch Accessories](21.0/episode.md) Tue, 11 Oct 2016 09:06:47 -0400
+- [The Grey Nato - EP 18 - In Focus: Take Better Photos](20.0/episode.md) Tue, 27 Sep 2016 09:04:37 -0400
+- [The Grey Nato - EP 17 - On Paper/On Wrist: The Doxa 50th Sub 300](19.0/episode.md) Tue, 13 Sep 2016 09:00:05 -0400
+- [TGN Chats - Merlin Schwertner (Nomos Watches) And Jason Gallop (Roldorf & Co)](18.0/episode.md) Tue, 06 Sep 2016 09:01:40 -0400
+- [The Grey Nato - EP 16 - "Collection Inspection Volume 2"](17.0/episode.md) Tue, 30 Aug 2016 09:03:40 -0400
+- [The Grey Nato - Ep 15 - "Peak Bag"](16.0/episode.md) Tue, 16 Aug 2016 09:02:51 -0400
+- [TGN Chats - Chase Fancher :: Oak & Oscar](15.0/episode.md) Tue, 09 Aug 2016 09:02:08 -0400
+- [The Grey Nato - EP 14 - "TGN Summit"](14.0/episode.md) Tue, 02 Aug 2016 09:03:02 -0400
+- [The Grey Nato - Ep 13 - "Cars And Watches"](13.0/episode.md) Tue, 19 Jul 2016 09:02:29 -0400
+- [The Grey Nato - Episode 12 - "One Watch???"](12.0/episode.md) Tue, 05 Jul 2016 09:02:13 -0400
+- [The Grey Nato - Episode 11 - "What's Old Is New (again)"](11.0/episode.md) Tue, 21 Jun 2016 09:03:47 -0400
+- [The Grey Nato - Episode 10 - "Collection Inspection: Volume 1"](10.0/episode.md) Tue, 07 Jun 2016 08:58:03 -0400
+- [The Grey Nato - Episode 09 - "Open Water Certifiable"](9.0/episode.md) Tue, 24 May 2016 09:00:43 -0400
+- [The Grey Nato - Episode 08 - "The Ones That Got Away"](8.0/episode.md) Tue, 10 May 2016 08:59:27 -0400
+- [The Grey Nato - Episode 07 - "Partners In Time"](7.0/episode.md) Tue, 26 Apr 2016 08:55:37 -0400
+- [The Grey Nato - Episode 06 - "Summer Mountain Time"](6.0/episode.md) Tue, 12 Apr 2016 08:49:28 -0400
+- [The Grey Nato - Episode 05 - "The Baselworld Jet Lag Megasode"](5.0/episode.md) Tue, 29 Mar 2016 08:49:29 -0400
+- [The Grey Nato - Episode 04 - "No Sleep Till Basel"](4.0/episode.md) Sun, 13 Mar 2016 11:39:27 -0400
+- [The Grey Nato - Episode 03 - In Too Deep](3.0/episode.md) Tue, 01 Mar 2016 08:49:21 -0500
+- [The Grey Nato - Episode 02 - Origin Stories](2.0/episode.md) Tue, 16 Feb 2016 08:50:32 -0500
+- [The Grey Nato - Episode 01 - "All Lux'd Out"](1.0/episode.md) Mon, 01 Feb 2016 22:10:41 -0500

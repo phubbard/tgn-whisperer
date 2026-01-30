@@ -55,7 +55,9 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         ep_num = ep_data.get('number') or ep_data.get('itunes:episode')
         title = ep_data.get('title', 'Unknown')
         pub_date = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
-        content += f"- [{title}]({str(ep_num)}/episode.md) {pub_date}\n"
+        # Ensure episode number includes .0 suffix (episode directories are named like "372.0")
+        ep_num_str = f"{float(ep_num)}" if ep_num else "unknown"
+        content += f"- [{title}]({ep_num_str}/episode.md) {pub_date}\n"
 
     episodes_md.write_text(content)
     log.info(f"Updated episodes index: {episodes_md}")
