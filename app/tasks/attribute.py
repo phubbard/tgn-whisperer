@@ -223,10 +223,17 @@ def attribute_speakers(episode_dir: Path, transcript_path: Path, podcast_name: s
         speaker_map, synopsis = _call_claude(client, text)
         log.info(f"Attribution complete: {len(speaker_map)} speaker(s) identified")
     except Exception as e:
-        log.error(f"Claude API call failed: {e}")
+        log.error(f"ATTRIBUTION FAILED for {podcast_name} episode in {episode_dir}")
+        log.error(f"Claude API error: {type(e).__name__}: {e}")
+        log.error(f"Transcript length: {len(text)} characters")
+        # Log full traceback for debugging
+        import traceback
+        log.error(f"Full traceback:\n{traceback.format_exc()}")
         # Use default values on failure
         speaker_map = defaultdict(lambda: "Unknown")
         synopsis = "LLM attribution failed"
+        # Re-log with context after saving defaults
+        log.error(f"Saved fallback attribution to {speaker_map_path} and {synopsis_path}")
 
     # Save results
     speaker_map_path.write_text(json.dumps(dict(speaker_map)))
