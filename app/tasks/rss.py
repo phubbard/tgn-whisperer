@@ -16,7 +16,7 @@ from constants import HTTP_USER_AGENT, CONTACT_EMAIL, DEFAULT_PODCAST_URL
     name="fetch-rss-feed",
     retries=3,
     retry_delay_seconds=60,  # 60 second delay between retries
-    cache_policy=INPUTS,
+    # NO CACHING - RSS feeds must be fetched fresh to detect new episodes
     log_prints=True
 )
 def fetch_rss_feed(podcast: Podcast) -> str:
