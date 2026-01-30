@@ -40,14 +40,14 @@ def process_podcast(podcast: Podcast):
     1. Fetch and process RSS feed
     2. Check for new episodes
     3. Send notifications
-    4. Process each new episode in parallel
-    5. Generate and deploy site immediately
+    4. Process each incomplete episode sequentially
+    5. Generate and deploy site only if episodes were processed
 
     Args:
         podcast: Podcast configuration object
 
     Returns:
-        List of newly processed episodes
+        List of newly processed episode numbers
     """
     log = get_logger()
     log.info(f"Processing podcast: {podcast.name}")
@@ -83,10 +83,7 @@ def process_podcast(podcast: Podcast):
     incomplete_ep_numbers = filter_incomplete_episodes(podcast.name, all_ep_numbers)
 
     if not incomplete_ep_numbers:
-        log.info(f"All episodes for {podcast.name} are complete")
-        # Still generate/deploy site in case of updates (skip if SKIP_SITE_DEPLOY is set)
-        if not os.environ.get("SKIP_SITE_DEPLOY"):
-            generate_and_deploy_site(podcast)
+        log.info(f"All episodes for {podcast.name} are complete - skipping site rebuild")
         return []
 
     log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
