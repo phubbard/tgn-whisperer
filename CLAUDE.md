@@ -12,6 +12,37 @@ TGN Whisperer is an automated podcast transcription system that:
 
 Deployed sites: tgn.phfactor.net, wcl.phfactor.net, hodinkee.phfactor.net
 
+## Development Workflow
+
+**IMPORTANT**: This project uses a pull request workflow. All changes must be made via PRs:
+
+1. **Create a feature branch** from `main`:
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b feature/description-of-change
+   # or: fix/bug-description, docs/update-description, refactor/cleanup-description
+   ```
+
+2. **Make changes and commit**:
+   ```bash
+   git add .
+   git commit -m "Clear description of changes"
+   ```
+
+3. **Push branch and create PR**:
+   ```bash
+   git push -u origin feature/description-of-change
+   # Then create PR via GitHub web UI or: gh pr create
+   ```
+
+4. **Wait for review and tests** - All PRs require:
+   - Passing automated tests (GitHub Actions)
+   - Code review and approval
+   - Branch protection prevents direct pushes to `main`
+
+See [PR_WORKFLOW.md](PR_WORKFLOW.md) for complete details on branch naming, review process, and best practices.
+
 ## Commands
 
 ```bash
