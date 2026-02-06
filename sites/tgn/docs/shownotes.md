@@ -1,8 +1,35 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on January 23, 2026
+Generated on January 30, 2026
 
-**6611 total links from 355 episodes (out of 357 episodes scraped, 2 without any links), averaging 18.6 per episode.**
+**6570 total links from 319 episodes (out of 319 episodes scraped, 0 without any links), averaging 20.6 per episode.**
+
+---
+
+## [The Grey NATO – 362 – 10 Years of TGN With Mike Pearson](https://thegreynato.substack.com/p/362-10-years-of-tgn)
+
+**Published:** January 29, 2026 at 06:00 AM
+
+**Related Links (18):**
+
+- [Mike Pearson](https://www.instagram.com/mikepearson6/?hl=en)
+- [“The Tipping Point” Malcolm Gladwell](https://www.goodreads.com/book/show/2612.The_Tipping_Point)
+- [CWC CWN1](https://www.cwcwatch.com/blogs/news/tgn-crew-watch-and-titanium-watches-to-come)
+- [Christopher Ward C60 Trident Lumiere Orange](https://www.christopherward.com/int/precious-metals/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-B0.html)
+- [Bremont Norton LE](https://www.analogshift.com/products/bremont-norton-limited-edition-chronograph)
+- [Citizen Aqualand Duplex](https://www.instagram.com/p/DT3pYt5kY3n/)
+- [Watch Report](https://www.watchreport.com/)
+- [Gear Patrol](https://www.gearpatrol.com/)
+- [Oasis](https://en.wikipedia.org/wiki/Oasis_(band))
+- [Christopher Ward Forums](https://www.christopherwardforum.com/general-discussion/)
+- [Gladiators (UK)](https://en.wikipedia.org/wiki/Gladiators_(2024_British_TV_series))
+- [“The Meg” (2018, Turteltaub)](https://www.imdb.com/title/tt4779682/)
+- [Mike’s Blue Defender “Bandit.”](https://www.instagram.com/p/DHQvuthx_EL/?hl=en)
+- [Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter_(film_series))
+- [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
+- [“Akin to Believing Light Been is a Solution to Alcoholism: My Time At Patagonia” Foster Huntington](https://arestlesstransplant.substack.com/p/akin-to-believing-light-beer-is-a?r=3g2cl&shareImageVariant=overlay&triedRedirect=true)
+- [Christopher Ward C60 Clipper GMT “Pan AM”](https://www.christopherward.com/int/watches/C60-Clipper-GMT/C60-42AGM3S0BWPA-B0N.html)
+- [“Breathtaking: K2 The World’s Most Dangerous Mountain”](https://www.youtube.com/watch?v=cvFt2Xcuois)
 
 ---
 
@@ -30,7 +57,7 @@ Generated on January 23, 2026
 - [Treasures from the Wreck of the Unbelievable (2017)](https://www.imdb.com/title/tt6980988/)
 - [The Rip (2026)](https://www.imdb.com/title/tt32642706)
 - [The Explorers Journal subscription ($60)](https://www.explorers.org/about/journal/)
-- [A bottomless espresso portafilter ($25+)](https://www.amazon.ca/dp/B0DWZTMTMC)
+- [A bottomless espresso portafilter ($25+)](https://a.co/d/itCW47I)
 
 ---
 
@@ -1360,8 +1387,21 @@ Generated on January 23, 2026
 
 **Published:** February 20, 2025 at 06:00 AM
 
-**Related Links (16):**
+**Related Links (29):**
 
+- [TGN x TIW Firghfighting Tee](https://thegreynato.com/shop/p/tgn-x-the-illustrated-watch-firefighting-shirt)
+- [California Fire Foundation](https://www.cafirefoundation.org/)
+- [Timepieceshow.com](https://www.timepieceshow.com/)
+- [Tom Place on IMBD](https://www.imdb.com/name/nm1555005/)
+- [Expedition 16610](https://www.instagram.com/expedition16610/)
+- [KTM Adventurer 890 R](https://www.ktm.com/en-us/models/travel/2024-ktm-890-adventurer.html)
+- [Tudor Pelagos LHD](https://www.tudorwatch.com/en/watches/pelagos/m25610tnl-0001)
+- [CWC CWN1](http://v)
+- [The movement in the CWN1](https://www.eta.ch/en/our-products/quartz-movements/eta-f06402)
+- [Kill Hubris Lizard Camo strap](https://www.killhubris.com/products/lizardcamonato)
+- [Stay Calm Industries](https://www.staycalmindustries.com/)
+- [ZD328 Rubber nato](https://www.watchgecko.com/en-ca/collections/zul-bon-328)
+- [Letterboxd for TGN Film Club (via Kyle Martin!)](https://letterboxd.com/kmart921/list/tgn-film-club/)
 - [Raiders of the Lost Ark (1981)](https://www.imdb.com/title/tt0082971/)
 - [Witness (1985)](https://www.imdb.com/title/tt0090329/)
 - [Jurassic Park (1993)](https://www.imdb.com/title/tt0107290/)
@@ -1466,7 +1506,7 @@ Generated on January 23, 2026
 
 **Published:** January 23, 2025 at 06:00 AM
 
-**Related Links (21):**
+**Related Links (24):**
 
 - [Magnetic Block Heater](https://www.amazon.com/s?k=Magnetic+Block+heater)
 - [Dry Needling](https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/on-pins-and-needles-just-what-is-dry-needling)
@@ -1489,6 +1529,9 @@ Generated on January 23, 2026
 - [Blancpain Fifty Fathoms 45mm Ti](https://www.instagram.com/p/C6hhZLFPzaq/)
 - [https://commoninja.site/tgnjason](https://commoninja.site/tgnjason)
 - [https://commoninja.site/tgnjames](https://commoninja.site/tgnjames)
+- [“Creation Lake” – Rachel Kushner (Book)](https://www.goodreads.com/book/show/207300960-creation-lake)
+- [The Agency (Showtime & Paramount+ (TV Show, Youtube trailer)](https://www.youtube.com/watch?v=pAxMy31nffA)
+- [The Killer (Fincher, 2023)](https://www.imdb.com/title/tt1136617/)
 
 ---
 
@@ -1496,8 +1539,17 @@ Generated on January 23, 2026
 
 **Published:** January 16, 2025 at 06:00 AM
 
-**Related Links (18):**
+**Related Links (27):**
 
+- [TheIllustratedWatch](https://www.theillustratedwatch.com/)
+- [California Fire Foundation](https://www.cafirefoundation.org/)
+- [Click here to learn more about the TGN x The Illustrated Watch Firefighting Shirt](https://thegreynato.com/shop/p/tgn-x-the-illustrated-watch-firefighting-shirt)
+- [LA Fire Department Foundation](https://supportlafd.org/)
+- [The Direct Relief Organization](https://www.directrelief.org/)
+- [Pasadena Humane Society](https://pasadenahumane.org/)
+- [Team Rubicon](https://teamrubiconusa.org/)
+- [The World Central Kitchen](https://wck.org/)
+- [American Red Cross - Los Angeles Region](https://www.redcross.org/local/california/los-angeles.html)
 - [Water Rower](https://www.waterrower.com/us)
 - [WakingPad A1](https://www.walkingpad.com/products/walkingpad-p1-foldable-treadmill)
 - [Omega Seamaster 300m 2254](https://www.omegawatches.com/watch-omega-seamaster-300-m-chronometer-22545000)
@@ -1623,7 +1675,7 @@ Generated on January 23, 2026
 
 **Published:** December 05, 2024 at 06:00 AM
 
-**Related Links (21):**
+**Related Links (29):**
 
 - [James’s EIC Announcement](https://www.hodinkee.com/articles/hodinkee-has-as-new-editor-in-chief-me)
 - [Icebug running shoes](https://icebug.com/category/running-shoes)
@@ -1646,6 +1698,14 @@ Generated on January 23, 2026
 - [ThruDark](https://us.thrudark.com/)
 - [Alps & Meters](https://www.alpsandmeters.com/)
 - [Outlier](https://outlier.nyc/)
+- [Digital Microscope](https://www.amazon.com/s?k=digital+microscope&sprefix=digital+mico%2Caps%2C128)
+- [Intex Inflatable Kayak](https://www.amazon.com/Intex-Challenger-1-Person-Inflatable-Aluminum/dp/B00177J4JS?dib=eyJ2IjoiMSJ9.igDeSBftpQA74xCKv_UWuXu9HIRSZlJqSb82vj7aK-C62ch7-0A2Wcwl8o0SYBwxXoDm9Trh11ZzZhj8g04evYq0o6dU1pQnSwBHLsZJ2L2hJx2zDfkocCQmlVYoOFZnrLXRJ45nSsI8Y6spAcGgbVhnDQEjtI4aWpSlv_CdGHINI4qKWi_DOJwEjUhLhbYYJwi_H1_ENvlkyeJ8qlK-zvX_G1NHYb_QR0CYv47mYu4.tLhGptT9F64Q7tK6Y26g-hJbHWQAYr3YV0dO99FX8sI&dib_tag=se&sprefix=intex+inflatable+kayak%2Caps%2C119&sr=8-3)
+- [Lego Endurance](https://www.lego.com/en-us/product/the-endurance-10335)
+- [Flatenna](https://www.amazon.com/Channel-Master-FLATenna-Ultra-Thin-Antenna/dp/B074TWSQFM)
+- [Magnetic Block heater](https://www.amazon.com/s?k=Magnetic+Block+heater)
+- [DeWalt Air Compressor](https://www.dewalt.com/product/dcc020ib/20v-max-cordedcordless-air-inflator?tid=577411)
+- [Moonshade Awning](https://moonfab.com/products/moonshade)
+- [Hennesy Camping Hammocks](https://hennessyhammock.com/collections/hammocks)
 
 ---
 
@@ -2262,8 +2322,14 @@ Generated on January 23, 2026
 
 **Published:** May 30, 2024 at 06:00 AM
 
-**Related Links (33):**
+**Related Links (39):**
 
+- [Wind Up Chicago](https://windupwatchfair.com/chicago/)
+- [Jason’ Breitling Navitimer](https://www.instagram.com/p/C7Z6hzFxbhJ/)
+- [Jason’s new pocket watch](https://www.instagram.com/p/C7g0K4tRsRT/?img_index=1)
+- [Dr. Rebecca Struthers on TGN](https://thegreynato.substack.com/p/272-dr-rebecca-struthers)
+- [James’ Citizen Aqualand](https://www.instagram.com/p/Cy6mWA4vG5C/)
+- [Cheap Amazon strap](https://www.amazon.ca/gp/product/B0B15F3BPX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8)
 - [Jack O’Connell](https://www.imdb.com/name/nm1925239/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_jack%2520o)
 - [Daniel Kaluuya](https://www.imdb.com/name/nm2257207/?ref_=fn_al_nm_1)
 - [Niv Sultan](https://www.imdb.com/name/nm8115155/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_Niv%2520Sultan)
@@ -3383,8 +3449,14 @@ Generated on January 23, 2026
 
 **Published:** August 24, 2023 at 06:00 AM
 
-**Related Links (10):**
+**Related Links (16):**
 
+- [The Manta Trust](https://www.mantatrust.org/)
+- [Tag Heuer Super Professional](https://www.instagram.com/p/CvnpVq1LFQE/)
+- [Scurfa M.S.22](https://www.scurfawatches.com/product/m-s-22-diver-one-limited-edition/)
+- [Scurfa M.S.23](https://www.instagram.com/p/CvUe5ttrIUJ/?img_index=1)
+- [Episode 223 - Film Club Vol. 9](https://thegreynato.substack.com/p/filmclub9)
+- [TGN Film Club Letterboxd](https://letterboxd.com/kmart921/list/tgn-film-club/)
 - [Ronin (1998)](https://www.imdb.com/title/tt0122690/)
 - [The Talented Mr Ripley (1999)](https://www.imdb.com/title/tt0134119/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520talented)
 - [Snatch (2000)](https://www.imdb.com/title/tt0208092)
@@ -4958,7 +5030,7 @@ Generated on January 23, 2026
 - [32:17 Tudor Black Bay Fifty-Eight Blue](https://www.hodinkee.com/articles/tudor-black-bay-fifty-eight-navy-blue-hands-on)
 - [42:40 Citizen Aqualand Depth Gauge AL0004-03W](https://www.reddit.com/r/Watches/comments/2spm8p/citizen_my_aqualand_al000403w_divers_watch_with/)
 - [43:40 Garmin Descent](https://www.garmin.com/en-CA/p/633356)
-- [45:35 Oris Aquis Depth Gauge](https://www.oris.ch/en/watch/oris-aquis-depth-gauge/01-733-7675-4154-set)
+- [45:35 Oris Aquis Depth Gauge](https://www.oris.ch/en-US/watch/oris-aquis-depth-gauge/01-733-7675-4154-set)
 - [1:00:36 Seiko SLA017 “62MAS ReIssue”](https://www.hodinkee.com/articles/the-seiko-prospex-diver-sla017-based-on-the-first-seiko-diver-6217-from-1965-and-the-prospex-diver-s)
 - [1:03:28 Sinn U50](https://www.hodinkee.com/articles/sinn-u50-hands-on)
 - [1:06:54 Allen Edmonds Leather Lotion](https://www.amazon.com/Allen-Edmonds-Leather-Lotion/dp/B00E91D0VW)
@@ -5007,7 +5079,7 @@ Generated on January 23, 2026
 - [59:30 NiteIze (lights, clips, gear, etc)](https://niteize.com/)
 - [https://moonfab.com/](https://moonfab.com/)
 - [1:05:50 Alps Mountaineering Taurus 4 tent](https://alpsmountaineering.com/)
-- [1:06:50 Packable hammock](https://www.rei.com/c/camping-hammocks)
+- [1:06:50 Packable hammock](https://bit.ly/2TZwIqO)
 - [1:08:05 Anker Soundcore Bluetooth speakers](https://www.anker.com/ca/products/variant/soundcore-bluetooth-speaker/A3102011)
 - [https://nyti.ms/3wXtQJO](https://nyti.ms/3wXtQJO)
 - [https://pca.st/vhvr19wx](https://pca.st/vhvr19wx)
@@ -5058,7 +5130,7 @@ Generated on January 23, 2026
 - [57:30 Into the Planet](https://www.amazon.com/Into-Planet-Life-Cave-Diver/dp/0062691554/ref=sr_1_1?s=books&sr=1-1)
 - [59:05 Garmin Outdoor on Instagram](https://www.instagram.com/garminoutdoor/?hl=en)
 - [101:10 The Urchin Diver via VAER watches](https://www.youtube.com/watch?v=uN6vc6A3C14)
-- [1:03:41 Perpetual Planet: Heroes Of The Ocean (via Rolex)](https://www.natgeotv.com/me/heroes-of-the-ocean-with-sylvia-earle/videos/perpetual-planet-heroes-of-the-ocean)
+- [1:03:41 Perpetual Planet: Heroes Of The Ocean (via Rolex)](https://bit.ly/3gd6avf)
 
 ---
 
@@ -5077,7 +5149,7 @@ Generated on January 23, 2026
 - [13:25 Standard H “Avant T” T-Shirt](https://www.standard-h.com/shirts)
 - [13:45 Standard H Podcast](https://apple.co/3uQInoZ)
 - [16:09 Scurfa MS21 Limited Edition](https://www.scurfawatches.com/product/m-s-21-diver-one-limited-edition/)
-- [18:22 Elliot Brown Holton Nivo](https://elliotbrownwatches.com/en-us/products/holton-nivo)
+- [18:22 Elliot Brown Holton Nivo](https://elliotbrownwatches.com/products/holton-nivo)
 - [24:55 Serica 5303 Diver](https://serica-watches.com/en/collection-5303)
 - [31:23 Tudor Black Bay 41 Ceramic](https://www.tudorwatch.com/en/watches/black-bay/m79210cnu-0001)
 - [40:00 Jason’s thrift store Seiko 7002](https://www.instagram.com/p/CPLpvc3LD8l/)
@@ -5095,23 +5167,23 @@ Generated on January 23, 2026
 **Related Links (25):**
 
 - [6:13 James’ Buren Min-Stop](https://www.hodinkee.com/articles/buren-minstop-gold-just-because)
-- [13:52 GO Sea-Q Diver](https://www.glashuette-original.com/en/watches/spezialist/seaq-1-39-11-06-80-70/)
+- [13:52 GO Sea-Q Diver](https://bit.ly/3bEq0N5)
 - [15:40 Glycine Combat diver](https://glycine-watch.ch/collection/combat/combat-sub)
 - [16:38 Breitling Superocean II diver](https://www.breitling.com/us-en/watches/superocean/42/A17365C91B1/)
 - [17:30 CWC Royal Navy Diver](https://www.cwcwatch.com/products/cwc-rn-divers-watch-matte-top-mk2)
 - [25:35 Panerai Luminor PAM372](https://watchesbysjx.com/2011/05/hands-on-with-the-panerai-luminor-1950-3-days-pam372.html)
 - [27:35 Panerai 42mm Submersible](https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on)
-- [32:00 Hamilton Intra Matic 38 in gold](https://www.hamiltonwatch.com/en-us/h38735751-american-classic-intra-matic-auto.html)
+- [32:00 Hamilton Intra Matic 38 in gold](https://bit.ly/2S3w6Qa)
 - [34:00 Junghans Maxbill gold](https://junghans-shop.com)
 - [35:50 Paul Scurfield interview](https://soundcloud.com/thegreynato/the-grey-nato-ep-90-a-chat-with-paul-scurfield-of-scurfa-watches)
 - [39:20 Farer Watches Worldtimer review](https://www.hodinkee.com/articles/the-farer-world-timer-automatic-roche)
-- [49:38 IWC Spitfire UTC](https://www.iwc.com/ww-en/watches/pilot-watches/iw327101-pilots-watch-utc-spitfire-edition-mj271)
+- [49:38 IWC Spitfire UTC](https://bit.ly/33ZnXiy)
 - [50:04 Bremont Pilots watches](https://www.bremont.com/collections/mens-watches)
 - [53:30 Patagonia MLC bag](https://www.patagonia.ca/product/black-hole-mlc-briefcase-backpack-45-liters/49306.html)
 - [54:11 Topo Mountain Briefcase](https://www.outdoorgearlab.com/reviews/travel/messenger-bag/topo-designs-mountain-briefcase)
 - [54:50 Topo Global Briefcase 3-day](https://topodesigns.com/?variant=28866186281013)
 - [55:30 Tenba DNA 15](https://tenba.com/en/products/dna-15-messenger)
-- [1:00:52 Aquastar Deepstar](https://synchronusa.com/watches/)
+- [1:00:52 Aquastar Deepstar](https://synchronusa.com/)
 - [1:06:33 Seiko “Arnie”](https://www.hodinkee.com/articles/seiko-prospex-snj025-aka-the-2019-arnie-hands-on)
 - [1:07:30 Buck 501 Squire](https://www.buckknives.com/product/501-squire-knife/)
 - [1:08:22 Victorinox Hunter Pro Alox](https://www.victorinox.com/en-US/)
@@ -5128,7 +5200,7 @@ Generated on January 23, 2026
 
 **Related Links (11):**
 
-- [6:40 Depth Charge](https://www.depthchargenovel.com/shop)
+- [6:40 Depth Charge](http://bit.ly/3avVi8d)
 - [7:07 Jason on the Worn and Wound podcast](https://wornandwound.com/podcasts/the-worn-wound-podcast-ep-183-jason-heaton-and-his-new-novel-depth-charge/)
 - [spoti.fi/3h52VXA](https://spoti.fi/3h52VXA)
 - [13:30 Jason’s Seiko “Safarnie”](https://www.instagram.com/p/COasQqFr6zP/)
@@ -5154,10 +5226,10 @@ Generated on January 23, 2026
 - [19:49 Jason’s sub stack](https://swimpruf.substack.com/)
 - [21:12 Aquastar Deepstar](https://aquastar.ch/)
 - [45:30 Dan Brown Masterclass](https://www.masterclass.com/classes/dan-brown-teaches-writing-thrillers)
-- [56:00 Depth Charge score](https://www.depthchargenovel.com/score)
-- [1:03:30 Where to buy Depth Charge (signed copy!)](https://www.depthchargenovel.com/shop)
+- [56:00 Depth Charge score](https://bit.ly/3at5uhZ)
+- [1:03:30 Where to buy Depth Charge (signed copy!)](https://bit.ly/3avVi8d)
 - [1:04:00 Amazon pre-order page](https://www.amazon.com/Depth-Charge-Jason-Heaton/dp/1736494708/ref=sr_1_2?dchild=1&sr=8-2)
-- [1:04:00 Barns and Noble pre-order](https://www.barnesandnoble.com/noresults/9781736494707)
+- [1:04:00 Barns and Noble pre-order](https://bit.ly/3dBZi96)
 - [1:04:30 Google Books pre-order](https://www.google.com/books/edition/Depth_Charge/qGQszgEACAAJ?hl=en)
 - [1:08:16 The Moth and the Mountain](https://www.amazon.com/Moth-Mountain-True-Story-Everest/dp/1501143379)
 - [1:11:30 The Papershoot Camera](https://papershootcamera.com/pages/pre-order)
@@ -5201,7 +5273,7 @@ Generated on January 23, 2026
 **Related Links (15):**
 
 - [14:00 Jason drives a tank](https://www.gearpatrol.com/cars/a77509/behind-the-wheel-abbott-fv433-self-propelled-gun/)
-- [15:24 James drives a Porsche 911 on snow](https://nuvomagazine.com/daily-edit/porsche-ice-experience-canada-quebec)
+- [15:24 James drives a Porsche 911 on snow](https://nuvomagazine.com/rides/porsche-ice-experience-canada-quebec)
 - [15:40 Team O’Neil Youtube](https://teamoneil.com/)
 - [18:21 Tactile Turn Overlander Pen](https://tactileturn.com/products/overlander)
 - [25:20 James’ Aquastar Deepstar](https://www.instagram.com/p/CJ9Mb65HMOx/)
@@ -5225,12 +5297,12 @@ Generated on January 23, 2026
 **Related Links (22):**
 
 - [1:45 Stash Super Mint tea](https://www.stashtea.com/products/super-mint-herbal-tea-bagged)
-- [13:10 Jason’s book is almost ready!](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdepthcharge_novel%2F&is_from_rle=)
+- [13:10 Jason’s book is almost ready!](https://www.instagram.com/depthcharge_novel/)
 - [14:15 Jason’s Substack (get a sneak peek at a chapter from Depth Charge)](https://swimpruf.substack.com/)
 - [15:00 Raven Trekker 39](https://www.hodinkee.com/articles/traversing-the-straight-and-narrow-with-a-grassroots-dive-watch)
 - [17:46 Wrist Hardware Military Strap](https://wristhardware.com/)
 - [19:30 DSPTCH Fidlock strap](https://www.dsptch.com/products/fidlock-watch-strap-22mm?_pos=1&_sid=99df65f97&_ss=r)
-- [24:50 Synchron Military](https://synchronusa.com/watches/)
+- [24:50 Synchron Military](https://synchronusa.com/)
 - [38:54 Oris Divers Sixty-Five Hodinkee](https://limited.hodinkee.com/oris/)
 - [45:20 Marathon watches](https://www.marathonwatch.com/)
 - [49:36 Cole’s review of a Marathon MSAR](https://www.hodinkee.com/articles/travels-with-a-marathon-watch-in-search-of-adventure)
@@ -5305,7 +5377,7 @@ Generated on January 23, 2026
 
 **Related Links (6):**
 
-- [2:15 Depth Charge (Jason’s Book!)](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdepthcharge_novel%2F&is_from_rle=)
+- [2:15 Depth Charge (Jason’s Book!)](https://www.instagram.com/depthcharge_novel/)
 - [7:25 Jason’s Aquastar Benthos 500](https://www.instagram.com/p/CKze9SwLrPF/)
 - [9:40 James’ Explorer II](https://www.instagram.com/p/B_Ds8iWD6ZO/)
 - [51:03 Monochrome watches photoshop of Pelagos GMT](https://monochrome-watches.com/tudor-baselworld-2016-predictions-new-tudor-watches-including-pelagos-gmt-north-flag-chronograph/)
@@ -5322,10 +5394,10 @@ Generated on January 23, 2026
 
 - [nyti.ms/36hqq9s](https://nyti.ms/36hqq9s)
 - [on.natgeo.com/2M8jsNc](https://on.natgeo.com/2M8jsNc)
-- [7:32 Nims!](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnimsdai%2F%3Fhl%3Den&is_from_rle=)
+- [7:32 Nims!](https://www.instagram.com/nimsdai/?hl=en)
 - [7:40 Nims on Episode 88 of TGN](https://www.hodinkee.com/articles/episode-88-a-chat-with-nirmal-nims-purja)
-- [9:55 Oris Carl Brashear Calibre 401 Limited Edition](https://www.oris.ch/en/watch/oris-carl-brashear-calibre-401-limited-edition/01-401-7764-3185-set)
-- [10:50 Erika’s Originals](https://bit.ly/2GDnRSA1)
+- [9:55 Oris Carl Brashear Calibre 401 Limited Edition](https://www.oris.ch/en-US/product/watch/divers/carl-brashear-calibre-401-limited/01-401-7764-3185-Set)
+- [10:50 Erika’s Originals](https://erikasoriginals.com/)
 - [Zenith El Primero Chronomaster Sport 3600](https://www.hodinkee.com/articles/zenith-chronomaster-sport-with-the-el-primero-caliber-3600-introducing)
 - [20:06 Zenith A385 Revival](https://www.hodinkee.com/articles/the-zenith-chronomaster-a385-revival)
 - [28:00 Zenith Elite Rainbow Diver](https://www.watchpatrol.net/listing/923695/)
@@ -5345,7 +5417,7 @@ Generated on January 23, 2026
 
 **Related Links (15):**
 
-- [0:01 Gishani's Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgishanir%2F&is_from_rle=)
+- [0:01 Gishani's Instagram](https://www.instagram.com/gishanir/)
 - [4:42 Eddie Bauer Peak XV Suit](https://www.eddiebauer.com/p/38925347/womens-peak-xv-20-suit?sp=1&rrec=true)
 - [7:00 Mountain Hardwear Ghost Whisperer pants](https://www.mountainhardwear.ca/en/p/mens-ghost-whisperer-pant-1871181.html)
 - [16:38 Eaton’s Vikings X472 Omni-directional speaker](https://www.google.com/search?q=viking+x472&sxsrf=ALeKk016lEhE6DIUaqq2j5GFL6UcC6chhg%3A1610551082248&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiB5pipmpnuAhXPF1kFHaBNBTMQ_AUoAXoECBEQAw&biw=840&bih=914#imgrc=sT6Oy0g2LthYGM)
@@ -5373,7 +5445,7 @@ Generated on January 23, 2026
 - [4:50 Shantaram](https://en.wikipedia.org/wiki/Shantaram_(novel))
 - [8:00 Patriot](https://en.wikipedia.org/wiki/Patriot_(TV_series))
 - [9:20 Lego Technics Defender](https://www.lego.com/en-ca/product/land-rover-defender-42110)
-- [11:47 Histobrick](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhistobrick%2F%3Fhl%3Den&is_from_rle=)
+- [11:47 Histobrick](https://www.instagram.com/histobrick/?hl=en)
 - [15:47 Sinn’s latest watches](https://www.sinn.de/en/watches/newest-watches/)
 - [21:28 Unimatic Modello Quattro U4](https://www.unimaticwatches.com/u4-a/)
 - [27:40 Hodinkee Blancpain MIL-SPEC Limited Edition](https://limited.hodinkee.com/blancpain-milspec/)
@@ -5382,7 +5454,7 @@ Generated on January 23, 2026
 - [35:56 Garmin Descent MKII](https://www.garmin.com/en-CA/p/633356)
 - [44:50 Jason’s Rolex Explorer 14270](https://www.instagram.com/p/CI0r_lgrYFm/)
 - [45:50 AF0210 Straps Kickstarter](https://www.kickstarter.com/projects/6b2617/6b-2617-the-original-nato-military-watch-strap-from-1954)
-- [49:34 James Lamdin](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjameslamdin%2F&is_from_rle=)
+- [49:34 James Lamdin](https://www.instagram.com/jameslamdin/)
 - [49:40 Analog Shift](https://www.analogshift.com/)
 - [50:53 The Seiko Prospex LX SNR029 (Episode Sponsor)](https://seikoluxe.com/prospex/prospex-lx/)
 - [56:55 Tudor Black Bay 58 Navy Blue](https://www.hodinkee.com/articles/tudor-black-bay-fifty-eight-navy-blue-hands-on)
@@ -5391,14 +5463,14 @@ Generated on January 23, 2026
 - [1:07:50 Seiko SPB143](https://www.hodinkee.com/articles/seiko-prospex-spb143-a-week-on-the-wrist-review)
 - [1:09:44 Seiko SPB151/153 “Captain Willard”](https://www.hodinkee.com/articles/seiko-spb151-and-spb153-captain-willard-prospex-introducing)
 - [1:11:38 Seiko SNJ029 “Safarnie”](https://www.hodinkee.com/articles/seiko-prospex-snj029-solar-diver-hands-on)
-- [1:13:30 Vertex Bronze 75](https://vertex-watches.com/en-us)
+- [1:13:30 Vertex Bronze 75](https://vertex-watches.com/products/the-bronze-75)
 - [1:16:05 Bremont Broadswoard Bronze SOTEK](https://www.bremont.com/collections/broadsword-bronze/products/broadsword-bronze-sotek)
 - [1:18:15 Oris Aquia Caliber 400](https://www.hodinkee.com/articles/oris-aquis-date-caliber-400-introducing)
 - [on.rolex.com/3l0a9Lk](https://on.rolex.com/3l0a9Lk)
 - [1:23:10 The Matt Bain Modem Burner for Hodinkee](https://www.hodinkee.com/articles/watch-shopping-miami-matt-bain-2019)
 - [1:25:40 Longines Heritage Classic Tuxedo](https://www.hodinkee.com/articles/longines-heritage-classic-tuxedo-models-introducing)
 - [1:29:54 Breitling AVI Ref. 765v1953 Re-Edition](https://www.hodinkee.com/articles/the-breitling-avi-ref-765-1953-re-edition)
-- [1:31:00 Watchfred on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwatchfred%2F%3Fhl%3Den&is_from_rle=)
+- [1:31:00 Watchfred on Instagram](https://www.instagram.com/watchfred/?hl=en)
 - [1:38:14 The Porter](https://www.youtube.com/watch?v=MxAU4wWG2Hs)
 - [1:42:55 “I Took A Harley Davison LiveWire On A roadmap And Everything That Could Have Gone Wrong Did” via Jalopnik](https://www.jalopnik.com/i-took-a-harley-davidson-livewire-on-a-road-trip-and-ev-1845749463/)
 
@@ -5422,7 +5494,7 @@ Generated on January 23, 2026
 - [29:57 Bremont AIRCO](https://us.bremont.com/collections/watches-mens-airco)
 - [30:20 Oris Big Crown Pointer Date](https://www.hodinkee.com/articles/oris-big-crown-pointer-date-x-fratello-limited-edition)
 - [1:04:46 Crown and Buckle Supreme NATOs](https://www.crownandbuckle.com/matte-supreme-nato-20mm-slate.html)
-- [1:05:17 Zuludiver 328 Rubber NATO](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
+- [1:05:17 Zuludiver 328 Rubber NATO](https://www.watchgecko.com/products/tidalpass-british-military-fkm-rubber-watch-strap-black)
 - [1:06:00 Hodinkee Reid Strap](https://shop.hodinkee.com/products/the-reid-watch-strap-in-neutrals?_pos=6&_sid=f6c6ebc66&_ss=r)
 - [1:12:45 Esslinger.com](https://www.esslinger.com/)
 - [1:15:50 Original Bremont Supermarine S500 handset](https://www.watchreport.com/bremont-supermarine-s500-review/)
@@ -5494,7 +5566,7 @@ Generated on January 23, 2026
 
 **Related Links (25):**
 
-- [1:30 Omega Ploprof titanium](https://www.omegawatches.com/en-us/watch-omega-seamaster-ploprof-1200m-co-axial-master-chronometer-55-x-48-mm-22790552101001)
+- [1:30 Omega Ploprof titanium](https://bit.ly/2GQMkXx)
 - [5:00 Citizen Promaster 1000M](https://www.citizenwatch.com/us/en/product/BN7020-17E.html)
 - [6:00 Bremont S2000](https://www.bremont.com/products/s2000-red)
 - [6:15 Seiko SBDX014G Tuna](https://www.seikowatches.com/ca-en/products/prospex/sbdx014g)
@@ -5505,13 +5577,13 @@ Generated on January 23, 2026
 - [30”00 Citizen Nighthawk](https://www.amazon.com/Citizen-Watches-BJ7006-56L-Eco-Drive-Silver-Tone/dp/B07C8GN7XT/ref=sr_1_3?dchild=1&sr=8-3)
 - [30:30 Citizen Skyhawk A-T](https://www.amazon.com/Citizen-Eco-Drive-Promaster-Titanium-JY8101-52L/dp/B07Z8JMYM6/ref=sr_1_22?dchild=1&sr=8-22)
 - [46:21 Breitling Single Pusher Chronograph](https://www.google.com/search?q=breitling+single+pusher+chronograph+1930s&sxsrf=ALeKk01PDR1DXYK9PdO17w2e1x7SdC22Yg%3A1605131608724&source=lnms&tbm=isch&sa=X&ved=2ahUKEwin2euavfvsAhWYG80KHSsfDbMQ_AUoAXoECAcQAw&biw=840&bih=916)
-- [47:28 1930’s Audemars Piguet Full Calendar](https://www.christies.com/lotfinder/Lot/audemars-piguet-a-very-fine-and-rare-5553583-details.aspx)
+- [47:28 1930’s Audemars Piguet Full Calendar](https://www.christies.com/lot/lot-audemars-piguet-a-very-fine-and-rare-5553583/)
 - [53:47 Royal Oak QP 25554](https://www.hodinkee.com/articles/early-audemars-piguet-royal-oak-perpetual-calendar-in-depth)
 - [55:30 AP Royal Oak diver](https://www.hodinkee.com/articles/a-week-on-the-wrist-the-audemars-piguet-royal-oak-offshore-d)
 - [56:38 Patek Philippe 2597 Cross Country](https://www.hodinkee.com/articles/patek-philippes-travel-time-legacy)
 - [59:20 Richard Lange](https://www.alange-soehne.com/eu-en/timepieces/richard-lange)
 - [1:00:35 Rolex Explorer II 1655](https://www.hodinkee.com/articles/explaining-the-freccione-with-a-frog-foot-dial-we-totally-ge)
-- [1:02:00 IWC Mark 11](https://www.iwc.com/ww-en/journal)
+- [1:02:00 IWC Mark 11](https://bit.ly/2UikLJR)
 - [1:03:30 Briggs Cunningham’s 1526 Patek Philippe](https://www.hodinkee.com/articles/the-incredible-watches-and-cars-of-briggs-cunningham)
 - [1:04:40 Vintage Omega Ploprof](https://www.hodinkee.com/articles/omega-ploprof-in-depth)
 - [1:06:18 Lange 1](https://www.alange-soehne.com/eu-en/timepieces/lange-1/lange-1#setCurrentScope=NL)
@@ -5561,7 +5633,7 @@ Generated on January 23, 2026
 - [1:11:52 E30 BMW](https://en.wikipedia.org/wiki/BMW_3_Series_(E30)#:~:text=The%20BMW%20E30%20is%20the,replaced%20the%20E21%203%20Series.&text=It%20was%20powered%20by%20four,to%20have%20all-wheel%20drive.)
 - [1:15:50 “A Man And His Car” by Matt Hranek](https://shop.hodinkee.com/collections/library/products/a-man-and-his-car-matt-hranek)
 - [1:20:40 “Underground Movement: Cave Diving in Jämtland”](https://vimeo.com/129753793)
-- [1:21:07 “Diving Into The Unknown”](http://www.divingintotheunknown.com/en)
+- [1:21:07 “Diving Into The Unknown”](https://takaisinpintaan.fi/en/)
 
 ---
 
@@ -5580,11 +5652,11 @@ Generated on January 23, 2026
 - [35:20 Damasko with center minutes](https://www.damasko-watches.com/en/models/chronographs/the-stopped-minute-from-the-middle/?p=1)
 - [35:35 Tag Aquagraph](https://www.calibre11.com/review-tag-heuer-aquagraph/)
 - [37:14 Ultramarine watches](https://www.ultramarine-watches.com/product-page/albatros9021)
-- [49:56 Gishani on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgishanir%2F%3Fhl%3Den&is_from_rle=)
-- [50:09 Megan Hine](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmegan_hine%2F%3Fhl%3Den&is_from_rle=)
-- [51:01 Kit Deslauriers](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkitdski%2F%3Fhl%3Den&is_from_rle=)
-- [52:29 Kellee Edwards](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkelleesetgo%2F%3Fhl%3Den&is_from_rle=)
-- [53:19 Caroline Gleich](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcarolinegleich%2F%3Fhl%3Den&is_from_rle=)
+- [49:56 Gishani on Instagram](https://www.instagram.com/gishanir/?hl=en)
+- [50:09 Megan Hine](https://www.instagram.com/megan_hine/?hl=en)
+- [51:01 Kit Deslauriers](https://www.instagram.com/kitdski/?hl=en)
+- [52:29 Kellee Edwards](https://www.instagram.com/kelleesetgo/?hl=en)
+- [53:19 Caroline Gleich](https://www.instagram.com/carolinegleich/?hl=en)
 - [59:05 Seiko Baby Turtle](https://www.seikowatches.com/ca-en/products/prospex/srpc39k1)
 
 ---
@@ -5611,8 +5683,8 @@ Generated on January 23, 2026
 - [1:08:50 Milestones In The Development Of The NATO Strap](https://af0210strap.com/the-genealogy-of-the-nato-strap/)
 - [1:11:03 Rover Haven straps](https://www.roverhaven.com/)
 - [1:11:54 Fleet Foxes “Shore”](https://www.fleetfoxes.co/)
-- [1:12:20 Robin Pecknold on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frobinpecknold%2F%3Fhl%3Den&is_from_rle=)
-- [1:17:44 “We Quit Our Jobs To Build a Cabin – Everything Went Wrong”](https://www.outsideonline.com/2415766/friends-diy-cabin-build-washington)
+- [1:12:20 Robin Pecknold on Instagram](https://www.instagram.com/robinpecknold/?hl=en)
+- [1:17:44 “We Quit Our Jobs To Build a Cabin – Everything Went Wrong”](https://www.outsideonline.com/culture/essays-culture/friends-diy-cabin-build-washington/?scope=anon)
 
 ---
 
@@ -5627,7 +5699,7 @@ Generated on January 23, 2026
 - [15:04 Beyond the Dial’s Mission Lake George with Oris](https://www.beyondthedial.com/post/announcing-mission-lake-george/)
 - [17:02 Farer’s new GMT Bezel Automatics](https://farer.com/collections/gmt-bezel)
 - [19:24 Banana Republic Photojournalist Vest](https://bananarepublic.gap.com/browse/GeneralNoResults.do#pdp-page-content)
-- [23:22 Honey browser plugin](https://www.joinhoney.com/trending/stores)
+- [23:22 Honey browser plugin](https://bit.ly/32TTCSy)
 - [24:55 Jason’s Bremont MBII](https://www.instagram.com/p/CE5RJ3IjMZr/)
 - [25:37 James’ Seiko SPB143](https://www.instagram.com/p/CEcsa8pHQKs/)
 - [42:12 Shearling liners for Blundstones](https://www.blundstone.com/products/sheepskin-footbed)
@@ -5652,10 +5724,10 @@ Generated on January 23, 2026
 **Related Links (12):**
 
 - [34:15 Swiss army knifes for camping](https://www.victorinox.com/en-US/)
-- [35:20 Leatherman Multi-tools](https://www.leatherman.com/collections/multi-tools)
+- [35:20 Leatherman Multi-tools](https://www.leatherman.com/collections/leatherman-multi-tools)
 - [35:35 Benchmade Mini-Grip](https://www.benchmade.com/mini-griptilian-family.html)
 - [35:45 Spyderco Knives](https://spyderco.com/)
-- [41:05 Chronos Wearable](https://wearchronos.com/)
+- [41:05 Chronos Wearable](https://bit.ly/2J8unPj)
 - [54:44 Peking To Paris](https://en.wikipedia.org/wiki/Peking_to_Paris)
 - [1:00:03 Victorinox Inox](https://www.victorinox.com/en-US/)
 - [1:10:13 JLC Reverso](https://www.jaeger-lecoultre.com/us-en/watches/reverso)
@@ -5676,13 +5748,13 @@ Generated on January 23, 2026
 - [2:33 Norrøna Clothing](https://www.norrona.com/)
 - [17:05 CWC 1983 Quartz Royal Navy Divers watch](https://www.cwcwatch.com/collections/heritage-reissue-historical-watches/products/1983-quartz-royal-navy-divers-watch)
 - [18:12 Tudor Black Bay Chrono Steel and Gold](https://www.tudorwatch.com/en/watches/black-bay-chrono/m79363n-0001)
-- [21:25 Laurent Ballesta](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flaurentballesta%2F%3Fhl%3Den&is_from_rle=)
+- [21:25 Laurent Ballesta](https://www.instagram.com/laurentballesta/?hl=en)
 - [22:00 Laurent’s book “700 Sharks In The Night”](https://laurentballesta.com/)
-- [30:00 Blancpain Watches](https://www.blancpain.com/en)
-- [38:45 Blancpain Ocean Commitment](https://www.blancpain-ocean-commitment.com/en)
+- [30:00 Blancpain Watches](https://bit.ly/33e9bna)
+- [38:45 Blancpain Ocean Commitment](https://bit.ly/3k67Fu8)
 - [48:20 Nikon D5](https://www.nikonusa.com/p/d5/1557/overview)
 - [1:33:15 Tango bag from The Observer Collection](https://www.observercollection.com/collection/tango/)
-- [1:34:10 Robert Spangle on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthousandyardstyle%2F&is_from_rle=)
+- [1:34:10 Robert Spangle on Instagram](https://www.instagram.com/thousandyardstyle/)
 - [1:39:02 “From the Diary of a Royal Navy Dive Watch” via CWCaddict.com](https://cwcaddict.com/f/from-the-diary-of-a-royal-navy-dive-watch)
 
 ---
@@ -5702,8 +5774,8 @@ Generated on January 23, 2026
 - [18:40 Kraken Continuous diving lights](https://krakensports.ca/product/solar-flare-mini/)
 - [21:00 Watchgecko waffle rubber strap](https://www.watchgecko.com/products/seacroft-waffle-rubber-dive-watch-strap-black)
 - [22:10 Haveston straps](https://www.haveston.com/)
-- [24:58 Mido Ocean Star Decompression Timer 1961 LE](https://www.midowatches.com/en/ocean-star-decompression-timer-1961-limited-edition-m0268071105100.html)
-- [27:30 Mido Ocean Star Tribute](https://www.midowatches.com/en/ocean-star-tribute-m0268301104100.html)
+- [24:58 Mido Ocean Star Decompression Timer 1961 LE](https://bit.ly/3hxGcAK)
+- [27:30 Mido Ocean Star Tribute](https://bit.ly/3ljfSwp)
 - [31:00 Blancpain Bathyscaph Mokarran LE](https://www.hodinkee.com/articles/blancpain-bathyscaphe-mokarran-limited-edition-introducing)
 - [33:30 Scurfa MS 20](https://www.scurfawatches.com/product/m-s-20-diver-one-limited-edition/)
 - [36:12 Doxa SUB 300](https://doxawatches.com/collections/sub-300)
@@ -5712,7 +5784,7 @@ Generated on January 23, 2026
 - [50:00 Oris Carysfort LE](https://www.hodinkee.com/articles/oris-carysfort-reef-limited-edition-now-in-stainless-steel-live-pics-and-pricing-introducing)
 - [51:10 Oris Holstein LE](https://www.hodinkee.com/articles/the-oris-holstein-edition-2020)
 - [52:40 Baltic Aquascaphe Bronze](https://www.hodinkee.com/articles/baltic-aquascaphe-bronze-live-pics-and-pricing-introducing)
-- [1:00:10 Dagbert on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdagbert%2F%3Fhl%3Den&is_from_rle=)
+- [1:00:10 Dagbert on Instagram](https://www.instagram.com/dagbert/?hl=en)
 - [1:01:20 Audubon Birdwatching App](https://www.audubon.org/app#:~:text=The%20Audubon%20Bird%20Guide%20is,find%20new%20birds%20near%20you.)
 - [1:04:44 The SR-71 Black Bird was Almost Brought Back for the War on Terror](https://www.twz.com/32788/the-sr-71-blackbird-was-almost-brought-back-for-the-global-war-on-terror)
 
@@ -5734,7 +5806,7 @@ Generated on January 23, 2026
 - [30:30 Proteus](https://www.fabiencousteauolc.org/proteus)
 - [imdb.to/3fOAFnJ](https://www.imdb.com/title/tt10183858/)
 - [1:06:45 Jake’s Rolex Blog article about Cousteau family watches](https://www.rolexmagazine.com/search/label/Cousteau%20Family)
-- [1:14:55 Fabien on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffcousteau%2F%3Fhl%3Den&is_from_rle=)
+- [1:14:55 Fabien on Instagram](https://www.instagram.com/fcousteau/?hl=en)
 - [1:16:09 World Without Sun](https://www.youtube.com/watch?v=4mp0PA-O_4c&list=PLRigxxFtow_tBV2yhULV67pIwk8oxYkCs)
 - [1:18:15 Gordon Murray on The Collecting Cars Podcast with Chris Harris](https://collectingcars.com/podcasts/)
 - [1:21:15 Henry Catchpole’s Carfection video with Gordon Murray](https://www.youtube.com/watch?v=YKRMY4sm_f0)
@@ -5748,12 +5820,12 @@ Generated on January 23, 2026
 **Related Links (14):**
 
 - [07:11 Festool](https://www.festoolcanada.com/)
-- [8:40 Dewalt stacking tool storage](https://www.dewalt.com/products/storage-and-gear/tool-storage/tstak)
+- [8:40 Dewalt stacking tool storage](https://bit.ly/3fefzyC)
 - [11:50 Jason’s “Safarni”](https://www.instagram.com/p/CCbXjm1jpXl/)
 - [12:30 James’ Doxa 50th Anni Professional](https://www.instagram.com/p/B7_l8yFn8sH/)
 - [13:30 Garmin Outage](https://www.forbes.com/sites/leemathews/2020/07/27/garmin-confirms-ransomware-attack-as-services-come-back-online/#1a19eca71523)
 - [24:05 Otto Frei](https://www.ofrei.com/)
-- [27:03 Roldorf & Co](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Froldorf%2F&is_from_rle=)
+- [27:03 Roldorf & Co](https://www.instagram.com/roldorf/)
 - [27:50 UTEwatchco](https://www.utewatchco.com/)
 - [30:00 Garmin Instinct](https://www.garmin.com/en-US/p/621802)
 - [38:30 Ulysses Nardin Torpilleur](https://www.ulysse-nardin.com/watches/marine/1183-310-43)
@@ -5774,7 +5846,7 @@ Generated on January 23, 2026
 - [5:50 The Bermuda shipwreck](https://shipwrecktours.com/the-bermuda/)
 - [12:24 Neowise Comet](https://www.wired.com/story/how-to-see-comet-neowise-before-its-gone/)
 - [13:52 Sinn U50](https://www.hodinkee.com/articles/sinn-u50-hands-on)
-- [15:59 Godox TT600 Manual Flash](http://www.godox.com/EN/Products_Camera_Flash_TT600.html)
+- [15:59 Godox TT600 Manual Flash](https://www.godox.com/EN/Products_Camera_Flash_TT600.html)
 - [22:45 Jason’s Sharkhunter Doxa T.Graph](https://www.instagram.com/p/CBeCH5rDFzY/)
 - [24:45 AnalogShift.com](https://www.analogshift.com/)
 - [30:25 Raise The Titanic](https://en.wikipedia.org/wiki/Raise_the_Titanic!)
@@ -5784,7 +5856,7 @@ Generated on January 23, 2026
 - [1:11:20 “The Splendid and the Vile” - Eric Larson](https://www.amazon.com/Splendid-Vile-Churchill-Family-Defiance-ebook/dp/B07TRVW6VX)
 - [imdb.to/2OPs8Wk](https://www.imdb.com/title/tt7983794/)
 - [1:17:00 The Equal Justice Initiative](https://eji.org/)
-- [1:17:55 James Lamdin on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjameslamdin%2F%3Fhl%3Den&is_from_rle=)
+- [1:17:55 James Lamdin on Instagram](https://www.instagram.com/jameslamdin/?hl=en)
 - [1:18:55 Sarah Airriess Antarctica blog](http://twirlynoodle.com/blog)
 - [1:21:50 Oyster-tecture via 99% Invisible](https://99percentinvisible.org/episode/oyster-tecture/)
 
@@ -5820,7 +5892,7 @@ Generated on January 23, 2026
 - [35:03 Cantonment Kerchiefs](https://www.cantonment.co/)
 - [53:01 Kill Hubris Washed Pocket Tees](https://www.killhubris.com/collections/featured/products/pockettees)
 - [58:47 Buck 501 Squire](https://www.buckknives.com/custom-knife/customizable-501-squire-knife/)
-- [59:15 James Brand Elko](https://shop.thejamesbrand.com/products/the-elko?variant=3130550363757)
+- [59:15 James Brand Elko](https://bit.ly/38UkuSZ)
 - [59:40 Hohner Accordions Harmonica](https://www.amazon.com/dp/B005U5J4J8/ref=cm_sw_r_cp_api_i_nE7aFb1WCP3VQ)
 - [1:00:55 Big I Design Titanium Pocket Clip](https://bigidesign.com/collections/pocket-tools/products/tpc-titanium-pocket-clips)
 - [1:01:45 Muyshondt Aeon Titanium](https://shop.muyshondt.net/collections/aeon/products/aeon-titanium)
@@ -5833,7 +5905,7 @@ Generated on January 23, 2026
 - [1:11:20 Josh Perez on TGN](https://soundcloud.com/thegreynato/the-grey-nato-ep-108-the-isolation-tapes-ft-josh-perez)
 - [1:13:32 Mountainsmith Tour Classic fanny-pack](https://mountainsmith.com/products/tour-classic-heritage)
 - [1:16:16 Hammock packable hammock and Python Straps](https://kammok.com/collections/straps-suspension)
-- [1:19:55 Kyality on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkyality%2F%3Fhl%3Den&is_from_rle=)
+- [1:19:55 Kyality on Instagram](https://www.instagram.com/kyality/?hl=en)
 - [apple.co/2Z6YgL9](https://apple.co/2Z6YgL9)
 - [1:26:20 “The Eruption of Instagram Island”](https://www.gq.com/story/eruption-of-whakaari-white-island-new-zealand)
 - [imdb.to/2Z6YtOr](https://www.imdb.com/title/tt8134186/)
@@ -5848,7 +5920,7 @@ Generated on January 23, 2026
 
 - [1:45 James’ Halios Auction result for The Innocence Project](https://www.instagram.com/p/CBvnlSNHoyz/)
 - [rolex4eji](https://soundcloud.com/rolex4eji)
-- [3:40 @ rolex4eji Rolex OP auction for the Equal Justice Initiative](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frolex4eji%2F&is_from_rle=)
+- [3:40 @ rolex4eji Rolex OP auction for the Equal Justice Initiative](https://www.instagram.com/rolex4eji/)
 - [15:10 Oris Divers Sixty Five Chronograph](https://www.instagram.com/p/CBa6UzFjyaW/)
 - [24:30 Seiko “King Turtle”](https://wornandwound.com/all-hail-the-new-seiko-prospex-king-turtle-refs-srpe03-srpe05-and-srpe07/)
 - [38:50 Jason’s experience on Mt. Rainier](https://gate.sc/?url=https%3A%2F%2Fbit.ly%2F3euA2jp&token=7364c8-1-1620760293176)
@@ -5865,8 +5937,8 @@ Generated on January 23, 2026
 - [1:06:30 Kangaroo leather NATO](https://shop.hodinkee.com/products/kangaroo-nato-strap-tan?_pos=1&_sid=ab7c300da&_ss=r)
 - [1:07:17 Jason’s Blancpain Hodinkee LE](https://www.instagram.com/p/B_2lkS_j3Oc/)
 - [1:09:25 Halios Universa (prototype)](https://www.instagram.com/p/ByhIIIYHe-K/)
-- [1:10:05 Cartier Tank](https://www.cartier.com/en-us/tank.html)
-- [1:11:42 Omega PO 37.5mm](https://www.omegawatches.com/watch-omega-seamaster-planet-ocean-600m-co-axial-chronometer-37-5-mm-23230382001001)
+- [1:10:05 Cartier Tank](https://www.cartier.com/en-us/collections/watches/mens-watches/tank.html)
+- [1:11:42 Omega PO 37.5mm](https://bit.ly/2NsDkYy)
 - [1:12:48 Seiko SKX013](https://www.hodinkee.com/articles/seiko-skx013-dive-watch-value-propositionn)
 - [1:21:39 Don’t Do That With Your Watch](https://soundcloud.com/thegreynato/the-grey-nato-ep-61-dont-do-that-with-your-watch)
 - [1:29:55 The Longest Johns (youtube)](https://www.youtube.com/watch?v=-KO7cofMJH0)
@@ -5903,15 +5975,15 @@ Generated on January 23, 2026
 
 **Related Links (18):**
 
-- [- Big Brothers Big Sisters of America](https://secured.bbbs.org/page/145038/donate/1)
+- [- Big Brothers Big Sisters of America](https://secured.bbbs.org/page/34557/donate/1?ea.tracking.id=bbbs-website)
 - [- The ACLU](https://www.aclu.org/)
 - [- The Innocence Project](https://innocenceproject.org/)
 - [- NAACP](https://secure.actblue.com/donate/naacp-1)
 - [- Black Lives Matter](https://blacklivesmatter.com/)
-- [- Minnesota Freedom Fund](https://minnesotafreedomfund.org/donate)
-- [- Southern Poverty Law Center](https://donate.splcenter.org/)
+- [- Minnesota Freedom Fund](https://bit.ly/2YmrrIz)
+- [- Southern Poverty Law Center](https://bit.ly/2UvMnM9)
 - [Garactcle](https://soundcloud.com/Garactcle)
-- [7:55 @ Garactcle Instagram (follow him!)](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgaractacle%2F&is_from_rle=)
+- [7:55 @ Garactcle Instagram (follow him!)](https://www.instagram.com/garactacle/)
 - [8:37 Jason’s Unimatic auction for charity](https://www.instagram.com/p/CBONGEMDGWk/)
 - [12:25 Garmin 42mm Fenix 6](https://www.garmin.com/en-US/p/641530/pn/010-02159-24)
 - [17:16 Garmin Venu (with an OLED screen)](https://www.garmin.com/en-US/p/643260)
@@ -5938,9 +6010,9 @@ Generated on January 23, 2026
 - [29:18 “Safarni” Seiko](https://watchesbysjx.com/2020/05/seiko-prospex-street-series-urban-safari.html)
 - [31:15 Hands On With The Doxa SUB 300 Carbon](https://www.hodinkee.com/articles/doxa-sub-300-carbon-aqua-lung-us-divers-limited-edition-hands-on)
 - [32:48 Hiking with an RM025](https://www.hodinkee.com/articles/richard-mille-rm25-01-colorado-backcountry)
-- [47:35 Alpina AlpinerX multifunction watch](https://alpinawatches.com/collections/alpiner-collection)
+- [47:35 Alpina AlpinerX multifunction watch](https://alpinawatches.com/collections/alpinerx)
 - [52:00 Doxa SUB 200](https://doxawatches.com/collections/sub-200)
-- [52:01 Oris Divers Sixty-Five](https://www.oris.ch/en/collection/oris-divers)
+- [52:01 Oris Divers Sixty-Five](https://www.oris.ch/en-US/product/watch/oris-divers)
 - [1:01:40 Sinn U50](https://www.hodinkee.com/articles/sinn-u50-u50-sdr-and-u50-s-dive-watches-introducing)
 - [1:08:35 Nanuk 510](https://nanuk.com/products/nanuk-910?lang=lang-en)
 - [1:11:05 Cory Richards](https://soundcloud.com/thegreynato/the-grey-nato-ep-85-a-chat-with-cory-richards)
@@ -5965,7 +6037,7 @@ Generated on January 23, 2026
 
 **Related Links (15):**
 
-- [2:40 Alps Mountaineering Taurus 4](https://www.alpsbrands.com/alpsmountaineering/products/tents/taurus-al-4)
+- [2:40 Alps Mountaineering Taurus 4](https://bit.ly/2LMqCCQ)
 - [9:30 Wharfedale S33 speakers](https://static.hifishark.com/imgproxy/35d8efb98c3d/b4/8c/s/i.ebayimg.com/00/s/MTIwMFgxNjAw/z/uYUAAOSws5pZHiaE/$_35.JPG)
 - [10:25 Lepai 2020 amp](https://www.amazon.com/Lepai-LP-2020TI-Instruments-TPA3118-Amplifier/dp/B071FJF4FF/ref=sr_1_2?dchild=1&sprefix=lepai%2Caps%2C257&sr=8-2)
 - [10:30 D03K Fiio DAC](https://www.amazon.com/FiiO-D03K-Digital-Analog-Converter/dp/B009346RSS/ref=sr_1_12?dchild=1&sr=8-12)
@@ -6063,9 +6135,9 @@ Generated on January 23, 2026
 - [52:40 Forstner Komfit](https://forstnerbands.com/products/forstner-jb-astronaut-band)
 - [52:50 Strapcode](https://www.strapcode.com/)
 - [53:10 Hadley Roma jubilee-style bracelet](https://holbensfinewatchbands.com/products/hadley-roma-mb4216-jubilee-for-rolex-stainless-steel)
-- [1:05:20 Nerd Wallet investing guide](https://www.nerdwallet.com/article/investing/how-to-invest-in-stocks)
-- [1:05:50 Nerd Wallet stock market simulators](https://www.nerdwallet.com/article/investing/virtual-trading-stock-market-simulators)
-- [1:12:05 Peninsula Kelp Co](https://peninsulakelpco.com/)
+- [1:05:20 Nerd Wallet investing guide](https://www.nerdwallet.com/investing/learn/how-to-invest-in-stocks)
+- [1:05:50 Nerd Wallet stock market simulators](https://www.nerdwallet.com/investing/learn/virtual-trading-stock-market-simulators)
+- [1:12:05 Peninsula Kelp Co](https://bit.ly/2yYzdPF)
 - [ebay.to/2KHe2En](https://ebay.to/2KHe2En)
 - [1:14:20 Demagnetizer how to](https://gate.sc/?url=https%3A%2F%2Fbit.ly%2F2yPN6zU&token=c76769-1-1620760010187)
 
@@ -6085,19 +6157,19 @@ Generated on January 23, 2026
 - [15:10 James’ Explorer II](https://www.instagram.com/p/B_Ds8iWD6ZO/)
 - [17:10 Jason’s Aquastar Regate](https://www.instagram.com/p/B_SgRzJDoOw/)
 - [18:45 The Hodinkee Shop](https://shop.hodinkee.com/)
-- [19:39 Josh Perez’s Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjoshuaedric%2F&is_from_rle=)
+- [19:39 Josh Perez’s Instagram](https://www.instagram.com/joshuaedric/)
 - [23:16 Volume 5 of Hodinkee Magazine](https://shop.hodinkee.com/products/hodinkee-magazine-volume-5)
 - [25:45 Topo Designs](https://topodesigns.com/)
-- [30:00 Chris Burkard](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fchrisburkard%2F&is_from_rle=)
+- [30:00 Chris Burkard](https://www.instagram.com/chrisburkard/)
 - [31:05 Rab Equipment](https://rab.equipment/ca/)
-- [31:30 Dano Pendygrasse instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdanopendygrasse%2F%3Fhl%3Den&is_from_rle=)
+- [31:30 Dano Pendygrasse instagram](https://www.instagram.com/danopendygrasse/?hl=en)
 - [37:17 Sett Studio](https://sett.studio/)
 - [47:00 Pedro and Tailor](https://pedroandtailor.com/)
 - [49:30 Photo contest winners](https://pedroandtailor.com/blog/photography-grant-finalists)
 - [51:33 Guayabera shirt](https://en.wikipedia.org/wiki/Guayabera)
 - [55:35 PonPon Denver](https://ponponbar.com/)
 - [55:40 Forest Room 5](https://www.yelp.ca/biz/forest-room-5-denver)
-- [56:20 Our Mutual Friend Brewery](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fomfbrewing%2F%3Fhl%3Den&is_from_rle=)
+- [56:20 Our Mutual Friend Brewery](https://www.instagram.com/omfbrewing/?hl=en)
 - [57:30 “Rams” documentary](https://www.hustwit.com/rams)
 - [59:00 The Design of Everyday Things](https://gate.sc/?url=https%3A%2F%2Famzn.to%2F2SfkoPR&token=951ad-1-1620759974591)
 - [59:27 The Watch](https://shop.hodinkee.com/collections/library/products/the-watch-thoroughly-revised?variant=13587812352075)
@@ -6122,14 +6194,14 @@ Generated on January 23, 2026
 - [21:30 Jason’s Speedy](https://www.instagram.com/p/B-9uPHMDdPL/)
 - [21:48 James’ Buren MinStop](https://www.hodinkee.com/articles/buren-minstop-gold-just-because)
 - [27:06 Coles’ Seamaster 300M A Week On The Wrist](https://www.hodinkee.com/articles/omega-seamaster-diver-300m-review)
-- [33:06 RADwood](https://www.radwood.co/)
-- [33:11 Driving While Awesome Podcast](https://shoutengine.com/DrivingWhileAwesome/)
+- [33:06 RADwood](https://bit.ly/3a5385O)
+- [33:11 Driving While Awesome Podcast](https://bit.ly/2VuZUDt)
 - [37:00 Cole’s Mitsubishi Pajero](https://www.instagram.com/p/B-TL0u_Hw2R/)
 - [38:33 Japanese Classics](https://www.japaneseclassics.com/)
 - [40:15 All of the dirt roads around America](https://apps.fs.usda.gov/TravelAccess/)
 - [42:32 Global Roamer](https://garagetherapy.com.au/)
 - [45:25 Mitsubishi Willys Jeeps](https://thenewswheel.com/wait-mitsubishi-made-a-jeep/)
-- [47:10 Hutan Tropical Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhutantropical%2F%3Fhl%3Den&is_from_rle=)
+- [47:10 Hutan Tropical Instagram](https://www.instagram.com/hutantropical/?hl=en)
 - [54:08 Addis Ababa, Ethiopia](https://en.wikipedia.org/wiki/Addis_Ababa)
 - [55:26 Fang, Thailand](https://en.wikipedia.org/wiki/Fang_(town))
 - [58:20 Natchez, Mississippi](https://visitnatchez.org/)
@@ -6139,7 +6211,7 @@ Generated on January 23, 2026
 - [1:03:30 The Hodinkee Shop](https://shop.hodinkee.com/)
 - [1:07:15 How to use a compass](https://www.youtube.com/watch?v=0cF0ovA3FtY)
 - [1:08:34 Free Harvard classes](https://pll.harvard.edu/catalog?paid%5B1%5D=1&max_price=&start_date_range%5Bmin%5D%5Bdate%5D=&start_date_range%5Bmax%5D%5Bdate%5D=)
-- [1:10:00 AV Club’s top 100 films of the last decade](https://film.avclub.com/the-100-best-movies-of-the-2010s-1839846306)
+- [1:10:00 AV Club’s top 100 films of the last decade](https://bit.ly/34BdJEu)
 - [1:12:15 Sounding the Sumburgh Foghorn](https://www.youtube.com/watch?v=iHCmzvzCmhI)
 
 ---
@@ -6184,16 +6256,16 @@ Generated on January 23, 2026
 **Related Links (19):**
 
 - [4:34 Pedro and Tailor $1000 Photography Contest](https://pedroandtailor.com/)
-- [9:27 Instagram for Jason’s Novel “Depth Charge” (follow, signup!)](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdepthcharge_novel%2F&is_from_rle=)
+- [9:27 Instagram for Jason’s Novel “Depth Charge” (follow, signup!)](https://www.instagram.com/depthcharge_novel/)
 - [11:16 openlibrary.org (free books!)](https://openlibrary.org/)
 - [13:13 Jason’s Speedy](https://www.instagram.com/p/B-Zr5eEDgXI/)
 - [14:00 MKII Paradive Gen3](https://mkiiwatches.com/paradive)
-- [14:17 Bill Yao’s / MKII Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmkiiwatch%2F&is_from_rle=)
-- [15:17 ToxicNATOs!](https://www.toxicnatos.com/)
-- [18:15 Oris Pointer Date](https://www.oris.ch/en/watch/oris-big-crown-pointer-date/01-754-7741-4365-07-5-20-71)
+- [14:17 Bill Yao’s / MKII Instagram](https://www.instagram.com/mkiiwatch/)
+- [15:17 ToxicNATOs!](https://bit.ly/2uewAV6)
+- [18:15 Oris Pointer Date](https://www.oris.ch/en-US/product/watch/big-crown/big-crown-pointer-date/01-754-7741-4365-07-5-20-71)
 - [18:15 Nomos Club Atlantik](https://nomos-glashuette.com/en/watches/families/club)
 - [21:20 Aeropress](https://aeropress.com/)
-- [22:10 Turk’s West Vancouver](http://turkscoffeebar.com/)
+- [22:10 Turk’s West Vancouver](https://www.douglasgop.org/executive-board-douglas-county-nevada-republicans)
 - [22:32 Melitta cone pour over](https://www.amazon.com/Melitta-Coffee-Brewer-Filter-Natural/dp/B01J96VMCA)
 - [22:40 Japanese Kinto pour over](https://global.rakuten.com/en/store/smartkitchen/item/10005615/)
 - [23:23 Blue Bottle](https://bluebottlecoffee.com/)
@@ -6201,7 +6273,7 @@ Generated on January 23, 2026
 - [44:55 The Hodinkee Shop](https://shop.hodinkee.com/)
 - [1:02:20 Horofix strap pliers](https://www.esslinger.com/horofix-spring-bar-tweezers/)
 - [1:97:15 Nick Mankee Straps](https://nickmankeydesigns.com/)
-- [1:08:42 Romig21 on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fromig21%2F&is_from_rle=)
+- [1:08:42 Romig21 on Instagram](https://www.instagram.com/romig21/)
 
 ---
 
@@ -6248,7 +6320,7 @@ Generated on January 23, 2026
 - [42:25 Band of Brothers](https://en.wikipedia.org/wiki/Band_of_Brothers_(miniseries))
 - [45:08 Survivours Guilt In The Mountains – The New Yorker](https://www.newyorker.com/magazine/2020/03/02/survivors-guilt-in-the-mountains)
 - [47:00 Naked and Afraid](https://go.discovery.com/show/naked-and-afraid-discovery)
-- [48:20 Everything on Naked and Afraid is Real, And I Lived It – Outside Online](https://www.outsideonline.com/2410017/naked-and-afraid-real-blair-braverman)
+- [48:20 Everything on Naked and Afraid is Real, And I Lived It – Outside Online](https://www.outsideonline.com/culture/books-media/naked-and-afraid-real-blair-braverman/?scope=anon)
 
 ---
 
@@ -6267,7 +6339,7 @@ Generated on January 23, 2026
 - [29:14 Willet Bourbon](https://www.kentuckybourbonwhiskey.com/)
 - [29:51 Tobermory Scotch](https://tobermorydistillery.com/en-us/collections)
 - [42:00 “The Doxa HRV” - Perezcope](https://perezcope.com/2020/02/25/the-doxa-hrv/)
-- [43:45 “6 Classic Adventure Books We’d Read Again and Again” - Outside Online](https://www.outsideonline.com/2409385/classic-adventure-books)
+- [43:45 “6 Classic Adventure Books We’d Read Again and Again” - Outside Online](https://www.outsideonline.com/culture/books-media/classic-adventure-books/?scope=anon)
 
 ---
 
@@ -6286,7 +6358,7 @@ Generated on January 23, 2026
 - [34:08 Classic Waffle Sweater](https://www.alpsandmeters.com/collections/knitwear/products/classic-waffle)
 - [35:29 The Touring Oxford](https://www.alpsandmeters.com/collections/knitwear/products/touring-oxford)
 - [43:16 Calibre de Cartier](https://www.hodinkee.com/articles/calibre-de-cartier-diver-black)
-- [46:09 The James Brand Elko](https://shop.thejamesbrand.com/products/the-elko?variant=3130550363757)
+- [46:09 The James Brand Elko](https://bit.ly/38UkuSZ)
 - [47:20 Swiss Army Knife](https://shop.hodinkee.com/products/hodinkee-black-classic-sd-swiss-army-knife)
 - [47:59 Benchmade Mini-Grip 556S](https://www.benchmade.com/mini-griptilian-family.html)
 - [48:48 Benchmade Proper 319](https://www.benchmade.com/proper-family.html)
@@ -6328,7 +6400,7 @@ Generated on January 23, 2026
 
 **Related Links (12):**
 
-- [2:10 Oris Watches](https://www.oris.ch/)
+- [2:10 Oris Watches](https://www.oris.ch/en-US)
 - [6:00 Vail Skiing](https://www.vail.com/)
 - [9:36 Snow Blades (aka Skiboarding, I’m sorry)](https://en.wikipedia.org/wiki/Skiboarding)
 - [12:54 Alps And Meters](https://www.alpsandmeters.com/)
@@ -6337,9 +6409,9 @@ Generated on January 23, 2026
 - [19:20 Oris Aquis Carysfort Reef Limited Edition](https://www.hodinkee.com/articles/oris-carysfort-reef-limited-edition-live-pics-and-pricing#comments)
 - [27:45 The Coral Restoration Foundation](https://coralrestoration.org/)
 - [31:05 Raise The Reef Gala](https://coralrestoration.org/meet-us/)
-- [31:49 The Coral Restoration Consortium](http://crc.reefresilience.org/)
+- [31:49 The Coral Restoration Consortium](https://bit.ly/315nUiJ)
 - [38:00 Where Diver’s Dare: The Hunt For The Last U-Boat](https://www.amazon.com/Where-Divers-Dare-Hunt-U-Boat/dp/0425276368)
-- [40:25 My Journey to Scotland’s Most Remote Pub](https://www.outsideonline.com/2406629/old-forge-pub-scotland-highlands-uk)
+- [40:25 My Journey to Scotland’s Most Remote Pub](https://www.outsideonline.com/adventure-travel/destinations/europe/old-forge-pub-scotland-highlands-uk/?scope=anon)
 
 ---
 
@@ -6373,13 +6445,13 @@ Generated on January 23, 2026
 - [14:10 Loupedeck+](https://loupedeck.com/)
 - [20:05 Train trip to Murren](https://www.instagram.com/p/BvWtBsTnO6i/)
 - [imdb.to/39DiFea](https://www.imdb.com/title/tt1399664/)
-- [23:40 Porsche 911 Ice Driving](https://nuvomagazine.com/daily-edit/porsche-ice-experience-canada-quebec)
+- [23:40 Porsche 911 Ice Driving](https://nuvomagazine.com/rides/porsche-ice-experience-canada-quebec)
 - [23:40 McLarens in Arizona](https://nuvomagazine.com/daily-edit/the-mclaren-720s-spider-2)
 - [24:00 James’ Leica Profile](https://www.hodinkee.com/articles/my-leica-james-stacey)
 - [24:44 Pfaff McLaren](https://www.pfaffauto.com/why-buy-from-pfaff.html)
 - [25:30 Lamborghini Huracan Evo](https://www.instagram.com/p/B2W8DPtn74G/)
 - [25:54 Hodinkee Magazine Issue 5](https://www.hodinkee.com/magazine)
-- [26:00 Josh Perez](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjoshuaedric%2F&is_from_rle=)
+- [26:00 Josh Perez](https://www.instagram.com/joshuaedric/)
 - [26:05 Jeep Roadtrip to NYC](https://www.instagram.com/p/B5T8ElzHdV4/)
 - [32:00 Jason’s Trip to Wales](https://www.instagram.com/p/B2COB1_n08-/)
 - [33:40 Imperial War Museum](https://www.iwm.org.uk/)
@@ -6395,7 +6467,7 @@ Generated on January 23, 2026
 - [43:30 “Nims” Purja](https://soundcloud.com/thegreynato/the-grey-nato-ep-88-a-chat-with-nirmal-nims-purja)
 - [43:32 Andy Mann](https://soundcloud.com/thegreynato/the-grey-nato-ep-93-a-chat-with-andy-mann)
 - [44:00 Tom Stafford on Hodinkee Radio](https://www.hodinkee.com/articles/hodinkee-radio-episode-42-general-tom-stafford)
-- [45:42 Bret Curry](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbretcurry%2F&is_from_rle=)
+- [45:42 Bret Curry](https://www.instagram.com/bretcurry/)
 - [47:51 Succession](https://en.wikipedia.org/wiki/Succession_(TV_series))
 - [48:15 Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
 - [48:50 The Game](https://en.wikipedia.org/wiki/The_Game_(British_TV_series))
@@ -6436,7 +6508,7 @@ Generated on January 23, 2026
 
 - [5:00 Leica’s profile with James](https://www.hodinkee.com/articles/my-leica-james-stacey)
 - [5:30 Hodinkee “Ghost Edition” Leica M10-P](https://limited.hodinkee.com/leica/)
-- [9:20 Leica SL2](https://leica-camera.com/en-int/photography/cameras/sl/sl2-black)
+- [9:20 Leica SL2](https://leica-camera.com/en-int/photography/cameras/sl/sl3-black)
 - [11:35 Leica MP](https://leica-camera.com/en-US/photography/cameras/m/m10-p-black)
 - [13:00 Leica Q2](https://leica-camera.com/en-US/photography/cameras/q/q2-black)
 - [14:31 Rolex brand episode](https://soundcloud.com/thegreynato/the-grey-nato-ep-28-rolex)
@@ -6448,7 +6520,7 @@ Generated on January 23, 2026
 - [32:02 SUB 1500T](https://doxawatches.com/products/sub-1500t)
 - [32:37 SUB 4000T](https://doxawatches.com/products/sub-4000t)
 - [33:14 SUB 200 T.Graph](https://doxawatches.com/products/copie-de-sub-200-t-graph?variant=29523787284589)
-- [36:30 Jason’s first dive review story of DOXA 800Ti](https://www.gearpatrol.com/watches/a1215/doxa-sub-800ti/)
+- [36:30 Jason’s first dive review story of DOXA 800Ti](https://www.gearpatrol.com/2008/12/11/doxa-sub-800ti/)
 - [41:10 Mission31](https://www.hodinkee.com/articles/diving-to-aquarius-doxa-delivers-31-limited-edition-watches-to-fabien-cousteau-for-mission-31-were-along-for-the-dive)
 - [47:43 Forstner Komfit JB Mesh Bracelet](https://forstnerbands.com/products/forstner-jb-astronaut-band)
 - [51:10 Jason’s “The Watches of James Bond and Why They Matter”](https://www.hodinkee.com/articles/watches-james-bond-why-they-matter-in-depth)
@@ -6462,28 +6534,28 @@ Generated on January 23, 2026
 
 **Related Links (31):**
 
-- [Oris.ch](https://www.oris.ch/)
+- [Oris.ch](https://www.oris.ch/en-US)
 - [4:07 DJI Mavic 2 Pro](https://store.dji.com/product/mavic-2?vid=45291)
 - [imdb.to/37ZwbYN](https://www.imdb.com/title/tt1950186/)
 - [6:33 Go Like Hell by AJ Baime](https://www.amazon.com/Go-Like-Hell-Ferrari-Battle/dp/0547336055/ref=sr_1_1?s=books&ie=UTF8&sr=1-1)
 - [imdb.to/2PefgsE](https://www.imdb.com/title/tt4875844/)
 - [10:33 New Omega Seamaster Diver 300M 007 Edition](https://www.hodinkee.com/articles/the-omega-seamaster-diver-300m-007-edition-live-pics-and-pricing)
-- [16:50 Oris Clean Ocean Limited Edition](https://www.oris.ch/en/watch/oris-clean-ocean-limited-edition/01-733-7732-4185-set)
-- [21:23 The Pacific Garbage Screening Project](https://www.oris.ch/en/realpeople/62/Pacific%20Garbage%20Screening)
+- [16:50 Oris Clean Ocean Limited Edition](https://www.oris.ch/en-US/product/watch/aquis/clean-ocean-limited-edition/01-733-7732-4185-Set)
+- [21:23 The Pacific Garbage Screening Project](https://www.oris.ch/en-US/realpeople/62/Pacific%20Garbage%20Screening)
 - [28:30 Braun Reflex Control Travel Alarm Clock](https://braun-clocks.com/clocks/classic/bnc005-classic-relflex-control-travel-alarm-clock.html)
 - [30:00 Horofix Springbar pliers](https://www.esslinger.com/horofix-watch-bracelet-springbar-pliers-band-tool/)
-- [30:45 Spare spring bars!](https://www.toxicnatos.com/collections/watch-spring-bars)
+- [30:45 Spare spring bars!](https://bit.ly/33FfsXe)
 - [31:18 Watchmakers screw drivers](https://www.esslinger.com/watch-screwdrivers-1/)
-- [32:18 Toxic Natos Nylon straps](https://www.toxicnatos.com/collections/nato-straps)
+- [32:18 Toxic Natos Nylon straps](https://bit.ly/34MvAHz)
 - [33:15 Crown and Buckle Chevron Strap](https://www.crownandbuckle.com/straps-by-type/chevron-watch-straps.html)
 - [34:12 Tudor Fabric Strap Video](https://www.youtube.com/watch?v=mAXOszUzFjM)
 - [34:33 Haveston Coasters](https://www.haveston.com/insignia-series-accessories/55-H45CC.html)
-- [35:16 60 Minutes book](https://www.watchesandpencils.com/product/book-60-minutes)
-- [36:00 Zuludiver 328 rubber nato](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
+- [35:16 60 Minutes book](https://bit.ly/2r2vFZo)
+- [36:00 Zuludiver 328 rubber nato](https://www.watchgecko.com/products/tidalpass-british-military-fkm-rubber-watch-strap-black)
 - [36:33 Watches: A Guide By Hodinkee](https://www.hodinkee.com/articles/watches-a-guide-by-hodinkee)
 - [38:27 Vario SG Single Watch Travel Case](https://vario.sg/pages/vario-watch-travel-case)
 - [39:36 Worn and Wound EDC Watch Fold](https://windupwatchshop.com/collections/travel-and-storage/products/edc-watch-fold?variant=12487544406082)
-- [41:40 Swatch Watches](https://www.swatch.com/en-us/)
+- [41:40 Swatch Watches](https://bit.ly/37ZQXHA)
 - [42:18 Casio A500 “Worldtimer”](https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on)
 - [43:15 Seiko SUS Nano Universe watches](https://wornandwound.com/introducing-the-return-of-the-seiko-sus-collection-refs-scxp155-scxp157-scxp158-scxp159-scxp161-scxp163-and-scxp165/)
 - [44:40 Seiko SRP7XX series dive watches](https://www.hodinkee.com/articles/long-term-wear-report-on-the-seiko-turtle-srp-775-black-and-gold)
@@ -6508,7 +6580,7 @@ Generated on January 23, 2026
 - [17:03 Hydroflask 16oz Coffee Flask](https://www.hydroflask.com/16-oz-wide-mouth/color,graphite,a,92,o,55)
 - [19:42 Paracord!](https://www.amazon.com/s?k=paracord+550&sprefix=parac%2Caps%2C159)
 - [22:50 Grip6 Belts](https://grip6.com/collections/mens-classic-series-belt)
-- [27:03 Road & Track Magazine subscription](https://subscribe.hearstmags.com/subscribe/splits/roadandtrack/roa_sub_nav_link?source=roa_sub_nav_top)
+- [27:03 Road & Track Magazine subscription](https://bit.ly/2r7Lf5t)
 - [30:45 Sidetracked Magazine subscription](https://sidetracked.bigcartel.com/)
 - [34:46 Anker Powercore Fusion](https://www.anker.com/products/variant/powercore-fusion/A1621011)
 - [39:10 Models For Divers](https://modelsfordivers.com/Store/a,5,old-heavy-diver-ready-figurin)
@@ -6529,9 +6601,9 @@ Generated on January 23, 2026
 
 **Related Links (11):**
 
-- [1:00 Andy Mann](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fandy_mann%2F%3Fhl%3Den&is_from_rle=)
+- [1:00 Andy Mann](https://www.instagram.com/andy_mann/?hl=en)
 - [5:20 Cory Richard’s TGN Chat](https://www.hodinkee.com/articles/the-grey-nato-episode-85-a-chat-with-adventurer-cory-richards)
-- [7:50 Paul Nicklen](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpaulnicklen%2F%3Fhl%3Den&is_from_rle=)
+- [7:50 Paul Nicklen](https://www.instagram.com/paulnicklen/?hl=en)
 - [12:28 Red Cameras](https://www.red.com/)
 - [12:33 Nauticam Housings](https://www.nauticam.com/)
 - [20:50 Andy’s Line With Mountainsmith Bags](https://mountainsmith.com/collections/andy-mann-keith-ladzinski)
@@ -6547,8 +6619,11 @@ Generated on January 23, 2026
 
 **Published:** October 24, 2019 at 06:00 AM
 
-**Related Links (10):**
+**Related Links (19):**
 
+- [3:03 A1 Home Rowing Machine](https://www.nohrd.com/us/shop/a1-home.html)
+- [20:26 Grand Seiko UK Events](https://www.hodinkee.com/articles/hodinkee-and-grand-seiko-in-london-and-glasgow-with-grand-seiko-designer-nobuhiro-kosugi)
+- [21:30 Jason in Goldeneye](https://www.instagram.com/p/B3aMC7uHgLx/)
 - [imdb.to/361NNSw](https://www.imdb.com/title/tt0073195/?ref_=fn_al_tt_1)
 - [imdb.to/33RpvZy](https://www.imdb.com/title/tt1856101/)
 - [imdb.to/33Taqqz](https://www.imdb.com/title/tt0387131/)
@@ -6559,6 +6634,12 @@ Generated on January 23, 2026
 - [imdb.to/32CLL9s](https://www.imdb.com/title/tt0369339/?ref_=fn_al_tt_1)
 - [imdb.to/33X6UM0](https://www.imdb.com/title/tt0064253/?ref_=nv_sr_1%3Fref_%3Dnv_sr_1)
 - [imdb.to/35YhbJx](https://www.imdb.com/title/tt0040746/?ref_=fn_al_tt_1)
+- [1:22:35 Frozen Ceiling](https://vimeo.com/351220134)
+- [1:24:10 Topo Global Briefcase](https://topodesigns.com/collections/global-briefcase/products/global-briefcase?variant=28866216656949)
+- [1:24:46 Josh Perez on Instagram](https://www.instagram.com/joshuaedric/?hl=en)
+- [11:30:28 Fraser Kit Co Bi-Fold Wallet](https://www.fraserkit.com/shop/bi-fold)
+- [1:34:45 Ted Gushue’s Instagram](https://www.instagram.com/tedgushue/)
+- [1:37:05 Inside Skunkworks Podcast](https://lmt.co/2W8YzlJ)
 
 ---
 
@@ -6574,7 +6655,7 @@ Generated on January 23, 2026
 - [17:30 James’ time with the Lamborghini Huracan EVO](https://www.instagram.com/p/B2W8DPtn74G/)
 - [22:40 Bremont Watches Announces H-4 Hercules Limited Edition](https://www.bremont.com/collections/bremont-h-4-hercules)
 - [32:00 Bowflex Selecttech Weights](https://www.bowflex.com/product/552-results-series-adjustable-dumbbells/ZMK4011008.html)
-- [44:30 7 minute workout](https://7minuteworkout.jnj.com/)
+- [44:30 7 minute workout](https://bit.ly/2pWX4Lh)
 - [44:40 100 Pushups App](https://play.google.com/store/apps/details?id=com.shvagerfm.Pushups&hl=en)
 - [47:10 Sean Vigue Fitness](https://www.youtube.com/channel/UCvCwGWW0od-BCfRtU2euaLg)
 - [55:30 In Ocean’s Deep Via](https://www.amazon.com/Oceans-Deep-Courage-Innovation-Adventure/dp/0316551317)
@@ -6601,7 +6682,7 @@ Generated on January 23, 2026
 **Related Links (30):**
 
 - [2:50 Oris Big Crown ProPilot X Calibre 115](https://www.hodinkee.com/articles/the-oris-big-crown-propilot-x-calibre-115-live-pics-pricing)
-- [8:55 Oris Timeless Sixty-Five LE](https://timelessluxwatches.com/product/timeless-65-limited-edition/)
+- [8:55 Oris Timeless Sixty-Five LE](https://bit.ly/2kriY7a)
 - [13:00 Whitefish point diving](https://www.instagram.com/p/B1_vhn4HdVJ/)
 - [15:15 Rolex Sea-Dweller in Two-Tone](https://www.instagram.com/p/B19StG3nItF/)
 - [17:00 Plastid Boots](https://www.instagram.com/p/B2NfaDsH4RK/?igshid=18v0weywo8xvq)
@@ -6611,7 +6692,7 @@ Generated on January 23, 2026
 - [22:00 Gear Patrol’s Stocked 2019 Product Culture Conference (this episode’s sponsor!)](https://stocked.gearpatrol.com/)
 - [26:03 Zodiac Aerospace GMT](https://www.hodinkee.com/articles/the-zodiac-aerospace-gmt-hands-on)
 - [26:04 Tudor Black Bay GMT](https://www.hodinkee.com/articles/tudor-black-bay-gmt-review)
-- [26:50 Omega Seamaster GMT 2234.50 (with jumping local)](https://www.omegawatches.com/watch-omega-seamaster-300-m-gmt-22345000)
+- [26:50 Omega Seamaster GMT 2234.50 (with jumping local)](https://bit.ly/2lLqxWe)
 - [38:23 Sinn 144 St GMT](https://www.sinn.de/en/watches/archive/144-gmt-st.html)
 - [42:00 Buren Min-Stop](https://www.instagram.com/p/Btwc2mTFIIM/)
 - [45:00 Tudor Heritage Chronograph Blue](https://www.tudorwatch.com/en/watches/heritage-chrono)
@@ -6621,7 +6702,7 @@ Generated on January 23, 2026
 - [51:48 Seiko 6117-6400 World timer](https://www.instagram.com/p/Bf9y4uVHHfl/)
 - [53:01 Bremont ATL1-WT](https://www.bremont.com/collections/watches-mens-alt1-wt)
 - [56:00 Christopher Ward C8 UTC Worldtimer](https://www.christopherward.com/int/watches)
-- [56:00 Alpina Worldtimer Manufacture](https://alpinawatches.com/)
+- [56:00 Alpina Worldtimer Manufacture](https://alpinawatches.com/alpina-worldtimer-manufacture/)
 - [1:00:22 Citizen Aqualand](https://www.instagram.com/p/Bwev7QenHch/)
 - [1:00:40 Oris Aquis Depth Gauge](https://www.hodinkee.com/articles/dive-test-oris-aquis-depth-gauge)
 - [1:00:54 IWC Deep Three](https://www.hodinkee.com/articles/introducing-the-iwc-aquatimer-deep-three-with-two-mechanical-depth-gauges)
@@ -6674,14 +6755,14 @@ Generated on January 23, 2026
 
 **Related Links (26):**
 
-- [2:00 Lost Ships of Cortez Project](https://www.facebook.com/lostshipsofcortes/)
+- [2:00 Lost Ships of Cortez Project](https://bit.ly/2LMsjlT)
 - [4:25 Serica W.W.W.](https://www.hodinkee.com/articles/serica-www-william-brown-edition-hands-on)
 - [6:35 Oris Divers Sixty-Five Limited Edition for Hodinkee](https://www.instagram.com/p/Bz9JlINnqZ7/)
 - [9:30 Jason’s Blancpain Fifty Fathoms Limited Edition for Hodinkee](https://www.instagram.com/p/B0TZBTOHlsG/)
 - [14:45 Victorinox Renegade](https://www.google.com/search?q=victorinox+renegade&source=lnms&tbm=isch&sa=X&ved=0ahUKEwinob_omt3jAhVJB50JHYfWCnIQ_AUIESgB&biw=840&bih=916)
 - [17:00 “Gold” Casio Worldtimer](https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on)
 - [18:50 Nike Lance Armstrong Race Chronograph](https://www.croftonbikedoctor.com/product/nike-lance-race-chrono-2221.htm)
-- [20:00 Citizen Aqualand Chronograph with lime dial](https://www.ebay.ie/itm/182046552062)
+- [20:00 Citizen Aqualand Chronograph with lime dial](https://bit.ly/2MsgPnh)
 - [22:00 Citizen Eco-Drive Perpetual Chronograph BL5250](https://www.citizenwatch.com/us/en/product/BL5250-02L.html)
 - [22:30 James’ Breitling Aerospace](https://www.instagram.com/p/BpxscUllKiZ/)
 - [25:00 Breitling B55 connected](https://www.hodinkee.com/articles/the-breitling-exospace-b55-connected)
@@ -6697,7 +6778,7 @@ Generated on January 23, 2026
 - [- Monta Atlas](https://montawatch.com/collections?atlas=)
 - [42:40 CWC 1983 Quartz Royal Navy Diver](https://www.cwcwatch.com/collections/heritage-reissue-historical-watches/products/1983-quartz-royal-navy-divers-watch)
 - [44:00 Seiko SBCM023](https://www.fratellowatches.com/tbt-seiko-sbcm023-perpetual-calendar-diver-watch-review/)
-- [46:15 Laurent Ballesta’s Gombessa V Blancpain blogs](https://www.blancpain-ocean-commitment.com/en/expeditions#videos)
+- [46:15 Laurent Ballesta’s Gombessa V Blancpain blogs](https://bit.ly/330qFSV)
 - [49:20 What Really Happened To Malaysia’s Missing Airplane](https://www.theatlantic.com/magazine/archive/2019/07/mh370-malaysia-airlines/590653/)
 - [51:00 Outlaw Sea (book, William Langewiesche)](https://www.amazon.com/Outlaw-Sea-World-Freedom-Chaos/dp/0865477221)
 
@@ -6709,8 +6790,8 @@ Generated on January 23, 2026
 
 **Related Links (4):**
 
-- [1:00 Cory’s Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcoryrichards%2F%3Fhl%3Den&is_from_rle=)
-- [28:40 Esteban “Topo” Mena](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Festebantopomena%2F%3Fhl%3Den&is_from_rle=)
+- [1:00 Cory’s Instagram](https://www.instagram.com/coryrichards/?hl=en)
+- [28:40 Esteban “Topo” Mena](https://www.instagram.com/estebantopomena/?hl=en)
 - [31:52 “No Shortcuts To The Top” by Ed Viesturs (book)](https://www.amazon.com/no-shortcuts-top-climbing-highest/dp/0767924711)
 - [35:35 The Vacheron Constantin Overseas Dual Time Prototype (in titanium)](https://www.hodinkee.com/articles/the-vacheron-constantin-overseas-dual-time-prototype-worn-on-everest)
 
@@ -6727,7 +6808,7 @@ Generated on January 23, 2026
 - [3:20 Omega Seamaster Planet Ocean Ultra Deep Professional](https://www.hodinkee.com/articles/omega-seamaster-planet-ocean-ultra-deep-professional-in-depth)
 - [7:30 The Imperial War Museum](https://www.iwm.org.uk/)
 - [7:31 Churchill War Rooms](https://www.iwm.org.uk/visits/churchill-war-rooms)
-- [11:17 Mike Stockton of Fratello Watches](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmikeinfrankfurt%2F%3Fhl%3Den&is_from_rle=)
+- [11:17 Mike Stockton of Fratello Watches](https://www.instagram.com/mikeinfrankfurt/?hl=en)
 - [11:45 Fratello Watches’s new podcast](https://soundcloud.com/fratellomagazine)
 - [13:00 Oris x Hodinkee LE](https://shop.hodinkee.com/products/oris-divers-sixty-five-limited-edition-for-hodinkee?variant=29053130113099)
 - [15:20 Samsung Note 9](https://www.samsung.com/us/smartphones/)
@@ -6735,7 +6816,7 @@ Generated on January 23, 2026
 - [16:35 Samsung DEX](https://www.samsung.com/global/galaxy/apps/samsung-dex/)
 - [apple.co/2RMG986](https://apple.co/2RMG986)
 - [21:40 Photo of Saturn V from Note 9](https://www.instagram.com/p/BxUqwXAFjGl/)
-- [24:35 Ming 18.01 Abyss Concept Diver](https://ming.watch/products/ming-18-01-abyss-concept)
+- [24:35 Ming 18.01 Abyss Concept Diver](https://www.ming.watch/products/ming-18-01-abyss-concept)
 - [27:00 Bremont Watches](https://www.bremont.com/)
 - [27:15 James’ Bremont SOLO](https://www.instagram.com/p/BpZqjkRhzvO/)
 - [30:30 Bremont Armed Forces Collection](https://www.bremont.com/collections/the-armed-forces-collection)
@@ -6765,19 +6846,19 @@ Generated on January 23, 2026
 - [7:25 Cwm Llyn below Mt Snowdon](https://en.wikipedia.org/wiki/Llyn_Cwm-y-ffynnon)
 - [9:15 The Pen y Gwryd Hotel](https://www.pyg.co.uk/)
 - [11:00 Cadair Idris peak](https://en.wikipedia.org/wiki/Cadair_Idris)
-- [12:34 The Brecon Beacons](https://www.breconbeacons.org/)
+- [12:34 The Brecon Beacons](https://bannaubrycheiniog.org/)
 - [12:40 Pen y Fan](https://en.wikipedia.org/wiki/Pen_y_Fan)
 - [13:30 Penderyn Distillery](https://www.penderyn.wales/)
 - [14:30 Silverman’s in London](https://www.silvermans.co.uk/)
 - [14:40 CWC Watches](https://www.cwcwatch.com/products/cwc-rn-divers-watch-matte-top-mk2)
 - [16:35 Scott’s In London](https://scotts-mayfair.com/)
 - [16:40 Bremont Watches](https://www.bremont.com/)
-- [17:30 Punting tours in Cambridge](https://m.visitcambridge.org/things-to-do/punting-bus-and-bike-tours/punting/)
+- [17:30 Punting tours in Cambridge](https://bit.ly/2X8Ve8V)
 - [18:00 The Eagle Bar in Cambridge](https://en.wikipedia.org/wiki/The_Eagle,_Cambridge)
 - [18:36 Vertex Watches](https://vertex-watches.com/)
 - [20:30 Borth y Gest](https://www.tripadvisor.ca/Attraction_Review-g2064014-d9996958-Reviews-Borth_y_Gest_Beach-Borth_y_Gest_Gwynedd_North_Wales_Wales.html)
 - [22:40 Doxa SUB300T 50th](https://doxawatches.com/SUB300-searambler.html)
-- [31:20 “Diving With Doxa Watches in Bonaire” via Gear Patrol](https://www.gearpatrol.com/watches/a566957/doxa-diving-watches-review-bonaire/)
+- [31:20 “Diving With Doxa Watches in Bonaire” via Gear Patrol](https://www.gearpatrol.com/2019/05/30/doxa-diving-watches-review-bonaire/)
 - [34:00 Jason’s Vintage Tudor Submariner](https://www.instagram.com/p/ByIPI7FHkO2/)
 - [43:25 Deluxe Watch Travel Case Vario.sg](https://vario.sg/pages/vario-watch-travel-case)
 - [45:50 EDC Watch Fold from Worn and Wound](https://windupwatchshop.com/collections/travel-and-storage/products/edc-watch-fold?variant=12487544406082)
@@ -6803,16 +6884,16 @@ Generated on January 23, 2026
 - [The MARQ Collection](https://www.garmin.com/en-US/c/sports-fitness/luxury-smartwatches/)
 - [Fenix Watches](https://www.garmin.com/en-US/p/pn/010-01988-04)
 - [Instinct Watches](https://www.garmin.com/en-US/p/pn/010-02064-05)
-- [30:45 Jimmy Chin](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjimmychin%2F%3Fhl%3Den&is_from_rle=)
+- [30:45 Jimmy Chin](https://www.instagram.com/jimmychin/?hl=en)
 - [33:00 Reinhold Messner on Everest with a Rolex Oysterquartz](https://www.rolexmagazine.com/2009/03/reinhold-messner-rolex-explorer-mark-ii.html)
 - [34:42 John Blashford-Snell](https://en.wikipedia.org/wiki/John_Blashford-Snell)
 - [39:00 No Shortcuts To The Top by Ed Viesturs](https://www.amazon.com/no-shortcuts-top-climbing-highest/dp/0767924711)
 - [40:30 Dirk Pitt and Clive Cussler novels](https://www.amazon.com/s?k=dirk+pitt&i=stripbooks-intl-ship)
 - [43:55 Nirmal “Nims” Purja and his Project Possible](https://www.nimsdai.com/project-possible)
-- [43:56 “Nims” on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnimsdai%2F%3Fhl%3Den&is_from_rle=)
+- [43:56 “Nims” on Instagram](https://www.instagram.com/nimsdai/?hl=en)
 - [44:40 Mike Horn](https://www.mikehorn.com/)
 - [48:00 James Gandolfini for Kobold](https://www.jckonline.com/editorial-article/a-watchmaker-shares-his-memories-of-the-late-james-gandolfini/)
-- [54:40 Deep Sea Under The Pole](https://underthepole.org)
+- [54:40 Deep Sea Under The Pole](https://bit.ly/2Igcpfv)
 - [56:50 Will Steiger](https://en.wikipedia.org/wiki/Will_Steger)
 - [57:20 Yema Bipole Duopoly](https://www.sattlers.org/mickey/tech/horology/wristwatch/yema-bipole.html)
 - [58:00 Jason dives with Sylvia Earle](https://www.hodinkee.com/articles/diving-with-sylvia-earle-dispatches-rolex)
@@ -6835,7 +6916,7 @@ Generated on January 23, 2026
 **Related Links (23):**
 
 - [1:50 Monaco Gran Prix](https://en.wikipedia.org/wiki/Monaco_Grand_Prix)
-- [5:15 Super Alpine Issue Two “Alpes Maratimes”](https://superalpine.co/magazine/alpes-maritimes/index.html?gi=e2a459e257bfce65ac8750894fa8f0279ddbf3d4)
+- [5:15 Super Alpine Issue Two “Alpes Maratimes”](https://super-alpine.com/)
 - [6:50 Driving in the UK for Americans](https://orcutt.net/weblog/2013/03/15/driving-in-the-uk-a-survival-guide-for-americans/)
 - [7:49 Alps and Meters Rucksack](https://www.alpsandmeters.com/products/alpine-rucksack)
 - [imdb.to/2VADCy4](https://www.imdb.com/title/tt0116209/)
@@ -6873,7 +6954,7 @@ Generated on January 23, 2026
 - [28:00 Jason diving a vintage Tudor Sub](https://www.instagram.com/p/BfoKzgYg7bq/?igshid=bf1vnl32uc18)
 - [28:55 Jason diving with a 50-year-old Doxa](https://www.instagram.com/p/BwcFvzdnCln/)
 - [31:20 Sinn Watches](https://www.sinn.de/en/)
-- [40:00 “Made for This” podcast with James](https://www.alexstreet.ca/madeforthispodcast/69)
+- [40:00 “Made for This” podcast with James](http://www.alexstreet.ca/madeforthispodcast/69)
 - [42:45 “From A to Eames” book](https://www.amazon.com/Eames-Visual-Mid-Century-Modern-Design/dp/1925811018)
 
 ---
@@ -6889,13 +6970,13 @@ Generated on January 23, 2026
 - [10:00 Nikon Z7](https://www.nikonusa.com/p/z-7/1591/overview)
 - [15:00 Jason diving a 50-year-old T.Graph](https://www.instagram.com/p/BwcFvzdnCln/)
 - [17:40 Jason’s new Zodiac Aerospace GMT](https://www.instagram.com/p/BwmVrSbHkRi/)
-- [24:10 Vintage tropic rubber](https://www.ebay.ca/sch/i.html?_odkw=topic+strap+vintage&_osacat=0&_from=R40&_trksid=m570.l1313&_nkw=tropic+strap+vintage&_sacat=0)
+- [24:10 Vintage tropic rubber](https://bit.ly/2vlYsqe)
 - [24:30 Everest Bands Rubber Strap](https://www.everestbands.com/collections/watch-straps-for-rolex-explorer-ii-pre-2011)
-- [26:50 Toxic Rubber](https://www.toxicnatos.com/products/toxic-magnum-xl-new)
+- [26:50 Toxic Rubber](https://bit.ly/2Sdelsp)
 - [27:00 “porthole” rubber strap](https://www.watchgecko.com/collections/rubber-dive-watch-straps)
 - [28:00 Barton silicone rubber straps](https://www.bartonwatchbands.com/collections/quick-release-soft-silicone-rubber-watch-bands-straps)
-- [28:55 Zulu Diver 328 rubber nato](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
-- [31:00 Toxic Nylon Watch straps](https://www.toxicnatos.com/products/20mm-22mm-watch-bands)
+- [28:55 Zulu Diver 328 rubber nato](https://www.watchgecko.com/products/tidalpass-british-military-fkm-rubber-watch-strap-black)
+- [31:00 Toxic Nylon Watch straps](https://bit.ly/2VsfpxG)
 - [33:30 Monta 20mm Mil Style Strap](https://montawatch.com/products/nato-strap)
 - [35:00 Maratac straps](https://countycomm.com/products/maratac-zulu-watch-straps)
 - [35:30 Single piece with fabric keeper](https://cnswatchbands.com/fabric/raf-watch-straps/)
@@ -6910,7 +6991,7 @@ Generated on January 23, 2026
 - [45:15 Roverhaven straps](https://www.roverhaven.com/)
 - [47:15 Bund straps!](https://www.hodinkee.com/articles/editorial-case-for-bund-straps)
 - [48:30 “shark mesh” bracelet](https://www.strapcode.com/collections/shark-mesh)
-- [50:30 Hadley Roma Jubilee 20mm](https://www.globalwatchband.com/hadley-roma-solid-link-construction-jubilee-metal-bracelet-stainless-steel-20mm-mb4216w.html)
+- [50:30 Hadley Roma Jubilee 20mm](https://bit.ly/2Vs2Z96)
 - [54:30 Terra Incognita: The Adventure Podcast with Conrad Anker](https://podcasts.apple.com/gb/podcast/the-adventure-podcast/id1446862825#show-notes)
 - [56:40 Best Made Japanese Canvas Ball Cap](https://www.bestmadeco.com/products/japanese-canvas-ball-cap?option_values=8312&taxon_id=1466)
 
@@ -6926,7 +7007,7 @@ Generated on January 23, 2026
 - [3:23 Jason’s trip out of Basel](https://www.instagram.com/p/BvWtBsTnO6i/)
 - [imdb.to/2G0IOXm](https://www.imdb.com/title/tt0064757/)
 - [14:25 Leica Q](https://leica-camera.com/en-US/photography/cameras/q)
-- [18:50 Bret Curry Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbretcurry%2F&is_from_rle=)
+- [18:50 Bret Curry Instagram](https://www.instagram.com/bretcurry/)
 - [19:05 Bret Curry Leica Q Show in Bellevue, WA](https://leica-camera.com/en-US/30x/us/World-of-Leica/Leica-Events/About-Leica-Events/Local/North-America/2019/Sunday-14-April-2019-1-00-00-pm-Sunday-14-April-2019-3-00-00-pm-%22THE-CALM-AT-THE-EDGE%22-by-Bret-Curry)
 - [21:30 Stephen’s review of the Leica Q2](https://www.hodinkee.com/articles/leica-q2-review)
 - [22:40 Timbuk2 Vert Backpack](https://www.timbuk2.com/products/4915-vert-backpack?variant=14206821793834)
@@ -6944,11 +7025,11 @@ Generated on January 23, 2026
 - [1:07:05 Sinn 104 LE with green dial](https://www.watchbuys.com/store/pc/Sinn-104-A-St-Sa-G-Limited-Edition-on-Strap-71p4682.htm)
 - [1:11:05 Oris Aquis GMT](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2ViDwfe&token=29c6eb-1-1620758351703)
 - [1:14:15 Oris Divers Sixty-Five “Bico”](https://www.hodinkee.com/articles/oris-divers-sixty-five-bico-introducing)
-- [1:15:00 Oris Big Crown Pointer Date Red Dial](https://www.oris.ch/en/watch/oris-big-crown-pointer-date/01-754-7741-4068-07-5-20-50)
+- [1:15:00 Oris Big Crown Pointer Date Red Dial](https://www.oris.ch/en-US/product/watch/big-crown/big-crown-pointer-date/01-754-7741-4068-07-5-20-50)
 - [1:19:08 Breitling Navitimer 806 1959 Re-Edition](https://www.hodinkee.com/articles/the-breitling-navitimer-ref-806-1959-re-edition)
 - [tag.hr/2FRPW7i](https://tag.hr/2FRPW7i)
 - [1:26:40 Cole’s Hands-On with the P01](https://www.hodinkee.com/articles/tudor-black-bay-p01-hands-on)
-- [1:31:35 Black Bay Chrono Two-Tone](https://www.tudorwatch.com/watches/black-bay-chrono-s-g/m79363n-0001)
+- [1:31:35 Black Bay Chrono Two-Tone](https://www.tudorwatch.com/en/404)
 - [1:34:15 Rolex Sea-Dweller Two-Tone](https://www.hodinkee.com/articles/rolex-sea-dweller-rolesor-two-tone-126603-hands-on)
 - [on.rolex.com/2VnQVCw](https://on.rolex.com/2VnQVCw)
 - [1:39:14 Zodiac Aerospace GMT](https://www.hodinkee.com/articles/the-zodiac-aerospace-gmt-hands-on)
@@ -6957,7 +7038,7 @@ Generated on January 23, 2026
 - [1:48:10 L’Epee Time Fast D8](http://www.lepee1839.ch/collection/creative-art/time-fast-d8)
 - [1:52:30 Hublot Classic Fusion Ferrari GT](https://www.hodinkee.com/articles/hublot-classic-fusion-ferrari-gt-photos)
 - [1:56:25 De Bethune DB28GS Grand Bleu](https://www.debethune.ch/press/)
-- [1:58:00 Black Badger](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fblackbadger%2F%3Fhl%3Den&is_from_rle=)
+- [1:58:00 Black Badger](https://www.instagram.com/blackbadger/?hl=en)
 - [dailym.ai/2K763Do](https://dailym.ai/2K763Do)
 - [2:03:05 The Enormocast Podcast](https://enormocast.com/)
 
@@ -6991,13 +7072,13 @@ Generated on January 23, 2026
 
 **Related Links (13):**
 
-- [3:30 BMW X7](https://www.bmwusa.com/vehicles/x-series/x7/bmw-x7.html)
+- [3:30 BMW X7](https://bit.ly/2IVhOfu)
 - [9:01 Newmark HS Chronograph](https://newmarkwatchcompany.com/)
-- [13:45 Super Alpine Chamonix](https://superalpine.co/magazine/sa01/index.html?gi=94c7b004205175885dc323e797cc67035c724d0a)
+- [13:45 Super Alpine Chamonix](https://super-alpine.com/)
 - [17:48 Blundstone Super 550 Boots](https://www.blundstone.com/products/rustic-brown-premium-leather-chelsea-boots-mens-style-585)
 - [26:30 Canon 50mm F2.5 Compact Macro](https://www.usa.canon.com/internet/portal/us/home/products/details/lenses/ef/macro/ef-50mm-f-2-5-compact-macro)
 - [35:30 Roverhaven Bund Strap](https://www.roverhaven.com/)
-- [39:30 Toxic Nylon NATO straps](https://www.toxicnatos.com/)
+- [39:30 Toxic Nylon NATO straps](https://bit.ly/2uewAV6)
 - [44:09 To The Ends of the Earth, The Transglobe Expedition](https://www.youtube.com/watch?v=c3uhREMzFQY)
 - [48:10 Geeni Glow Spot Wifi Switch](https://www.amazon.com/Geeni-GN-WW108-199/dp/B07DB3L9SN)
 - [52:20 Switchmate](https://www.mysimplysmarthome.com/)
@@ -7011,7 +7092,7 @@ Generated on January 23, 2026
 
 **Published:** February 21, 2019 at 06:00 AM
 
-**Related Links (9):**
+**Related Links (13):**
 
 - [3:20 Jason’s old Land Rover](https://www.instagram.com/p/BuE6RgcHeh8/)
 - [3:50 Lorier Watches](https://www.lorierwatches.com/collections/watches)
@@ -7019,9 +7100,13 @@ Generated on January 23, 2026
 - [12:40 Jason’s Rolex Submariner](https://www.instagram.com/p/BsviHkOnBTe/)
 - [17:45 James’ Buren on a new Hodinkee strap](https://www.instagram.com/p/Btwc2mTFIIM/)
 - [18:10 Porsche Ice Experience](https://nuvomagazine.com/daily-edit/porsche-ice-experience-canada-quebec)
-- [22:00 Mclaren 600LT Spider](https://cars.mclaren.com/en/sports-series/600lt-spider)
-- [22:15: McLaren 720S Spider](https://cars.mclaren.com/en/super-series/720s-spider)
+- [22:00 Mclaren 600LT Spider](https://cars.mclaren.com/sports-series/600lt-spider)
+- [22:15: McLaren 720S Spider](https://cars.mclaren.com/super-series/720s-spider)
 - [30:00 Hodinkee IWC LE](https://shop.hodinkee.com/collections/limited/products/iwc-pilots-watch-mark-xviii-edition-hodinkee?variant=13624290508875)
+- [57:10 Terra Incognita Podcast](https://www.terraincognitamedia.com/podcast/)
+- [59:44 Taschen’s Biblioteca Universalis Collections](https://www.taschen.com/en/books/bibliotheca-universalis/)
+- [1:01:26 Frozen Alive (via Outside Magazine)](https://www.outsideonline.com/2152131/freezing-death)
+- [lego.build/2GBmHbB](https://lego.build/2GBmHbB)
 
 ---
 
@@ -7029,8 +7114,14 @@ Generated on January 23, 2026
 
 **Published:** February 07, 2019 at 06:00 AM
 
-**Related Links (8):**
+**Related Links (19):**
 
+- [4:13 Richard Mille RM 25-01](https://www.hodinkee.com/articles/richard-mille-rm25-01-colorado-backcountry)
+- [6:29 The Markley Hut in Aspen, CO](https://huts.org/hut/markley-hut/)
+- [13:17 Rado Captain Cook MK II](https://www.hodinkee.com/articles/rado-hyperchrome-tradition-captain-cook-mk-ii-hands-on)
+- [15:20 Jason’s original Captain Cook MKII](https://www.instagram.com/p/BtMRnv7Haxq/)
+- [15:55 James’ Buren Min-Stop](https://www.instagram.com/p/Bs349PTlwyi/)
+- [26:30 Brett Curry Instagram (follow him)](https://www.instagram.com/bretcurry/)
 - [31:00 New IWC Watches](https://www.hodinkee.com/articles/four-new-pilots-watches-from-iwcs-sihh-2019-line-up)
 - [36:47 Audemars Piguet Code 11.59](https://www.audemarspiguet.com/com/en/collections/code-11-59-collection.html#!/welcome)
 - [38:47 Royal Oak Jumbo 15202BC](https://www.hodinkee.com/articles/audemars-piguet-royal-oak-jumbo-extra-thin-15202bc-salmon-hands-on)
@@ -7039,6 +7130,11 @@ Generated on January 23, 2026
 - [50:18 Ressence Type 2](https://ressencewatches.com/pages/type-2)
 - [52:00 Ressence Type 3](https://www.hodinkee.com/articles/ressence-type-3w-hands-on)
 - [55:20 MB&F Medusa Clock](https://www.mbandf.com/en/machines/co-creations/medusa)
+- [off](https://soundcloud.com/off)
+- [58:58 @ off .grid.archietcture](https://www.instagram.com/off.grid.architecture/)
+- [imdb.to/2t75jTs](https://www.imdb.com/title/tt0041959/)
+- [1:02:10 Fraser Kit Co Dopp Kit](https://www.fraserkit.com/shop/doppkit)
+- [1:05:22 Dissect Podcast](https://dissectpodcast.com/)
 
 ---
 
@@ -7046,14 +7142,18 @@ Generated on January 23, 2026
 
 **Published:** January 24, 2019 at 06:00 AM
 
-**Related Links (6):**
+**Related Links (10):**
 
 - [Alps and Meters (show sponsor!)](https://www.alpsandmeters.com/)
 - [3:05 Vail Ski Area](https://www.vail.com/the-mountain/about-the-mountain/vails-legendary-terrain.aspx)
 - [5:40 “The Why of Dive Watches” Panel from H10 (with Rolf Studer)](https://www.hodinkee.com/articles/h10-livestream-dive-watches)
 - [10:00 Oris Prodiver Dive Control LE](https://www.hodinkee.com/articles/oris-dive-control-limited-edition-introducing)
-- [12:45 Roman Frischknecht (Swiss commercial diver)](https://www.oris.ch/en/realpeople/2/Roman%20Frischknecht)
+- [12:45 Roman Frischknecht (Swiss commercial diver)](https://www.oris.ch/en-US/realpeople/2/Roman%20Frischknecht)
 - [14:50 Omega to again produce the Calibre 321 movement](https://www.hodinkee.com/articles/omega-resumes-production-caliber-321-speedmaster-movement)
+- [25:50 Garmin In-Reach Mini](https://www.garmin.com/en-CA/p/592606)
+- [29:45 Sony WH-M1000XM3](https://www.sony.ca/en/electronics/headband-headphones/wh-1000xm3)
+- [apple.co/2UbHhlM](https://apple.co/2UbHhlM)
+- [imdb.to/2FP9g6N](https://www.imdb.com/title/tt0098898/)
 
 ---
 
@@ -7061,24 +7161,28 @@ Generated on January 23, 2026
 
 **Published:** January 10, 2019 at 06:00 AM
 
-**Related Links (16):**
+**Related Links (20):**
 
 - [2:55 Fischer S-Bound Cross Country Skis](https://www.fischersports.com/us_en/fischer/nordic/s-bound)
 - [5:50 English Whiskey Co. Peated](https://www.thewhiskyexchange.com/p/30073/english-whisky-co-peated-twe-exclusive)
 - [9:45 Auer Princess Almonds](https://chocolat-auer.ch/boutique/amandes-princesse.html)
 - [11:25 Jason’s Tudor Oyster Date](https://www.instagram.com/p/BsBrJCQAsNN/)
 - [15:16 James’ Buren Min Stop](https://retrowatchguy.com/products/buren-min-stop)
-- [19:42 Sony Zeiss 24mm F1.8 ZA](https://electronics.sony.com/imaging/lenses/aps-c-e-mount/p/sel24f18z)
-- [20:44 Sigma 35mm F1.4 Art](https://www.sigmaphoto.com/)
+- [19:42 Sony Zeiss 24mm F1.8 ZA](https://www.sony.com/electronics/camera-lenses/sel24f18z)
+- [20:44 Sigma 35mm F1.4 Art](https://www.sigmaphoto.com/../)
 - [21:50 Nikon Z7](https://www.nikonusa.com/p/z-7/1591/overview)
 - [28:33 What Watch I Wore The Most 2018](https://www.hodinkee.com/articles/watch-i-wore-most-2018#comments)
-- [33:05 Tudor Black Bay Gold and Steel](https://www.tudorwatch.com/en/watches/black-bay/m79733n-0004)
+- [33:05 Tudor Black Bay Gold and Steel](https://www.tudorwatch.com/en/404)
 - [38:30 Omega CEO and Ben Clymer Chat At H10](https://www.hodinkee.com/articles/h10-livestream-raynald-aeschlimann-omega-ceo)
-- [40:45 Blancpain Fifty Fathoms Milspec](https://www.blancpain.com/en/news/tribute-fifty-fathoms-mil-spec)
+- [40:45 Blancpain Fifty Fathoms Milspec](https://bit.ly/2siMSuD)
 - [43:10 Omega Dark Side of the Moon](https://www.hodinkee.com/articles/omega-speedmaster-moonwatch-apollo-8-dark-side-of-the-moon)
 - [44:20 Tudor Heritage Chronograph](https://www.tudorwatch.com/en/404)
 - [46:25 Bremont Supermarine Divers](https://us.bremont.com/collections/supermarine)
 - [50:30 Porsche Camp Four](https://www.porsche.com/canada-pde/)
+- [1:00:00 Tales by Light Season 3](https://www.netflix.com/Kids/title/80133187)
+- [imdb.to/2sslR89](https://www.imdb.com/title/tt7804132/)
+- [1:05:10 Waterproof Thermal Pants](https://ozarkgearco.com/products/ozark-gear-waterproof-thermal-pants)
+- [1:08:04 WM Brown Project Magazine](https://wmbrownproject.com/home/2018/12/15/wm-brown-magazine-is-out)
 
 ---
 
@@ -7086,7 +7190,7 @@ Generated on January 23, 2026
 
 **Published:** December 27, 2018 at 06:00 AM
 
-**Related Links (9):**
+**Related Links (34):**
 
 - [5:45 Aston DBS](http://nuvomagazine.com/magazine/winter-2018/the-2019-dbs-superleggera)
 - [5:50 BentleyContinental GT](https://nuvomagazine.com/rides/the-2019-bentley-continental-gt)
@@ -7096,7 +7200,32 @@ Generated on January 23, 2026
 - [9:15 Talking Watches Moki](https://www.hodinkee.com/articles/talking-watches-moki-martin)
 - [9:20 Talking Watches David Robinson](https://www.hodinkee.com/articles/talking-watches-david-robinson)
 - [11:45 Hodinkee 10 Photo essay](https://www.hodinkee.com/articles/hodinkee-10th-anniversary-weekend-photo-report)
-- [12:25 Gishani Ratnayake Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgishanir%2F&is_from_rle=)
+- [12:25 Gishani Ratnayake Instagram](https://www.instagram.com/gishanir/)
+- [13:44 Tudor Black Bay GMT Week On The Wrist](https://www.hodinkee.com/articles/tudor-black-bay-gmt-review)
+- [13:55 Doxa SUB300 50th Searambler](https://www.instagram.com/p/BoNQdqrBkzJ/)
+- [14:38 Hodinkee Mag V3](https://www.hodinkee.com/articles/hodinkee-magazine-volume-3)
+- [on.rolex.com/2EPir6L](https://on.rolex.com/2EPir6L)
+- [15:40 Seiko SKX007 with 12hr Bezel](https://www.instagram.com/p/BfElRBiHmZc/)
+- [16:05 Halios x Roldorf Edition Seaforth](https://roldorfxhalios.myshopify.com/)
+- [17:40 Oris Pointer Date](https://www.hodinkee.com/articles/oris-big-crown-pointer-date-hands-on)
+- [19:15 Omega Seamaster Pro 300m](https://www.hodinkee.com/articles/omega-seamaster-professional-300m-diving-review)
+- [21:00 Oris Prodiver GMT](https://www.hodinkee.com/articles/diving-oris-prodiver-gmt-in-depth)
+- [21:40 JLC Polaris](https://www.hodinkee.com/articles/jaeger-lecoultre-polaris-memovox-review)
+- [22:02 Certina DS diver](https://www.hodinkee.com/articles/certina-ds-ph200m-hands-on)
+- [23:10 Doxa Poseidon Divingstar](https://www.hodinkee.com/articles/doxa-sub-300t-divingstar-poseidon-edition-introducing)
+- [24:10 Baltic Aquascaphe](https://www.hodinkee.com/articles/baltic-aquascaphe-diver-hands-on)
+- [25:04 Meraud Bonaire](https://www.hodinkee.com/articles/the-meraud-bonaire-diver)
+- [25:55 Retrowatchguy.com](https://retrowatchguy.com/)
+- [26:40 Wakmann Chronograph that got away from James](https://retrowatchguy.com/collections/all/products/wakmann-regatte)
+- [27:42 Jason’s Doxa T-Graph Sharkhunter](https://www.instagram.com/p/Bp2OElMglFo/)
+- [29:00 Mido Commander Shade Rose Gold](https://www.hodinkee.com/articles/mido-commander-shade-rose-gold-hands-on)
+- [29:25 AP Royal Oak (GOLD!)](https://www.instagram.com/p/BnosqLmBUQN/)
+- [38:27 Sweet Heat Skittles](https://www.amazon.com/Skittles-Sweet-Heat-Candy-Ounce/dp/B076DJ7WNM)
+- [39:20 Jimmy Chin’s Masterclass on Adventure Photography](https://www.masterclass.com/classes/jimmy-chin-teaches-adventure-photography)
+- [41:30 Traveler’s Company Notebooks](https://www.travelers-company.com/)
+- [44:40 Radio Garden](https://radio.garden/)
+- [45:54 Best Made 9-inch Strongbox](https://www.bestmadeco.com/products/the-nine-inch-strongbox?option_values=4025&taxon_id=1487)
+- [47:32 “The Shepherd” from CBC radio](https://www.youtube.com/watch?v=j2_bLEqmBi0)
 
 ---
 
@@ -7131,8 +7260,15 @@ Generated on January 23, 2026
 
 **Published:** November 29, 2018 at 09:00 AM
 
-**Related Links (10):**
+**Related Links (21):**
 
+- [2:00 H10](https://www.hodinkee.com/articles/hodinkee-10th-anniversary-weekend-registration)
+- [2:20 TGN Hang Out At “The Half Pint” Saturday Dec 8th - 4-6PM](https://www.google.ca/maps/place/The+Half+Pint/@40.7289173,-74.001958,16.02z/data=!4m5!3m4!1s0x89c25991bab810df:0xadcf98febc51a4dc!8m2!3d40.7295121!4d-73.9985343?shorturl=1)
+- [5:25 Talking Watches with “Moki” Martin](https://www.hodinkee.com/articles/talking-watches-moki-martin)
+- [6:16 Jason’s Tudor Sub](https://www.instagram.com/p/BqIc5uAABo5/)
+- [6:54 Unimatic U3](https://www.hodinkee.com/articles/unimatic-u3-dive-chronograph-u2-field-watch-introducing)
+- [16:28 Gold Casio](https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on)
+- [16:40 James’ Aerospace](https://www.instagram.com/p/BpxscUllKiZ/)
 - [imdb.to/2zrbaWY](https://www.imdb.com/title/tt0379557/)
 - [imdb.to/2FKcyJZ](https://www.imdb.com/title/tt0053125/)
 - [imdb.to/2P5EyHD](https://www.imdb.com/title/tt0460766/)
@@ -7143,6 +7279,10 @@ Generated on January 23, 2026
 - [imdb.to/2P5a1JQ](https://www.imdb.com/title/tt0362270/?ref_=nv_sr_1)
 - [imdb.to/2ByAcoE](https://www.imdb.com/title/tt2545428/?ref_=nv_sr_1)
 - [imdb.to/2AmUFLn](https://www.imdb.com/title/tt1424432/?ref_=nv_sr_1)
+- [49:22: Hodinkee Magazine Vol 3](https://shop.hodinkee.com/collections/library/products/hodinkee-magazine-volume-3)
+- [52:00: “My Father’s SOS - From the Middle of the Sea” Outside Online”](https://www.outsideonline.com/outdoor-adventure/exploration-survival/mayday-fathers-disappearance-pirates/?scope=anon)
+- [54:05 “Aston Vantage V12 V600: Analog Excellence - Carfection”](https://www.youtube.com/watch?v=sObYXczsFrY)
+- [56:22 Toxic Magnum Rubber Strap](https://bit.ly/2Sdelsp)
 
 ---
 
@@ -7150,14 +7290,17 @@ Generated on January 23, 2026
 
 **Published:** November 15, 2018 at 09:00 AM
 
-**Related Links (6):**
+**Related Links (9):**
 
 - [Jason’s Land Rovers of Sri Lanka](https://www.instagram.com/p/BpbvLXLAGVQ/)
 - [Columbo’s Annual British Car Show](https://www.instagram.com/p/Bpdx89AA8X4/)
 - [on.natgeo.com/2OFnkAr](https://on.natgeo.com/2OFnkAr)
 - [The Watch, Thoroughly Revised](https://www.amazon.com/Watch-Thoroughly-Revised-Gene-Stone/dp/1419732609)
 - [Hodinkee 10 Weekend](https://www.hodinkee.com/articles/hodinkee-10th-anniversary-weekend-registration)
-- [First Man (movie)](https://www.firstman.com/)
+- [First Man (movie)](https://bit.ly/2qM5Dpu)
+- [nyti.ms/2qI7ITf](https://nyti.ms/2qI7ITf)
+- [“Stretches You Should Do Daily” Outside Online Video](https://www.outsideonline.com/2359266/moves-stretches-you-should-do-daily)
+- [“Chamonix” Super Alpine magazine](https://super-alpine.com/)
 
 ---
 
@@ -7165,8 +7308,12 @@ Generated on January 23, 2026
 
 **Published:** November 01, 2018 at 03:00 AM
 
-**Related Links (5):**
+**Related Links (9):**
 
+- [Rolex Explorer II “Polar” 16570](https://www.analogshift.com/products/rolex-explorer-ii-16570)
+- [CWC Royal Navy Diver](https://www.cwcwatch.com/products/cwc-rn-divers-watch-matte-top-mk2)
+- [Ed Viesturs](https://edviesturs.com/)
+- [James and “his” 1655](https://www.instagram.com/p/BnfBwsfh3Gr/?taken-by=jestacey)
 - [nyti.ms/2JrkE8q](https://nyti.ms/2JrkE8q)
 - [“How I Climbed A 3,000-foot Vertical Cliff - Without Ropes” Alex Honnold’s Ted Talk](https://www.ted.com/talks/alex_honnold_how_i_climbed_a_3_000_foot_vertical_cliff_without_ropes/up-next?language=en)
 - [“Assessing Risk and Living Without A Rope” - Lessons From Alex Honnold” Alex Honnold on Tim Ferriss’s Podcast](https://tim.blog/2016/05/17/alex-honnold/)
@@ -7179,15 +7326,33 @@ Generated on January 23, 2026
 
 **Published:** October 18, 2018 at 06:00 AM
 
-**Related Links (7):**
+**Related Links (25):**
 
-- [Aston DBS](https://global.astonmartin.com/en-gb/models/dbs-superleggera)
+- [Aston DBS](https://bit.ly/2QvmlnW)
 - [GTC4Lusso](https://nuvomagazine.com/rides/the-ferrari-gtc4lusso)
 - [BMW M5](https://nuvomagazine.com/rides/2018-bmw-m5)
 - [Lamborghini Huracan Performante](https://nuvomagazine.com/rides/the-lamborghini-huracan-performante-spyder)
 - [Mclaren 720S](https://www.instagram.com/p/BnmvTGLhnUM/?taken-by=jestacey)
-- [Ferrari Portofino](https://portofino.ferrari.com/en)
+- [Ferrari Portofino](https://www.ferrari.com/en-US/auto/ferrari-portofino)
 - [Bugatti Chiron](https://nuvomagazine.com/rides/the-2018-bugatti-chiron)
+- [Aquala Drysuits](https://aquala.com/)
+- [The Prins Willem V](https://www.wisconsinshipwrecks.org/Vessel/Details/512)
+- [SS Milwaukee](https://en.wikipedia.org/wiki/SS_Milwaukee)
+- [Tobermory Diving (via Diver’s Den)](https://www.divetobermory.ca/)
+- [Free diving with UN](https://www.hodinkee.com/articles/ulysse-nardin-diver-chronometer-hands-on)
+- [Fred Buyle](https://www.instagram.com/fredbuyle/?hl=en)
+- [Oceanographic Museum of Monaco](https://musee.oceano.org/en/)
+- [Casio gold WT](https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on)
+- [Casio F-91W](https://www.amazon.com/Casio-Classic-Quartz-Metal-Casual/dp/B01MZF6LL2/ref=sr_1_2?ie=UTF8&sr=8-2&dpID=41XiW3k05CL&preST=_SY300_QL70_&dpSrc=srch)
+- [Retrowatchguy.com](https://retrowatchguy.com/)
+- [Aquadive Ref 566 Diver](https://www.instagram.com/p/BoZwmBag2p1/?taken-by=jasonheaton)
+- [UTA x Hodinkee LA Recap](https://www.hodinkee.com/articles/hodinkee-uta-artist-space-los-angeles-photo-report)
+- [“James’s” AP Royal Oak](https://www.instagram.com/p/BnosqLmBUQN/?taken-by=jestacey)
+- [“Mountains of Storms” (film)](https://www.adventure-journal.com/2018/10/patagonia-re-releases-underground-film-mountain-storms/)
+- [“180 Degrees South” (trailer)](https://www.youtube.com/watch?v=cWBz_pxYC0A)
+- [“How the U.S. Is Recovering Oil from a Nuked Warship”](https://www.popularmechanics.com/military/navy-ships/a23283428/prinz-eugen-ship-nuked-radioactive-oil/)
+- [The Observer Collection](https://www.observercollection.com/collection/)
+- [“Rule, Britannia, When British Sports Cars Saved a Nation:” (book)](https://www.amazon.com/Britannia-British-Sports-Saved-Nation/dp/0988273381/ref=sr_1_2?ie=UTF8&sr=8-2&dpID=41RifYR6c1L&preST=_SX258_BO1%2C204%2C203%2C200_QL70_&dpSrc=srch)
 
 ---
 
@@ -7201,7 +7366,7 @@ Generated on January 23, 2026
 - [Shadow Divers](https://www.amazon.com/Shadow-Divers-Adventure-Americans-Everything/dp/0375760989/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&refRID=4K7203JQGK7MT0W72JQW)
 - [Eiger Dreams](https://www.amazon.com/Eiger-Dreams-Ventures-Among-Mountains/dp/1599216108/ref=sr_1_1?s=books&ie=UTF8&sr=1-1)
 - [No Shortcuts to The Top](https://www.amazon.com/No-Shortcuts-Top-Climbing-Highest/dp/0767924711/ref=sr_1_1?s=books&ie=UTF8&sr=1-1)
-- [Out There](https://www.outsideonline.com/2293846/out-there-new-book-outside)
+- [Out There](https://www.outsideonline.com/culture/books-media/out-there-new-book-outside/?scope=anon)
 
 ---
 
@@ -7209,7 +7374,7 @@ Generated on January 23, 2026
 
 **Published:** July 10, 2018 at 09:00 AM
 
-**Related Links (11):**
+**Related Links (22):**
 
 - [Jason Diving in the Great Lakes](https://www.instagram.com/p/Bk0D9M8A0bE/?taken-by=jasonheaton)
 - [Becky Kagen Schott](https://liquidproductions.com/about/becky-kagan-schott/)
@@ -7220,8 +7385,19 @@ Generated on January 23, 2026
 - [Away Carry On](https://www.awaytravel.com/ca/en/luggage/carry-on/navy)
 - [Fjallraven Totepack No.1](https://www.fjallraven.com/us/en-us/)
 - [Canon AE-1 Program](https://en.wikipedia.org/wiki/Canon_AE-1_Program)
-- [Aquadive Bathysphere 100 GMT](http://shop.aquadive.com/product/aquadive-bathysphere-100gmt-turquoise/)
+- [Aquadive Bathysphere 100 GMT](https://bit.ly/2uivfvm)
 - [Doxa T-Graph back from repair](https://www.instagram.com/p/Bk_nWOdAFvP/?taken-by=jasonheaton)
+- [Fitbit](https://store.google.com:443/ca/category/watches_trackers?hl=en-GB)
+- [Garmin Descent](https://www.dcrainmaker.com/2017/10/garmins-descent-diving.html)
+- [Garmin Fenix](https://www.garmin.com/en-US/p/735520/)
+- [Mi Band 2](https://www.mi.com/en/miband2/)
+- [Strava](https://www.strava.com/)
+- [Aerospace](https://www.instagram.com/p/Bjh16YHByh0/?taken-by=jestacey)
+- [The Chronos](https://bit.ly/2J8unPj)
+- [Field Notes Three Missions Pack](https://fieldnotesbrand.com/products/three-missions)
+- [The Reid Strap from the Hodinkee Shop](https://shop.hodinkee.com/collections/straps/products/the-reid-watch-strap-in-olive-green)
+- [“Ship of Gold in the Deep Blue Sea” (by Gary Kinder)](https://www.amazon.com/Ship-Gold-Deep-Blue-Sea/dp/080214425X)
+- [“An Inside Look At Zagato, One of the World’s Wildest Coachbuilders” (By Ken Saito)](https://www.jalopnik.com/an-inside-look-at-zagato-one-of-the-worlds-wildest-coa-1826854782/)
 
 ---
 
@@ -7229,7 +7405,7 @@ Generated on January 23, 2026
 
 **Published:** June 26, 2018 at 09:00 AM
 
-**Related Links (8):**
+**Related Links (21):**
 
 - [Mido Commander Shade gold piece](https://www.hodinkee.com/articles/mido-commander-shade-rose-gold-hands-on)
 - [Seiko Prospex SRPC44 Gold](https://seikousa.com/products/srpc44)
@@ -7239,6 +7415,19 @@ Generated on January 23, 2026
 - [Sky Helicopters](https://skyhelicopters.ca/)
 - [Black Bay GMT](https://www.tudorwatch.com/en/404)
 - [Away Carry On](https://www.awaytravel.com/ca/en/luggage/carry-on/navy)
+- [Maldives](https://en.wikipedia.org/wiki/Maldives)
+- [Vilamendhoo](https://www.vilamendhoo.com/)
+- [de Havilland Otter Seaplane](https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-6_Twin_Otter)
+- [Wilpattu National Park](http://www.wilpattunationalpark.com/)
+- [Trincomalee](https://en.wikipedia.org/wiki/Trincomalee)
+- [Minneriya National Park](https://en.wikipedia.org/wiki/Minneriya_National_Park)
+- [Rokinon](https://rokinon.com/)
+- [Voigtlander](https://www.voigtlaender.de/?lang=en)
+- [Gobe Adapter](https://www.amazon.com/s/ref=nb_sb_ss_c_1_9?url=search-alias%3Daps&field-keywords=gobe+lens+adapter&sprefix=gobe+adap%2Caps%2C225)
+- [Descending TV Series](https://watch.outsideonline.com/)
+- [Outside TV App](https://watch.outsideonline.com/)
+- [“Everest Unmasked” documentary](https://www.dailymotion.com/video/x3ge2ih)
+- [Seatrekking (vimeo)](https://vimeo.com/228236677)
 
 ---
 
@@ -7246,7 +7435,7 @@ Generated on January 23, 2026
 
 **Published:** June 12, 2018 at 09:00 AM
 
-**Related Links (15):**
+**Related Links (28):**
 
 - [Concorso d’Eleganza](https://concorsodeleganzavilladeste.com/)
 - [Villa d’Este](https://www.villadeste.com)
@@ -7260,9 +7449,22 @@ Generated on January 23, 2026
 - [Fjallraven Tote Pack No.1](https://www.fjallraven.com/us/en-us/)
 - [Jason’s trip to Sri Lanka](https://www.instagram.com/p/Bj1SgHOgFUa/?taken-by=jasonheaton)
 - [The Maldives](https://en.wikipedia.org/wiki/Maldives)
-- [Becky Kagan Schott](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbecky_kagan_schott%2F%3Fhl%3Den&is_from_rle=)
+- [Becky Kagan Schott](https://www.instagram.com/becky_kagan_schott/?hl=en)
 - [The SS Daniel J Morrell](https://en.wikipedia.org/wiki/SS_Daniel_J._Morrell)
 - [Aquala Drysuit](https://aquala.com/)
+- [Tudor Pelagos](http://www.ablogtowatch.com/tudor-pelagos-25600-tb-titanium-dive-watch-review/)
+- [James’ Aerospace](https://www.instagram.com/p/Bjh16YHByh0/?taken-by=jestacey)
+- [Garmin Fenix](https://www.garmin.com/en-US/p/735520/)
+- [Jason’s Aqualand](https://www.instagram.com/p/BjAUElehzrx/?taken-by=jasonheaton)
+- [CWC Royal Diver](https://www.instagram.com/p/BeZHVofFqp-/?taken-by=jasonheaton)
+- [Suunto Vector](https://www.suunto.com/en-CA/Products/sports-watches/Suunto-Vector/Suunto-Vector-Black/)
+- [Bremont MBII](https://www.bremont.com/products/mbii-bk)
+- [Victorinox Inox](https://www.victorinox.com/en-US/)
+- [“The Story of the First Sherpa to Climb to the Top of Mount Everest”](https://www.newyorker.com/magazine/1954/06/05/tenzing-of-everest)
+- [Armchair Expert Podcast](https://armchairexpertpod.com/)
+- [Outside’s “The Best Stories We’ve Ever Told”](https://www.outsideonline.com/culture/books-media/best-stories-weve-ever-told/?scope=anon)
+- [Raising the Dead](https://www.outsideonline.com/outdoor-adventure/water-activities/raising-dead/?scope=anon)
+- [The Engineering of the Bugatti Chiron](https://www.youtube.com/watch?v=x9sVMbzZxaw)
 
 ---
 
@@ -7270,7 +7472,7 @@ Generated on January 23, 2026
 
 **Published:** May 29, 2018 at 09:00 AM
 
-**Related Links (10):**
+**Related Links (26):**
 
 - [Fisher + Baker](https://fisherandbaker.com/)
 - [Kensington Shell](https://fisherandbaker.com/collections/all/products/kensington-shell)
@@ -7282,6 +7484,22 @@ Generated on January 23, 2026
 - [GTG Mark II Satchel](https://www.analogshift.com/products/gtg-mkii-satchel)
 - [GTG Tote](https://www.analogshift.com/products/gtg-mkiii-tote)
 - [Concorso D’Eleganza](https://www.concorsodeleganzavilladeste.com/)
+- [Revillagigedo Islands](https://en.wikipedia.org/wiki/Revillagigedo_Islands)
+- [Nautilus Undersea Hunter](https://nautilusliveaboards.com/nautilus-under-sea/)
+- [The Boiler dive site](https://www.wannadive.net/spot/Central_America/Mexico/Islas_Revillagigedos/San_Benedicto_-_The_Boiler/)
+- [Silky Sharks](https://en.wikipedia.org/wiki/Silky_shark)
+- [Nautilus Liveaboards](https://nautilusliveaboards.com/)
+- [Nikon D5](https://www.nikonusa.com/p/d5/1557/overview)
+- [Seacam Housings](https://www.seacam.com/en/)
+- [Nikonos RS Lenses](https://camera-wiki.org/wiki/Nikonos_RS)
+- [Blancpain Watches](https://bit.ly/2Jd6Hxq)
+- [Vintage Tornek-Rayville Fifty Fathoms Diver](https://www.instagram.com/p/BilUnmMgE2S/?taken-by=jasonheaton)
+- [Blancpain X Fathoms](https://www.instagram.com/p/BivBsn7gtAL/?taken-by=jasonheaton)
+- [“The Terror” audiobook](https://www.audible.ca/pd/Literature-Fiction/The-Terror-Audiobook/B071VPK9K9)
+- [beer_nye](https://soundcloud.com/beer_nye)
+- [“The Weird, Dangerous, Isolated, Life of The Saturation Diver” via @ beer_nye](https://www.atlasobscura.com/articles/what-is-a-saturation-diver)
+- [imdb.to/2GZsfIt](https://www.imdb.com/title/tt1659619/)
+- [“What is the most sophisticated piece of software/code ever written?”](https://www.quora.com/What-is-the-most-sophisticated-piece-of-software-code-ever-written)
 
 ---
 
@@ -7289,17 +7507,24 @@ Generated on January 23, 2026
 
 **Published:** May 15, 2018 at 09:00 AM
 
-**Related Links (9):**
+**Related Links (16):**
 
 - [Jason’s JLC Polaris Memovox](https://www.hodinkee.com/articles/jaeger-lecoultre-polaris-memovox-review)
 - [VIP Diving in Bonaire](https://www.vipdiving.com/)
 - [Lamborghini Urus](https://www.lamborghini.com/en-en/models/urus)
 - [Jason Diving with Blancpain](https://www.instagram.com/p/BipArcZgNau/?taken-by=jasonheaton)
 - [Laurent Ballesta](https://www.blancpain-ocean-commitment.com/en-us#!/photographer/laurent-ballesta)
-- [Gombessa Video](https://www.blancpain.tv/video/17248672/gombessa-iv-genesis)
+- [Gombessa Video](https://bit.ly/2KSLxTa)
 - [bhpho.to/2Kdh94K](https://bhpho.to/2Kdh94K)
-- [Halios Roldorf LE Seaforth](https://halios.roldorf.co/products/test-product-bold)
+- [Halios Roldorf LE Seaforth](https://bit.ly/2I8qizd)
 - [“Tuxedo Dial”](https://www.google.ca/search?q=tuxedo+dial&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiWz5eS8_3aAhVX72MKHZwTDaYQ_AUICigB&biw=840&bih=930&dpr=2)
+- [Schuppan Porsche 962CR](https://www.thedrive.com/news/20267/this-1-of-6-zero-mile-street-legal-schuppan-porsche-962cr-is-basically-priceless)
+- [thecultivatedcollector](https://soundcloud.com/thecultivatedcollector)
+- [@ thecultivatedcollector on Instagram](https://www.instagram.com/thecultivatedcollector/?hl=en)
+- [“Wilderness” by Alastair Humphries](https://www.youtube.com/watch?v=sA4Rj2KfcVw&sns=em)
+- [bloom.bg/2IwpDH7](https://bloom.bg/2IwpDH7)
+- [Laurent Ballesta on instagram](https://www.instagram.com/laurentballesta/)
+- [on.natgeo.com/2G9kCii](https://on.natgeo.com/2G9kCii)
 
 ---
 
@@ -7307,25 +7532,43 @@ Generated on January 23, 2026
 
 **Published:** May 01, 2018 at 09:00 AM
 
-**Related Links (17):**
+**Related Links (35):**
 
 - [Lamborghini Urus](https://www.lamborghini.com/en-en/models/urus)
-- [@powerslidelover](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpowerslidelover%2F&is_from_rle=)
+- [@powerslidelover](https://www.instagram.com/powerslidelover/)
 - [Bentley Continental GT](https://www.bentleymotors.com/en/models/continental-gt.html)
 - [Concorso D’Eleganza (a car show)](https://concorsodeleganzavilladeste.com/)
 - [Jason in Bonaire](https://www.instagram.com/p/BiFlLqwAIXE/?taken-by=jasonheaton)
-- [Omega Seamaster](https://www.omegawatches.com/watches/baselworld-2018/seamaster-diver-300-m-collection/)
+- [Omega Seamaster](https://bit.ly/2Gs75HN)
 - [JLC Polaris Memovox](https://www.jaeger-lecoultre.com/us-en/watches)
-- [Oris Prodiver GMT](https://www.oris.ch/en/watch/oris-prodiver-gmt/01-748-7748-7154-07-8-26-74peb)
-- [Oris Der Meistertaucher](https://www.oris.ch/en/watches/oris-aquis-regulateur-der-meistertaucher/01-749-7677-7154-set)
-- [Oris Aquis Hammerhead LE](https://www.oris.ch/en/watch/oris-hammerhead-limited-edition/01-752-7733-4183-set-mb)
+- [Oris Prodiver GMT](https://www.oris.ch/en-US/product/watch/prodiver/prodiver-gmt/01-748-7748-7154-07-8-26-74PEB)
+- [Oris Der Meistertaucher](https://www.oris.ch/en-US/watches/oris-aquis-regulateur-der-meistertaucher/01-749-7677-7154-set)
+- [Oris Aquis Hammerhead LE](https://www.oris.ch/en-US/product/watch/aquis/hammerhead-limited-edition/01-752-7733-4183-Set-MB)
 - [Certina DS PH200M](https://www.hodinkee.com/articles/certina-ds-ph200m-hands-on)
 - [Garmin Descent Dive Smartwatch](https://www.garmin.com/en-CA/p/568181)
 - [Nauticam housings](https://www.nauticam.com/)
 - [Paralenz](http://paralenz.com/?v=3e8d115eb4b3)
-- [GoPro dive housing](https://shop.gopro.com/International/accessories-2/super-suit-%C3%BCber-protection-plus-dive-housing-hero7-black/AADIV-001.html)
+- [GoPro dive housing](https://bit.ly/2HCN8P0)
 - [Kip Evans](http://kipevansphotography.com/)
 - [Jason’s DOXA T-Graph Sharkhunter](https://www.instagram.com/p/Bhcdi8egvWd/?taken-by=jasonheaton)
+- [Tenba DNA 15 Bag](https://tenba.com/shop-all/)
+- [Compression socks](https://www.smartwool.com/en-us/wool-apparel-and-socks/wool-socks)
+- [bose.life/2v2ONDQ](https://bose.life/2v2ONDQ)
+- [bhpho.to/2jiJ4Vr](https://bhpho.to/2jiJ4Vr)
+- [Eddie Bauer Packable backpack](http://www.eddiebauer.com/product/stowaway-packable-20l-daypack/82300168?showProducts=&color=147&sizetype=&size=)
+- [Tom Bihn Packing Cube Backpack](https://www.tombihn.com/collections/all-organizational-bags?variant=16455290183)
+- [Pelican carry on case](https://www.pelican.com/us/en/product/cases/1510)
+- [Patagonia black hole bag](https://www.patagonia.ca/product/black-hole-backpack-25-liters/49296.html?dwvar_49296_color=BRYG&cgid=luggage-black-hole-bags#tile-10=&start=1&sz=24)
+- [Red Oxx Bags](https://www.redoxx.com/)
+- [Expandable mesh dive bag](https://www.amazon.com/Deep-Aqua-Lung-Arrival-Mesh/dp/B00IG16C3E)
+- [Airbnb](https://www.airbnb.ca/)
+- [VRBO](https://www.vrbo.com/)
+- [htltn.com/2w2j0r3](https://htltn.com/2w2j0r3)
+- [ScubaBoard](https://www.scubaboard.com/)
+- [The Worn and Wound Podcast EP 62 Dive Watch Review](https://wornandwound.com/podcasts/the-worn-wound-podcast-ep-62-scuba-diving-in-belize-with-four-popular-dive-watches-follow-up/)
+- [Motorhead Hillclimb](https://www.youtube.com/watch?v=ORu58PY1S_g)
+- [The Jackal Men’s Magazine](https://www.thejackalmagazine.com/)
+- [Outside Magazine’s “Out There”](https://www.outsideonline.com/culture/books-media/out-there-new-book-outside/?scope=anon)
 
 ---
 
@@ -7333,16 +7576,21 @@ Generated on January 23, 2026
 
 **Published:** April 17, 2018 at 09:00 AM
 
-**Related Links (8):**
+**Related Links (13):**
 
 - [Alps and Meters](https://www.alpsandmeters.com/)
 - [Muyshondt Aeon MK III S2 in Titanium](https://shop.muyshondt.net/collections/aeon-mk-iii/products/aeon-mk-iii-titanium)
 - [Zelos Mako 500M](https://zeloswatches.com/pages/zelos-mako-500m-diver)
-- [Omega Seamaster Diver 300M (for 2018)](https://www.omegawatches.com/watches/baselworld-2018/seamaster-diver-300-m-collection)
-- [Oris Prodiver GMT](https://www.oris.ch/en/watch/oris-prodiver-gmt/01-748-7748-7154-07-8-26-74peb)
+- [Omega Seamaster Diver 300M (for 2018)](https://bit.ly/2JMCHpq)
+- [Oris Prodiver GMT](https://www.oris.ch/en-US/product/watch/prodiver/prodiver-gmt/01-748-7748-7154-07-8-26-74PEB)
 - [JLC Polaris Memovox](https://www.jaeger-lecoultre.com/ca-en/watches#setCurrentScope=CA)
 - [Barton Watch Bands](https://www.bartonwatchbands.com/)
 - [Jason and his Land Rover Series III](https://www.instagram.com/p/BhJJwAzg7pd/?taken-by=jasonheaton)
+- [Folio Society Fleming Books](https://www.foliosociety.com/uk/category/9860/ian-fleming-bond)
+- [Clipperton Book](http://www.diveclipperton.n2pix.com/order-clipperton-book.html)
+- [Jeff Cooms Instagram](https://www.instagram.com/geoff_coombs/?hl=en)
+- [thousandyardstyle](https://soundcloud.com/thousandyardstyle)
+- [Paracord Camera Strap via @ thousandyardstyle (Robert Spangle)](https://www.instagram.com/thousandyardstyle/)
 
 ---
 
@@ -7350,8 +7598,11 @@ Generated on January 23, 2026
 
 **Published:** April 03, 2018 at 09:00 AM
 
-**Related Links (40):**
+**Related Links (47):**
 
+- [Baltic](https://baltic-watches.com/en)
+- [Unimatic](https://www.unimaticwatches.com/)
+- [Fabian Cousteau](https://www.instagram.com/fcousteau/?hl=en)
 - [Tudor BB GMT](https://www.tudorwatch.com/en/404)
 - [Tudor BB Fifty-Eight](https://www.tudorwatch.com/en/404)
 - [Tudor BB 36 Blue dial](https://www.tudorwatch.com/en/404)
@@ -7361,10 +7612,10 @@ Generated on January 23, 2026
 - [Sinn 910 SRS Flyback Chronograph](https://www.sinn.de/en/watches/910-srs.html)
 - [Sinn 836](https://www.sinn.de/en/watches/836.html)
 - [Sinn 936 Chronograph](https://www.sinn.de/en/watches/936.html)
-- [Oris Pointer Date 40](https://www.oris.ch/en/watch/oris-big-crown-pointer-date/01-754-7741-4065-07-5-20-63)
-- [Oris Aquis Source of Life](https://www.oris.ch/en/watch/oris-source-of-life-limited-edition/01-733-7730-4125-set-rs)
-- [Oris Diver Sixty-Five Bronze](https://www.oris.ch/en/watch/oris-source-of-life-limited-edition/01-733-7730-4125-set-rs)
-- [Oris Aquis Titanium](https://www.oris.ch/en/watch/oris-aquis-titanium-date/01-733-7730-7153-07-4-24-64teb)
+- [Oris Pointer Date 40](https://www.oris.ch/en-US/product/watch/big-crown/big-crown-pointer-date/01-754-7741-4065-07-5-20-63)
+- [Oris Aquis Source of Life](https://www.oris.ch/en-US/product/watch/aquis/source-life-limited-edition/01-733-7730-4125-Set-RS)
+- [Oris Diver Sixty-Five Bronze](https://www.oris.ch/en-US/product/watch/aquis/source-life-limited-edition/01-733-7730-4125-Set-RS)
+- [Oris Aquis Titanium](https://www.oris.ch/en-US/product/watch/aquis/aquis-titanium-date/01-733-7730-7153-07-4-24-64TEB)
 - [Seiko SLA025 1968 Reissue](https://www.seikowatches.com/global-en/news/20180322_6)
 - [Seiko Presage Slim SJE073](https://www.hodinkee.com/articles/seiko-presage-sje073-thin-introducing)
 - [Bulova “Devil Diver” Reissue](https://www.analogshift.com/products/bulova-x-analog-shift-devil-diver-le)
@@ -7373,25 +7624,29 @@ Generated on January 23, 2026
 - [Monta Skyquest](https://montawatch.com/collections?skyquest=)
 - [Nomos Autobahn](https://nomos-glashuette.com/en/watches/families/autobahn)
 - [Nomos Tangente Nematic 41 Update](https://nomos-glashuette.com/en/tangente/tangente-neomatik-41-update-180)
-- [Longines Legend Diver Black](https://www.longines.com/en-us/novelties/the-longines-legend-diver-watch)
+- [Longines Legend Diver Black](https://bit.ly/2ImKokG)
 - [Longines Heritage Skindiver](https://www.instagram.com/p/BgocW1KgPmE/?taken-by=jasonheaton)
 - [Longines Military Watch](https://www.instagram.com/p/BgnpC_MAEv5/?taken-by=hodinkee)
-- [Omega DSotM Apollo 8 Edition](https://www.omegawatches.com/watches/baselworld-2018/speedmaster-moonwatch-apollo-8/)
-- [Omega Seamaster 1948](https://www.omegawatches.com/watches/baselworld-2018/seamaster-1948-limited-editions/)
-- [Omega Seamaster Professional 300M](https://www.omegawatches.com/watches/baselworld-2018/seamaster-diver-300-m-collection/)
-- [Blancpain Bathyscaphe Day Date 70s](https://www.blancpain.com/actualites/fifty-fathoms-bathyscaphe-day-date-70s)
+- [Omega DSotM Apollo 8 Edition](https://bit.ly/2q02pxz)
+- [Omega Seamaster 1948](https://bit.ly/2GNKG72)
+- [Omega Seamaster Professional 300M](https://bit.ly/2Gs75HN)
+- [Blancpain Bathyscaphe Day Date 70s](https://bit.ly/2H3EoOf)
 - [Certina DSPH200M Diver](https://www.instagram.com/p/BgttWafglHv/?taken-by=jasonheaton)
 - [Mido Commander Shade](https://www.midowatches.com/usa/watches/commander-shade-special-editions)
 - [Casio GMW-B5000](https://www.casio-watches.com/basel/en/product/g-shock/gmw-b5000.html)
 - [Breitling Navitimer 1 Automatic 38](https://www.breitling.com/us-en/watches/navitimer/1/AUTOMATIC-38/a17325211c1p1/)
 - [Breitling Navitimer 8 B35 Automatic Unitime 43](https://www.breitling.com/us-en/watches/navitimer/8/B35-AUTOMATIC-UNITIME-43/ab3521u01g1p1/)
 - [Breitling Superocean Heritage II B01 Chronograph 44](https://www.breitling.com/us-en/watches/superocean/heritage/II-B01-CHRONOGRAPH-44/ab0162121b1s1/)
-- [Bell & Ross BR V2-94 Racing Bird LE](https://www.bellross.com/us/en-gb/br-v2-94-racing-bird-steel-strap)
-- [Bell & Ross BR03-92 Diver Blue](https://www.bellross.com/us/our-watches/our-watches-instruments/BR03-DIVER?child_cat_id=79&category_id_level_2=72)
+- [Bell & Ross BR V2-94 Racing Bird LE](https://bellross.com/our-collections/vintage/br-v-chrono/br-v2-94/br-v2-94-racing-bird-steel-strap)
+- [Bell & Ross BR03-92 Diver Blue](https://bellross.com/mods/watches/BR03-Diver-Collection)
 - [Victorinox INOX Automatic](https://www.instagram.com/p/BgtfHPFgoC8/?taken-by=jasonheaton)
 - [Anonimo Nautilo Diver](https://anonimo.com/collections/nautilo)
 - [Garrick S1](https://garrick.co.uk/product/s1-timepiece)
 - [Vortic Railway Watch](https://www.hodinkee.com/articles/vortic-railroad-edition-hands-on)
+- [Uniqlo jacket](https://www.uniqlo.com/us/en/products/E167666-000/00#08~/men/outerwear-and-blazers/blazers/comfort/)
+- [Patagonia Nano Puff Vest](https://www.patagonia.ca/product/mens-nano-puff-vest/84242.html)
+- [Filson Magnum Camera Bag](https://www.gearpatrol.com/2014/11/17/filson-magnum-camera-bags-gp100/)
+- [Tenba DNA 15 Bag](https://tenba.com/shop-all/)
 
 ---
 
@@ -7399,14 +7654,19 @@ Generated on January 23, 2026
 
 **Published:** March 20, 2018 at 07:18 AM
 
-**Related Links (6):**
+**Related Links (11):**
 
 - [Bremont Townhouse NYC](https://www.bremont.com/)
 - [McIntosh Audio](https://www.mcintoshlabs.com/)
 - [Bremont’s 2018 Townhouse Releases](https://www.bremont.com/collections/new-releases)
 - [GasGasBones Straps (and watches!)](https://www.gasgasbones.com/)
 - [Nick’s 10 Anniversary LE](https://www.christopherwardforum.com/other-brands/bremont-does-moonphase-t45929.html)
-- [Bremont Military Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbremontmilitary%2F%3Fhl%3Dde&is_from_rle=)
+- [Bremont Military Instagram](https://www.instagram.com/bremontmilitary/?hl=de)
+- [on.natgeo.com/2GK3jGA](https://on.natgeo.com/2GK3jGA)
+- [Jake Meyer](https://twitter.com/jakeclimber?lang=de)
+- [“Guy Martin’s Spitfire” (Netflix)](https://www.netflix.com/title/80228130)
+- [Crown & Buckle Supreme NATO](https://www.crownandbuckle.com/straps-by-type/natos/supreme-nato-straps.html)
+- [Uncle Seiko Tropic Dive Strap](https://unclestraps.com/store/p83/BRAND_NEW_PRODUCT--Uncle_Seiko_TROPIC_STRAP_in_Various_Sizes.html)
 
 ---
 
@@ -7414,13 +7674,13 @@ Generated on January 23, 2026
 
 **Published:** March 06, 2018 at 09:44 AM
 
-**Related Links (20):**
+**Related Links (24):**
 
 - [lego.build/2Ff8I6Y](https://lego.build/2Ff8I6Y)
 - [James’ Doxa](https://www.instagram.com/p/BfogWnanRrH/?taken-by=jestacey)
-- [Watchgecko ZuluDiver 328](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
+- [Watchgecko ZuluDiver 328](https://www.watchgecko.com/products/tidalpass-british-military-fkm-rubber-watch-strap-black)
 - [farlius](https://soundcloud.com/farlius)
-- [@ farlius (follow him!)](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffarlius%2F&is_from_rle=)
+- [@ farlius (follow him!)](https://www.instagram.com/farlius/)
 - [Cadillac CT6](https://www.cadillac.com/legacy-vehicles)
 - [BMX X3](https://nuvomagazine.com/rides/2018-bmw-x3-xdrive30i)
 - [blake_buettner](https://soundcloud.com/blake_buettner)
@@ -7429,13 +7689,17 @@ Generated on January 23, 2026
 - [DC Rainmaker Review](https://www.dcrainmaker.com/2017/10/garmins-descent-diving.html)
 - [New from Breitling](https://revolution.watch/breitling-introduces-5-new-watches-navitimer-8-collection/)
 - [Jason’s piece from Breitling in NYC](https://www.hodinkee.com/articles/breitling-navitimer-8-b01-chronograph-hands-on)
-- [James’ piece from Breitling in NYC](http://nuvomagazine.com/style/breitlings-new-navitimer-8)
+- [James’ piece from Breitling in NYC](https://nuvomagazine.com/daily-edit/breitlings-new-navitimer-8)
 - [watchfred](https://soundcloud.com/watchfred)
-- [@ watchfred](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwatchfred%2F&is_from_rle=)
+- [@ watchfred](https://www.instagram.com/watchfred/)
 - [mikeinfrankfurt](https://soundcloud.com/mikeinfrankfurt)
-- [@ mikeinfrankfurt](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmikeinfrankfurt%2F%3Fhl%3Den&is_from_rle=)
+- [@ mikeinfrankfurt](https://www.instagram.com/mikeinfrankfurt/?hl=en)
 - [New from Bremont](https://www.bremont.com/collections/new-releases)
-- [Hamilton Khaki Mechanical 38mm](https://www.hamiltonwatch.com/en-us/)
+- [Hamilton Khaki Mechanical 38mm](https://bit.ly/2oOBsMJ)
+- [“Endurance: A Year in Space, A Lifetime of Discovery” by Scott Kelly](https://www.amazon.com/Endurance-Year-Space-Lifetime-Discovery-ebook/dp/B01EE0FCEK)
+- [“The Right Stuff” Audiobook read by Denis Quaid](https://www.amazon.com/The-Right-Stuff/dp/B077K6P2XP)
+- [“The Man At The End Of the World” (video)](https://www.youtube.com/watch?time_continue=66&v=oyi84lHWXOk)
+- [The Watch and Listen Podcast](https://www.youtube.com/channel/UCkWjQdK8RBD1rpJT3Pmajvw)
 
 ---
 
@@ -7443,13 +7707,13 @@ Generated on January 23, 2026
 
 **Published:** February 20, 2018 at 10:05 AM
 
-**Related Links (13):**
+**Related Links (20):**
 
 - [Driving on a Frozen Lake with Mercedes-AMG](https://nuvomagazine.com/rides/mastering-winter-driving)
-- [Amy Shore’s instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Famyshorephotography%2F%3Fhl%3Den&is_from_rle=)
+- [Amy Shore’s instagram](https://www.instagram.com/amyshorephotography/?hl=en)
 - [Jason’s Land Rover Wheel Swap](https://www.instagram.com/p/BfWOicHAqBd/?taken-by=jasonheaton)
 - [Roverhaven](https://soundcloud.com/Roverhaven)
-- [@ Roverhaven](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Froverhaven%2F&is_from_rle=)
+- [@ Roverhaven](https://www.instagram.com/roverhaven/)
 - [Lappis Tires](https://fbregionen-se.translate.goog/lena-kansbod/lappi-winter-tyres__5960?_x_tr_sch=http&_x_tr_sl=sv&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 - [James’ new Doxa SUB300 50th Anni Searambler](https://www.instagram.com/p/BfPqKBQH9Yl/?taken-by=jestacey)
 - [Jason’s Pinion Atom review](https://www.hodinkee.com/articles/pinion-atom-value-proposition)
@@ -7458,6 +7722,13 @@ Generated on January 23, 2026
 - [Breitling Navi 8 line up](https://www.hodinkee.com/articles/breitling-navitimer-8-b01-introducing)
 - [Bremont Townhouse](https://www.bremont.com/)
 - [Halios Seaforth](https://halioswatches.com/)
+- [Farer Aqua Compressor Leven](https://usd.farer.com/collections/aqua-compressor)
+- [MKII Paradive Gen 3](https://mkiiwatches.com/collections/ready-to-wear-paradive-gen-3)
+- [Paradise Gen 3 lume shot](https://www.instagram.com/p/BeuBYu_nla8/?taken-by=jestacey)
+- [“Treasures from the Wreck of the Unbelievable” (Netflix)](https://www.netflix.com/title/80217857)
+- [Complaining is Useless” Outside Mag](https://www.outsideonline.com/culture/love-humor/complaining-useless/?scope=anon)
+- [The White Darkness (Worsley)](https://www.newyorker.com/magazine/2018/02/12/the-white-darkness)
+- [Quattro 2” Candide Thovex](https://www.youtube.com/watch?time_continue=36&v=NHrwcQQ38bA)
 
 ---
 
@@ -7468,7 +7739,7 @@ Generated on January 23, 2026
 **Related Links (18):**
 
 - [Roldorf & Co](https://www.roldorf.co/)
-- [Jason’s Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Froldorf%2F&is_from_rle=)
+- [Jason’s Instagram](https://www.instagram.com/roldorf/)
 - [Chat with Merlin of Nomos Watches](https://soundcloud.com/thegreynato/tgn-chats-merlin-schwertner-nomos-watches-and-jason-gallop-roldorf-co)
 - [British Horological Institute](https://bhi.co.uk/)
 - [WOSTEP](http://www.wostep.ch/)
@@ -7481,7 +7752,7 @@ Generated on January 23, 2026
 - [PADI](https://www.padi.com/)
 - [Momentum Watches](https://momentumwatch.com/)
 - [Autodromo](https://autodromo.com/)
-- [Laco](https://www.laco-watches.com/en/index)
+- [Laco](https://www.laco-watches.com/en/)
 - [Nomos](http://www.nomos-glashuette.com/en/)
 - [Mr. Jones Watch](https://mrjoneswatches.com/)
 - [Bremont](https://www.bremont.com/)
@@ -7492,21 +7763,26 @@ Generated on January 23, 2026
 
 **Published:** January 23, 2018 at 09:59 AM
 
-**Related Links (13):**
+**Related Links (18):**
 
-- [Baume et Mercier Baumatic](https://www.baume-et-mercier.com/us/en/collections/clifton-men/watch-clifton-10436-date.html)
+- [Baume et Mercier Baumatic](https://bit.ly/2DtR16L)
 - [Vacheron Constantin FiftySix](https://www.vacheron-constantin.com/en/watches/fiftysix.html)
 - [Montblanc 1858 Geosphere](https://www.hodinkee.com/articles/montblanc-1858-geosphere-introducing)
 - [Montblanc 1858 Chronograph](https://www.hodinkee.com/articles/montblanc-1858-automatic-chronograph-introducing)
 - [Longines BigEye Review](https://www.hodinkee.com/articles/longines-avigation-bigeye-value-proposition-hands-on)
-- [Kenton Cool](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkentoncool%2F&is_from_rle=)
-- [Panerai Luminor Logo](https://www.panerai.com/us/en/home.html)
-- [Panerai Due 38mm](https://www.panerai.com/us/en/home.html)
+- [Kenton Cool](https://www.instagram.com/kentoncool/)
+- [Panerai Luminor Logo](https://bit.ly/2EWQLK1)
+- [Panerai Due 38mm](https://bit.ly/2Bh4wAH)
 - [Cartier Drive Extra-Flat in Steel](https://www.hodinkee.com/articles/cartier-drive-de-cartier-extra-flat-stainless-steel-yellow-gold-hands-on)
 - [JLC Polaris Models](https://www.jaeger-lecoultre.com/us-en/watches/polaris)
 - [Tribute to Polaris](https://www.analogshift.com/products/jaeger-lecoultre-tribute-to-polaris)
 - [Ressence E-Crown Concept](https://www.hodinkee.com/articles/ressence-type-2-e-crown-concept-introducing)
 - [A.Lange & Sohne Triple Split](https://www.alange-soehne.com/eu-en/timepieces/saxonia/triple-split#setCurrentScope=NL)
+- [Alex Strohl JLC Project](https://www.youtube.com/watch?v=At_cdxep6ys)
+- [“A Man and His Watch” by Matt Hranek](https://www.amazon.com/Man-His-Watch-Watches-Stories/dp/1579657141)
+- [Matt Hranek on the Worn & Wound Podcast](https://wornandwound.com/the-worn-wound-podcast-ep-42-matthew-hranek-a-man-and-his-watch/)
+- [kck.st/2EZQOVs](https://kck.st/2EZQOVs)
+- [“Gadd’s Truth: We’re All Crazy” from Explore Magazine](https://www.explore-mag.com/Gadds-Truth-Were-All-Crazy)
 
 ---
 
@@ -7514,7 +7790,7 @@ Generated on January 23, 2026
 
 **Published:** January 09, 2018 at 09:29 AM
 
-**Related Links (10):**
+**Related Links (24):**
 
 - [Girard Perregaux 1966 WW.TC](https://www.girard-perregaux.com/en/1966/wwtc-49557-11-132-11a)
 - [MK II Paradive](https://mkiiwatches.com/specialist-series/paradive-gen-3.html)
@@ -7526,6 +7802,20 @@ Generated on January 23, 2026
 - [Outlier Merino Co/Weight Crewneck Sweatshirt](https://outlier.nyc/shop/retail/merino-coweight-crewneck-sweatshirt.html)
 - [Alps and Meters](https://www.alpsandmeters.com/)
 - [Kaweco Liliput](https://www.kaweco-pen.com/en/pens/fountain-pens/214/kaweco-liliput-fountain-pen-eco-brass)
+- [Oak & Oscar Jackson Chronograph](https://oakandoscar.com/pages/the-jackson-chronograph)
+- [Eterna Cal 39](https://www.hodinkee.com/articles/dissecting-the-new-eterna-caliber-39)
+- [Burnham](https://oakandoscar.com/pages/the-burnham)
+- [Halios Watches](https://www.instagram.com/halioswatches/)
+- [Wind Up](https://bit.ly/2COhdsw)
+- [Heuer Skipper Hodinkee LE](https://shop.hodinkee.com/products/tag-heuer-skipper-limited-edition-for-hodinkee?variant=46356448655)
+- [Original Heuer Skipper](https://netdna-ssl.com/)
+- [Seiko SKX007](https://wornandwound.com/review/seiko-skx007-review/)
+- [Yobokies Bezel](https://s161.photobucket.com/user/yobokies/library)
+- [All Fantasy Everything Podcast](https://headgum.com/all-fantasy-everything/ep-54-what-to-do-with-a-billion-dollars-with-sean-jordan-david-gborie-and-zak-toscani)
+- [nyti.ms/2qDYvOP](https://nyti.ms/2qDYvOP)
+- [Wolf of the Autostrada](https://www.youtube.com/watch?v=BsQZPKeaKBg)
+- [bbc.in/2m1ilOc](https://bbc.in/2m1ilOc)
+- [Under the Arctic Sky](https://www.underanarcticsky.com/)
 
 ---
 
@@ -7533,19 +7823,22 @@ Generated on January 23, 2026
 
 **Published:** December 12, 2017 at 09:41 AM
 
-**Related Links (11):**
+**Related Links (14):**
 
 - [Beaver Creek Skiing](https://www.beavercreek.com/)
-- [Rolf Struder](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frolf_studer_%2F&is_from_rle=)
+- [Rolf Struder](https://www.instagram.com/rolf_studer_/)
 - [Oris Clipperton Limited Edition](https://www.hodinkee.com/articles/oris-aquis-clipperton-limited-edition-introducing)
 - [James’ report from Clipperton](https://www.ablogtowatch.com/clipperton-oris-watches-forgotten-island/)
-- [Oris Big Crown Propilot world timer](https://www.oris.ch/watch/oris-big-crown-propilot-worldtimer/01-690-7735-4164-07-5-22-14fc)
+- [Oris Big Crown Propilot world timer](https://www.oris.ch/en-US/product/watch/propilot/big-crown-propilot-worldtimer/01-690-7735-4164-07-5-22-14FC)
 - [Oris Big Crown Solo GMT watch](https://imgur.com/a/Kcrvz)
 - [Rolf’s Carl Brashear LE Diver](https://www.instagram.com/p/BcUuvmTDbga/?taken-by=jestacey)
 - [Black patina’d Halios Tropik](https://www.instagram.com/p/BKoaOzJhtgf/?taken-by=halioswatches)
 - [Clipperton Episode of TGN](https://soundcloud.com/thegreynato/the-grey-nato-ep-35-from-clipperton-with-love)
 - [Porsche Burmester Piece on NUVO](https://nuvomagazine.com/rides/new-porsche-3d-surround-sound-system)
 - [Porsche Panamera Review](http://nuvomagazine.com/magazine/spring-2017/all-new-2017-porsche-panamera)
+- [Ben Saunders Blog](https://bensaunders.com/blog/)
+- [SR71 Cockpit Tour](https://www.youtube.com/watch?v=tj9UwKQKE3A)
+- [Caving video](https://vimeo.com/229068535)
 
 ---
 
@@ -7553,8 +7846,20 @@ Generated on January 23, 2026
 
 **Published:** November 28, 2017 at 09:44 AM
 
-**Related Links (7):**
+**Related Links (24):**
 
+- [Kill Hubris straps with Crown and Buckle (stay tuned for a giveaway)](https://www.killhubris.com/collections/new/products/lizardcamonato)
+- [Bonaire Trip](https://www.instagram.com/p/Bbj7meHj68e/?taken-by=jasonheaton)
+- [Citizen Promaster Ecodrive 1000m aka “The Kraken”](https://bit.ly/2mTYK6e)
+- [1985 Aqualand](https://www.instagram.com/p/BbfebG4DKDK/?taken-by=jasonheaton)
+- [Rado Captain Cook](https://www.instagram.com/p/BbxjsRJDzph/?taken-by=jasonheaton)
+- [MKII Paradive](https://mkiiwatches.com/collections/ready-to-wear-paradive-gen-3)
+- [Maserati Ghibli drive in Monaco](https://www.instagram.com/p/BbeJBl8nS5g/?taken-by=jestacey)
+- [Burmester trip with Porsche](https://www.instagram.com/p/Bb2QIgXnUL5/?taken-by=jestacey)
+- [Land Rover repairs](https://www.instagram.com/p/BbzqOUrDngD/?taken-by=jasonheaton)
+- [Alps & Meters](https://www.alpsandmeters.com/)
+- [Anton Knives Minnow 030](https://bit.ly/2AqYr94)
+- [Longines Aviation BigEye Chronograph](https://www.instagram.com/p/Bbnb0CYni1h/?taken-by=jestacey)
 - [Jason: Doxa Sub 200 T-Graph](https://www.instagram.com/p/BaMSsThDch3/?taken-by=jasonheaton)
 - [James: Silvana Skin Diver](https://www.instagram.com/p/Bbr2PsNndaq/?taken-by=jestacey)
 - [Vintage Watch Classics](http://www.vintagewatchclassics.com/)
@@ -7562,6 +7867,11 @@ Generated on January 23, 2026
 - [1025 Vintage](https://shop.1025vintage.com/collections/watches)
 - [RetroWatchGuy](https://retrowatchguy.com/)
 - [Worn and Wound Skin Diver piece](https://wornandwound.com/love-skin-youre-lightweight-skin-diver/)
+- [Adam Marelli Bag](https://www.instagram.com/p/BariF88jxVn/?taken-by=jasonheaton)
+- [Carryology x Topo Klettersack](https://www.carryology.com/liking/industry/exclusive-release-topo-designs-x-carryology-klettersack-backpack/)
+- [Projekt Grenadier](https://bit.ly/2A0d4Q5)
+- [Local Motors Rally Fighter](https://bit.ly/2ArL3kY)
+- [The Journal Monthly Email Newsletter form Kevin Rose](https://bit.ly/2jiD1zL)
 
 ---
 
@@ -7569,7 +7879,7 @@ Generated on January 23, 2026
 
 **Published:** November 14, 2017 at 08:43 AM
 
-**Related Links (15):**
+**Related Links (35):**
 
 - [Jason diving with Silvia Earle / Rolex](https://www.instagram.com/p/BbPkrAJjnB2/?taken-by=jasonheaton)
 - [Mission Blue](https://www.youtube.com/watch?v=B1wp2MQCsfQ)
@@ -7583,9 +7893,29 @@ Generated on January 23, 2026
 - [Outlier Ultrafine Merino T-Shirt](https://outlier.nyc/collections/shirts/ultrafine-merino-t-shirt)
 - [GQ story about Outlier](https://www.gq.com/story/outlier-pants-for-the-end-of-the-world)
 - [imdb.to/2zy3iEn](https://www.imdb.com/title/tt0103241/)
-- [Nomos Tangente Neomatic 39 Silvercut](https://www.nomos-store.com/en/Series/At-Work/Tangente/Tangente-neomatik-41-Update-stainless-steel-back.html)
-- [Nomos At Work Series](https://www.nomos-store.com/en/Series/At-Work/?smxCountry=fr&redirected=1)
-- [Campus Club](https://www.nomos-store.com/en/Series/Campus/Club-38-Campus-stainless-steel-back.html)
+- [Nomos Tangente Neomatic 39 Silvercut](https://bit.ly/2zRG10J)
+- [Nomos At Work Series](https://bit.ly/2zGC0Jy)
+- [Campus Club](https://bit.ly/2yWALJn)
+- [Atlas 46 Tool Roll Pouch XL](https://www.atlas46.com/online-store#!/Tool-Roll-Pouch-XL/p/47853420)
+- [BigiDesigns Titanium Pocket Clip](https://bigidesign.com/collections/pocket-tools/products/tpc-titanium-pocket-clips)
+- [Embassy Pen](https://shop.hodinkee.com/collections/accessories/products/embassy-pen?variant=22410930180)
+- [EDC Watchfold from Worn and Wound](https://windupwatchshop.com/collections/accessories/products/edc-watch-fold?variant=12487547715650)
+- [ebay.to/2hsWHEk](https://ebay.to/2hsWHEk)
+- [Dimple.io](https://dimple.io/)
+- [PIA VPN](https://www.privateinternetaccess.com/)
+- [“First Overland” book by Tim Slessor](https://www.amazon.com/First-Overland-London-Singapore-Land-Rover/dp/1909930369)
+- [BBC Special about the book](https://www.youtube.com/watch?v=OS8G-103ZRE)
+- [Electric screwdriver, any type](https://www.amazon.com/Best-Sellers-Industrial-Scientific-Cordless-Electric-Power-Screwdrivers/zgbs/industrial/552750)
+- [Pick-Quik screwdriver](https://picquic.ca/)
+- [Autodromo Stringback driving gloves](https://autodromo.com/accessories/stringback-driving-gloves)
+- [Aukey 12W Led desk lamp](https://www.amazon.com/AUKEY-Dimmable-Charging-Touch-sensitive-Control/dp/B01AJQ9KYQ)
+- [Vintage Film Cameras](https://www.gearpatrol.com/2013/01/17/roundup-great-vintage-cameras/)
+- [battlefieldarceologist](https://soundcloud.com/battlefieldarceologist)
+- [@ battlefieldarceologist on Instagram](https://www.instagram.com/battlefieldarchaeologist/)
+- [“No Roses on a Sailors Grave” Indiegogo](https://www.indiegogo.com/projects/no-roses-on-a-sailor-s-grave-history#/)
+- [bbc.in/2ABxpYF](https://bbc.in/2ABxpYF)
+- [Xtrafuf boots](https://xtratuf.com/)
+- [Futureclassics.tv youtube channel](https://www.youtube.com/channel/UCrwWozFzinCZgLVQHYkKovA)
 
 ---
 
@@ -7593,19 +7923,47 @@ Generated on January 23, 2026
 
 **Published:** October 31, 2017 at 09:29 AM
 
-**Related Links (11):**
+**Related Links (39):**
 
 - [Jason in Cabo Plumo with Rolex](https://www.instagram.com/p/BazxuOnjMUP/?taken-by=jasonheaton)
-- [Jason’s Interview with Ben Saunders](https://www.outsideonline.com/2252586/ben-saunders-interview)
+- [Jason’s Interview with Ben Saunders](https://www.outsideonline.com/outdoor-adventure/exploration-survival/ben-saunders-interview/?scope=anon)
 - [James @ Formula 1](https://www.instagram.com/p/Bae1WPEHITQ/?taken-by=jestacey)
 - [James’ piece on the 50th AMG Ingenieur](https://www.hodinkee.com/articles/iwc-ingenieur-chronograph-sport-edition-50th-anniversary-mercedes-amg-hands-on)
 - [James’ Panerai 42 mm Submersible Review](https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on)
-- [Toxic Shiznit Herringbone](https://www.toxicnatos.com/products/toxic-herringbone)
+- [Toxic Shiznit Herringbone](https://bit.ly/2zC1ruM)
 - [Toxic on wrist](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2zALvJk&token=1bfc72-1-1620756043408)
 - [Doxa Blacklung](https://www.hodinkee.com/articles/doxa-sub-300-aqua-lung-edition-introducing)
 - [CWC 1980 Royal Navy Diver Re-Issue Review](https://www.hodinkee.com/articles/cwc-1980-royal-navy-diver-re-issue)
 - [New Beagle versions from breakfast with Muyshondt](https://www.instagram.com/p/BaeRDCBHOcu/?taken-by=jestacey)
 - [Muyshondt Beagle](https://shop.muyshondt.net/collections/beagle)
+- [Patagonia Nano Puff](http://www.patagonia.com/product/mens-nano-puff-jacket/84212.html)
+- [Yvon Chouinard](https://en.wikipedia.org/wiki/Yvon_Chouinard)
+- [Eddie Bauer Guide Pro Pants](http://www.eddiebauer.com/product/mens-guide-pro-pants/12951063)
+- [Icebreaker Zip](https://na.icebreaker.com/en-us/mens-baselayers/bodyfitzone-winter-zone-long-sleeve-half-zip/103319.html?dwvar_103319_color=402)
+- [Ibex Zip](https://ibex.com/mens-indie-half-zip_2?quantity=1)
+- [Smart Wool](https://www.smartwool.com/shop/mens-echo-lake-half-zip-sweater-sw0sp637)
+- [Icebreaker Spire Crew](https://www.amazon.com/Icebreaker-Mens-Spire-Sleeve-Crewe/dp/B00I4GL22W?th=1)
+- [Darn Tough Socks](https://darntough.com/)
+- [Dahlgren Socks](https://bit.ly/2yMHbr5)
+- [Hiker GX Socks](https://www.mec.ca/en/product/5006-539/jb-fields-super-wool-hiker-gx-socks-unisex)
+- [Mark’s Work Wearhouse Socks (there are many)](https://www.marks.com/en/dakota-mens-3-pack-work-socks-229.html#229[color]=BRBKDM)
+- [Duluth Trading Co Flex Fire Hose Pants](https://www.duluthtrading.com/store/product/mens-fire-hose-duluthflex-cargo-work-pants-45507.aspx)
+- [Gustin Jeans](https://www.weargustin.com/)
+- [Sitka Apparel](https://ecologyst.com/)
+- [Kill Hubris Washed Pocket Tee](https://www.killhubris.com/collections/featured/products/pockettees)
+- [Alpha Industries MA-1](https://www.alphaindustries.com/products/mjm21000c1-ma-1-bomber-jacket-heritage)
+- [Uniqlo Comfort Jacket](https://www.uniqlo.com/us/en/products/E167666-000/00#08~/men/outerwear-and-blazers/blazers/comfort/)
+- [Red Wing Boots](https://www.redwingshoes.com/)
+- [James’ Iron Rangers](https://www.redwingshoes.com/iron-ranger-08119.html)
+- [Allen Edmond Carson City Boots (discontinued, similar)](https://www.allenedmonds.com/?dwvar_SF6021_color=6043#start=5)
+- [Red Wing Weekenders](https://www.redwingshoes.com/weekender-chukka-03322.html)
+- [Palladium Boots](https://palladiumboots.com/)
+- [Blundstone Boots](https://www.blundstone.com/)
+- [Scarpa Crux Approach Shoes](https://scarpa.com/crux)
+- [Becky Kagan Schott Photos](http://photos.liquidproductions.com/Gunilda)
+- [Becky’s Instagram](https://www.instagram.com/becky_kagan_schott/)
+- [The Gunilda Wreck](https://therebreathersite.nl/03_Historical/Gunilda/Gunilda.htm)
+- [REI and Patagonia Selling Used Gear](https://www.adventure-journal.com/2017/10/rei-patagonia-break-used-gear-market/)
 
 ---
 
@@ -7613,10 +7971,10 @@ Generated on January 23, 2026
 
 **Published:** October 17, 2017 at 10:00 AM
 
-**Related Links (20):**
+**Related Links (24):**
 
 - [lucalbert](https://soundcloud.com/lucalbert)
-- [Oak and Oscar Watch Wallet Winner: @ lucalbert](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flucalbert%2F&is_from_rle=)
+- [Oak and Oscar Watch Wallet Winner: @ lucalbert](https://www.instagram.com/lucalbert/)
 - [Oak and Oscar Jackson](https://oakandoscar.com/pages/the-jackson-chronograph)
 - [McLaren 570S](https://nuvomagazine.com/rides/mclaren-570s)
 - [Lamborghini Aventador S](https://nuvomagazine.com/rides/lamborghini-aventador-s-coupe)
@@ -7633,8 +7991,12 @@ Generated on January 23, 2026
 - [Panerai Luminor Submersible 42mm PAM682](https://www.panerai.com/en/collections/watch-collection/luminor.html)
 - [Panerai Quick Change Springbar](https://www.youtube.com/watch?v=Xcv2AKTWWFU)
 - [Agedpatina](https://soundcloud.com/Agedpatina)
-- [@ Agedpatina](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fagedpatina%2F&is_from_rle=)
+- [@ Agedpatina](https://www.instagram.com/agedpatina/)
 - [The “Lawnmower Bezel” Speedy](https://www.instagram.com/p/BZ818SvnZv8/?taken-by=jestacey)
+- [Mission Blue on Netflix](https://www.youtube.com/watch?v=B1wp2MQCsfQ)
+- [Peak Design Slide Lite strap](https://www.peakdesign.com/product/straps/slidelite)
+- [Sidetracked Magazine](http://sidetracked.bigcartel.com/)
+- [nyti.ms/2yku0A2](https://nyti.ms/2yku0A2)
 
 ---
 
@@ -7642,7 +8004,7 @@ Generated on January 23, 2026
 
 **Published:** October 03, 2017 at 09:52 AM
 
-**Related Links (8):**
+**Related Links (13):**
 
 - [The English Tour](https://www.bremont.com/)
 - [Nick’s 1970 E-Type Jaguar](https://www.instagram.com/p/BZSHqobnxv-/?taken-by=jestacey)
@@ -7650,8 +8012,13 @@ Generated on January 23, 2026
 - [Churchill Classics](https://www.churchillclassiccars.com/)
 - [Mednikow Jewelers](https://www.mednikow.com/)
 - [andyphotofolio](https://soundcloud.com/andyphotofolio)
-- [Andy Wilson @ andyphotofolio](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fandyphotofolio%2F&is_from_rle=)
+- [Andy Wilson @ andyphotofolio](https://www.instagram.com/andyphotofolio/)
 - [West Mountain Drive - Hot Springs, Arkansas](https://www.google.ca/maps/place/W+Mountain+Dr,+Hot+Springs,+AR+71901,+USA/@34.5073401,-93.0629962,15.35z/data=!4m5!3m4!1s0x87cd2af71495314d:0xfb2484536b76a7e1!8m2!3d34.5099721!4d-93.0604786)
+- [Haveston NATO straps](https://www.haveston.com/index.html)
+- [Unbox Therapy](https://www.youtube.com/user/unboxtherapy)
+- [Drone and a Train](https://petapixel.com/2017/09/22/guy-flew-camera-drone-onto-inside-moving-train/)
+- [n.pr/2xxVly4](https://n.pr/2xxVly4)
+- [This Guy Just Rode and Climbed Colorado’s 100 Highest Peaks, Self Supported and Non-Stop](https://www.adventure-journal.com/2017/09/guy-just-rode-climbed-colorados-100-highest-peaks-self-supported-non-stop/)
 
 ---
 
@@ -7659,8 +8026,11 @@ Generated on January 23, 2026
 
 **Published:** September 19, 2017 at 07:59 AM
 
-**Related Links (11):**
+**Related Links (29):**
 
+- [blalonde369](https://soundcloud.com/blalonde369)
+- [Muyshondt Flieger Giveaway congrats to @ blalonde369](https://www.instagram.com/blalonde369/)
+- [Oak and Oscar Wallet](https://oakandoscar.com/modular-watch-wallet)
 - [Monterey Car Week](https://whatsupmonterey.com/events/monterey-car-week)
 - [Genesis Cars](https://www.genesis.com/us/en/home)
 - [Watch Spotting at Monterey Car Week](https://www.hodinkee.com/articles/monterey-car-week-2017-watch-spotting)
@@ -7672,6 +8042,21 @@ Generated on January 23, 2026
 - [Bremont English Tour](https://www.bremont.com/)
 - [Mednikow Jewelers - Memphis](https://www.mednikow.com/)
 - [Farer Aqua Compressor](https://usd.farer.com/collections/aqua-compressor)
+- [Sri Lanka](https://en.wikipedia.org/wiki/Sri_Lanka)
+- [HMS Hermes](https://en.wikipedia.org/wiki/HMS_Hermes_(95))
+- [Sri Lanka Air Force Museum](https://www.airforcemuseum.lk/)
+- [Blue Water White Death](https://www.dailymotion.com/video/x3uh654?GK_FACEBOOK_OG_HTML5=1)
+- [PADI Tec 40 certification](https://store.padi.com/en-us/courses/)
+- [Jason’s Rolex 14060](https://www.instagram.com/p/BY6nLlzj9V_/?taken-by=jasonheaton)
+- [DIVEX Found on the wreck of the Hermes](https://www.hodinkee.com/articles/divex-watch-indian-ocean-shipwreck)
+- [Swami rock dive](https://divesrilanka.com/DSTrinSwamiRock.html)
+- [Kill Hubris](https://www.killhubris.com/)
+- [- Teal t-shirt](https://www.killhubris.com/collections/tees/products/pockettees)
+- [- Latin mug](https://www.killhubris.com/collections/accessories/products/latinmug)
+- [- Champion Raglans](https://www.killhubris.com/collections/tees/products/raglan)
+- [Bigidesigns TPC Titanium Pocket Clip](https://bigidesign.com/products/tpc-titanium-pocket-clips)
+- [Roverhaven Straps](https://www.roverhaven.com/)
+- [“This Plane Could Cross The Atlantic in 3.5 Hours, Why Did it Fail?”](https://www.youtube.com/watch?v=a_wuykzfFzE)
 
 ---
 
@@ -7679,7 +8064,7 @@ Generated on January 23, 2026
 
 **Published:** September 05, 2017 at 03:49 AM
 
-**Related Links (6):**
+**Related Links (9):**
 
 - [Halios](https://halioswatches.com/halios-delfin/)
 - [Halios Seaforth Review](https://www.hodinkee.com/articles/halios-seaforth-value-proposition)
@@ -7687,6 +8072,9 @@ Generated on January 23, 2026
 - [Avig](https://aevig.com/)
 - [Gavox](https://www.gavox.com/)
 - [MK II](https://mkiiwatches.com/)
+- [Doxa](https://doxawatches.com/DOXA-SUB-collection.html)
+- [Seiko SLA017](https://www.seikowatches.com/press_release/2017/RLS1703-07/index.html)
+- [Porsche 911R](https://www.porsche.com/microsite/911-r/usa.aspx)
 
 ---
 
@@ -7694,18 +8082,28 @@ Generated on January 23, 2026
 
 **Published:** August 22, 2017 at 09:40 AM
 
-**Related Links (10):**
+**Related Links (20):**
 
 - [Jason in Sri Lanka](https://www.instagram.com/p/BX_tpC1DCo3/?taken-by=jasonheaton)
-- [Hermes](https://easternsrilanka.natgeotourism.com/content/diving-on-the-wreckage-of-the-hms-hermes)
+- [Hermes](https://bit.ly/2tCdzf4)
 - [James’ review of the Halios Seaforth](https://www.hodinkee.com/articles/halios-seaforth-value-proposition)
-- [Omega X-33 Regatta](https://www.omegawatches.com/watches/speedmaster/x-33-regatta/catalog/)
-- [Oris Chronoiris](https://www.oris.ch/en/collection/oris-chronoris)
-- [Rado Captain Cook](https://www.rado.com/news.html)
+- [Omega X-33 Regatta](https://bit.ly/2rgYpr7)
+- [Oris Chronoiris](https://www.oris.ch/en-US/product/watch/oris-chronoris)
+- [Rado Captain Cook](https://bit.ly/2nVfEzM)
 - [Meeting Conrad Anker](https://www.instagram.com/p/BXohJckDIU2/?taken-by=jasonheaton)
 - [Anker’s custom Pelagos](https://www.instagram.com/p/BXor6OLjVzg/?taken-by=jasonheaton)
 - [Roldorf & Co](https://www.roldorf.co/)
 - [Abbotsford Airshow](https://www.instagram.com/p/BXtKTyyjkB0/?taken-by=jestacey)
+- [PADI](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2vhYeOn&token=a50661-1-1620755729153)
+- [NAUI](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2v75ltH&token=940644-1-1620755729153)
+- [SSI](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2vSkr9e&token=280654-1-1620755729153)
+- [SDI](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2vSg8L8&token=384628-1-1620755729154)
+- [GUE](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2vXxlRN&token=414643-1-1620755729154)
+- [BSAC](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2ikFSLp&token=790661-1-1620755729154)
+- [mjm.ag/2wqYShs](https://gate.sc/?url=http%3A%2F%2Fmjm.ag%2F2wqYShs&token=4a851e-1-1620755729154)
+- [“The Edge of the World”](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2vhZaST&token=694648-1-1620755729154)
+- [Twixt Time App](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2xlc3x4&token=f1c62e-1-1620755729154)
+- [“What made the McLaren F1 The World’s Greatest Car”](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2wx3dPF&token=4d8639-1-1620755729154)
 
 ---
 
@@ -7713,846 +8111,49 @@ Generated on January 23, 2026
 
 **Published:** August 08, 2017 at 09:02 AM
 
-**Related Links (6):**
+**Related Links (41):**
 
+- [Wintercheck Consoli Wallet via Andrea’s Gifs](https://www.andreasgifts.com/products/wintercheck-factory-consoli-wallet-black)
+- [Seaforth diving!](https://www.instagram.com/p/BXL15j7DF-h/?taken-by=jasonheaton)
+- [Omega X-33 Regatta](https://bit.ly/2v2Q0LH)
+- [Muyshondt Beagle MK I](https://shop.muyshondt.net/products/beagle-titanium)
+- [Muyshondt Instagram](https://www.instagram.com/muyshondtent/)
+- [Samsung Note 5](http://www.samsung.com/global/galaxy/galaxy-note5/)
+- [apple.co/2vlKqGx](https://apple.co/2vlKqGx)
+- [bose.life/2v2ONDQ](https://bose.life/2v2ONDQ)
+- [Plantronic BackBeat Go 2](https://bit.ly/2hs8FNU)
+- [Shure SE215](https://www.shure.com/en-US/products/earphones/se215)
 - [CKRT Fulcrum](https://thumbs.worthpoint.com/zoom/images1/1/1213/15/crkt-fulcrum-demo-model-model-7403d_1_3defcfbc7de49df491f9819398b75e0e.jpg)
 - [Benchmade Mini-Griptilian 556s](https://www.benchmade.com/mini-griptilian-family.html)
 - [CRTK Shasta](https://www.outdoorgearlab.com/reviews/camping-and-hiking/pocket-knife/crkt-mount-shasta)
 - [Victorinox Hunter XS](https://www.victorinox.com/en-US/)
 - [Jared Oeser Knives](https://oeserknives.com/)
 - [Pena Knives](https://www.penaknives.com/)
-
----
-
-## [The Grey Nato - Ep 39 - Seaforth](https://thegreynato.substack.com/p/the-grey-nato-39-seaforth)
-
-**Published:** July 25, 2017 at 09:01 AM
-
-**Related Links (16):**
-
-- [Halios Seaforth](https://halioswatches.com/)
-- [Halios Watches Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhalioswatches%2F&is_from_rle=)
-- [Toxic Natos](https://www.toxicnatos.com/)
-- [Crown and Buckle Perlons](https://www.crownandbuckle.com/straps-by-type/braided-nylon-straps.html)
-- [Rubber Nato](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
-- [Hadley Roma Cordura](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2ttxkHg&token=ccb2c9-1-1620755641634)
-- [sixtyclicks](https://soundcloud.com/sixtyclicks)
-- [@ sixtyclicks](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsixtyclicks%2F&is_from_rle=)
-- [nichols](https://soundcloud.com/nichols)
-- [The Little-Known Soviet Mission to Rescue A Dead Space Station (via @ nichols .ken)](https://arstechnica.com/science/2014/09/the-little-known-soviet-mission-to-rescue-a-dead-space-station/)
-- [Full Timed Shootout from Goodwood](https://www.youtube.com/watch?v=cKoIPEhF7sQ)
-- [“Chasing Coral” (Netflix)](https://chasingcoral.com/)
-- [Vincent Lions Phase One Halios eBook](https://go.phaseone.com/Ebook-From-Concept-to-Capture-with-Vincent-Lionti)
-- [vincentlions](https://soundcloud.com/vincentlions)
-- [@ vincentlions on Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvincentlions%2F&is_from_rle=)
-- [Puck Photo](https://www.instagram.com/p/BU2Pwb2l_lR/?taken-by=vincentlions)
-
----
-
-## [The Grey Nato - Ep 38 - Does In-House Matter?](https://thegreynato.substack.com/p/the-grey-nato-38-does-in-house-matter)
-
-**Published:** July 11, 2017 at 09:01 AM
-
-**Related Links (10):**
-
-- [Greubel Forsey](https://greubelforsey.com/en)
-- [ETA 2824](https://en.wikipedia.org/wiki/ETA_SA#ETA_2824-2)
-- [Miyota 9015](https://www.citizen.co.jp/miyota_mvt/9015/top.html)
-- [Ressence Type 3](https://ressencewatches.com/pages/type-3)
-- [Panerai P2002](https://www.panerai.com/us/en/in-house-movements/hand-wound-movement/p2002-calibre)
-- [Omega 2254](https://www.watchuseek.com/threads/omega-2254-and-seamaster-300-master-co-axial-side-by-side-comparison.2719001/)
-- [Seiko 7S26 Movement](https://www.watchfreeks.com/threads/a-very-good-review-of-the-seiko-7s26-movement.20169/)
-- [Singer Track 1](https://singerreimagined.com/en/home)
-- [Agengraphe movement](https://quillandpad.com/2017/02/20/exclusive-the-agengraphe-by-agenhor-the-most-significant-chronograph-since-since-the-invention-of-the-chronograph/)
-- [Jack’s Rolex Article](https://www.forbes.com/sites/jackforster/2012/09/03/the-rolex-problem-a-semi-rational-look-at-the-worlds-most-recognized-watch/#4431afa708e9)
-
----
-
-## [The Grey Nato - Ep 37 - Collection Inspection Vol 4](https://thegreynato.substack.com/p/the-grey-nato-37-collection-inspection)
-
-**Published:** June 27, 2017 at 09:01 AM
-
-**Related Links (10):**
-
-- [Citizen C023 Aqualand](https://www.instagram.com/p/BSTgZkSjWRp/?taken-by=jasonheaton)
-- [Citizen JP2000](http://www.creationwatches.com/products/citizen-divers-aqualand-49/citizen-aqualand-promaster-divers-200m-bn0150-28e-mens-watch-10195.html)
-- [Citizen Aqualand Chrono](https://www.flickr.com/photos/jstacey/2109027777/)
-- [Seiko SKX007](https://wornandwound.com/review/seiko-skx007-review/)
-- [Seiko SKX779 Black Monster](http://www.creationwatches.com/products/seiko-divers-60/seiko-divers-automatic-200m-japan-skx013k2-skx013k-skx013-mens-watch-6661.html)
-- [James’ modded SKX007 “CMT” with 12 hr steel bezel](https://www.instagram.com/p/BVbLxxYjR_h/?taken-by=jestacey)
-- [Seiko SBCM023 Prospex Perpetual](https://www.thewatchsite.com/threads/seiko-sbcm023.10197/)
-- [Seiko SKX013](http://www.creationwatches.com/products/seiko-divers-60/seiko-automatic-divers-200m-japan-made-skx007-skx007j2-skx007j-mens-watch-3393.html)
-- [2nd Gen Monster SRK313K “Vampire”](http://www.ablogtowatch.com/seiko-srp313k1-new-monster-dive-watch-review/)
-- [3rd Gen Prospex Monster Ocean Blue](https://www.watchuseek.com/threads/a-new-seiko-3rd-gen-monster-is-arrived-szsc003-blu-dial-fantastic.4002770/)
-
----
-
-## [The Grey Nato - Ep 36 - Quartz Crisis?](https://thegreynato.substack.com/p/the-grey-nato-35-quartz-crisis)
-
-**Published:** June 13, 2017 at 09:05 AM
-
-**Related Links (19):**
-
-- [Casio G-Shock Rangeman](https://www.casio.com/products/Watches/G-Shock/GW9400-1/)
-- [Breitling Aerospace](http://breitling-museum.com/Breitling-Aerospace.html)
-- [Seiko Prospex SBCM023 Perpetual](https://www.thewatchsite.com/threads/seiko-sbcm023.10197/)
-- [Victorinox INOX](https://www.victorinox.com/en-US/)
-- [Omega X-33](https://www.omegawatches.com/watches/speedmaster/skywalker-x-33/skywalker-x-33/product/)
-- [New Regatta X-33](https://www.omegawatches.com/watches/speedmaster/x-33-regatta/catalog/)
-- [Omega Z-33](https://www.omegawatches.com/watches/speedmaster/spacemaster-z-33/product/)
-- [Breitling B55](https://www.breitling.com/us-en/en/models/professional/exospace-b55/)
-- [Audodromo Prototipo](https://autodromo.com/watches/prototipo-chronograph)
-- [Grand Seiko Quartz 9F](https://www.grand-seiko.com/about/movement/quartz/)
-- [Citizen Skyhawk (I know I said Navihawk, meant Skyhawk)](https://www.citizenwatch.com/us/en/)
-- [Citizen Eco-Drive](https://www.citizenwatch.com/us/en/)
-- [Seiko Astron](http://www.seiko-astron.com/)
-- [Citizen Satellite Wave](https://www.citizenwatch.com/us/en/)
-- [Mondaine Railway Watch](https://mondaine.com/)
-- [Braun Watches](https://braun-clocks.com/watches.html)
-- [Bell and Ross Hydromax](https://www.google.ca/search?q=bell+and+ross+hydromax&source=lnms&tbm=isch&sa=X&ved=0ahUKEwivo_yWyrPUAhUD9YMKHa3uDFoQ_AUICigB&biw=858&bih=944)
-- [Sinn EMZ 2 UX Hydro](https://www.sinn.de/en/Modell/UX.htm/)
-- [Dagbert Sinn UX?](https://www.instagram.com/p/BTHrDosgHHo/?taken-by=dagbert)
-
----
-
-## [The Grey Nato - Ep 35 - From Clipperton With Love](https://thegreynato.substack.com/p/the-grey-nato-35-from-clipperton)
-
-**Published:** May 30, 2017 at 09:01 AM
-
-**Related Links (7):**
-
-- [Clipperton Info](http://www.diveclipperton.n2pix.com/index.html)
-- [https://www.instagram.com/p/BT_2b1Wjoql/](https://www.instagram.com/p/BT_2b1Wjoql/)
-- [https://www.instagram.com/p/BT-NtN6jXf4/](https://www.instagram.com/p/BT-NtN6jXf4/)
-- [https://www.instagram.com/p/BT18MMQDYAf/](https://www.instagram.com/p/BT18MMQDYAf/)
-- [Cousteau's "The Island That Time Forgot"](https://www.youtube.com/watch?v=pfmgqjTWruU)
-- [Oris Aquis Regulateur Der Meistertaucher](https://www.oris.ch/en/watches/oris-aquis-regulateur-der-meistertaucher/01-749-7677-7154-set)
-- [Oris Aquis Hammerhead LE](https://www.oris.ch/en/watch/oris-hammerhead-limited-edition/01-752-7733-4183-set-mb)
-
----
-
-## [The Grey Nato - Ep 34 - Q&A Awayisode](https://thegreynato.substack.com/p/the-grey-nato-34-q-and-a-awayisode)
-
-**Published:** May 16, 2017 at 09:28 AM
-
-**Related Links (8):**
-
-- [Sunnto Core](https://www.suunto.com/en-us/Products/Sports-Watches/Suunto-Core/Suunto-Core-All-Black/)
-- [GShock 5600](https://www.amazon.com/Casio-DW5600E-1V-Mens-G-Shock-Watch/dp/B000GAYQKY)
-- [Casio PRW3000](https://www.amazon.com/Casio-PRW-3000-1CR-Protrek-Triple-Multi-Function/dp/B00H3XHK64/ref=sr_1_2?s=apparel&ie=UTF8&sr=1-2&nodeID=7141123011&psd=1)
-- [Garmin Forerunner](https://www.garmin.com/en-US/c/sports-fitness/running-smartwatches/)
-- [Scurfa Diver 1](https://www.scurfawatches.com/bell-diver-1-automatic)
-- [Victorinox Original](https://www.amazon.com/Victorinox-Unisex-241514-Original-Resin/dp/B005NQYQX8)
-- [Citizen diver/ecodrive](https://www.amazon.com/Citizen-Eco-Drive-BN0151-09L-Promaster-Diver/dp/B00PXVU3GM/ref=sr_1_2?s=apparel&ie=UTF8&sr=1-2&nodeID=7141123011&psd=1)
-- [Seiko Solar](http://www.creationwatches.com/products/seiko-prospex-299/seiko-prospex-padded-4s15-automatic-power-reserve-sbdb013-mens-watch-679.html)
-
----
-
-## [The Grey Nato - Ep 33 - The Perfect Watch Trio](https://thegreynato.substack.com/p/the-grey-nato-33-the-perfect-watch)
-
-**Published:** May 02, 2017 at 05:41 AM
-
-**Related Links (9):**
-
-- [Alex Roy](https://alexroy.substack.com/)
-- [Cannon Ball](https://en.wikipedia.org/wiki/Cannonball_Baker_Sea-To-Shining-Sea_Memorial_Trophy_Dash)
-- [Brock Yates](https://en.wikipedia.org/wiki/Brock_Yates)
-- ["Alex Roy's Rules of Professional Speeding"](https://www.thedrive.com/accelerator/1054/the-rules-of-professional-speeding?iid=sr-link9)
-- [“When Ocean’s 11 Met Pebble Beach”](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pYP1f6&token=f1eb7b-1-1620755407729)
-- [“The Coldest Cannonball Run Record. On Record"](https://www.thedrive.com/polizei144/6183/the-coldest-cannonball-run-record-on-record?iid=sr-link1)
-- ["Diving Into The Unknown" (movie)](http://www.divingintotheunknown.com/en)
-- [Outside Online 20 Pieces of Gear Under $20](https://www.outsideonline.com/outdoor-gear/)
-- [“Men On a Mission: A Hunt for Whisky and Tweed in Scotland”](https://www.cntraveler.com/story/men-on-a-mission-a-hunt-for-whisky-and-tweed-in-scotland)
-
----
-
-## [The Grey Nato - Ep 32 - Great Watches Under $250](https://thegreynato.substack.com/p/the-grey-nato-32-great-watches-under)
-
-**Published:** April 18, 2017 at 09:02 AM
-
-**Related Links (16):**
-
-- [Vostock Amphibia](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2pqjJhi&token=32528e-1-1620755362264)
-- [Seiko SKX007](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2oPnHyZ&token=8f9416-1-1620755362264)
-- [Seiko SRP775](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pJB40O&token=59d3f7-1-1620755362264)
-- [Seiko 5 SNZG15j](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pJBdBo&token=d9d41e-1-1620755362264)
-- [Seiko Baby Monster](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2omNk6z&token=9c9427-1-1620755362264)
-- [Seiko Prospex Solar SNE435](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pJhQbI&token=41d400-1-1620755362264)
-- [GShock 5600](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2omWCiK&token=b2126f-1-1620755362264)
-- [Protrek 270](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2pu0NeK&token=ce526e-1-1620755362264)
-- [Protrek 3000](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2pqE59O&token=8e5266-1-1620755362264)
-- [Citizen Nighthawk](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2pJC70K&token=3f5260-1-1620755362264)
-- [Citizen BL-5250](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2nV5h0C&token=22d25b-1-1620755362264)
-- [Citizen BNO151-09L Diver](https://gate.sc/?url=http%3A%2F%2Famzn.to%2F2omNGKk&token=4e1288-1-1620755362264)
-- [Citizen Aqualand II](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2on22ub&token=5d941b-1-1620755362264)
-- [Orient Mako II](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2omzhho&token=9c9429-1-1620755362264)
-- [Marathon Navigator Quartz](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pa30il&token=34d422-1-1620755362264)
-- [Sistem 51](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2pJh1Qb&token=1d413-1-1620755362264)
-
----
-
-## [The Grey Nato - Ep 31 - The Baselworld 2017 Megasode](https://thegreynato.substack.com/p/the-grey-nato-31-the-baselworld-2017)
-
-**Published:** April 04, 2017 at 09:02 AM
-
-**Related Links (6):**
-
-- [Sinn 104 (white dial)](https://www.sinn.de/en/watches/104-st-sa-i-w.html)
-- [Sinn 103 SA ST E](https://www.sinn.de/en/watches/archive/103-st-sa-e.html)
-- [Sinn EMZ 12](https://www.sinn.de/en/watches/ezm-12.html)
-- [Jason's Piece for Hodinkee](https://www.hodinkee.com/articles/sinn-ezm-12-einsatzzeitmesser-introducing)
-- [Sinn 240 GZ](https://www.sinn.de/en/watches/240-st-gz.html)
-- [Sinn 356 SA FLIEGER 3 (silver dial)](https://www.sinn.de/en/watches/356-sa-pilot-iii.html)
-
----
-
-## [The Grey Nato - Ep 30 - Pre Basel + Q&A](https://thegreynato.substack.com/p/the-grey-nato-30-pre-basel-q-and)
-
-**Published:** March 21, 2017 at 09:34 AM
-
-**Related Links (6):**
-
-- [Tenba Bag](https://tenba.com/shop-all/)
-- [Topo Briefcase](https://topodesigns.com/)
-- [Uniqlo Jacket](https://www.uniqlo.com/us/en/products/E167666-000/00#08~/men/outerwear-and-blazers/blazers/comfort/)
-- [X100T](https://www.fujifilm.com/ca/enproducts/digital_cameras/x/fujifilm_x100t/)
-- [Canon 5D MK IV](https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/dslr/eos-5d-mark-iv)
-- [Nikon DF](https://www.nikonusa.com/p/nikon-df/1526/overview)
-
----
-
-## [The Grey Nato - Ep 29 - The Bremont Field Report](https://thegreynato.substack.com/p/the-grey-nato-29-the-bremont-field)
-
-**Published:** March 07, 2017 at 09:05 AM
-
-**Related Links (30):**
-
-- [Bremont Watchesh](https://www.bremont.com/)
-- [Summary of the new models](http://www.ablogtowatch.com/bremont-watch-lineup-2017/)
-- [Turbine coffee table](https://intrepid-design.co.uk/aviation-furniture/pegasus-LP2-Fan-blade-table.html)
-- [Kenton Cool](https://www.kentoncool.com/)
-- [George Bullard](https://www.georgebullard.co.uk/)
-- [Alex Gregory](https://alexgregorygb.com/)
-- [Supermarine S500](https://www.bremont.com/)
-- [SOLO white](https://www.bremont.com/)
-- [Bremont S300](https://www.bremont.com/)
-- [S300 Blue](https://www.bremont.com/)
-- [Bremont S301](https://www.bremont.com/)
-- [AIRCO Mach 1](https://www.bremont.com/collections/altitude)
-- [AIRCO Mach 2](https://www.bremont.com/collections/altitude)
-- [ALT1-P2](https://www.bremont.com/)
-- [Jaguar MK II White](https://www.bremont.com/)
-- [Norton V4/RR](https://www.bremont.com/)
-- [America’s Cup AC35](https://www.bremont.com/)
-- [America’s Cup AC-R-II](https://www.bremont.com/)
-- [Solo 32 RG](https://www.bremont.com/)
-- [@](https://soundcloud.com/Redbarcrew)
-- [@ Redbarcrew](https://www.instagram.com/redbarcrew/)
-- [@](https://soundcloud.com/the_watchnerd)
-- [@ the_watchnerd](https://www.instagram.com/the_watchnerd/)
-- [Seiko Quartz Chrono from Harrier Pilot](https://www.instagram.com/p/BRJznvpjK1Y/?taken-by=jasonheaton)
-- [Rolex Sea-Dweller Great White](https://www.instagram.com/p/BRJksLBDFXL/?taken-by=jestacey)
-- [Ben Saunders](https://bensaunders.com/)
-- [Jake Meyers](https://www.jakemeyer.co.uk/)
-- [Vintage Space](https://www.youtube.com/channel/UCw95T_TgbGHhTml4xZ9yIqg)
-- [Reddit Ultralight Community](https://www.reddit.com/r/Ultralight/)
-- [“To The Ends of The Earth” (book, Ranulph Fiennes)](https://www.amazon.com/ends-earth-pole-pole-circumnavigation/dp/0877954909)
-
----
-
-## [The Grey Nato - EP 28 - Rolex](https://thegreynato.substack.com/p/the-grey-nato-28-rolex)
-
-**Published:** February 21, 2017 at 09:03 AM
-
-*No related links found*
-
----
-
-## [The Grey Nato - Ep 27 - Future Classic Watches](https://thegreynato.substack.com/p/the-grey-nato-27-future-classic-watches)
-
-**Published:** February 07, 2017 at 09:01 AM
-
-**Related Links (11):**
-
-- [Bremont MBII](https://www.bremont.com/collections/martin-baker)
-- [Tudor Pelagos](http://www.ablogtowatch.com/tudor-pelagos-25600-tb-titanium-dive-watch-review/)
-- [Sinn U1](https://www.sinn.de/en/watches/u1.html)
-- [IWC 3548](https://www.google.com/search?q=IWC+3548&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwxomvsPfRAhWpw1QKHeZpCgkQ_AUICSgC&biw=1294&bih=1320)
-- [IWC 3536](https://www.google.com/search?q=IWC+3548&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwxomvsPfRAhWpw1QKHeZpCgkQ_AUICSgC&biw=1294&bih=1320#tbm=isch&q=iwc+3536)
-- [IWC 3548-06 Cousteau LE](https://www.google.com/search?q=IWC+3548&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwxomvsPfRAhWpw1QKHeZpCgkQ_AUICSgC&biw=1294&bih=1320#tbm=isch&q=iwc+3548+cousteau+limited+edition)
-- [IWC 3717](https://www.google.com/search?q=IWC+3548&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwxomvsPfRAhWpw1QKHeZpCgkQ_AUICSgC&biw=1294&bih=1320#tbm=isch&q=iwc+3717)
-- [JLC Master Compressor Diver](https://www.google.com/search?q=IWC+3548&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwxomvsPfRAhWpw1QKHeZpCgkQ_AUICSgC&biw=1294&bih=1320#tbm=isch&q=jlc+master+compressor+diver)
-- [A Lange and Sohne](https://www.alange-soehne.com/eu-en)
-- [Ressence](https://ressencewatches.com/)
-- [MB&F](https://www.mbandf.com/en)
-
----
-
-## [The Grey Nato - Ep 26 - Field Report SIHH 2017](https://thegreynato.substack.com/p/the-grey-nato-26-field-report-sihh)
-
-**Published:** January 24, 2017 at 08:56 AM
-
-**Related Links (14):**
-
-- [MB&F Aquapod](https://www.mbandf.com/en/machines/horological-machines/hm7)
-- [Richard Mille RM-03 McLaren F1](https://www.mclaren.com/racing/formula-1/)
-- [Cartier Drive Extra-Flat](https://www.cartier.com/en-us/collections/watches/exceptional-creations/mens-new-arrivals/wgnm0007-drive-de-cartier-extra-flat-watch.html)
-- [JLC Master Control 2017](https://www.hodinkee.com/articles/jaeger-lecoultre-master-control-sector-dials-introducing)
-- [Triton Subphotique](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2kkIXXX&token=d54368-1-1620754926582)
-- [GP Laureato](https://www.girard-perregaux.com/en/new-creations)
-- [GP 1966 WW.TC](https://www.girard-perregaux.com/en/1966/wwtc-49557-11-132-bb6c)
-- [Panerai 42mm Submersible](https://www.panerai.com/en/collections/watch-collection/luminor.html)
-- [AP ROO Diver](https://www.audemarspiguet.com/en/new/diver/)
-- [UN LeLoce Diver](https://www.instagram.com/p/BPVBq7GF2zt/?taken-by=jasonheaton)
-- [UN Innovision II](http://www.ablogtowatch.com/ulysse-nardin-innovision-2-watch/)
-- [Jason's 12 Best Watches of SIHH 2017 with GP](https://www.gearpatrol.com/watches/a318060/the-best-watches-of-sihh-2017/)
-- [#SpeedyTuesday](https://soundcloud.com/tags/SpeedyTuesday)
-- [#SpeedyTuesday Special Edition](https://www.omegawatches.com/watches/speedmaster/moonwatch/speedy-tuesday-limited-edition/product)
-
----
-
-## [The Grey Nato Ep 25  - Dream Watches 2017](https://thegreynato.substack.com/p/the-grey-nato-25-dream-watches-2017)
-
-**Published:** January 10, 2017 at 09:07 AM
-
-**Related Links (6):**
-
-- [The Minimalists](https://www.theminimalists.com/)
-- [Minimalism documentary](https://minimalismfilm.com/)
-- [imdb.to/2i4qW3q](https://www.imdb.com/title/tt4698684/)
-- [win.gs/2iY13C5](https://win.gs/2iY13C5)
-- [Rad Roller](https://radroller.com/)
-- [Erika’s Originals Black Ops strap](https://www.instagram.com/p/BOmEeJ6DOUC/?taken-by=erikasoriginals)
-
----
-
-## [The Grey Nato - Ep 24 - Favs Of 2016](https://thegreynato.substack.com/p/the-grey-nato-24-favs-of-2016)
-
-**Published:** December 20, 2016 at 09:13 AM
-
-**Related Links (8):**
-
-- [Seiko SRP777](http://www.ablogtowatch.com/seiko-prospex-srp777-dive-watch-review/)
-- [Doxa 50th Anniversary Sub 300](http://shop.doxawatches.com/shop/doxasub/sub300-50-years-searambler/?v=7516fd43adaa)
-- [Silvana Skindiver](https://www.instagram.com/p/BMOtji9A4SC/?taken-by=jestacey)
-- [Seiko 6117-6400](https://www.instagram.com/p/BM6vtNNgufs/?taken-by=jestacey)
-- [Toxic Natos](https://toxicnatos.myshopify.com/)
-- [ZULUDiver 328 Rubber Nato](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
-- [Cheap steel bracelet](https://www.ebay.ca/itm/262571044307)
-- [Erikas Marine Nationale strap](https://erikasoriginals.com/)
-
----
-
-## [The Grey Nato - Ep 23 - Collection Inspection Vol 3](https://thegreynato.substack.com/p/the-grey-nato-23-collection-inspection)
-
-**Published:** December 06, 2016 at 09:04 AM
-
-**Related Links (10):**
-
-- [Zanlare F1](http://m.gearbest.com/led-flashlights/pp_466743.html?wid=21)
-- [Light and Motion Gobe](https://lightandmotion.com/choose-your-light/gobe%0AHeadlamp)
-- [DeepBlu Cosmiq+](https://www.deepblu.com/COSMIQ_PLUS.html)
-- [Unimatic Modello Uno U-1B](https://www.unimaticwatches.com/u1-b/)
-- [Force Fins](https://forcefin.com/)
-- [Scuba Pro Twin Jet Max Fins](https://scubapro.johnsonoutdoors.com/us/en-us/usa/essentials/fins/products/twin-jet-max-fins.aspx)
-- ["I Set the L.A to N.Y. Record in a Morgan 3 Wheeler"](https://www.thedrive.com/article/922/i-set-the-l-a-to-n-y-record-in-a-morgan-3-wheeler)
-- ["Unfathomable"](http://unfathomable.epicmagazine.com/)
-- ["Rolex presents: The Trieste's Deepest Dive (Extended)"](https://www.youtube.com/watch?v=AOfS-tzxZAs)
-- ["The Human Factor"](https://www.vanityfair.com/news/business/2014/10/air-france-flight-447-crash)
-
----
-
-## [The Grey Nato - Ep 22 - New Watch Alert!!!](https://thegreynato.substack.com/p/the-grey-nato-22-new-watch-alert)
-
-**Published:** November 22, 2016 at 09:01 AM
-
-**Related Links (3):**
-
-- [Monta Oceanking](https://montawatch.com/products/oceanking)
-- [Unimatic Modello Uno U1-B](https://www.unimaticwatches.com/u1-b/)
-- [Raven Trekker 40](https://ravenwatches.com/pages/watches)
-
----
-
-## [The Grey Nato - EP 21 - Watches Under $1000](https://thegreynato.substack.com/p/the-grey-nato-21-watches-under-1000)
-
-**Published:** November 08, 2016 at 08:54 AM
-
-**Related Links (18):**
-
-- [Victorinox Infantry GMT](https://www.victorinox.com/en-US/)
-- [I.N.O.X Titanium](https://www.victorinox.com/en-US/)
-- [Casio Rangeman](https://gshock.casio.com/us/products/men/)
-- [Citizen Aqualand JP2000](http://www.creationwatches.com/products/citizen-divers-aqualand-49/citizen-aqualand-promaster-divers-200m-bn0150-28e-mens-watch-10195.html)
-- [Seiko SRP777](https://seikousa.com/collections/prospex)
-- [Scurfa Bell Diver 1](https://www.scurfawatches.com/bell-diver-1-automatic)
-- [Helson SharkDiver 40](https://helsonwatches.com/shark-diver-40.php)
-- [Magrette Moana Pacific Waterman](https://magrette.com/shop/all/370040261)
-- [Halios Watches](https://halioswatches.com/seaforth/)
-- [Archimede Pilot](http://www.archimede-watches.com/watches/pilot/automatic-39h.html)
-- [Autodromo GroupB](https://autodromo.com/watches/groupb-yel)
-- [Junghans Max Bill](https://www.watchbuys.com/store/pc/Junghans-Max-Bill-Silver-Dial-Indices-19p1853.htm)
-- [Hamilton Intra-Matic 38](https://www.hamiltonwatch.com/en-us/)
-- [MKII Hawkinge](https://mkiiwatches.com/specialist-series/hawkinge/hawkinge-type-48-non-date.html)
-- [Benarus Trekker 40](https://ravenwatches.com/pages/watches)
-- [Zodiac Super Seawolf 53](https://www.zodiacwatches.com/en_US/shop/collections_watches/timepieces/super_sea_wolf_53_skin/super_sea_wolf_53_skin-ZO9203P.html?imagePath=ZO9203)
-- [Vintage Skindivers](https://retrowatchguy.com/new-products/scarce-61-62-jean-richardaquastar-10atm-auto-diver)
-- [Squale 50 Atmos](http://www.squalewatches.com/Squale_50_Atmos_Dive_Watches_s/101.htm)
-
----
-
-## [The Grey Nato - EP 20 - "Seiko"](https://thegreynato.substack.com/p/the-grey-nato-20-seiko)
-
-**Published:** October 25, 2016 at 08:57 AM
-
-**Related Links (11):**
-
-- [Seiko SKX007](https://www.flickr.com/photos/jstacey/6170442573/in/photolist-8p1sft-4dnk42-apg8AV-anA1Zu-49ucNN-49VCwu-49RynZ)
-- [Seiko SKX779 “Black Monster”](https://www.google.ca/search?q=seiko+skx778&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjbqantlfDPAhVlHGMKHZvsA6EQ_AUICCgB&biw=982&bih=927#tbm=isch&q=seiko+skx779)
-- [Marine Master 300](https://www.instagram.com/p/BBoNKziH6o_/?taken-by=jasonheaton)
-- [Prospex SRP777](https://www.instagram.com/p/BIGvnC0DEoS/?taken-by=jasonheaton)
-- [SBDC005 Orange Sumo](https://www.google.ca/search?q=seiko+sbdc005&biw=982&bih=927&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi8-PKul_DPAhUW_WMKHYrrBREQ_AUIBigB)
-- [SRP313 New Monster](https://www.flickr.com/photos/jstacey/8771077755/in/photolist-49ucNN-en54Qx-aaVs82)
-- [SNZF45 Seiko 5 "Baby Monster”](https://www.flickr.com/photos/jstacey/6019488183/in/photolist-49ucNN-en54Qx-aaVs82)
-- [Seiko SUN023 Prospex Kinetic GMT](http://www.ablogtowatch.com/seiko-prospex-kinetic-gmt-sun023-dive-watch-review/)
-- [Padi version](http://www.ablogtowatch.com/seiko-prospex-special-edition-padi-watches/)
-- [Seiko Spirit “Rising Sun” SCVE003](https://www.instagram.com/p/_DCXTEyXVh/?taken-by=jestacey)
-- [Grand Seiko SBGM021 GMT](https://www.instagram.com/p/BEB6CEBn6jI/?taken-by=jasonheaton)
-
----
-
-## [The Grey Nato - EP 19 - Watch Accessories](https://thegreynato.substack.com/p/the-grey-nato-19-watch-accessories)
-
-**Published:** October 11, 2016 at 09:06 AM
-
-**Related Links (12):**
-
-- [Bergeon spring bar tool](https://www.esslinger.com/bergeon-6767-f-watch-band-tool-swiss-spring-bar-tool/)
-- [Nomos Spring bar tool](http://www.nomos-glashuette.com)
-- [Worn adn wound tool](https://shop.wornandwound.com/)
-- [Bergeon Spring Bar Pliers (horofix no longer carried)](https://www.esslinger.com/bergeon-6825-watch-bracelet-pliers-watch-band-tool/)
-- [ebay.to/2edWdia](https://ebay.to/2edWdia)
-- [ebay.to/2edXm9y](https://ebay.to/2edXm9y)
-- [ebay.to/2dNlSNX](https://gate.sc/?url=http%3A%2F%2Febay.to%2F2dNlSNX&token=ec142f-1-1620749884711)
-- [www.youtube.com/watch?v=ni_N9d06JD4](https://www.youtube.com/watch?v=ni_N9d06JD4)
-- [eBay.to/2d2FXLU](https://eBay.to/2d2FXLU)
-- [rubber ball caseback tool](https://www.esslinger.com/watch-case-opening-friction-ball-watch-back-opener-tool/)
-- [TZ Watch School](https://www.timezonewatchschool.com/WatchSchool/)
-- [Watchmakers tabletop bench](https://www.ofrei.com/page416.html)
-
----
-
-## [The Grey Nato - EP 18 - In Focus: Take Better Photos](https://thegreynato.substack.com/p/the-grey-nato-18-in-focus-take-better)
-
-**Published:** September 27, 2016 at 09:04 AM
-
-**Related Links (8):**
-
-- [Canon 5D MKIII](https://www.canon.ca/inetCA/en/products/method/gp/pid/14989)
-- [Canon 100 f2.8 Macro](https://www.canon.ca/inetCA/en/products/method/gp/pid/2062)
-- [Canon 50 mm f2.5 Macro](https://www.usa.canon.com/internet/portal/us/home/products/details/lenses/ef/macro/ef-50mm-f-2-5-compact-macro)
-- [Canon 17-40 F4L](https://www.usa.canon.com/internet/portal/us/home/products/details/lenses/ef/ultra-wide-zoom/ef-17-40mm-f-4l-usm)
-- [Sony RX100](https://electronics.sony.com/not-found)
-- [Meikon Underwater Housing](https://meikon.com.hk/collections/underwater-waterproof-camera-housing-case-for-sony-camera/products/sony-dsc-rx100-40m-130ft-meikon-underwater-camera-housing)
-- [Samsung Note 5](http://www.samsung.com/global/galaxy/galaxy-note5/)
-- [CPL Filter](https://www.amazon.ca/Kaesemann-Circular-Polarizer-Multi-Resistant-Coating/dp/B00OPZGRDA/ref=sr_1_5?ie=UTF8&sr=8-5)
-
----
-
-## [The Grey Nato - EP 17 - On Paper/On Wrist: The Doxa 50th Sub 300](https://thegreynato.substack.com/p/the-grey-nato-17-on-paperon-wrist)
-
-**Published:** September 13, 2016 at 09:00 AM
-
-**Related Links (7):**
-
-- [Porsche Panamera](https://www.porsche.com/canada/en/models/panamera/)
-- [20mm Steel bracelet (for James' Sinn 144)](https://www.ebay.ca/itm/262571044307)
-- [kck.st/2bgYU23](https://kck.st/2bgYU23)
-- [Watchsteez 22mm mesh bracelet](https://watchsteez.com/22mmMeshBracelets.htm)
-- [Watchsteez instagram  and bit.ly/2cmhrbf](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwatchsteez%2F%3Fhl%3Den&is_from_rle=)
-- [Watchsteez instagram bit.ly/2cRiW03 and](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjustinvrakas%2F%3Fhl%3Den&is_from_rle=)
-- [DeepBlu Cosmiq](http://shop.deepblu.com/products/cosmiq)
-
----
-
-## [The Grey Nato - EP 16 - "Collection Inspection Volume 2"](https://thegreynato.substack.com/p/the-grey-nato-16-collection-inspection)
-
-**Published:** August 30, 2016 at 09:03 AM
-
-**Related Links (4):**
-
-- [Breitling Jet Team Ride](https://nuvomagazine.com/daily-edit/riding-shotgun-with-the-breitling-jet-team)
-- [Doxa 50th Anniversary Sub 300](https://www.instagram.com/p/BJb3dXcAPcZ/?taken-by=jasonheaton)
-- [James’ Vintage Silvana Diver](https://www.instagram.com/p/BJRQo_hDxBJ/?taken-by=jestacey)
-- [Oak and Oscar Sandford](https://www.hodinkee.com/articles/oak-and-oscar-sandford-gmt)
-
----
-
-## [The Grey Nato - Ep 15 - "Peak Bag"](https://thegreynato.substack.com/p/the-grey-nato-15-peak-bag)
-
-**Published:** August 16, 2016 at 09:02 AM
-
-**Related Links (6):**
-
-- [Mt Baker Trip](https://mountainmadness.com/trips/mount-baker-easton-glacier-climb#trip-overview/description)
-- [Photos from Baker](https://www.flickr.com/photos/jstacey/albums/72157668617739483)
-- [Diving the Maderia](https://en.wikipedia.org/wiki/Madeira_(shipwreck))
-- [Superior Hiking Trail](http://www.shta.org/)
-- [Breitling Jet Team](https://www.breitling.com/us-en/about/our-mission/partnerships/)
-- [Oak & Oscar Sandford](http://www.ablogtowatch.com/oak-oscar-sandford-gmt-watch/)
-
----
-
-## [The Grey Nato - EP 14 - "TGN Summit"](https://thegreynato.substack.com/p/the-grey-nato-14-tgn-summit)
-
-**Published:** August 02, 2016 at 09:03 AM
-
-**Related Links (18):**
-
-- [Granville Island](https://granvilleisland.com/)
-- [St Marks Summit](https://www.vancouvertrails.com/trails/st-marks-summit/)
-- [Halios Watches](https://halioswatches.com/)
-- [Oris Pro Pilot Big Crown Altimeter](https://www.hodinkee.com/articles/introducing-the-oris-big-crown-propilot-altimeter)
-- [Arcteryx Bora GTX Mid Boots](https://arcteryx.com/us/en/shop)
-- [Helly Hansen Rapide HT Boots](https://www.hellyhansen.com/ca-en/item/rapide-mid-mesh-ht-10891)
-- [James’ Flickr](https://www.flickr.com/photos/jstacey)
-- [Howe Sound](https://en.wikipedia.org/wiki/Howe_Sound)
-- [Kelvin Grove Dive Site](http://best-scuba-diving-vacations-in-british-columbia.com/page_not_found)
-- [Sola 800 flashlight](https://lightandmotion.com/sola-dive-800-black)
-- [Lion’s Mane Jelly Fish](https://en.wikipedia.org/wiki/Lion's_mane_jellyfish)
-- [Porteau Cove Dive Site](https://bcparks.ca/porteau-cove-park/)
-- [Seiko SRP777](https://seikousa.com/collections/prospex)
-- [Doxa Mission 31](https://www.instagram.com/p/BIfhRNHjDNj/?taken-by=jestacey)
-- [Halios Delfin](https://halioswatches.com/halios-delfin/)
-- [Halios Tropik](http://www.ablogtowatch.com/halios-tropik-review/)
-- [Zulu Diver 328 Rubber Nato](https://www.watchgecko.com/products/british-military-watch-strap-328-marine-tactical-black-sandblasted)
-- [Laguna 2](https://www.instagram.com/p/BHxSbqAgxIw/?taken-by=halioswatches)
-
----
-
-## [The Grey Nato - Ep 13 - "Cars And Watches"](https://thegreynato.substack.com/p/the-grey-nato-13-cars-and-watches)
-
-**Published:** July 19, 2016 at 09:02 AM
-
-**Related Links (39):**
-
-- [Omega Speedmaster in 1957](https://www.fratellowatches.com/seiko-spacewalk-spring-drive-sps005/)
-- [Rolex Daytona](https://www.hodinkee.com/articles/the-first-rolex-daytona-by-benjamin-clymer)
-- [Heuer Carrera](http://www.calibre11.com/heuer-carrera-series-overview/)
-- [Heuer Monaco](https://en.wikipedia.org/wiki/TAG_Heuer_Monaco)
-- [Heuer Viceroy Ads](https://www.hodinkee.com/articles/ode-to-smoke)
-- [Jackie Stewart’s Sunglasses](https://i.huffpost.com/gen/1445106/images/o-JACKIE-STEWART-1971-facebook.jpg)
-- [Autodromo](https://autodromo.com/)
-- [Group B Rally Racing](https://en.wikipedia.org/wiki/Group_B)
-- [Autodromo Group B Watches](https://autodromo.com/watches)
-- [Ferrari 288 GTO](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F29I1h7L&token=63488-1-1620749343202)
-- [IWC Ingenieur](https://www.iwc.com/ww-en/collection/ingenieur)
-- [Tag Heuer Monza](http://www.ablogtowatch.com/tag-heuer-monza-reissue-wrist-watch/)
-- [Tudor Heritage Chrono](https://www.tudorwatch.com/en/404)
-- [Tudor Fastrider Chrono](https://www.tudorwatch.com/en/404)
-- [Rolex 24 Hours of Daytona](https://www.daytonainternationalspeedway.com/Events/2017/Rolex-24-At-DAYTONA/Rolex-24-At-Daytona.aspx)
-- [Rolex Daytona](https://www.rolex.com/404)
-- [Giuliano Mazzuoli Watches](https://giulianomazzuoli.com/)
-- [Porsche Design](https://shop.porsche.com/us/en-US/porsche-design)
-- [Bremont Jaguar](https://www.bremont.com/)
-- [Ball for BMW](http://www.ballwatch.com/bmw/index.php?option=com_collections)
-- [Hublot Ferrari](https://www.hublot.com/en/partnerships/ferrari)
-- [Panerai Ferrari](https://www.europeanwatch.com/watches/panerai/ferrari)
-- [Girard Perregaux Ferrari](https://www.google.ca/search?q=girard+perregaux+ferrari&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwnJ7YgfbNAhUMw2MKHf6YD9wQ_AUICCgB&biw=1185&bih=1322)
-- [“Ferrari” watch](https://www.google.ca/search?q=girard+perregaux+ferrari&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiwnJ7YgfbNAhUMw2MKHf6YD9wQ_AUICCgB&biw=1185&bih=1322#tbm=isch&q=ferrari+watch)
-- [Aston Martin JLC](http://www.ablogtowatch.com/jaeger-lecoultre-amvox-7-aston-martin-watch-review/)
-- [Aston Martin AM RB 001](https://www.astonmartin.com/en/amrb001)
-- [Richard Mille Capture from Top Gear](https://www.instagram.com/p/BH21W1EjjEz/?taken-by=jestacey)
-- [chprd.co/2a4aRY5](https://chprd.co/2a4aRY5)
-- [chprd.co/29K8E1P](https://chprd.co/29K8E1P)
-- [Chopard WEC Porsche 919](http://www.ablogtowatch.com/races-chopard-superfast-chrono-porsche-919-edition-chronograph-watch/)
-- [Raidillon Watches](https://www.raidillon-watches.com/)
-- [Frederique Constant Vintage Rally](https://frederiqueconstant.com/collection_page/vintage-rally/?v=77e0cc5ce1c2)
-- [Baume et Mercier Shelby LE](https://www.baume-et-mercier.com/en/home.html)
-- [Omega Chronostop](http://www.old-omegas.com/chronostop.html)
-- [Seiko 6139](https://monochrome-watches.com/revisiting-an-icon-the-seiko-speedtimer/)
-- [rlauren.co/29JyvVa](https://rlauren.co/29JyvVa)
-- [Chopard Mille Miglia GMT Chrono](https://www.google.ca/search?q=chopard+mille+miglia+gmt+chronograph&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiAsOvpivbNAhUL4GMKHUUOCRgQsAQIIw&biw=1185&bih=1322)
-- [Tudor Heritage Chrono Wristshot](https://www.instagram.com/p/BDJiFejSXb7/?taken-by=jestacey)
-- [Tag Heuer Monaco McQueen](http://www.ablogtowatch.com/tag-heuer-monaco-calibre-11-mcqueen-watch/)
-
----
-
-## [The Grey Nato - Episode 12 - "One Watch???"](https://thegreynato.substack.com/p/the-grey-nato-12-one-watch)
-
-**Published:** July 05, 2016 at 09:02 AM
-
-**Related Links (5):**
-
-- [Graham Chronofighter Navy Seal Foundation](https://graham1695.com/index.php/watches/special-series/chronofighter-navy-seal-foundation.html#.V3iA5o7jLNg)
-- [Victorinox Swiss Army Infantry PVD](https://www.amazon.com/Victorinox-Swiss-241289-Infantry-Vintage/dp/B002MNAVJ8)
-- [Ball Fireman Stormchaser](http://www.ballwatch.com/global/index.php?option=com_collections&task=detail&id=806&lang=)
-- [ebay.to/29efC1J](https://ebay.to/29efC1J)
-- [Hanhart Pioneer Stealth 1882 Limited Edition](https://www.hanhart.com/735-510-0010.html/?___store=en&v=15fc885b9ab6)
-
----
-
-## [The Grey Nato - Episode 11 - "What's Old Is New (again)"](https://thegreynato.substack.com/p/the-grey-nato-11-whats-old-in-new)
-
-**Published:** June 21, 2016 at 09:03 AM
-
-**Related Links (21):**
-
-- [Longines Legend Diver](https://www.longines.com/en-us/#!/watches/heritage-collection/l3-674-4-50-0)
-- [Ocean7](http://survey-smiles.com)
-- [Precista Watches](https://www.timefactors.com/precista.htm)
-- [Tag Heuer Monza](http://www.ablogtowatch.com/tag-heuer-monza-reissue-wrist-watch/)
-- [Tag Heuer Autavia Cup](http://www.calibre11.com/inside-the-2017-heuer-autavia-re-edition-the-autavia-cup/)
-- [tag.hr/28IFyOL](https://tag.hr/28IFyOL)
-- [Heuer Jarama](http://www.calibre11.com/heuer-jarama-series-overview/)
-- [Omega Speedmaster MK II](http://www.ablogtowatch.com/omega-speedmaster-mark-ii-watch-review/)
-- [Glycine Airman No 1](https://www.hodinkee.com/articles/the-glycine-airman-no-1)
-- [MK II Kingston](https://mkiiwatches.com/archive-models/kingston)
-- [Eterna Super Kontiki 1973 LE](https://www.instagram.com/p/BGPWNX2yXbo/?taken-by=jestacey)
-- [Tudor Black Bay](https://www.tudorwatch.com/en/404)
-- [JLC Reverso](https://www.jaeger-lecoultre.com/eu-en/watches/reverso#setCurrentScope=NL)
-- [Blancpain Fifty Fathoms Tribute to Aqualung](https://www.google.ca/search?q=blancpain+tribute+to+aqualung&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiapZ6EibfNAhUJ5WMKHbIyBT4Q_AUICSgC&biw=1315&bih=1338)
-- [Zodiac Super Seawolf](https://www.hodinkee.com/articles/the-zodiac-super-sea-wolf-68-limited-edition)
-- [Patek Calatrava Travel Time](https://www.patek.com/en/mens-watches/complications/5524G-001)
-- [Zenith Type 20](https://www.zenith-watches.com/page-not-found)
-- [Panerai 1940 Acciaio 42 mm](https://www.panerai.com/en/collections/watch-collection/radiomir.html)
-- [Bremont ALT1-ZT/51](https://www.bremont.com/)
-- [IWC Pilot's Heritage Watch 48](https://www.iwc.com/ww-en/collection/pilots/IW510301)
-- [Bell and Ross Aviation Flight Instruments 6 pcs set](https://www.gemnation.com/watches/Bell-Ross-Avation-Flight-Instruments-Box-Set-of-6-BR01-FLIGHT-BOX-29484.html)
-
----
-
-## [The Grey Nato - Episode 10 - "Collection Inspection: Volume 1"](https://thegreynato.substack.com/p/the-grey-nato-10-collection-inspection)
-
-**Published:** June 07, 2016 at 08:58 AM
-
-**Related Links (6):**
-
-- [Omega Seamaster Pro 2254.50](https://www.omegawatches.com/watches/seamaster/300-m-chronometer/22545000/)
-- [James’ 2254 on mesh (lume shot)](https://www.instagram.com/p/BGIw5XGyXRF/?taken-by=jestacey)
-- [Omega Seamaster GMT “Great White”](https://omegaforums.net/threads/omega-seamaster-gmt-great-white-bracelet-rubber-service.10017/)
-- [Omega Seamaster 2265.80 "Electric Blue”](https://www.omegawatches.com/watches/seamaster/300-m-quartz/22658000/)
-- [Omega 2294.50 Seamaster Chronograph](https://www.google.ca/search?q=omega+seamaster+2594.50+chronograph&biw=1168&bih=1205&source=lnms&sa=X&ved=0ahUKEwixg4Coy5HNAhUL2GMKHfAgDowQ_AUIBSgA&dpr=2)
-- [Omega Seamaster 300M “Bond” 2531.80](https://www.omegawatches.com/watches/seamaster/300-m-quartz/25318000/)
-
----
-
-## [The Grey Nato - Episode 09 - "Open Water Certifiable"](https://thegreynato.substack.com/p/the-grey-nato-09-open-water-certifiable)
-
-**Published:** May 24, 2016 at 09:00 AM
-
-**Related Links (6):**
-
-- [Watches and the stories behind them](https://www.watchuseek.com/threads/your-watches-and-the-stories-behind-them.3105122/)
-- [Futility Podcast, Denali story](https://boingboing.net/2015/10/17/in-1910-a-group-of-inexperien.html)
-- [Submerged (book, Daniel Lenihan)](https://www.amazon.com/Submerged-Adventures-Americas-Underwater-Archeology/dp/1557045895)
-- [Go Like Hell (book, AJ Baime)](https://www.amazon.com/Go-Like-Hell-Ferrari-Battle/dp/0547336055/ref=sr_1_1?s=books&ie=UTF8&sr=1-1)
-- [Sealab (book, Ben Hellwarth)](https://www.amazon.com/Sealab-Americas-Forgotten-Quest-Ocean/dp/0743247450/ref=sr_1_1?s=books&ie=UTF8&sr=1-1)
-- [Brent Rose](http://www.brentrose.com/)
-
----
-
-## [The Grey Nato - Episode 08 - "The Ones That Got Away"](https://thegreynato.substack.com/p/the-grey-nato-08-the-ones-that-got)
-
-**Published:** May 10, 2016 at 08:59 AM
-
-**Related Links (15):**
-
-- [Omega Ploprof](https://www.omegawatches.com/watches/seamaster/ploprof-1200m/)
-- [Lamborghini LM002](https://en.wikipedia.org/wiki/Lamborghini_LM002)
-- [New Ploprof version from BW2016](https://www.instagram.com/p/BDDt8xpSXXz/?taken-by=jestacey)
-- [Bathys 100 Fathom](https://linklist.bio/bigslot188)
-- [John Patterson’s Petrolicious Video](https://petrolicious.com/#erid45568839)
-- [Doxa SUB750T Divingstar](http://www.doxasub.com/sub750_GMT.htm)
-- [Doxa SUB750T Caribbean](https://doxawatches.com/GMT_caribbean_detail.htm)
-- [Yema Seaspider](https://imagehost.vendio.com/a/35048444/aview/YM163__1.jpg)
-- [Jason’s Tudor Pelagos Review](https://revolution.watch/2016/02/16/field-test-tudor-pelagos/)
-- [James' Tudor Pelagos Review](http://www.ablogtowatch.com/tudor-pelagos-25600-tb-titanium-dive-watch-review/)
-- [Benarus Worldiver Auto](https://www.flickr.com/photos/jstacey/4585401624)
-- [Longines Legend Diver](https://wornandwound.com/a-vintage-collectors-perspective-on-the-longines-legend-diver-reissue/)
-- [Marathon TSAR](https://www.marathonwatch.com/product/divers-quartz)
-- [Rolex GMT-Master 1675](https://www.fratellowatches.com/the-rolex-gmt-master-1675/)
-- [Doxa SUB 300T Sharkhunter](https://www.gearpatrol.com/watches/a58836/timekeeping-icon-volume-3-1967-doxa-sub-300t-sharkhunter/)
-
----
-
-## [The Grey Nato - Episode 07 - "Partners In Time"](https://thegreynato.substack.com/p/the-grey-nato-07-partners-in-time)
-
-**Published:** April 26, 2016 at 08:55 AM
-
-**Related Links (16):**
-
-- [scottexpedition.com/](https://scottexpedition.com/)
-- [Bremont Terra Nova](https://www.bremont.com/pages/terra-nova)
-- [JLC Reverso](https://www.jaeger-lecoultre.com/gb-en/watches/reverso#setCurrentScope=PH)
-- [NBA/Tissot](http://us.tissotshop.com/watches/nba.html)
-- [Ed Viesturs book “No Shortcuts To The Top”](https://www.amazon.com/No-Shortcuts-Top-Climbing-Highest/dp/0767924711/ref=sr_1_1?ie=UTF8&sr=8-1)
-- [Rolex.com](https://Rolex.com)
-- [www.deepseachallenge.com/](https://www.deepseachallenge.com/)
-- [Richard Mille/Nadal](https://www.richardmille.com/collections)
-- [Omega Speedmaster](https://www.omegawatches.com/watches/speedmaster/moonwatch/professional/product/)
-- [JLC/UNESCO](https://whc.unesco.org/en/jaeger-lecoultre)
-- [Carlos Coste](https://en.wikipedia.org/wiki/Carlos_Coste)
-- [Oris Carlos Coste LE](https://www.oris.ch/en/watches/oris-carlos-coste-chronograph-limited-edition-ceno/01-674-7655-7184-set)
-- [Oris Aquis Great Barrier Reef II](https://www.oris.ch/en/watches/oris-great-barrier-reef-limited-edition-ii/01-735-7673-4185-set-rs)
-- [Australian Marine Conservation Society:  consider donating!)](https://www.marineconservation.org.au/)
-- [Oris Great Barrier Reef LE (first model)](https://www.oris.ch/en/watches/oris-great-barrier-reef-limited-edition/01-643-7609-8585-set-rs)
-- [on.thestar.com/23SJ9Cy](https://on.thestar.com/23SJ9Cy)
-
----
-
-## [The Grey Nato - Episode 06 - "Summer Mountain Time"](https://thegreynato.substack.com/p/the-grey-nato-06-summer-mountain)
-
-**Published:** April 12, 2016 at 08:49 AM
-
-**Related Links (15):**
-
-- [The Chief (Squamish)](https://www.instagram.com/p/BDudvcxSXW8/?taken-by=jestacey)
-- [Marmot Precip](https://marmot.com/products/details/precip-jacket-new)
-- [Example of simple daypack](https://www.amazon.com/Osprey-234900-550-Daylite-Backpack-Black/dp/B00AOGU7M6?ie=UTF8&ref_=sr_1_1&sr=8-1)
-- [3L water bladder](https://www.mec.ca/en/product/5035-615/platypus-big-zip-lp-hydration-system-unisex)
-- [“The Lions”](https://www.flickr.com/photos/jstacey/19934955500/in/dateposted-public/)
-- [lifestraw.com/](http://lifestraw.com/)
-- [Simple First Aid Kit](https://www.mec.ca/en/product/5025-090/adventure-medical-ultralightwaterproof-.3-first-aid-kit?q=first%2Baid%2Bkit)
-- [Benchmade Mini Grip](https://www.benchmade.com/mini-griptilian-family.html)
-- [Garmin Fenix 3](https://www.garmin.com/en-US/p/735520/)
-- [Suunto Core](https://www.suunto.com/Products/sports-watches/Suunto-Core/Suunto-Core-All-Black/)
-- [Casio Protrek](https://www.casio.com/products/Watches/PRO_TREK/)
-- [Casio Rangeman](https://www.casio.com/products/Watches/G-Shock/GW9400-1/)
-- [Shemagh](https://www.bladescanada.com/Mil-Spec-Monkey-Patches/Mil-Spec-Monkey-Wrap-Skull-Mask-Multi-Wrap-Brown)
-- [Headsox](https://www.headsox.com.au/)
-- [Summit Rocket 20 Vest Pack](https://www.mountainhardwear.com/summitrocket-20-vestpack-OU5525.html)
-
----
-
-## [The Grey Nato - Episode 05 - "The Baselworld Jet Lag Megasode"](https://thegreynato.substack.com/p/the-grey-nato-05-the-baselworld-jet)
-
-**Published:** March 29, 2016 at 08:49 AM
-
-**Related Links (31):**
-
-- [Tudor Black Bay Bronze](https://www.tudorwatch.com/en/magazine/article/baselworld-2016-black-bay-bronze)
-- [Tudor Black Bay Dark](https://www.tudorwatch.com/en/magazine/article/baselworld-2016-black-bay-dark)
-- [Tudor Black Bay 36](https://www.tudorwatch.com/en/magazine/article/baselworld-2016-black-bay-36)
-- [Tudor Black Bay 2016 Updates](https://www.tudorwatch.com/en/magazine/article/baselworld-2016-heritage-black-bay)
-- [Review of an ETA-based Black Bay Blue](http://www.ablogtowatch.com/tudor-heritage-black-bay-blue-watch-review/)
-- [Rolex Air-King](https://www.rolex.com/404)
-- [Rolex Explorer](https://www.rolex.com/404)
-- [Rolex Daytona (ceramic)](https://www.rolex.com/404)
-- [Tag Heuer Monza Reissue](http://www.ablogtowatch.com/tag-heuer-monza-reissue-wrist-watch/)
-- [Bulova Moon Watch](https://www.bulova.com/on/demandware.store/Sites-bulova-Site/en_US/Home-ErrorNotFound)
-- [Oris Carl Brashear LE](https://www.oris.ch/en/watches/oris-carl-brashear-limited-edition/01-733-7720-3185-set-ls)
-- [Oris Divers Sixty Five 42mm](https://www.instagram.com/p/BDMSoBSyXYW/?taken-by=jestacey)
-- [Sixty Five 42mm on Jason’s wrist](https://www.instagram.com/p/BDDgHfJH6sS/?taken-by=jasonheaton)
-- [Oris Williams Chronograph Carbon Fibre Extreme](https://www.oris.ch/en/press/oris-williams-chronograph-carbon-fibre-extreme)
-- [Bremont Regatta Line](http://www.ablogtowatch.com/bremont-regatta-otusa-regatta-ac-watches/)
-- [Bremont SOLO32 Ladies](https://www.bremont.com/)
-- [Bremont MB-II White on grey nato](https://www.instagram.com/p/BDECWq1yXUg/?taken-by=jestacey)
-- [Sinn 910 Anniversary Chronograph](https://www.instagram.com/p/BDZIdzjyXSW/?taken-by=jestacey)
-- [Glashutte Original Senator Excellence](https://www.instagram.com/p/BDN8hu-SXQk/?taken-by=jestacey)
-- [MB&F Black Badger](http://www.ablogtowatch.com/mbf-hmx-watch-starfleet-machine-black-badger-limited-editions/)
-- [Squale Squalematic](https://wornandwound.com/2016/03/19/squale-introduced-the-squalematic-and-tiger-final-edition/)
-- [Squale Tiger](https://www.instagram.com/p/BDGMI45SXUp/?taken-by=jestacey)
-- [Updated Omega Planet Ocean Line](https://www.omegawatches.com/watches/seamaster/planet-ocean/catalog)
-- [Omega Speedmaster CK 2998](https://www.omegawatches.com/watches/speedmaster/moonwatch/speedmaster-ck2998-limited-edition/product)
-- [CK 2998 on wrist](https://www.instagram.com/p/BDDl_c9SXXJ/?taken-by=jestacey)
-- [Omega Speedmaster Moonphase](https://www.omegawatches.com/watches/speedmaster/moonwatch/moonphase/product)
-- [Rado Hyperchrome Ultra Light](https://www.rado.com/about/news/bw-hyperchrome-ultra-light)
-- [Hyperchrome Ultra Light on wrist](https://www.instagram.com/p/BDIrVN1rP23/?taken-by=ablogtowatch)
-- [Doxa Sub 50th Anniversary LE](https://www.instagram.com/p/BDRA2VvH6oN/?taken-by=jasonheaton)
-- [Zodiac 2016 Models](http://www.ablogtowatch.com/zodiac-super-sea-wolf-68-bronze-watch/)
-- [Zodiac Seadragon Chono LE on wrist](https://www.instagram.com/p/BDJkIknn6tm/?taken-by=jasonheaton)
-
----
-
-## [The Grey Nato - Episode 04 - "No Sleep Till Basel"](https://thegreynato.substack.com/p/the-grey-nato-04-no-sleep-till-basel)
-
-**Published:** March 13, 2016 at 11:39 AM
-
-**Related Links (15):**
-
-- [Baselworld info](https://www.mch-group.com)
-- [Example of a few photos from within Baselworld](http://www.ablogtowatch.com/top-10-watches-baselworld-2015/)
-- [Patek Phillipe Nautilus](https://iwmagazine.com/2016/03/finding-nemo-a-brief-history-of-the-patek-philippe-nautilus/)
-- [Omega Planet Ocean](https://www.omegawatches.com/watches/seamaster/planet-ocean-600m/the-collection/)
-- [Blancpain Instagram](https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fblancpain1735%2F%3Fhl%3Den&is_from_rle=)
-- [Tudor](https://www.tudorwatch.com/en)
-- [Oris](https://www.oris.ch/en)
-- [Speake-Marin](https://speake-marin.com/)
-- [Doxa](https://doxawatches.com/)
-- [Thomas Mercer](https://thomasmercer.com/)
-- [Blancpain Bathyscaphe three-hander](https://www.blancpain.com/en/watch/5000-0130-b52)
-- [Tudor Fastrider](https://www.tudorwatch.com/en/fastrider)
-- [Monochrome’s prediction for Tudor Pelagos GMT](https://monochrome-watches.com/tudor-baselworld-2016-predictions-new-tudor-watches-including-pelagos-gmt-north-flag-chronograph/)
-- [Platinum Daytona](https://www.rolex.com/404)
-- [Sinn T2](https://www.sinn.de/en/watches/archive/t2.html)
-
----
-
-## [The Grey Nato - Episode 03 - In Too Deep](https://thegreynato.substack.com/p/the-grey-nato-03-in-too-deep)
-
-**Published:** March 01, 2016 at 08:49 AM
-
-**Related Links (21):**
-
-- [Tudor Pelagos](http://www.ablogtowatch.com/tudor-pelagos-25600-tb-titanium-dive-watch-review/)
-- [Rolex Sea-Dweller](https://www.rolex.com/404)
-- [Omega Seamaster 2254.50](https://www.instagram.com/p/31FR2lSXb2/?taken-by=jestacey)
-- [Omega Planet Ocean](https://www.omegawatches.com/watches/seamaster/planet-ocean-600m/the-collection/)
-- [Halios Tropik](http://www.ablogtowatch.com/halios-tropik-review/)
-- [Squale 50 Atmos](http://www.ablogtowatch.com/squale-50-atmos-ocean-blasted-1521-026-divers-watch-review/)
-- [Squale 101 Atmos](https://www.gearpatrol.com/watches/a95641/review-squale-101-atmos/)
-- [Jason's Squale Write Up](https://www.hodinkee.com/articles/blood-in-the-water-water-in-its-blood-a-brief-history-of-squale)
-- [Jason's Seiko MM300](https://www.instagram.com/p/BBoNKziH6o_/)
-- [Seiko Tuna](https://www.instagram.com/p/8kFKqZn6uA/?taken-by=jasonheaton)
-- [Omega Seamaster 300 Master Co-Axial](https://www.hodinkee.com/articles/a-week-on-the-wrist-omega-seamaster-300-master-co-axial)
-- [Jason' 14060 Rolex Submariner](https://www.instagram.com/p/9To4PNn6uc/?taken-by=jasonheaton)
-- [Bremont S2000](https://www.gearpatrol.com/watches/a72897/underwater-with-the-bremont-supermarine-2000/)
-- [Blancpain Fifty Fathoms Tribute to Aqualung](https://revolution.watch/2016/02/12/field-test-blancpain-tribute-to-fifty-fathoms-aqua-lung/)
-- [Doxa Sub Pro Mission 31](https://www.gearpatrol.com/watches/a92029/time-on-our-hands-doxa-sub-professional-mission-31/)
-- [Citizen Aqualand JP-2000](http://www.creationwatches.com/products/citizen-divers-aqualand-49/citizen-aqualand-promaster-jp2004-07e-mens-watch-10189.html)
-- [James' Citizen Aqualand](https://www.flickr.com/photos/jstacey/2109027777/in/photolist-4dnjtT-49ucNN)
-- [Suunto Zoop](https://www.suunto.com/en-CA/Products/dive-computers-and-instruments/suunto-zoop/suunto-zoop-yellow/)
-- [Seiko Prospex SRP777](https://www.gearpatrol.com/watches/a207436/seiko-srp777-review/)
-- [Helium Release Valve Info](https://en.wikipedia.org/wiki/Helium_release_valve)
-- [HeVs are dumb](https://www.hodinkee.com/articles/opinion-too-much-hot-air-about-helium-release-valves)
-
----
-
-## [The Grey Nato - Episode 02 - Origin Stories](https://thegreynato.substack.com/p/the-grey-nato-02-origin-stories)
-
-**Published:** February 16, 2016 at 08:50 AM
-
-**Related Links (20):**
-
-- [Seiko Prospex "Turtle" SRP777](https://gearpatrol.com/2016/02/10/seiko-srp777-review/)
-- [Bremont ATL1-ZT James has in for review](https://www.bremont.com/collection/alt1-z/alt1-zt)
-- [Tudor Pelagos Review](https://www.ablogtowatch.com/tudor-pelagos-…-watch-review/)
-- [Horofix Spring Bar Pliers](https://www.esslinger.com/horofix-watch-br…liers-band-tool/)
-- [Hirsch Pure Rubber Strap](https://www.globalwatchband.com/pure-men-s-ca…and-20mm.html)
-- [Seiko Rubber Dive Straps](https://www.seiyajapan.com/collections/accessories)
-- ["55 Hours in Mexico" -](https://vimeo.com/138548519)
-- [Jason's "All The Right Stuff" 1967 Omega Speedmaster](https://www.instagram.com/p/BBnGLN1H6kn/?t%E2%80%A6n-by=jasonheaton)
-- [Jaxa case back tool](https://www.ebay.com/bhp/jaxa-wrench)
-- [Toxic Nato straps](https://toxicnatos.com)
-- [Avaunt Magazine](https://avauntmagazine.com/)
-- [Alpine Modern](https://www.alpinemodern.com/)
-- [X-Ray Magazine](https://www.xray-mag.com/)
-- ["Shadow Divers" (book)](https://www.amazon.com/Shadow-Divers-Adv…rds=shadow+divers)
-- ["The Devil's Thumb" by Jon Krakauer (from the book Eiger Dreams) -](https://en.wikipedia.org/wiki/Devils_Thumb)
-- ["The Right Stuff" by Tom Wolfe -](https://www.amazon.com/Right-Stuff-Tom-W…s=the+right+stuff)
-- [Ben Saunders' Ted Talk -](https://www.ted.com/talks/ben_saunders_…my_life?language=en)
-- [Chris Burkard's Ted Talk](https://www.ted.com/talks/chris_burkard…d_water?language=en)
-- [Paul Nicklen's Ted Talk (Leopard Seals)](https://www.ted.com/talks/paul_nicklen_…erlands?language=en)
-- ["Touching The Void" (book/documentary)](https://en.wikipedia.org/wiki/Touching_the_Void)
-
----
-
-## [The Grey Nato - Episode 01 - "All Lux'd Out"](https://thegreynato.substack.com/p/the-grey-nato-01-all-luxd-out)
-
-**Published:** February 01, 2016 at 10:10 PM
-
-*No related links found*
+- [Randolph aviators](https://www.randolphusa.com/collections/aviator-best-sellers)
+- [American Optical aviators](https://aoeyewear.com/shop/#!/Original-Pilot-Sunglasses/p/23447643/category=5539642)
+- [Julbo Explorer XL](https://www.publiclands.com/?segment=mjtopl)
+- [Julbo Vermonts](https://www.julbo.com/en/16/products/sunglasses/mountain/model/vermont-classic_10033.html)
+- [Knockaround Sunglasses](https://knockaround.com/collections/premiums-sunglasses?variant=36542817031)
+- [Persol](https://www.persol.com/usa/960-56)
+- [Tenba DNA 15](https://tenba.com/shop-all/)
+- [Topo mountain briefcase](https://topodesigns.com/)
+- [Patagonia black hole](http://www.patagonia.com/product/black-hole-backpack-25-liters/49296.html)
+- [Muyshondt Aeon](https://shop.muyshondt.net/collections/aeon-mk-iii)
+- [Fenix UC02](https://www.fenixlighting.com/products/uc02-rechargeable-keychain-flashlight)
+- [Black Diamond Spot](https://blackdiamondequipment.com/collections/headlamps)
+- [Aeropress](https://aerobie.com/product/aeropress)
+- [Metal Filter](https://www.amazon.com/Able-Brewing-Coffee-AeroPress-Espresso/dp/B00E58P7ME)
+- [Malita Cone Pourover](https://www.amazon.com/Melitta-64101-Porcelain-Cone-Brewer/dp/B00BYF99CA/ref=sr_1_cc_1?s=aps&ie=UTF8&sr=1-1-catcorr)
+- [Baratza Encore Grinder](https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_1?s=home-garden&ie=UTF8&sr=1-1)
+- [Capresso Grinder](https://www.amazon.com/Capresso-560-01-Infinity-Grinder-Black/dp/B0000AR7SY/ref=sr_1_2?s=home-garden&ie=UTF8&sr=1-2)
+- [Sigg water bottle](https://sigg.com/en-us/pages/co-branding)
+- [Hydroflask](https://www.hydroflask.com/)
+- [Yeti Bottle](https://www.yeti.com/)
+- [Big Designs TPC Titanium Pocket Clips (thanks Ed!)](https://bigidesign.com/collections/pocket-tools/products/tpc-titanium-pocket-clips?variant=27063686787)
+- [Blancpain Gombessa IV Shark Filming Video](https://www.blancpain-ocean-commitment.com/en-us#!/expedition/gombessa/gombessa-IV-sharkpack)
+- [Blancpain 50 Fathoms X Fathoms](https://www.blancpain.com/en/watch/5018-1230-64a)
+- [“Check Out All These Blackbird Videos NASA Just Released” (via The Drive)](https://www.twz.com/12757/check-out-all-these-blackbird-videos-nasa-just-released)
+- [theatln.tc/2vmych8](https://theatln.tc/2vmych8)
 
 ---
 

@@ -40,13 +40,16 @@ def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
     log = get_logger()
     log.info("Generating TGN shownotes from Substack episode pages")
 
-    # Set up paths for intermediate files
+    # Set up paths for cache and working files
+    # IMPORTANT: tgn_related.jsonl is a PERMANENT CACHE - never delete it!
+    # Scraping is expensive (~1-2 hours for 361 episodes) and old episodes never change.
+    # The scraper automatically skips URLs already in this file.
     data_dir = Path(__file__).parent.parent / 'data'
     data_dir.mkdir(exist_ok=True)
 
-    urls_file = data_dir / 'tgn_urls.txt'
-    related_file = data_dir / 'tgn_related.jsonl'
-    exceptions_file = data_dir / 'tgn_exceptions.jsonl'
+    urls_file = data_dir / 'tgn_urls.txt'  # Working file: episode URLs from RSS (regenerated each run)
+    related_file = data_dir / 'tgn_related.jsonl'  # PERMANENT CACHE: scraped episode data (append-only)
+    exceptions_file = data_dir / 'tgn_exceptions.jsonl'  # Working file: scraping errors
 
     # Check that RSS feed exists
     if not rss_path.exists():
@@ -164,8 +167,10 @@ def _parse_wcl_feed(feed_path: Path) -> list[dict]:
     return episodes
 
 
-def _generate_wcl_markdown(episodes: list[dict], output_path: Path):
+def _generate_wcl_markdown(episodes: list[dict], output_path: Path, log=None):
     """Generate shownotes.md file in TGN format."""
+    from utils.logging import get_logger
+    log = log or get_logger()
 
     # Calculate statistics
     total_links = sum(len(ep['links']) for ep in episodes)
@@ -238,7 +243,7 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
     log.info(f"Found {len(episodes)} episodes")
 
     # Generate markdown
-    _generate_wcl_markdown(episodes, output_path)
+    _generate_wcl_markdown(episodes, output_path, log)
 
     log.info(f"WCL shownotes generated: {output_path}")
     return output_path

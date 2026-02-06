@@ -1,4 +1,5 @@
-### Page updated 2026-01-23T11:37:52.471896-08:00 - 292 episodes
+### Page updated 2026-01-30T12:11:13.330411-08:00 - 293 episodes
+- [The Business of Watches [013] Norqain CEO Ben Küffer On The NHL Partnership And The Challenge Of Standing Out In A Crowded Market](280.0/episode.md) Wed, 28 Jan 2026 16:00:00 +0000
 - [The Business of Watches [012] Manuel Emch, The Head Of Louis Erard And 'The Numbers Guy' At Kollokium, On How To Build A Successful Swiss Watch Brand](279.0/episode.md) Wed, 21 Jan 2026 16:00:00 +0000
 - [The Business of Watches [011] The Head Of Montblanc's Timepieces Division Laurent Lecamp On Minerva, Hairsprings, And What's Next  For The Brand](278.0/episode.md) Wed, 14 Jan 2026 16:00:00 +0000
 - [The Business of Watches [010] Ming Executives Ming Thein And Praneeth Rajsingh Talk Design, Manufacturing, Pricing, And What's Next For The Innovative Brand](277.0/episode.md) Wed, 7 Jan 2026 16:02:17 +0000
@@ -191,7 +192,7 @@
 - [Killer New Sport Watches (Plus Collector Edmond Saran)](89.0/episode.md) Mon, 4 May 2020 10:00:28 +0000
 - [The New Watches Of Watches & Wonders 2020](88.0/episode.md) Mon, 27 Apr 2020 10:00:29 +0000
 - [Wrapping Up Watch Madness (Plus Watches & Wonders Goes Online)](87.0/episode.md) Mon, 20 Apr 2020 10:00:11 +0000
-- [Is Baselworld Dead?](291.0/episode.md) Tue, 14 Apr 2020 17:10:11 +0000
+- [Is Baselworld Dead?](292.0/episode.md) Tue, 14 Apr 2020 17:10:11 +0000
 - [Gary Shteyngart & Danny's Talking Watches Highlights](86.0/episode.md) Mon, 13 Apr 2020 10:00:31 +0000
 - [Howie Kendrick & Revisiting The Tudor Black Bay GMT](85.0/episode.md) Mon, 6 Apr 2020 10:00:28 +0000
 - ['Watch Madness' Talking Watches Tournament Preview](84.0/episode.md) Mon, 30 Mar 2020 10:00:09 +0000
@@ -212,11 +213,11 @@
 - [Designer Marc Thorpe, Bond's New Watch, And Auction Talk](69.0/episode.md) Mon, 9 Dec 2019 11:00:10 +0000
 - [The Sartorialist Returns, The Lange Odysseus, & The Watch That Came In From The Cold](68.0/episode.md) Mon, 2 Dec 2019 11:00:33 +0000
 - [HODINKEE Lands In Japan & Ming Thein Of Ming Watches](67.0/episode.md) Mon, 25 Nov 2019 11:00:23 +0000
-- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](290.0/episode.md) Fri, 22 Nov 2019 11:00:08 +0000
+- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](291.0/episode.md) Fri, 22 Nov 2019 11:00:08 +0000
 - [Inside The HODINKEE Magazine And Bringing Back Om Malik](66.0/episode.md) Mon, 18 Nov 2019 11:00:02 +0000
-- [Breaking Down Results From The 2019 GPHG Awards](289.0/episode.md) Thu, 14 Nov 2019 17:30:06 +0000
+- [Breaking Down Results From The 2019 GPHG Awards](290.0/episode.md) Thu, 14 Nov 2019 17:30:06 +0000
 - [A Trio Of Lange 1s & Some Exceptional Sea-Dwellers (Plus, Drake's Michael Hill)](65.0/episode.md) Mon, 11 Nov 2019 11:00:07 +0000
-- [2019 Grand Prix d'Horlogerie de Genève Preview](288.0/episode.md) Wed, 6 Nov 2019 11:00:11 +0000
+- [2019 Grand Prix d'Horlogerie de Genève Preview](289.0/episode.md) Wed, 6 Nov 2019 11:00:11 +0000
 - [The 10 Most Influential Modern Watches & A New Kind Of Watch Club](64.0/episode.md) Mon, 4 Nov 2019 11:00:05 +0000
 - [Patrick Godfrey And Iconic Movie Watches](63.0/episode.md) Mon, 28 Oct 2019 10:00:27 +0000
 - [Talking Auctions With Eric Ku & Only Watch 2019 Preview](62.0/episode.md) Mon, 21 Oct 2019 10:00:04 +0000
@@ -246,10 +247,10 @@
 - [Dan White (Magician)](38.0/episode.md) Mon, 15 Apr 2019 10:00:09 +0000
 - [Scott Schuman (The Sartorialist)](37.0/episode.md) Mon, 8 Apr 2019 10:00:00 +0000
 - [James Marsden (Actor)](36.0/episode.md) Mon, 1 Apr 2019 10:00:00 +0000
-- [Baselworld 2019 Round-Up, Day 4](287.0/episode.md) Sat, 23 Mar 2019 21:41:00 +0000
-- [Baselworld 2019 Round-Up, Day 3](286.0/episode.md) Fri, 22 Mar 2019 19:46:00 +0000
-- [Baselworld 2019 Round-Up, Day 2](285.0/episode.md) Thu, 21 Mar 2019 23:30:00 +0000
-- [Baselworld 2019 Round-Up, Day 1](284.0/episode.md) Wed, 20 Mar 2019 22:00:00 +0000
+- [Baselworld 2019 Round-Up, Day 4](288.0/episode.md) Sat, 23 Mar 2019 21:41:00 +0000
+- [Baselworld 2019 Round-Up, Day 3](287.0/episode.md) Fri, 22 Mar 2019 19:46:00 +0000
+- [Baselworld 2019 Round-Up, Day 2](286.0/episode.md) Thu, 21 Mar 2019 23:30:00 +0000
+- [Baselworld 2019 Round-Up, Day 1](285.0/episode.md) Wed, 20 Mar 2019 22:00:00 +0000
 - [Baselworld 2019 Preview](35.0/episode.md) Mon, 18 Mar 2019 10:00:00 +0000
 - [Yves Béhar (Designer)](34.0/episode.md) Mon, 11 Mar 2019 10:00:00 +0000
 - [Chris Grainger (CEO, IWC)](33.0/episode.md) Mon, 4 Mar 2019 11:00:00 +0000
@@ -259,9 +260,9 @@
 - [Aldis Hodge (Actor)](29.0/episode.md) Mon, 4 Feb 2019 11:00:00 +0000
 - [François-Henry Bennahmias (CEO, Audemars Piguet)](28.0/episode.md) Mon, 28 Jan 2019 11:00:00 +0000
 - [Marc Newson (Designer)](27.0/episode.md) Mon, 21 Jan 2019 11:00:00 +0000
-- [SIHH 2019 Round-Up, Day 3](283.0/episode.md) Thu, 17 Jan 2019 02:59:00 +0000
-- [SIHH 2019 Round-Up, Day 2](282.0/episode.md) Tue, 15 Jan 2019 21:53:00 +0000
-- [SIHH 2019 Round-Up, Day 1](281.0/episode.md) Mon, 14 Jan 2019 19:50:00 +0000
+- [SIHH 2019 Round-Up, Day 3](284.0/episode.md) Thu, 17 Jan 2019 02:59:00 +0000
+- [SIHH 2019 Round-Up, Day 2](283.0/episode.md) Tue, 15 Jan 2019 21:53:00 +0000
+- [SIHH 2019 Round-Up, Day 1](282.0/episode.md) Mon, 14 Jan 2019 19:50:00 +0000
 - [Maximilian Büsser (Founder, MB&F)](26.0/episode.md) Mon, 7 Jan 2019 11:00:00 +0000
 - [Jean-Claude Biver (Live From HODINKEE 10)](25.0/episode.md) Mon, 24 Dec 2018 11:00:00 +0000
 - [The Grey NATO](24.0/episode.md) Mon, 17 Dec 2018 11:00:00 +0000
@@ -273,7 +274,7 @@
 - [GPHG 2018 Preview (And Some Auction Talk)](18.0/episode.md) Mon, 5 Nov 2018 11:00:00 +0000
 - [Davide Cerrato (Head Of Watchmaking, Montblanc)](17.0/episode.md) Mon, 29 Oct 2018 10:00:00 +0000
 - [Michael Weisberg (Vintage Expert)](16.0/episode.md) Mon, 22 Oct 2018 10:00:00 +0000
-- [The Grey NATO, Ep 66: We're Back!](280.0/episode.md) Thu, 18 Oct 2018 10:00:00 +0000
+- [The Grey NATO, Ep 66: We're Back!](281.0/episode.md) Thu, 18 Oct 2018 10:00:00 +0000
 - [Ted Gushue (Photographer, Car Guy)](15.0/episode.md) Mon, 15 Oct 2018 10:00:00 +0000
 - [Matt Scannell (Frontman, Vertical Horizon)](14.0/episode.md) Mon, 8 Oct 2018 10:00:00 +0000
 - [Jason Fried (Founder, Basecamp)](13.0/episode.md) Mon, 1 Oct 2018 10:00:00 +0000

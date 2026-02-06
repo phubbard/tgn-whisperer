@@ -1,8 +1,27 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on January 23, 2026
+Generated on January 30, 2026
 
-**2197 total links from 275 episodes (out of 300 episodes scraped, 25 without any links), averaging 8.0 per episode.**
+**2207 total links from 276 episodes (out of 300 episodes scraped, 24 without any links), averaging 8.0 per episode.**
+
+---
+
+## [Sellita is Back, Baby (378)](https://the40and20podcast.podbean.com/e/sellita-is-back-baby-378/)
+
+**Published:** January 26, 2026 at 10:38 PM
+
+**Related Links (10):**
+
+- [L’Epee 1830 La Regatta](https://monochrome-watches.com/epee-1839-regatta-vertical-clock-metiers-art-grand-feu-enamel-introducing/)
+- [Sellita SW200-2](https://wornandwound.com/industry-news-sellita-introduces-the-sw200-2-with-65-hour-power-reserve/)
+- [Swatch X Guggenheim](https://www.swatch.com/en-EN/press/collection/swatch-x-guggenheim-collection-uniting-timeless-masterpieces-with-wearable)
+- [Tissot PR516](https://monochrome-watches.com/tissot-pr516-38mm-powermatic-80-new-2026-colours-gradient-blue-introducing-price/)
+- [Nodus Sector Deep Pioneer](https://www.fratellowatches.com/introducing-the-orient-star-m45-f8-mechanical-moon-phase-hand-winding/)
+- [Orient Star M45 F8](https://www.fratellowatches.com/introducing-the-orient-star-m45-f8-mechanical-moon-phase-hand-winding/)
+- [Alpina Alipiner Extreme Solarmetre](https://www.timeandwatches.com/2026/01/alpina-alpiner-extreme-solarmetre-solar-powered-watch.html)
+- [Praesidus Jungle Field](https://www.fratellowatches.com/praesidus-introduces-larger-versions-of-its-jungle-field-watch/#gref)
+- [TeakHaus Cutting Board](https://teakhaus.com/products/edge-grain-rectangle-carving-board-with-hand-grip-810996010088?variant=47895346180&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22307129170&gbraid=0AAAAApkbB-J_q8seOcCIvqvJ0HJJkyr26&gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqnbvXSwd76xGRZIWnkb9MmxvimDYHaqsNVJtnwK3ICiTaTgS6jvUAaAs6dEALw_wcB)
+- [Dewalt MAX XR Cordless Brad Nailer](https://www.dewalt.com/product/dcn680b/20v-max-xr-18ga-cordless-brad-nailer-tool-only)
 
 ---
 
@@ -4768,12 +4787,6 @@ Generated on January 23, 2026
 
 ---
 
-## [Episode 82 - Interview with Darren of Zulu Alpha Straps](https://the40and20podcast.podbean.com/e/episode-82-interview-with-darren-of-zulu-alpha-straps/)
-
-**Published:** May 21, 2020 at 12:32 AM
-
----
-
 ## [Episode 85 - ANNOUNCEMENT!](https://the40and20podcast.podbean.com/e/episode-85-announcement/)
 
 **Published:** June 11, 2020 at 04:43 AM
@@ -4822,8 +4835,8 @@ Generated on January 23, 2026
 
 ---
 
-## [Watch Clicker Mini Review - Nodus Sector Dive](https://the40and20podcast.podbean.com/e/watch-clicker-mini-review-nodus-sector-dive/)
+## [Episode 82 - Interview with Darren of Zulu Alpha Straps](https://the40and20podcast.podbean.com/e/episode-82-interview-with-darren-of-zulu-alpha-straps/)
 
-**Published:** May 18, 2020 at 12:55 AM
+**Published:** May 21, 2020 at 12:32 AM
 
 ---

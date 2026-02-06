@@ -1,8 +1,10 @@
 """Podcast processing flow for a single podcast feed."""
 import os
+import traceback
 from pathlib import Path
 from prefect import flow
 from utils.logging import get_logger
+from utils.email import send_failure_alert
 
 from models.podcast import Podcast
 from tasks.rss import (
@@ -40,80 +42,99 @@ def process_podcast(podcast: Podcast):
     1. Fetch and process RSS feed
     2. Check for new episodes
     3. Send notifications
-    4. Process each new episode in parallel
-    5. Generate and deploy site immediately
+    4. Process each incomplete episode sequentially
+    5. Generate and deploy site only if episodes were processed
 
     Args:
         podcast: Podcast configuration object
 
     Returns:
-        List of newly processed episodes
+        List of newly processed episode numbers
     """
     log = get_logger()
     log.info(f"Processing podcast: {podcast.name}")
 
-    # Step 1: Fetch RSS feed
-    rss_content = fetch_rss_feed(podcast)
+    try:
+        # Step 1: Fetch RSS feed
+        rss_content = fetch_rss_feed(podcast)
 
-    # Step 2: Process feed to add episode numbers and parse XML
-    feed_data = process_rss_feed(rss_content, podcast.name)
-    episodes = feed_data['episodes']
+        # Step 2: Process feed to add episode numbers and parse XML
+        feed_data = process_rss_feed(rss_content, podcast.name)
+        episodes = feed_data['episodes']
 
-    # Step 3: Check for new episodes (for notifications)
-    new_ep_numbers = check_new_episodes(podcast.name, episodes)
+        # Step 3: Check for new episodes (for notifications)
+        new_ep_numbers = check_new_episodes(podcast.name, episodes)
 
-    # Step 4: Send notifications for truly new episodes
-    if new_ep_numbers:
-        log.info(f"Found {len(new_ep_numbers)} new episodes")
-        send_notification_email(podcast, new_ep_numbers)
-    else:
-        log.info(f"No new episodes found")
-
-    # Step 5: Check ALL episodes for incomplete processing
-    # Get all episode numbers from the feed
-    all_ep_numbers = []
-    for entry in episodes:
-        ep_num = entry.get('itunes:episode')
-        if ep_num:
-            all_ep_numbers.append(float(ep_num))
-
-    log.info(f"Checking {len(all_ep_numbers)} total episodes for completion status")
-
-    # Filter to find incomplete episodes (new or previously failed)
-    incomplete_ep_numbers = filter_incomplete_episodes(podcast.name, all_ep_numbers)
-
-    if not incomplete_ep_numbers:
-        log.info(f"All episodes for {podcast.name} are complete")
-        # Still generate/deploy site in case of updates (skip if SKIP_SITE_DEPLOY is set)
-        if not os.environ.get("SKIP_SITE_DEPLOY"):
-            generate_and_deploy_site(podcast)
-        return []
-
-    log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
-
-    # Step 6: Process each incomplete episode sequentially
-    # Note: For parallel processing, episodes should be submitted to a work pool
-    # For now, process sequentially to ensure reliability
-    results = []
-    for ep_number in incomplete_ep_numbers:
-        episode_entry = get_episode_details(episodes, ep_number)
-        if episode_entry:
-            log.info(f"Processing episode {ep_number}...")
-            result = process_episode(podcast, episode_entry)
-            results.append(result)
+        # Step 4: Send notifications for truly new episodes
+        if new_ep_numbers:
+            log.info(f"Found {len(new_ep_numbers)} new episodes")
+            send_notification_email(podcast, new_ep_numbers)
         else:
-            log.warning(f"Could not find episode {ep_number} in feed")
+            log.info(f"No new episodes found")
 
-    log.info(f"All {len(results)} episodes processed successfully")
+        # Step 5: Check ALL episodes for incomplete processing
+        # Get all episode numbers from the feed
+        all_ep_numbers = []
+        for entry in episodes:
+            ep_num = entry.get('itunes:episode')
+            if ep_num:
+                all_ep_numbers.append(float(ep_num))
 
-    # Step 7: Generate and deploy site (skip for mock/testing if SKIP_SITE_DEPLOY is set)
-    if os.environ.get("SKIP_SITE_DEPLOY"):
-        log.info("Skipping site deployment (SKIP_SITE_DEPLOY is set)")
-    else:
-        generate_and_deploy_site(podcast)
+        log.info(f"Checking {len(all_ep_numbers)} total episodes for completion status")
 
-    log.info(f"Completed processing {len(incomplete_ep_numbers)} episodes for {podcast.name}")
-    return incomplete_ep_numbers
+        # Filter to find incomplete episodes (new or previously failed)
+        incomplete_ep_numbers = filter_incomplete_episodes(podcast.name, all_ep_numbers)
+
+        if not incomplete_ep_numbers:
+            log.info(f"All episodes for {podcast.name} are complete - skipping site rebuild")
+            return []
+
+        log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
+
+        # Step 6: Process each incomplete episode sequentially
+        # Note: For parallel processing, episodes should be submitted to a work pool
+        # For now, process sequentially to ensure reliability
+        results = []
+        for ep_number in incomplete_ep_numbers:
+            episode_entry = get_episode_details(episodes, ep_number)
+            if episode_entry:
+                log.info(f"Processing episode {ep_number}...")
+                result = process_episode(podcast, episode_entry)
+                results.append(result)
+            else:
+                log.warning(f"Could not find episode {ep_number} in feed")
+
+        log.info(f"All {len(results)} episodes processed successfully")
+
+        # Step 7: Generate and deploy site (skip for mock/testing if SKIP_SITE_DEPLOY is set)
+        if os.environ.get("SKIP_SITE_DEPLOY"):
+            log.info("Skipping site deployment (SKIP_SITE_DEPLOY is set)")
+        else:
+            generate_and_deploy_site(podcast)
+
+        log.info(f"Completed processing {len(incomplete_ep_numbers)} episodes for {podcast.name}")
+        return incomplete_ep_numbers
+
+    except Exception as e:
+        # Send email alert for individual podcast failure
+        error_msg = f"""Podcast processing failed for {podcast.name}.
+
+Error: {type(e).__name__}: {str(e)}
+
+Traceback:
+{traceback.format_exc()}
+
+Check Prefect UI for details: http://webserver.phfactor.net:4200
+"""
+        log.error(f"Podcast {podcast.name} failed with error: {e}")
+
+        try:
+            send_failure_alert(error_msg)
+        except Exception as email_error:
+            log.error(f"Failed to send failure alert email: {email_error}")
+
+        # Re-raise to mark flow as failed in Prefect
+        raise
 
 
 @flow(

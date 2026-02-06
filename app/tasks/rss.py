@@ -16,7 +16,7 @@ from constants import HTTP_USER_AGENT, CONTACT_EMAIL, DEFAULT_PODCAST_URL
     name="fetch-rss-feed",
     retries=3,
     retry_delay_seconds=60,  # 60 second delay between retries
-    cache_policy=INPUTS,
+    # NO CACHING - RSS feeds must be fetched fresh to detect new episodes
     log_prints=True
 )
 def fetch_rss_feed(podcast: Podcast) -> str:
@@ -232,6 +232,8 @@ def _unwrap_bitly(url: str) -> str:
     import json
     from pathlib import Path
 
+    log = get_logger()
+
     if 'bit.ly' not in url.lower():
         return url
 
@@ -264,6 +266,8 @@ def _extract_episode_url(entry: dict, default_url: str = None) -> str:
         Episode URL
     """
     import re
+
+    log = get_logger()
 
     if default_url is None:
         default_url = DEFAULT_PODCAST_URL

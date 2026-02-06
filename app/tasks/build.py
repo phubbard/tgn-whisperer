@@ -29,6 +29,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     """
     log = get_logger()
     from datetime import datetime
+    from email.utils import parsedate_to_datetime
 
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
 
@@ -36,12 +37,27 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     ts = datetime.now().astimezone().isoformat()
     content = f"### Page updated {ts} - {len(episodes_data)} episodes\n"
 
-    # Add each episode as a link
-    for ep_data in sorted(episodes_data, key=lambda x: x.get('number', 0)):
-        ep_num = ep_data.get('number')
+    # Sort by publication date, newest first
+    def get_sort_date(ep_data):
+        """Extract and parse publication date for sorting."""
+        pub_date_str = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
+        if not pub_date_str:
+            return datetime.min.replace(tzinfo=None)
+        try:
+            return parsedate_to_datetime(pub_date_str)
+        except (ValueError, TypeError):
+            log.warning(f"Could not parse date: {pub_date_str}")
+            return datetime.min.replace(tzinfo=None)
+
+    # Add each episode as a link, sorted by date (newest first)
+    for ep_data in sorted(episodes_data, key=get_sort_date, reverse=True):
+        # Handle both parsed episode data (has 'number') and raw RSS data (has 'itunes:episode')
+        ep_num = ep_data.get('number') or ep_data.get('itunes:episode')
         title = ep_data.get('title', 'Unknown')
-        pub_date = ep_data.get('pub_date', '')
-        content += f"- [{title}]({str(ep_num)}/episode.md) {pub_date}\n"
+        pub_date = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
+        # Ensure episode number includes .0 suffix (episode directories are named like "372.0")
+        ep_num_str = f"{float(ep_num)}" if ep_num else "unknown"
+        content += f"- [{title}]({ep_num_str}/episode.md) {pub_date}\n"
 
     episodes_md.write_text(content)
     log.info(f"Updated episodes index: {episodes_md}")

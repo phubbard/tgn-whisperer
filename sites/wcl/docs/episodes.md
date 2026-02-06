@@ -1,4 +1,5 @@
-### Page updated 2026-01-20T07:02:04.269121-08:00 - 300 episodes
+### Page updated 2026-01-30T12:01:49.053183-08:00 - 300 episodes
+- [Sellita is Back, Baby (378)](384.0/episode.md) Mon, 26 Jan 2026 22:38:04 -0800
 - [Legacy Watch Brands Have a Great Week (377)](383.0/episode.md) Mon, 19 Jan 2026 22:01:30 -0800
 - [Seiko Swings; Credor Hits (376)](382.0/episode.md) Tue, 13 Jan 2026 02:00:00 -0800
 - [Year of the FIRE Horse (375)](381.0/episode.md) Tue, 06 Jan 2026 21:59:00 -0800
@@ -295,7 +296,6 @@
 - [Episode 87 - Interview with Lorenzo and Lauren Ortega of Lorier Watches](7.0/episode.md) Thu, 25 Jun 2020 00:00:00 -0700
 - [Episode 86 - Interview with Andrew Perez of Astor+Banks](8.0/episode.md) Thu, 18 Jun 2020 01:00:00 -0700
 - [Episode 85 - ANNOUNCEMENT!](9.0/episode.md) Thu, 11 Jun 2020 04:43:00 -0700
-- [Episode 84 - Interview with Justin of Monta Watch](84.0/episode.md) Wed, 03 Jun 2020 22:59:00 -0700
-- [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](83.0/episode.md) Wed, 27 May 2020 10:34:00 -0700
-- [Episode 82 - Interview with Darren of Zulu Alpha Straps](82.0/episode.md) Thu, 21 May 2020 00:32:00 -0700
-- [Watch Clicker Mini Review - Nodus Sector Dive](81.5/episode.md) Mon, 18 May 2020 00:55:00 -0700
+- [Episode 84 - Interview with Justin of Monta Watch](11.0/episode.md) Wed, 03 Jun 2020 22:59:00 -0700
+- [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](10.0/episode.md) Wed, 27 May 2020 10:34:00 -0700
+- [Episode 82 - Interview with Darren of Zulu Alpha Straps](1.0/episode.md) Thu, 21 May 2020 00:32:00 -0700

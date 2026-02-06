@@ -115,6 +115,13 @@ sites/{podcast}/docs/{episode}/  # Publication directory (markdown for site)
 
 `app/rss_processor.py` fills missing `itunes:episode` tags chronologically. Many podcast feeds have incomplete episode numbers, so this processor ensures all episodes have numbers.
 
+**Important: TGN Episode Number Offset**
+- TGN has a 10-episode offset between `itunes:episode` numbers and episode titles
+- Example: `itunes:episode` 371 = "The Grey NATO – 361" in title
+- This is due to 10 early episodes (pre-RSS or deleted) that aren't in the feed
+- Our system uses `itunes:episode` for directory/file naming (e.g., `sites/tgn/docs/371.0/`)
+- When users refer to "episode 362", they mean itunes:episode #372
+
 ### Speaker Attribution
 
 `app/tasks/attribute.py` sends diarized transcript to Claude Sonnet, which returns:

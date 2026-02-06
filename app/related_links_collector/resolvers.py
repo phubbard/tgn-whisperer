@@ -2,7 +2,7 @@ import re
 from functools import lru_cache
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse, unquote
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
-import httpx
+import requests
 
 MEDIUM_TRACKING_KEYS = {"source", "gi", "sk", "ref"}
 MEDIUM_TRACKING_PREFIXES = ("utm_",)
@@ -36,11 +36,11 @@ def resolve_medium_redirect(u: str, client=None) -> str:
 
         if host == "link.medium.com" and client is not None:
             try:
-                r = client.head(u, follow_redirects=True, timeout=10)
+                r = client.head(u, allow_redirects=True, timeout=10)
                 return str(r.url)
             except Exception:
                 try:
-                    r = client.get(u, follow_redirects=True, timeout=12, headers={"Range": "bytes=0-0"})
+                    r = client.get(u, allow_redirects=True, timeout=12, headers={"Range": "bytes=0-0"})
                     return str(r.url)
                 except Exception:
                     return u
@@ -87,24 +87,24 @@ class TransientResolveError(Exception):
 def _resolve_with_retry(u: str, client) -> str:
     """Attempt to resolve a shortlink with retries on transient errors."""
     try:
-        r = client.head(u, follow_redirects=True, timeout=12)
+        r = client.head(u, allow_redirects=True, timeout=12)
         if r.status_code in (429, 503, 504):
             raise TransientResolveError(f"HTTP {r.status_code}")
         return str(r.url)
-    except httpx.TimeoutException:
+    except requests.Timeout:
         raise TransientResolveError("Timeout")
-    except httpx.ConnectError:
+    except requests.ConnectionError:
         raise TransientResolveError("Connection error")
     except TransientResolveError:
         raise
     except Exception:
         # Try GET as fallback
         try:
-            r = client.get(u, follow_redirects=True, timeout=15, headers={"Range": "bytes=0-0"})
+            r = client.get(u, allow_redirects=True, timeout=15, headers={"Range": "bytes=0-0"})
             if r.status_code in (429, 503, 504):
                 raise TransientResolveError(f"HTTP {r.status_code}")
             return str(r.url)
-        except httpx.TimeoutException:
+        except requests.Timeout:
             raise TransientResolveError("Timeout on GET")
         except TransientResolveError:
             raise
