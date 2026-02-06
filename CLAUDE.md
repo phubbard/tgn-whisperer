@@ -154,3 +154,18 @@ sudo journalctl -u prefect-server -f
 
 # Web UI at http://webserver.phfactor.net:4200 (LAN-only) or http://localhost:4200
 ```
+
+### Webhooks and Automations
+
+Prefect automations are configured to send notifications via webhooks:
+- **ntfy.sh** - Phone notifications on flow failures
+- **Slack** - Messages on flow events and completions
+
+**Service configuration:** `/etc/systemd/system/prefect-server.service`
+Includes HTTP timeout settings to prevent ReadError issues:
+```ini
+Environment="PREFECT_API_REQUEST_TIMEOUT=30.0"
+Environment="HTTPX_TIMEOUT=30.0"
+```
+
+See [WEBHOOK_FIX.md](WEBHOOK_FIX.md) for troubleshooting webhook issues.
