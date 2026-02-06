@@ -115,12 +115,24 @@ sites/{podcast}/docs/{episode}/  # Publication directory (markdown for site)
 
 `app/rss_processor.py` fills missing `itunes:episode` tags chronologically. Many podcast feeds have incomplete episode numbers, so this processor ensures all episodes have numbers.
 
-**Important: TGN Episode Number Offset**
-- TGN has a 10-episode offset between `itunes:episode` numbers and episode titles
-- Example: `itunes:episode` 371 = "The Grey NATO – 361" in title
-- This is due to 10 early episodes (pre-RSS or deleted) that aren't in the feed
-- Our system uses `itunes:episode` for directory/file naming (e.g., `sites/tgn/docs/371.0/`)
-- When users refer to "episode 362", they mean itunes:episode #372
+#### TGN (The Grey NATO) - Special Numbering
+
+TGN uses hand-authored episode numbers in titles that must be respected:
+
+**Title Formats:**
+- Modern (episode 118+): `The Grey NATO – 363 – Title` → episode 363
+- Early formats: `The Grey NATO - Ep 61`, `EP 59`, `Episode 03`
+
+**Directory Naming:**
+- Integer episodes: No .0 suffix (e.g., `363/`, not `363.0/`)
+- Fractional episodes: Include decimal (e.g., `14.5/`, `295.5/`)
+
+**Fractional Episodes:**
+Unnumbered episodes (Q&As, special episodes) get fractional numbers:
+- If gap exists between numbered episodes: Fill with integer (2 and 4 → 3)
+- If no gap: Use fractional (14 and 15 → 14.5)
+
+Examples: Episodes 14.5, 16.5, 20.5, 143.5, 160.5, 206.5, 214.5, 260.5, 282.5, 295.5
 
 ### Speaker Attribution
 

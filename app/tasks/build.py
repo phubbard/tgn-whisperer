@@ -67,8 +67,12 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         else:
             pub_date = ''
 
-        # Ensure episode number includes .0 suffix (episode directories are named like "372.0")
-        ep_num_str = f"{float(ep_num)}" if ep_num else "unknown"
+        # Format episode number: no .0 for integers, keep decimals for fractional
+        if ep_num:
+            ep_float = float(ep_num)
+            ep_num_str = str(int(ep_float)) if ep_float == int(ep_float) else str(ep_float)
+        else:
+            ep_num_str = "unknown"
         content += f"- [{title}]({ep_num_str}/episode.md) {pub_date}\n"
 
     episodes_md.write_text(content)
