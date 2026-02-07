@@ -2,8 +2,10 @@
 import subprocess
 import sys
 import shutil
+from datetime import datetime
 from pathlib import Path
 from prefect import task
+import humanize
 from utils.logging import get_logger
 import pagefind_bin
 
@@ -28,7 +30,6 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         Path to episodes.md file
     """
     log = get_logger()
-    from datetime import datetime
     from email.utils import parsedate_to_datetime
 
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
@@ -54,7 +55,18 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         # Handle both parsed episode data (has 'number') and raw RSS data (has 'itunes:episode')
         ep_num = ep_data.get('number') or ep_data.get('itunes:episode')
         title = ep_data.get('title', 'Unknown')
-        pub_date = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
+        pub_date_raw = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
+
+        # Humanize the publication date
+        if pub_date_raw:
+            try:
+                pub_datetime = parsedate_to_datetime(pub_date_raw)
+                pub_date = humanize.naturaldate(pub_datetime)
+            except (ValueError, TypeError):
+                pub_date = pub_date_raw
+        else:
+            pub_date = ''
+
         # Ensure episode number includes .0 suffix (episode directories are named like "372.0")
         ep_num_str = f"{float(ep_num)}" if ep_num else "unknown"
         content += f"- [{title}]({ep_num_str}/episode.md) {pub_date}\n"
