@@ -6,7 +6,7 @@ from prefect import task
 from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 
-from constants import SITE_ROOT
+from constants import SITE_ROOT, format_episode_number
 
 
 @task(
@@ -29,16 +29,17 @@ def create_episode_directories(podcast_name: str, episode_number: float) -> tupl
     log = get_logger()
     log.info(f"Creating directories for {podcast_name} episode {episode_number}")
 
-    # Episode directory: podcasts/tgn/14.0/
-    episode_dir = Path('podcasts', podcast_name, str(episode_number)).absolute()
+    # Episode directory: podcasts/tgn/14/ (no .0 for integers)
+    ep_num_str = format_episode_number(episode_number)
+    episode_dir = Path('podcasts', podcast_name, ep_num_str).absolute()
     if not episode_dir.exists():
         log.info(f"Creating episode directory: {episode_dir}")
         episode_dir.mkdir(parents=True, exist_ok=True)
     else:
         log.debug(f"Episode directory already exists: {episode_dir}")
 
-    # Site directory: sites/tgn/docs/14.0/
-    site_dir = Path(SITE_ROOT, podcast_name, 'docs', str(episode_number)).absolute()
+    # Site directory: sites/tgn/docs/14/ (no .0 for integers)
+    site_dir = Path(SITE_ROOT, podcast_name, 'docs', ep_num_str).absolute()
     if not site_dir.exists():
         log.info(f"Creating site directory: {site_dir}")
         site_dir.mkdir(parents=True, exist_ok=True)
