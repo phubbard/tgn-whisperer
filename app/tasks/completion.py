@@ -3,7 +3,7 @@ from pathlib import Path
 from prefect import task
 from utils.logging import get_logger
 
-from constants import SITE_ROOT
+from constants import SITE_ROOT, format_episode_number
 
 
 @task(
@@ -25,7 +25,8 @@ def check_episode_completion(podcast_name: str, episode_number: float) -> bool:
     """
     log = get_logger()
     # Check for episode.md in the site directory
-    site_dir = Path(SITE_ROOT, podcast_name, 'docs', str(episode_number))
+    ep_num_str = format_episode_number(episode_number)
+    site_dir = Path(SITE_ROOT, podcast_name, 'docs', ep_num_str)
     md_path = site_dir / "episode.md"
 
     if md_path.exists():
