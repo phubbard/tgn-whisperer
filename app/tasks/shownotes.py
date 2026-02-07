@@ -120,8 +120,11 @@ def _extract_links_from_html(html_content: str) -> list[dict]:
     return links
 
 
-def _parse_wcl_feed(feed_path: Path) -> list[dict]:
+def _parse_wcl_feed(feed_path: Path, log=None) -> list[dict]:
     """Parse WCL RSS feed and extract episode data with links."""
+    if log is None:
+        log = get_logger()
+
     with open(feed_path, 'r', encoding='utf-8') as f:
         feed_data = xmltodict.parse(f.read())
 
@@ -169,8 +172,8 @@ def _parse_wcl_feed(feed_path: Path) -> list[dict]:
 
 def _generate_wcl_markdown(episodes: list[dict], output_path: Path, log=None):
     """Generate shownotes.md file in TGN format."""
-    from utils.logging import get_logger
-    log = log or get_logger()
+    if log is None:
+        log = get_logger()
 
     # Calculate statistics
     total_links = sum(len(ep['links']) for ep in episodes)
@@ -239,7 +242,7 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
         raise FileNotFoundError(f"RSS feed not found: {rss_path}")
 
     # Parse feed and extract links
-    episodes = _parse_wcl_feed(rss_path)
+    episodes = _parse_wcl_feed(rss_path, log)
     log.info(f"Found {len(episodes)} episodes")
 
     # Generate markdown
