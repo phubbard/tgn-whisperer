@@ -83,7 +83,7 @@ Three-level orchestration using Prefect 3.6:
 
 - `rss.py` - RSS fetching and episode number processing
 - `download.py` - MP3 and HTML downloads
-- `transcribe.py` - Fluid Audio API calls (speech-to-text + diarization)
+- `transcribe.py` - Fluid Audio async API: submit + poll (see `openapi.yaml`)
 - `attribute.py` - Claude API speaker attribution and synopsis
 - `markdown.py` - Episode markdown generation
 - `shownotes.py` - Podcast-specific shownotes generation
@@ -105,7 +105,7 @@ sites/{podcast}/docs/{episode}/  # Publication directory (markdown for site)
 
 ### External Services
 
-- **Fluid Audio** - LAN backend at axiom.phfactor.net:5051 for transcription
+- **Fluid Audio** - Transcription API at stt.phfactor.net (Caddy proxy → axiom.phfactor.net:5051)
 - **Anthropic Claude** - Speaker attribution via API (uses ANTHROPIC_API_KEY env var)
 - **FastMail SMTP** - Email notifications (uses FASTMAIL_PASSWORD env var)
 

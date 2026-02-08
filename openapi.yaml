@@ -1,0 +1,164 @@
+openapi: 3.0.3
+info:
+  title: fa-web Transcription API
+  description: REST API for podcast transcription with speaker diarization using FluidAudio.
+  version: 2.0.0
+
+servers:
+  - url: http://stt.phfactor.net
+    description: Production server (Caddy2 reverse proxy → Vapor/FluidAudio)
+
+paths:
+  /submit/{podcast}/{episodeNumber}:
+    post:
+      summary: Submit a transcription job
+      description: |
+        Uploads an audio file and starts transcription in the background.
+        Returns immediately with a job ID. Poll `/result/{jobId}` to retrieve
+        the transcription output.
+      parameters:
+        - name: podcast
+          in: path
+          required: true
+          schema:
+            type: string
+          example: wcl
+        - name: episodeNumber
+          in: path
+          required: true
+          schema:
+            type: string
+          example: "384"
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - file
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Audio file (MP3)
+      responses:
+        "202":
+          description: Job accepted and processing started
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobStatus"
+              example:
+                jobId: "a1b2c3d4e5f6..."
+                status: "RUNNING"
+        "400":
+          description: Missing parameters or no file uploaded
+
+  /result/{jobId}:
+    get:
+      summary: Retrieve transcription result
+      description: |
+        Poll this endpoint to check job status and retrieve results.
+        Returns 202 while processing, 200 with the WhisperX JSON when done.
+        Typical polling interval: 10-15 seconds.
+        Note: the output file is deleted after successful download; only one
+        successful fetch is possible per job.
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Job ID returned by /submit
+      responses:
+        "200":
+          description: Transcription complete
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WhisperXOutput"
+        "202":
+          description: Job still processing
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobStatus"
+              example:
+                jobId: "a1b2c3d4e5f6..."
+                status: "RUNNING"
+        "404":
+          description: Job not found
+        "500":
+          description: Transcription failed
+
+components:
+  schemas:
+    JobStatus:
+      type: object
+      required:
+        - jobId
+        - status
+      properties:
+        jobId:
+          type: string
+          description: Unique job identifier (hex string)
+        status:
+          type: string
+          enum: [NEW, RUNNING, DONE, FAILED]
+
+    WhisperXOutput:
+      type: object
+      description: WhisperX-compatible transcription output
+      required:
+        - segments
+        - language
+      properties:
+        segments:
+          type: array
+          items:
+            $ref: "#/components/schemas/Segment"
+        language:
+          type: string
+          example: en
+
+    Segment:
+      type: object
+      properties:
+        start:
+          type: number
+          format: float
+          description: Segment start time in seconds
+        end:
+          type: number
+          format: float
+          description: Segment end time in seconds
+        text:
+          type: string
+          description: Transcribed text for this segment
+        speaker:
+          type: string
+          description: "Speaker label (format: SPEAKER_01, SPEAKER_02, ...)"
+        words:
+          type: array
+          items:
+            $ref: "#/components/schemas/Word"
+
+    Word:
+      type: object
+      properties:
+        word:
+          type: string
+        start:
+          type: number
+          format: float
+        end:
+          type: number
+          format: float
+        score:
+          type: number
+          format: float
+          description: Confidence score (0-1)
+        speaker:
+          type: string
+          description: "Speaker label (format: SPEAKER_01, SPEAKER_02, ...)"
