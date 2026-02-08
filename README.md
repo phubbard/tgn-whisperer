@@ -20,9 +20,9 @@ I had the idea of transcribing the podcast of some friends of mine,
 [The Grey Nato](https://thegreynato.com/) initially, and now also the [40 and 20](https://watchclicker.com/4020-the-watch-clicker-podcast/) 
 podcast that I also enjoy.
 
-As of mid-2025, the code runs on
+As of early 2026, the code runs on
 - Raspberry Pi v4 runs the main orchestration code
-- Fluid Audio backend for speech to text plus diarization - [code here](https://github.com/phubbard/fa-web)
+- [Fluid Audio backend](https://github.com/phubbard/fa-web) on Mac Studio for speech to text plus diarization, behind a Caddy2 reverse proxy ([API spec](openapi.yaml))
 - Paid API call to Anthropic to do speaker attribution
 - Caddy2 on the same RPi to serve the files
 
@@ -35,7 +35,7 @@ The results (static websites) are deployed to
 Take a look! This code and the sites are provided free of charge as a public service to fellow fans, listeners and those who
 find the results useful.
 
-This repo is the code and some notes for myself and others. As of January 2026, the code handles three podcasts (TGN, WCL, and Hodinkee Radio) and is working well. 
+This repo is the code and some notes for myself and others. As of February 2026, the code handles three podcasts (TGN, WCL, and Hodinkee Radio) and is working well.
 
 ## Goals
 
@@ -156,7 +156,7 @@ The workflow processes podcasts through these stages:
 1. Fetch RSS feed and process episode numbers (`app/tasks/rss.py`)
 2. Check for new/incomplete episodes and send notifications
 3. Download MP3 files (`app/tasks/download.py`)
-4. Call Fluid Audio backend for transcription and diarization (`app/tasks/transcribe.py`)
+4. Call Fluid Audio backend for transcription and diarization (`app/tasks/transcribe.py`) via async submit/poll [API](openapi.yaml)
 5. Speaker attribution via Claude Sonnet 4.5 API (`app/tasks/attribute.py`)
 6. Export text into markdown files (`app/tasks/markdown.py`)
 7. Generate shownotes (`app/tasks/shownotes.py`):

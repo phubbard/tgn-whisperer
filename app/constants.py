@@ -23,7 +23,7 @@ SMTP_USERNAME = getenv('SMTP_USERNAME', 'pfh@phfactor.net')
 CONTACT_EMAIL = getenv('CONTACT_EMAIL', 'pfh@phfactor.net')
 
 # Transcription API Configuration
-TRANSCRIPTION_API_BASE_URL = getenv('TRANSCRIPTION_API_BASE_URL', 'http://axiom.phfactor.net:5051')
+TRANSCRIPTION_API_BASE_URL = getenv('TRANSCRIPTION_API_BASE_URL', 'http://stt.phfactor.net')
 
 # Deployment Configuration
 DEPLOY_BASE_PATH = getenv('DEPLOY_BASE_PATH', '/usr/local/www')

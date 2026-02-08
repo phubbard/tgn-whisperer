@@ -22,6 +22,7 @@ import sys
 import subprocess
 from pathlib import Path
 from loguru import logger as log
+from constants import format_episode_number
 
 
 def main():
@@ -61,10 +62,8 @@ Examples:
 
     args = parser.parse_args()
 
-    # Normalize episode number (add .0 if missing)
-    episode = args.episode
-    if '.' not in episode:
-        episode = f"{episode}.0"
+    # Format episode number for directory naming
+    episode = format_episode_number(float(args.episode))
 
     # Find episode directory
     project_root = Path(__file__).parent.parent
