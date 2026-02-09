@@ -106,7 +106,9 @@ def process_podcast(podcast: Podcast):
 
         log.info(f"All {len(results)} episodes processed successfully")
 
-        # Step 7: Generate and deploy site (skip for mock/testing if SKIP_SITE_DEPLOY is set)
+        # Step 7: Update episodes index and generate/deploy site
+        update_episodes_index(podcast.name, episodes)
+
         if os.environ.get("SKIP_SITE_DEPLOY"):
             log.info("Skipping site deployment (SKIP_SITE_DEPLOY is set)")
         else:
