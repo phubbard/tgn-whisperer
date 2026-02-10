@@ -5,7 +5,6 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 from prefect import task
-import humanize
 from utils.logging import get_logger
 import pagefind_bin
 
@@ -35,7 +34,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
 
     # Generate index content
-    ts = humanize.naturaldate(datetime.now().astimezone())
+    ts = datetime.now().astimezone().strftime('%b %d %Y %H:%M')
     content = f"### Page updated {ts} - {len(episodes_data)} episodes\n"
 
     # Sort by publication date, newest first
@@ -57,11 +56,11 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
         title = ep_data.get('title', 'Unknown')
         pub_date_raw = ep_data.get('pubDate', '') or ep_data.get('pub_date', '')
 
-        # Humanize the publication date
+        # Format the publication date
         if pub_date_raw:
             try:
                 pub_datetime = parsedate_to_datetime(pub_date_raw)
-                pub_date = humanize.naturaldate(pub_datetime)
+                pub_date = pub_datetime.strftime('%b %d %Y')
             except (ValueError, TypeError):
                 pub_date = pub_date_raw
         else:
