@@ -55,7 +55,9 @@ def fetch_rss_feed(podcast: Podcast) -> str:
     name="process-rss-feed",
     retries=2,
     retry_delay_seconds=60,
-    cache_policy=INPUTS,
+    # NO CACHING - this task must always reprocess since behavior depends on
+    # podcast-specific logic (e.g., TGN title-based numbering) that may change.
+    # Caching on INPUTS would return stale results if only the code changed.
     log_prints=True
 )
 def process_rss_feed(rss_content: str, podcast_name: str) -> dict:
