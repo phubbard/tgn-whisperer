@@ -1,11 +1,11 @@
 """Prefect tasks for speaker attribution using Claude API."""
 import json
 import os
+import re
 from collections import defaultdict
 from pathlib import Path
 
 from anthropic import Anthropic
-from pydantic import BaseModel
 from prefect import task
 from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
@@ -14,19 +14,20 @@ from tenacity import retry, stop_after_attempt
 from constants import SPEAKER_MAPFILE, SYNOPSIS_FILE, CLAUDE_MODEL, CLAUDE_MAX_TOKENS
 
 
-ATTRIBUTION_PROMPT = '''
-The following is a podcast transcript. Analyze it and return:
-1. A speaker attribution mapping each speaker ID (e.g., SPEAKER_00) to their name
-2. A two to four paragraph synopsis of the episode
+ATTRIBUTION_PROMPT = '''The following is a podcast transcript. Analyze it and return:
+
+1. A JSON speaker attribution block wrapped in <attribution> tags, mapping each speaker ID to their name:
+<attribution>
+{"SPEAKER_00": "Name", "SPEAKER_01": "Name"}
+</attribution>
+
+2. A two to four paragraph synopsis wrapped in <synopsis> tags:
+<synopsis>
+Synopsis text here.
+</synopsis>
 
 If you can't determine a speaker's name, use "Unknown".
 '''
-
-
-class AttributionResponse(BaseModel):
-    """Structured response for speaker attribution."""
-    speaker_map: dict[str, str]
-    synopsis: str
 
 
 log = get_logger()
@@ -37,8 +38,6 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
     """
     Call Claude API for speaker attribution and synopsis generation.
 
-    Uses structured output via output_format to get guaranteed JSON response.
-
     Args:
         client: Anthropic API client
         text: Transcript text to process
@@ -48,7 +47,7 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
     """
     log = get_logger()
 
-    response = client.beta.messages.parse(
+    response = client.messages.create(
         max_tokens=CLAUDE_MAX_TOKENS,
         system=ATTRIBUTION_PROMPT,
         messages=[
@@ -58,22 +57,37 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
             }
         ],
         model=CLAUDE_MODEL,
-        betas=["structured-outputs-2025-11-13"],
-        output_format=AttributionResponse,
     )
 
     log.debug(f"Claude model: {response.model}")
 
-    result = response.parsed_output
-    log.debug(f"Speaker map: {result.speaker_map}")
-    log.debug(f"Synopsis length: {len(result.synopsis)} characters")
+    result_text = response.content[0].text
+
+    # Parse speaker map from <attribution> tags
+    attr_match = re.search(r'<attribution>\s*(\{.*?\})\s*</attribution>', result_text, re.DOTALL)
+    speaker_map = {}
+    if attr_match:
+        try:
+            speaker_map = json.loads(attr_match.group(1))
+        except json.JSONDecodeError:
+            for line in attr_match.group(1).split('\n'):
+                m = re.search(r'"(SPEAKER_\d+)"\s*:\s*"([^"]+)"', line)
+                if m:
+                    speaker_map[m.group(1)] = m.group(2)
+
+    # Parse synopsis from <synopsis> tags
+    syn_match = re.search(r'<synopsis>\s*(.*?)\s*</synopsis>', result_text, re.DOTALL)
+    synopsis = syn_match.group(1) if syn_match else "Synopsis not available."
+
+    log.debug(f"Speaker map: {speaker_map}")
+    log.debug(f"Synopsis length: {len(synopsis)} characters")
 
     # Use defaultdict to fill in blanks with "Unknown"
     speaker_result = defaultdict(lambda: "Unknown")
-    for k, v in result.speaker_map.items():
+    for k, v in speaker_map.items():
         speaker_result[k] = v
 
-    return speaker_result, result.synopsis
+    return speaker_result, synopsis
 
 
 def _process_transcription_chunks(transcript_data: dict) -> list[tuple]:
