@@ -35,7 +35,7 @@ def update_episodes_index(podcast_name: str, episodes_data: list[dict]) -> Path:
     episodes_md = Path(SITE_ROOT, podcast_name, 'docs', 'episodes.md')
 
     # Generate index content
-    ts = datetime.now().astimezone().isoformat()
+    ts = humanize.naturaldate(datetime.now().astimezone())
     content = f"### Page updated {ts} - {len(episodes_data)} episodes\n"
 
     # Sort by publication date, newest first

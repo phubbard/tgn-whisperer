@@ -69,6 +69,37 @@ uv run pytest app/test_rss_processing.py -v
 ./reprocess tgn 361 --all --dry-run      # Preview without executing
 ```
 
+## Running Tasks
+
+**Always use the existing Prefect tasks and flows** when executing operations, rather than writing ad-hoc scripts or shell commands. The Prefect code handles retries, logging, caching, and error reporting.
+
+Examples of running operations through Prefect code:
+
+```python
+# Rebuild episodes.md + build + deploy for a single podcast
+from models.podcast import get_all_podcasts
+from tasks.rss import fetch_rss_feed, process_rss_feed
+from tasks.build import update_episodes_index
+from flows.podcast import generate_and_deploy_site
+
+podcasts = get_all_podcasts()
+tgn = [p for p in podcasts if p.name == 'tgn'][0]
+
+rss_content = fetch_rss_feed(tgn)
+feed_data = process_rss_feed(rss_content, tgn.name)
+update_episodes_index(tgn.name, feed_data['episodes'])
+generate_and_deploy_site(tgn)
+```
+
+Key Prefect tasks available:
+- `fetch_rss_feed(podcast)` → RSS content string
+- `process_rss_feed(rss_content, podcast_name)` → dict with `episodes`, `total_count`, `modified_count`
+- `update_episodes_index(podcast_name, episodes)` → rebuilds `sites/{podcast}/docs/episodes.md`
+- `build_site(podcast_name)` → runs zensical, returns site path
+- `generate_search_index(site_path)` → runs pagefind
+- `deploy_site(podcast_name, site_path)` → rsyncs to `/usr/local/www/{podcast}`
+- `generate_and_deploy_site(podcast)` → flow that runs shownotes + build + search + deploy
+
 ## Architecture
 
 ### Prefect Flow Hierarchy
@@ -113,26 +144,52 @@ sites/{podcast}/docs/{episode}/  # Publication directory (markdown for site)
 
 ### RSS Episode Numbering
 
-`app/rss_processor.py` fills missing `itunes:episode` tags chronologically. Many podcast feeds have incomplete episode numbers, so this processor ensures all episodes have numbers.
+`app/rss_processor.py` processes podcast RSS feeds to ensure all episodes have correct `itunes:episode` tags.
 
-#### TGN (The Grey NATO) - Special Numbering
+- **WCL and Hodinkee**: Generic gap-filling — fills missing `itunes:episode` tags chronologically, trusting existing tags.
+- **TGN**: Title-based numbering — ignores all existing `itunes:episode` tags (Buzzsprout assigns wrong sequential numbers 1–373) and extracts real episode numbers from titles.
 
-TGN uses hand-authored episode numbers in titles that must be respected:
+When `podcast_name='tgn'` is passed to `process_feed()`, it calls `extract_tgn_episode_number()` to parse titles, then assigns fractional numbers to unnumbered episodes.
 
-**Title Formats:**
-- Modern (episode 118+): `The Grey NATO – 363 – Title` → episode 363
-- Early formats: `The Grey NATO - Ep 61`, `EP 59`, `Episode 03`
+#### TGN (The Grey NATO) - Title-Based Numbering
 
-**Directory Naming:**
+**Why**: Buzzsprout assigns sequential `itunes:episode` tags (1, 2, 3, ..., 373) that don't match TGN's actual numbering. The real episode numbers are hand-authored in episode titles.
+
+**Title Parser** (`extract_tgn_episode_number()` in `rss_processor.py`):
+
+| Format | Example | Extracts |
+|--------|---------|----------|
+| Modern em-dash | `The Grey NATO – 363 – Title` | 363 |
+| Modern trailing | `The Grey NATO – 300!` | 300 |
+| Ep/EP prefix | `The Grey Nato - EP 14 - "TGN Summit"` | 14 |
+| Episode prefix | `The Grey Nato - Episode 01 - "All Lux'd Out"` | 1 |
+| Number only | `The Grey Nato - 02 - Origin Stories` | 2 |
+| Re-Reupload | `The Grey NATO – 206 Re-Reupload – ...` | None (→ 206.5) |
+| Unnumbered | `TGN Chats - Chase Fancher`, `Out Of Office`, `Depth Charge` | None (→ fractional) |
+
+**Fractional Episode Assignment** (for unnumbered episodes):
+- Looks at previous and next numbered episodes in chronological order
+- If gap exists between them: fills with next integer (e.g., 2 and 4 → 3)
+- If no gap: uses fractional (e.g., 14 and 15 → 14.5)
+
+**All 10 Known Fractional Episodes:**
+
+| Number | Title |
+|--------|-------|
+| 14.5 | TGN Chats - Chase Fancher :: Oak & Oscar |
+| 16.5 | TGN Chats - Merlin Schwertner (Nomos) And Jason Gallop (Roldorf) |
+| 20.5 | The Grey Nato - Question & Answer #1 |
+| 143.5 | Depth Charge - The Original Soundtrack by Oran Chan |
+| 160.5 | The Grey NATO – A Week Off (And A Request!) |
+| 206.5 | The Grey NATO – 206 Re-Reupload – New Watches! |
+| 214.5 | Drafting High-End Watches – A TGN Special With Collective Horology |
+| 260.5 | Drafting Our Favorite Watches Of The 1970s – A TGN Special |
+| 282.5 | The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland |
+| 295.5 | Out Of Office – Back August 22nd |
+
+**Directory Naming** (`format_episode_number()` in `constants.py`):
 - Integer episodes: No .0 suffix (e.g., `363/`, not `363.0/`)
 - Fractional episodes: Include decimal (e.g., `14.5/`, `295.5/`)
-
-**Fractional Episodes:**
-Unnumbered episodes (Q&As, special episodes) get fractional numbers:
-- If gap exists between numbered episodes: Fill with integer (2 and 4 → 3)
-- If no gap: Use fractional (14 and 15 → 14.5)
-
-Examples: Episodes 14.5, 16.5, 20.5, 143.5, 160.5, 206.5, 214.5, 260.5, 282.5, 295.5
 
 ### Speaker Attribution
 
