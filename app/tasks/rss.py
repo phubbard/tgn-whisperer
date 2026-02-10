@@ -84,7 +84,7 @@ def process_rss_feed(rss_content: str, podcast_name: str) -> dict:
     feed_file.write_text(rss_content)
 
     # Process the feed to add missing episode numbers
-    total, modified = process_feed(feed_file, verbose=False)
+    total, modified = process_feed(feed_file, verbose=False, podcast_name=podcast_name)
     if modified > 0:
         log.info(f"{podcast_name} feed processed: {total} episodes, {modified} modified")
     else:
