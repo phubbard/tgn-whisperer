@@ -1,301 +1,301 @@
-### Page updated 2026-01-30T12:01:49.053183-08:00 - 300 episodes
-- [Sellita is Back, Baby (378)](384.0/episode.md) Mon, 26 Jan 2026 22:38:04 -0800
-- [Legacy Watch Brands Have a Great Week (377)](383.0/episode.md) Mon, 19 Jan 2026 22:01:30 -0800
-- [Seiko Swings; Credor Hits (376)](382.0/episode.md) Tue, 13 Jan 2026 02:00:00 -0800
-- [Year of the FIRE Horse (375)](381.0/episode.md) Tue, 06 Jan 2026 21:59:00 -0800
-- [Seiko Releases an Awesome Dive GMT and a Less Awesome Dive GMT (374)](380.0/episode.md) Tue, 30 Dec 2025 13:07:26 -0800
-- [Year End with the Watch Clicker (373)](379.0/episode.md) Sun, 28 Dec 2025 18:30:29 -0800
-- [The Best Microbrand of 2025 is Japanese (372)](378.0/episode.md) Mon, 15 Dec 2025 22:04:37 -0800
-- [The Best Chronograph of the Year(?) (371)](377.0/episode.md) Mon, 08 Dec 2025 22:36:19 -0800
-- [Serica, Clemence, and... Raymond Weil? (370)](376.0/episode.md) Mon, 01 Dec 2025 22:16:50 -0800
-- [Tudor Gets the Ranger Right (369)](375.0/episode.md) Mon, 24 Nov 2025 22:29:14 -0800
-- [Our Favorite Timex Collab Ever? (368)](374.0/episode.md) Mon, 17 Nov 2025 23:04:57 -0800
-- [Talking Seiko, Orient, and Hamilton with the Watch Clicker (367)](373.0/episode.md) Mon, 10 Nov 2025 20:36:27 -0800
-- [Seiko Refreshes and Icon, and Yema Mops Up (366)](372.0/episode.md) Mon, 03 Nov 2025 22:05:01 -0800
-- [Seiko is Master of the Back Catalog (365)](371.0/episode.md) Tue, 28 Oct 2025 00:56:14 -0700
-- [Windup 2025! (364)](370.0/episode.md) Tue, 21 Oct 2025 22:23:34 -0700
-- [Headed to New York (363)](369.0/episode.md) Wed, 15 Oct 2025 23:38:09 -0700
-- [Hamilton Releases the Laziest LE We Have Ever Seen (362)](368.0/episode.md) Tue, 07 Oct 2025 20:31:30 -0700
-- [The Lost (and Found) Episode (361)](367.0/episode.md) Sun, 05 Oct 2025 09:55:34 -0700
-- [Tissot Rocks! (360)](366.0/episode.md) Tue, 23 Sep 2025 20:41:34 -0700
-- [Hamilton, Tissot, and... Berneron. (359)](365.0/episode.md) Mon, 15 Sep 2025 21:43:25 -0700
-- [The Last People Who Should Be Talking About Geneva Watch Days (358)](364.0/episode.md) Mon, 08 Sep 2025 22:35:49 -0700
-- [A Very Thin CW and Some Affordable Bangers (357)](363.0/episode.md) Mon, 01 Sep 2025 17:04:27 -0700
-- [Paulin Gets Philosophical (356)](362.0/episode.md) Mon, 25 Aug 2025 22:19:42 -0700
-- [Seiko is Crushing the Licensed Watch Game (355)](361.0/episode.md) Mon, 18 Aug 2025 21:50:16 -0700
-- [Timex Drops a Dime... Piece (354)](360.0/episode.md) Tue, 12 Aug 2025 08:13:34 -0700
-- [Seiko Speeding Back Into Our Hearts (353)](359.0/episode.md) Tue, 05 Aug 2025 09:49:45 -0700
-- [Chatting with Andrew Perez of Astor + Banks (352)](358.0/episode.md) Mon, 28 Jul 2025 22:32:59 -0700
-- [Omega Bonks, and the Best Doxa Ever (351)](357.0/episode.md) Mon, 21 Jul 2025 22:26:56 -0700
-- [Orient Star Starting to Look Grand (350)](356.0/episode.md) Tue, 15 Jul 2025 22:15:23 -0700
-- [Hanhart, Hamilton, and Batavi (349)](355.0/episode.md) Mon, 07 Jul 2025 22:18:36 -0700
-- [We Mispronounce Lots of Italian Words (348)](354.0/episode.md) Tue, 01 Jul 2025 20:19:44 -0700
-- [We like Bulgari, Now (347)](353.0/episode.md) Tue, 24 Jun 2025 07:29:00 -0700
-- [Lots of Seiko and a few Micros that are Better than you Think (346)](352.0/episode.md) Sun, 22 Jun 2025 10:17:26 -0700
-- [Seiko goes Porcelain (345)](351.0/episode.md) Tue, 10 Jun 2025 20:25:47 -0700
-- [anOrdain goes Porcelain (344)](350.0/episode.md) Tue, 10 Jun 2025 20:22:45 -0700
-- [Longines Releases an Instant Classic (343)](349.0/episode.md) Mon, 26 May 2025 21:43:40 -0700
-- [Christopher Ward is Listening (342)](348.0/episode.md) Mon, 26 May 2025 21:33:41 -0700
-- [Brew Releases its Most Refined Watch Yet (341)](347.0/episode.md) Tue, 13 May 2025 08:03:16 -0700
-- [We Like Alpina, Now (340).](346.0/episode.md) Tue, 06 May 2025 04:03:00 -0700
-- [Studio Underdog is (Expertly) Trolling all of Us (339)](345.0/episode.md) Mon, 28 Apr 2025 20:39:36 -0700
-- [Doxa 250T: More than Just a Creative Name (338)](344.0/episode.md) Mon, 28 Apr 2025 20:32:35 -0700
-- [Timex Knows EXACTLY What it's Doing (337)](343.0/episode.md) Mon, 14 Apr 2025 22:37:12 -0700
-- [Our Watches and Wonders Highlights (336)](342.0/episode.md) Wed, 09 Apr 2025 13:51:56 -0700
-- [The Most Perfect Doxa Ever? (335)](341.0/episode.md) Tue, 01 Apr 2025 08:13:58 -0700
-- [We Like Horage, Now (334)](340.0/episode.md) Thu, 27 Mar 2025 19:43:33 -0700
-- [We like Mido, Now (333)](339.0/episode.md) Fri, 21 Mar 2025 09:37:06 -0700
-- [And Now I want a Kurono Tokyo (332)](338.0/episode.md) Wed, 12 Mar 2025 21:29:49 -0700
-- [We Have Been Sleeping on RZE (331)](337.0/episode.md) Tue, 04 Mar 2025 05:14:00 -0800
-- [G Shock Getting REAL Weird (330)](336.0/episode.md) Mon, 24 Feb 2025 19:12:56 -0800
-- [Ok... This is Coolest Moonwatch (DSKY) (329)](335.0/episode.md) Mon, 17 Feb 2025 22:12:56 -0800
-- [Ok, Jack Mason, We See You (328)](334.0/episode.md) Tue, 11 Feb 2025 00:09:44 -0800
-- [Timex and Giorgio Galli Release Their Magnum Opus (327)](333.0/episode.md) Mon, 03 Feb 2025 19:50:20 -0800
-- [TAG Heuer and... Delma(?) (326)](332.0/episode.md) Mon, 03 Feb 2025 19:41:56 -0800
-- [Watches You Want, But (Probably) Can't Have (325)](331.0/episode.md) Mon, 20 Jan 2025 23:39:38 -0800
-- [Watches, and a Bittersweet Announcement (324)](330.0/episode.md) Wed, 08 Jan 2025 22:22:56 -0800
-- [Rounding out 2024 with Frank! (323)](329.0/episode.md) Wed, 08 Jan 2025 17:18:32 -0800
-- [Horage Might Be Better Than you Think (322)](328.0/episode.md) Mon, 30 Dec 2024 10:13:42 -0800
-- [2024 Year in Review (321)](327.0/episode.md) Mon, 30 Dec 2024 10:10:47 -0800
-- [Yema has a... Yemazing Week. (320)](326.0/episode.md) Wed, 11 Dec 2024 22:31:43 -0800
-- [Holiday Gift Guide, with Furry Wrist Abroad](325.0/episode.md) Thu, 05 Dec 2024 09:03:07 -0800
-- [Thankful for Circula, Serica, and Studio Underd0g (318)](324.0/episode.md) Wed, 27 Nov 2024 22:28:28 -0800
-- [Interview with NJ of Bangalore Watch Company (317)](323.0/episode.md) Wed, 20 Nov 2024 21:26:40 -0800
-- [Abishorn Remaking the Best Watches Never Made (316)](322.0/episode.md) Wed, 13 Nov 2024 21:48:57 -0800
-- [Weird 70s Digitals Have a Week (315)](321.0/episode.md) Wed, 06 Nov 2024 22:04:14 -0800
-- [JAyy... ZHHHe....  JLC is Good (314)](320.0/episode.md) Wed, 30 Oct 2024 22:19:26 -0700
-- [Seiko is Back, Baby! (313)](319.0/episode.md) Wed, 23 Oct 2024 22:43:34 -0700
-- [Fortis and RZE Bringing Heat (312)](318.0/episode.md) Wed, 16 Oct 2024 23:08:11 -0700
-- [Yema Releases the PRX That You Should Buy (311)](317.0/episode.md) Wed, 09 Oct 2024 23:14:52 -0700
-- [The Best Website Colab's We Have Ever Seen (310)](316.0/episode.md) Wed, 02 Oct 2024 20:41:45 -0700
-- [Hanhart and Hamilton go Toe to Toe (309)](315.0/episode.md) Wed, 02 Oct 2024 20:36:45 -0700
-- [Modern Watches Deserving a 50th Anniversary Release (308)](314.0/episode.md) Wed, 18 Sep 2024 20:48:41 -0700
-- [Zodiac Gives us Gold; Tissot with More Carbon (307)](313.0/episode.md) Wed, 11 Sep 2024 22:15:37 -0700
-- [Geneva Watch Days in Full Swing (306)](312.0/episode.md) Wed, 04 Sep 2024 21:57:59 -0700
-- [Luminox goes Auto, and Khaki Goes Quartz (305)](311.0/episode.md) Fri, 30 Aug 2024 07:48:54 -0700
-- [Omega's Best Americas Cup Watch, and a Titanium Zulu Time! (304)](310.0/episode.md) Wed, 28 Aug 2024 09:25:21 -0700
-- [Talking Olympics, Seiko, Etc. with DC Vintage Watches (303)](309.0/episode.md) Wed, 28 Aug 2024 09:13:31 -0700
-- [It's a Lunar Pilot, but... Red (302)](308.0/episode.md) Wed, 07 Aug 2024 20:37:20 -0700
-- [The 300th Episode (reupload) (300)](307.0/episode.md) Thu, 01 Aug 2024 08:54:45 -0700
-- [Unimatic Showed up in July (301)](306.0/episode.md) Wed, 31 Jul 2024 22:45:31 -0700
-- [Nivada Releases the Watch of the Year (So Far) (299)](304.0/episode.md) Wed, 17 Jul 2024 22:20:42 -0700
-- [Monta Releases a Surprise Banger (298)](303.0/episode.md) Wed, 17 Jul 2024 22:11:10 -0700
-- [New Blancpain, Cetina, Mido and more (297)](302.0/episode.md) Tue, 09 Jul 2024 18:24:58 -0700
-- [Nivada Gets Smol (296)](301.0/episode.md) Wed, 26 Jun 2024 22:24:42 -0700
-- [We Need to Talk About Longines (295)](300.0/episode.md) Wed, 19 Jun 2024 22:38:52 -0700
-- [Louis Vuitton's Emergence (294)](299.0/episode.md) Wed, 12 Jun 2024 23:20:13 -0700
-- [Tag is Demanding Your Attention (293)](298.0/episode.md) Wed, 05 Jun 2024 22:23:46 -0700
-- [Interview With Michael Pearson of Christopher Ward (292)](297.0/episode.md) Wed, 29 May 2024 22:18:40 -0700
-- [The History of Luxury Watches (291)](296.0/episode.md) Wed, 22 May 2024 22:25:12 -0700
-- [Rolex Dresses Up (Again) (290)](295.0/episode.md) Wed, 22 May 2024 16:51:00 -0700
-- [Tag Heuer Brings Back the F1](294.0/episode.md) Wed, 08 May 2024 22:19:41 -0700
-- [Christopher Ward Shows All (288)](293.0/episode.md) Wed, 01 May 2024 18:52:46 -0700
-- [The $3000 Divers](292.0/episode.md) Fri, 26 Apr 2024 17:44:52 -0700
-- [BRO5 Goes Ceramic (286)](291.0/episode.md) Wed, 17 Apr 2024 22:51:22 -0700
-- [Watches and Wonders: Our Favorites (285)](290.0/episode.md) Wed, 10 Apr 2024 22:38:41 -0700
-- [A Watch For When You Can't Be Bothered (284)](289.0/episode.md) Wed, 03 Apr 2024 23:18:50 -0700
-- [A Snoopy for the People (283)](288.0/episode.md) Wed, 27 Mar 2024 22:08:32 -0700
-- [Citizen Going Hard (282)](287.0/episode.md) Thu, 21 Mar 2024 08:01:03 -0700
-- [Upgrading Our Most Worn Watches (281)](286.0/episode.md) Fri, 15 Mar 2024 10:20:25 -0700
-- [The Second Best Dune This Week (280)](285.0/episode.md) Wed, 06 Mar 2024 22:38:20 -0800
-- [The Best Sub $2,000 Chronograph? (279)](284.0/episode.md) Wed, 28 Feb 2024 22:00:27 -0800
-- [Interview with John Liley of Markwell Watches (278)](283.0/episode.md) Wed, 21 Feb 2024 23:01:24 -0800
-- [Superman Goes on a Diet (277)](282.0/episode.md) Wed, 14 Feb 2024 22:29:58 -0800
-- [Called: the Best Watch of 2024 (276)](281.0/episode.md) Wed, 07 Feb 2024 22:51:28 -0800
-- [The Automatic Central Power Reserve (275)](280.0/episode.md) Wed, 31 Jan 2024 22:36:43 -0800
-- [Fears Has Another California Adventure](279.0/episode.md) Wed, 24 Jan 2024 22:36:11 -0800
-- [A Good Swatch Fifty Fathoms... At Last (273)](278.0/episode.md) Wed, 17 Jan 2024 22:13:07 -0800
-- [Casting (the Watches) in our 1990s Sci Fi Movie (272)](277.0/episode.md) Wed, 10 Jan 2024 23:01:25 -0800
-- [Gold for the Masses (271)](276.0/episode.md) Wed, 03 Jan 2024 22:23:24 -0800
-- [Re Releases Done Wrong (and Right) (270)](275.0/episode.md) Wed, 27 Dec 2023 21:55:40 -0800
-- [Watches Roundup for December 21, 2023 (269)](274.0/episode.md) Wed, 20 Dec 2023 22:58:47 -0800
-- [What a Diver Really Wants w/ Frendy Mgee (268)](273.0/episode.md) Wed, 13 Dec 2023 20:09:14 -0800
-- [Episode 267 - Nodus x Watch Clicker Collaboration](272.0/episode.md) Wed, 06 Dec 2023 22:28:21 -0800
-- [Episode 266 - 2023 in Watches](271.0/episode.md) Wed, 29 Nov 2023 20:25:16 -0800
-- [Episode 265 - Another Stellar Christopher Ward](270.0/episode.md) Mon, 27 Nov 2023 08:40:32 -0800
-- [Episode 264 - Five Watches, Ultimate Edition](269.0/episode.md) Thu, 16 Nov 2023 08:47:49 -0800
-- [Episode 263 - Collaboration Watches](268.0/episode.md) Wed, 08 Nov 2023 21:35:27 -0800
-- [Episode 262 - Our Favorite Nodus, Yet](267.0/episode.md) Wed, 01 Nov 2023 20:51:24 -0700
-- [Episode 261 - Windup NYC, 2023 Recap](266.0/episode.md) Wed, 25 Oct 2023 20:36:58 -0700
-- [Episode 260 - The Latest Space Watch](265.0/episode.md) Wed, 18 Oct 2023 21:37:01 -0700
-- [Episode 259 - The Best/Ugliest Citizen Ever?](264.0/episode.md) Wed, 11 Oct 2023 23:23:25 -0700
-- [Episode 258 - Vacation Watches](263.0/episode.md) Wed, 04 Oct 2023 21:02:12 -0700
-- [Episode 257 - Watches Roundup for September 28, 2023](262.0/episode.md) Wed, 27 Sep 2023 22:56:58 -0700
-- [Episode 256 - 5 Watches; $5,000](261.0/episode.md) Wed, 20 Sep 2023 20:06:55 -0700
-- [Episode 255 - Watches Roundup for September 14, 2023](260.0/episode.md) Wed, 13 Sep 2023 22:24:29 -0700
-- [Episode 254 - Watches Roundup for September 7, 2023](259.0/episode.md) Wed, 06 Sep 2023 21:34:05 -0700
-- [Episode 253 - Too Much of a Good Thing: The A11 Conundrum](258.0/episode.md) Wed, 30 Aug 2023 22:24:30 -0700
-- [Episode 252 - Watches Roundup for August 24, 2023](257.0/episode.md) Wed, 23 Aug 2023 22:18:03 -0700
-- [Episode 251 - Watches Roundup for August 17, 2023](256.0/episode.md) Thu, 17 Aug 2023 07:20:31 -0700
-- [Episode 250 - Objectively Best Field Watch Under $1000](255.0/episode.md) Wed, 09 Aug 2023 22:33:22 -0700
-- [Episode 249 - Watches Roundup for August 3, 2023](254.0/episode.md) Wed, 02 Aug 2023 22:30:40 -0700
-- [Episode 248 - Watches Roundup for July 27, 2023](253.0/episode.md) Wed, 26 Jul 2023 21:41:10 -0700
-- [Episode 247 -The Icons, 40 and 20 Edition](252.0/episode.md) Wed, 19 Jul 2023 21:45:36 -0700
-- [Episode 246 - Watches Roundup for July 1, 2023](251.0/episode.md) Wed, 12 Jul 2023 23:24:53 -0700
-- [Episode 245 - Watches Roundup for July 6, 2023](250.0/episode.md) Wed, 05 Jul 2023 22:51:04 -0700
-- [Episode 244 - Watches Roundup for June 29, 2023](249.0/episode.md) Wed, 28 Jun 2023 22:30:59 -0700
-- [Episode 243 - Interview With Ken Lam of Arken](248.0/episode.md) Wed, 21 Jun 2023 21:59:28 -0700
-- [Episode 242 - Watches Roundup for June 15, 2023](247.0/episode.md) Wed, 14 Jun 2023 21:30:38 -0700
-- [Episode 241 - Making Watches in China](246.0/episode.md) Wed, 07 Jun 2023 21:13:07 -0700
-- [Episode 240 - Watches Roundup for May 31, 2023](245.0/episode.md) Tue, 06 Jun 2023 09:35:00 -0700
-- [Episode 239 - Watches Roundup for May 25, 2023](244.0/episode.md) Thu, 25 May 2023 11:29:09 -0700
-- [Episode 238 - How the Swiss Sausage is Made, with Mike DeMartini of Everest Horology](243.0/episode.md) Wed, 17 May 2023 21:49:42 -0700
-- [Episode 237 - Mods, Homages, and Copies](242.0/episode.md) Wed, 10 May 2023 20:20:44 -0700
-- [Episode 236 - Windup SF 2023 with Mike Razak](241.0/episode.md) Wed, 03 May 2023 21:17:31 -0700
-- [Episode 235 - Watches Roundup for April 27, 2023](240.0/episode.md) Thu, 27 Apr 2023 00:16:21 -0700
-- [Episode 234 - Watches Roundup for April 20, 2023](239.0/episode.md) Wed, 19 Apr 2023 23:46:11 -0700
-- [Justin and Mike from Monta](238.0/episode.md) Wed, 12 Apr 2023 23:59:00 -0700
-- [Episode 232 - Tool Watches](237.0/episode.md) Sun, 09 Apr 2023 20:55:37 -0700
-- [Best of Watches and Wonders 2023](236.0/episode.md) Thu, 30 Mar 2023 09:00:35 -0700
-- [Episode 230 - Our Watch Collecting Journeys](235.0/episode.md) Thu, 23 Mar 2023 08:23:12 -0700
-- [Episode 229 –The Reissues We Want](234.0/episode.md) Wed, 15 Mar 2023 21:33:30 -0700
-- [Episode 228 - Our Ugly Ducklings](233.0/episode.md) Wed, 08 Mar 2023 23:26:34 -0800
-- [Episode 227 - Watches Roundup for March 2, 2023](232.0/episode.md) Wed, 01 Mar 2023 22:25:36 -0800
-- [Episode 226 - The Affordable Icons](231.0/episode.md) Thu, 23 Feb 2023 17:23:36 -0800
-- [Episode 225 - Watches Roundup for Feb 16, 2023](230.0/episode.md) Wed, 15 Feb 2023 21:37:03 -0800
-- [Episode 224 - Size Matters](229.0/episode.md) Thu, 09 Feb 2023 06:38:57 -0800
-- [Episode 223 - Objectively Best Dive Watch Under $1,000](228.0/episode.md) Wed, 01 Feb 2023 22:38:14 -0800
-- [Episode 222: 3 Watches for $1,000](227.0/episode.md) Wed, 25 Jan 2023 23:33:10 -0800
-- [Episode 221 - The Starter Watch Revisited... Again](226.0/episode.md) Wed, 18 Jan 2023 22:23:33 -0800
-- [Episode 220 - Frank ”FrendyMcGee” Affronti](225.0/episode.md) Wed, 11 Jan 2023 21:24:01 -0800
-- [Episode 2019 - Our Favorite Affordable Divers](224.0/episode.md) Wed, 04 Jan 2023 21:45:39 -0800
-- [Episode 218 - 2023 Predictions](223.0/episode.md) Wed, 28 Dec 2022 20:19:58 -0800
-- [Episode 217 - Watches Roundup for December 22, 2022](222.0/episode.md) Wed, 21 Dec 2022 22:14:04 -0800
-- [Episode 216- 2022: The Time for Timex](221.0/episode.md) Wed, 14 Dec 2022 22:20:59 -0800
-- [Episode 215 - 2022: Another Great Year of Watches](220.0/episode.md) Thu, 08 Dec 2022 08:40:59 -0800
-- [Episode 214 - Interview with Richard Benc of Studio Underdog](219.0/episode.md) Wed, 30 Nov 2022 21:11:14 -0800
-- [Episode 213 - Watches Roundup for November 24, 2022](218.0/episode.md) Wed, 23 Nov 2022 23:58:04 -0800
-- [Episode 212 - Watches Roundup for November 17, 2022](217.0/episode.md) Wed, 16 Nov 2022 19:52:00 -0800
-- [Episode 211 - Interview With (ahem) Foster Watch Co](216.0/episode.md) Wed, 09 Nov 2022 21:41:48 -0800
-- [Episode 210 - Interview with Abingdon Mullin](215.0/episode.md) Wed, 02 Nov 2022 21:51:41 -0700
-- [Episode 209 - Windup Recap (NYC 2022)](214.0/episode.md) Wed, 26 Oct 2022 22:50:56 -0700
-- [Episode 208 - WindUp Excitement](213.0/episode.md) Wed, 19 Oct 2022 21:16:16 -0700
-- [Episode 207 - The Golden Age of Watchmaking](212.0/episode.md) Wed, 12 Oct 2022 23:09:47 -0700
-- [Episode 206 - Watches Roundup for October 6, 2022](211.0/episode.md) Wed, 05 Oct 2022 23:20:54 -0700
-- [Episode 205 - Watches Roundup for September 29, 2022](210.0/episode.md) Wed, 28 Sep 2022 21:37:50 -0700
-- [Episode 204 - Go Bags with Tom Clemence of Clemence Watches](209.0/episode.md) Wed, 21 Sep 2022 23:36:56 -0700
-- [Episode 203 - Watches Roundup for September 15, 2022](208.0/episode.md) Wed, 14 Sep 2022 22:52:53 -0700
-- [Episode 202 - the Five Types of Watch Collector](207.0/episode.md) Wed, 07 Sep 2022 22:37:27 -0700
-- [Episode 201 - Watches Roundup for September 1, 2022](206.0/episode.md) Wed, 31 Aug 2022 23:37:46 -0700
-- [Episode 200 Special, with Brodinkee](205.0/episode.md) Wed, 24 Aug 2022 22:16:43 -0700
-- [Episode 199 - Watches Round Up, August 18, 2022](204.0/episode.md) Thu, 18 Aug 2022 10:02:47 -0700
-- [Episode 198 - Interview with Michael Pearson of Zodiac](203.0/episode.md) Wed, 10 Aug 2022 22:43:37 -0700
-- [Episode 197 - Then and Now](202.0/episode.md) Wed, 03 Aug 2022 21:02:49 -0700
-- [Episode 196 - Watches Roundup](201.0/episode.md) Wed, 27 Jul 2022 22:05:39 -0700
-- [Episode 195 - Two Watches; $20,000 (with Will)](200.0/episode.md) Wed, 20 Jul 2022 23:20:55 -0700
-- [Ep. 194 - Interview with Patrick Bremer of Bremoir](199.0/episode.md) Thu, 14 Jul 2022 00:40:20 -0700
-- [Episode 193 - Watches Roundup: July 7, 2022](198.0/episode.md) Wed, 06 Jul 2022 21:28:54 -0700
-- [Episode192 - Watches Roundup with Will](197.0/episode.md) Wed, 29 Jun 2022 23:59:00 -0700
-- [Episode 191 - Interview with Max from Watch Crunch](196.0/episode.md) Thu, 23 Jun 2022 01:00:00 -0700
-- [Episode 190 - Sinking the Flagships](195.0/episode.md) Wed, 15 Jun 2022 23:45:36 -0700
-- [Episode 189 - Seiko, Seiko, and More Seiko](194.0/episode.md) Wed, 08 Jun 2022 22:59:05 -0700
-- [Episode 188 - Flier Watches](193.0/episode.md) Wed, 01 Jun 2022 21:49:02 -0700
-- [Episode 187 - Watches Roundup](192.0/episode.md) Wed, 25 May 2022 21:30:46 -0700
-- [Episode 186 - Micro Trends with Eric of Rico’s Watches Podcast](191.0/episode.md) Wed, 18 May 2022 21:24:21 -0700
-- [Episode 185 - Watches Roundup](190.0/episode.md) Wed, 11 May 2022 23:43:13 -0700
-- [Episode 184 - In Defense of the Forums](189.0/episode.md) Wed, 04 May 2022 23:11:07 -0700
-- [Episode 183 - WindUp San Fran (2022) Recap](188.0/episode.md) Wed, 27 Apr 2022 21:18:19 -0700
-- [Episode 182 - Talking Aquitaine, with Mike France of Christopher Ward](187.0/episode.md) Thu, 21 Apr 2022 05:00:00 -0700
-- [Episode 181 - Why No Respect For Citizen?](186.0/episode.md) Wed, 13 Apr 2022 21:38:12 -0700
-- [Episode 180 - Pilots Watches - What Even Is It?](185.0/episode.md) Wed, 06 Apr 2022 22:27:21 -0700
-- [Episode 179 - All The Pretty Colors](184.0/episode.md) Wed, 30 Mar 2022 22:30:15 -0700
-- [Episode 178 - All About Doxa](183.0/episode.md) Thu, 24 Mar 2022 06:16:00 -0700
-- [Episode 177 - Watches Roundup](182.0/episode.md) Thu, 17 Mar 2022 06:24:19 -0700
-- [Episode 176 -SOTC Redux](181.0/episode.md) Wed, 09 Mar 2022 22:33:47 -0800
-- [Episode 175 - Watches Roundup](180.0/episode.md) Thu, 03 Mar 2022 06:42:22 -0800
-- [Episode 174 - All about the Helium Release Valve](179.0/episode.md) Wed, 23 Feb 2022 19:58:18 -0800
-- [Episode 173 - Watches Round Up](178.0/episode.md) Wed, 16 Feb 2022 21:16:07 -0800
-- [Episode 172 - Interview with Sunflowerman, aka Matthew Miller](177.0/episode.md) Wed, 09 Feb 2022 20:13:21 -0800
-- [Episode 171 - The Watches of For All Mankind, with Resident Actor Brett Williams](176.0/episode.md) Wed, 02 Feb 2022 20:40:13 -0800
-- [Episode 170 - Watches Round Up](175.0/episode.md) Wed, 26 Jan 2022 20:34:11 -0800
-- [The Poor Man’s Watch, Revisited, with Will](174.0/episode.md) Wed, 19 Jan 2022 22:33:40 -0800
-- [Episode 168 - Watch flipping With the New ”PayPal Tax”](173.0/episode.md) Wed, 12 Jan 2022 20:43:54 -0800
-- [Episode 167 - Recommending a Starter Watch](172.0/episode.md) Wed, 05 Jan 2022 22:02:45 -0800
-- [Episode 166 - Horological Hopes and Dreams for 2022](171.0/episode.md) Wed, 29 Dec 2021 21:27:03 -0800
-- [Episode 165 What‘s New?](170.0/episode.md) Wed, 22 Dec 2021 19:20:25 -0800
-- [Episode 164 - Interview with Brett Williams of Tool Watch Co](169.0/episode.md) Thu, 16 Dec 2021 03:00:00 -0800
-- [Episode 163 -Our Christmas Lists](168.0/episode.md) Thu, 09 Dec 2021 06:37:00 -0800
-- [Episode 162 - The Best Small Watches (At Least Some of Them)](167.0/episode.md) Wed, 01 Dec 2021 23:59:00 -0800
-- [The Watches We Swiped Left On.](166.0/episode.md) Thu, 25 Nov 2021 21:29:16 -0800
-- [Episode 160 - Interview with Eric Wind](165.0/episode.md) Wed, 17 Nov 2021 23:59:00 -0800
-- [Episode 159 - Interview with Zakir Miah of Haim Watch Co](164.0/episode.md) Wed, 10 Nov 2021 21:01:52 -0800
-- [Episode 158 - 2021 (Early) Year in Review](163.0/episode.md) Wed, 03 Nov 2021 22:24:10 -0700
-- [Episode 157 - WindUp/WatchTime Recap with Mike Razak](162.0/episode.md) Wed, 27 Oct 2021 20:32:43 -0700
-- [Episode 156 - Hanging out with Wes and Cullen from Nodus](161.0/episode.md) Wed, 20 Oct 2021 23:59:00 -0700
-- [Episode 155 - The Issues with Reissues](160.0/episode.md) Wed, 13 Oct 2021 22:42:19 -0700
-- [Episode 154 -Sleeper Watches Under $1,000](159.0/episode.md) Wed, 06 Oct 2021 23:59:00 -0700
-- [Episode 153 - Hooke, Huygens, and the Hairspring](158.0/episode.md) Wed, 29 Sep 2021 19:58:52 -0700
-- [Episode 152 - Welsbro: Interview with Owners Rich Reichbach and Katie Willis](157.0/episode.md) Wed, 22 Sep 2021 23:59:00 -0700
-- [Episode 151 - Interview with Ken Lam of Arken Watch Co](156.0/episode.md) Wed, 15 Sep 2021 22:33:13 -0700
-- [Episode 150 - Watches We Are Watching](155.0/episode.md) Wed, 08 Sep 2021 22:53:24 -0700
-- [Episode 149 - How Durable is Your Watch?](154.0/episode.md) Wed, 01 Sep 2021 21:06:47 -0700
-- [Episode 148 - In-House Movements](153.0/episode.md) Wed, 25 Aug 2021 20:44:04 -0700
-- [Episode 147 -The State of Seiko](152.0/episode.md) Wed, 18 Aug 2021 23:45:00 -0700
-- [Episode 146 - Watch Finishing 101](151.0/episode.md) Wed, 11 Aug 2021 21:40:33 -0700
-- [Episode 145 - Auto vs. Manual](150.0/episode.md) Wed, 04 Aug 2021 20:35:53 -0700
-- [Episode 144 - Plastic Watches](149.0/episode.md) Wed, 28 Jul 2021 19:44:19 -0700
-- [Episode 143 - Interview with Tom Clemence of Clemence Watches](148.0/episode.md) Wed, 21 Jul 2021 21:05:00 -0700
-- [Episode 142 -The Very Best Watches For Under $100](147.0/episode.md) Wed, 14 Jul 2021 22:47:56 -0700
-- [Episode 141 - What About... Shoes](146.0/episode.md) Thu, 08 Jul 2021 00:24:36 -0700
-- [Episode 140 - Interview with Chris Boudreaux from Vero Watch Company](145.0/episode.md) Wed, 30 Jun 2021 22:05:46 -0700
-- [Episode 139 - What is "Swiss Made"?](144.0/episode.md) Wed, 23 Jun 2021 22:12:28 -0700
-- [Episode 138 - Interview with Mike France of Christopher Ward](143.0/episode.md) Wed, 16 Jun 2021 23:38:54 -0700
-- [Episode 137 - Interview With Nick Mankey of Nick Mankey Designs](142.0/episode.md) Wed, 09 Jun 2021 22:41:15 -0700
-- [Episode 136 - The Objectively Best Dress-Sport Watch Under $1,000](141.0/episode.md) Wed, 02 Jun 2021 23:07:58 -0700
-- [Episode 135 - What is this Thing On My Watch](140.0/episode.md) Wed, 26 May 2021 23:41:56 -0700
-- [Episode 134 - Listener Q&A](139.0/episode.md) Wed, 19 May 2021 23:07:39 -0700
-- [Episode 133 - Watches and Social Media](138.0/episode.md) Wed, 12 May 2021 21:34:43 -0700
-- [The Poor Man's Explorer (Revisited)](137.0/episode.md) Thu, 06 May 2021 08:20:43 -0700
-- [Episode 131 - Brand Heritage (ft. Tissot)](136.0/episode.md) Wed, 28 Apr 2021 21:32:10 -0700
-- [Just Some Sub $300 Watches](135.0/episode.md) Wed, 21 Apr 2021 23:56:48 -0700
-- [Episode 129 - What is Time?](134.0/episode.md) Thu, 15 Apr 2021 00:54:25 -0700
-- [Episode 128 - RIP Dress Watch](133.0/episode.md) Wed, 07 Apr 2021 23:37:56 -0700
-- [Episode 127 - Collection Overlap](132.0/episode.md) Thu, 01 Apr 2021 00:17:49 -0700
-- [Episode 126 - Sō Labs Interview](131.0/episode.md) Thu, 25 Mar 2021 00:11:26 -0700
-- [Episode 125 - Watch Flipping with Clay (@southpawstl15)](130.0/episode.md) Thu, 18 Mar 2021 07:52:04 -0700
-- [Episode 124 - Gold Watches, with Evan Kaspar](129.0/episode.md) Wed, 10 Mar 2021 21:59:01 -0800
-- [Audio Review - Alcadus Opus 39](128.0/episode.md) Mon, 08 Mar 2021 09:08:09 -0800
-- [Episode 123 - How to Wear a Tool Watch](127.0/episode.md) Wed, 03 Mar 2021 22:47:04 -0800
-- [Episode 122 - NOT a Show About Rolex, with Kaz Mirza](126.0/episode.md) Wed, 24 Feb 2021 21:48:25 -0800
-- [Episode 121 - Digital Watches](125.0/episode.md) Wed, 17 Feb 2021 22:15:07 -0800
-- [Episode 120 - Interview with Josh and Steve Roemer from SWC](124.0/episode.md) Wed, 10 Feb 2021 20:29:42 -0800
-- [Episode 119 - Valjoux 7750 vs. Lemania 5100](123.0/episode.md) Wed, 03 Feb 2021 21:52:38 -0800
-- [Episode 118 - Jeremy from Goodspeed Returns](122.0/episode.md) Wed, 27 Jan 2021 20:19:45 -0800
-- [Episode 117 - Four Rolex for the Price of a Rolex](121.0/episode.md) Thu, 21 Jan 2021 05:00:00 -0800
-- [Episode 116 - Photo Q&A with Will the Watch Clicker](120.0/episode.md) Wed, 13 Jan 2021 22:37:27 -0800
-- [Episode 115 - Another Three More Watches for an Additional $600... Again](119.0/episode.md) Wed, 06 Jan 2021 22:44:56 -0800
-- [Episode 114 - All About Sapphire Crystals](118.0/episode.md) Thu, 31 Dec 2020 00:21:55 -0800
-- [Episode 113 - The Objectively Best Pilot's Watches for Under $500](117.0/episode.md) Thu, 24 Dec 2020 00:00:00 -0800
-- [Episode 112: 40 and 20 Holiday Special](116.0/episode.md) Thu, 17 Dec 2020 00:00:00 -0800
-- [40 and 20 Mini Review - Nodus Contrail II](114.0/episode.md) Mon, 14 Dec 2020 06:00:00 -0800
-- [Episode 111 - The Vostok Amphibia](115.0/episode.md) Thu, 10 Dec 2020 01:00:00 -0800
-- [Episode 110 - Christmas Lists!](113.0/episode.md) Wed, 02 Dec 2020 20:14:53 -0800
-- [Episode 109 - Lauren and Lorenzo Ortega of Lorier (Part 2)](112.0/episode.md) Thu, 26 Nov 2020 20:57:41 -0800
-- [Episode 108 - Interview with Vishal Tolani of Dartmouth Brands (Avi-8, Spinnaker, etc).](111.0/episode.md) Wed, 18 Nov 2020 21:52:45 -0800
-- [Episode 107 - 2020 (Slightly Early) Year in Review](110.0/episode.md) Wed, 11 Nov 2020 22:19:01 -0800
-- [Episode 106 - Talking Retromatic with Jonathan Ferrer of Brew Watch Co.](109.0/episode.md) Wed, 04 Nov 2020 21:08:52 -0800
-- [Episode 105 - Revisiting the Starter Watch](108.0/episode.md) Wed, 28 Oct 2020 22:21:56 -0700
-- [Episode 104 - Interview With Michael Seals of Seals Watch Co](107.0/episode.md) Wed, 21 Oct 2020 21:54:52 -0700
-- [Episode 103 - Brett Williams of Albany Watches](106.0/episode.md) Wed, 14 Oct 2020 22:52:32 -0700
-- [Episode 102 - Solas Watches, with Diyu Wu](105.0/episode.md) Wed, 07 Oct 2020 22:16:03 -0700
-- [Episode 101 -Cameron Lazanich (of Nodus)](104.0/episode.md) Wed, 30 Sep 2020 21:34:40 -0700
-- [Episode 100 - Pre-Orders: the Good, the Bad, and the Ugly](103.0/episode.md) Wed, 23 Sep 2020 20:11:07 -0700
-- [Episode 99 - ISO Watch Standards:What are They?](102.0/episode.md) Wed, 16 Sep 2020 22:18:02 -0700
-- [Episode 98 - Interview with Marc of Long Island Watch](101.0/episode.md) Thu, 10 Sep 2020 01:20:21 -0700
-- [Episode 97 - Watch Iterations(with Mike Razak)](100.0/episode.md) Wed, 02 Sep 2020 22:43:44 -0700
-- [Episode 96 - Summer Watches](99.0/episode.md) Wed, 26 Aug 2020 23:24:51 -0700
-- [Episode 95 - The Watch(es?) of Everest](98.0/episode.md) Wed, 19 Aug 2020 23:59:00 -0700
-- [Episode 94 - GFY Watches](97.0/episode.md) Thu, 13 Aug 2020 00:01:00 -0700
-- [Episode 93 - Just Some Tool Watches](96.0/episode.md) Wed, 05 Aug 2020 23:11:52 -0700
-- [Episode 92 - Interview with Michael Happe of Gavox Watches](92.0/episode.md) Thu, 30 Jul 2020 00:15:00 -0700
-- [Episode 91 - WatchClicker Potpourri with Will](2.0/episode.md) Wed, 22 Jul 2020 22:20:00 -0700
-- [Episode 90 - The Objectively Best Field Watch Under $501](3.0/episode.md) Wed, 15 Jul 2020 22:06:00 -0700
-- [Episode 89 - GADA Watches (Or, the One Watch Collection)](4.0/episode.md) Wed, 08 Jul 2020 18:50:00 -0700
-- [Episode 88 - 3 Watches for $600, Part 4](5.0/episode.md) Thu, 02 Jul 2020 00:00:00 -0700
-- [40 and 20 Audio Review - New Seiko Five Sports (DressKX)](6.0/episode.md) Tue, 30 Jun 2020 00:00:00 -0700
-- [Episode 87 - Interview with Lorenzo and Lauren Ortega of Lorier Watches](7.0/episode.md) Thu, 25 Jun 2020 00:00:00 -0700
-- [Episode 86 - Interview with Andrew Perez of Astor+Banks](8.0/episode.md) Thu, 18 Jun 2020 01:00:00 -0700
-- [Episode 85 - ANNOUNCEMENT!](9.0/episode.md) Thu, 11 Jun 2020 04:43:00 -0700
-- [Episode 84 - Interview with Justin of Monta Watch](11.0/episode.md) Wed, 03 Jun 2020 22:59:00 -0700
-- [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](10.0/episode.md) Wed, 27 May 2020 10:34:00 -0700
-- [Episode 82 - Interview with Darren of Zulu Alpha Straps](1.0/episode.md) Thu, 21 May 2020 00:32:00 -0700
+### Page updated Feb 09 2026 18:52 - 300 episodes
+- [Sellita is Back, Baby (378)](384/episode.md) Jan 26 2026
+- [Legacy Watch Brands Have a Great Week (377)](383/episode.md) Jan 19 2026
+- [Seiko Swings; Credor Hits (376)](382/episode.md) Jan 13 2026
+- [Year of the FIRE Horse (375)](381/episode.md) Jan 06 2026
+- [Seiko Releases an Awesome Dive GMT and a Less Awesome Dive GMT (374)](380/episode.md) Dec 30 2025
+- [Year End with the Watch Clicker (373)](379/episode.md) Dec 28 2025
+- [The Best Microbrand of 2025 is Japanese (372)](378/episode.md) Dec 15 2025
+- [The Best Chronograph of the Year(?) (371)](377/episode.md) Dec 08 2025
+- [Serica, Clemence, and... Raymond Weil? (370)](376/episode.md) Dec 01 2025
+- [Tudor Gets the Ranger Right (369)](375/episode.md) Nov 24 2025
+- [Our Favorite Timex Collab Ever? (368)](374/episode.md) Nov 17 2025
+- [Talking Seiko, Orient, and Hamilton with the Watch Clicker (367)](373/episode.md) Nov 10 2025
+- [Seiko Refreshes and Icon, and Yema Mops Up (366)](372/episode.md) Nov 03 2025
+- [Seiko is Master of the Back Catalog (365)](371/episode.md) Oct 28 2025
+- [Windup 2025! (364)](370/episode.md) Oct 21 2025
+- [Headed to New York (363)](369/episode.md) Oct 15 2025
+- [Hamilton Releases the Laziest LE We Have Ever Seen (362)](368/episode.md) Oct 07 2025
+- [The Lost (and Found) Episode (361)](367/episode.md) Oct 05 2025
+- [Tissot Rocks! (360)](366/episode.md) Sep 23 2025
+- [Hamilton, Tissot, and... Berneron. (359)](365/episode.md) Sep 15 2025
+- [The Last People Who Should Be Talking About Geneva Watch Days (358)](364/episode.md) Sep 08 2025
+- [A Very Thin CW and Some Affordable Bangers (357)](363/episode.md) Sep 01 2025
+- [Paulin Gets Philosophical (356)](362/episode.md) Aug 25 2025
+- [Seiko is Crushing the Licensed Watch Game (355)](361/episode.md) Aug 18 2025
+- [Timex Drops a Dime... Piece (354)](360/episode.md) Aug 12 2025
+- [Seiko Speeding Back Into Our Hearts (353)](359/episode.md) Aug 05 2025
+- [Chatting with Andrew Perez of Astor + Banks (352)](358/episode.md) Jul 28 2025
+- [Omega Bonks, and the Best Doxa Ever (351)](357/episode.md) Jul 21 2025
+- [Orient Star Starting to Look Grand (350)](356/episode.md) Jul 15 2025
+- [Hanhart, Hamilton, and Batavi (349)](355/episode.md) Jul 07 2025
+- [We Mispronounce Lots of Italian Words (348)](354/episode.md) Jul 01 2025
+- [We like Bulgari, Now (347)](353/episode.md) Jun 24 2025
+- [Lots of Seiko and a few Micros that are Better than you Think (346)](352/episode.md) Jun 22 2025
+- [Seiko goes Porcelain (345)](351/episode.md) Jun 10 2025
+- [anOrdain goes Porcelain (344)](350/episode.md) Jun 10 2025
+- [Longines Releases an Instant Classic (343)](349/episode.md) May 26 2025
+- [Christopher Ward is Listening (342)](348/episode.md) May 26 2025
+- [Brew Releases its Most Refined Watch Yet (341)](347/episode.md) May 13 2025
+- [We Like Alpina, Now (340).](346/episode.md) May 06 2025
+- [Studio Underdog is (Expertly) Trolling all of Us (339)](345/episode.md) Apr 28 2025
+- [Doxa 250T: More than Just a Creative Name (338)](344/episode.md) Apr 28 2025
+- [Timex Knows EXACTLY What it's Doing (337)](343/episode.md) Apr 14 2025
+- [Our Watches and Wonders Highlights (336)](342/episode.md) Apr 09 2025
+- [The Most Perfect Doxa Ever? (335)](341/episode.md) Apr 01 2025
+- [We Like Horage, Now (334)](340/episode.md) Mar 27 2025
+- [We like Mido, Now (333)](339/episode.md) Mar 21 2025
+- [And Now I want a Kurono Tokyo (332)](338/episode.md) Mar 12 2025
+- [We Have Been Sleeping on RZE (331)](337/episode.md) Mar 04 2025
+- [G Shock Getting REAL Weird (330)](336/episode.md) Feb 24 2025
+- [Ok... This is Coolest Moonwatch (DSKY) (329)](335/episode.md) Feb 17 2025
+- [Ok, Jack Mason, We See You (328)](334/episode.md) Feb 11 2025
+- [Timex and Giorgio Galli Release Their Magnum Opus (327)](333/episode.md) Feb 03 2025
+- [TAG Heuer and... Delma(?) (326)](332/episode.md) Feb 03 2025
+- [Watches You Want, But (Probably) Can't Have (325)](331/episode.md) Jan 20 2025
+- [Watches, and a Bittersweet Announcement (324)](330/episode.md) Jan 08 2025
+- [Rounding out 2024 with Frank! (323)](329/episode.md) Jan 08 2025
+- [Horage Might Be Better Than you Think (322)](328/episode.md) Dec 30 2024
+- [2024 Year in Review (321)](327/episode.md) Dec 30 2024
+- [Yema has a... Yemazing Week. (320)](326/episode.md) Dec 11 2024
+- [Holiday Gift Guide, with Furry Wrist Abroad](325/episode.md) Dec 05 2024
+- [Thankful for Circula, Serica, and Studio Underd0g (318)](324/episode.md) Nov 27 2024
+- [Interview with NJ of Bangalore Watch Company (317)](323/episode.md) Nov 20 2024
+- [Abishorn Remaking the Best Watches Never Made (316)](322/episode.md) Nov 13 2024
+- [Weird 70s Digitals Have a Week (315)](321/episode.md) Nov 06 2024
+- [JAyy... ZHHHe....  JLC is Good (314)](320/episode.md) Oct 30 2024
+- [Seiko is Back, Baby! (313)](319/episode.md) Oct 23 2024
+- [Fortis and RZE Bringing Heat (312)](318/episode.md) Oct 16 2024
+- [Yema Releases the PRX That You Should Buy (311)](317/episode.md) Oct 09 2024
+- [The Best Website Colab's We Have Ever Seen (310)](316/episode.md) Oct 02 2024
+- [Hanhart and Hamilton go Toe to Toe (309)](315/episode.md) Oct 02 2024
+- [Modern Watches Deserving a 50th Anniversary Release (308)](314/episode.md) Sep 18 2024
+- [Zodiac Gives us Gold; Tissot with More Carbon (307)](313/episode.md) Sep 11 2024
+- [Geneva Watch Days in Full Swing (306)](312/episode.md) Sep 04 2024
+- [Luminox goes Auto, and Khaki Goes Quartz (305)](311/episode.md) Aug 30 2024
+- [Omega's Best Americas Cup Watch, and a Titanium Zulu Time! (304)](310/episode.md) Aug 28 2024
+- [Talking Olympics, Seiko, Etc. with DC Vintage Watches (303)](309/episode.md) Aug 28 2024
+- [It's a Lunar Pilot, but... Red (302)](308/episode.md) Aug 07 2024
+- [The 300th Episode (reupload) (300)](307/episode.md) Aug 01 2024
+- [Unimatic Showed up in July (301)](306/episode.md) Jul 31 2024
+- [Nivada Releases the Watch of the Year (So Far) (299)](304/episode.md) Jul 17 2024
+- [Monta Releases a Surprise Banger (298)](303/episode.md) Jul 17 2024
+- [New Blancpain, Cetina, Mido and more (297)](302/episode.md) Jul 09 2024
+- [Nivada Gets Smol (296)](301/episode.md) Jun 26 2024
+- [We Need to Talk About Longines (295)](300/episode.md) Jun 19 2024
+- [Louis Vuitton's Emergence (294)](299/episode.md) Jun 12 2024
+- [Tag is Demanding Your Attention (293)](298/episode.md) Jun 05 2024
+- [Interview With Michael Pearson of Christopher Ward (292)](297/episode.md) May 29 2024
+- [The History of Luxury Watches (291)](296/episode.md) May 22 2024
+- [Rolex Dresses Up (Again) (290)](295/episode.md) May 22 2024
+- [Tag Heuer Brings Back the F1](294/episode.md) May 08 2024
+- [Christopher Ward Shows All (288)](293/episode.md) May 01 2024
+- [The $3000 Divers](292/episode.md) Apr 26 2024
+- [BRO5 Goes Ceramic (286)](291/episode.md) Apr 17 2024
+- [Watches and Wonders: Our Favorites (285)](290/episode.md) Apr 10 2024
+- [A Watch For When You Can't Be Bothered (284)](289/episode.md) Apr 03 2024
+- [A Snoopy for the People (283)](288/episode.md) Mar 27 2024
+- [Citizen Going Hard (282)](287/episode.md) Mar 21 2024
+- [Upgrading Our Most Worn Watches (281)](286/episode.md) Mar 15 2024
+- [The Second Best Dune This Week (280)](285/episode.md) Mar 06 2024
+- [The Best Sub $2,000 Chronograph? (279)](284/episode.md) Feb 28 2024
+- [Interview with John Liley of Markwell Watches (278)](283/episode.md) Feb 21 2024
+- [Superman Goes on a Diet (277)](282/episode.md) Feb 14 2024
+- [Called: the Best Watch of 2024 (276)](281/episode.md) Feb 07 2024
+- [The Automatic Central Power Reserve (275)](280/episode.md) Jan 31 2024
+- [Fears Has Another California Adventure](279/episode.md) Jan 24 2024
+- [A Good Swatch Fifty Fathoms... At Last (273)](278/episode.md) Jan 17 2024
+- [Casting (the Watches) in our 1990s Sci Fi Movie (272)](277/episode.md) Jan 10 2024
+- [Gold for the Masses (271)](276/episode.md) Jan 03 2024
+- [Re Releases Done Wrong (and Right) (270)](275/episode.md) Dec 27 2023
+- [Watches Roundup for December 21, 2023 (269)](274/episode.md) Dec 20 2023
+- [What a Diver Really Wants w/ Frendy Mgee (268)](273/episode.md) Dec 13 2023
+- [Episode 267 - Nodus x Watch Clicker Collaboration](272/episode.md) Dec 06 2023
+- [Episode 266 - 2023 in Watches](271/episode.md) Nov 29 2023
+- [Episode 265 - Another Stellar Christopher Ward](270/episode.md) Nov 27 2023
+- [Episode 264 - Five Watches, Ultimate Edition](269/episode.md) Nov 16 2023
+- [Episode 263 - Collaboration Watches](268/episode.md) Nov 08 2023
+- [Episode 262 - Our Favorite Nodus, Yet](267/episode.md) Nov 01 2023
+- [Episode 261 - Windup NYC, 2023 Recap](266/episode.md) Oct 25 2023
+- [Episode 260 - The Latest Space Watch](265/episode.md) Oct 18 2023
+- [Episode 259 - The Best/Ugliest Citizen Ever?](264/episode.md) Oct 11 2023
+- [Episode 258 - Vacation Watches](263/episode.md) Oct 04 2023
+- [Episode 257 - Watches Roundup for September 28, 2023](262/episode.md) Sep 27 2023
+- [Episode 256 - 5 Watches; $5,000](261/episode.md) Sep 20 2023
+- [Episode 255 - Watches Roundup for September 14, 2023](260/episode.md) Sep 13 2023
+- [Episode 254 - Watches Roundup for September 7, 2023](259/episode.md) Sep 06 2023
+- [Episode 253 - Too Much of a Good Thing: The A11 Conundrum](258/episode.md) Aug 30 2023
+- [Episode 252 - Watches Roundup for August 24, 2023](257/episode.md) Aug 23 2023
+- [Episode 251 - Watches Roundup for August 17, 2023](256/episode.md) Aug 17 2023
+- [Episode 250 - Objectively Best Field Watch Under $1000](255/episode.md) Aug 09 2023
+- [Episode 249 - Watches Roundup for August 3, 2023](254/episode.md) Aug 02 2023
+- [Episode 248 - Watches Roundup for July 27, 2023](253/episode.md) Jul 26 2023
+- [Episode 247 -The Icons, 40 and 20 Edition](252/episode.md) Jul 19 2023
+- [Episode 246 - Watches Roundup for July 1, 2023](251/episode.md) Jul 12 2023
+- [Episode 245 - Watches Roundup for July 6, 2023](250/episode.md) Jul 05 2023
+- [Episode 244 - Watches Roundup for June 29, 2023](249/episode.md) Jun 28 2023
+- [Episode 243 - Interview With Ken Lam of Arken](248/episode.md) Jun 21 2023
+- [Episode 242 - Watches Roundup for June 15, 2023](247/episode.md) Jun 14 2023
+- [Episode 241 - Making Watches in China](246/episode.md) Jun 07 2023
+- [Episode 240 - Watches Roundup for May 31, 2023](245/episode.md) Jun 06 2023
+- [Episode 239 - Watches Roundup for May 25, 2023](244/episode.md) May 25 2023
+- [Episode 238 - How the Swiss Sausage is Made, with Mike DeMartini of Everest Horology](243/episode.md) May 17 2023
+- [Episode 237 - Mods, Homages, and Copies](242/episode.md) May 10 2023
+- [Episode 236 - Windup SF 2023 with Mike Razak](241/episode.md) May 03 2023
+- [Episode 235 - Watches Roundup for April 27, 2023](240/episode.md) Apr 27 2023
+- [Episode 234 - Watches Roundup for April 20, 2023](239/episode.md) Apr 19 2023
+- [Justin and Mike from Monta](238/episode.md) Apr 12 2023
+- [Episode 232 - Tool Watches](237/episode.md) Apr 09 2023
+- [Best of Watches and Wonders 2023](236/episode.md) Mar 30 2023
+- [Episode 230 - Our Watch Collecting Journeys](235/episode.md) Mar 23 2023
+- [Episode 229 –The Reissues We Want](234/episode.md) Mar 15 2023
+- [Episode 228 - Our Ugly Ducklings](233/episode.md) Mar 08 2023
+- [Episode 227 - Watches Roundup for March 2, 2023](232/episode.md) Mar 01 2023
+- [Episode 226 - The Affordable Icons](231/episode.md) Feb 23 2023
+- [Episode 225 - Watches Roundup for Feb 16, 2023](230/episode.md) Feb 15 2023
+- [Episode 224 - Size Matters](229/episode.md) Feb 09 2023
+- [Episode 223 - Objectively Best Dive Watch Under $1,000](228/episode.md) Feb 01 2023
+- [Episode 222: 3 Watches for $1,000](227/episode.md) Jan 25 2023
+- [Episode 221 - The Starter Watch Revisited... Again](226/episode.md) Jan 18 2023
+- [Episode 220 - Frank ”FrendyMcGee” Affronti](225/episode.md) Jan 11 2023
+- [Episode 2019 - Our Favorite Affordable Divers](224/episode.md) Jan 04 2023
+- [Episode 218 - 2023 Predictions](223/episode.md) Dec 28 2022
+- [Episode 217 - Watches Roundup for December 22, 2022](222/episode.md) Dec 21 2022
+- [Episode 216- 2022: The Time for Timex](221/episode.md) Dec 14 2022
+- [Episode 215 - 2022: Another Great Year of Watches](220/episode.md) Dec 08 2022
+- [Episode 214 - Interview with Richard Benc of Studio Underdog](219/episode.md) Nov 30 2022
+- [Episode 213 - Watches Roundup for November 24, 2022](218/episode.md) Nov 23 2022
+- [Episode 212 - Watches Roundup for November 17, 2022](217/episode.md) Nov 16 2022
+- [Episode 211 - Interview With (ahem) Foster Watch Co](216/episode.md) Nov 09 2022
+- [Episode 210 - Interview with Abingdon Mullin](215/episode.md) Nov 02 2022
+- [Episode 209 - Windup Recap (NYC 2022)](214/episode.md) Oct 26 2022
+- [Episode 208 - WindUp Excitement](213/episode.md) Oct 19 2022
+- [Episode 207 - The Golden Age of Watchmaking](212/episode.md) Oct 12 2022
+- [Episode 206 - Watches Roundup for October 6, 2022](211/episode.md) Oct 05 2022
+- [Episode 205 - Watches Roundup for September 29, 2022](210/episode.md) Sep 28 2022
+- [Episode 204 - Go Bags with Tom Clemence of Clemence Watches](209/episode.md) Sep 21 2022
+- [Episode 203 - Watches Roundup for September 15, 2022](208/episode.md) Sep 14 2022
+- [Episode 202 - the Five Types of Watch Collector](207/episode.md) Sep 07 2022
+- [Episode 201 - Watches Roundup for September 1, 2022](206/episode.md) Aug 31 2022
+- [Episode 200 Special, with Brodinkee](205/episode.md) Aug 24 2022
+- [Episode 199 - Watches Round Up, August 18, 2022](204/episode.md) Aug 18 2022
+- [Episode 198 - Interview with Michael Pearson of Zodiac](203/episode.md) Aug 10 2022
+- [Episode 197 - Then and Now](202/episode.md) Aug 03 2022
+- [Episode 196 - Watches Roundup](201/episode.md) Jul 27 2022
+- [Episode 195 - Two Watches; $20,000 (with Will)](200/episode.md) Jul 20 2022
+- [Ep. 194 - Interview with Patrick Bremer of Bremoir](199/episode.md) Jul 14 2022
+- [Episode 193 - Watches Roundup: July 7, 2022](198/episode.md) Jul 06 2022
+- [Episode192 - Watches Roundup with Will](197/episode.md) Jun 29 2022
+- [Episode 191 - Interview with Max from Watch Crunch](196/episode.md) Jun 23 2022
+- [Episode 190 - Sinking the Flagships](195/episode.md) Jun 15 2022
+- [Episode 189 - Seiko, Seiko, and More Seiko](194/episode.md) Jun 08 2022
+- [Episode 188 - Flier Watches](193/episode.md) Jun 01 2022
+- [Episode 187 - Watches Roundup](192/episode.md) May 25 2022
+- [Episode 186 - Micro Trends with Eric of Rico’s Watches Podcast](191/episode.md) May 18 2022
+- [Episode 185 - Watches Roundup](190/episode.md) May 11 2022
+- [Episode 184 - In Defense of the Forums](189/episode.md) May 04 2022
+- [Episode 183 - WindUp San Fran (2022) Recap](188/episode.md) Apr 27 2022
+- [Episode 182 - Talking Aquitaine, with Mike France of Christopher Ward](187/episode.md) Apr 21 2022
+- [Episode 181 - Why No Respect For Citizen?](186/episode.md) Apr 13 2022
+- [Episode 180 - Pilots Watches - What Even Is It?](185/episode.md) Apr 06 2022
+- [Episode 179 - All The Pretty Colors](184/episode.md) Mar 30 2022
+- [Episode 178 - All About Doxa](183/episode.md) Mar 24 2022
+- [Episode 177 - Watches Roundup](182/episode.md) Mar 17 2022
+- [Episode 176 -SOTC Redux](181/episode.md) Mar 09 2022
+- [Episode 175 - Watches Roundup](180/episode.md) Mar 03 2022
+- [Episode 174 - All about the Helium Release Valve](179/episode.md) Feb 23 2022
+- [Episode 173 - Watches Round Up](178/episode.md) Feb 16 2022
+- [Episode 172 - Interview with Sunflowerman, aka Matthew Miller](177/episode.md) Feb 09 2022
+- [Episode 171 - The Watches of For All Mankind, with Resident Actor Brett Williams](176/episode.md) Feb 02 2022
+- [Episode 170 - Watches Round Up](175/episode.md) Jan 26 2022
+- [The Poor Man’s Watch, Revisited, with Will](174/episode.md) Jan 19 2022
+- [Episode 168 - Watch flipping With the New ”PayPal Tax”](173/episode.md) Jan 12 2022
+- [Episode 167 - Recommending a Starter Watch](172/episode.md) Jan 05 2022
+- [Episode 166 - Horological Hopes and Dreams for 2022](171/episode.md) Dec 29 2021
+- [Episode 165 What‘s New?](170/episode.md) Dec 22 2021
+- [Episode 164 - Interview with Brett Williams of Tool Watch Co](169/episode.md) Dec 16 2021
+- [Episode 163 -Our Christmas Lists](168/episode.md) Dec 09 2021
+- [Episode 162 - The Best Small Watches (At Least Some of Them)](167/episode.md) Dec 01 2021
+- [The Watches We Swiped Left On.](166/episode.md) Nov 25 2021
+- [Episode 160 - Interview with Eric Wind](165/episode.md) Nov 17 2021
+- [Episode 159 - Interview with Zakir Miah of Haim Watch Co](164/episode.md) Nov 10 2021
+- [Episode 158 - 2021 (Early) Year in Review](163/episode.md) Nov 03 2021
+- [Episode 157 - WindUp/WatchTime Recap with Mike Razak](162/episode.md) Oct 27 2021
+- [Episode 156 - Hanging out with Wes and Cullen from Nodus](161/episode.md) Oct 20 2021
+- [Episode 155 - The Issues with Reissues](160/episode.md) Oct 13 2021
+- [Episode 154 -Sleeper Watches Under $1,000](159/episode.md) Oct 06 2021
+- [Episode 153 - Hooke, Huygens, and the Hairspring](158/episode.md) Sep 29 2021
+- [Episode 152 - Welsbro: Interview with Owners Rich Reichbach and Katie Willis](157/episode.md) Sep 22 2021
+- [Episode 151 - Interview with Ken Lam of Arken Watch Co](156/episode.md) Sep 15 2021
+- [Episode 150 - Watches We Are Watching](155/episode.md) Sep 08 2021
+- [Episode 149 - How Durable is Your Watch?](154/episode.md) Sep 01 2021
+- [Episode 148 - In-House Movements](153/episode.md) Aug 25 2021
+- [Episode 147 -The State of Seiko](152/episode.md) Aug 18 2021
+- [Episode 146 - Watch Finishing 101](151/episode.md) Aug 11 2021
+- [Episode 145 - Auto vs. Manual](150/episode.md) Aug 04 2021
+- [Episode 144 - Plastic Watches](149/episode.md) Jul 28 2021
+- [Episode 143 - Interview with Tom Clemence of Clemence Watches](148/episode.md) Jul 21 2021
+- [Episode 142 -The Very Best Watches For Under $100](147/episode.md) Jul 14 2021
+- [Episode 141 - What About... Shoes](146/episode.md) Jul 08 2021
+- [Episode 140 - Interview with Chris Boudreaux from Vero Watch Company](145/episode.md) Jun 30 2021
+- [Episode 139 - What is "Swiss Made"?](144/episode.md) Jun 23 2021
+- [Episode 138 - Interview with Mike France of Christopher Ward](143/episode.md) Jun 16 2021
+- [Episode 137 - Interview With Nick Mankey of Nick Mankey Designs](142/episode.md) Jun 09 2021
+- [Episode 136 - The Objectively Best Dress-Sport Watch Under $1,000](141/episode.md) Jun 02 2021
+- [Episode 135 - What is this Thing On My Watch](140/episode.md) May 26 2021
+- [Episode 134 - Listener Q&A](139/episode.md) May 19 2021
+- [Episode 133 - Watches and Social Media](138/episode.md) May 12 2021
+- [The Poor Man's Explorer (Revisited)](137/episode.md) May 06 2021
+- [Episode 131 - Brand Heritage (ft. Tissot)](136/episode.md) Apr 28 2021
+- [Just Some Sub $300 Watches](135/episode.md) Apr 21 2021
+- [Episode 129 - What is Time?](134/episode.md) Apr 15 2021
+- [Episode 128 - RIP Dress Watch](133/episode.md) Apr 07 2021
+- [Episode 127 - Collection Overlap](132/episode.md) Apr 01 2021
+- [Episode 126 - Sō Labs Interview](131/episode.md) Mar 25 2021
+- [Episode 125 - Watch Flipping with Clay (@southpawstl15)](130/episode.md) Mar 18 2021
+- [Episode 124 - Gold Watches, with Evan Kaspar](129/episode.md) Mar 10 2021
+- [Audio Review - Alcadus Opus 39](128/episode.md) Mar 08 2021
+- [Episode 123 - How to Wear a Tool Watch](127/episode.md) Mar 03 2021
+- [Episode 122 - NOT a Show About Rolex, with Kaz Mirza](126/episode.md) Feb 24 2021
+- [Episode 121 - Digital Watches](125/episode.md) Feb 17 2021
+- [Episode 120 - Interview with Josh and Steve Roemer from SWC](124/episode.md) Feb 10 2021
+- [Episode 119 - Valjoux 7750 vs. Lemania 5100](123/episode.md) Feb 03 2021
+- [Episode 118 - Jeremy from Goodspeed Returns](122/episode.md) Jan 27 2021
+- [Episode 117 - Four Rolex for the Price of a Rolex](121/episode.md) Jan 21 2021
+- [Episode 116 - Photo Q&A with Will the Watch Clicker](120/episode.md) Jan 13 2021
+- [Episode 115 - Another Three More Watches for an Additional $600... Again](119/episode.md) Jan 06 2021
+- [Episode 114 - All About Sapphire Crystals](118/episode.md) Dec 31 2020
+- [Episode 113 - The Objectively Best Pilot's Watches for Under $500](117/episode.md) Dec 24 2020
+- [Episode 112: 40 and 20 Holiday Special](116/episode.md) Dec 17 2020
+- [40 and 20 Mini Review - Nodus Contrail II](114/episode.md) Dec 14 2020
+- [Episode 111 - The Vostok Amphibia](115/episode.md) Dec 10 2020
+- [Episode 110 - Christmas Lists!](113/episode.md) Dec 02 2020
+- [Episode 109 - Lauren and Lorenzo Ortega of Lorier (Part 2)](112/episode.md) Nov 26 2020
+- [Episode 108 - Interview with Vishal Tolani of Dartmouth Brands (Avi-8, Spinnaker, etc).](111/episode.md) Nov 18 2020
+- [Episode 107 - 2020 (Slightly Early) Year in Review](110/episode.md) Nov 11 2020
+- [Episode 106 - Talking Retromatic with Jonathan Ferrer of Brew Watch Co.](109/episode.md) Nov 04 2020
+- [Episode 105 - Revisiting the Starter Watch](108/episode.md) Oct 28 2020
+- [Episode 104 - Interview With Michael Seals of Seals Watch Co](107/episode.md) Oct 21 2020
+- [Episode 103 - Brett Williams of Albany Watches](106/episode.md) Oct 14 2020
+- [Episode 102 - Solas Watches, with Diyu Wu](105/episode.md) Oct 07 2020
+- [Episode 101 -Cameron Lazanich (of Nodus)](104/episode.md) Sep 30 2020
+- [Episode 100 - Pre-Orders: the Good, the Bad, and the Ugly](103/episode.md) Sep 23 2020
+- [Episode 99 - ISO Watch Standards:What are They?](102/episode.md) Sep 16 2020
+- [Episode 98 - Interview with Marc of Long Island Watch](101/episode.md) Sep 10 2020
+- [Episode 97 - Watch Iterations(with Mike Razak)](100/episode.md) Sep 02 2020
+- [Episode 96 - Summer Watches](99/episode.md) Aug 26 2020
+- [Episode 95 - The Watch(es?) of Everest](98/episode.md) Aug 19 2020
+- [Episode 94 - GFY Watches](97/episode.md) Aug 13 2020
+- [Episode 93 - Just Some Tool Watches](96/episode.md) Aug 05 2020
+- [Episode 92 - Interview with Michael Happe of Gavox Watches](92/episode.md) Jul 30 2020
+- [Episode 91 - WatchClicker Potpourri with Will](2/episode.md) Jul 22 2020
+- [Episode 90 - The Objectively Best Field Watch Under $501](3/episode.md) Jul 15 2020
+- [Episode 89 - GADA Watches (Or, the One Watch Collection)](4/episode.md) Jul 08 2020
+- [Episode 88 - 3 Watches for $600, Part 4](5/episode.md) Jul 02 2020
+- [40 and 20 Audio Review - New Seiko Five Sports (DressKX)](6/episode.md) Jun 30 2020
+- [Episode 87 - Interview with Lorenzo and Lauren Ortega of Lorier Watches](7/episode.md) Jun 25 2020
+- [Episode 86 - Interview with Andrew Perez of Astor+Banks](8/episode.md) Jun 18 2020
+- [Episode 85 - ANNOUNCEMENT!](9/episode.md) Jun 11 2020
+- [Episode 84 - Interview with Justin of Monta Watch](11/episode.md) Jun 03 2020
+- [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](10/episode.md) May 27 2020
+- [Episode 82 - Interview with Darren of Zulu Alpha Straps](1/episode.md) May 21 2020

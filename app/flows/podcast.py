@@ -86,27 +86,26 @@ def process_podcast(podcast: Podcast):
         incomplete_ep_numbers = filter_incomplete_episodes(podcast.name, all_ep_numbers)
 
         if not incomplete_ep_numbers:
-            log.info(f"All episodes for {podcast.name} are complete - skipping site rebuild")
-            return []
+            log.info(f"All episodes for {podcast.name} are complete")
+        else:
+            log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
 
-        log.info(f"Processing {len(incomplete_ep_numbers)} incomplete episodes")
+            # Step 6: Process each incomplete episode sequentially
+            # Note: For parallel processing, episodes should be submitted to a work pool
+            # For now, process sequentially to ensure reliability
+            for ep_number in incomplete_ep_numbers:
+                episode_entry = get_episode_details(episodes, ep_number)
+                if episode_entry:
+                    log.info(f"Processing episode {ep_number}...")
+                    process_episode(podcast, episode_entry)
+                else:
+                    log.warning(f"Could not find episode {ep_number} in feed")
 
-        # Step 6: Process each incomplete episode sequentially
-        # Note: For parallel processing, episodes should be submitted to a work pool
-        # For now, process sequentially to ensure reliability
-        results = []
-        for ep_number in incomplete_ep_numbers:
-            episode_entry = get_episode_details(episodes, ep_number)
-            if episode_entry:
-                log.info(f"Processing episode {ep_number}...")
-                result = process_episode(podcast, episode_entry)
-                results.append(result)
-            else:
-                log.warning(f"Could not find episode {ep_number} in feed")
-
-        log.info(f"All {len(results)} episodes processed successfully")
+            log.info(f"All {len(incomplete_ep_numbers)} episodes processed successfully")
 
         # Step 7: Update episodes index and generate/deploy site
+        # Always run this even when no episodes were processed, so that
+        # shownotes and episodes.md stay up to date with the RSS feed.
         update_episodes_index(podcast.name, episodes)
 
         if os.environ.get("SKIP_SITE_DEPLOY"):
@@ -114,8 +113,8 @@ def process_podcast(podcast: Podcast):
         else:
             generate_and_deploy_site(podcast)
 
-        log.info(f"Completed processing {len(incomplete_ep_numbers)} episodes for {podcast.name}")
-        return incomplete_ep_numbers
+        log.info(f"Completed processing for {podcast.name}")
+        return incomplete_ep_numbers or []
 
     except Exception as e:
         # Send email alert for individual podcast failure

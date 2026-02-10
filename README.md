@@ -189,18 +189,16 @@ For a project like this, you want a primary index / key / way to refer to an epi
 
     itunes:episode
 
-However, many podcast RSS feeds have missing or incomplete episode numbers. To solve this, we use a generalized RSS processor (`rss_processor.py`) that:
+However, many podcast RSS feeds have missing or incomplete episode numbers — and some (like TGN's Buzzsprout feed) have actively *wrong* sequential numbers that don't match the podcast's actual numbering.
 
-1. Downloads the RSS feed
-2. Fills in missing `itunes:episode` tags chronologically (oldest = 1, newest = N)
-3. Preserves existing episode numbers where they exist
-4. Avoids creating duplicate numbers
+The RSS processor (`rss_processor.py`) handles this per-podcast:
 
-After processing, all episodes have `itunes:episode` tags, which the Prefect tasks read directly - no more complex title parsing or hardcoded lookup dictionaries!
+- **WCL and Hodinkee**: Generic gap-filling — fills missing `itunes:episode` tags chronologically, trusting existing tags
+- **TGN**: Title-based numbering — ignores all `itunes:episode` tags and extracts real episode numbers from titles (e.g., "The Grey NATO – 363 – Title" → episode 363). Unnumbered special episodes get fractional numbers (e.g., 14.5, 206.5)
 
-The story is similar for per-episode URLs. Should be there, often are missing, and can sometimes be parsed out of the description.
+After processing, all episodes have correct `itunes:episode` tags, which the Prefect tasks read directly.
 
-**Testing**: Run `uv run pytest app/test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds.
+**Testing**: Run `uv run pytest app/test_rss_processing.py` to verify the RSS processor works correctly with all podcast feeds (54 tests).
 
 ### Shownotes Generation
 
@@ -209,17 +207,16 @@ Each podcast has a comprehensive shownotes page listing all related links from e
 **The Grey NATO** - Links are extracted by scraping Substack episode pages:
 - Uses `related_links_collector` package (integrated from separate repo)
 - Workflow: Extract episode URLs → Scrape Substack pages → Resolve shortlinks → Generate markdown
+- **IMPORTANT**: Results are stored in a permanent append-only cache at `app/data/tgn_related.jsonl`. Scraping all ~365 episodes takes 1-2 hours. This file must never be deleted — the scraper automatically skips already-cached URLs and only fetches new episodes.
 - Handles bit.ly shortlinks via `bitly.json` mapping
 - Handles both old and new Substack HTML formats
-- Run manually: `uv run python app/generate_tgn_shownotes.py`
 - Auto-runs via Prefect workflow when processing podcasts
 
 **40 and 20** - Links are directly in RSS feed:
 - Parses HTML from `<description>` and `<content:encoded>` tags
 - Filters out boilerplate (sponsors, social media, etc.)
-- Run manually: `uv run python app/wcl_shownotes.py`
 
-**Stats**: TGN has 6,611 links from 355 episodes (avg 18.6/episode), WCL has 2,197 links from 275 episodes (avg 8.0/episode).
+**Stats** (Feb 2026): TGN has 7,663 links from 359 episodes (avg 21.3/episode), WCL has 2,197 links from 275 episodes (avg 8.0/episode).
 
 ## Troubleshooting
 

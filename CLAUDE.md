@@ -193,15 +193,25 @@ When `podcast_name='tgn'` is passed to `process_feed()`, it calls `extract_tgn_e
 
 ### Speaker Attribution
 
-`app/tasks/attribute.py` sends diarized transcript to Claude Sonnet, which returns:
+`app/tasks/attribute.py` sends diarized transcript to Claude, which returns:
 - `<attribution>` JSON block mapping speaker IDs to names
 - `<synopsis>` text block with episode summary
 
+**Important**: Attribution uses regular `client.messages.create` with XML tag parsing — NOT the structured output beta (`client.beta.messages.parse`). The structured output approach was tried and failed: it returns empty `speaker_map` dicts while correctly generating synopses.
+
 ### Shownotes Generation
 
+**CRITICAL: Shownotes data is expensive and must NEVER be re-fetched from scratch.**
+
+The TGN shownotes scraper takes 1-2 hours to scrape all ~365 Substack episode pages. Results are stored in a **permanent append-only cache** at `app/data/tgn_related.jsonl` (~2.4MB). This file must never be deleted or regenerated — only new episodes are appended incrementally.
+
 - **TGN**: Scrapes Substack pages for related links (`app/related_links_collector/`)
-- **WCL**: Extracts links from RSS HTML (`app/wcl_shownotes.py`)
-- **Hodinkee**: Placeholder generation
+  - Cache: `app/data/tgn_related.jsonl` (PERMANENT, append-only — never delete!)
+  - Working file: `app/data/tgn_urls.txt` (regenerated each run from RSS)
+  - Error log: `app/data/tgn_exceptions.jsonl`
+  - Output: `sites/tgn/docs/shownotes.md`
+- **WCL**: Extracts links from RSS HTML (`app/tasks/shownotes.py`)
+- **Hodinkee**: Placeholder (not implemented)
 
 ### Bit.ly Resolution
 
@@ -238,3 +248,29 @@ Environment="HTTPX_TIMEOUT=30.0"
 ```
 
 See [WEBHOOK_FIX.md](WEBHOOK_FIX.md) for troubleshooting webhook issues.
+
+## Operational Notes
+
+### Running Scripts from the Correct Directory
+
+Scripts in `app/` need `app/` on the Python path. Either run from the `app/` directory or use the `run_*.py` scripts in the project root. Running Prefect tasks directly from the project root will fail with `ModuleNotFoundError`.
+
+### Site Build Timing on Raspberry Pi
+
+The Pi is slow for site builds:
+- zensical: ~4 min (TGN), ~7 min (WCL), ~3 min (Hodinkee)
+- pagefind: ~10-22 seconds
+- rsync deploy: ~3 minutes
+- Total per site: ~8-12 minutes
+
+### Podcast Flow Always Rebuilds
+
+The podcast flow (`app/flows/podcast.py`) always runs `update_episodes_index()` and `generate_and_deploy_site()`, even when no new episodes are found. This ensures shownotes and episodes.md stay current with the RSS feed.
+
+### Data Files That Must Be Preserved
+
+These files are expensive to regenerate and should be treated as append-only:
+- `app/data/tgn_related.jsonl` — TGN shownotes scrape cache (1-2 hours to rebuild)
+- `app/data/bitly.json` — Manual bit.ly → canonical URL mappings
+- `podcasts/{podcast}/{ep}/transcription.json` — Transcription results (~3.5 min each)
+- `podcasts/{podcast}/{ep}/speaker-map.json` — Claude attribution results (API cost)
