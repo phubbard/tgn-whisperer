@@ -68,7 +68,7 @@ def process_podcast(podcast: Podcast):
         # Step 4: Send notifications for truly new episodes
         if new_ep_numbers:
             log.info(f"Found {len(new_ep_numbers)} new episodes")
-            send_notification_email(podcast, new_ep_numbers)
+            send_notification_email(podcast, new_ep_numbers, episodes)
         else:
             log.info(f"No new episodes found")
 
