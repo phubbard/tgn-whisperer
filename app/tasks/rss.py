@@ -3,7 +3,6 @@ import json
 import xmltodict
 from pathlib import Path
 from prefect import task
-from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 import requests
 

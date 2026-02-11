@@ -5,7 +5,6 @@ from datetime import datetime
 from html import unescape
 from pathlib import Path
 from prefect import task
-from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 
 # Import TGN-specific functions from related_links_collector
@@ -18,7 +17,7 @@ from related_links_collector.generate_markdown import generate_markdown
     name="generate-tgn-shownotes",
     retries=2,
     retry_delay_seconds=60,
-    cache_policy=INPUTS,
+    # NO CACHING - inputs are file paths which don't change, but file contents do
     log_prints=True
 )
 def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
@@ -221,7 +220,7 @@ def _generate_wcl_markdown(episodes: list[dict], output_path: Path, log=None):
     name="generate-wcl-shownotes",
     retries=2,
     retry_delay_seconds=60,
-    cache_policy=INPUTS,
+    # NO CACHING - inputs are file paths which don't change, but file contents do
     log_prints=True
 )
 def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
