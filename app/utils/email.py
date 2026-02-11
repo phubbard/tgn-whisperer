@@ -5,7 +5,7 @@ from os import getenv
 from pathlib import Path
 from loguru import logger as log
 
-from constants import system_admin, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME
+from constants import system_admin, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, format_episode_number
 
 
 class FastMailSMTP(smtplib.SMTP_SSL):
@@ -83,7 +83,7 @@ def send_notification_email(email_list: list[str], new_ep_list: list[float], bas
 
     payload = f'New episode{"s" if new_count > 1 else ""}:\n'
     for ep in sorted(new_ep_list):
-        payload = payload + f"\n{base_url}/{str(ep)}/episode/"
+        payload = payload + f"\n{base_url}/{format_episode_number(ep)}/episode/"
     payload += '\n' + disclaimer
 
     log.info(f'Emailing {email_list} with {new_count} episodes...')
