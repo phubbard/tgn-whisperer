@@ -3,7 +3,6 @@ import json
 import xmltodict
 from pathlib import Path
 from prefect import task
-from prefect.cache_policies import INPUTS
 from utils.logging import get_logger
 import requests
 
@@ -55,7 +54,9 @@ def fetch_rss_feed(podcast: Podcast) -> str:
     name="process-rss-feed",
     retries=2,
     retry_delay_seconds=60,
-    cache_policy=INPUTS,
+    # NO CACHING - this task must always reprocess since behavior depends on
+    # podcast-specific logic (e.g., TGN title-based numbering) that may change.
+    # Caching on INPUTS would return stale results if only the code changed.
     log_prints=True
 )
 def process_rss_feed(rss_content: str, podcast_name: str) -> dict:
@@ -84,7 +85,7 @@ def process_rss_feed(rss_content: str, podcast_name: str) -> dict:
     feed_file.write_text(rss_content)
 
     # Process the feed to add missing episode numbers
-    total, modified = process_feed(feed_file, verbose=False)
+    total, modified = process_feed(feed_file, verbose=False, podcast_name=podcast_name)
     if modified > 0:
         log.info(f"{podcast_name} feed processed: {total} episodes, {modified} modified")
     else:

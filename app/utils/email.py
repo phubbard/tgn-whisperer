@@ -5,7 +5,7 @@ from os import getenv
 from pathlib import Path
 from loguru import logger as log
 
-from constants import system_admin, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME
+from constants import system_admin, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, format_episode_number
 
 
 class FastMailSMTP(smtplib.SMTP_SSL):
@@ -62,7 +62,8 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         log.info(f"Email sent to {', '.join(to_addrs)}")
 
 
-def send_notification_email(email_list: list[str], new_ep_list: list[float], base_url: str) -> None:
+def send_notification_email(email_list: list[str], new_ep_list: list[float], base_url: str,
+                           ep_titles: dict[float, str] = None) -> None:
     """
     Send email notification about new episodes.
 
@@ -70,6 +71,7 @@ def send_notification_email(email_list: list[str], new_ep_list: list[float], bas
         email_list: List of email addresses to notify
         new_ep_list: List of new episode numbers
         base_url: Base URL for episode links
+        ep_titles: Optional dict mapping episode numbers to titles
     """
     new_count = len(new_ep_list)
     if new_count == 0:
@@ -78,12 +80,17 @@ def send_notification_email(email_list: list[str], new_ep_list: list[float], bas
 
     subject = f'{new_count} new episodes are available' if new_count > 1 else 'New episode available'
 
-    disclaimer = ('This email goes out just as the process begins, so transcripts may be delayed - about 90 minutes per '
-                  'episode.')
+    disclaimer = ('This email goes out just as the process begins, so transcripts may be delayed '
+                  '- about 15 minutes per episode.')
 
     payload = f'New episode{"s" if new_count > 1 else ""}:\n'
     for ep in sorted(new_ep_list):
-        payload = payload + f"\n{base_url}/{str(ep)}/episode/"
+        ep_str = format_episode_number(ep)
+        title = ep_titles.get(ep, '') if ep_titles else ''
+        if title:
+            payload += f"\n{title}\n{base_url}/{ep_str}/episode/\n"
+        else:
+            payload += f"\n{base_url}/{ep_str}/episode/"
     payload += '\n' + disclaimer
 
     log.info(f'Emailing {email_list} with {new_count} episodes...')

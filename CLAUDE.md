@@ -69,6 +69,37 @@ uv run pytest app/test_rss_processing.py -v
 ./reprocess tgn 361 --all --dry-run      # Preview without executing
 ```
 
+## Running Tasks
+
+**Always use the existing Prefect tasks and flows** when executing operations, rather than writing ad-hoc scripts or shell commands. The Prefect code handles retries, logging, caching, and error reporting.
+
+Examples of running operations through Prefect code:
+
+```python
+# Rebuild episodes.md + build + deploy for a single podcast
+from models.podcast import get_all_podcasts
+from tasks.rss import fetch_rss_feed, process_rss_feed
+from tasks.build import update_episodes_index
+from flows.podcast import generate_and_deploy_site
+
+podcasts = get_all_podcasts()
+tgn = [p for p in podcasts if p.name == 'tgn'][0]
+
+rss_content = fetch_rss_feed(tgn)
+feed_data = process_rss_feed(rss_content, tgn.name)
+update_episodes_index(tgn.name, feed_data['episodes'])
+generate_and_deploy_site(tgn)
+```
+
+Key Prefect tasks available:
+- `fetch_rss_feed(podcast)` → RSS content string
+- `process_rss_feed(rss_content, podcast_name)` → dict with `episodes`, `total_count`, `modified_count`
+- `update_episodes_index(podcast_name, episodes)` → rebuilds `sites/{podcast}/docs/episodes.md`
+- `build_site(podcast_name)` → runs zensical, returns site path
+- `generate_search_index(site_path)` → runs pagefind
+- `deploy_site(podcast_name, site_path)` → rsyncs to `/usr/local/www/{podcast}`
+- `generate_and_deploy_site(podcast)` → flow that runs shownotes + build + search + deploy
+
 ## Architecture
 
 ### Prefect Flow Hierarchy
@@ -113,38 +144,74 @@ sites/{podcast}/docs/{episode}/  # Publication directory (markdown for site)
 
 ### RSS Episode Numbering
 
-`app/rss_processor.py` fills missing `itunes:episode` tags chronologically. Many podcast feeds have incomplete episode numbers, so this processor ensures all episodes have numbers.
+`app/rss_processor.py` processes podcast RSS feeds to ensure all episodes have correct `itunes:episode` tags.
 
-#### TGN (The Grey NATO) - Special Numbering
+- **WCL and Hodinkee**: Generic gap-filling — fills missing `itunes:episode` tags chronologically, trusting existing tags.
+- **TGN**: Title-based numbering — ignores all existing `itunes:episode` tags (Buzzsprout assigns wrong sequential numbers 1–373) and extracts real episode numbers from titles.
 
-TGN uses hand-authored episode numbers in titles that must be respected:
+When `podcast_name='tgn'` is passed to `process_feed()`, it calls `extract_tgn_episode_number()` to parse titles, then assigns fractional numbers to unnumbered episodes.
 
-**Title Formats:**
-- Modern (episode 118+): `The Grey NATO – 363 – Title` → episode 363
-- Early formats: `The Grey NATO - Ep 61`, `EP 59`, `Episode 03`
+#### TGN (The Grey NATO) - Title-Based Numbering
 
-**Directory Naming:**
+**Why**: Buzzsprout assigns sequential `itunes:episode` tags (1, 2, 3, ..., 373) that don't match TGN's actual numbering. The real episode numbers are hand-authored in episode titles.
+
+**Title Parser** (`extract_tgn_episode_number()` in `rss_processor.py`):
+
+| Format | Example | Extracts |
+|--------|---------|----------|
+| Modern em-dash | `The Grey NATO – 363 – Title` | 363 |
+| Modern trailing | `The Grey NATO – 300!` | 300 |
+| Ep/EP prefix | `The Grey Nato - EP 14 - "TGN Summit"` | 14 |
+| Episode prefix | `The Grey Nato - Episode 01 - "All Lux'd Out"` | 1 |
+| Number only | `The Grey Nato - 02 - Origin Stories` | 2 |
+| Re-Reupload | `The Grey NATO – 206 Re-Reupload – ...` | None (→ 206.5) |
+| Unnumbered | `TGN Chats - Chase Fancher`, `Out Of Office`, `Depth Charge` | None (→ fractional) |
+
+**Fractional Episode Assignment** (for unnumbered episodes):
+- Looks at previous and next numbered episodes in chronological order
+- If gap exists between them: fills with next integer (e.g., 2 and 4 → 3)
+- If no gap: uses fractional (e.g., 14 and 15 → 14.5)
+
+**All 10 Known Fractional Episodes:**
+
+| Number | Title |
+|--------|-------|
+| 14.5 | TGN Chats - Chase Fancher :: Oak & Oscar |
+| 16.5 | TGN Chats - Merlin Schwertner (Nomos) And Jason Gallop (Roldorf) |
+| 20.5 | The Grey Nato - Question & Answer #1 |
+| 143.5 | Depth Charge - The Original Soundtrack by Oran Chan |
+| 160.5 | The Grey NATO – A Week Off (And A Request!) |
+| 206.5 | The Grey NATO – 206 Re-Reupload – New Watches! |
+| 214.5 | Drafting High-End Watches – A TGN Special With Collective Horology |
+| 260.5 | Drafting Our Favorite Watches Of The 1970s – A TGN Special |
+| 282.5 | The Grey NATO – The Ineos Grenadier Minisode With Thomas Holland |
+| 295.5 | Out Of Office – Back August 22nd |
+
+**Directory Naming** (`format_episode_number()` in `constants.py`):
 - Integer episodes: No .0 suffix (e.g., `363/`, not `363.0/`)
 - Fractional episodes: Include decimal (e.g., `14.5/`, `295.5/`)
 
-**Fractional Episodes:**
-Unnumbered episodes (Q&As, special episodes) get fractional numbers:
-- If gap exists between numbered episodes: Fill with integer (2 and 4 → 3)
-- If no gap: Use fractional (14 and 15 → 14.5)
-
-Examples: Episodes 14.5, 16.5, 20.5, 143.5, 160.5, 206.5, 214.5, 260.5, 282.5, 295.5
-
 ### Speaker Attribution
 
-`app/tasks/attribute.py` sends diarized transcript to Claude Sonnet, which returns:
+`app/tasks/attribute.py` sends diarized transcript to Claude, which returns:
 - `<attribution>` JSON block mapping speaker IDs to names
 - `<synopsis>` text block with episode summary
 
+**Important**: Attribution uses regular `client.messages.create` with XML tag parsing — NOT the structured output beta (`client.beta.messages.parse`). The structured output approach was tried and failed: it returns empty `speaker_map` dicts while correctly generating synopses.
+
 ### Shownotes Generation
 
+**CRITICAL: Shownotes data is expensive and must NEVER be re-fetched from scratch.**
+
+The TGN shownotes scraper takes 1-2 hours to scrape all ~365 Substack episode pages. Results are stored in a **permanent append-only cache** at `app/data/tgn_related.jsonl` (~2.4MB). This file must never be deleted or regenerated — only new episodes are appended incrementally.
+
 - **TGN**: Scrapes Substack pages for related links (`app/related_links_collector/`)
-- **WCL**: Extracts links from RSS HTML (`app/wcl_shownotes.py`)
-- **Hodinkee**: Placeholder generation
+  - Cache: `app/data/tgn_related.jsonl` (PERMANENT, append-only — never delete!)
+  - Working file: `app/data/tgn_urls.txt` (regenerated each run from RSS)
+  - Error log: `app/data/tgn_exceptions.jsonl`
+  - Output: `sites/tgn/docs/shownotes.md`
+- **WCL**: Extracts links from RSS HTML (`app/tasks/shownotes.py`)
+- **Hodinkee**: Placeholder (not implemented)
 
 ### Bit.ly Resolution
 
@@ -181,3 +248,29 @@ Environment="HTTPX_TIMEOUT=30.0"
 ```
 
 See [WEBHOOK_FIX.md](WEBHOOK_FIX.md) for troubleshooting webhook issues.
+
+## Operational Notes
+
+### Running Scripts from the Correct Directory
+
+Scripts in `app/` need `app/` on the Python path. Either run from the `app/` directory or use the `run_*.py` scripts in the project root. Running Prefect tasks directly from the project root will fail with `ModuleNotFoundError`.
+
+### Site Build Timing on Raspberry Pi
+
+The Pi is slow for site builds:
+- zensical: ~4 min (TGN), ~7 min (WCL), ~3 min (Hodinkee)
+- pagefind: ~10-22 seconds
+- rsync deploy: ~3 minutes
+- Total per site: ~8-12 minutes
+
+### Podcast Flow Always Rebuilds
+
+The podcast flow (`app/flows/podcast.py`) always runs `update_episodes_index()` and `generate_and_deploy_site()`, even when no new episodes are found. This ensures shownotes and episodes.md stay current with the RSS feed.
+
+### Data Files That Must Be Preserved
+
+These files are expensive to regenerate and should be treated as append-only:
+- `app/data/tgn_related.jsonl` — TGN shownotes scrape cache (1-2 hours to rebuild)
+- `app/data/bitly.json` — Manual bit.ly → canonical URL mappings
+- `podcasts/{podcast}/{ep}/transcription.json` — Transcription results (~3.5 min each)
+- `podcasts/{podcast}/{ep}/speaker-map.json` — Claude attribution results (API cost)
