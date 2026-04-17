@@ -1,4 +1,16 @@
-### Page updated Feb 09 2026 19:04 - 294 episodes
+### Page updated Apr 17 2026 07:17 - 306 episodes
+- [TAG Heuer, A. Lange & Sohne, JLC, Chopard, and More | Hodinkee Podcast | Watches and Wonders - Day 3](293/episode.md) Apr 17 2026
+- [Vacheron, IWC, Grand Seiko, Oris, Lange and More | Hodinkee Podcast | Watches and Wonders - Day 2](292/episode.md) Apr 16 2026
+- [[Hodinkee Podcast] Watches and Wonders - Day 1 | Rolex, Patek, Tudor & Cartier](291/episode.md) Apr 15 2026
+- [The Business of Watches [023] Raymond Weil CEO Elie Bernheim (Plus: Ben Clymer On The New RRCHF)](290/episode.md) Apr 08 2026
+- [The Business of Watches [022] Maxime Couturier And Lorenzo Maillard Of The New Chronopolis Watch Fair](289/episode.md) Apr 01 2026
+- [The Business of Watches [021] La Joux-Perret CEO Jean-Claude Eggen](288/episode.md) Mar 25 2026
+- [The Business of Watches [020] Doxa CEO Jan Edocs](287/episode.md) Mar 18 2026
+- [The Business of Watches [019] Greubel Forsey CEO Michel Nydegger](286/episode.md) Mar 11 2026
+- [The Business of Watches [018] Zenith CEO Benoit De Clerck](285/episode.md) Mar 04 2026
+- [The Business of Watches [017] Oliver Müller, The Man Behind The Numbers For The Morgan Stanley Swiss Watcher Report](284/episode.md) Feb 25 2026
+- [The Business of Watches [016] Gerald Charles CEO Federico Ziviani Makes The Case For Another Genta-Linked Brand](283/episode.md) Feb 18 2026
+- [The Business of Watches [015] Marathon Watches CEO Mitchell Wein Says He Has To Be Ready For War](282/episode.md) Feb 11 2026
 - [The Business of Watches [014] Baume & Mercier CEO Michael Guenoun Talks Strategy On The Eve Of The Brand's Sale By Richemont](281/episode.md) Feb 04 2026
 - [The Business of Watches [013] Norqain CEO Ben Küffer On The NHL Partnership And The Challenge Of Standing Out In A Crowded Market](280/episode.md) Jan 28 2026
 - [The Business of Watches [012] Manuel Emch, The Head Of Louis Erard And 'The Numbers Guy' At Kollokium, On How To Build A Successful Swiss Watch Brand](279/episode.md) Jan 21 2026
@@ -193,7 +205,7 @@
 - [Killer New Sport Watches (Plus Collector Edmond Saran)](89/episode.md) May 04 2020
 - [The New Watches Of Watches & Wonders 2020](88/episode.md) Apr 27 2020
 - [Wrapping Up Watch Madness (Plus Watches & Wonders Goes Online)](87/episode.md) Apr 20 2020
-- [Is Baselworld Dead?](293/episode.md) Apr 14 2020
+- [Is Baselworld Dead?](305/episode.md) Apr 14 2020
 - [Gary Shteyngart & Danny's Talking Watches Highlights](86/episode.md) Apr 13 2020
 - [Howie Kendrick & Revisiting The Tudor Black Bay GMT](85/episode.md) Apr 06 2020
 - ['Watch Madness' Talking Watches Tournament Preview](84/episode.md) Mar 30 2020
@@ -214,11 +226,11 @@
 - [Designer Marc Thorpe, Bond's New Watch, And Auction Talk](69/episode.md) Dec 09 2019
 - [The Sartorialist Returns, The Lange Odysseus, & The Watch That Came In From The Cold](68/episode.md) Dec 02 2019
 - [HODINKEE Lands In Japan & Ming Thein Of Ming Watches](67/episode.md) Nov 25 2019
-- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](292/episode.md) Nov 22 2019
+- [Bonus Episode With Nicole Stott (NASA Astronaut & Omega Ambassador)](304/episode.md) Nov 22 2019
 - [Inside The HODINKEE Magazine And Bringing Back Om Malik](66/episode.md) Nov 18 2019
-- [Breaking Down Results From The 2019 GPHG Awards](291/episode.md) Nov 14 2019
+- [Breaking Down Results From The 2019 GPHG Awards](303/episode.md) Nov 14 2019
 - [A Trio Of Lange 1s & Some Exceptional Sea-Dwellers (Plus, Drake's Michael Hill)](65/episode.md) Nov 11 2019
-- [2019 Grand Prix d'Horlogerie de Genève Preview](290/episode.md) Nov 06 2019
+- [2019 Grand Prix d'Horlogerie de Genève Preview](302/episode.md) Nov 06 2019
 - [The 10 Most Influential Modern Watches & A New Kind Of Watch Club](64/episode.md) Nov 04 2019
 - [Patrick Godfrey And Iconic Movie Watches](63/episode.md) Oct 28 2019
 - [Talking Auctions With Eric Ku & Only Watch 2019 Preview](62/episode.md) Oct 21 2019
@@ -248,10 +260,10 @@
 - [Dan White (Magician)](38/episode.md) Apr 15 2019
 - [Scott Schuman (The Sartorialist)](37/episode.md) Apr 08 2019
 - [James Marsden (Actor)](36/episode.md) Apr 01 2019
-- [Baselworld 2019 Round-Up, Day 4](289/episode.md) Mar 23 2019
-- [Baselworld 2019 Round-Up, Day 3](288/episode.md) Mar 22 2019
-- [Baselworld 2019 Round-Up, Day 2](287/episode.md) Mar 21 2019
-- [Baselworld 2019 Round-Up, Day 1](286/episode.md) Mar 20 2019
+- [Baselworld 2019 Round-Up, Day 4](301/episode.md) Mar 23 2019
+- [Baselworld 2019 Round-Up, Day 3](300/episode.md) Mar 22 2019
+- [Baselworld 2019 Round-Up, Day 2](299/episode.md) Mar 21 2019
+- [Baselworld 2019 Round-Up, Day 1](298/episode.md) Mar 20 2019
 - [Baselworld 2019 Preview](35/episode.md) Mar 18 2019
 - [Yves Béhar (Designer)](34/episode.md) Mar 11 2019
 - [Chris Grainger (CEO, IWC)](33/episode.md) Mar 04 2019
@@ -261,9 +273,9 @@
 - [Aldis Hodge (Actor)](29/episode.md) Feb 04 2019
 - [François-Henry Bennahmias (CEO, Audemars Piguet)](28/episode.md) Jan 28 2019
 - [Marc Newson (Designer)](27/episode.md) Jan 21 2019
-- [SIHH 2019 Round-Up, Day 3](285/episode.md) Jan 17 2019
-- [SIHH 2019 Round-Up, Day 2](284/episode.md) Jan 15 2019
-- [SIHH 2019 Round-Up, Day 1](283/episode.md) Jan 14 2019
+- [SIHH 2019 Round-Up, Day 3](297/episode.md) Jan 17 2019
+- [SIHH 2019 Round-Up, Day 2](296/episode.md) Jan 15 2019
+- [SIHH 2019 Round-Up, Day 1](295/episode.md) Jan 14 2019
 - [Maximilian Büsser (Founder, MB&F)](26/episode.md) Jan 07 2019
 - [Jean-Claude Biver (Live From HODINKEE 10)](25/episode.md) Dec 24 2018
 - [The Grey NATO](24/episode.md) Dec 17 2018
@@ -275,7 +287,7 @@
 - [GPHG 2018 Preview (And Some Auction Talk)](18/episode.md) Nov 05 2018
 - [Davide Cerrato (Head Of Watchmaking, Montblanc)](17/episode.md) Oct 29 2018
 - [Michael Weisberg (Vintage Expert)](16/episode.md) Oct 22 2018
-- [The Grey NATO, Ep 66: We're Back!](282/episode.md) Oct 18 2018
+- [The Grey NATO, Ep 66: We're Back!](294/episode.md) Oct 18 2018
 - [Ted Gushue (Photographer, Car Guy)](15/episode.md) Oct 15 2018
 - [Matt Scannell (Frontman, Vertical Horizon)](14/episode.md) Oct 08 2018
 - [Jason Fried (Founder, Basecamp)](13/episode.md) Oct 01 2018

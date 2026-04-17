@@ -19,7 +19,8 @@ def generate_episode_markdown(
     episode_data: dict,
     speaker_map_path: Path,
     synopsis_path: Path,
-    podcast_name: str = None
+    podcast_name: str = None,
+    episode_shownotes: list[dict] = None
 ) -> Path:
     """
     Generate episode markdown file from transcript and attribution.
@@ -30,6 +31,7 @@ def generate_episode_markdown(
         speaker_map_path: Path to speaker map JSON
         synopsis_path: Path to synopsis text file
         podcast_name: Name of the podcast (optional, for conditional formatting)
+        episode_shownotes: List of shownotes links (dicts with 'text' and 'url')
 
     Returns:
         Path to generated markdown file
@@ -80,6 +82,15 @@ def generate_episode_markdown(
     links_lines.append("- [episode MP3 - local mirror](episode.mp3)")
     links_section = '\n'.join(links_lines)
 
+    # Build shownotes section if available
+    shownotes_section = ''
+    if episode_shownotes:
+        shownotes_lines = ['## Show Notes', '']
+        for link in episode_shownotes:
+            shownotes_lines.append(f"- [{link['text']}]({link['url']})")
+        shownotes_lines.append('')
+        shownotes_section = '\n'.join(shownotes_lines)
+
     md_content = f'''---
 search:
   exclude: true
@@ -95,6 +106,7 @@ Published on {pub_date}
 
 {links_section}
 
+{shownotes_section}
 ## Transcript
 '''
 

@@ -1,4 +1,15 @@
-### Page updated Feb 09 2026 18:52 - 300 episodes
+### Page updated Apr 17 2026 07:07 - 300 episodes
+- [Our Watches and Wonders Selections (389)](395/episode.md) Apr 14 2026
+- [You Get a Movement; You Get a Movement (388)](394/episode.md) Apr 07 2026
+- [Longines Nails its Refresh, Omega Bombs (387)](393/episode.md) Mar 31 2026
+- [Seiko, Citizen, and Tissot (386)](392/episode.md) Mar 24 2026
+- [Timex, Doxa, and Serica (385)](391/episode.md) Mar 17 2026
+- [Animatic, Hanhart, and Vulcain Get Weird (384)](390/episode.md) Mar 12 2026
+- [Sinn With our Favorite Navitimer Ever (383)](389/episode.md) Mar 11 2026
+- [All the Best Integrated Steel (382)](388/episode.md) Feb 23 2026
+- [Orient Star Finally Impresses Us (381)](387/episode.md) Feb 18 2026
+- [Traska and Fears Both Stun (380)](386/episode.md) Feb 10 2026
+- [Piaget, Hanhart, and Citizen (379)](385/episode.md) Feb 02 2026
 - [Sellita is Back, Baby (378)](384/episode.md) Jan 26 2026
 - [Legacy Watch Brands Have a Great Week (377)](383/episode.md) Jan 19 2026
 - [Seiko Swings; Credor Hits (376)](382/episode.md) Jan 13 2026
@@ -288,14 +299,3 @@
 - [Episode 94 - GFY Watches](97/episode.md) Aug 13 2020
 - [Episode 93 - Just Some Tool Watches](96/episode.md) Aug 05 2020
 - [Episode 92 - Interview with Michael Happe of Gavox Watches](92/episode.md) Jul 30 2020
-- [Episode 91 - WatchClicker Potpourri with Will](2/episode.md) Jul 22 2020
-- [Episode 90 - The Objectively Best Field Watch Under $501](3/episode.md) Jul 15 2020
-- [Episode 89 - GADA Watches (Or, the One Watch Collection)](4/episode.md) Jul 08 2020
-- [Episode 88 - 3 Watches for $600, Part 4](5/episode.md) Jul 02 2020
-- [40 and 20 Audio Review - New Seiko Five Sports (DressKX)](6/episode.md) Jun 30 2020
-- [Episode 87 - Interview with Lorenzo and Lauren Ortega of Lorier Watches](7/episode.md) Jun 25 2020
-- [Episode 86 - Interview with Andrew Perez of Astor+Banks](8/episode.md) Jun 18 2020
-- [Episode 85 - ANNOUNCEMENT!](9/episode.md) Jun 11 2020
-- [Episode 84 - Interview with Justin of Monta Watch](11/episode.md) Jun 03 2020
-- [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](10/episode.md) May 27 2020
-- [Episode 82 - Interview with Darren of Zulu Alpha Straps](1/episode.md) May 21 2020

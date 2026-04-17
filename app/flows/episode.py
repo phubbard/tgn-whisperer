@@ -16,6 +16,7 @@ from tasks.markdown import (
     copy_episode_files
 )
 from tasks.rss import parse_episode_data
+from tasks.shownotes import get_episode_shownotes
 
 
 @flow(
@@ -72,8 +73,9 @@ def process_episode(podcast: Podcast, episode_entry: dict):
     if podcast.name != 'hodinkee':
         html_path = html_future.result()
 
-    # Step 6: Generate markdown
-    md_path = generate_episode_markdown(episode_dir, episode_data, speaker_map_path, synopsis_path, podcast.name)
+    # Step 6: Get episode shownotes and generate markdown
+    episode_shownotes = get_episode_shownotes(podcast.name, episode_entry)
+    md_path = generate_episode_markdown(episode_dir, episode_data, speaker_map_path, synopsis_path, podcast.name, episode_shownotes)
 
     # Step 7: Copy files to site directory
     copy_episode_files(episode_dir, site_dir)

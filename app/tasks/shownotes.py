@@ -251,6 +251,85 @@ def generate_wcl_shownotes(rss_path: Path, output_path: Path) -> Path:
     return output_path
 
 
+def get_episode_shownotes(podcast_name: str, episode_entry: dict) -> list[dict]:
+    """
+    Get shownotes links for a single episode.
+
+    Args:
+        podcast_name: Name of the podcast ('tgn', 'wcl', 'hodinkee')
+        episode_entry: RSS entry dictionary for the episode
+
+    Returns:
+        List of dicts with 'text' and 'url' keys, or empty list
+    """
+    log = get_logger()
+
+    if podcast_name == 'tgn':
+        return _get_tgn_episode_shownotes(episode_entry, log)
+    elif podcast_name == 'wcl':
+        return _get_wcl_episode_shownotes(episode_entry, log)
+    else:
+        return []
+
+
+def _get_tgn_episode_shownotes(episode_entry: dict, log) -> list[dict]:
+    """Get shownotes for a TGN episode from the JSONL cache."""
+    # Find the Substack URL from the RSS entry's itunes:summary
+    summary = episode_entry.get('itunes:summary', '')
+    if not summary:
+        return []
+
+    import re
+    matches = re.findall(r'https://thegreynato\.substack\.com/p/[^\s<>\]]+', summary)
+    if not matches:
+        return []
+
+    substack_url = matches[0]
+
+    # Load related links from JSONL cache
+    data_dir = Path(__file__).parent.parent / 'data'
+    related_file = data_dir / 'tgn_related.jsonl'
+
+    if not related_file.exists():
+        log.warning(f"TGN related links cache not found: {related_file}")
+        return []
+
+    import json
+    with open(related_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            rec = json.loads(line)
+            if rec.get('source_url') == substack_url and rec.get('status') == 'ok':
+                links = []
+                for link in rec.get('related', []):
+                    text = link.get('text', '').strip()
+                    href = link.get('href', '').strip()
+                    context = (link.get('context') or '').strip()
+
+                    # If text is a shortlink, prefer context or href
+                    if text and any(s in text.lower() for s in
+                                   ['bit.ly', 'amzn.to', 'youtu.be', 'goo.gl', 't.co', 'tinyurl.com']):
+                        text = context if context else href
+
+                    if text and href:
+                        links.append({'text': text, 'url': href})
+                    elif href:
+                        links.append({'text': href, 'url': href})
+                return links
+
+    return []
+
+
+def _get_wcl_episode_shownotes(episode_entry: dict, log) -> list[dict]:
+    """Get shownotes for a WCL episode from RSS HTML content."""
+    description = episode_entry.get('description', '')
+    content = episode_entry.get('content:encoded', description)
+
+    if not content:
+        return []
+
+    return _extract_links_from_html(content)
+
+
 @task(
     name="generate-hodinkee-shownotes",
     log_prints=True

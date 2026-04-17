@@ -1,8 +1,232 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on January 30, 2026
+Generated on April 17, 2026
 
-**2207 total links from 276 episodes (out of 300 episodes scraped, 24 without any links), averaging 8.0 per episode.**
+**2332 total links from 287 episodes (out of 300 episodes scraped, 13 without any links), averaging 8.1 per episode.**
+
+---
+
+## [Our Watches and Wonders Selections (389)](https://the40and20podcast.podbean.com/e/our-watches-and-wonders-selections-389/)
+
+**Published:** April 14, 2026 at 10:23 PM
+
+**Related Links (11):**
+
+- [Breitling Navitimer B02 Cosmonaute Artemis II](https://www.hodinkee.com/articles/the-breitling-navitimer-b02-chronograph-41-cosmonaute-artemis-ii-a-new-cosmonaute-just-back-from-spa)
+- [Tudor Monarch](https://www.hodinkee.com/articles/tudor-revives-the-monarch-with-a-new-faceted-case-and-bracelet)
+- [Bremont Supernova Chronograph](https://monochrome-watches.com/shooting-for-the-moon-bremont-supernova-chronograph-review-2026-price/)
+- [Monta Noble 40](https://wornandwound.com/review/hands-on-the-monta-noble-40/)
+- [Bulgari Octo Finissimo Minute Repeater](https://timeandtidewatches.com/bulgari-octo-finissimo-37mm-hands-on/)
+- [Tudor BB58](https://www.hodinkee.com/articles/tudor-updates-the-black-bay-58-now-includes-metas-certification)
+- [Oris Star Edition](https://monochrome-watches.com/2026-oris-star-edition-revival-introducing-price/)
+- [Jaeger-LeCoultre Master Control](https://www.hodinkee.com/articles/the-jaeger-lecoultre-master-control-chronometre-a-new-integrated-bracelet-sport-watch-in-three-model)
+- [Universal Geneve Polerouter](https://www.hodinkee.com/articles/the-universal-geneve-relaunch-brings-back-the-iconic-polerouter-in-eleven-variants)
+- [Throw the Burrito](https://www.explodingkittens.com/products/throw-throw-burrito-original-edition?srsltid=AfmBOooT4vPjT60SRaBp-Sgjt7uaJ6IFMbDK0I2JaY3UOGsZL_Vd8mIQ)
+- [ICON Ratchet and Bit Set 35 piece](https://www.harborfreight.com/locking-flex-head-ratchet-and-bit-set-35-piece-58074.html)
+
+---
+
+## [You Get a Movement; You Get a Movement (388)](https://the40and20podcast.podbean.com/e/you-get-a-movement-you-get-a-movement-388/)
+
+**Published:** April 07, 2026 at 10:48 PM
+
+**Related Links (11):**
+
+- [Watches aboard Artemis II](https://www.fratellowatches.com/the-watches-worn-on-the-nasa-artemis-ii-mission/)
+- [Albishorn Thundergraph Khumbu](https://wornandwound.com/albishorn-introduces-their-latest-imaginary-vintage-watch-the-thundergraph-khumbu/)
+- [Nivada Grenchen Antarctic Erotic](https://monochrome-watches.com/nivada-grenchen-antarctic-erotic-automata-caseback-introducing-price/)
+- [Minerva](https://www.hodinkee.com/articles/minerva-repositions-in-new-role-as-distinct-entity-within-montblanc-brand)
+- [Ressence Type 11](https://monochrome-watches.com/ressence-type-11-first-proprietary-movement-calibre-werk-rw-01-introducing-price/)
+- [Wolbrook JetFlyer](https://wornandwound.com/review/hands-on-the-wolbrook-jetflyer-and-the-new-jeambrun-ps6402-automatic-chronograph-caliber/)
+- [Earthen](https://monochrome-watches.com/earthen-summit-nightfall-and-moonglow-accessible-ceramic-field-watches-aventurine-dial-introducing-price/)
+- [Casio Edifice EFK-110](https://www.fratellowatches.com/hands-on-with-the-impressive-casio-edifice-efk-110-series-a-welcome-evolution-of-the-efk-100/#gref)
+- [Unimatic Special OPS](https://www.unimaticwatches.com/u3fb-rops/?srsltid=AfmBOoovpCVGYnRIPtmnw0vVEKQTmMcKAoyVaxN6XMvAg-DwoB4iTKQa&sf_pdp_variant=v2)
+- [The Halal Guys Red Sauce](https://thehalalguys.com/the-halal-guys-that-famous-hot-sauce/)
+- [Build a First Aid Kid](https://rescue-essentials.com/rescue-essentials-blog/diy-first-aid-kits-build-your-own-medical-kit/?srsltid=AfmBOor5UchKZ6toSETzetW6NPEvewAAYNGkT3L65xwo8bUSFmqy4jQP)
+
+---
+
+## [Longines Nails its Refresh, Omega Bombs (387)](https://the40and20podcast.podbean.com/e/longines-nails-its-refresh-omega-bombs-387/)
+
+**Published:** March 31, 2026 at 10:12 PM
+
+**Related Links (11):**
+
+- [Tissot Gentleman 38mm](https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/)
+- [Amida Digitrend NASA](https://www.hodinkee.com/articles/the-amida-digitrend-nasa-edition-launches-a-space-shuttle-inspired-driving-watch-live-pics)
+- [Doxa SUB 200 II](https://www.fratellowatches.com/introducing-the-doxa-sub-200-ii-collection/#gref)
+- [Nomos Club Campus Colours](https://www.fratellowatches.com/new-nomos-club-campus-all-olive-and-full-rose/)
+- [Baltic Heures de Monde](https://wornandwound.com/baltic-introduces-the-heures-du-monde-worldtimer-with-three-stone-dial-options/)
+- [Longines Hydrocongquest NEW](https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/)
+- [Dennison ALD Shades](https://wornandwound.com/introducing-the-dennison-ald-dual-time-shades-collection/)
+- [Omega Constellation Observatory](https://monochrome-watches.com/2026-omega-constellation-observatory-collection-first-two-hand-watch-master-chronometer-certified-video-review/)
+- [Raymond Weil “The Fifty”](https://monochrome-watches.com/raymond-weil-the-fifty-chronograph-50th-anniversary-restored-vintage-valjoux-23-movement-review-price/)
+- [Fruit Juice Caviar](https://www.emilylawrence.ca/blog/2021/2/15/juice-caviar)
+- [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
+
+---
+
+## [Seiko, Citizen, and Tissot (386)](https://the40and20podcast.podbean.com/e/seiko-citizen-and-tissot-386/)
+
+**Published:** March 24, 2026 at 10:13 PM
+
+**Related Links (10):**
+
+- [Christopher Ward C63 True GMT](https://www.hodinkee.com/articles/the-christopher-ward-c63-true-gmt-adds-a-local-jumping-hour-hand-gmt-to-the-lineup)
+- [Tissot Updated Visodate](https://monochrome-watches.com/2026-tissot-visodate-collection-redesigned-powermatic-80-review-price/)
+- [J. Press X Bamford London B80](https://monochrome-watches.com/j-press-x-bamford-london-b80-ivy-league-fashion-style-watch-introducing-price/)
+- [Jack Mason Palmera](https://www.fratellowatches.com/introducing-the-jack-mason-palmera-skin-diver-and-a-new-way-of-bringing-watches-to-market/)
+- [King Seiko VANAC Ti](https://www.hodinkee.com/articles/seiko-expands-the-king-seiko-vanac-lineup-with-the-titanium-hkf001-hkf002-and-hkf003)
+- [Seiko Marinemaster](https://www.hodinkee.com/articles/the-seiko-prospex-marinemaster-divers-hbf001-and-hbf002-jamstec-limited-edition)
+- [Citizen Photon](https://www.fratellowatches.com/citizen-introduces-two-new-limited-edition-photon-models-that-take-eco-drive-to-the-next-level/#gref)
+- [Squale SUB-37 Legend](https://wornandwound.com/a-legend-is-born-squale-just-dropped-a-new-37mm-diver/)
+- [Hash Brown Patties](https://www.everydayfamilycooking.com/air-fryer-frozen-hash-brown-patties/)
+- [Leatherman Wave PLUS](https://www.leatherman.com/products/wave?srsltid=AfmBOoryw2k0-deDwCsUWpMMqLAauU27eMK4MyYpT5MInRLoRtFevtr0)
+
+---
+
+## [Timex, Doxa, and Serica (385)](https://the40and20podcast.podbean.com/e/timex-doxa-and-serica-385/)
+
+**Published:** March 17, 2026 at 10:55 PM
+
+**Related Links (12):**
+
+- [British Watchmakers Day 2026](https://www.hodinkee.com/articles/british-watchmakers-day-2026)
+- [Shohei Ohtani joins Grand Seiko](https://www.grand-seiko.com/us-en/news/2026/pr/20260312)
+- [Timex Expedition Freedive Ocean Plastic](https://twobrokewatchsnobs.com/timex-expedition-freedive-solar/)
+- [Timex Snoopy Pickleball](https://www.gq.com/story/timex-snoopy-pickleball-watches)
+- [Awake Son Mai Atlantis Blue](https://awakewatches.com/products/son-mai-silver-leaf-atlantis-blue?srsltid=AfmBOop0oC_XpRAumdUB07uwJOEOxBL6uDfAyl2q1v7w8BIOOO3yoiTw)
+- [Doxa SUB 200 Grande Roma](https://monochrome-watches.com/doxa-sub-200-grande-roma-edition-gioielleria-grande-black-gradient-dial-review-price/)
+- [Farer 35mm Cushion Case](https://wornandwound.com/farer-launches-their-cushion-case-in-a-smaller-size/)
+- [Serica 5330](https://wornandwound.com/serica-introduces-the-5330-dive-chronometer/)
+- [Nivada Grenchen F77 Aventurine](https://timeandtidewatches.com/nivada-grenchen-f77-mkii-introducing/)
+- [Raketa Baikonur](https://www.gearpatrol.com/watches/raketa-baikonur/)
+- [Blarney Stone Corned Beef](https://www.squarehbrands.com/blarney-stone/)
+- [Nebbiolo Wine](https://www.foodandwine.com/wine/red-wine/nebbiolo-wine-guide)
+
+---
+
+## [Animatic, Hanhart, and Vulcain Get Weird (384)](https://the40and20podcast.podbean.com/e/animatic-hanhart-and-vulcain-get-weird-384/)
+
+**Published:** March 12, 2026 at 10:32 PM
+
+**Related Links (10):**
+
+- [Astor + Banks Terra Scout Delayed](https://www.watchpro.com/terra-scout-watch-orders-halted-amid-scout-motors-trademark-dispute/)
+- [Kurono Tokyo Diver’s’](https://kuronotokyo.com/pages/2026-kurono-divers)
+- [Serica Ref 6190 Thai California](https://serica-watches.com/en/pages/exclusive-ref-6190-tdm?srsltid=AfmBOoqNMzl88636C5xzLwEWf73LzCd8XTiKtRnp2SdqrGkPyjH25ehy)
+- [Unimatic X The Armory X Nigel Cabourn](https://wornandwound.com/unimatic-the-armoury-and-nigel-cabourn-introduce-a-three-way-limited-edition-collaboration/)
+- [Hanhart 417 TI Desert Pilot](https://www.hodinkee.com/articles/intro-hanhart-417-ti-desert-pilot)
+- [Vulcain Skindiver Nautique Meteorite](https://monochrome-watches.com/vulcain-skindiver-nautique-meteorite-vintage-inspired-compact-dive-watch-introducing-price/)
+- [Bremont MB Meteor Felix the Cat](https://monochrome-watches.com/introducing-bremont-altitude-mb-meteor-felix-the-cat-edition-black-dlc-specs-price/)
+- [Benrus Sky Chief](https://www.hodinkee.com/articles/intro-benrus-sky-chief)
+- [A-Maze-N Smoke Tube](https://www.walmart.com/ip/A-Maze-N-12-Tube-Grill-Smoker/1490022342?wmlspartner=wlpa&selectedSellerId=0&wl13=3258&gclsrc=aw.ds&adid=222222222771490022342_117755028669_12420145346&wl0=&wl1=g&wl2=c&wl3=501107745824&wl4=pla-394283752452&wl5=9194449&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=1490022342&veh=sem_LIA&gclsrc=aw.ds&gad_source=1&gad_campaignid=12420145346&gbraid=0AAAAADmfBIrQwkzvUz2yW5Mg71gvtgips&gclid=CjwKCAjwyMnNBhBNEiwA-Kcgu55TORi53R_K7L2gjRetyt7baJNLkERcus0HLjdAd0F5aMN_oDHbrBoC-K0QAvD_BwE)
+- [Philips Sonicare DiamondClean Smart Electric Toothbrush](https://www.usa.philips.com/c-m-pe/electric-toothbrushes/diamondclean-smart/latest?srsltid=AfmBOoqG-cyys9nJ6_X8wv9iMN5MLmSq4uIhyLmnhJetxJYZtLWOCUkf#availability=instock&filters=DIAMONDCLEAN_SMART_SU)
+
+---
+
+## [Sinn With our Favorite Navitimer Ever (383)](https://the40and20podcast.podbean.com/e/sinn-with-our-favorite-navitimer-ever-383/)
+
+**Published:** March 11, 2026 at 08:59 AM
+
+**Related Links (13):**
+
+- [Studio Underd0og X Time+Tide Pizzas](https://underd0g.com/)
+- [IWC Portugieser Chronograph Ceratanium](https://www.hodinkee.com/articles/the-iwc-portugieser-chronograph-ceratanium-is-a-sleek-twist-on-a-classic)
+- [Raymond Weil Millesime Small Seconds](https://www.fratellowatches.com/three-new-raymond-weil-millesime-small-seconds/)
+- [Dryden Chrono Diver Updates](https://wornandwound.com/dryden-introduces-updates-to-the-chrono-diver-collection/)
+- [Seiko 5 SRPM09 HUF](https://www.watchtime.com/brands/automatic-watches/seiko-5-sports-huf-limited-edition-srpm09)
+- [Perrelet Weekend](https://monochrome-watches.com/introducing-new-perrelet-weekend-malachite-price/)
+- [Ressence Type 9 IKE](https://www.hodinkee.com/articles/the-ressence-type-9-ike-pairs-a-futuristic-look-with-japanese-metiers-dart-execution)
+- [Sinn 903](https://wornandwound.com/the-sinn-903-returns-in-titanium-updating-an-iconic-design/)
+- [Tutima Patria 6612](https://monochrome-watches.com/tutima-patria-titanium-light-blue-dial-calibre-617-introducing-price/)
+- [Orient Stretto Colors](https://www.gearpatrol.com/watches/orient-stretto-date-ss-26-colors/)
+- [Farer World Timer Thorne Gold](https://www.fratellowatches.com/hands-on-with-the-new-farer-world-timer-thorne-gold/#gref)
+- [Bugonia](https://en.wikipedia.org/wiki/Bugonia_(film))
+- [Anova Precision Vacuum Sealer Pro](https://anovaculinary.com/products/anova-precision-vacuum-sealer-pro?srsltid=AfmBOorxIwyFPzYic_VUx8FqRfGSwL6ZtFyFYtko0lp_BQFAsDoU6vck)
+
+---
+
+## [All the Best Integrated Steel (382)](https://the40and20podcast.podbean.com/e/all-the-best-integrated-steel-382/)
+
+**Published:** February 23, 2026 at 10:49 PM
+
+**Related Links (9):**
+
+- [Tsuyosa Shore](https://monochrome-watches.com/citizen-tsuyosa-shore-collection-rotating-bezel-introducing-specs-price/)
+- [Citizen Seconde/Seconde/ Cut](https://www.hodinkee.com/articles/citizen-and-secondeseconde-cut-through-the-noise-and-the-dial-with-their-new-tsuyosa-collaboration)
+- [Nivada Grenchen F77 Mk2](https://monochrome-watches.com/nivada-grenchen-f77-mkii-classic-braided-dials-and-lapis-lazuli-meteorite-aventurine-stone-dials-2026-introducing-price/)
+- [MeisterSinger Panthero Jumping Hour](https://monochrome-watches.com/meistersinger-panthero-jumping-hour-collection-introducing-specs-price/)
+- [Camp Fieldtimer](https://campwatches.com/)
+- [Mido Multifort 8 Two Tone](https://monochrome-watches.com/new-two-tone-edition-mido-multifort-8-one-crown-accessible-integrated-sports-watch-introducing-price/)
+- [Yema Wristmaster Slim Small Seconds](https://monochrome-watches.com/yema-wristmaster-slim-small-seconds-cmm29-micro-rotor-calibre-snow-camo-limited-edition-review-price/)
+- [Chuds BBQ](https://www.youtube.com/@ChudsBbq)
+- [Send Help](https://en.wikipedia.org/wiki/Send_Help)
+
+---
+
+## [Orient Star Finally Impresses Us (381)](https://the40and20podcast.podbean.com/e/orient-star-finally-impresses-us-381/)
+
+**Published:** February 18, 2026 at 11:07 PM
+
+**Related Links (13):**
+
+- [Timex MK1 Automatic](https://monochrome-watches.com/timex-mk1-automatic-review-faithful-affordable-take-on-military-watch/)
+- [Orient Bambino NO DATE](https://wornandwound.com/orient-updates-the-bambino-with-a-new-no-date-version-of-the-enthusiast-favorite/)
+- [Orient Star M34 F8](https://monochrome-watches.com/orient-star-m34-f8-date-meteorite-75th-anniversary-re-bx0010a-introducing-price/)
+- [Orient Star M45 F7](https://monochrome-watches.com/orient-star-m45-f7-small-second-re-bs0003n-re-bs0001e-re-bs0002s-price-introducing/)
+- [Bremont Terra Nova 38 Jumping Hour Stealth Black](https://wornandwound.com/bremont-introduces-the-terra-nova-jumping-hour-stealth-black/)
+- [COSC Excellence Chronometer](https://www.hodinkee.com/articles/switzerlands-cosc-unveils-excellence-chronometer-level-of-certification)
+- [Baltic MR Farewell LEs](https://www.hodinkee.com/articles/introducing-baltic-mr-moissanite)
+- [Horage Molokini GMT](https://monochrome-watches.com/horage-molokini-gmt-diver-collection-in-house-calibre-k2-micro-rotor-introducing-price/)
+- [Delbana Rotonda Dial Colors](https://monochrome-watches.com/2026-four-new-dial-colours-for-the-delbana-rotonda-accessible-automatic-dress-watch-introducing-price/)
+- [Jack Mason Strat-o-Timer GMT Frontier](https://wornandwound.com/review/hands-on-the-jack-mason-strat-o-timer-gmt-frontier/)
+- [Rado True Round X Les Couleurs Le Corbusier LE](https://www.watchonista.com/articles/closer-look/three-new-rado-true-round-special-editions-capture-color-theory-designer-le-corbusier)
+- [Global Teikoku 5 Piece Knife Block](https://www.globalcutleryusa.com/5-piece-ikasu-v-knife-block-set?srsltid=AfmBOoqpfk6TPWZmvO5xkJoMlV6wGFaLNdYYkRqMufXZNLq7HglqQ9Of)
+- [Darn Tough Socks](https://darntough.com/)
+
+---
+
+## [Traska and Fears Both Stun (380)](https://the40and20podcast.podbean.com/e/traska-and-fears-both-stun-380/)
+
+**Published:** February 10, 2026 at 10:02 PM
+
+**Related Links (13):**
+
+- [Traska Chronograph Ref. 10251](https://www.traskawatch.com/products/chronograph-tungsten-gray)
+- [Fears Celestial Jump Hour](https://www.fearswatches.com/en-us/products/brunswick-40-5-jump-hour-celestial?variant=57780642447741&srsltid=AfmBOoosEJQJBoFiFMeqejFsWGEEzXely1qy51b2pgkZjQehd2vL0HjI)
+- [Studio Underd0g D0ghouse](https://www.fratellowatches.com/studio-underd0g-establishes-the-d0ghouse/#gref)
+- [Timex Red Vega](https://wornandwound.com/timex-unearths-a-forgotten-cinematic-cult-classic-with-the-q-timex-red-vega-1978-reissue/)
+- [Breitling Navitimer B01 Aston Martin](https://www.hodinkee.com/articles/the-breitling-navitimer-b01-chronograph-43-aston-martin-aramco-formula-one-team)
+- [IWC George Russell LE](https://www.hodinkee.com/articles/iwc-announces-two-new-limited-edition-pilots-watches-with-f1-driver-george-russell)
+- [Ho & Co(mmunity) X Selten Jui Bauhinia](https://timeandtidewatches.com/watch-ho-co-x-selten-jui-bauhinia-watch-review/)
+- [Parmigiani Fleurier Tonda PF Micro Rotor](https://www.fratellowatches.com/introducing-the-parmigiani-fleurier-tonda-pf-micro-rotor-agave-blue/)
+- [Niton Prima](https://wornandwound.com/precious-not-pretentious-introducing-the-niton-prima/)
+- [Christopher Ward C60 Trident Lumiere Green Fifteen X Bark & Jack](https://www.hodinkee.com/articles/the-christopher-ward-c60-trident-lumiere-green-fifteen-x-bark-and-jack)
+- [Mido Multifort 8 One Crown](https://monochrome-watches.com/mido-multifort-8-one-crown-streamlined-accessible-integrated-style-sporty-chic-watch-review-price/)
+- [Free Bert](https://www.imdb.com/title/tt37449205/)
+- [Escali Primo Digital Food Scale](https://kitchensupply.com/products/primo-digital-scale-chrome?srsltid=AfmBOoruyi1f5OX8zNidbYNMCTJknOxdN1fS3I_vRcxj2x3nYFKUyYgo)
+
+---
+
+## [Piaget, Hanhart, and Citizen (379)](https://the40and20podcast.podbean.com/e/piaget-hanhart-and-citizen-379/)
+
+**Published:** February 02, 2026 at 10:25 PM
+
+**Related Links (12):**
+
+- [Piaget Polo 79 Two Tone](https://www.fratellowatches.com/introducing-the-piaget-polo-79-in-a-tantalizing-two-tone-configuration/#gref)
+- [Oak & Oscar Humboldt ExP-02](https://www.hodinkee.com/articles/oak-and-oscars-humboldt-exp-02-keeps-their-experimental-series-going-strong)
+- [Sero Watch Company Signature](https://monochrome-watches.com/introducing-sero-watch-company-signature-netherlands-sellita-sw-210-dress-watch-value-proposition-specs-price-pics/)
+- [Christopher Ward C60 Clipper GMT](https://www.hodinkee.com/articles/christopher-ward-announces-c60-clipper-gmt-in-collaboration-with-pan-am)
+- [Hanhart 417 ES Moby Dick](https://monochrome-watches.com/hanhart-417-es-moby-dick-39mm-white-dial-pilot-chronograph-introducing-price/)
+- [Heron Marinor](https://www.fratellowatches.com/introducing-the-heron-marinor-an-updated-dive-watch-from-canada/)
+- [IFL Watches Risky Riches](https://www.fratellowatches.com/ifl-watches-bulova-super-seville-risky-riches/#gref)
+- [Astor + Banks Terra Scout](https://wornandwound.com/astorbanks-launches-the-new-terra-scout-a-contemporary-take-on-the-classic-field-watch/)
+- [Maen Hudson 38 MK5](https://www.fratellowatches.com/hands-on-maen-hudson-38-mk5/)
+- [Citizen Promaster Land GMT](https://twobrokewatchsnobs.com/citizen-promaster-land-gmt-bj7150-50w/)
+- [Mark Rober CruncLabs](https://www.imdb.com/title/tt39053780/)
+- [Miracle: The Boys of ‘80](https://www.imdb.com/title/tt39320452/)
 
 ---
 
@@ -4772,71 +4996,5 @@ Generated on January 30, 2026
 - [https://www.hermanmiller.com/products/seating/office-chairs/mirra-2-chairs/](https://www.hermanmiller.com/products/seating/office-chairs/mirra-2-chairs/)
 - [https://tactical.garmont.com/product/19322593/t-8-bifida-regular](https://tactical.garmont.com/product/19322593/t-8-bifida-regular)
 - [https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095)
-
----
-
-## [Episode 84 - Interview with Justin of Monta Watch](https://the40and20podcast.podbean.com/e/episode-84-interview-with-justin-of-monta-watch/)
-
-**Published:** June 03, 2020 at 10:59 PM
-
----
-
-## [Episode 83 - Tenn & Two Crossover - Affordable Watch Fantasy Draft](https://the40and20podcast.podbean.com/e/episode-83-tenn-two-crossover-affordable-watch-fantasy-draft/)
-
-**Published:** May 27, 2020 at 10:34 AM
-
----
-
-## [Episode 85 - ANNOUNCEMENT!](https://the40and20podcast.podbean.com/e/episode-85-announcement/)
-
-**Published:** June 11, 2020 at 04:43 AM
-
----
-
-## [Episode 86 - Interview with Andrew Perez of Astor+Banks](https://the40and20podcast.podbean.com/e/episode-86-interview-with-andrew-perez-of-astorbanks/)
-
-**Published:** June 18, 2020 at 01:00 AM
-
----
-
-## [Episode 87 - Interview with Lorenzo and Lauren Ortega of Lorier Watches](https://the40and20podcast.podbean.com/e/episode-87-interview-with-lorenzo-and-lauren-ortega-of-lorier-watches/)
-
-**Published:** June 25, 2020 at 12:00 AM
-
----
-
-## [40 and 20 Audio Review - New Seiko Five Sports (DressKX)](https://the40and20podcast.podbean.com/e/40-and-20-audio-review-new-seiko-five-sports-dresskx/)
-
-**Published:** June 30, 2020 at 12:00 AM
-
----
-
-## [Episode 88 - 3 Watches for $600, Part 4](https://the40and20podcast.podbean.com/e/episode-88-3-watches-for-600-part-4/)
-
-**Published:** July 02, 2020 at 12:00 AM
-
----
-
-## [Episode 89 - GADA Watches (Or, the One Watch Collection)](https://the40and20podcast.podbean.com/e/episode-89-gada-watches-or-the-one-watch-collection/)
-
-**Published:** July 08, 2020 at 06:50 PM
-
----
-
-## [Episode 90 - The Objectively Best Field Watch Under $501](https://the40and20podcast.podbean.com/e/episode-90-the-objectively-best-field-watch-under-501/)
-
-**Published:** July 15, 2020 at 10:06 PM
-
----
-
-## [Episode 91 - WatchClicker Potpourri with Will](https://the40and20podcast.podbean.com/e/episode-91-watchclicker-potpourri-with-will/)
-
-**Published:** July 22, 2020 at 10:20 PM
-
----
-
-## [Episode 82 - Interview with Darren of Zulu Alpha Straps](https://the40and20podcast.podbean.com/e/episode-82-interview-with-darren-of-zulu-alpha-straps/)
-
-**Published:** May 21, 2020 at 12:32 AM
 
 ---
