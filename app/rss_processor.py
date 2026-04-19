@@ -157,7 +157,15 @@ def _process_tgn_episodes(episodes_data: list, verbose: bool) -> int:
 
 
 def _process_generic_episodes(episodes_data: list, verbose: bool) -> int:
-    """Process non-TGN episodes using the original gap-filling strategy."""
+    """
+    Process non-TGN episodes using neighbor-aware gap-filling.
+
+    For each unnumbered episode, looks at the previous and next numbered
+    episodes chronologically. If there's a gap (e.g., 86 and 88), assigns
+    the next integer (87). If no gap (e.g., 86 and 87), assigns a fractional
+    number (86.5). This keeps unnumbered episodes near their chronological
+    neighbors instead of pushing them to the end of the range.
+    """
     known_episodes = [(i, ep) for i, ep in enumerate(episodes_data) if ep['episode_num'] is not None]
 
     if not known_episodes:
@@ -169,22 +177,54 @@ def _process_generic_episodes(episodes_data: list, verbose: bool) -> int:
             log.info(f"Missing episode numbers: {len(episodes_data) - len(known_episodes)}")
 
     used_numbers = set(ep['episode_num'] for ep in episodes_data if ep['episode_num'] is not None)
-    next_number = 1
     modified_count = 0
 
-    for ep_data in episodes_data:
-        if ep_data['episode_num'] is None:
-            while next_number in used_numbers:
-                next_number += 1
+    for i, ep_data in enumerate(episodes_data):
+        if ep_data['episode_num'] is not None:
+            continue
 
-            _set_episode_number(ep_data['item'], next_number)
-            used_numbers.add(next_number)
-            modified_count += 1
+        # Find previous numbered episode
+        prev_num = None
+        for j in range(i - 1, -1, -1):
+            if episodes_data[j]['episode_num'] is not None:
+                prev_num = episodes_data[j]['episode_num']
+                break
 
-            if verbose:
-                log.debug(f"  Added episode #{next_number}: {ep_data['title'][:60]}...")
+        # Find next numbered episode
+        next_num = None
+        for j in range(i + 1, len(episodes_data)):
+            if episodes_data[j]['episode_num'] is not None:
+                next_num = episodes_data[j]['episode_num']
+                break
 
-            next_number += 1
+        # Assign number based on neighbors
+        if prev_num is not None and next_num is not None:
+            if next_num - prev_num > 1:
+                # Gap exists: fill with next integer
+                new_num = prev_num + 1
+                while new_num in used_numbers:
+                    new_num += 0.5
+            else:
+                # No gap: use fractional
+                new_num = prev_num + 0.5
+        elif prev_num is not None:
+            new_num = prev_num + 0.5
+        elif next_num is not None:
+            new_num = next_num - 0.5
+        else:
+            new_num = 0.5
+
+        # Ensure unique
+        while new_num in used_numbers:
+            new_num += 0.1
+
+        _set_episode_number(ep_data['item'], new_num)
+        ep_data['episode_num'] = new_num
+        used_numbers.add(new_num)
+        modified_count += 1
+
+        if verbose:
+            log.debug(f"  Added episode #{new_num}: {ep_data['title'][:60]}...")
 
     return modified_count
 

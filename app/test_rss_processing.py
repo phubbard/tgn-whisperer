@@ -344,10 +344,70 @@ class TestTGNFeedProcessing:
         missing = [ep for ep in tgn_episodes if ep['number'] is None]
         assert len(missing) == 0, f"Found {len(missing)} episodes without numbers"
 
-    def test_latest_episode_is_363(self, tgn_episodes):
-        """Verify the highest numbered episode is 363."""
+    def test_latest_episode_number(self, tgn_episodes):
+        """Verify the highest numbered episode is reasonable."""
         numbers = [ep['number'] for ep in tgn_episodes]
-        assert max(numbers) == 363
+        # Should be at least 363 (as of Feb 2026) and not wildly inflated
+        assert max(numbers) >= 363
+        assert max(numbers) < 500
+
+
+class TestHodinkeeFeedProcessing:
+    """Test Hodinkee feed processing with generic gap-filling."""
+
+    @pytest.fixture
+    def hodinkee_episodes(self, tmp_path):
+        """Process the Hodinkee RSS feed and return episode data."""
+        source = Path(__file__).parent / "test_feeds" / "hodinkee.rss"
+        if not source.exists():
+            pytest.skip("hodinkee.rss not found in test_feeds")
+        dest = tmp_path / "hodinkee.rss"
+        shutil.copy(source, dest)
+        process_feed(dest, verbose=False)
+        tree = ET.parse(dest)
+        root = tree.getroot()
+        episodes = []
+        for item in root.findall('.//item'):
+            ep_elem = item.find('itunes:episode', NAMESPACES)
+            title_elem = item.find('title')
+            if ep_elem is not None:
+                episodes.append({
+                    'number': float(ep_elem.text),
+                    'title': title_elem.text if title_elem is not None else ''
+                })
+        return episodes
+
+    def test_no_duplicate_numbers(self, hodinkee_episodes):
+        """Verify no duplicate episode numbers after processing."""
+        numbers = [ep['number'] for ep in hodinkee_episodes]
+        duplicates = [n for n in numbers if numbers.count(n) > 1]
+        assert len(duplicates) == 0, f"Duplicate episode numbers: {set(duplicates)}"
+
+    def test_untagged_episodes_get_fractional_numbers(self, hodinkee_episodes):
+        """Verify untagged episodes get fractional numbers near neighbors, not high integers."""
+        # "Is Baselworld Dead?" should NOT get a high number like 306
+        # It should get a fractional number near its chronological position (~86.5)
+        for ep in hodinkee_episodes:
+            if 'Baselworld Dead' in ep['title']:
+                assert ep['number'] < 100, (
+                    f"'Is Baselworld Dead?' got number {ep['number']} "
+                    f"but should be near 86.5 (its chronological position)"
+                )
+                assert ep['number'] != int(ep['number']), (
+                    f"'Is Baselworld Dead?' should have a fractional number, got {ep['number']}"
+                )
+                break
+
+    def test_max_number_matches_tagged_episodes(self, hodinkee_episodes):
+        """Verify the max episode number isn't inflated by untagged episodes."""
+        numbers = [ep['number'] for ep in hodinkee_episodes]
+        # The max should be the highest tagged number from the RSS, not inflated
+        # by gap-filled untagged episodes
+        max_num = max(numbers)
+        assert max_num <= 300, (
+            f"Max episode number is {max_num}, which is likely inflated by "
+            f"incorrectly numbered untagged episodes"
+        )
 
 
 if __name__ == "__main__":

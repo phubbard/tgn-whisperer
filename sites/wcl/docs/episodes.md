@@ -1,4 +1,4 @@
-### Page updated Apr 17 2026 07:07 - 300 episodes
+### Page updated Apr 19 2026 07:07 - 300 episodes
 - [Our Watches and Wonders Selections (389)](395/episode.md) Apr 14 2026
 - [You Get a Movement; You Get a Movement (388)](394/episode.md) Apr 07 2026
 - [Longines Nails its Refresh, Omega Bombs (387)](393/episode.md) Mar 31 2026
