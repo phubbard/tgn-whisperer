@@ -7,7 +7,7 @@ from pathlib import Path
 
 from anthropic import Anthropic
 from prefect import task
-from prefect.cache_policies import INPUTS
+
 from utils.logging import get_logger
 from tenacity import retry, stop_after_attempt
 
@@ -139,7 +139,8 @@ def _process_transcription_chunks(transcript_data: dict) -> list[tuple]:
     name="attribute-speakers",
     retries=3,
     retry_delay_seconds=180,  # 3 minute delay for API rate limits
-    cache_policy=INPUTS,
+    # NO CACHING - task already skips Claude call if speaker-map.json exists.
+    # INPUTS caching causes stale results when files are deleted for reprocessing.
     log_prints=True
 )
 def attribute_speakers(episode_dir: Path, transcript_path: Path, podcast_name: str) -> tuple[Path, Path]:
@@ -163,25 +164,20 @@ def attribute_speakers(episode_dir: Path, transcript_path: Path, podcast_name: s
     synopsis_path = episode_dir / SYNOPSIS_FILE
     whisper_output_path = episode_dir / "whisper-output.json"
 
-    # If outputs already exist, return them
-    if speaker_map_path.exists() and synopsis_path.exists():
-        log.info(f"Speaker attribution already exists: {speaker_map_path}")
-        speaker_map = defaultdict(lambda: "Unknown")
-        speaker_map.update(json.loads(speaker_map_path.read_text()))
-        synopsis = synopsis_path.read_text()
-        return speaker_map_path, synopsis_path
-
-    # Load and process transcript
+    # Load and process transcript into speaker-delimited chunks
+    # Always regenerate whisper-output.json from the transcript, even when
+    # skipping attribution - markdown generation depends on this file.
     log.info(f"Processing transcript: {transcript_path}")
     transcript_data = json.loads(transcript_path.read_text())
-
-    # Process into speaker-delimited chunks
     chunks = _process_transcription_chunks(transcript_data)
     log.info(f"Processed {len(chunks)} speaker chunks")
-
-    # Save whisper output for debugging/compatibility
     whisper_output_path.write_text(json.dumps(chunks))
     log.debug(f"Saved whisper output: {whisper_output_path}")
+
+    # If attribution outputs already exist, return them
+    if speaker_map_path.exists() and synopsis_path.exists():
+        log.info(f"Speaker attribution already exists: {speaker_map_path}")
+        return speaker_map_path, synopsis_path
 
     # Call Claude for attribution
     log.info(f"Calling Claude API for speaker attribution ({podcast_name})")

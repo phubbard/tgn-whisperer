@@ -5,7 +5,7 @@ import time
 import requests
 from pathlib import Path
 from prefect import task
-from prefect.cache_policies import INPUTS
+
 from utils.logging import get_logger
 
 from constants import TRANSCRIPTION_API_BASE_URL
@@ -25,7 +25,8 @@ POLL_TIMEOUT = int(os.environ.get("TRANSCRIBE_POLL_TIMEOUT", "1800"))
     name="transcribe-audio",
     retries=TRANSCRIBE_RETRIES,
     retry_delay_seconds=TRANSCRIBE_RETRY_DELAY,
-    cache_policy=INPUTS,
+    # NO CACHING - task already skips if episode-transcribed.json exists.
+    # INPUTS caching causes stale results when files are deleted for reprocessing.
     timeout_seconds=1800,  # 30 minute timeout
     log_prints=True
 )
