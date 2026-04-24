@@ -1,8 +1,28 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on April 21, 2026
+Generated on April 23, 2026
 
-**2332 total links from 287 episodes (out of 300 episodes scraped, 13 without any links), averaging 8.1 per episode.**
+**2340 total links from 287 episodes (out of 300 episodes scraped, 13 without any links), averaging 8.2 per episode.**
+
+---
+
+## [Watches and Wonders Leftovers (390)](https://the40and20podcast.podbean.com/e/watches-and-wonders-leftovers-390/)
+
+**Published:** April 21, 2026 at 11:07 PM
+
+**Related Links (11):**
+
+- [IWC Pilot’s Venturer Vertical Drive](https://wornandwound.com/watches-wonders-hands-on-with-iwcs-pilot-venturer-vertical-drive-a-new-kind-of-space-watch/)
+- [IWC Big Pilot Ceralume](https://monochrome-watches.com/luminous-ceramic-iwc-big-pilot-perpetual-calendar-ceralume-iw505801-review/)
+- [IWC Ingenieur](https://www.watchcollectinglifestyle.com/home/iwc-ingenieur-perpetual-calendar-41-titanium-live-photos)
+- [Alipina Startimer Pilot](https://monochrome-watches.com/introducing-alpina-startimer-pilot-automatic-la-joux-perret-al-525-specs-price-pics-watches-and-wonders-2026/)
+- [Rolex Jubilee Gold](https://monochrome-watches.com/rolex-oyster-perpetual-day-date-40-jubilee-gold-green-aventurine-228235jg-review/)
+- [Formex Reef Forged Carbon](https://monochrome-watches.com/formex-reef-39-5-forged-carbon-dive-watch-introducing-price/)
+- [Hamilton Khaki Field Mechanical 250](https://monochrome-watches.com/hamilton-khaki-field-mechanical-36mm-and-khaki-field-mechanical-250-limited-introducing-price/)
+- [Nomos Club Sport Neomatik Worldtimer](https://monochrome-watches.com/nomos-club-sport-neomatik-worldtimer-radiant-white-dial-2026-new-version-review-price/)
+- [Cartier Roadster](https://www.hodinkee.com/articles/introducing-cartier-roadster)
+- [Beef Season 2](https://www.rottentomatoes.com/tv/beef/s02)
+- [Farming Simulator](https://www.farming-simulator.com/)
 
 ---
 
@@ -4984,17 +5004,5 @@ Generated on April 21, 2026
 - [https://www.gavox.com/product/gavox-squadron-black-pvd/](https://www.gavox.com/product/gavox-squadron-black-pvd/)
 - [https://www.specialopswatch.com/product-category/falcons/](https://www.specialopswatch.com/product-category/falcons/)
 - [https://www.longislandwatch.com/Orient_DV01001B_M_Force_Watch_p/dv01001b.htm](https://www.longislandwatch.com/Orient_DV01001B_M_Force_Watch_p/dv01001b.htm)
-
----
-
-## [Episode 92 - Interview with Michael Happe of Gavox Watches](https://the40and20podcast.podbean.com/e/episode-92-interview-with-michael-happe-of-gavox-watches/)
-
-**Published:** July 30, 2020 at 12:15 AM
-
-**Related Links (3):**
-
-- [https://www.hermanmiller.com/products/seating/office-chairs/mirra-2-chairs/](https://www.hermanmiller.com/products/seating/office-chairs/mirra-2-chairs/)
-- [https://tactical.garmont.com/product/19322593/t-8-bifida-regular](https://tactical.garmont.com/product/19322593/t-8-bifida-regular)
-- [https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095)
 
 ---

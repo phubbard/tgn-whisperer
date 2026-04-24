@@ -82,6 +82,63 @@ def generate_tgn_shownotes(rss_path: Path, output_path: Path) -> Path:
     return output_path
 
 
+def backfill_episode_shownotes(podcast_name: str, episodes: list[dict]) -> int:
+    """
+    Inject shownotes into any episode.md that's missing them.
+
+    Called after omnibus shownotes generation (which scrapes new episodes),
+    so the shownotes cache is up to date. This ensures new episodes get
+    per-episode shownotes even though they weren't available when the
+    episode.md was first generated.
+
+    Args:
+        podcast_name: Name of the podcast
+        episodes: List of episode entry dicts from the RSS feed
+
+    Returns:
+        Number of episodes updated
+    """
+    log = get_logger()
+    from constants import format_episode_number
+
+    updated = 0
+    for entry in episodes:
+        ep_num = entry.get('itunes:episode')
+        if not ep_num:
+            continue
+
+        ep_str = format_episode_number(float(ep_num))
+
+        for base in [Path(f'sites/{podcast_name}/docs'), Path(f'podcasts/{podcast_name}')]:
+            md_path = base / ep_str / 'episode.md'
+            if not md_path.exists():
+                continue
+            content = md_path.read_text()
+            if '## Show Notes' in content:
+                continue
+            if '## Transcript' not in content:
+                continue
+
+            links = get_episode_shownotes(podcast_name, entry)
+            if not links:
+                continue
+
+            lines = ['## Show Notes', '']
+            for link in links:
+                lines.append(f"- [{link['text']}]({link['url']})")
+            lines.append('')
+            shownotes_block = '\n'.join(lines)
+
+            content = content.replace('## Transcript', f'{shownotes_block}\n## Transcript')
+            md_path.write_text(content)
+            updated += 1
+
+    if updated:
+        log.info(f"Backfilled shownotes into {updated} episode pages for {podcast_name}")
+
+    return updated
+
+
 def _extract_links_from_html(html_content: str) -> list[dict]:
     """Extract links from HTML content, filtering out boilerplate."""
     # Unescape HTML entities

@@ -1,8 +1,45 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on April 21, 2026
+Generated on April 23, 2026
 
-**7872 total links from 367 episodes (out of 369 episodes scraped, 2 without any links), averaging 21.4 per episode.**
+**7900 total links from 368 episodes (out of 370 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+
+---
+
+## [The Grey NATO – 372 – Watches And Wonders 2026 Megasode](https://thegreynato.substack.com/p/372-watches-and-wonders-2026)
+
+**Published:** April 23, 2026 at 06:00 AM
+
+**Related Links (28):**
+
+- [EP 214 - Titanium](https://www.buzzsprout.com/2049759/episodes/11616305)
+- [EP 35 - From Clipperton With Love](https://www.buzzsprout.com/2049759/episodes/11311086)
+- [EP 254 – Experiencing The New Tudor Pelagos FXD In Its Natural Habitat](https://www.buzzsprout.com/2049759/episodes/13630013)
+- [EP 276 - Jason’s Very English Adventure](https://www.buzzsprout.com/2049759/episodes/14683298)
+- [9 RSVP for Vancouver Party Waitlist](https://tgnvanparty.eventbrite.ca)
+- [Jason’s Defender Trophy story](https://swimpruf.substack.com/p/go-time)
+- [Windup San Francisco](https://www.windupwatchfair.com/chicago)
+- [Timex x Hodinkee 8-Lap LE](https://le.hodinkee.com/timex-ironman-8-lap-limited-edition-for-hodinkee)
+- [James’ original Timex story](https://www.hodinkee.com/articles/then-and-now-revisiting-my-first-watch)
+- [Vacheron Constantin Overseas Dual Time Cardinal Points](https://www.hodinkee.com/articles/the-vacheron-constantin-overseas-dual-time-cardinal-points)
+- [Tudor Monarch](https://www.hodinkee.com/articles/tudor-revives-the-monarch-with-a-new-faceted-case-and-bracelet)
+- [Tudor Black Bay 54 Blue](https://www.hodinkee.com/articles/the-tudor-black-bay-54-blue)
+- [IWC Ingenieur roundup](https://www.hodinkee.com/articles/qps-tourbillons-ceramic-and-more-iwc-expands-the-ingenieur-with-complications-and-materials-live-pho)
+- [Grand Seiko Spring Drive Diver](https://www.hodinkee.com/articles/intro-grand-seiko-ufa-divers)
+- [Panerai Luminor Roundup](https://www.hodinkee.com/articles/panerai-returns-to-its-roots-with-new-luminor-collection)
+- [PAM1732 Destro](https://www.panerai.com/en/collections/watch-collection/luminor/pam01732-luminor-destro.html)
+- [PAM1733 8-Day in Brunito steel](https://www.panerai.com/en/collections/watch-collection/luminor/pam01733-luminor-8-giorni.html)
+- [Sinn Roundup](https://www.hodinkee.com/articles/sinns-announces-the-308-hunting-watch-the-544-and-the-936-s)
+- [Sinn 544/544 RS](https://www.sinn.de/en/watches/all-watches/544-rs.html)
+- [Oris Star](https://www.hodinkee.com/articles/introducing-oris-star-edition)
+- [Nomos Tangente Neomatic 38 Update](https://www.hodinkee.com/articles/the-nomos-glashutte-tangente-neomatik-38-update)
+- [Nomos Club Sport Neomatic World Timer White](https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-792)
+- [JLC Master Control Chronometre](https://www.hodinkee.com/articles/the-jaeger-lecoultre-master-control-chronometre-a-new-integrated-bracelet-sport-watch-in-three-model)
+- [Alpina Startimer Pilot](https://www.hodinkee.com/articles/the-alpina-startimer-pilot-automatic-brings-a-rugged-redesign-to-the-swiss-brands-aviator-watch)
+- [Tag Heuer Monaco Titanium](https://www.hodinkee.com/articles/tag-heuer-updates-the-monaco-chronograph-with-three-new-models-in-titanium-live-pics)
+- [Monaco Evergraph In-Depth](https://www.hodinkee.com/articles/in-depth-tag-heuer-evergraph)
+- [“Surviving in the Amazon with my Daughter” (Mike Horn, YouTube)](https://www.youtube.com/watch?v=KOvvfNGHY9w)
+- [“Porsche 911 Reimagined by Singer DLS Review” (Throttle House, YouTube)](https://www.youtube.com/watch?v=In7bohxb35U)
 
 ---
 

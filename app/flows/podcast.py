@@ -17,7 +17,8 @@ from tasks.notifications import send_notification_email
 from tasks.shownotes import (
     generate_tgn_shownotes,
     generate_wcl_shownotes,
-    generate_hodinkee_shownotes
+    generate_hodinkee_shownotes,
+    backfill_episode_shownotes
 )
 from tasks.build import (
     update_episodes_index,
@@ -171,6 +172,17 @@ def generate_and_deploy_site(podcast: Podcast):
             generate_wcl_shownotes(rss_path, output_path)
         elif podcast.name == 'hodinkee':
             generate_hodinkee_shownotes(rss_path, output_path)
+
+        # Step 1b: Backfill per-episode shownotes into any episode.md missing them.
+        # New episodes won't have shownotes when first generated because the
+        # scrape/extract happens here, after episode processing.
+        import xmltodict
+        feed_text = rss_path.read_text()
+        feed_data = xmltodict.parse(feed_text)
+        ep_list = feed_data['rss']['channel']['item']
+        if not isinstance(ep_list, list):
+            ep_list = [ep_list]
+        backfill_episode_shownotes(podcast.name, ep_list)
     else:
         log.warning(f"RSS feed not found for shownotes: {rss_path}")
 
