@@ -107,7 +107,13 @@ def _process_transcription_chunks(transcript_data: dict) -> list[tuple]:
     text_chunk = ''
     start = None
 
-    for chunk in transcript_data['segments']:
+    # Handle both transcript formats: segments at top level or nested under 'response'
+    segments = transcript_data.get('segments') or transcript_data.get('response', {}).get('segments', [])
+    if not segments:
+        log.warning("No segments found in transcript data")
+        return rc
+
+    for chunk in segments:
         if 'speaker' not in chunk:
             log.warning(f"No speaker in chunk, skipping")
             continue
