@@ -1,4 +1,5 @@
-### Page updated Apr 23 2026 07:14 - 300 episodes
+### Page updated May 06 2026 07:14 - 300 episodes
+- [Watches Roundup with Will (391)](397/episode.md) May 05 2026
 - [Watches and Wonders Leftovers (390)](396/episode.md) Apr 21 2026
 - [Our Watches and Wonders Selections (389)](395/episode.md) Apr 14 2026
 - [You Get a Movement; You Get a Movement (388)](394/episode.md) Apr 07 2026
@@ -298,4 +299,3 @@
 - [Episode 96 - Summer Watches](99/episode.md) Aug 26 2020
 - [Episode 95 - The Watch(es?) of Everest](98/episode.md) Aug 19 2020
 - [Episode 94 - GFY Watches](97/episode.md) Aug 13 2020
-- [Episode 93 - Just Some Tool Watches](96/episode.md) Aug 05 2020

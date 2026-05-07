@@ -1,4 +1,5 @@
-### Page updated Apr 23 2026 07:09 - 382 episodes
+### Page updated May 06 2026 07:02 - 383 episodes
+- [The Grey NATO – 373 – From The Bottom Of The Oceans To Outer Space With Victor Vescovo](373/episode.md) Apr 30 2026
 - [The Grey NATO – 372 – Watches And Wonders 2026 Megasode](372/episode.md) Apr 23 2026
 - [The Grey NATO – 371 – The Final 2025 Slack Crew & A (Part 10)](371/episode.md) Apr 02 2026
 - [The Grey NATO – 370 – TGN Book Club 5](370/episode.md) Mar 26 2026

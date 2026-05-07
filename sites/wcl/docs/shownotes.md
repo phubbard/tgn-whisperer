@@ -1,8 +1,14 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on April 23, 2026
+Generated on May 06, 2026
 
-**2340 total links from 287 episodes (out of 300 episodes scraped, 13 without any links), averaging 8.2 per episode.**
+**2337 total links from 286 episodes (out of 300 episodes scraped, 14 without any links), averaging 8.2 per episode.**
+
+---
+
+## [Watches Roundup with Will (391)](https://the40and20podcast.podbean.com/e/watches-roundup-with-will-391/)
+
+**Published:** May 05, 2026 at 07:42 PM
 
 ---
 
@@ -4992,17 +4998,5 @@ Generated on April 23, 2026
 - [https://morakniv.se/en/](https://morakniv.se/en/)
 - [https://www.amazon.com/Gear-Aid-Tenacious-Repair-Fabric/dp/B001949Z4I/ref=sr_1_1?dchild=1&keywords=gear+aid&qid=1597268328&sr=8-1](https://www.amazon.com/Gear-Aid-Tenacious-Repair-Fabric/dp/B001949Z4I/ref=sr_1_1?dchild=1&keywords=gear+aid&qid=1597268328&sr=8-1)
 - [https://www.amazon.com/Storacell-12AACY-Powerpax-Battery-Batteries/dp/B004YG7JXW/ref=sr_1_15?dchild=1&keywords=battery+holder&qid=1597268358&sr=8-15](https://www.amazon.com/Storacell-12AACY-Powerpax-Battery-Batteries/dp/B004YG7JXW/ref=sr_1_15?dchild=1&keywords=battery+holder&qid=1597268358&sr=8-15)
-
----
-
-## [Episode 93 - Just Some Tool Watches](https://the40and20podcast.podbean.com/e/episode-93-just-some-tool-watches/)
-
-**Published:** August 05, 2020 at 11:11 PM
-
-**Related Links (3):**
-
-- [https://www.gavox.com/product/gavox-squadron-black-pvd/](https://www.gavox.com/product/gavox-squadron-black-pvd/)
-- [https://www.specialopswatch.com/product-category/falcons/](https://www.specialopswatch.com/product-category/falcons/)
-- [https://www.longislandwatch.com/Orient_DV01001B_M_Force_Watch_p/dv01001b.htm](https://www.longislandwatch.com/Orient_DV01001B_M_Force_Watch_p/dv01001b.htm)
 
 ---

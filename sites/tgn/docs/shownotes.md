@@ -1,8 +1,36 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on April 23, 2026
+Generated on May 06, 2026
 
-**7900 total links from 368 episodes (out of 370 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+**7919 total links from 369 episodes (out of 371 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+
+---
+
+## [The Grey NATO – 373 – From The Bottom Of The Oceans To Outer Space With Victor Vescovo](https://thegreynato.substack.com/p/373-victor-vescovo)
+
+**Published:** April 30, 2026 at 03:00 AM
+
+**Related Links (19):**
+
+- [Ming Polymesh Straight](https://www.ming.watch/featured-product/ming-polymesh-straight)
+- [Sinn 144S](https://www.sinn.de/en/watches/archive/144-st-s-anniversary-ii.html)
+- [Arken Alterum Speakeasy Vancouver](https://www.instagram.com/p/DP9KRBMDZX-/)
+- [Victor Vescovo](https://en.wikipedia.org/wiki/Victor_Vescovo)
+- [The Five Deeps](https://fivedeeps.com/)
+- [The Limiting Factor](https://en.wikipedia.org/wiki/Victor_Vescovo#Five_Deeps_Expedition)
+- [AstroForge](https://www.astroforge.com/)
+- [Psyche Asteroid](https://science.nasa.gov/mission/psyche/)
+- [Omega X-33](https://www.omegawatches.com/en-us/watches/speedmaster/instruments/x-33-marstimer/product)
+- [Omega Seamaster 600m Planet Ocean](https://www.omegawatches.com/en-us/watches/seamaster/planet-ocean/catalog)
+- [Omega Planet Ocean Ultra Deep](https://www.omegawatches.com/en-us/watches/seamaster/planet-ocean/ultra-deep/catalog)
+- [Omega Seamaster Planet Ocean Ultra Deep Pro](https://press.omegawatches.com/5-deeps/)
+- [Don Walsh’s Aquastar](https://robbreport.com/style/watch-collector/watch-reached-oceans-deepest-point-auction-1235388510/)
+- [Colossal Biosciences De-Extinction](https://colossal.com/de-extinction/)
+- [“Depth Charge” (Jason’s book)](https://jasonheatonauthor.com/shop/p/depthcharge)
+- [“Where The F*** Are We?” — 99% Invisible](https://99percentinvisible.org/episode/661-where-the-f-are-we/)
+- [Longitude](https://www.goodreads.com/book/show/52062.Longitude)
+- [— Dava Sobel](https://www.goodreads.com/book/show/52062.Longitude)
+- [Nextool Mini Sailor Lite](https://nextoolstore.com/products/mini-sailor-pliers-lite%E4%B8%A8nextool%C2%AE)
 
 ---
 

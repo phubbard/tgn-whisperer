@@ -56,7 +56,7 @@ class FastMailSMTP(smtplib.SMTP_SSL):
         msg_root['Subject'] = subject
         msg_root['From'] = from_addr
         msg_root['To'] = ', '.join(to_addrs)
-        msg_root.set_payload(msg)
+        msg_root.set_content(msg)
 
         self.sendmail(from_addr, to_addrs, msg_root.as_string())
         log.info(f"Email sent to {', '.join(to_addrs)}")
