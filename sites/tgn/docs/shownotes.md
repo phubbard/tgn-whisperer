@@ -1,8 +1,61 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on May 06, 2026
+Generated on May 07, 2026
 
-**7919 total links from 369 episodes (out of 371 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+**7963 total links from 370 episodes (out of 372 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+
+---
+
+## [The Grey NATO – 374 – Our West Coast Time (Diving, Driving, Wind Up SF, the Vancouver Timepiece Show, & More)](https://thegreynato.substack.com/p/374-west-coast-time)
+
+**Published:** May 07, 2026 at 06:00 AM
+
+**Related Links (44):**
+
+- [Kai’s Bracket Breakdown](https://docs.google.com/spreadsheets/d/1aL2niRiG_rQVxKtkRaYQXXtrwfcEN1NdFOsGeBiopTM/htmlview#gid=0)
+- [“From Clipperton with Love” (EP 35 of TGN)](https://www.buzzsprout.com/2049759/episodes/11311086)
+- [Marathon OSAR Arctic 41 Auto](https://www.marathonwatch.com/collections/41mm-sar/products/41mm-arctic-original-sar-w-date-on-3-piece-rubber-strap-kit-osar-d)
+- [Ming Polymesh Straight](https://www.hodinkee.com/articles/the-ming-polymesh-straight-brings-the-wild-hybrid-strapbracelet-to-more-watches)
+- [Lopez Lake](https://slocountyparks.com/camp/lopez-lake/)
+- [Letetia Winery](https://www.laetitiawine.com/)
+- [Jade Cove](https://www.californiabeaches.com/beach/jade-cove/)
+- [The Esalen Institute](https://www.esalen.org/)
+- [Wind Up San Francisco](https://www.windupwatchfair.com/)
+- [Kindred Motorworks](https://kindredmotorworks.com/models/kindred-ev-bronco/heritage-edition)
+- [Prometheus Design Werx](https://prometheusdesignwerx.com/)
+- [Doxa 250T GMT Great White Topper LE](https://www.hodinkee.com/articles/doxa-and-topper-team-up-again-for-250t-gmt-great-white-edition)
+- [Take’s YouTube Channel](https://www.youtube.com/user/bigheadtaco)
+- [Marathon Cerashell Navigator](https://www.marathonwatch.com/products/41mm-cerashell-quartz-nav-d-on-ballistic-nylon-strap)
+- [CW True GMT](https://www.hodinkee.com/articles/the-christopher-ward-c63-true-gmt-adds-a-local-jumping-hour-hand-gmt-to-the-lineup)
+- [22Studio Watches 4D Concrete Auto](https://22designstudio.net/products/4d-concrete-watch-automatic-duo_concrete-grey)
+- [Isotope Watches Onvi Jumping Hours](https://isotopewatches.com/products/ovni-jumping-hour-founders-edition)
+- [Beaucroft Contour GMT](https://beaucroftwatches.com/collections/all-watches/products/contour-gmt-teal)
+- [Canopy Field One](https://www.canopywatchco.com/collections/field-one/products/field-one-orange)
+- [Ares Diver-1](https://www.areswatches.com/products/diver-1-mission-timer%E2%84%A2-lithium-ion-quartz)
+- [Rhonda 715Li](https://www.ronda.ch/en/productfinder/caliber/715li)
+- [Mount West Summit](https://mountwestwatchco.com/collections/all)
+- [Micromilgraph Project Sabotage](https://www.micromilspec.com/products/black-badger-project-sabotage)
+- [Black Badger](https://www.blackbadger.se/)
+- [Baltic Heuer du Monde](https://www.hodinkee.com/articles/introducing-baltic-heures-du-monde)
+- [RZE UTD-8000](https://www.rzewatches.com/pages/utd-8000-launch)
+- [Bradley Taylor on TGN Toronto Potluck](https://thegreynato.substack.com/p/346-live-from-ttps-2025)
+- [Bradley Taylor Ardea](https://www.hodinkee.com/articles/the-bradley-taylor-ardea)
+- [Hide Time Leather](https://www.instagram.com/hidetimeleather/?hl=en)
+- [Good Works Dept](https://www.goodworksdept.com/)
+- [Michael Mann Taschen](https://www.goodreads.com/en/book/show/223717.Michael_Mann)
+- [Jason Hutton](https://www.mainspring.watch/jason-hutton-timepiece-show-canada-zenea-profile)
+- [Montreal Timepiece Show](https://www.eventbrite.ca/e/montreal-timepiece-show-tickets-1982305477044?aff=oddtdtcreator&keep_tld=true)
+- [Analog Explorer](https://www.analogexplorer.com/)
+- [Makoto Record Player Watch](https://makotowatch.com/product/track-one/)
+- [Bellingham Podcast](https://www.bellinghampodcast.com/)
+- [Makoto Boken Ti Diver](https://makotowatch.com/product/boken-300m-grade-5-titanium-adventure-watch/)
+- [Doxa Sub 300T Clive Cussler](https://doxawatches.com/collections/sub-300t-clive-cussler)
+- [Christpher Ward](https://www.christopherward.com/int/home)
+- [Ares Watch Co](https://www.areswatches.com/)
+- [Back Market](https://www.backmarket.com/en-us)
+- [Sennheiser HD600](https://us.sennheiser-hearing.com/products/hd-600)
+- [Apple USB-C to 3.5 Dongle](https://www.apple.com/shop/product/mw2q3am/a/usb-c-to-35-mm-headphone-jack-adapter)
+- [Chelsea Hotel No.2 - Rufus Wainwright](https://www.youtube.com/watch?v=CV5XrWk8ofs)
 
 ---
 

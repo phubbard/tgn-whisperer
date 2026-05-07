@@ -1,6 +1,6 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on May 06, 2026
+Generated on May 07, 2026
 
 **2337 total links from 286 episodes (out of 300 episodes scraped, 14 without any links), averaging 8.2 per episode.**
 
