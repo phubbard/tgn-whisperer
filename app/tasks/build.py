@@ -1,14 +1,73 @@
 """Prefect tasks for building and deploying podcast sites."""
+import re
 import subprocess
 import sys
 import shutil
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from prefect import task
 from utils.logging import get_logger
 import pagefind_bin
 
 from constants import SITE_ROOT, DEPLOY_BASE_PATH
+
+# Home-page "last updated" timestamp is shown in the site owner's timezone.
+# America/Los_Angeles auto-handles PST/PDT daylight-saving transitions.
+HOME_TIMEZONE = ZoneInfo("America/Los_Angeles")
+_LAST_UPDATED_RE = re.compile(r"^_last updated .*_$", re.MULTILINE)
+_WHAT_IS_ANCHOR = "## What is this site?"
+
+
+def apply_home_timestamp(text: str, stamp: str) -> str:
+    """Insert or update the italic timestamp line in home-page markdown.
+
+    Idempotent: replaces an existing `_last updated ..._` line if present,
+    otherwise inserts `stamp` just above the "What is this site?" section
+    (falling back to appending at the end if that anchor is missing).
+    """
+    if _LAST_UPDATED_RE.search(text):
+        return _LAST_UPDATED_RE.sub(stamp, text, count=1)
+    if _WHAT_IS_ANCHOR in text:
+        return text.replace(_WHAT_IS_ANCHOR, f"{stamp}\n\n{_WHAT_IS_ANCHOR}", 1)
+    return text.rstrip() + f"\n\n{stamp}\n"
+
+
+@task(
+    name="update-home-timestamp",
+    retries=2,
+    retry_delay_seconds=30,
+    log_prints=True
+)
+def update_home_timestamp(podcast_name: str) -> Path:
+    """Refresh the 'last updated' timestamp on the site home page.
+
+    Inserts/updates an italic timestamp line just above the
+    '## What is this site?' section of index.md, in the owner's timezone
+    (e.g. "_last updated July 17, 2026 at 9:13AM PDT_"). Idempotent — an
+    existing timestamp line is replaced rather than duplicated.
+
+    Args:
+        podcast_name: Name of the podcast
+
+    Returns:
+        Path to the home page index.md
+    """
+    log = get_logger()
+    index_md = Path(SITE_ROOT, podcast_name, 'docs', 'index.md')
+    if not index_md.exists():
+        log.warning(f"Home page not found, skipping timestamp: {index_md}")
+        return index_md
+
+    now = datetime.now(HOME_TIMEZONE)
+    stamp = f"_last updated {now.strftime('%B %-d, %Y at %-I:%M%p %Z')}_"
+
+    text = index_md.read_text()
+    if _WHAT_IS_ANCHOR not in text and not _LAST_UPDATED_RE.search(text):
+        log.warning(f"No '{_WHAT_IS_ANCHOR}' anchor in {index_md}; appending timestamp")
+    index_md.write_text(apply_home_timestamp(text, stamp))
+    log.info(f"Updated home timestamp for {podcast_name}: {stamp}")
+    return index_md
 
 
 @task(
