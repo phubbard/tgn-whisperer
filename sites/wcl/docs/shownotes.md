@@ -1,8 +1,192 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on May 07, 2026
+Generated on July 17, 2026
 
-**2337 total links from 286 episodes (out of 300 episodes scraped, 14 without any links), averaging 8.2 per episode.**
+**2382 total links from 288 episodes (out of 300 episodes scraped, 12 without any links), averaging 8.3 per episode.**
+
+---
+
+## [Omega: We Take it Back (402)](https://the40and20podcast.podbean.com/e/omega-we-take-it-back-402/)
+
+**Published:** July 16, 2026 at 11:23 PM
+
+**Related Links (10):**
+
+- [Buzz Aldrin watches at auction](https://www.hodinkee.com/articles/buzz-aldrins-watches-are-coming-to-auction)
+- [Moon Swatch Mission to The Moon 1969](https://www.swatch.com/en-us/mission-to-the-moon-1969-ssx01b700/SSX01B700.html)
+- [Doxa Sub 300 Ti5 Clive Cussler](https://www.hodinkee.com/articles/the-doxa-sub-300-ti5-clive-cussler-limited-edition)
+- [Citizen Promaster Dive](https://www.hodinkee.com/articles/introducing-citizen-promaster-dive-summer-2026)
+- [Yema Navygraf Barracuda CMM.20](https://www.fratellowatches.com/new-yema-navygraf-barracuda-cmm-20-limited-edition/)
+- [Nodus X Raven TrailTrekker](https://wornandwound.com/nodus-and-raven-collaborate-on-their-fourth-trailtrekker/)
+- [Christopher Ward Twelve Xander](https://www.fratellowatches.com/christopher-ward-collaborates-with-the-dial-artist-to-create-the-twelve-xander/)
+- [Benjamin James Deerhurst Regulator](https://benjaminjameswatches.com/collections/deerhurst-regulator?srsltid=AfmBOoq0JvNhnq2-z10BFHrBhOB5JlxUWeAnh6O0oCX-EPBFQGIdjeNy)
+- [The Hawk](https://www.imdb.com/title/tt27550719/)
+- [Harry Epstein Tools](https://www.harryepstein.com/products/15-piece-12-point-metric-combination-wrench-set-7mm-22mm)
+
+---
+
+## [Seiko Has a Good Week (401)](https://the40and20podcast.podbean.com/e/seiko-has-a-good-week-401/)
+
+**Published:** July 16, 2026 at 10:47 PM
+
+---
+
+## [The 400th Episode (400)](https://the40and20podcast.podbean.com/e/the-400th-episode-400/)
+
+**Published:** July 01, 2026 at 10:38 PM
+
+**Related Links (10):**
+
+- [Nodus Obscura II](https://www.noduswatches.com/obscura/p/obscura)
+- [Seiko Prospex 1968 Heritage Diver GMT](https://revolutionwatch.com/seiko-prospex-1968-heritage-divers-gmt-classic-colorways-with-upgraded-specifications/)
+- [Fears Brunswick 40 Helmsman Endurance Specification](https://www.fratellowatches.com/introducing-the-fears-brunswick-40-helmsman-endurance-specification/#gref)
+- [Rado Captain Cook Shimmering Golden](https://monochrome-watches.com/first-look-rado-captain-cook-dive-watch-gold-dial-automatic-specs-price-live-pics/)
+- [Peacock Haiyi Tourbillon Yu LE](https://www.fratellowatches.com/hands-on-new-peacock-haiyi-tourbillon/#gref)
+- [Bulova Sail4th 250th](https://www.atimelyperspective.com/bulova-sails-into-americas-250th-with-new-yorks-tall-ships/)
+- [Tag Heuer Formula 1 x Gulf](https://monochrome-watches.com/2026-tag-heuer-formula-1-automatic-chronograph-x-gulf-review-price/)
+- [Baltic Scalegraph](https://monochrome-watches.com/baltic-scalegraph-collection-permanent-champagne-blue-grey-tricompax-chronograph-hand-wound-introducing-price/)
+- [Eugene Emeralds](https://www.mlb.com/milb/eugene)
+- [Wiha Soft Finish CentroFix Bit Holder](https://www.wihatools.com/products/wiha-centrofix-1-4-power-blade-handle?srsltid=AfmBOoq-GY2VuWK7OmchUHcaqNCqMFSdWjfVXQ-ClbjtBuG4cI135W7r)
+
+---
+
+## [[FIXED] We Hate Seiko, Now (399)](https://the40and20podcast.podbean.com/e/fixed-we-hate-seiko-now-399/)
+
+**Published:** June 25, 2026 at 06:33 AM
+
+**Related Links (8):**
+
+- [Amida Digitrend OSII Black](https://monochrome-watches.com/amida-digitrend-osii-black-open-sapphire-ii-black-review-price/)
+- [Mido Ocean Star 200](https://timeandtidewatches.com/mido-ocean-star-200-introducing/)
+- [Grand Seiko Evolution 9](https://www.hodinkee.com/articles/grand-seiko-updates-the-core-evolution-9-collection-with-tapered-bracelets-and-micro-adjustment-clas)
+- [Seiko Presage Classic 38mm](https://monochrome-watches.com/seiko-presage-classic-series-silk-inspired-dials-38mm-case-hcc001-hcc002-hcc003-hcc008-review-price/)
+- [Maen Manhattan 37 Ultra-Thin](https://monochrome-watches.com/maen-manhattan-37-ultra-thin-blue-fume-edition-boutique-exclusive-introducing-price/)
+- [Titan Edge UltraSlim Mechanical](https://monochrome-watches.com/titan-edge-ultraslim-mechanical-review-ultra-thin-in-house-hand-wound-titanium-watch-from-india-price/)
+- [Whole Hog BBQ](https://www.samjonesbbq.com/news/our-cookbook)
+- [Dust Bunny](https://www.imdb.com/title/tt23172090/)
+
+---
+
+## [A 2000 Meter Dive Watch That is Not Dumb (398)](https://the40and20podcast.podbean.com/e/a-2000-meter-dive-watch-that-is-not-dumb-398/)
+
+**Published:** June 17, 2026 at 10:38 PM
+
+**Related Links (9):**
+
+- [Bremont HMAF Collection](https://monochrome-watches.com/bremont-hmaf-collection-military-approuved-watches-mod-british-army-royal-navy-royal-air-force-introducing-price/)
+- [Certina DS Super PH2000M](https://monochrome-watches.com/first-look-video-review-certina-ds-super-ph2000m-sea-turtle-conservancy-stc-limited-edition-powermatic-80-specs-price-pics/)
+- [Christopher Ward Seconde/Seconde Pool Diver](https://www.fratellowatches.com/introducing-the-christopher-ward-c60-pool-diver-with-seconde-seconde/)
+- [Tissot Seastar 2000 Professional](https://monochrome-watches.com/2026-tissot-seastar-2000-professional-44mm-powermatic-80-dive-watch-review-price/)
+- [Hanhart 417 TI Desert Pilot Chronograph](https://www.fratellowatches.com/hands-on-hanhart-417-ti-desert-pilot/#gref)
+- [Traska Venturer GMT](https://www.fratellowatches.com/the-updated-traska-venturer-gmt-doesnt-wander-far/#gref)
+- [Doxa Sub 200 T-Graph II](https://wornandwound.com/doxa-introduces-the-long-awaited-sub-200-t-graph-ii/)
+- [Dutton Ranch](https://www.imdb.com/title/tt34991493/)
+- [New Riff Single Barrel Pick](https://newriffdistilling.com/spirits/new-riff-4-year-old-single-barrel-bourbon/)
+
+---
+
+## [Raymond Weil is an Enthusiast Watch Company (397)](https://the40and20podcast.podbean.com/e/raymond-weil-is-an-enthusiast-watch-company-397/)
+
+**Published:** June 11, 2026 at 10:10 PM
+
+**Related Links (9):**
+
+- [Kiwame Tokyo Kubo](https://monochrome-watches.com/introducing-kiwame-tokyo-kubo-series-sakura-tetsukon-usuki-miyota-9015-specs-price/)
+- [Angelus Instrument de Mesures](https://monochrome-watches.com/first-look-angelus-instrument-de-mesures-telemeter-pulsometer-tachymeter-calibre-a5000-monopusher-chronograph-specs-price-review/)
+- [Yema Granvelle Renaissance CMM.29](https://monochrome-watches.com/first-look-yema-granvelle-renaissance-cmm-29-micro-rotor-dress-watch-specs-price-review-live-pics/)
+- [Raymond Weil A.R.T.](https://monochrome-watches.com/first-look-raymond-weil-a-r-t-art-refinement-timekeeping-luxury-sports-specs-price-live-pics/)
+- [Gerard-Perregeaux Laureatos](https://monochrome-watches.com/first-look-girard-perregaux-laureaty-fifty-collection-36mm-39mm-calibre-gp-4800-review-specs-price-pics/)
+- [Autodromo Group C Turbo Sport](https://www.hodinkee.com/articles/the-autodromo-group-c-turbo-sport-chronograph)
+- [Bell & Ross BR-05](https://wornandwound.com/bell-ross-introduces-the-br-05-36mm-blue-diamond-eagle-diamond/)
+- [Momofuku Chili Crunch](https://shop.momofuku.com/products/chili-crunch?srsltid=AfmBOoq3EneMGZyRWCxyGIHB4pevb1Na1ipwBOB0KEmRVIAubYoDGvOv)
+- [Obsession](https://en.wikipedia.org/wiki/Obsession_(2025_film))
+
+---
+
+## [Tudor Goes Full Middle Finger (396)](https://the40and20podcast.podbean.com/e/tudor-goes-full-middle-finger-396/)
+
+**Published:** June 10, 2026 at 01:17 PM
+
+**Related Links (9):**
+
+- [Rado DiaStar Skeleton](https://monochrome-watches.com/rado-diastar-original-skeleton-limited-edition-summer-colours-2026-review-price/)
+- [Praesidus A-11 LMUV](https://www.fratellowatches.com/praesidus-commemorates-the-82nd-anniversary-of-d-day-with-the-a-11-lmuv-featuring-dials-made-from-willys-mb-jeeps/#gref)
+- [Tudor Black Bay Chrono 39 Bumblebee](https://monochrome-watches.com/introducing-new-more-compact-tudor-black-bay-chrono-39-bumblebee-79310n-introducing-price/)
+- [Squale 2001 Marina Militare](https://monochrome-watches.com/squale-2001-marina-militare-italian-navy-military-issued-dive-watch-introducing-price/)
+- [Glashutte Original Seventies XV LE](https://monochrome-watches.com/glashutte-original-seventies-chronograph-xv-limited-edition-black-and-white-introducing-price/)
+- [Micromilspec X Black Badger](https://www.fratellowatches.com/micromilspec-and-black-badger-team-up-for-the-adventurous-broken-hour/#gref)
+- [Timex Atelier Chronographs](https://www.hodinkee.com/articles/timex-atelier-announces-two-new-chronographs)
+- [Vortex Mountain Pass Tripod](https://vortexoptics.com/mountain-pass-tripod-kit.html)
+- [Icon Meme Tool Attachment](https://www.etsy.com/listing/4464560975/harbor-freight-icon-meme-tool-mini?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=icon+meme+tool&ref=sr_gallery-1-4&sr_prefetch=1&pf_from=market&frs=1&sts=1&content_source=05252d5e-a27b-4243-ad40-1b2bd739cbaf%253ALT0f7f14cc6444bb1908303783ef3172b722186655&organic_search_click=1&logging_key=05252d5e-a27b-4243-ad40-1b2bd739cbaf%3ALT0f7f14cc6444bb1908303783ef3172b722186655)
+
+---
+
+## [Formex Swings for the Fences (395)](https://the40and20podcast.podbean.com/e/formex-swings-for-the-fences-395/)
+
+**Published:** June 05, 2026 at 10:09 AM
+
+**Related Links (7):**
+
+- [Timex X J Crew](https://www.hodinkee.com/articles/timex-mk1-for-jcrew)
+- [Bangalore Peninsula Carbon](https://monochrome-watches.com/bangalore-watch-company-peninsula-carbon-with-dial-made-from-recovered-carbon-introducing-price/)
+- [Formex Aria](https://monochrome-watches.com/formex-aria-manufacture-chronometer-integrated-sports-watch-ultra-thin-micro-rotor-horage-silicon-review-price/)
+- [Dennison + Collectability Oblique](https://www.hodinkee.com/articles/dennison-collectability-edition-oblique-collection)
+- [Arken Alterum Sage Grey](https://www.hodinkee.com/articles/the-arken-alterum-sage-grey)
+- [Luxome Weighted Blanket](https://luxome.com/products/weighted-blanket?srsltid=AfmBOop4eg-lghLlhfpnw5glp4Hjd9gBC-pOVgyd1vYh2nHiRjdGPzek&Material=Bamboo+Lyocell+%2B+Minky+%7C+Grey)
+- [CAT Universal Sockets](https://parts.cat.com/en/petersonmachinery/product/246-8184?utm_campaign=701ho000001n8e1iak_ecomm_me_shopping_p_23221562346_luna_701az00000uzqb7qah&gclsrc=aw.ds&gad_source=1&gad_campaignid=23552551346&gbraid=0AAAAAoNZKRPIKTnnakdWp_KXTpJkR-ceI&gclid=CjwKCAjw8uTQBhAdEiwAVvtJykQkGl3juPghVE9SRnvnjv6QRcOTdj8RgEgksPZgGsVyhx1XkI8g2hoC8d8QAvD_BwE)
+
+---
+
+## [We Hate Omega Now(?) (394)](https://the40and20podcast.podbean.com/e/we-hate-omega-now-394/)
+
+**Published:** May 28, 2026 at 10:29 PM
+
+**Related Links (8):**
+
+- [Citizen and Seiko break 1B Euros](https://monochrome-watches.com/citizen-and-seiko-both-became-eur-1-billion-watchmakers-in-2025-industry-news/)
+- [Seamaster Diver 300M Chronograph 007 First Light](https://www.omegawatches.com/en-us/watches/seamaster/diver-300-m/007-first-light/product)
+- [Breitling Chronomat](https://www.hodinkee.com/articles/breitling-refreshes-the-chronomat-collection)
+- [Seiko Pressage Silver Bullet GMT](https://www.watchonista.com/articles/closer-look/closer-look-seikos-new-presage-silver-bullet-gmt-cocktail-time-collection)
+- [Synchron Ti300M Poseidon I](https://www.fratellowatches.com/hands-on-with-the-new-synchron-ti300m-poseidon-i-limited-edition/#gref)
+- [Citizen Promaster Wave Tracker](https://deployant.com/new-citizen-promaster-wave-tracker/)
+- [Kaleidoscope](https://www.imdb.com/title/tt15438246/)
+- [Maxpedition Beefy Pocket Organizer](https://www.maxpedition.com/products/beefy-pocket-organizer?srsltid=AfmBOorv8jHmoUA4QSYvglMspbhgfod_a3xn4YBRdyFyGxDjciN7mRfA&variant=39633584273)
+
+---
+
+## [Chanel Seiko and AP (393)](https://the40and20podcast.podbean.com/e/chanel-seiko-and-ap-393/)
+
+**Published:** May 25, 2026 at 09:53 PM
+
+**Related Links (9):**
+
+- [Chanel J12 Superleggera](https://timeandtidewatches.com/chanel-j12-superleggera-caliber-12-1-introducing/)
+- [Seiko 5 Sports Compass Bezel](https://monochrome-watches.com/2026-seiko-5-sports-field-series-compass-bezel-hdb006-hdb007-hdb008-hdb009-value-proposition-introducing/)
+- [Swatch X Audemars Piguet “Royal Pop”](https://www.hodinkee.com/articles/introducing-swatch-x-ap-royal-pop)
+- [Citizen Tsuno](https://www.fratellowatches.com/hands-on-citizen-challenge-timer-tsuno/#gref)
+- [Squale SUB-37 Legend](https://monochrome-watches.com/introducing-squale-sub-37-legend-dive-watch-price/)
+- [Oris Artelier Date 38mm](https://monochrome-watches.com/2026-redesigned-oris-artelier-date-38mm-collection-introducing-price/)
+- [Ready or Not](https://www.imdb.com/title/tt7798634/)
+- [AlpineElements gear pouch](https://www.etsy.com/listing/1555547420/flat-gear-pouch-ultralight-dyneema?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_ps-d-bags_and_purses&utm_custom1=_k_EAIaIQobChMItrrOhci6lAMVcS2tBh0n-wPXEAQYASABEgII-vD_BwE_k_&utm_content=go_21792090879_169018384735_716715245435_pla-314261243987_c__1555547420_12768591&utm_custom2=21792090879&gad_source=1&gad_campaignid=21792090879&gbraid=0AAAAADtcfRLlDwzVSJ_2yQTsZLaeWr61X&gclid=EAIaIQobChMItrrOhci6lAMVcS2tBh0n-wPXEAQYASABEgII-vD_BwE)
+- [GearByJulian EDC Bag](https://www.etsy.com/listing/4443516059/car-tool-bag-with-patch-skier-all-seeing?ls=r&external=1&rec_type=ss&ref=landingpage_similar_listing_top-1&sts=1&content_source=9eed7419f4cc639cad89fbb4e27a244c%253ALT8a6dc54a8df67b551d4c10947c5c2f6e7ad6838d&logging_key=9eed7419f4cc639cad89fbb4e27a244c%3ALT8a6dc54a8df67b551d4c10947c5c2f6e7ad6838d)
+
+---
+
+## [Bulova and Seagull Make Things Right (392)](https://the40and20podcast.podbean.com/e/bulova-and-seagull-make-things-right-392/)
+
+**Published:** May 14, 2026 at 10:32 PM
+
+**Related Links (9):**
+
+- [Bulova Lunar Pilot Black Hole](https://www.bulova.com/us/en/product/98A335.html)
+- [MeisterSinger Unitas 1Z](https://monochrome-watches.com/meistersinger-unitas-1z-edition-enamel-dial-introducing-price/)
+- [Christopher Ward Sealander Upgrades](https://www.fratellowatches.com/hands-on-introduction-updated-christopher-ward-c63-sealander-collection/)
+- [SEA-GULL 1963 Upgrades](https://www.ablogtowatch.com/sea-gull-1963-chronograph-the-legend-evolves-with-a-new-generation-of-chinas-iconic-mechanical-pilots-watch/)
+- [Rado Integral 40 year anniversary](https://www.rado.com/en_us/integral-40-year-anniversary-edition-r20258162.html?srsltid=AfmBOorew6sCe5cE4NWvdYUXBbTvbr2rpBv8AqTg-PscDmDYWEYu8G9t)
+- [Yema Skin Diver Full Lume CMM.20 LE](https://timeandtidewatches.com/yema-skin-diver-slim-full-lume-hands-on/)
+- [Farer Pilot Series](https://www.gearpatrol.com/watches/farer-pilot-series-ii/)
+- [The Secret World of Roald Dahl](https://www.iheartmedia.com/press/iheartpodcasts-and-imagine-entertainment-launch-secret-world-roald-dahl-dark-twisty-new)
+- [Ko Ken Wrench](https://kokenusa.com/products/1-4-sq-dr-ratchet-handle-72-teeth-length-114mm-z-series?utm_term=&utm_campaign=GSN+-+Items+-+Top+Seller%7CTools%7CC:20&utm_source=adwords&utm_medium=ppc&hsa_acc=1070732980&hsa_cam=20611117571&hsa_grp=153816244203&hsa_ad=675841318291&hsa_src=g&hsa_tgt=pla-2245856296724&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20611117571&gbraid=0AAAAABh32I367MMX5_OQYAlRlJsLCEpvh&gclid=EAIaIQobChMIzJWY3YKklAMVGdDCBB3u1TMbEAQYASABEgLEzPD_BwE)
 
 ---
 
@@ -4865,138 +5049,5 @@ Generated on May 07, 2026
 - [https://www.amazon.com/ACCENT-FLAVOR-SEASONING-NATURAL-ENHANCER/dp/B007HACDBA](https://www.amazon.com/ACCENT-FLAVOR-SEASONING-NATURAL-ENHANCER/dp/B007HACDBA)
 - [https://www.healthline.com/nutrition/msg-good-or-bad](https://www.healthline.com/nutrition/msg-good-or-bad)
 - [https://secretaardvark.com/](https://secretaardvark.com/)
-
----
-
-## [Episode 104 - Interview With Michael Seals of Seals Watch Co](https://the40and20podcast.podbean.com/e/episode-104-interview-with-michael-seals-of-seals-watch-co-1603342492/)
-
-**Published:** October 21, 2020 at 09:54 PM
-
-**Related Links (2):**
-
-- [https://seals-watches.com/](https://seals-watches.com/)
-- [https://www.thespruce.com/free-chicken-coop-plans-1357113](https://www.thespruce.com/free-chicken-coop-plans-1357113)
-
----
-
-## [Episode 103 - Brett Williams of Albany Watches](https://the40and20podcast.podbean.com/e/episode-103-brett-williams-of-albany-watches/)
-
-**Published:** October 14, 2020 at 10:52 PM
-
-**Related Links (5):**
-
-- [https://www.albanywatches.com/](https://www.albanywatches.com/)
-- [https://www.kickstarter.com/projects/albanywatches/the-ama-diver/](https://www.kickstarter.com/projects/albanywatches/the-ama-diver/)
-- [https://en.wikipedia.org/wiki/Ama_(diving)](https://en.wikipedia.org/wiki/Ama_(diving))
-- [https://www.golfgalaxy.com/f/golf-club-grip?filterFacets=facetStore%3AISA%2CSHIP](https://www.golfgalaxy.com/f/golf-club-grip?filterFacets=facetStore%3AISA%2CSHIP)
-- [https://www.harborfreight.com/oscillating-multi-tool-62866.html](https://www.harborfreight.com/oscillating-multi-tool-62866.html)
-
----
-
-## [Episode 102 - Solas Watches, with Diyu Wu](https://the40and20podcast.podbean.com/e/episode-102-solas-watches-with-diyu-wu/)
-
-**Published:** October 07, 2020 at 10:16 PM
-
-**Related Links (5):**
-
-- [https://solaswatches.com](https://solaswatches.com)
-- [https://www.kickstarter.com/projects/solaswatches/solas-starlight-an-irish-affordable-micro-rotor-watch](https://www.kickstarter.com/projects/solaswatches/solas-starlight-an-irish-affordable-micro-rotor-watch)
-- [https://en.wikipedia.org/wiki/The_Devil_All_the_Time_(film)](https://en.wikipedia.org/wiki/The_Devil_All_the_Time_(film))
-- [https://www.blendtec.com/collections/blenders](https://www.blendtec.com/collections/blenders)
-- [https://www.pckeyboard.com/](https://www.pckeyboard.com/)
-
----
-
-## [Episode 101 -Cameron Lazanich (of Nodus)](https://the40and20podcast.podbean.com/e/episode-101-cameron-lazanich-of-nodus/)
-
-**Published:** September 30, 2020 at 09:34 PM
-
----
-
-## [Episode 100 - Pre-Orders: the Good, the Bad, and the Ugly](https://the40and20podcast.podbean.com/e/episode-100-pre-orders-the-good-the-bad-and-the-ugly/)
-
-**Published:** September 23, 2020 at 08:11 PM
-
----
-
-## [Episode 99 - ISO Watch Standards:What are They?](https://the40and20podcast.podbean.com/e/episode-99-iso-watch-standardswhat-are-they/)
-
-**Published:** September 16, 2020 at 10:18 PM
-
-**Related Links (8):**
-
-- [https://www.palisadejewelers.com/resources/iso-6425-standards-dive-watches/](https://www.palisadejewelers.com/resources/iso-6425-standards-dive-watches/)
-- [https://www.iso.org/obp/ui/#iso:std:iso:22810:ed-1:v1:en](https://www.iso.org/obp/ui/#iso:std:iso:22810:ed-1:v1:en)
-- [https://www.watchtime.com/featured/dive-watch-defined/](https://www.watchtime.com/featured/dive-watch-defined/)
-- [https://www.hodinkee.com/articles/tale-of-two-isos-what-water-resistance-ratings-really-mean](https://www.hodinkee.com/articles/tale-of-two-isos-what-water-resistance-ratings-really-mean)
-- [https://www.hodinkee.com/articles/what-dive-watch-depth-ratings-really-mean-and-whether-you-can-trust-them](https://www.hodinkee.com/articles/what-dive-watch-depth-ratings-really-mean-and-whether-you-can-trust-them)
-- [https://dexter1818.com/sani-safe-6-flexible-curved-boning-knife/](https://dexter1818.com/sani-safe-6-flexible-curved-boning-knife/)
-- [https://dexter1818.com/sani-safe-8-butcher-knife/](https://dexter1818.com/sani-safe-8-butcher-knife/)
-- [https://www.brooksbrothers.com/Oxford-Shirts/men-oxford-shirts,default,sc.html](https://www.brooksbrothers.com/Oxford-Shirts/men-oxford-shirts,default,sc.html)
-
----
-
-## [Episode 98 - Interview with Marc of Long Island Watch](https://the40and20podcast.podbean.com/e/episode-98-interview-with-marc-of-long-island-watch/)
-
-**Published:** September 10, 2020 at 01:20 AM
-
-**Related Links (1):**
-
-- [https://www.longislandwatch.com/?gclid=CjwKCAjwnef6BRAgEiwAgv8mQapr79HFH7jsDqRpdPhyolPE2owytQnYUbsUcj5XKLxHHiaZyfiz7hoCwOIQAvD_BwE](https://www.longislandwatch.com/?gclid=CjwKCAjwnef6BRAgEiwAgv8mQapr79HFH7jsDqRpdPhyolPE2owytQnYUbsUcj5XKLxHHiaZyfiz7hoCwOIQAvD_BwE)
-
----
-
-## [Episode 97 - Watch Iterations(with Mike Razak)](https://the40and20podcast.podbean.com/e/episode-97-watch-iterationswith-mike-razak/)
-
-**Published:** September 02, 2020 at 10:43 PM
-
-**Related Links (3):**
-
-- [https://www.youtube.com/results?search_query=random+golf+club+films](https://www.youtube.com/results?search_query=random+golf+club+films)
-- [https://www.amazon.com/Buttoned-Down-Super-Italian-Jacket/dp/B07BHJRRBY/ref=sr_1_19?dchild=1&keywords=BUTTONED+DOWN+mens+slim+fit+super+110+italian+wool+suit+jacket&qid=1599046480&sr=8-19](https://www.amazon.com/Buttoned-Down-Super-Italian-Jacket/dp/B07BHJRRBY/ref=sr_1_19?dchild=1&keywords=BUTTONED+DOWN+mens+slim+fit+super+110+italian+wool+suit+jacket&qid=1599046480&sr=8-19)
-- [https://www.birbigs.com/](https://www.birbigs.com/)
-
----
-
-## [Episode 96 - Summer Watches](https://the40and20podcast.podbean.com/e/episode-96-summer-watches/)
-
-**Published:** August 26, 2020 at 11:24 PM
-
-**Related Links (8):**
-
-- [https://www.jomashop.com/hamilton-khaki-field-watch-h69439933.html?utm_source=googleproduct&utm_medium=cpc&utm_campaign=googleproductsearch&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVh-A99cxGNfHscMpTjwNQ1NJsX74Tn3m4U_Oz0B1GpNyK0yOvJu4OxoCEfQQAvD_BwE](https://www.jomashop.com/hamilton-khaki-field-watch-h69439933.html?utm_source=googleproduct&utm_medium=cpc&utm_campaign=googleproductsearch&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVh-A99cxGNfHscMpTjwNQ1NJsX74Tn3m4U_Oz0B1GpNyK0yOvJu4OxoCEfQQAvD_BwE)
-- [http://armyairforces.name/en/super-rare-swiss-army-f-a-18-air-force-chronograph-automatic-7750-valjoux-xtras.html](http://armyairforces.name/en/super-rare-swiss-army-f-a-18-air-force-chronograph-automatic-7750-valjoux-xtras.html)
-- [https://www.amazon.com/Orient-FAA02001B9-Analog-Automatic-Hand-Winding/dp/B01AK5TQQ8](https://www.amazon.com/Orient-FAA02001B9-Analog-Automatic-Hand-Winding/dp/B01AK5TQQ8)
-- [https://emgwatches.com/collections/nemo-diver](https://emgwatches.com/collections/nemo-diver)
-- [https://www.tudorwatch.com/en/watch-family/black-bay-fifty-eight?ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVte02DFUR8gCVVQJiqJthurqaBEjUxWbXnpQONE2O0_Rhlin-51RXxoCxA4QAvD_BwE:G:s&s_kwcid=AL!141!3!444891010760!b!!g!!%2Btudor%20%2B58](https://www.tudorwatch.com/en/watch-family/black-bay-fifty-eight?ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVte02DFUR8gCVVQJiqJthurqaBEjUxWbXnpQONE2O0_Rhlin-51RXxoCxA4QAvD_BwE:G:s&s_kwcid=AL!141!3!444891010760!b!!g!!%2Btudor%20%2B58)
-- [https://www.omegawatches.com/en-us/watches/speedmaster](https://www.omegawatches.com/en-us/watches/speedmaster)
-- [https://www.amazon.com/SMALLRIG-Screwdrivers-Wrenches-Functional-Included/dp/B07P35P21Z/ref=sr_1_1_sspa?dchild=1&keywords=camera+multitool&qid=1598459933&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOVcxSDUwUFgzQ0owJmVuY3J5cHRlZElkPUExMDQyNzc1UkJWUEpWSkIzQUtJJmVuY3J5cHRlZEFkSWQ9QTAxNjI4NDUyM0ozVllRQkNRWjY2JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==](https://www.amazon.com/SMALLRIG-Screwdrivers-Wrenches-Functional-Included/dp/B07P35P21Z/ref=sr_1_1_sspa?dchild=1&keywords=camera+multitool&qid=1598459933&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOVcxSDUwUFgzQ0owJmVuY3J5cHRlZElkPUExMDQyNzc1UkJWUEpWSkIzQUtJJmVuY3J5cHRlZEFkSWQ9QTAxNjI4NDUyM0ozVllRQkNRWjY2JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
-- [https://www.jonessportsco.com/collections/stand-bags](https://www.jonessportsco.com/collections/stand-bags)
-
----
-
-## [Episode 95 - The Watch(es?) of Everest](https://the40and20podcast.podbean.com/e/episode-95-the-watches-of-everest/)
-
-**Published:** August 19, 2020 at 11:59 PM
-
----
-
-## [Episode 94 - GFY Watches](https://the40and20podcast.podbean.com/e/episode-94-gfy-watches/)
-
-**Published:** August 13, 2020 at 12:01 AM
-
-**Related Links (11):**
-
-- [https://www.watches.com/products/dufa-weimar-bauhaus-100-year-anniversary-edition-gmt-blue-white-df-9006-0c](https://www.watches.com/products/dufa-weimar-bauhaus-100-year-anniversary-edition-gmt-blue-white-df-9006-0c)
-- [https://www.watches.com/products/spinnaker-piccard-automatic-1000-meter-gold-blue-sp-5082-02?gclid=CjwKCAjwps75BRAcEiwAEiACMXU0f0pBBPyNWtl1IVhFArHJx5iURnz8JKCqx0s5uAL02CdapkiLUhoCWrQQAvD_BwE](https://www.watches.com/products/spinnaker-piccard-automatic-1000-meter-gold-blue-sp-5082-02?gclid=CjwKCAjwps75BRAcEiwAEiACMXU0f0pBBPyNWtl1IVhFArHJx5iURnz8JKCqx0s5uAL02CdapkiLUhoCWrQQAvD_BwE)
-- [https://www.aliexpress.com/item/32803721075.html?spm=a2g0o.productlist.0.0.69eb1c9fkMQtCa&algo_pvid=34f8294e-8c51-4000-807a-9e3c6205d568&algo_expid=34f8294e-8c51-4000-807a-9e3c6205d568-21&btsid=0ab50f4915972679485863709e2c11&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_](https://www.aliexpress.com/item/32803721075.html?spm=a2g0o.productlist.0.0.69eb1c9fkMQtCa&algo_pvid=34f8294e-8c51-4000-807a-9e3c6205d568&algo_expid=34f8294e-8c51-4000-807a-9e3c6205d568-21&btsid=0ab50f4915972679485863709e2c11&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-- [https://www.hodinkee.com/articles/the-tag-heuer-tom-brady-special-edition-heuer-01-chronograph](https://www.hodinkee.com/articles/the-tag-heuer-tom-brady-special-edition-heuer-01-chronograph)
-- [https://www.amazon.com/Gold-Tone-Casio-World-Stainless-A500WGA-1/dp/B01N06LWES](https://www.amazon.com/Gold-Tone-Casio-World-Stainless-A500WGA-1/dp/B01N06LWES)
-- [https://no-watch.co.uk/pages/Reverso_CM1-3212.html](https://no-watch.co.uk/pages/Reverso_CM1-3212.html)
-- [https://www.chrono24.com/omega/speedmaster-moonwatch-20th-anni-apollo-xi-1989-limited-edit--id14743678.htm](https://www.chrono24.com/omega/speedmaster-moonwatch-20th-anni-apollo-xi-1989-limited-edit--id14743678.htm)
-- [https://www.hodinkee.com/articles/omega-seamaster-planet-ocean-ultra-deep-professional-in-depth](https://www.hodinkee.com/articles/omega-seamaster-planet-ocean-ultra-deep-professional-in-depth)
-- [https://morakniv.se/en/](https://morakniv.se/en/)
-- [https://www.amazon.com/Gear-Aid-Tenacious-Repair-Fabric/dp/B001949Z4I/ref=sr_1_1?dchild=1&keywords=gear+aid&qid=1597268328&sr=8-1](https://www.amazon.com/Gear-Aid-Tenacious-Repair-Fabric/dp/B001949Z4I/ref=sr_1_1?dchild=1&keywords=gear+aid&qid=1597268328&sr=8-1)
-- [https://www.amazon.com/Storacell-12AACY-Powerpax-Battery-Batteries/dp/B004YG7JXW/ref=sr_1_15?dchild=1&keywords=battery+holder&qid=1597268358&sr=8-15](https://www.amazon.com/Storacell-12AACY-Powerpax-Battery-Batteries/dp/B004YG7JXW/ref=sr_1_15?dchild=1&keywords=battery+holder&qid=1597268358&sr=8-15)
 
 ---

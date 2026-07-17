@@ -1,4 +1,15 @@
-### Page updated May 06 2026 07:14 - 300 episodes
+### Page updated Jul 17 2026 07:16 - 300 episodes
+- [Omega: We Take it Back (402)](408/episode.md) Jul 16 2026
+- [Seiko Has a Good Week (401)](407/episode.md) Jul 16 2026
+- [The 400th Episode (400)](406/episode.md) Jul 01 2026
+- [[FIXED] We Hate Seiko, Now (399)](405/episode.md) Jun 25 2026
+- [A 2000 Meter Dive Watch That is Not Dumb (398)](404/episode.md) Jun 17 2026
+- [Raymond Weil is an Enthusiast Watch Company (397)](403/episode.md) Jun 11 2026
+- [Tudor Goes Full Middle Finger (396)](402/episode.md) Jun 10 2026
+- [Formex Swings for the Fences (395)](401/episode.md) Jun 05 2026
+- [We Hate Omega Now(?) (394)](400/episode.md) May 28 2026
+- [Chanel Seiko and AP (393)](399/episode.md) May 25 2026
+- [Bulova and Seagull Make Things Right (392)](398/episode.md) May 14 2026
 - [Watches Roundup with Will (391)](397/episode.md) May 05 2026
 - [Watches and Wonders Leftovers (390)](396/episode.md) Apr 21 2026
 - [Our Watches and Wonders Selections (389)](395/episode.md) Apr 14 2026
@@ -288,14 +299,3 @@
 - [Episode 107 - 2020 (Slightly Early) Year in Review](110/episode.md) Nov 11 2020
 - [Episode 106 - Talking Retromatic with Jonathan Ferrer of Brew Watch Co.](109/episode.md) Nov 04 2020
 - [Episode 105 - Revisiting the Starter Watch](108/episode.md) Oct 28 2020
-- [Episode 104 - Interview With Michael Seals of Seals Watch Co](107/episode.md) Oct 21 2020
-- [Episode 103 - Brett Williams of Albany Watches](106/episode.md) Oct 14 2020
-- [Episode 102 - Solas Watches, with Diyu Wu](105/episode.md) Oct 07 2020
-- [Episode 101 -Cameron Lazanich (of Nodus)](104/episode.md) Sep 30 2020
-- [Episode 100 - Pre-Orders: the Good, the Bad, and the Ugly](103/episode.md) Sep 23 2020
-- [Episode 99 - ISO Watch Standards:What are They?](102/episode.md) Sep 16 2020
-- [Episode 98 - Interview with Marc of Long Island Watch](101/episode.md) Sep 10 2020
-- [Episode 97 - Watch Iterations(with Mike Razak)](100/episode.md) Sep 02 2020
-- [Episode 96 - Summer Watches](99/episode.md) Aug 26 2020
-- [Episode 95 - The Watch(es?) of Everest](98/episode.md) Aug 19 2020
-- [Episode 94 - GFY Watches](97/episode.md) Aug 13 2020

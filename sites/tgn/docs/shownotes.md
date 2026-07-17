@@ -1,8 +1,296 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on May 07, 2026
+Generated on July 17, 2026
 
-**7963 total links from 370 episodes (out of 372 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+**8161 total links from 380 episodes (out of 382 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+
+---
+
+## [The Grey NATO – 384 – Face to Face! Wind Up In A Lake (And A Watch Wound Up On The Bottom!)](https://thegreynato.substack.com/p/384-wind-up-chicago-2026)
+
+**Published:** July 16, 2026 at 06:00 AM
+
+**Related Links (17):**
+
+- [Citizen Ecozilla](https://www.citizenwatch.com/us/en/product/BJ8050-08E)
+- [Citizen “Orca”](https://www.citizenwatch.com/ca/en/product/BN0230-04E.html)
+- [Brock’s underwater shots](https://www.instagram.com/p/DasvHgBkS4f/?hl=fr&img_index=1)
+- [Ecozilla strap adapters](https://www.amazon.com/SHANGPULE-Compatible-Eco-Drive-BJ8050-08E-Replacement/dp/B0C3M3P74M/ref=sr_1_4?dib=eyJ2IjoiMSJ9.PXTmRDyxB6e44ljv0Xfdl4YSddp7x_PITTbE0TlzFmvflmEeHQiH3B-qaIO6bQf05ZBQZEJGqIQg5otV7m3RT-ynYDC4MsnbiUippfdwR4QZbzjlo6Dp-pd_PPbQNebIjyRlWC8WKQj_oX0uVnofFb9uXaKENbrBg7TBRfi7-vXEI4uL9LfFvoNRns5FS-nMhuLsDaQ1HtmgMYAPydXeEOm4IqSnagzFVZVd5rnQNbPxmuXSDmMym-0lY3BbxtytWLSn2vzSMrBdqhAxpWx3pNtoa-famd2nKJ_bGNyp-w4.TP-Ri4TrTRgfpWESLoSTk1_kEZbtoboEwAXSMOd7NPY&dib_tag=se&sprefix=citizen+strap+adapters%2Caps%2C163&sr=8-4)
+- [James’ Citizen Aqualand Duplex](https://www.instagram.com/p/Da1LgkWtXPg/)
+- [Doxa T-Graph](https://www.hodinkee.com/articles/the-doxa-sub-200-tgraph-ii)
+- [Prevail Watches](https://prevailwatches.com/)
+- [Fitwell Microadjust Buckle](https://www.fitwellbuckle.co/collections/buckles)
+- [Tanoshii Sushi](https://tanoshiiwestloop.com/)
+- [IWC Aquatimer 3536 Diver](https://www.fratellowatches.com/iwc-aquatimer-3536-gst-watch-review/)
+- [The Wells Burt](https://doubleactiondivecharters.com/wreck/wells-burt/)
+- [Fat Head’s Brewing](https://fatheads.com/)
+- [Deep 6 Gear](https://www.deep6gear.com/)
+- [Backplate and Wing](https://www.deep6gear.com/deep6-stability-single-wing-white-grey.html)
+- [WatchCowsDive](https://www.instagram.com/watchcowsdive/)
+- [Orcatorch Orca 7 Flashlight](https://www.orcatorch.com/product/orca7.html)
+- [Ombraz Armless Sunglasses Dolomite](https://ombraz.com/products/dolomite-ombraz-armless-sunglasses)
+
+---
+
+## [The Grey NATO – 383 – Slack Crew & A 2026 [Part 2]](https://thegreynato.substack.com/p/383-slack-crew-a-2026-2)
+
+**Published:** July 09, 2026 at 06:00 AM
+
+**Related Links (18):**
+
+- [Support TGN](https://thegreynato.substack.com/subscribe)
+- [Toronto Timepiece Show](https://www.timepieceshow.com/)
+- [James’ Citizen Aqualand Duplex](https://www.instagram.com/p/DT3pYt5kY3n/)
+- [Jason’s first-gen Aqualand](https://www.instagram.com/p/C3q3FHNLyPi/?img_index=1)
+- [Thinking of a Place - The War on Drugs](https://www.youtube.com/watch?v=TeaDE1magRk)
+- [Funeral - James Blake](https://www.youtube.com/watch?v=oTWM8q-l2-g)
+- [What Once Was - Her’s](https://www.youtube.com/watch?v=O-B-BBwfAWU)
+- [Song to the Siren - Rose Bets](https://www.youtube.com/watch?v=JQZ5_3s4ltU)
+- [Californian Soil - London Grammar](https://www.youtube.com/watch?v=Pbwaq0E80hQ)
+- [I Saw You In A Dream - The Japanese House](https://www.youtube.com/watch?v=LxZDxF0MyV0)
+- [London Grammar on KEXP](https://www.youtube.com/watch?v=v-cmmT3YoF0&t=1s)
+- [Photo Report: Cars & Coffee At 2,500 Meters: Ultrarare Vintage Porsches Take to the Austrian Alps](https://www.hodinkee.com/articles/cars-and-coffee-at-2500-meters-ultrarare-vintage-porsches-take-to-the-austrian-alps)
+- [James’ Clipperton story](http://v)
+- [Clipperton TGN Ep #35](https://thegreynato.substack.com/p/the-grey-nato-35-from-clipperton)
+- [Dispatch: Channeling Science in the Wild Pacific (Jason, Blancpain, Hodinkee)](https://www.hodinkee.com/articles/channeling-science-in-the-wild-pacific)
+- [Breathing Your Own Air (Tudor project)](https://www.hodinkee.com/articles/breathing-your-own-air)
+- [The Compleat TGN](https://tgn.phfactor.net/episodes/)
+- [Hoto Autocare Air Duster and Vacuum](https://hototools.com/products/hoto-autocare-air-duster-vacuum)
+
+---
+
+## [The Grey NATO – 382 – SailGP Halifax With Rolex ](https://thegreynato.substack.com/p/382-sailgp-halifax-rolex)
+
+**Published:** July 02, 2026 at 06:00 AM
+
+**Related Links (21):**
+
+- [Windup Chicago](https://www.windupwatchfair.com/chicago)
+- [Waitlist for Citizen x TGN event](https://www.eventbrite.ca/e/citizen-x-tgn-chicago-hangout-tickets-1992019006472?aff=oddtdtcreator)
+- [Ludvigson Explorer Collection](https://thegreynato.com/shop)
+- [The Agency](https://www.imdb.com/title/tt26656917/)
+- [Leica SL3-P](https://leica-camera.com/en-int/photography/cameras/sl/sl3-p-black)
+- [Mosquito Dunks](https://summitchemical.com/products/mosquito-dunks/)
+- [Jason’s trip to DC with Rolex](https://www.hodinkee.com/articles/a-preview-of-the-national-geographic-museum-of-exploration-and-the-rolex-landing)
+- [Jason’s 14060M Submariner](https://www.instagram.com/p/DVrhO31ESOf/)
+- [James’ Explorer II 16570](https://www.instagram.com/p/DV_f6K7DbsJ/)
+- [SailGP Explained](https://sailgp.com/general/about/)
+- [Tom Slingsby](https://www.rolex.com/rolex-family/yachting/tom-slingsby)
+- [Bond Flying Roos SailGP team](https://www.instagram.com/bondsflyingroos/)
+- [SailGP App](https://sailgp.com/about/sailgpapp/)
+- [Top 5 Moments from SailGP Halifax](https://sailgp.com/news/26/watch-five-moments-might-have-missed-halifax-canada-sail-grand-prix/)
+- [Beginner’s Guide to the F50](https://sailgp.com/news/24/beginners-guide-f50-foiling-catamaran/)
+- [Good Robot Brewery](https://goodrobotbrewing.ca/)
+- [Hannah Mills](https://www.rolex.com/rolex-family/yachting/hannah-mills)
+- [Athena Pathway](https://www.athenapathway.com/)
+- [Rolex and SailGP (Andy’s Story)](https://www.hodinkee.com/articles/why-rolex-is-doubling-down-on-race-sponsorship-with-sailgp)
+- [Atlantic Saints – Substack](https://atlanticsaints.substack.com/)
+- [“Next Level Camping Gear for 2026” – (Josh Fenn, YouTube)](https://www.youtube.com/watch?v=uNoROmwN3OI)
+
+---
+
+## [The Grey NATO – 381 – Exploring With Rolex, Nat Geo, Bertie Gregory, & Thomas Peschak](https://thegreynato.substack.com/p/381-exploring-with-rolex)
+
+**Published:** June 25, 2026 at 06:00 AM
+
+**Related Links (21):**
+
+- [Wind Up Chicago](https://www.windupwatchfair.com/chicago)
+- [Link to RSVP for Chicago Citizen hangout](https://citizenxtgn2026.eventbrite.ca/)
+- [SailGp](https://sailgp.com/)
+- [The Agency S2](https://www.imdb.com/title/tt26656917/episodes/?season=2)
+- [Autodromo Group C Turbo Sport](https://autodromo.com/products/group-c-turbo-sport)
+- [Explorers Festival](https://www.nationalgeographic.com/related/ffe05051-d242-3c4b-87d5-0ed635253633/explorers-festival)
+- [The Museum of Exploration](https://www.hodinkee.com/articles/a-preview-of-the-national-geographic-museum-of-exploration-and-the-rolex-landing)
+- [Joel Sartore](https://www.joelsartore.com/)
+- [Bertie Gregory](https://www.instagram.com/bertiegregory/)
+- [The Peregrine project](https://www.bertiegregory.com/stills/wild-in-the-city-8byyy)
+- [Bertie’s work with penguins](https://www.nationalgeographic.com/animals/article/explorers-of-the-year-2025-bertie-gregory-pablo-garcia-borboroglu)
+- [Hammerhead Sharks Up Close](https://whatsondisneyplus.com/hammerhead-sharks-up-close-with-bertie-gregory-coming-soon-to-hulu-disney/)
+- [Helinox Chairs](https://helinox.com/collections/all-chairs)
+- [Thomas Peschak](https://www.instagram.com/thomaspeschak/)
+- [The Amazon Expedition](https://newsroom.rolex.com/world-of-rolex/perpetual-planet/national-geographic/national-geographic/news-7/two-year-national-geographic-and-rolex-perpetual-planet-amazon-expedition-concludes)
+- [Thomas’ Seabird story](https://www.nationalgeographic.com/photography/article/guano-island-sea-birds-peschak-animals)
+- [Thomas’ Northern Mozabique National Reserve story](https://www.nationalgeographic.com/premium/article/niassa-reserve-mozambique-conservation-success)
+- [Thomas’ Climate change in the Kalahari Desert story](https://www.nationalgeographic.com/magazine/article/rising-heat-puts-the-kalaharis-ecosystem-on-the-edge-of-survival-feature)
+- [Dreo TurboPoly 512](https://www.dreo.com/products/turbopolyfan-512)
+- [DJI Mic 3](https://www.dji.com/ca/mic-3)
+- [“Get Birding” With Sean Bean (podcast)](https://getbird.ing/)
+
+---
+
+## [The Grey NATO – 380 – There's a New T.Graph In Town](https://thegreynato.substack.com/p/380-tgraph2)
+
+**Published:** June 18, 2026 at 06:00 AM
+
+**Related Links (15):**
+
+- [Windup Chicago](https://www.windupwatchfair.com/chicago)
+- [SailGP Halifax](https://sailgp.com/races/2026/canada-sail-grand-prix-halifax/overview/)
+- ["La Pilota" Tudor story](https://www.hodinkee.com/articles/la-pilota-a-new-tudor-film-tells-the-story-of-a-record-setting-aviator-and-her-watches)
+- [Dr. Peter Millar Doxa Books](https://petemillarbooks.com/)
+- [Jason's T.Graph Sharkhunter](https://www.instagram.com/p/DPwH0XzEeDj/)
+- [James' Doxa Sub 300 Searamber 50th](https://www.instagram.com/p/CcItpeSOYPZ/)
+- [Doxa Sub 200 T.Graph II](https://doxawatches.com/collections/sub-200-t-graph-2)
+- [Jason's history of his T.Graph from 1969](https://www.hodinkee.com/articles/vintage-doxa-t-graph-dive)
+- [Doxa C-Graph II](https://doxawatches.com/collections/sub-200-c-graph-2)
+- [Aquastar Deepstar](https://aquastar.ch/product-category/deepstar/)
+- [Sinn 613](https://www.sinn.de/en/watches/all-watches/613-st.html)
+- [Vulcain Skindiver Chronograph](https://vulcain.ch/products/chronoskindiver-black)
+- [Sabotage At The Bottom Of The Sea](https://www.thetimes.com/magazines/the-sunday-times-magazine/article/how-a-former-model-from-kyiv-blew-up-russias-20bn-gas-pipeline-bnjm0wthc?fbclid=IwY2xjawSc1lVleHRuA2FlbQIxMABzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeV3CsJgqFZASy03VpRNasV5ptF80DmcLGFxRlQJxjensDwRbIvOXEieNapr4_aem_bedgmonktMEPEPdm1RuuqA#Echobox=1781358642)
+- [3D Printed EDC Gear Is Getting Serious (Best Damn EDC, YouTube)](https://www.youtube.com/watch?v=Yt1mO_30bPQ)
+- [Andy Hoffman's coverage of SailGP and Rolex](https://www.hodinkee.com/articles/why-rolex-is-doubling-down-on-race-sponsorship-with-sailgp)
+
+---
+
+## [The Grey NATO – 379 – Slack Crew & A 2026 [Part 1]](https://thegreynato.substack.com/p/379-slack-crew-a-2026-1)
+
+**Published:** June 11, 2026 at 06:00 AM
+
+**Related Links (32):**
+
+- [Windup Chicago](https://www.windupwatchfair.com/chicago)
+- [Weber Spirit 435](https://www.weber.com/US/en/gas/spirit/spirit-e-435-lp-blk/1500782.html)
+- [Camel Trophy RC Land Rover](https://www.amazon.com/dp/B0D2TF4B5R?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
+- [Sinn 144S Jubilee](https://www.ablogtowatch.com/sinn-144-st-s-jubilee-anniversary-limited-edition-watch/)
+- [Hirsch Pure rubber](https://www.hirschstraps.com/collections/pure)
+- [Marathon 3-Piece rubber strap](https://www.marathonwatch.com/collections/rubber-straps/products/3-piece-rubber-strap-kit-blue-parkerized-20mm)
+- [Longines Hydroconquest 39mm, 2026](https://www.longines.com/en-us/p/watch-hydroconquest-l3-779-4-96-6)
+- [Mary Oliver](https://www.poetryfoundation.org/poets/mary-oliver)
+- [Gary Snyder](https://www.poetryfoundation.org/poets/gary-snyder)
+- [Michael Ondaatje](https://www.britannica.com/biography/Michael-Ondaatje)
+- [The Secret History - Donna Tartt](https://www.goodreads.com/book/show/29044.The_Secret_History)
+- [Marty! – Kaveh Akbar](https://www.goodreads.com/book/show/139400713-martyr?from_search=true&from_srp=true&rank=1)
+- [One Man’s Meat - E.B. White](https://www.goodreads.com/book/show/10813.One_Man_s_Meat?from_search=true&from_srp=true&rank=1)
+- [Sea of Tranquility - Emily St. John Mandel](https://www.goodreads.com/book/show/58446227-sea-of-tranquility)
+- [Washington Bullets - Vijay Prashad](https://www.goodreads.com/book/show/54169138-washington-bullets?from_search=true&from_srp=true&rank=1)
+- [Chuck Klosterman](https://www.goodreads.com/search?q=Chuck+Klosterman)
+- [The Quiraing Walk](https://www.isleofskye.com/skye-guide/top-ten-skye-walks/the-quiraing)
+- [Superior Hiking Trail](https://superiorhiking.org/)
+- [The Milford Track, NZ](https://www.ultimatehikes.co.nz/multi-day-guided-walks/milford-track)
+- [Grouse Grind to Crown Mountain](https://www.vancouvertrails.com/trails/crown-mountain/)
+- [Coleman Glacier via Heliotrop Ridge](https://www.alltrails.com/trail/us/washington/coleman-glacier-via-heliotrope-ridge-trail)
+- [Mt. Brunswick](https://www.alltrails.com/trail/canada/british-columbia/brunswick-mountain-trail)
+- [Tour Du Mont Blanc](https://www.autourdumontblanc.com/en/)
+- [The Agency (2024, Paramount)](https://en.wikipedia.org/wiki/The_Agency_(2024_TV_series))
+- [Cry Havoc - Jack Carr](https://www.officialjackcarr.com/books/cry-havoc/)
+- [“The Getaway” - Jim Thompson](https://www.goodreads.com/en/book/show/19161905-the-getaway)
+- [The Diplomat (2023, Netflix)](https://en.wikipedia.org/wiki/The_Diplomat_(American_TV_series))
+- [DTF St. Louis (2026, HBO)](https://www.imdb.com/title/tt34385331/)
+- [“North Woods” – Daniel Mason](https://www.goodreads.com/book/show/71872930-north-woods)
+- [“London Falling” – Patrick Radden Keefe](https://www.goodreads.com/book/show/238226991-london-falling?from_search=true&from_srp=true&rank=1)
+- [“Defender Trophy | North America Final Selections” (Defender, YouTube)](https://www.youtube.com/watch?v=7nQg0sgJyEM)
+- [“Building the Ultimate 4-Season Tiny Shelter” (Silver Cymbal Workshop, YouTube)](https://www.youtube.com/watch?v=xpcXCmg8PE4)
+
+---
+
+## [The Grey NATO – 378 – On Paper/On Wrist: The Delhi Watch Co. DWC Terra ](https://thegreynato.substack.com/p/378-dwc-terra)
+
+**Published:** June 04, 2026 at 06:00 AM
+
+**Related Links (14):**
+
+- [Wind Up Chicago](https://www.windupwatchfair.com/chicago)
+- [Stay Calm Industries](https://www.staycalmindustries.com/)
+- [Paulin Mara Diver](https://www.hodinkee.com/articles/paulin-dives-into-tool-watch-design-with-the-mara)
+- [Delhi Watch Co DWC Terra Ti](https://delhiwatchcompany.com/collections/mens-watches/products/dwc-terra)
+- [Delhi Watch Co](https://delhiwatchcompany.com/)
+- [Seiko Fieldmaster Contra](https://by.seiko-design.com/140th/en/topic/57.html)
+- [Nixon The Key](https://search.brave.com/images?q=nixon+the+key+watch&spellcheck=0&source=alteredQuery)
+- [The Wooden Sky](https://thewoodensky.bandcamp.com/)
+- [Mother Mother](https://music.apple.com/us/artist/mother-mother/215388019)
+- [Said The Whale](http://v)
+- [Paratrooper Strap with Titanium Hardware from Redux Watches](https://reduxwatch.com/products/paratrooper-strap-with-titanium-hardware)
+- [Redux Honnr A-9](https://reduxwatch.com/products/the-honnr-a-9-titanium-mission-watch)
+- [The Ukrainian Stunt Pilot Hunting Russian Drones – The New Yorker](https://www.youtube.com/watch?v=KhypDhI7kU0)
+- [Robert Spangle’s Instagram](http://instagram.com/thousandyardstyle/?hl=en)
+
+---
+
+## [The Grey NATO – 377 – The Watches We Wear The Least](https://thegreynato.substack.com/p/377-the-watches-we-wear-least)
+
+**Published:** May 28, 2026 at 06:00 AM
+
+**Related Links (17):**
+
+- [Wind Up Chicago](https://www.windupwatchfair.com/chicago)
+- [CWC Royal Navy Diver 1995 issued](https://www.instagram.com/p/DG_rB19RokV/)
+- [Tudor Pelagos 39](https://www.instagram.com/p/DMVojHJx1IE/?img_index=1)
+- [Ming Polymesh bracelet](https://www.hodinkee.com/articles/the-ming-polymesh-straight-brings-the-wild-hybrid-strapbracelet-to-more-watches)
+- [Accurton Spaceview](https://www.ebay.com/b/Bulova-Accutron-Spaceview-Gold-Band-Wristwatches/31387/bn_105866020)
+- [Seiko Orange Monster SKX781](https://www.instagram.com/p/C_La07Jxtl_/)
+- [MxPx](https://www.youtube.com/watch?v=KJamzD0KntE)
+- [Orient Red Beast](https://getat.ru/orient-red-beast/)
+- [Citizen NY0040](https://www.fratellowatches.com/citizen-promaster-ny0040-dive-watch/)
+- [Yema Seaspider](https://expertswatches.com/products/nos-yema-seiko-seaspider-professional-kenetic-diver-watch-ym1711-5m42a-box-paper)
+- [Bremont Supermarine S2000](https://www.hodinkee.com/articles/introducing-the-bremont-supermarine-2000)
+- [Doxa Sub 300 Aqua Lung](https://www.hodinkee.com/articles/doxa-sub-300-aqua-lung-edition-introducing)
+- [Halios Tropik Blue](https://www.ablogtowatch.com/halios-tropik-review/)
+- [London Falling” by Patrick Radden Keefe](https://www.goodreads.com/book/show/238226991-london-falling)
+- [“Rendezvous With Rama” - Arthur C. Clarke](https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama)
+- [Blue Lizard Sunscreen](https://bluelizardsunscreen.com/)
+- [“A Fistful of Jade” - Worn & Wound](https://wornandwound.com/a-fistful-of-jade-windup-in-a-bay-2026-with-marathon-prometheus-design-werx/)
+
+---
+
+## [The Grey NATO – 376 – The Royal Pop, Omega's New Bond Chronograph, And Climbing Utah With The Overseas Cardinal Points](https://thegreynato.substack.com/p/376-pop-royal-bond-omega-utah-vc)
+
+**Published:** May 21, 2026 at 06:00 AM
+
+**Related Links (24):**
+
+- [Dynatrap](https://www.dynatrap.com/dynatrap-half-acre-led-mosquito-and-insect-trap-black-dt1130sr)
+- [Mosquito buckets](https://sidewalknature.com/2022/05/08/mosquito-bucket-of-doom/)
+- [Point to LaPointe Lake Superior swim](https://www.lakesuperior.com/lifestyle/recreation/354journal-swimming-the-point-to-la-pointe/)
+- [Wind Up Chicago](https://www.windupwatchfair.com/chicago)
+- [Aquastar Deepstar](https://www.hodinkee.com/articles/aquastar-deepstar-resurfaces-introducing)
+- [Arken Alterum Vancouver Speakeasy](https://www.instagram.com/p/DYfYQwPRgux/)
+- [Arken Alterum Sage Grey](https://kxnlxm.squarespace.com/watches/p/arkenalterum1122)
+- [Swatch x AP Royal Pop](https://www.hodinkee.com/articles/hands-on-swatch-audemars-piguet-royal-pop)
+- [Delhi Watch Company DWC Terra](https://delhiwatchcompany.com/products/dwc-terra)
+- [Hamilton Call of Duty Collab](https://www.hodinkee.com/articles/hamilton-khaki-field-call-of-duty-special-edition)
+- [Omega Caliber 9900 chronograph movement](https://watchbase.com/omega/caliber/9900)
+- [Omega Chronograph in the First Light video game](https://www.youtube.com/watch?v=lZVuWcLeDKc)
+- [Omega Seamaster Chronograph 2599 from the 2000s](https://uhren-miquel.de/Omega-Seamaster-Professional-Diver-Chronograph-Chronometer-Ref.-2599.80.00/FM15067)
+- [N64 GoldenEye 007 Game](https://en.wikipedia.org/wiki/GoldenEye_007)
+- [Vacheron Constantin Overseas Cardinal Points](https://www.hodinkee.com/articles/the-vacheron-constantin-overseas-dual-time-cardinal-points)
+- [Via Ferrata](https://en.wikipedia.org/wiki/Via_ferrata)
+- [Cory Richards on TGN](https://thegreynato.substack.com/p/the-grey-nato-85-a-chat-with-cory)
+- [Arcteryx Ossa sun layer (James has the previous “Sima”)](https://arcteryx.com/ca/en/shop/mens/ossa-1-2-zip-hoody-0275)
+- [“Into Thin Air” - Jon Krakauer, 1997](https://www.goodreads.com/book/show/1898.Into_Thin_Air)
+- [Jon Krakauer on Alex Honnold’s “Climbing Gold” podcast](https://podcasts.apple.com/us/podcast/climbing-gold/id1559139153?i=1000767940588)
+- [Apex (2026, Netflix)](https://www.imdb.com/title/tt16431404/)
+- [Maldives Cave Diving tragedy](https://www.daneurope.org/en/-/maldives)
+- [“Diving Into the Unknown” (2016)](https://www.justwatch.com/ca/movie/diving-into-the-unknown)
+- [“The Pitt” (TV series, 2025-, HBO Max)](https://www.imdb.com/title/tt31938062/)
+
+---
+
+## [The Grey NATO – 375 – A Chat With Kim Frank (Explorer, Author, & Filmmaker)](https://thegreynato.substack.com/p/375-kim-frank)
+
+**Published:** May 14, 2026 at 06:00 AM
+
+**Related Links (19):**
+
+- [Rolex Submariner 14060M](https://www.instagram.com/p/DVrhO31ESOf/)
+- [Bell & Ross BR 03 Type Aviation](https://www.instagram.com/p/DYP3qmUR8TO/)
+- [Brad Homes’ story about BR 03 Type Avia](https://wornandwound.com/review/owners-review-the-bell-ross-br0392-avia-ca/)
+- [Bell & Ross BR 02-92 Diver](https://bellross.com/en/products/br-02-steel?_pos=3&_sid=f979394ea&_ss=r)
+- [Kim Frank’s Website](https://www.kimfrankwriter.com/)
+- [“Elephants in the Hour Glass: A Journey of Reconing and Hope Along the Himalaya.”](https://www.kimfrankwriter.com/post/elephants-in-the-hourglass)
+- [David Concannon on TGN](https://thegreynato.substack.com/p/231davidconcannon)
+- [Rolex Explorer 36](https://www.rolex.com/en-ca/watches/explorer/m124270-0001)
+- [Explorer’s Club Rolex Watch Expeditions](https://www.explorers.org/rolex-watch-expeditions/)
+- [Don Walsh on TGN](https://thegreynato.substack.com/p/242donwalsh)
+- [Asian elephants](https://en.wikipedia.org/wiki/Asian_elephant)
+- [“Where The Forest Roars” (homepage, screenings, more)](https://www.kimfrankwriter.com/forest-roars-documentary)
+- [Toyota Land Cruiser FJ40](https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40))
+- [Goddess traditions connecting to matriarch elephant herds](https://search.brave.com/search?q=Goddess+traditions+connecting+to+matriarch+elephant+herds&source=desktop&summary=1&conversation=0913efcd0411304f773a69a45de723796a6a)
+- [The Boiling River](https://en.wikipedia.org/wiki/Shanay-timpishka)
+- [“He Thinks Netflix Accused Him of Murder. The Courts Disagree” (NYT)](https://www.nytimes.com/2026/05/10/magazine/netflix-diving-libel-case-murder-no-limit.html)
+- [Sector Watches](https://www.sectornolimits.com/en)
+- [Josh Fenn EDC video](https://www.youtube.com/watch?v=BVavF9czzEs)
+- [Olight Oclip Pro S](https://www.olight.com/store/oclip-pro-clip-on-flashlight-floodlight-spotlight-red-light)
 
 ---
 

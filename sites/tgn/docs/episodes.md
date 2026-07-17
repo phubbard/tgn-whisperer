@@ -1,4 +1,14 @@
-### Page updated May 07 2026 08:00 - 384 episodes
+### Page updated Jul 17 2026 07:02 - 394 episodes
+- [The Grey NATO – 384 – Face to Face! Wind Up In A Lake (And A Watch Wound Up On The Bottom!)](384/episode.md) Jul 16 2026
+- [The Grey NATO – 383 – Slack Crew & A 2026 [Part 2]](383/episode.md) Jul 09 2026
+- [The Grey NATO – 382 – SailGP Halifax With Rolex](382/episode.md) Jul 02 2026
+- [The Grey NATO – 381 – Exploring With Rolex, Nat Geo, Bertie Gregory, & Thomas Peschak](381/episode.md) Jun 25 2026
+- [The Grey NATO – 380 – There's a New T.Graph In Town](380/episode.md) Jun 18 2026
+- [The Grey NATO – 379 – Slack Crew & A 2026 [Part 1]](379/episode.md) Jun 11 2026
+- [The Grey NATO – 378 – On Paper/On Wrist: The Delhi Watch Co. DWC Terra](378/episode.md) Jun 04 2026
+- [The Grey NATO – 377 – The Watches We Wear The Least](377/episode.md) May 28 2026
+- [The Grey NATO – 376 – The Royal Pop, Omega's New Bond Chronograph, And Climbing Utah With The Overseas Cardinal Points](376/episode.md) May 21 2026
+- [The Grey NATO – 375 – A Chat With Kim Frank (Explorer, Author, & Filmmaker)](375/episode.md) May 14 2026
 - [The Grey NATO – 374 – Our West Coast Time (Diving, Driving, Wind Up SF, the Vancouver Timepiece Show, & More)](374/episode.md) May 07 2026
 - [The Grey NATO – 373 – From The Bottom Of The Oceans To Outer Space With Victor Vescovo](373/episode.md) Apr 30 2026
 - [The Grey NATO – 372 – Watches And Wonders 2026 Megasode](372/episode.md) Apr 23 2026
