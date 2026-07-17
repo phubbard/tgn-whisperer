@@ -24,7 +24,8 @@ dependencies = [
     "prefect>=3.0",
     "prefect-email",
     "prefect-shell",
-    "pagefind-bin>=1.0",
+    # 1.5.x crashes with SIGABRT on the Raspberry Pi (ARM); 1.4.0 works. Revisit when a fixed release lands.
+    "pagefind-bin>=1.0,<1.5",
 ]
 
 [dependency-groups]
