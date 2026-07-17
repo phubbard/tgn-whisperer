@@ -30,6 +30,16 @@ def test_grey_nato_leaves_urls_and_straps_untouched(text):
 
 
 @pytest.mark.parametrize("raw,expected", [
+    # spoken URL/email/handle forms — correct the "nado" domain to "greynato"
+    ("please visit thegraynado.com for details", "please visit thegreynato.com for details"),
+    ("get the feed from thegreynado.com", "get the feed from thegreynato.com"),
+    ("email thegraynadoatgmail.com", "email thegreynatoatgmail.com"),
+])
+def test_grey_nato_embedded_domain_forms(raw, expected):
+    assert normalize_transcript_text(raw) == expected
+
+
+@pytest.mark.parametrize("raw,expected", [
     ("I read it on Hodinky", "I read it on Hodinkee"),
     ("over at Hodinki radio", "over at Hodinkee radio"),
     ("the Hodinke shop", "the Hodinkee shop"),
