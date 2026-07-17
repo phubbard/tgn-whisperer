@@ -6,6 +6,7 @@ from prefect import task
 from utils.logging import get_logger
 
 from constants import SPEAKER_MAPFILE
+from text_corrections import normalize_transcript_text
 
 
 @task(
@@ -48,7 +49,7 @@ def generate_episode_markdown(
     # Load speaker map and synopsis
     speaker_map = defaultdict(lambda: "Unknown")
     speaker_map.update(json.loads(speaker_map_path.read_text()))
-    synopsis = synopsis_path.read_text()
+    synopsis = normalize_transcript_text(synopsis_path.read_text())
 
     # Load chunked transcript
     whisper_output_path = episode_dir / "whisper-output.json"
@@ -59,7 +60,7 @@ def generate_episode_markdown(
     attributed_chunks = []
     for start_time, speaker_id, text in chunks:
         speaker_name = speaker_map[speaker_id]
-        attributed_chunks.append((start_time, speaker_name, text))
+        attributed_chunks.append((start_time, speaker_name, normalize_transcript_text(text)))
 
     # Generate markdown header
     title = episode_data.get('title', 'Unknown Episode')
