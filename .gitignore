@@ -61,3 +61,8 @@ deployed/
 .env
 .env.local
 app/test_feeds/*_processed.rss
+
+# Generated experiment/analytics outputs (produced by app/*.py utilities)
+gemma_comparison.html
+tgn_analytics.html
+hodinkee_test.rss
