@@ -22,6 +22,7 @@ from tasks.shownotes import (
 )
 from tasks.build import (
     update_episodes_index,
+    update_home_timestamp,
     build_site,
     generate_search_index,
     deploy_site
@@ -185,6 +186,9 @@ def generate_and_deploy_site(podcast: Podcast):
         backfill_episode_shownotes(podcast.name, ep_list)
     else:
         log.warning(f"RSS feed not found for shownotes: {rss_path}")
+
+    # Step 1c: Refresh the "last updated" timestamp on the home page
+    update_home_timestamp(podcast.name)
 
     # Step 2: Build site with zensical
     site_path = build_site(podcast.name)
