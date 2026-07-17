@@ -30,6 +30,12 @@ import re
 _CORRECTIONS = [
     # --- The Grey NATO (show name) — "nado" family only (never a URL) ---
     (re.compile(r"\bgr[ae]y[ \-]?nado\b", re.IGNORECASE), "Grey NATO"),
+    # Embedded one-word forms in spoken URLs/emails/handles, e.g.
+    # "thegraynado.com", "thegreynado.com", "TheGreyNado at gmail" — the real
+    # domain/handle is "greynato". Runs after the prose rule above so standalone
+    # occurrences have already become "Grey NATO". Still URL-safe: "nado" is the
+    # error and never appears in the real "greynato" domain.
+    (re.compile(r"gr[ae]ynado", re.IGNORECASE), "greynato"),
 
     # --- Hodinkee — misspelled forms only (real domain "hodinkee" untouched) ---
     (re.compile(r"\bhodink(?:y|i|e|ey|ie|a)\b", re.IGNORECASE), "Hodinkee"),
