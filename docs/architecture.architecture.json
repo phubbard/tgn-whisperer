@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "TGN Whisperer",
+    "quality_profile": "showcase",
+    "output": "docs/architecture.html",
+    "repository": {
+      "url": "https://github.com/phubbard/tgn-whisperer",
+      "revision": "a70f4f21230c48cf213275c43ea23babada6e568"
+    }
+  },
+  "components": [
+    {
+      "id": "stt",
+      "type": "external",
+      "label": "FluidAudio",
+      "sublabel": "stt.phfactor.net → axiom:5051",
+      "pos": [500, 90],
+      "size": [200, 60]
+    },
+    {
+      "id": "claude",
+      "type": "external",
+      "label": "Anthropic Claude",
+      "sublabel": "messages API",
+      "pos": [790, 90],
+      "size": [170, 60]
+    },
+    {
+      "id": "rss",
+      "type": "external",
+      "label": "Podcast RSS",
+      "sublabel": "TGN · 40&20 · Hodinkee",
+      "pos": [40, 300],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/rss.py" },
+        { "path": "app/rss_processor.py", "label": "episode numbering" }
+      ]
+    },
+    {
+      "id": "prefect",
+      "type": "backend",
+      "label": "Prefect Flows",
+      "sublabel": "main → podcast → episode",
+      "tag": "orchestrator",
+      "pos": [300, 300],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/flows/podcast.py" },
+        { "path": "app/flows/episode.py" }
+      ]
+    },
+    {
+      "id": "transcribe",
+      "type": "backend",
+      "label": "Transcribe",
+      "sublabel": "async submit / poll",
+      "pos": [560, 300],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/transcribe.py" }
+      ]
+    },
+    {
+      "id": "attribute",
+      "type": "backend",
+      "label": "Attribute",
+      "sublabel": "speaker map + synopsis",
+      "pos": [820, 300],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/attribute.py" }
+      ]
+    },
+    {
+      "id": "notify",
+      "type": "external",
+      "label": "Email · ntfy · Slack",
+      "sublabel": "new eps / failures",
+      "pos": [300, 430],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/notifications.py" }
+      ]
+    },
+    {
+      "id": "workdata",
+      "type": "database",
+      "label": "podcasts/ working data",
+      "sublabel": "mp3 · transcripts · maps",
+      "tag": "preserved",
+      "pos": [560, 430],
+      "size": [180, 60]
+    },
+    {
+      "id": "markdown",
+      "type": "backend",
+      "label": "Markdown",
+      "sublabel": "corrections + episode.md",
+      "pos": [820, 560],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/markdown.py" },
+        { "path": "app/text_corrections.py", "label": "vocab fixes" }
+      ]
+    },
+    {
+      "id": "builddeploy",
+      "type": "backend",
+      "label": "Build + Deploy",
+      "sublabel": "zensical · pagefind · rsync",
+      "pos": [560, 560],
+      "size": [160, 60],
+      "sources": [
+        { "path": "app/tasks/build.py" }
+      ]
+    },
+    {
+      "id": "caddy",
+      "type": "cloud",
+      "label": "Caddy Static Host",
+      "sublabel": "*.phfactor.net",
+      "pos": [300, 560],
+      "size": [160, 60]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Mac Studio (axiom)",
+      "wraps": ["stt"]
+    }
+  ],
+  "connections": [
+    { "from": "rss", "to": "prefect", "label": "fetch + number", "variant": "emphasis" },
+    { "from": "prefect", "to": "transcribe", "label": "per episode", "variant": "emphasis" },
+    { "from": "transcribe", "to": "attribute", "label": "diarized text", "variant": "emphasis" },
+    { "from": "attribute", "to": "markdown", "label": "speaker map", "variant": "emphasis", "fromSide": "bottom", "toSide": "top", "labelDy": 115 },
+    { "from": "markdown", "to": "builddeploy", "label": "episode.md", "variant": "emphasis" },
+    { "from": "builddeploy", "to": "caddy", "label": "publish", "variant": "emphasis" },
+    { "from": "transcribe", "to": "stt", "label": "submit / poll", "fromSide": "top", "toSide": "bottom" },
+    { "from": "attribute", "to": "claude", "label": "prompt", "fromSide": "top", "toSide": "bottom" },
+    { "from": "prefect", "to": "notify", "label": "notify", "variant": "dashed", "fromSide": "bottom", "toSide": "top", "labelDy": 50 },
+    { "from": "transcribe", "to": "workdata", "label": "cache", "variant": "dashed", "fromSide": "bottom", "toSide": "top" }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Orchestration",
+      "items": [
+        "Three-level Prefect flows: main → podcast → episode",
+        "Processes incomplete episodes newest-first",
+        "Idempotent: completion keyed on sites/<pod>/docs/<ep>/episode.md"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Transcribe + attribute",
+      "items": [
+        "FluidAudio async submit/poll behind a Caddy proxy (~3.5 min/episode)",
+        "Claude returns <attribution> speaker map + <synopsis> via XML tags",
+        "text_corrections normalizes show vocab (Grey NATO, Hodinkee, brands)"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Build + deploy",
+      "items": [
+        "zensical compiles Markdown → static HTML; pagefind adds search",
+        "rsync deploys to /usr/local/www/<pod>; Caddy serves *.phfactor.net",
+        "Runs on a Raspberry Pi; transcription offloads to a Mac Studio (axiom)"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Preserved data",
+      "items": [
+        "podcasts/ transcripts + speaker-maps are expensive — kept, not regenerated",
+        "tgn_related.jsonl shownotes cache is append-only",
+        "Raw STT stays authentic; corrections applied at render time"
+      ]
+    }
+  ]
+}
