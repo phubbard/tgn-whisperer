@@ -1,8 +1,131 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on July 17, 2026
+Generated on August 28, 2026
 
-**8161 total links from 380 episodes (out of 382 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+**8248 total links from 384 episodes (out of 386 episodes scraped, 2 without any links), averaging 21.5 per episode.**
+
+---
+
+## [The Grey NATO – 388 – New Watches From Omega, Blancpain, Ming, Doxa & More](https://thegreynato.substack.com/p/388-new-watches-august-2026)
+
+**Published:** August 27, 2026 at 06:00 AM
+
+**Related Links (20):**
+
+- [Toronto Timepiece Show](https://www.timepieceshow.com/toronto)
+- [RZE Watches](https://www.rzewatches.com/)
+- [Marathon Watch Company](https://www.marathonwatch.com/)
+- [Fat Head’s Brewing](https://fatheads.com/)
+- [StrapHabit TGN 10 Dazzle Camo Strap](https://straphabit.com/products/tgn-x-straphabit-dazzle-camo-watch-straps?variant=46987884134553)
+- [Stay Calm Industries](https://www.staycalmindustries.com/)
+- [Seiko Monster SKX781](https://www.instagram.com/p/C_La07Jxtl_/)
+- [Elliot Brown Holton GMT](https://elliotbrownwatches.com/products/holton-auto-gmt-101-a21)
+- [Albishorn Marinagraph Classic](https://www.hodinkee.com/articles/the-albishorn-marinagraph-classic)
+- [Blancpain 70th Anniversary Bathscaphe](https://www.hodinkee.com/articles/blancpain-fifty-fathoms-bathyscaphe-70th-anniversary-limited-edition)
+- [Doxa x Belmont Watches Sub 300 Beta “Frogger”](https://www.hodinkee.com/articles/the-doxa-sub-300-beta-frogger-live-pics)
+- [Ming 57.05 Comet Worldtimer](https://www.hodinkee.com/articles/intro-ming-5705-comet)
+- [Early Patek Worldtimers](https://revolutionwatch.com/wp-content/uploads/2021/08/08-Complete-PP-World-Time-Guide.jpg)
+- [Ardra Labs Delta Type](https://www.hodinkee.com/articles/the-ardra-labs-delta-type-offers-a-unique-gmt-display-for-all-time-zones)
+- [Ollech and Wajs Earlybird](https://ow-watch.com/products/ow-early-bird-numered2)
+- [Airnautic Watches](https://ocean7watchco.com/products/airnautic)
+- [Smiths The Lost Diver (Via Finest Hour Timepieces)](https://finest-hour.co.uk/the-smiths-that-never-was-britains-lost-military-diver/)
+- [Omega Speedmaster 38mm](https://www.hodinkee.com/articles/a-new-generation-of-the-omega-speedmaster-38-mm)
+- [Craighill Metrolog Ruler](https://craighill.co/products/metrolog-ruler)
+- [Widow’s Bay  (2026, Apple TV)](https://tv.apple.com/us/show/widows-bay/umc.cmc.1zzly0vah46bnvnwf0qkrjhh2)
+
+---
+
+## [The Grey NATO – 387 – Drafting Good Watches That We Don’t Like](https://thegreynato.substack.com/p/387-drafting-watches-we-dont-like)
+
+**Published:** August 20, 2026 at 06:00 AM
+
+**Related Links (17):**
+
+- [Toronto Timepiece Show](https://www.timepieceshow.com/toronto)
+- [StrapHabit x TGN 10 Dazzle Camo strap](https://straphabit.com/products/tgn-x-straphabit-dazzle-camo-watch-straps?variant=46987884134553)
+- [Listers: A Glimpse Into Extreme Birdwatching (YouTube)](https://www.youtube.com/watch?v=zl-wAqplQAo&t=6989s)
+- [CWC CWN1](https://swimpruf.substack.com/p/so-you-want-to-design-a-watch)
+- [G-Shock 5600](https://www.casio.com/us/watches/gshock/products/type/5600/)
+- [Speed (1994, de Bont)](https://www.imdb.com/title/tt0111257/)
+- [Rolex Explorer](https://www.rolex.com/en-ca/watches/explorer/features)
+- [Matt Bain Photo Report from Miami](https://www.hodinkee.com/articles/watch-shopping-miami-matt-bain-2019)
+- [Breitling Emergency](https://www.breitling.com/ca-en/watches/emergency/)
+- [Grand Seiko UFA Spring Drive Diver](https://www.hodinkee.com/articles/intro-grand-seiko-ufa-divers)
+- [Omega Seamaster 300M](https://www.hodinkee.com/articles/omega-seamaster-professional-300m-diving-review)
+- [Seiko Monster](https://www.60clicks.com/ultimate-seiko-monster-collectors-guide/)
+- [Seiko SNA411](https://www.amazon.ca/Seiko-SNA411-Flight-Alarm-Chronograph/dp/B00068TJM6)
+- [Cartier](https://en.wikipedia.org/wiki/Cartier_(brand))
+- [CX Swiss Military](https://www.ablogtowatch.com/cx-swiss-military-20000-feet-diver-watch-review/)
+- [“Why Americans Pay 170,000 for this British SUV” (WSJ Coveted, YouTube)](https://www.youtube.com/watch?v=SUgkxJ0zIew)
+- [“Biological War, A Scenario” Annie Jacobsen](https://www.goodreads.com/en/book/show/243319478-biological-war)
+
+---
+
+## [The Grey NATO - 386 – Slack Crew & A 2026 [Part 3]](https://thegreynato.substack.com/p/386-slack-crew-a-2026-3)
+
+**Published:** August 13, 2026 at 06:00 AM
+
+**Related Links (34):**
+
+- [Toronto Timepiece Show](https://www.timepieceshow.com/)
+- [Episode with Cole Pennington from Switzerland](https://thegreynato.substack.com/p/365-cole-pennington-4)
+- [Making A Tudor Video (Hodinkee)](https://www.hodinkee.com/articles/making-a-tudor-a-behind-the-scenes-look-from-raw-material-to-finished-product-video)
+- [Jason’s Omega Speedmaster MK3](https://www.instagram.com/p/Dbv6oy0RHjZ/)
+- [Doxa Sub Army 200T for Hodinkee](https://www.instagram.com/p/DbtZ-xaRbvO/)
+- [Bell and Ross Ana-Digi](https://www.instagram.com/p/DYP3qmUR8TO/)
+- [Silfra](https://www.padi.com/dive-site/iceland/silfra/)
+- [Sinn 144S Jubileum](https://www.sinn.de/en/watches/archive/144-st-s-jubilaeum.html)
+- [Blancpain Bathyscaphe 38mm for Hodinkee](https://limited.hodinkee.com/blancpain/)
+- [Porsche 911 Dakar](https://www.the-intercooler.com/library/driven/porsche-911-dakar-review/)
+- [Arctic Trucks Toyota Hilux](https://arctictrucks.com/toyota-hilux-at44/)
+- [Toyota Land Cruiser Series 79](https://www.carcaveusa.com/inventory/toyota/land-cruiser/lc79/)
+- [Freewrite Traveler](https://getfreewrite.com/products/freewrite-traveler)
+- [Other distraction-free writing devices](https://byok.io/best-distraction-free-writing-devices)
+- [Bhan Mi Siagon](https://www.nyctourism.com/restaurants/banh-mi-saigon-bakery/)
+- [Crown and Buckle Matte Supreme](https://www.crownandbuckle.com/matte-supreme-nato-20mm-slate.html)
+- [WOE Straps](https://www.watchesofespionage.com/collections/watch-straps)
+- [Artem Straps](https://artemstraps.com/)
+- [Straphabit](https://straphabit.com/?shop_consented_scopes=email%3Averified+openid+pay%3Asession_token+profile+shop%3Aaccount_uuid&shop_sign_in=true)
+- [Redux straps](https://reduxwatch.com/collections/straps)
+- [Crown and Buckle Chevron](https://www.crownandbuckle.com/straps-by-type/chevron-watch-straps.html)
+- [Marathon 3 Piece Rubber strap](https://www.marathonwatch.com/collections/3-piece-rubber-strap-kit)
+- [Zealande straps](https://zealande.com/)
+- [The Strap Tailor](https://thestraptailor.com/)
+- [Anchor Straps](https://anchorstrapco.com/)
+- [Thermarest NeoAir Xtherm](https://www.rei.com/product/241037/therm-a-rest-neoair-xtherm-nxt-sleeping-pad)
+- [Muyshont Torches](https://shop.muyshondt.net/)
+- [Giant Mouse GMX](https://www.giantmouse.com/products/giantmouse-gmx)
+- [Vollebak Planet Earth Shirt](https://vollebak.com/en-us/products/planet-earth-shirt-2-black-edition?_pos=2&_psq=planet+earth+shir&_psid=dfba9c571&_ss=e)
+- [GoRuck Bullet Dyneema](https://huckberry.com/store/goruck/category/p/82556-bullet-dyneema-backpack-15l)
+- [Fjallraven pants](https://www.fjallraven.com/us/en-us/men/trousers/)
+- [Eva Zu Bek in Sidetracked](https://www.sidetracked.com/fieldjournal/the-wilder-way/)
+- [Eva Zu Bek’s YouTube](https://www.youtube.com/@evazubeck)
+- [Flextail Max Pump 3](https://www.flextail.com/products/max-pump-3)
+
+---
+
+## [The Grey NATO – 385 – Dog Days Of Summer (New Doxa, Big Swims, The Odyssey, & More)](https://thegreynato.substack.com/p/385-summer-chat)
+
+**Published:** August 06, 2026 at 06:00 AM
+
+**Related Links (16):**
+
+- [Toronto Timepiece Show](https://www.timepieceshow.com/toronto)
+- [Sinn 144S Jubileum](https://www.sinn.de/en/144-st-s-jubilaeum.html)
+- [Erika’s originals strap](https://erikasoriginals.com/)
+- [Doxa Sub 200T Army for Hodinkee](https://www.instagram.com/p/Dba9mAgkf5V/?img_index=1)
+- [Annefit strap](https://www.amazon.com/ANNEFIT-Release-Military-Ballistic-Stainless/dp/B0D1TMF6BS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.H5QvNiWfWOjYTGY4APD8d13i6-SIuheeAZ06rRM7qvPi4lp0_PsJbL1Fr9pfLyz0YgubgMHGq7E1q4zB_kr_sOAAWTJyW9idmKxIIFSxmJU.vXJk4t1vwbRRi7OFsB0h9jve7ZrVjPqXvALQu0GMvRw&dib_tag=se&sprefix=alletfit%2B18mm%2Caps%2C131&sr=8-1&th=1)
+- [Point to La Pointe](https://www.bayfieldrec.org/point-to-la-pointe.html)
+- [A. Lange & Söhne](https://www.alange-soehne.com/us-en)
+- [The Semperoper](https://en.wikipedia.org/wiki/Semperoper)
+- [Jason’s Omega Speedmaster MK3](https://www.instagram.com/p/C56E0kQLYFG/?img_index=1)
+- [Garren Fraze Watchmaker](https://www.instagram.com/garrinthewatchmaker/)
+- [The Odyssey](https://www.imdb.com/title/tt33764258/)
+- [The Agency](https://en.wikipedia.org/wiki/The_Agency_(2024_TV_series))
+- [Lioness Season 3](https://www.imdb.com/title/tt13111078)
+- [“His Rolex Submariner Fell In A Lake 30 Years Ago - He’s Still Diving For It” (GQ)](https://www.gq.com/story/search-for-lost-rolex-submariner-tom-place)
+- [Austin Roger’s Instagram](https://www.instagram.com/rehaut/)
+- [“A Rookie’s Guide to Watches” (Speeed, YouTube)](https://www.youtube.com/watch?v=AdJkqGo_9Qk)
 
 ---
 

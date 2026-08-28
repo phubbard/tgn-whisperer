@@ -8,6 +8,8 @@ TGN is an acronym for [The Grey NATO](https://thegreynato.com), a podcast from J
 
 	A loose discussion of travel, adventure, diving, driving, gear and most certainly watches.
 
+_last updated August 28, 2026 at 7:02AM PDT_
+
 ## What is this site?
 _This_ site, 'The Compleat TGN', is an unaffiliated side project, aiming to provide
 
