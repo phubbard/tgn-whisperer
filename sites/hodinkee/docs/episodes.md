@@ -1,4 +1,8 @@
-### Page updated Jul 17 2026 07:26 - 317 episodes
+### Page updated Aug 28 2026 07:18 - 321 episodes
+- [The Business of Watches [037] Former CEO Of Bulgari Jean-Christophe Babin](308/episode.md) Aug 26 2026
+- [The Business of Watch [036] Collective Horology CEO Asher Rapkin And Liberty Justice Center Chairman and CEO Sara Albrecht On Suing Trump Over Tariffs](307/episode.md) Aug 05 2026
+- [The Business of Watches [035] Christie's Remi Guillemin On The Fundamental Shifts In The Auction Market Driving Record Prices](306/episode.md) Jul 29 2026
+- [The Business of Watches [034] Inside Lorier Watches' Acquisition With Lorenzo Ortega And Blake Malin](305/episode.md) Jul 22 2026
 - [The Business of Watches [033] Guido Terreni (Chief Executive Officer, Parmigiani Fleurier)](304/episode.md) Jul 15 2026
 - [The Business of Watches [032] Henrik Ekdahl (Managing Director, Leica Watches, And Accessories)](303/episode.md) Jul 08 2026
 - [The Business of Watches [031] Roy Davidoff (Geneva Vintage Watch Dealer And Collector)](302/episode.md) Jul 01 2026

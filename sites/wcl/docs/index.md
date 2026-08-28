@@ -12,6 +12,8 @@ The [The 40 and 20 podcast](https://watchclicker.com/4020-the-watch-clicker-podc
 	that make them, the people and personalities in the community, as well as other topics 
 	including food, drinks, life, and other things we like. 
 
+_last updated August 28, 2026 at 7:08AM PDT_
+
 ## What is this site?
 
 _This_ site, 'The Compleat 40 and 20', is an unaffiliated side project, aiming to provide

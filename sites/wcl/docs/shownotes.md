@@ -1,8 +1,64 @@
 # 40 and 20 - Show Notes Collection
 
-Generated on July 17, 2026
+Generated on August 28, 2026
 
-**2382 total links from 288 episodes (out of 300 episodes scraped, 12 without any links), averaging 8.3 per episode.**
+**2386 total links from 288 episodes (out of 300 episodes scraped, 12 without any links), averaging 8.3 per episode.**
+
+---
+
+## [Seiko Goes Purple (405)](https://the40and20podcast.podbean.com/e/seiko-goes-purple-405/)
+
+**Published:** August 06, 2026 at 10:18 PM
+
+**Related Links (9):**
+
+- [Baltic Aquascaphe MK2](https://monochrome-watches.com/baltics-aquascaphe-mk2-diver-now-with-date-function-introducing-price/)
+- [F-B100W](https://www.notebookcheck.net/New-affordable-Casio-F-B100W-watches-launch-with-Bluetooth-step-tracking-preorders-live.1357243.0.html)
+- [Christopher Ward Trident 30x30](https://timeandtidewatches.com/christopher-ward-trident-30x30-introducing/)
+- [Sicura Hexa 400](https://monochrome-watches.com/sicura-hexa-400-dive-watch-marks-the-return-of-a-forgotten-swiss-tool-watch-name-review-price/)
+- [Seiko Prospex Golden Hour](https://timeandtidewatches.com/seiko-prospex-hbb003k-hbb004k-introducing/)
+- [Six new Edo Seiko](https://monochrome-watches.com/seiko-145-years-edo-purple-collection-alpinist-hbc006-presage-cocktail-hcb006-seiko-5-sports-skx-hdb003-introducing-price/)
+- [Seiko X Honda Motocompo](https://monochrome-watches.com/seiko-5-sports-x-honda-motocompo-45th-anniversary-hdb010-limited-edition-introducing-price/)
+- [Lodge 5.5qt Cast Iron Dutch Oven](https://www.lodgecastiron.com/collections/dutch-ovens)
+- [Brand New Day](https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day)
+
+---
+
+## [Our First Look at the New Lorier (404)](https://the40and20podcast.podbean.com/e/our-first-look-at-the-new-lorier-404/)
+
+**Published:** July 29, 2026 at 10:45 PM
+
+**Related Links (9):**
+
+- [Hanhart Aquasphere Dive Watch](https://monochrome-watches.com/introducing-hanhart-aquasphere-dive-watch-now-in-matte-black-price/)
+- [Seiko 5 Sports Field GMT](https://revolutionwatch.com/the-new-seiko-5-sports-field-gmt-offers-the-perfect-mix-of-charm-and-function/)
+- [Lorier FOUR RELEASES](https://wornandwound.com/lorier-re-introduces-four-of-their-classics-the-neptune-hyperion-astra-and-falcon/)
+- [Hanhart Square by Square](https://monochrome-watches.com/hanhart-square-by-square-shaped-watch-introducing-price/)
+- [Citizen Tsuyosa Shore Time Slip](https://wornandwound.com/citizen-introduces-the-tsuyosa-shore-time-slip-limited-edition/)
+- [Union Glashutte Averin Sachsen Classic 2026](https://monochrome-watches.com/union-glashutte-averin-chronograph-limited-edition-sachsen-classic-2026-introducing-price/)
+- [NOMOS Glashutte Tetra 27](https://monochrome-watches.com/2026-nomos-tetra-27-white-and-tetra-27-duo-hand-wound-introducing-price/)
+- [Opinel Set Le Petit Chef](https://www.opinel-usa.com/collections/kids-chef-knives/products/opinel-le-petit-chef-set)
+- [Brother PTD210 Label maker](https://www.brother-usa.com/p/PTD210?srsltid=AfmBOoq5n1BwzqYwmZPVkWheuL4wkstZ8bBOUaU_GKSPqUfu_Ga9Mrgl&pid=PTD210)
+
+---
+
+## [Hamilton and Yema Flex with Subtlety (403)](https://the40and20podcast.podbean.com/e/hamilton-and-yema-flex-with-subtlety-403/)
+
+**Published:** July 29, 2026 at 10:02 PM
+
+**Related Links (11):**
+
+- [Worn & Wound has Acquired Lorier](https://www.hodinkee.com/articles/lorier-watches-co-founder-and-creative-director-lorenzo-ortega-and-worn-and-wound-co-founder-and-ceo)
+- [Rolex Datejust Update](https://monochrome-watches.com/rolex-quietly-updates-the-datejust-41-and-36-in-2026-with-new-roman-numeral-dials/)
+- [Orient Stretto Date and Day & Night](https://monochrome-watches.com/orient-stretto-date-and-day-night-collections-expand-with-ten-new-colourful-models-2026-introducing-price/)
+- [Praesidus A-11 US Army](https://praesidus.com/products/a-11-u-s-army-matte-black-automatic?srsltid=AfmBOooaPiEPBi4tdWfgmNSkGyvNdXuvuUKxumAgAISrZAakzqVHnCV-)
+- [Vaer G2 Fairway GMT](https://www.vaerwatches.com/products/g2-fairway-gmt-39mm-usa-golf-watch?srsltid=AfmBOopt8lULT_Wf2gtGR7d9jG720Jt1kotH8IpEUXZPZrCWnXEomYoq)
+- [Yema French Air Force](https://www.gearpatrol.com/watches/yema-flygraf-pilot-french-air-force/)
+- [Khaki Field Power Reserve 40mm](https://monochrome-watches.com/new-green-and-blue-dials-for-the-hamilton-khaki-field-power-reserve-40mm-introducing-price/)
+- [Twelve Pic’n’Mix](https://timeandtidewatches.com/christopher-ward-twelve-36-pick-n-mix-introducing/)
+- [Wusthof Brushed Stainless Kitchen Shears](https://wusthof.com/products/stainless-kitchen-shears)
+- [Magnolia USA Dust Pan Counter Brush,](https://www.harryepstein.com/products/magnolia-usa-dust-pan-counter-brush-58?srsltid=AfmBOoqEubuTGx6mCwmmT0_LsrMi3ZEjvp3YNw6CarUzAbhBRCW96nv7)
+- [Genuine Joe Heavy Duty Black Metal Dustpan](https://a.co/d/0ccs2w7I)
 
 ---
 
@@ -4997,57 +5053,5 @@ Generated on July 17, 2026
 - [https://www.amazon.com/Goodthreads-Slim-Fit-Washed-Stretch-Chino/dp/B07K55G9YF/ref=sr_1_1_sspa?dchild=1&keywords=goodthreads+chinos&qid=1605765114&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFSMkFRMjAyWllBUksmZW5jcnlwdGVkSWQ9QTAxNjU3ODVITEJFWlRRR0VESiZlbmNyeXB0ZWRBZElkPUEwMjc1NjI1Mk8zUUs1QVVRUFg2RSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=](https://www.amazon.com/Goodthreads-Slim-Fit-Washed-Stretch-Chino/dp/B07K55G9YF/ref=sr_1_1_sspa?dchild=1&keywords=goodthreads+chinos&qid=1605765114&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFSMkFRMjAyWllBUksmZW5jcnlwdGVkSWQ9QTAxNjU3ODVITEJFWlRRR0VESiZlbmNyeXB0ZWRBZElkPUEwMjc1NjI1Mk8zUUs1QVVRUFg2RSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 - [https://www.firstlite.com/collections/mens-jackets-and-insulation/products/mens-uncompahgre-2-0-puffy-jacket](https://www.firstlite.com/collections/mens-jackets-and-insulation/products/mens-uncompahgre-2-0-puffy-jacket)
 - [http://pilotpen.us/categories/frixion-erasable-ink-pens/](http://pilotpen.us/categories/frixion-erasable-ink-pens/)
-
----
-
-## [Episode 107 - 2020 (Slightly Early) Year in Review](https://the40and20podcast.podbean.com/e/episode-107-2020-slightly-early-year-in-review/)
-
-**Published:** November 11, 2020 at 10:19 PM
-
-**Related Links (13):**
-
-- [https://www.traskawatch.com/summiteer](https://www.traskawatch.com/summiteer)
-- [https://www.lorierwatches.com/products/falcon-sii-black-gilt](https://www.lorierwatches.com/products/falcon-sii-black-gilt)
-- [https://www.brew-watches.com/watches/retromatic-brew-burgundy](https://www.brew-watches.com/watches/retromatic-brew-burgundy)
-- [https://orionwatch.com/hellcat](https://orionwatch.com/hellcat)
-- [https://www.noduswatches.com/sector-field](https://www.noduswatches.com/sector-field)
-- [https://www.seikowatches.com/us-en/products/5sports/srpe55](https://www.seikowatches.com/us-en/products/5sports/srpe55)
-- [https://www.albanywatches.com/](https://www.albanywatches.com/)
-- [https://solaswatches.com/](https://solaswatches.com/)
-- [https://www.lorierwatches.com/products/hydra-sii-blue-silver](https://www.lorierwatches.com/products/hydra-sii-blue-silver)
-- [https://montawatch.com/products/monta-noble-silver-dial](https://montawatch.com/products/monta-noble-silver-dial)
-- [https://www.longislandwatch.com/Islander_38mm_Automatic_Dive_Watch_p/isl-49.htm](https://www.longislandwatch.com/Islander_38mm_Automatic_Dive_Watch_p/isl-49.htm)
-- [https://astorandbanks.com/products/fortitude/](https://astorandbanks.com/products/fortitude/)
-- [https://drydenwatchco.com/pages/dryden-pathfinder-automatic-diver-collection](https://drydenwatchco.com/pages/dryden-pathfinder-automatic-diver-collection)
-
----
-
-## [Episode 106 - Talking Retromatic with Jonathan Ferrer of Brew Watch Co.](https://the40and20podcast.podbean.com/e/episode-106-talking-retromatic-with-jonathan-ferrer-of-brew-watch-co/)
-
-**Published:** November 04, 2020 at 09:08 PM
-
-**Related Links (1):**
-
-- [https://www.brew-watches.com/watches](https://www.brew-watches.com/watches)
-
----
-
-## [Episode 105 - Revisiting the Starter Watch](https://the40and20podcast.podbean.com/e/revisiting-the-starter-watch/)
-
-**Published:** October 28, 2020 at 10:21 PM
-
-**Related Links (11):**
-
-- [https://www.noduswatches.com/](https://www.noduswatches.com/)
-- [https://montawatch.com/](https://montawatch.com/)
-- [https://baltic-watches.com/en](https://baltic-watches.com/en)
-- [https://emgwatches.com/](https://emgwatches.com/)
-- [https://www.goodspeedwatches.com/](https://www.goodspeedwatches.com/)
-- [https://www.tissotwatches.com/en-us/](https://www.tissotwatches.com/en-us/)
-- [https://seikousa.com/](https://seikousa.com/)
-- [https://www.citizenwatch.com/](https://www.citizenwatch.com/)
-- [https://www.amazon.com/ACCENT-FLAVOR-SEASONING-NATURAL-ENHANCER/dp/B007HACDBA](https://www.amazon.com/ACCENT-FLAVOR-SEASONING-NATURAL-ENHANCER/dp/B007HACDBA)
-- [https://www.healthline.com/nutrition/msg-good-or-bad](https://www.healthline.com/nutrition/msg-good-or-bad)
-- [https://secretaardvark.com/](https://secretaardvark.com/)
 
 ---

@@ -1,4 +1,7 @@
-### Page updated Jul 17 2026 07:16 - 300 episodes
+### Page updated Aug 28 2026 07:08 - 300 episodes
+- [Seiko Goes Purple (405)](411/episode.md) Aug 06 2026
+- [Our First Look at the New Lorier (404)](410/episode.md) Jul 29 2026
+- [Hamilton and Yema Flex with Subtlety (403)](409/episode.md) Jul 29 2026
 - [Omega: We Take it Back (402)](408/episode.md) Jul 16 2026
 - [Seiko Has a Good Week (401)](407/episode.md) Jul 16 2026
 - [The 400th Episode (400)](406/episode.md) Jul 01 2026
@@ -296,6 +299,3 @@
 - [Episode 110 - Christmas Lists!](113/episode.md) Dec 02 2020
 - [Episode 109 - Lauren and Lorenzo Ortega of Lorier (Part 2)](112/episode.md) Nov 26 2020
 - [Episode 108 - Interview with Vishal Tolani of Dartmouth Brands (Avi-8, Spinnaker, etc).](111/episode.md) Nov 18 2020
-- [Episode 107 - 2020 (Slightly Early) Year in Review](110/episode.md) Nov 11 2020
-- [Episode 106 - Talking Retromatic with Jonathan Ferrer of Brew Watch Co.](109/episode.md) Nov 04 2020
-- [Episode 105 - Revisiting the Starter Watch](108/episode.md) Oct 28 2020

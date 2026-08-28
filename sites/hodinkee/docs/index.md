@@ -7,6 +7,8 @@
 Hodinkee is a commerical site centered on wristwatch journalism. They have a podcast of the same name, 
 [here on Apple Podcasts](https://podcasts.apple.com/us/podcast/hodinkee-podcasts/id1412458259). 
 
+_last updated August 28, 2026 at 7:18AM PDT_
+
 ## What is this site?
 _This_ site, 'The Compleat Hodinkee', is an unaffiliated side project, aiming to provide
 

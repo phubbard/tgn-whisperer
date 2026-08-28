@@ -1,4 +1,8 @@
-### Page updated Jul 17 2026 07:02 - 394 episodes
+### Page updated Aug 28 2026 07:02 - 398 episodes
+- [The Grey NATO – 388 – New Watches From Omega, Blancpain, Ming, Doxa & More](388/episode.md) Aug 27 2026
+- [The Grey NATO – 387 – Drafting Good Watches That We Don’t Like](387/episode.md) Aug 20 2026
+- [The Grey NATO - 386 – Slack Crew & A 2026 [Part 3]](386/episode.md) Aug 13 2026
+- [The Grey NATO – 385 – Dog Days Of Summer (New Doxa, Big Swims, The Odyssey, & More)](385/episode.md) Aug 06 2026
 - [The Grey NATO – 384 – Face to Face! Wind Up In A Lake (And A Watch Wound Up On The Bottom!)](384/episode.md) Jul 16 2026
 - [The Grey NATO – 383 – Slack Crew & A 2026 [Part 2]](383/episode.md) Jul 09 2026
 - [The Grey NATO – 382 – SailGP Halifax With Rolex](382/episode.md) Jul 02 2026
