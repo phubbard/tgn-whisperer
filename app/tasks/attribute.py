@@ -50,6 +50,7 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
     response = client.messages.create(
         max_tokens=CLAUDE_MAX_TOKENS,
         system=ATTRIBUTION_PROMPT,
+        output_config={"effort": "low"},
         messages=[
             {
                 "role": "user",
@@ -61,7 +62,14 @@ def _call_claude(client: Anthropic, text: str) -> tuple[dict, str]:
 
     log.debug(f"Claude model: {response.model}")
 
-    result_text = response.content[0].text
+    if response.stop_reason == "refusal":
+        cat = getattr(response.stop_details, "category", None)
+        log.error(f"Attribution refused by model (category={cat})")
+        return defaultdict(lambda: "Unknown"), "Synopsis not available."
+
+    # Read by block type: Claude Sonnet 5.5+ has thinking on by default and may
+    # return thinking block(s) before the text block, so content[0] is not safe.
+    result_text = next((b.text for b in response.content if b.type == "text"), "")
 
     # Parse speaker map from <attribution> tags
     attr_match = re.search(r'<attribution>\s*(\{.*?\})\s*</attribution>', result_text, re.DOTALL)
