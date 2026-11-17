@@ -1,6 +1,6 @@
 # The Grey NATO - Show Notes Collection
 
-Generated on August 28, 2026
+Generated on November 16, 2026
 
 **8248 total links from 384 episodes (out of 386 episodes scraped, 2 without any links), averaging 21.5 per episode.**
 
@@ -5718,7 +5718,7 @@ Generated on August 28, 2026
 
 - [The Worn And Wound Podcast](https://wornandwound.com/podcast/)
 - [Citizen JP 2007-17W Lume Dial](https://www.citizenwatches.com.au/products/jp2007-17w)
-- [@submersiblewrist](https://www.instagram.com/submersiblewrist/)
+- [@submersiblewrist (Instagram)](https://www.instagram.com/submersiblewrist/)
 - [Ben Lowry’s story about commercial diving](https://www.hodinkee.com/articles/a-commercial-diver-confronts-the-realities-of-the-professional-dive-watch)
 - [Chris Sohl](https://www.instagram.com/sohl/)
 - [Chris Scott](https://www.instagram.com/chrispscott/)
@@ -8762,7 +8762,7 @@ Generated on August 28, 2026
 **Related Links (35):**
 
 - [Lamborghini Urus](https://www.lamborghini.com/en-en/models/urus)
-- [@powerslidelover](https://www.instagram.com/powerslidelover/)
+- [@powerslidelover (Instagram)](https://www.instagram.com/powerslidelover/)
 - [Bentley Continental GT](https://www.bentleymotors.com/en/models/continental-gt.html)
 - [Concorso D’Eleganza (a car show)](https://concorsodeleganzavilladeste.com/)
 - [Jason in Bonaire](https://www.instagram.com/p/BiFlLqwAIXE/?taken-by=jasonheaton)
@@ -8918,9 +8918,9 @@ Generated on August 28, 2026
 - [Jason’s piece from Breitling in NYC](https://www.hodinkee.com/articles/breitling-navitimer-8-b01-chronograph-hands-on)
 - [James’ piece from Breitling in NYC](https://nuvomagazine.com/daily-edit/breitlings-new-navitimer-8)
 - [watchfred](https://soundcloud.com/watchfred)
-- [@ watchfred](https://www.instagram.com/watchfred/)
+- [@watchfred (Instagram)](https://www.instagram.com/watchfred/)
 - [mikeinfrankfurt](https://soundcloud.com/mikeinfrankfurt)
-- [@ mikeinfrankfurt](https://www.instagram.com/mikeinfrankfurt/?hl=en)
+- [@mikeinfrankfurt (Instagram)](https://www.instagram.com/mikeinfrankfurt/?hl=en)
 - [New from Bremont](https://www.bremont.com/collections/new-releases)
 - [Hamilton Khaki Mechanical 38mm](https://bit.ly/2oOBsMJ)
 - [“Endurance: A Year in Space, A Lifetime of Discovery” by Scott Kelly](https://www.amazon.com/Endurance-Year-Space-Lifetime-Discovery-ebook/dp/B01EE0FCEK)
@@ -8940,7 +8940,7 @@ Generated on August 28, 2026
 - [Amy Shore’s instagram](https://www.instagram.com/amyshorephotography/?hl=en)
 - [Jason’s Land Rover Wheel Swap](https://www.instagram.com/p/BfWOicHAqBd/?taken-by=jasonheaton)
 - [Roverhaven](https://soundcloud.com/Roverhaven)
-- [@ Roverhaven](https://www.instagram.com/roverhaven/)
+- [@Roverhaven (Instagram)](https://www.instagram.com/roverhaven/)
 - [Lappis Tires](https://fbregionen-se.translate.goog/lena-kansbod/lappi-winter-tyres__5960?_x_tr_sch=http&_x_tr_sl=sv&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 - [James’ new Doxa SUB300 50th Anni Searambler](https://www.instagram.com/p/BfPqKBQH9Yl/?taken-by=jestacey)
 - [Jason’s Pinion Atom review](https://www.hodinkee.com/articles/pinion-atom-value-proposition)
@@ -9218,7 +9218,7 @@ Generated on August 28, 2026
 - [Panerai Luminor Submersible 42mm PAM682](https://www.panerai.com/en/collections/watch-collection/luminor.html)
 - [Panerai Quick Change Springbar](https://www.youtube.com/watch?v=Xcv2AKTWWFU)
 - [Agedpatina](https://soundcloud.com/Agedpatina)
-- [@ Agedpatina](https://www.instagram.com/agedpatina/)
+- [@Agedpatina (Instagram)](https://www.instagram.com/agedpatina/)
 - [The “Lawnmower Bezel” Speedy](https://www.instagram.com/p/BZ818SvnZv8/?taken-by=jestacey)
 - [Mission Blue on Netflix](https://www.youtube.com/watch?v=B1wp2MQCsfQ)
 - [Peak Design Slide Lite strap](https://www.peakdesign.com/product/straps/slidelite)
@@ -9402,7 +9402,7 @@ Generated on August 28, 2026
 - [Rubber Nato](https://www.watchgecko.com/products/tidalpass-british-military-fkm-rubber-watch-strap-black)
 - [Hadley Roma Cordura](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2ttxkHg&token=ccb2c9-1-1620755641634)
 - [sixtyclicks](https://soundcloud.com/sixtyclicks)
-- [@ sixtyclicks](https://www.instagram.com/sixtyclicks/)
+- [@sixtyclicks (Instagram)](https://www.instagram.com/sixtyclicks/)
 - [nichols](https://soundcloud.com/nichols)
 - [The Little-Known Soviet Mission to Rescue A Dead Space Station (via @ nichols .ken)](https://arstechnica.com/science/2014/09/the-little-known-soviet-mission-to-rescue-a-dead-space-station/)
 - [Full Timed Shootout from Goodwood](https://www.youtube.com/watch?v=cKoIPEhF7sQ)
@@ -9751,10 +9751,10 @@ Generated on August 28, 2026
 - [America’s Cup AC35](https://www.bremont.com/)
 - [America’s Cup AC-R-II](https://www.bremont.com/)
 - [Solo 32 RG](https://www.bremont.com/)
-- [@](https://soundcloud.com/Redbarcrew)
-- [@ Redbarcrew](https://www.instagram.com/redbarcrew/)
-- [@](https://soundcloud.com/the_watchnerd)
-- [@ the_watchnerd](https://www.instagram.com/the_watchnerd/)
+- [@Redbarcrew (SoundCloud)](https://soundcloud.com/Redbarcrew)
+- [@Redbarcrew (Instagram)](https://www.instagram.com/redbarcrew/)
+- [@the_watchnerd (SoundCloud)](https://soundcloud.com/the_watchnerd)
+- [@the_watchnerd (Instagram)](https://www.instagram.com/the_watchnerd/)
 - [Seiko Quartz Chrono from Harrier Pilot](https://www.instagram.com/p/BRJznvpjK1Y/?taken-by=jasonheaton)
 - [Rolex Sea-Dweller Great White](https://www.instagram.com/p/BRJksLBDFXL/?taken-by=jestacey)
 - [Ben Saunders](https://bensaunders.com/)
@@ -9883,7 +9883,7 @@ Generated on August 28, 2026
 - [Blue Water, White Death](https://www.dailymotion.com/video/x3uh654?GK_FACEBOOK_OG_HTML5=1)
 - [Clickspring Channel](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA)
 - [onehourwatch](https://soundcloud.com/onehourwatch)
-- [@ onehourwatch](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2gMIiwr&token=8762bb-1-1620754831628)
+- [@onehourwatch](https://gate.sc/?url=http%3A%2F%2Fbit.ly%2F2gMIiwr&token=8762bb-1-1620754831628)
 - [Six Daily Exercises to Boost Mobility and Balance](https://www.outsideonline.com/health/training-performance/six-daily-exercises-boost-mobility-and-balance/?scope=anon)
 - ["Shepard”](https://www.youtube.com/watch?v=j2_bLEqmBi0)
 
@@ -10441,7 +10441,7 @@ Generated on August 28, 2026
 - [Jason’s Sportsways Mariner Diver](https://www.instagram.com/p/BEwEfldH6uq/?taken-by=jasonheaton)
 - [Erica’s Originals Nageur de Combat straps via Jason](https://www.instagram.com/p/BE8eGBBn6t1/?taken-by=jasonheaton)
 - [the_watchnerd](https://soundcloud.com/the_watchnerd)
-- [@ the_watchnerd](https://twitter.com/the_watchnerd)
+- [@the_watchnerd (Twitter)](https://twitter.com/the_watchnerd)
 - [Nageur de Combat straps](https://www.instagram.com/p/BEuoKmqSXX3/?taken-by=jestacey)
 - [Source for the strap James mentioned](https://bit.ly/1YgXSAs)
 - [JLC Boutique opening](http://www.ablogtowatch.com/jaeger-lecoultre-boutiques-open-vancouver-toronto/)

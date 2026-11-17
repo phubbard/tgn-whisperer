@@ -11,6 +11,7 @@ from utils.logging import get_logger
 from related_links_collector.extract_rss_urls import extract_urls_from_rss
 from related_links_collector.scrape import run as scrape_run
 from related_links_collector.generate_markdown import generate_markdown
+from related_links_collector.utils import clean_handle_text
 
 
 @task(
@@ -368,7 +369,7 @@ def _get_tgn_episode_shownotes(episode_entry: dict, log) -> list[dict]:
                         text = context if context else href
 
                     if text and href:
-                        links.append({'text': text, 'url': href})
+                        links.append({'text': clean_handle_text(text, href), 'url': href})
                     elif href:
                         links.append({'text': href, 'url': href})
                 return links
