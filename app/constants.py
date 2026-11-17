@@ -29,8 +29,11 @@ TRANSCRIPTION_API_BASE_URL = getenv('TRANSCRIPTION_API_BASE_URL', 'http://stt.ph
 DEPLOY_BASE_PATH = getenv('DEPLOY_BASE_PATH', '/usr/local/www')
 
 # Claude/Anthropic Configuration
-CLAUDE_MODEL = getenv('CLAUDE_MODEL', 'claude-sonnet-4-5')
-CLAUDE_MAX_TOKENS = int(getenv('CLAUDE_MAX_TOKENS', '2000'))
+CLAUDE_MODEL = getenv('CLAUDE_MODEL', 'claude-sonnet-5-5')
+# Sonnet 5.5 has thinking on by default; thinking tokens count toward max_tokens,
+# so this is larger than the pre-5.5 value (2000) to leave room for the attribution
+# JSON + synopsis without truncation. Effort is set to "low" at the call site.
+CLAUDE_MAX_TOKENS = int(getenv('CLAUDE_MAX_TOKENS', '8000'))
 
 # Default URLs
 DEFAULT_PODCAST_URL = getenv('DEFAULT_PODCAST_URL', 'https://thegreynato.com/')

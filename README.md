@@ -157,7 +157,7 @@ The workflow processes podcasts through these stages:
 2. Check for new/incomplete episodes and send notifications
 3. Download MP3 files (`app/tasks/download.py`)
 4. Call Fluid Audio backend for transcription and diarization (`app/tasks/transcribe.py`) via async submit/poll [API](openapi.yaml)
-5. Speaker attribution via Claude Sonnet 4.5 API (`app/tasks/attribute.py`)
+5. Speaker attribution via Claude Sonnet 5.5 API (`app/tasks/attribute.py`)
 6. Export text into markdown files (`app/tasks/markdown.py`)
 7. Generate shownotes (`app/tasks/shownotes.py`):
    - **TGN**: Scrape related links from Substack episode pages
