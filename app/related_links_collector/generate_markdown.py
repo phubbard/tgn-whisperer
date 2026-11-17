@@ -5,6 +5,8 @@ from datetime import datetime
 from typing import Optional
 import logging
 
+from .utils import clean_handle_text
+
 
 def parse_rss_episodes(rss_path: str) -> dict:
     """Parse RSS feed and extract episode metadata."""
@@ -117,6 +119,7 @@ def generate_markdown(rss_path: str, jsonl_path: str, output_path: str,
                                 text = href
                         
                         if text and href:
+                            text = clean_handle_text(text, href)
                             out.write(f'- [{text}]({href})\n')
                         elif href:
                             out.write(f'- {href}\n')
